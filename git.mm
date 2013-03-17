@@ -186,7 +186,7 @@
 </node>
 </node>
 <node CREATED="1345625617932" ID="ID_578884494" MODIFIED="1345625635075" TEXT="normal workflow">
-<node CREATED="1345625636880" ID="ID_900142384" MODIFIED="1345625815836" TEXT="git add ">
+<node CREATED="1345625636880" ID="ID_900142384" MODIFIED="1363536342798" TEXT="git add ">
 <icon BUILTIN="full-1"/>
 <node CREATED="1345625831896" ID="ID_1861550549" MODIFIED="1345625831896" TEXT="Modify some files, then add their updated contents to the index"/>
 <node CREATED="1345625835431" ID="ID_1383482197" MODIFIED="1345639718898" TEXT="$ git add file1 file2 ...">
@@ -195,7 +195,7 @@
 <node CREATED="1345625889532" ID="ID_51498764" MODIFIED="1345639718898" TEXT="$ git add *.cpp">
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
-<node CREATED="1345625853451" FOLDED="true" ID="ID_995495614" MODIFIED="1345639718898" TEXT="$ git add .">
+<node CREATED="1345625853451" ID="ID_995495614" MODIFIED="1363536347958" TEXT="$ git add .">
 <font BOLD="true" ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1345625861522" ID="ID_902659639" MODIFIED="1345625882162" TEXT="add all files in work dir"/>
 </node>
@@ -236,7 +236,7 @@
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1345626449081" ID="ID_589244646" MODIFIED="1345626457323" TEXT="git commit">
+<node CREATED="1345626449081" FOLDED="true" ID="ID_589244646" MODIFIED="1363536363304" TEXT="git commit">
 <icon BUILTIN="full-3"/>
 <node CREATED="1345626506072" ID="ID_1888630316" MODIFIED="1345639718899" TEXT="$ git commit">
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
