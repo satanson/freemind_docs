@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1338637055049" ID="ID_143495120" MODIFIED="1358665424125" TEXT="APUE">
-<node CREATED="1338637081000" ID="ID_640748604" MODIFIED="1358935031370" POSITION="right" TEXT="unbuffered IO (POSIX)">
+<node CREATED="1338637055049" ID="ID_143495120" MODIFIED="1363223684895" TEXT="APUE">
+<node CREATED="1338637081000" FOLDED="true" ID="ID_640748604" MODIFIED="1363223776775" POSITION="right" TEXT="unbuffered IO (POSIX)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338638811768" ID="ID_1420511453" MODIFIED="1338638947315" TEXT="header">
 <node CREATED="1338637134048" ID="ID_418835484" MODIFIED="1341892737423" TEXT="&lt;unistd.h&gt;">
@@ -27,14 +27,25 @@
 <node CREATED="1338638290583" ID="ID_624769379" MODIFIED="1338638299982" TEXT="O_WRONLY"/>
 <node CREATED="1338638303687" ID="ID_886016896" MODIFIED="1338638307838" TEXT="O_RDWR"/>
 </node>
-<node CREATED="1338638403470" ID="ID_963865183" MODIFIED="1338638406570" TEXT="optional">
+<node CREATED="1338638403470" ID="ID_963865183" MODIFIED="1363191123468" TEXT="optional">
 <node CREATED="1338638419932" ID="ID_487678898" MODIFIED="1338638435166" TEXT="O_APPEND"/>
 <node CREATED="1338638435587" ID="ID_179847820" MODIFIED="1338638438939" TEXT="O_CREAT"/>
-<node CREATED="1338638439286" ID="ID_1400112512" MODIFIED="1338638456591" TEXT="O_EXCL"/>
 <node CREATED="1338638467715" ID="ID_86886944" MODIFIED="1338638475884" TEXT="O_TRUNC"/>
-<node CREATED="1338638486970" ID="ID_1683581176" MODIFIED="1338638490564" TEXT="O_SYNC"/>
-<node CREATED="1338638504692" ID="ID_1454998514" MODIFIED="1338638510580" TEXT="O_NOCTTY"/>
-<node CREATED="1338638510975" ID="ID_614933203" MODIFIED="1338638527997" TEXT="O_NONBLOCK"/>
+<node CREATED="1338638439286" ID="ID_1400112512" MODIFIED="1338638456591" TEXT="O_EXCL"/>
+<node CREATED="1338638486970" FOLDED="true" ID="ID_1683581176" MODIFIED="1363191126468" TEXT="O_SYNC">
+<node CREATED="1363190287716" ID="ID_1660992136" MODIFIED="1363190733761" TEXT="Have each write wait for physical I/O to complete. "/>
+<node CREATED="1363190735982" ID="ID_1449205080" MODIFIED="1363190853591" TEXT="This causes  each write to wait for the data fo be written to disk before returning. "/>
+<node CREATED="1363190858636" ID="ID_1201951453" MODIFIED="1363190955830" TEXT="in other case,copy new data into buffer cache."/>
+</node>
+<node CREATED="1363190552665" FOLDED="true" ID="ID_734397012" MODIFIED="1363191127475" TEXT="O_ASYNC">
+<node CREATED="1363190991507" ID="ID_1975900493" MODIFIED="1363191005931" TEXT="asynchronized IO"/>
+</node>
+<node CREATED="1338638504692" FOLDED="true" ID="ID_1454998514" MODIFIED="1363191128529" TEXT="O_NOCTTY">
+<node CREATED="1363190248943" ID="ID_1119359052" MODIFIED="1363190272312" TEXT="not controling terminal"/>
+</node>
+<node CREATED="1338638510975" FOLDED="true" ID="ID_614933203" MODIFIED="1363191129428" TEXT="O_NONBLOCK">
+<node CREATED="1363190278028" ID="ID_100154832" MODIFIED="1363190285709" TEXT="nonblocking"/>
+</node>
 </node>
 </node>
 </node>
@@ -83,10 +94,15 @@
 <node CREATED="1338796847993" ID="ID_205764871" MODIFIED="1338796895604" TEXT="&lt;unistd. h&gt;int fsync (int filedes) ;"/>
 </node>
 <node CREATED="1338642434921" ID="ID_1556299629" MODIFIED="1341892623420" TEXT="file I/O implement">
-<node CREATED="1338642498913" ID="ID_1020971923" MODIFIED="1338642535336" TEXT="file descriptor table (u area)">
-<node CREATED="1338642538633" ID="ID_1126099437" MODIFIED="1338642543006" TEXT="file table">
-<node CREATED="1338642549384" ID="ID_1672547298" MODIFIED="1338642565634" TEXT="v-node(i-node) list">
-<node CREATED="1338642567802" ID="ID_1347448214" MODIFIED="1338642603034" TEXT="disk blocks"/>
+<node CREATED="1338642498913" ID="ID_1020971923" MODIFIED="1363191425411" TEXT="file descriptor table (u area)">
+<icon BUILTIN="full-1"/>
+<node CREATED="1338642538633" ID="ID_1126099437" MODIFIED="1363191429040" TEXT="file table">
+<icon BUILTIN="full-2"/>
+<node CREATED="1338642549384" ID="ID_1672547298" MODIFIED="1363191438724" TEXT="v-node(i-node) list">
+<icon BUILTIN="full-3"/>
+<node CREATED="1338642567802" ID="ID_1347448214" MODIFIED="1363191445079" TEXT="disk blocks">
+<icon BUILTIN="full-4"/>
+</node>
 </node>
 </node>
 </node>
@@ -98,6 +114,7 @@
 <node CREATED="1338643198815" ID="ID_626762706" MODIFIED="1338643220065" TEXT="int dup2(int filedes,int filedes2);">
 <node CREATED="1338643573349" ID="ID_915453463" MODIFIED="1338643682135" TEXT="close filedes2,then copy filedes&apos;s file table entry &#xa;pointer to lowest available file descritor"/>
 </node>
+<node CREATED="1363191522843" ID="ID_85134465" MODIFIED="1363191524244" TEXT="Both return: new file descriptor if OK, -1 on error  "/>
 </node>
 <node CREATED="1338642712002" ID="ID_1968267083" MODIFIED="1338643151957" TEXT="different file table entres ,same v-node"/>
 <node CREATED="1338642680807" ID="ID_1085869172" MODIFIED="1339172881850" TEXT="different pathname(directory entry) ,same inode index"/>
@@ -113,10 +130,28 @@
 <node CREATED="1338646042720" ID="ID_86506659" MODIFIED="1338646092767" TEXT="only FD_CLOEXEC is defined"/>
 </node>
 <node CREATED="1338645459027" ID="ID_1405213530" MODIFIED="1338645705629" TEXT="get/set file status flags">
-<node CREATED="1338646109988" ID="ID_1179143799" MODIFIED="1338646136038" TEXT="cmd=F_GETFL/SETFL"/>
-<node CREATED="1338646136931" ID="ID_956846081" MODIFIED="1338646294147" TEXT="O_ACCMODE used to  obtain the access mode bit &#xa;O_RDONLY,O_WRONLY,ON_RDWR"/>
+<node CREATED="1338646109988" ID="ID_1179143799" MODIFIED="1363192170122" TEXT="cmd=F_GETFL">
+<node CREATED="1338646136931" ID="ID_956846081" MODIFIED="1338646294147" TEXT="O_ACCMODE used to  obtain the access mode bit &#xa;O_RDONLY,O_WRONLY,ON_RDWR">
+<node CREATED="1363192172462" ID="ID_1072696469" MODIFIED="1363192176556" TEXT="Unfortunately, the three access mode flags (O_RDONLY, O_WRONLY, and  O_RDWR) are not separate bits that can be tested. (As we mentioned ear-  lier, these three often have the values 0, 1, and 2, respectively, for historical  reasons; also these three values are mutually exclusive--a file can have  only one of the three enabled.) Therefore we must first use the  O_ACCMODE mask fo obtain the access mode bits and then compare the  result against any of the three values.  "/>
 </node>
-<node CREATED="1338645690417" ID="ID_1069714640" MODIFIED="1338645731081" TEXT="get/set asynchronous IO ownership"/>
+</node>
+<node CREATED="1363192179689" ID="ID_281324774" MODIFIED="1363192190647" TEXT="cmd=F_SETFL">
+<node CREATED="1363192191910" ID="ID_871909494" MODIFIED="1363192225678" TEXT="The only flags that can be changed are">
+<node CREATED="1363192227556" ID="ID_278981556" MODIFIED="1363192239420" TEXT="O_APPEND"/>
+<node CREATED="1363192239832" ID="ID_47134998" MODIFIED="1363192247454" TEXT="O_NONBLOCK"/>
+<node CREATED="1363192247794" ID="ID_1884407164" MODIFIED="1363192258864" TEXT="O_SYNC"/>
+<node CREATED="1363192259102" ID="ID_1215711035" MODIFIED="1363192264044" TEXT="O_ASYNC"/>
+</node>
+</node>
+</node>
+<node CREATED="1338645690417" ID="ID_1069714640" MODIFIED="1338645731081" TEXT="get/set asynchronous IO ownership">
+<node CREATED="1363192336033" ID="ID_1284658543" MODIFIED="1363192361822" TEXT="F_GETOWN">
+<node CREATED="1363192362810" ID="ID_1767444576" MODIFIED="1363192363916" TEXT="Get the process ID or process group ID currently receiving the SIGIO and  SIGURG signals. "/>
+</node>
+<node CREATED="1363192382120" ID="ID_213730015" MODIFIED="1363192387348" TEXT="F_SETOWN">
+<node CREATED="1363192388337" ID="ID_422492941" MODIFIED="1363192389633" TEXT="Set the process ID or process group ID to receive the SIGIO and SIGURG  signals. A positive arg specifies a process ID. A negative arg implies a  process group ID equal to the absolute value of arg.  "/>
+</node>
+</node>
 <node CREATED="1338645737354" ID="ID_1332558625" MODIFIED="1338645745473" TEXT="get/set record lock"/>
 </node>
 </node>
@@ -132,9 +167,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1338637081998" FOLDED="true" ID="ID_1029354476" MODIFIED="1358935030503" POSITION="right" TEXT="buffered IO (C Standard Libary)">
+<node CREATED="1338637081998" FOLDED="true" ID="ID_1029354476" MODIFIED="1363223771965" POSITION="right" TEXT="buffered IO (C Standard Libary)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1338800410580" FOLDED="true" ID="ID_1589389692" MODIFIED="1340466206465" TEXT="buffering">
+<node CREATED="1338800410580" ID="ID_1589389692" MODIFIED="1363190004097" TEXT="buffering">
 <node CREATED="1338801092372" ID="ID_1515962288" MODIFIED="1338801264575" TEXT="#include &lt;stdio.h&gt;  "/>
 <node CREATED="1338801254667" ID="ID_1615250955" MODIFIED="1338801254667" TEXT="void setbuf(FILE *&#x7f;fp, char *buff);">
 <node CREATED="1338801366184" ID="ID_505816062" MODIFIED="1338801369946" TEXT="buff">
@@ -146,7 +181,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338801266874" FOLDED="true" ID="ID_402093280" MODIFIED="1338801607998" TEXT="int   setvbuf(FILE *fp&#x7f;, char *buff, int mode,  size_t size);  ">
+<node CREATED="1338801266874" FOLDED="true" ID="ID_402093280" MODIFIED="1363190056396" TEXT="int   setvbuf(FILE *fp&#x7f;, char *buff, int mode,  size_t size);  ">
 <node CREATED="1338800420618" ID="ID_1323079286" MODIFIED="1338801505588" TEXT="fully buffered">
 <node CREATED="1338800487940" ID="ID_34018836" MODIFIED="1338801060355" TEXT="default"/>
 <node CREATED="1338801516794" ID="ID_302342715" MODIFIED="1338801561756" TEXT="mode=_IOFBF"/>
@@ -164,7 +199,7 @@
 <node CREATED="1339853417041" ID="ID_1885903720" MODIFIED="1339853450204" TEXT="if fp==NULL, flush all output stream"/>
 </node>
 </node>
-<node CREATED="1338801667892" ID="ID_859923928" MODIFIED="1340464909808" TEXT="open stream">
+<node CREATED="1338801667892" ID="ID_859923928" MODIFIED="1363223691025" TEXT="open stream">
 <node CREATED="1338801675045" ID="ID_1632086452" MODIFIED="1338801745232" TEXT="FILE*fopen(const char*pathname, const char * type);"/>
 <node CREATED="1338801745844" ID="ID_165447621" MODIFIED="1338801811898" TEXT="FILE*freopen(const char*pathname, const char*type,FILE*fp);"/>
 <node CREATED="1338801812200" ID="ID_81170830" MODIFIED="1338801841359" TEXT="FILE*fdopen(int fd,const char*type);">
@@ -454,19 +489,25 @@
 </node>
 </node>
 </node>
-<node CREATED="1341233738980" FOLDED="true" ID="ID_1592264497" MODIFIED="1358088701534" POSITION="right" TEXT="Advanced  IO">
+<node CREATED="1341233738980" FOLDED="true" ID="ID_1592264497" MODIFIED="1363223780935" POSITION="right" TEXT="Advanced  IO">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1341237044648" ID="ID_1718653812" MODIFIED="1341237056590" TEXT="nonblocking IO">
-<node CREATED="1341233748630" ID="ID_726279191" MODIFIED="1341237059430" TEXT="blocking and busy-wait">
-<node CREATED="1341233893050" ID="ID_1682300774" MODIFIED="1341233992663" TEXT="monoprogramming (busy-wait)"/>
-<node CREATED="1341233993941" ID="ID_311965931" MODIFIED="1341234007863" TEXT="multiprogramming(blocking)"/>
+<node CREATED="1363183972035" ID="ID_1877880927" MODIFIED="1363183978609" TEXT="IO mode">
+<node CREATED="1363184032875" FOLDED="true" ID="ID_1181800838" MODIFIED="1363184192659" TEXT="busy-wait">
+<icon BUILTIN="full-1"/>
+<node CREATED="1341233893050" ID="ID_1682300774" MODIFIED="1363184055393" TEXT="monoprogramming"/>
+<node CREATED="1363184058925" ID="ID_347234273" MODIFIED="1363184113620" TEXT="IO and computing serialized"/>
 </node>
-<node CREATED="1341233882120" ID="ID_1055155885" MODIFIED="1341237059430" TEXT="blocking and nonblocking">
-<node CREATED="1341234011441" ID="ID_470006601" MODIFIED="1341234060533" TEXT="synchronous(blocking)"/>
-<node CREATED="1341234016501" ID="ID_1028584662" MODIFIED="1341234072083" TEXT="asynchronous(nonblocking)"/>
+<node CREATED="1363184117289" ID="ID_864814042" MODIFIED="1363184136495" TEXT="blocking">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1363184139639" ID="ID_1561552708" MODIFIED="1363184150999" TEXT="nonblocking">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1363184155195" ID="ID_1540465569" MODIFIED="1363184171175" TEXT="asynchronous">
+<icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1341237063338" ID="ID_1977167150" MODIFIED="1357729407402" TEXT="record locking">
+<node CREATED="1341237063338" ID="ID_1977167150" MODIFIED="1363192472122" TEXT="record locking">
 <node CREATED="1341238164101" ID="ID_226880162" MODIFIED="1357729409409" TEXT="fcntl">
 <node CREATED="1341237086018" ID="ID_478362268" MODIFIED="1341238197524" TEXT="#include&lt;sys/types.h&gt;"/>
 <node CREATED="1341237113328" ID="ID_976998802" MODIFIED="1341238197514" TEXT="#include&lt;unistd.h&gt;"/>
@@ -490,7 +531,7 @@
 </node>
 </node>
 <node CREATED="1341237208558" ID="ID_1881895460" MODIFIED="1357729448819" TEXT="flockptr">
-<node CREATED="1341237216108" ID="ID_1888920116" MODIFIED="1357729537014">
+<node CREATED="1341237216108" ID="ID_1888920116" MODIFIED="1363192749006">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -503,10 +544,10 @@
       &#160;&#160;&#160;&#160;short l_type; /* F_RDLCK, F_WRLCK, or F_UNLCK */
     </p>
     <p>
-      &#160;&#160;&#160;&#160;off_t l_start; /* offset in bytes, relative to 1 whence */
+      &#160;&#160;&#160;&#160;off_t l_start; /* offset in bytes, relative to 1_whence */
     </p>
     <p>
-      &#160;&#160;&#160;&#160;short l_whence; /* SEEK_SET, SEEK_CUR, or SEEK_EN */
+      &#160;&#160;&#160;&#160;short l_whence; /* SEEK_SET, SEEK_CUR, or SEEK_END */
     </p>
     <p>
       &#160;&#160;&#160;&#160;off_t l_len; /* length, in bytes; 0 means lock to EOF */
@@ -528,7 +569,104 @@
 <node CREATED="1341238280012" ID="ID_148901281" MODIFIED="1341238282154" TEXT="Locks are never inherited by the child across a fork. "/>
 <node CREATED="1341238292542" ID="ID_1693962238" MODIFIED="1341238294344" TEXT="Locks may be inherited by a new program across an exec. "/>
 </node>
-<node CREATED="1341283732120" FOLDED="true" ID="ID_1335444766" MODIFIED="1357729405034" TEXT="memory mapped  IO">
+<node CREATED="1363184228958" FOLDED="true" ID="ID_914696221" MODIFIED="1363192768864" TEXT="IO multiplexing">
+<node CREATED="1363184240446" ID="ID_1819502289" MODIFIED="1363184243574" TEXT="select">
+<node CREATED="1363184267740" ID="ID_1042354335" MODIFIED="1363184366376" TEXT="#include &lt;sys/types.h&gt; /* fd_set data type */ &#xa;#include &lt;sys/time.h&gt; /* struct timeval */ &#xa;#include &lt;unistd.h&gt;  /* function prototype might be here */ &#xa;&#x1f;int select(int maxfdpl, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *tvptr); &#xa;&#x1f;Returns: count of ready descriptors, 0 on timeout, -1 on error &#xa;">
+<node CREATED="1363184303749" ID="ID_1724210638" MODIFIED="1363184376229" TEXT="tvptr">
+<node CREATED="1363184377403" ID="ID_1434006835" MODIFIED="1363184393471" TEXT="tvptr==NULL">
+<node CREATED="1363184394903" ID="ID_912774625" MODIFIED="1363184415452" TEXT="Wait forever. "/>
+<node CREATED="1363184418102" ID="ID_1060693959" MODIFIED="1363184477080" TEXT="can be interrupted&#xff0c;then return -1 with errno set to EINTR"/>
+</node>
+<node CREATED="1363184480416" ID="ID_1107766968" MODIFIED="1363184521131" TEXT="tvptr-&gt;tv_sec==0 &amp;&amp; tvptr-&gt;tv.usec==0">
+<node CREATED="1363184523255" ID="ID_1003360748" MODIFIED="1363184567282" TEXT="nonblocking,return immediately if no IO operations are ready"/>
+</node>
+<node CREATED="1363184601240" ID="ID_1704861950" MODIFIED="1363184622397" TEXT="tvptr-&gt;tv_sec!==0 || tvptr-&gt;tv.usec!=0">
+<node CREATED="1363184623472" ID="ID_704635246" MODIFIED="1363184653345" TEXT="timeout"/>
+<node CREATED="1363184694719" ID="ID_67198936" MODIFIED="1363184714892" TEXT="Return is made when  one of the specified descriptors is ready or when the rime-out value expires. "/>
+<node CREATED="1363184715648" ID="ID_1051164853" MODIFIED="1363184741485" TEXT="0 on time-out value expires"/>
+<node CREATED="1363184742313" ID="ID_1074396031" MODIFIED="1363184773598" TEXT="-1 on interruption"/>
+</node>
+</node>
+<node CREATED="1363184889921" FOLDED="true" ID="ID_307735917" MODIFIED="1363185503835" TEXT="fd_set">
+<node CREATED="1363184895461" ID="ID_509721850" MODIFIED="1363184978470" TEXT="FD_ZERO(fd_set*fdset)">
+<node CREATED="1363185050816" ID="ID_1184306002" MODIFIED="1363185079686" TEXT="clear all bits in fdset(init)"/>
+</node>
+<node CREATED="1363184979130" ID="ID_854709311" MODIFIED="1363185021749" TEXT="FD_SET(int fd,fd_set *fdset)">
+<node CREATED="1363185080978" ID="ID_1465329682" MODIFIED="1363185159602" TEXT="turn on bit for fd in fd_set"/>
+</node>
+<node CREATED="1363184992721" ID="ID_1271504391" MODIFIED="1363185039266" TEXT="FD_CLR(int fd,fd_set *fdset)">
+<node CREATED="1363185087408" ID="ID_1656211882" MODIFIED="1363185180246" TEXT="turn off bit for fd in fd_set"/>
+</node>
+<node CREATED="1363184997974" ID="ID_604752929" MODIFIED="1363185048557" TEXT="FD_ISSET(int fd,fd_set*fdset)">
+<node CREATED="1363185094491" ID="ID_1497366803" MODIFIED="1363185217737" TEXT="test bit  for fd in fd_set"/>
+</node>
+</node>
+<node CREATED="1363185333928" ID="ID_365664696" MODIFIED="1363185350115" TEXT="readfds,writefds,exceptfds">
+<node CREATED="1363185354861" FOLDED="true" ID="ID_764004916" MODIFIED="1363185362158" TEXT="usleep">
+<node CREATED="1363185351305" ID="ID_1450656227" MODIFIED="1363185359502" TEXT="Any (or ail) of the middle three arguments to select (the pointers to the descriptor  sets) can be null pointers, if we&apos;re not interested in that condition. If all three pointers  are NULL, then we have a higher precision timer than provided by sleep. "/>
+</node>
+</node>
+<node CREATED="1363185505791" FOLDED="true" ID="ID_1296494721" MODIFIED="1363185733450" TEXT="maxfdpl">
+<node CREATED="1363185518399" ID="ID_848095732" MODIFIED="1363185539577" TEXT="The first argument to select, maxfdpl, stands for &quot;&apos;max fd plus I.&quot; We calculate  the highest descriptor that we&apos;re interested in, in any of the three descriptor sets, add 1,  and that&apos;s the first argument. We could just set the first argument to FD_SETSIZE, a  constant in &lt;sys/types. h&gt; that specifies the maximum number of descriptors (often  I/O Multiplexing 399  &#x1f;256 or 1024), but this value is too large for most applications. Indeed, most applications  probably use between 3 and 10 descriptors. (There are applications that need many  more descriptors, but these aren&apos;t the typical Unix program.) By specifying the highest  descriptor that we&apos;re interested in, the kernel can avoid going through hundreds of  unused bits in the three descriptor sets, looking for bits that are turned on.  "/>
+<node CREATED="1363185583548" ID="ID_1171404557" MODIFIED="1363185584737" TEXT="The reason we have to add 1 to the maximum descriptor number is because descriptors  start at 0, and the first argument is really a count of the number of descriptors to check  (starting with descriptor 0).  "/>
+</node>
+<node CREATED="1363185734457" ID="ID_848915727" MODIFIED="1363185735659" TEXT="&quot;ready&quot; means. ">
+<node CREATED="1363185747834" ID="ID_261087257" MODIFIED="1363185762028" TEXT="1. A descriptor in the read set (readfds) is considered ready if a read from that  descriptor won&apos;t block.  "/>
+<node CREATED="1363185776631" ID="ID_1826673171" MODIFIED="1363185777868" TEXT="2. A descriptor in the write set (writefds) is considered ready if a write to that  descriptor won&apos;t block.  "/>
+<node CREATED="1363185789991" ID="ID_1825419702" MODIFIED="1363185798628" TEXT="3. A descriptor in the exception set (exceptfds) is considered ready if there is an  exception condition pending on that descriptor. Currently an exception condi-  tion corresponds to (a) the arrival of out-of-band data on a network connection,  or (b) certain conditions occurring on a pseudo terminal that has been placed  into packet mode. (Section 15.10 of Stevens [1990] describes this latter condition.)  "/>
+</node>
+<node CREATED="1363185957518" FOLDED="true" ID="ID_360102744" MODIFIED="1363189819487" TEXT="EOF">
+<node CREATED="1363185953821" ID="ID_1739882279" MODIFIED="1363185963453" TEXT="If we encounter the end of file on a descriptor, that descriptor is considered readable  by select. We then call read and it returns 0, the normal Unix way to signify end of  file. (Many people incorrectly assume select indicates an exception condition on a  descriptor when the end of file is reached.)  "/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1363189830636" ID="ID_889823763" MODIFIED="1363189935881">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #include &lt;fcntl.h&gt;
+    </p>
+    <p>
+      #include &quot;ourhdr.h&quot;
+    </p>
+    <p>
+      void set_fl(int fd, int flags)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int val;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* flags are file status flags to turn on */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if ( (val = fcntl(fd, F_GETFL, 0)) &lt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;err_sys(&quot;fcntl F_GETFL error&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;val I= flags; /* turn on flags */&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (fcntl(fd, F_SETFL, val) &lt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;err_sys(&quot;fcntl F_SETFL error&quot;);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1341283732120" FOLDED="true" ID="ID_1335444766" MODIFIED="1363164550858" TEXT="memory mapped  IO">
 <node CREATED="1341283750539" ID="ID_731699793" MODIFIED="1341886071068" TEXT="mmap">
 <node CREATED="1341283908429" ID="ID_190168221" MODIFIED="1341283930412" TEXT="#include&lt;sys/types.h&gt;"/>
 <node CREATED="1341283930823" ID="ID_879360502" MODIFIED="1341283955629" TEXT="#include&lt;sys/mman.h&gt;"/>
@@ -593,9 +731,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1341293673913" ID="ID_1427592362" MODIFIED="1358132580045" POSITION="right" TEXT="IPC(InterProcess Communication)">
+<node CREATED="1341293673913" ID="ID_1427592362" MODIFIED="1363164521768" POSITION="right" TEXT="IPC(InterProcess Communication)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1341295949046" FOLDED="true" ID="ID_182899331" MODIFIED="1358133754205" TEXT="System V  IPC">
+<node CREATED="1341295949046" FOLDED="true" ID="ID_182899331" MODIFIED="1363164531747" TEXT="System V  IPC">
 <node CREATED="1341296010736" FOLDED="true" ID="ID_1227441844" MODIFIED="1358084393839" TEXT="getXXX">
 <node CREATED="1341300368793" ID="ID_1217472975" MODIFIED="1341300433666" TEXT="creates a  new IPC structure or obtains a existed IPC structure"/>
 <node CREATED="1341300399147" ID="ID_14596799" MODIFIED="1341300568610" TEXT="specifies key to get a IPC structure identifer ">
@@ -795,7 +933,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338637081684" FOLDED="true" ID="ID_969287546" MODIFIED="1358933008452" POSITION="right" TEXT="file &amp; directory operations">
+<node CREATED="1338637081684" FOLDED="true" ID="ID_969287546" MODIFIED="1363164514980" POSITION="right" TEXT="file &amp; directory operations">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338647378283" ID="ID_1976735025" MODIFIED="1341892782980" TEXT="stat">
 <node CREATED="1338647483842" ID="ID_68683273" MODIFIED="1338647519557" TEXT=":retrieve metadata of a file stored in inode"/>
@@ -803,7 +941,7 @@
 <node CREATED="1338647539562" ID="ID_1486925285" MODIFIED="1338647541667" TEXT="stat"/>
 </node>
 <node CREATED="1338647543089" ID="ID_1890475945" MODIFIED="1338647547470" TEXT="function">
-<node CREATED="1338647550066" FOLDED="true" ID="ID_1171455159" MODIFIED="1341906903444" TEXT="stat &lt;sys/stat.h&gt;">
+<node CREATED="1338647550066" ID="ID_1171455159" MODIFIED="1363164486295" TEXT="stat &lt;sys/stat.h&gt;">
 <node CREATED="1338647597710" ID="ID_1694120859" MODIFIED="1338647597710" TEXT="int stat(const char *path, struct stat *buf);"/>
 <node CREATED="1338647597711" ID="ID_1741831704" MODIFIED="1338647597711" TEXT="int fstat(int filedes, struct stat *buf);"/>
 <node CREATED="1338647597711" ID="ID_1191552396" MODIFIED="1338647597711" TEXT="int lstat(const char *path, struct stat *buf);">
@@ -811,7 +949,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338647877239" FOLDED="true" ID="ID_1730061970" MODIFIED="1339173981852">
+<node CREATED="1338647877239" ID="ID_1730061970" MODIFIED="1363164499187">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1162,7 +1300,7 @@
 </node>
 <node CREATED="1338795642621" ID="ID_574303469" MODIFIED="1338795648161" TEXT="getcwd"/>
 </node>
-<node CREATED="1338788459907" FOLDED="true" ID="ID_152909860" MODIFIED="1339172681741" TEXT="file time">
+<node CREATED="1338788459907" ID="ID_152909860" MODIFIED="1363164506481" TEXT="file time">
 <node CREATED="1338788505266" ID="ID_767050503" MODIFIED="1338788606089" TEXT="st_atime">
 <node CREATED="1338788505266" ID="ID_792547394" MODIFIED="1338788520601" TEXT="last-access tirne of file data"/>
 <node CREATED="1338788505266" ID="ID_1000530854" MODIFIED="1338788571433" TEXT="read  (ls -u)"/>
@@ -1205,7 +1343,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338796409886" FOLDED="true" ID="ID_1263416245" MODIFIED="1339172679798" TEXT="file device">
+<node CREATED="1338796409886" ID="ID_1263416245" MODIFIED="1363164504913" TEXT="file device">
 <node CREATED="1338796420721" ID="ID_235538431" MODIFIED="1338796423421" TEXT="st_dev">
 <node CREATED="1338796425221" ID="ID_1797301092" MODIFIED="1338796432664" TEXT="major number"/>
 <node CREATED="1338796432920" ID="ID_60303817" MODIFIED="1338796436822" TEXT="minor number"/>
@@ -1215,7 +1353,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338637082269" FOLDED="true" ID="ID_1651944216" MODIFIED="1341364560975" POSITION="right" TEXT="environment of unix procss">
+<node CREATED="1338637082269" ID="ID_1651944216" MODIFIED="1363229134750" POSITION="right" TEXT="environment of unix procss">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338822136849" ID="ID_766699234" MODIFIED="1338822194055" TEXT="start-up routine">
 <node CREATED="1338822145228" ID="ID_754782817" MODIFIED="1338822246567" TEXT="executable &apos;s starting address set by linker"/>
@@ -1301,7 +1439,7 @@
 <node CREATED="1338992143121" ID="ID_887222789" MODIFIED="1338992208030" TEXT="int setenv(const char *name,const char *value, int rewrite) ; "/>
 <node CREATED="1338992143122" ID="ID_1174850635" MODIFIED="1338992212564" TEXT="void unsetenv(const char *name) ;"/>
 </node>
-<node CREATED="1338993134747" FOLDED="true" ID="ID_1262606434" MODIFIED="1338993398497" TEXT="setjmp longjmp">
+<node CREATED="1338993134747" ID="ID_1262606434" MODIFIED="1363229139415" TEXT="setjmp longjmp">
 <node CREATED="1338993121158" ID="ID_442727634" MODIFIED="1338993178302" TEXT="#include &lt;setjmp. h&gt;"/>
 <node CREATED="1338993121159" ID="ID_1867238479" MODIFIED="1338993121159" TEXT="int setjmp(jmp_buf env) ;">
 <node CREATED="1338993121159" ID="ID_385106889" MODIFIED="1338993121159" TEXT="Returns: 0 if called directly, nonzero if returning from a call to longjmp"/>
@@ -1377,7 +1515,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338994150146" FOLDED="true" ID="ID_194992328" MODIFIED="1358932993659" POSITION="right" TEXT="process control">
+<node CREATED="1338994150146" FOLDED="true" ID="ID_194992328" MODIFIED="1363229116483" POSITION="right" TEXT="process control">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338994404974" ID="ID_1210400997" MODIFIED="1338994412479" TEXT="process">
 <node CREATED="1338994415115" ID="ID_421103117" MODIFIED="1338994419528" TEXT="0">
@@ -1889,7 +2027,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339228099723" FOLDED="true" ID="ID_1935674997" MODIFIED="1358932998482" POSITION="right" TEXT="process relationship">
+<node CREATED="1339228099723" ID="ID_1935674997" MODIFIED="1363224076087" POSITION="right" TEXT="process relationship">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1339236124624" FOLDED="true" ID="ID_620686278" MODIFIED="1339238956815" TEXT="login">
 <node CREATED="1339236135397" FOLDED="true" ID="ID_784036749" MODIFIED="1339238884393" STYLE="fork" TEXT="4.3+BSD terminal login">
@@ -2187,7 +2325,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339310541091" FOLDED="true" ID="ID_1385180175" MODIFIED="1358933003997" POSITION="right" TEXT="signal">
+<node CREATED="1339310541091" ID="ID_1385180175" MODIFIED="1363412715879" POSITION="right" TEXT="signal">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1339311014169" ID="ID_1345831434" MODIFIED="1339311026760" TEXT="signal concept">
 <node CREATED="1339311028388" ID="ID_1342774908" MODIFIED="1339311065627" TEXT="signal name">
@@ -2196,7 +2334,7 @@
 <node CREATED="1339311071429" ID="ID_1226017385" MODIFIED="1339311217790" TEXT="signal number">
 <node CREATED="1339311078550" ID="ID_966370149" MODIFIED="1339311100127" TEXT="positive integer"/>
 </node>
-<node CREATED="1339311111287" FOLDED="true" ID="ID_1886979932" MODIFIED="1339419038314" TEXT="asynchronous event">
+<node CREATED="1339311111287" ID="ID_1886979932" MODIFIED="1363224085037" TEXT="asynchronous event">
 <icon BUILTIN="help"/>
 <node CREATED="1339311271553" ID="ID_74233814" MODIFIED="1339311371099" TEXT="divide-by-0 is sync event"/>
 <node CREATED="1339311277474" ID="ID_1642844308" MODIFIED="1339311396402" TEXT="invalid memory reference is sync event"/>
@@ -2210,7 +2348,7 @@
 <node CREATED="1339313998667" ID="ID_1579616075" MODIFIED="1339314076217" TEXT="kill function &amp; command"/>
 </node>
 <node CREATED="1339314582156" ID="ID_563473174" MODIFIED="1339314588835" TEXT="handle signal">
-<node CREATED="1339314590900" ID="ID_1838530542" MODIFIED="1339314597782" TEXT="ignore">
+<node CREATED="1339314590900" FOLDED="true" ID="ID_1838530542" MODIFIED="1363412774942" TEXT="ignore">
 <node CREATED="1339314618052" ID="ID_867197543" MODIFIED="1339316340962" TEXT="SIGSTOP and SIGKILL can never be ignored"/>
 <node CREATED="1339314717385" ID="ID_1736488142" MODIFIED="1339314831205" TEXT="signals generated by hardware exception are not supposed to be ignored "/>
 </node>
@@ -2219,7 +2357,7 @@
 </node>
 <node CREATED="1339314610853" ID="ID_997036024" MODIFIED="1339314615519" TEXT="default"/>
 </node>
-<node CREATED="1339316700815" FOLDED="true" ID="ID_1261269996" MODIFIED="1339679926756" TEXT="all signals ($ kill -l)">
+<node CREATED="1339316700815" FOLDED="true" ID="ID_1261269996" MODIFIED="1363412789024" TEXT="all signals ($ kill -l)">
 <node CREATED="1339316959760" ID="ID_1250542368" MODIFIED="1339316959760" TEXT="">
 <node CREATED="1339316962981" ID="ID_1273987765" MODIFIED="1339316969317" TEXT="SIGABRT">
 <node CREATED="1339317630078" ID="ID_1762926422" MODIFIED="1339317821789" TEXT="abnormally terminate and dump core  (compared with exit)"/>
@@ -2299,15 +2437,15 @@
 <node CREATED="1339317564738" ID="ID_876974558" MODIFIED="1339317568265" TEXT="SIGUSR2"/>
 </node>
 </node>
-<node CREATED="1339421856588" ID="ID_189724434" MODIFIED="1340372714586" TEXT="signal and system call">
+<node CREATED="1339421856588" FOLDED="true" ID="ID_189724434" MODIFIED="1363224183897" TEXT="signal and system call">
 <node CREATED="1339421950366" ID="ID_113807667" MODIFIED="1339422002647" TEXT="uninterruptible system call">
 <node CREATED="1339422026114" ID="ID_1585665057" MODIFIED="1339422045884" TEXT="atomic operation/primitive"/>
 </node>
-<node CREATED="1339421990488" FOLDED="true" ID="ID_118537351" MODIFIED="1340372720988" TEXT="interruptible system call">
+<node CREATED="1339421990488" FOLDED="true" ID="ID_118537351" MODIFIED="1363224182767" TEXT="interruptible system call">
 <node CREATED="1339422059276" ID="ID_1283937267" MODIFIED="1339422480665" TEXT="non-restarted ">
 <node CREATED="1339422461696" ID="ID_1353342940" MODIFIED="1339422477558" TEXT="return error and set errno to EINTR"/>
 </node>
-<node CREATED="1339422306933" FOLDED="true" ID="ID_398467915" MODIFIED="1339423243124" TEXT="automatically restarted">
+<node CREATED="1339422306933" ID="ID_398467915" MODIFIED="1363224144477" TEXT="automatically restarted">
 <node CREATED="1339422888534" ID="ID_297055796" MODIFIED="1339422985426" TEXT="errno can be overwritten">
 <node CREATED="1339422988715" ID="ID_942951485" MODIFIED="1339423014706" TEXT="so store and restore errno in signal handler"/>
 </node>
@@ -2317,14 +2455,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1339418540586" ID="ID_303802728" MODIFIED="1340372824854" TEXT="manipulate signal">
-<node CREATED="1339512363209" ID="ID_1186971720" MODIFIED="1355711667031" TEXT="send signal">
+<node CREATED="1339418540586" FOLDED="true" ID="ID_303802728" MODIFIED="1363412874042" TEXT="manipulate signal">
+<node CREATED="1339512363209" ID="ID_1186971720" MODIFIED="1363412791584" TEXT="send signal">
 <node CREATED="1339511296268" ID="ID_908651015" MODIFIED="1339511305273" TEXT="int kill(&#x7f;pid_t pid, int signo);">
-<node CREATED="1339511334380" FOLDED="true" ID="ID_517841994" MODIFIED="1358090146551" TEXT="pid">
+<node CREATED="1339511334380" ID="ID_517841994" MODIFIED="1363223802795" TEXT="pid">
 <node CREATED="1339511337901" ID="ID_1737066738" MODIFIED="1339511966582" TEXT="&gt;0  (unicast)">
 <node CREATED="1339511350007" ID="ID_1390270522" MODIFIED="1339511412940" TEXT="sent to process whose PID equals pid"/>
 </node>
-<node CREATED="1339511418781" FOLDED="true" ID="ID_1038045770" MODIFIED="1355711724732" TEXT="==0  (local groupcast)">
+<node CREATED="1339511418781" ID="ID_1038045770" MODIFIED="1363223834545" TEXT="==0  (local groupcast)">
 <node CREATED="1339511488579" ID="ID_1021181962" MODIFIED="1339511819307" TEXT="sent to all processes whose GPID equals sender&apos;s ,excluding an implementation-defined set of system processes"/>
 </node>
 <node CREATED="1339511545329" ID="ID_870226609" MODIFIED="1339511952538" TEXT="==-1 (broadcast)">
@@ -2376,7 +2514,7 @@
 <node CREATED="1339511296265" ID="ID_692345810" MODIFIED="1339511296265" TEXT="#include &lt;sys/types.h&gt;"/>
 <node CREATED="1339511296267" ID="ID_1396032994" MODIFIED="1339511296267" TEXT="#include &lt;signal.h&gt;"/>
 </node>
-<node CREATED="1339512513033" ID="ID_915329557" MODIFIED="1339513103622" TEXT="unsigned int alarm(unsigned int seconds);">
+<node CREATED="1339512513033" FOLDED="true" ID="ID_915329557" MODIFIED="1363412868604" TEXT="unsigned int alarm(unsigned int seconds);">
 <node CREATED="1339512513033" ID="ID_433407181" MODIFIED="1339512519396" TEXT="#include &lt;unistd. h&gt;"/>
 <node CREATED="1339512575324" ID="ID_558717524" MODIFIED="1339512604309">
 <richcontent TYPE="NODE"><html>
@@ -2425,7 +2563,7 @@
 </node>
 <node CREATED="1339512513034" ID="ID_1480813764" MODIFIED="1339512513034" TEXT="Returns: 0 or number of seconds until previously set alarm"/>
 </node>
-<node CREATED="1339513121817" ID="ID_1395280730" MODIFIED="1339513121817" TEXT="int pause(void);">
+<node CREATED="1339513121817" FOLDED="true" ID="ID_1395280730" MODIFIED="1363412871214" TEXT="int pause(void);">
 <node CREATED="1339513121816" ID="ID_1851929844" MODIFIED="1339513128614" TEXT="#include &lt;unistd.h&gt;"/>
 <node CREATED="1339513172409" ID="ID_470473852" MODIFIED="1339513175261" TEXT="The pause function suspends the calling process until a signal is caught."/>
 <node CREATED="1339513187945" ID="ID_442016560" MODIFIED="1339513195836">
@@ -2443,28 +2581,34 @@
 <node CREATED="1339513121818" ID="ID_69731884" MODIFIED="1339513121818" TEXT="Returns: -1 with errno set to EINTR"/>
 </node>
 </node>
-<node CREATED="1339679944156" ID="ID_1617527858" MODIFIED="1355711879692" TEXT="mask signal">
-<node CREATED="1339682799080" ID="ID_1637014054" MODIFIED="1339682813906" TEXT="manipulate signal set">
+<node CREATED="1339679944156" FOLDED="true" ID="ID_1617527858" MODIFIED="1363227616506" TEXT="mask signal">
+<node CREATED="1339682799080" ID="ID_1637014054" MODIFIED="1363226830303" TEXT="manipulate sigset_t">
 <node CREATED="1339682841172" ID="ID_1512659845" MODIFIED="1339682841172" TEXT="#include &lt;signal. h&gt;"/>
-<node CREATED="1339682841172" ID="ID_402042061" MODIFIED="1339682880309" TEXT="int sigemptyset (sigset_t *set) :">
+<node CREATED="1339682841172" FOLDED="true" ID="ID_402042061" MODIFIED="1363224947326" TEXT="int sigemptyset (sigset_t *set) :">
 <icon BUILTIN="button_ok"/>
+<node CREATED="1363224880708" ID="ID_1408621242" MODIFIED="1363224882200" TEXT="initializes the signal set pointed to by set so that all signals  are excluded. "/>
 </node>
-<node CREATED="1339682841173" ID="ID_216473376" MODIFIED="1339682881971" TEXT="int sigfillset (sigset_t *set) ;">
+<node CREATED="1339682841173" FOLDED="true" ID="ID_216473376" MODIFIED="1363224946576" TEXT="int sigfillset (sigset_t *set) ;">
 <icon BUILTIN="button_ok"/>
+<node CREATED="1363224899286" ID="ID_1663501476" MODIFIED="1363224900558" TEXT="initializes the signal set so that all signais are  included. "/>
 </node>
-<node CREATED="1339682841174" ID="ID_1117112296" MODIFIED="1339682883074" TEXT="int sigaddset (sigset_t *set, int signo) ;">
+<node CREATED="1339682841174" FOLDED="true" ID="ID_1117112296" MODIFIED="1363224945876" TEXT="int sigaddset (sigset_t *set, int signo) ;">
 <icon BUILTIN="button_ok"/>
+<node CREATED="1363224929136" ID="ID_1011266420" MODIFIED="1363224930438" TEXT="add"/>
 </node>
-<node CREATED="1339682841175" ID="ID_1045210422" MODIFIED="1339682884081" TEXT="int sigdelset (sigset_t *set, int signo) ;">
+<node CREATED="1339682841175" FOLDED="true" ID="ID_1045210422" MODIFIED="1363224945156" TEXT="int sigdelset (sigset_t *set, int signo) ;">
 <icon BUILTIN="button_ok"/>
+<node CREATED="1363224933146" ID="ID_824437482" MODIFIED="1363224939996" TEXT="delete"/>
 </node>
-<node CREATED="1339682859309" ID="ID_619443298" MODIFIED="1339682861814" TEXT="All four return: 0 if OK, -1 on error "/>
+<node CREATED="1339682859309" ID="ID_619443298" MODIFIED="1363224942676" TEXT="All four return: 0 if OK, -1 on error "/>
 <node CREATED="1339682841176" ID="ID_1686609122" MODIFIED="1339682885296" TEXT="int sigismember(const sigset_t *set,int signo) ; ">
 <icon BUILTIN="button_ok"/>
-</node>
+<node CREATED="1363224959134" ID="ID_1951682192" MODIFIED="1363224965036" TEXT="in"/>
 <node CREATED="1339682841178" ID="ID_17181270" MODIFIED="1339682841178" TEXT="Returns: 1 if true, 0 if false"/>
 </node>
-<node CREATED="1339682943811" ID="ID_1520795721" MODIFIED="1339682962422" TEXT="sigprocmask">
+</node>
+<node CREATED="1363226820411" FOLDED="true" ID="ID_1875943844" MODIFIED="1363227250944" TEXT="unblock &amp; block signals">
+<node CREATED="1339682943811" FOLDED="true" ID="ID_1520795721" MODIFIED="1363227241669" TEXT="sigprocmask">
 <node CREATED="1339682964258" ID="ID_26647644" MODIFIED="1339682964258" TEXT="#include &lt;signal.h&gt;"/>
 <node CREATED="1339682964259" ID="ID_1850819709" MODIFIED="1339683010097" TEXT="int sigprocmask(int how,const sigset_t *set, sigset_t *oset); ">
 <node CREATED="1339683035360" ID="ID_922192156" MODIFIED="1339683040050" TEXT="how">
@@ -2478,24 +2622,61 @@
 <node CREATED="1339683327889" ID="ID_593214904" MODIFIED="1339683329138" TEXT="="/>
 </node>
 </node>
+<node CREATED="1363225174065" ID="ID_1081670571" MODIFIED="1363225178907" TEXT="oset">
+<node CREATED="1363225179855" ID="ID_389655278" MODIFIED="1363225181057" TEXT="if oset is a nonnull pointer, the current signal mask for the process is returned  through oset.  "/>
+</node>
+<node CREATED="1363225237266" ID="ID_818674739" MODIFIED="1363225239558" TEXT="set">
+<node CREATED="1363225240596" ID="ID_19974592" MODIFIED="1363225241658" TEXT="if set is a nonnull pointer, then the how argument indicates how the current  signal mask is modified. "/>
+<node CREATED="1363225256896" ID="ID_767044739" MODIFIED="1363225257888" TEXT="If set is a null pointer, the signal mask of the process is not changed, and the value of  how is not significant.  "/>
+<node CREATED="1363225329806" ID="ID_168661165" MODIFIED="1363225330918" TEXT="If there are any pending, unblocked signals after the call to sigprocmask, at least  one of these signals is delivered to the process before s igprocmask returns.  "/>
+</node>
 </node>
 <node CREATED="1339682964261" ID="ID_164619125" MODIFIED="1339683032944" TEXT="Returns:0 if OK,-1 on error"/>
 </node>
 </node>
-<node CREATED="1339683354714" ID="ID_1831061575" MODIFIED="1339683704290" TEXT="check signal"/>
-<node CREATED="1339679949543" ID="ID_6260115" MODIFIED="1355711743488" TEXT="handle signal">
+</node>
+<node CREATED="1339683354714" FOLDED="true" ID="ID_1831061575" MODIFIED="1363227615446" TEXT="check if the signal is pending and unblock the signal">
+<node CREATED="1363226726703" FOLDED="true" ID="ID_1126625448" MODIFIED="1363227612232">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #include &lt;signal.h&gt;
+    </p>
+    <p>
+      int sigpending(sigset_t *set) ;
+    </p>
+    <p>
+      Returns: 0 if OK, -1 on error
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1363226761601" ID="ID_609744344" MODIFIED="1363226762893" TEXT="sigpending returns the set of signals that are blocked from delivery and currently  pending for the calling process. "/>
+<node CREATED="1363227297726" ID="ID_147734007" MODIFIED="1363227343974" TEXT="pending">
+<node CREATED="1363227301821" ID="ID_1915845659" MODIFIED="1363227341681" TEXT="Any occurrence of the SIGXXX signal during this period is blocked and  won&apos;t be delivered until the signal is unblocked. "/>
+<node CREATED="1363227430708" ID="ID_989557207" MODIFIED="1363227432254" TEXT="If we generate the quit signal during this sleep period, the signal is now pending  and unblocked, soit is delivered before sigprocmask returns. "/>
+</node>
+</node>
+</node>
+<node CREATED="1339679949543" FOLDED="true" ID="ID_6260115" MODIFIED="1363228932966" TEXT="handle signal">
 <node CREATED="1339679958734" ID="ID_866062993" MODIFIED="1339679999796" TEXT="signal(deprecated)">
 <node CREATED="1339418550927" ID="ID_1973720297" MODIFIED="1339680005985" TEXT="&lt;signal.h&gt;void (*signal (int signo, void (*func) (int)) ) (int) ;  (unreliable)">
 <node CREATED="1339418654162" ID="ID_259810709" MODIFIED="1339420208190" TEXT="func">
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1339418741977" ID="ID_300910199" MODIFIED="1339418747039" TEXT="SIG_ERR">
-<node CREATED="1339418754784" ID="ID_1599079821" MODIFIED="1339418791598" TEXT="(void(*)())-1"/>
+<node CREATED="1339418754784" ID="ID_1599079821" MODIFIED="1339418791598" TEXT="(void(*)())-1">
+<node CREATED="1363224668004" ID="ID_1448256510" MODIFIED="1363224698626" TEXT="return value on failure"/>
+</node>
 </node>
 <node CREATED="1339418673196" ID="ID_1216051767" MODIFIED="1339418740092" TEXT="SIG_DFL">
 <node CREATED="1339418754784" ID="ID_1386123438" MODIFIED="1339418783982" TEXT="(void(*)())0"/>
 </node>
 <node CREATED="1339418663054" ID="ID_1379488155" MODIFIED="1339418672935" TEXT="SIG_IGN">
-<node CREATED="1339418754784" ID="ID_843310012" MODIFIED="1339418795495" TEXT="(void(*)())1"/>
+<node CREATED="1339418754784" ID="ID_843310012" MODIFIED="1339418795495" TEXT="(void(*)())1">
+<node CREATED="1363224586453" ID="ID_129038203" MODIFIED="1363224608854" TEXT="SIGKILL &amp; SIGSTOP never be ignored!"/>
+</node>
 </node>
 </node>
 <node CREATED="1339420212071" ID="ID_1029290971" MODIFIED="1339680008643" TEXT="shortcomings">
@@ -2509,11 +2690,11 @@
 <node CREATED="1339680063795" ID="ID_1942764604" MODIFIED="1339680343688" TEXT="#include&lt;signal.h&gt; "/>
 <node CREATED="1339680256315" ID="ID_1463517085" MODIFIED="1339680360406" TEXT="int sigaction(int signum, const struct sigaction *act, struct sigaction*oldact);">
 <node CREATED="1339681953440" ID="ID_1906929000" MODIFIED="1339681982285" TEXT="can set and get signal handler"/>
-</node>
 <node CREATED="1339680378743" ID="ID_1036111758" MODIFIED="1339680442994" TEXT="Returns: 0 if OK, -1 on error  "/>
+</node>
 <node CREATED="1339680264938" ID="ID_1799595632" MODIFIED="1339680374900" TEXT="arguments">
-<node CREATED="1339680569688" FOLDED="true" ID="ID_840481322" MODIFIED="1339681997592" TEXT="struct sigaction">
-<node CREATED="1339680581872" FOLDED="true" ID="ID_1738517817" MODIFIED="1339681938025">
+<node CREATED="1339680569688" ID="ID_840481322" MODIFIED="1363227646224" TEXT="struct sigaction">
+<node CREATED="1339680581872" ID="ID_1738517817" MODIFIED="1363227693664">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2537,10 +2718,16 @@
   </body>
 </html></richcontent>
 <node CREATED="1339680808604" ID="ID_79833569" MODIFIED="1339681111678" TEXT="sa_flags">
-<node CREATED="1339680931701" ID="ID_703032615" MODIFIED="1339681032791" TEXT="SA_NOCLDSTOP"/>
+<node CREATED="1339680931701" ID="ID_703032615" MODIFIED="1339681032791" TEXT="SA_NOCLDSTOP">
+<node CREATED="1363228657112" ID="ID_1784894917" MODIFIED="1363228660577" TEXT="SIGCHLD">
+<node CREATED="1363227762536" ID="ID_1614285169" MODIFIED="1363228661833" TEXT="If signo is SIGCHLD, do not generate this signal when a  child process stops (job control). This signal is still  generated, of course, when a child terminates "/>
+</node>
+</node>
 <node CREATED="1339680931704" ID="ID_1295451330" MODIFIED="1339681344620" TEXT="SA_NOCLDWAIT">
 <icon BUILTIN="button_ok"/>
-<node CREATED="1339681346876" ID="ID_216568086" MODIFIED="1339681508528" TEXT="no zombies created,parent process call wait function waits all child process terminated,wait return -1,and sets errno to ECHILD"/>
+<node CREATED="1363228648539" ID="ID_1712293438" MODIFIED="1363228653565" TEXT="SIGCHILD">
+<node CREATED="1363228642845" ID="ID_677880863" MODIFIED="1363228654852" TEXT="If signo is SIGCHLD, this option causes the system hot fo  create zombie processes when children of the calling  process terminate. If the calling process subsequenfly calls  wait, it blocks until all its child processes bave terminated  and then returns -1 with errno set to ECHILD. "/>
+</node>
 </node>
 <node CREATED="1339680931706" ID="ID_681392429" MODIFIED="1339681807955" TEXT="SA_RESETHAND">
 <icon BUILTIN="button_ok"/>
@@ -2549,7 +2736,11 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1339680931709" ID="ID_1489189762" MODIFIED="1339680931709" TEXT="SA_ONSTACK"/>
+<node CREATED="1339680931709" ID="ID_1489189762" MODIFIED="1339680931709" TEXT="SA_ONSTACK">
+<node CREATED="1363228719847" ID="ID_230415043" MODIFIED="1363228726682" TEXT="sigaltstack">
+<node CREATED="1363227809648" ID="ID_577938104" MODIFIED="1363228743405" TEXT="If an alternate stack has been dedared with  sigaltstack(2), this signal is delivered to the process on  the alternate stack.  "/>
+</node>
+</node>
 <node CREATED="1339680931712" ID="ID_460689494" MODIFIED="1339681209162" TEXT="SA_RESTART">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1339681151633" ID="ID_420422895" MODIFIED="1339681193262" TEXT="interrupted system call is automatically restarted"/>
@@ -2561,7 +2752,9 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1339680931716" ID="ID_1056990469" MODIFIED="1339680931716" TEXT="SA_SIGINFO"/>
+<node CREATED="1339680931716" ID="ID_1056990469" MODIFIED="1339680931716" TEXT="SA_SIGINFO">
+<node CREATED="1363227898311" ID="ID_88061912" MODIFIED="1363227899546" TEXT="This option provides additional information fo a signal  handler. Refer to Section 10.21 for additional details.  "/>
+</node>
 </node>
 </node>
 </node>
@@ -2580,7 +2773,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339685022002" ID="ID_893451140" MODIFIED="1340372547884" TEXT="suspend signal">
+<node CREATED="1339685022002" FOLDED="true" ID="ID_893451140" MODIFIED="1363229004726" TEXT="suspend signal">
 <node CREATED="1339685038435" ID="ID_643815178" MODIFIED="1339685038435" TEXT="#include &lt;signal.h&gt;"/>
 <node CREATED="1339685038436" ID="ID_1908452355" MODIFIED="1340372551905" TEXT="int sigsuspend(const sigset_t *sigmask) ; ">
 <node CREATED="1339685079531" ID="ID_618887899" MODIFIED="1339685200969" TEXT="both reset the signal mask and put the  process to sleep in a single atomic operation. "/>
@@ -2614,7 +2807,7 @@
 </node>
 <node CREATED="1339685038438" ID="ID_1116047020" MODIFIED="1339685038438" TEXT="Returns: -1 with errno set to EINTR"/>
 </node>
-<node CREATED="1339684682355" ID="ID_779947799" MODIFIED="1355711909202" TEXT="sigsetjmp siglongjmp">
+<node CREATED="1339684682355" FOLDED="true" ID="ID_779947799" MODIFIED="1363229006957" TEXT="sigsetjmp siglongjmp">
 <node CREATED="1339684747633" ID="ID_82716175" MODIFIED="1339684766318" TEXT="#include &lt;setjmp.h&gt;"/>
 <node CREATED="1339684747633" ID="ID_295626279" MODIFIED="1339684747633" TEXT="int sigsetjmp (sigjmp_buf env, int savemask) ;">
 <node CREATED="1339684747634" ID="ID_1471947110" MODIFIED="1339684747634" TEXT="Returns: 0 if called directly, nonzero if returning from a call to siglongjmp"/>
@@ -2652,7 +2845,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1340373429940" FOLDED="true" ID="ID_13458321" MODIFIED="1341364562909" POSITION="right" TEXT="terminal IO">
+<node CREATED="1340373429940" FOLDED="true" ID="ID_13458321" MODIFIED="1363158226857" POSITION="right" TEXT="terminal IO">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1340373538185" FOLDED="true" ID="ID_27375457" MODIFIED="1340373645570" TEXT="style">
 <node CREATED="1340373557746" ID="ID_1799134504" MODIFIED="1340373578580" TEXT="UNIX Version7 style (BSD)"/>
