@@ -8,12 +8,12 @@
 <node CREATED="1360768625793" ID="ID_959231149" MODIFIED="1360768655575" TEXT="TeXnician"/>
 <node CREATED="1360768656751" ID="ID_69094534" MODIFIED="1360768669872" TEXT="TeXacker"/>
 </node>
-<node CREATED="1360293120684" ID="ID_581985776" MODIFIED="1360306944669" POSITION="right" TEXT="METAFONT version">
+<node CREATED="1360293120684" FOLDED="true" ID="ID_581985776" MODIFIED="1363571421903" POSITION="right" TEXT="METAFONT version">
 <node CREATED="1360293155222" ID="ID_1956808297" MODIFIED="1360293157536" TEXT="e">
 <node CREATED="1360293168174" ID="ID_1454787113" MODIFIED="1360293174291" TEXT="2.718281"/>
 </node>
 </node>
-<node CREATED="1360291569861" ID="ID_1105474816" MODIFIED="1363439726573" POSITION="right" TEXT="input/output">
+<node CREATED="1360291569861" FOLDED="true" ID="ID_1105474816" MODIFIED="1363571420036" POSITION="right" TEXT="input/output">
 <node CREATED="1360291575017" ID="ID_1202940172" MODIFIED="1362107062307" TEXT="*.tex (plain text)">
 <node CREATED="1360291581327" ID="ID_1215853202" MODIFIED="1360291628027" TEXT="--tex/latex--&gt;">
 <node CREATED="1360291630592" ID="ID_1672076166" MODIFIED="1360291655320" TEXT="*.dvi (device independent)">
@@ -98,15 +98,15 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1360119523330" FOLDED="true" ID="ID_1800271788" MODIFIED="1363522108858" TEXT="command">
-<node CREATED="1360120999124" ID="ID_1571674500" MODIFIED="1363330470241" TEXT="format">
-<node CREATED="1360119527581" ID="ID_1766536323" MODIFIED="1363330521998" TEXT="\command_name[optional_args]{required_args}">
+<node CREATED="1360119523330" FOLDED="true" ID="ID_1800271788" MODIFIED="1363571428629" TEXT="command">
+<node CREATED="1360120999124" ID="ID_1571674500" MODIFIED="1363571354716" TEXT="format">
+<node CREATED="1360119527581" ID="ID_1766536323" MODIFIED="1363571359082" TEXT="\command_name[optional_args]{required_args}">
 <node CREATED="1360120738229" ID="ID_484986331" MODIFIED="1360121107039" TEXT="command_name">
 <node CREATED="1360120845268" ID="ID_1997439873" MODIFIED="1360120871104" TEXT="[[:alpha:]]+"/>
 <node CREATED="1360120882139" ID="ID_515344661" MODIFIED="1360120934463" TEXT="[[:^alpha:]]"/>
 </node>
 </node>
-<node CREATED="1360129395528" ID="ID_1086337427" MODIFIED="1363330511593" TEXT="format1">
+<node CREATED="1360129395528" ID="ID_1086337427" MODIFIED="1363567700505" TEXT="format1">
 <node CREATED="1360129391727" ID="ID_1374298095" MODIFIED="1363330533595" TEXT="\textit{italic text}">
 <node CREATED="1360129491535" ID="ID_597040044" MODIFIED="1360129492941" TEXT="The corresponding command in parenthesis is the &#x201c;declaration form&#x201d;, which takes no arguments."/>
 </node>
@@ -484,11 +484,11 @@
 <node CREATED="1363418012415" ID="ID_381967256" MODIFIED="1363418013577" TEXT="This environment  creates a page with the empty page style, so it has no printed page number or  heading. It causes the following page to be numbered 1.  "/>
 </node>
 </node>
-<node CREATED="1363421024560" FOLDED="true" ID="ID_1959235635" MODIFIED="1363445426546" TEXT="Numbering">
+<node CREATED="1363421024560" ID="ID_1959235635" MODIFIED="1363569462802" TEXT="Numbering">
 <node CREATED="1363421048075" ID="ID_1050601922" MODIFIED="1363421049627" TEXT="counter ">
 <node CREATED="1363421074561" ID="ID_1155228682" MODIFIED="1363421075733" TEXT="The name  of the counter is usually the same as the name of the environment or command  that produces the number, except with no "/>
 </node>
-<node CREATED="1363421079041" FOLDED="true" ID="ID_190513938" MODIFIED="1363421740245" TEXT="predefined counter">
+<node CREATED="1363421079041" FOLDED="true" ID="ID_190513938" MODIFIED="1363569492392" TEXT="predefined counter">
 <node CREATED="1363421259970" ID="ID_1962876619" MODIFIED="1363421273642" TEXT="">
 <icon BUILTIN="full-1"/>
 <node CREATED="1363421092001" ID="ID_1250084774" MODIFIED="1363421277412" TEXT="part"/>
@@ -522,7 +522,7 @@
 </node>
 <node CREATED="1363421394705" ID="ID_1301037817" MODIFIED="1363421501693" TEXT="In addition to these, an environment created with the \newtheorem  command (Section 3.4.3) has a counter of the same name unless an optional  argument specifies that it is to be numbered the same as another environment.  "/>
 </node>
-<node CREATED="1363421735663" FOLDED="true" ID="ID_252419273" MODIFIED="1363444766217" TEXT="\newcounter{newstr} [within]  (global)">
+<node CREATED="1363421735663" ID="ID_252419273" MODIFIED="1363569502563" TEXT="\newcounter{newstr} [within]  (global)">
 <node CREATED="1363421841563" ID="ID_1526986027" MODIFIED="1363421851925" TEXT="Defines a new counter named newctr that is initialized to zero."/>
 <node CREATED="1363422063314" ID="ID_863579236" MODIFIED="1363422086256" TEXT="The \newcounter  command may not be used in an \include&apos;d file "/>
 <node CREATED="1363421858220" ID="ID_163407648" MODIFIED="1363421876256" TEXT="newstr">
@@ -984,13 +984,240 @@
 <node CREATED="1360149672639" ID="ID_428720795" MODIFIED="1360149709169" TEXT="verse"/>
 </node>
 </node>
+<node CREATED="1363567810457" FOLDED="true" ID="ID_539825498" MODIFIED="1363571319700" TEXT="Definitions">
+<node CREATED="1363567813204" FOLDED="true" ID="ID_585132240" MODIFIED="1363569681575" TEXT="\newcommand &amp; \renewcommand">
+<node CREATED="1363567988727" ID="ID_661043808" MODIFIED="1363569187902">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newcommand{<var>cmd</var>}[<var>nargs</var>]{<var>defn</var>}
+\renewcommand{<var>cmd</var>}[<var>nargs</var>]{<var>defn</var>}
+\newcommand{<var>cmd</var>}[<var>nargs</var>][<var>default</var>]{<var>defn</var>}
+\renewcommand{<var>cmd</var>}[<var>nargs</var>][<var>default</var>]{<var>defn</var>}</pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1363568058741" ID="ID_1569428588" MODIFIED="1363568072108" TEXT="cmd">
+<node CREATED="1363568082586" ID="ID_1268535411" MODIFIED="1363568084052" TEXT="command name beginning with \"/>
+<node CREATED="1363568096842" ID="ID_1325228384" MODIFIED="1363568139593" TEXT="for \newcommand">
+<node CREATED="1363568099387" ID="ID_1230864838" MODIFIED="1363568120550" TEXT="must not be already defined and must not begin with \end"/>
+</node>
+<node CREATED="1363568134161" ID="ID_386203270" MODIFIED="1363568135114" TEXT="for \renewcommand">
+<node CREATED="1363568152507" ID="ID_596077683" MODIFIED="1363568153455" TEXT="must already be defined"/>
+</node>
+</node>
+<node CREATED="1363568387072" ID="ID_637988520" MODIFIED="1363568392170" TEXT="nargs">
+<node CREATED="1363568393708" ID="ID_942320940" MODIFIED="1363568427060" TEXT="An optional integer from 1 to 9 specifying the number of arguments that the command will take. The default is for the command to have no arguments."/>
+</node>
+<node CREATED="1363568442673" ID="ID_537918145" MODIFIED="1363568443713" TEXT="default">
+<node CREATED="1363568510829" ID="ID_919717619" MODIFIED="1363568512856" TEXT="If this argument is present, then the first of the args arguments of cmd is  optional and has a default value of opt. If this argument is absent, then  all arguments of cmd are mandatory.  "/>
+</node>
+<node CREATED="1363568532198" ID="ID_1810249483" MODIFIED="1363568533240" TEXT="defn">
+<node CREATED="1363568544059" ID="ID_629116854" MODIFIED="1363568549695" TEXT="The text to be substituted for every occurrence of cmd; a construct of the form #n in defn is replaced by the text of the nth argument."/>
+</node>
+<node CREATED="1363569306352" FOLDED="true" ID="ID_1747660199" MODIFIED="1363569435667" TEXT="demo">
+<node CREATED="1363569317849" ID="ID_431304450" MODIFIED="1363569317849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; margin-top: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px">
+      \newcommand{\cndemoi}[2][foobar]{#1:#2}
+    </p>
+    <p style="margin-left: 0px; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px">
+      \cndemoi{deadbeef}\par
+    </p>
+    <p style="margin-left: 0px; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px">
+      \cndemoi[dead]{beef} \par
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1363569333242" ID="ID_121401186" MODIFIED="1363569423713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      foobar:deadbeef
+    </p>
+    <p>
+      dead:beef
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1363421735663" FOLDED="true" ID="ID_867440992" MODIFIED="1363570964779" TEXT="\newcounter">
+<node CREATED="1363569583317" ID="ID_1455612992" MODIFIED="1363569669992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newcounter{<var>newstr</var>}[<var>within</var>]</pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1363421858220" ID="ID_70710866" MODIFIED="1363569589679" TEXT="newstr">
+<node CREATED="1363421889154" ID="ID_1899895582" MODIFIED="1363421890226" TEXT="A string of letters that is not the name of an existing counter. "/>
+<node CREATED="1363421972028" ID="ID_1608330022" MODIFIED="1363421982460" TEXT="\the&lt;newctr&gt; ">
+<node CREATED="1363422007068" ID="ID_1935240004" MODIFIED="1363422015980" TEXT="defined to be \arabic{newctr}. "/>
+</node>
+</node>
+<node CREATED="1363421905380" ID="ID_962764793" MODIFIED="1363569589676" TEXT="within ">
+<node CREATED="1363421928250" ID="ID_646922463" MODIFIED="1363421952350" TEXT="The name of an already defined counter. If this argument is present, the  newctr counter is reset to zero whenever the within counter is stepped by  \stepcounter or \refstepcounter "/>
+</node>
+</node>
+<node CREATED="1363421841563" ID="ID_188831286" MODIFIED="1363569589682" TEXT="Defines a new counter named newctr that is initialized to zero."/>
+<node CREATED="1363422063314" ID="ID_1316360834" MODIFIED="1363569589681" TEXT="The \newcounter  command may not be used in an \include&apos;d file "/>
+</node>
+<node CREATED="1363570175809" FOLDED="true" ID="ID_1545484875" MODIFIED="1363570962490" TEXT="\newlength">
+<node CREATED="1363570205395" ID="ID_845883904" MODIFIED="1363570205395">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newlength{\<var>arg</var>}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1363570416202" FOLDED="true" ID="ID_1677602042" MODIFIED="1363570454864" TEXT="manipulate length">
+<node CREATED="1363570231113" ID="ID_1889221348" MODIFIED="1363570232271" TEXT="\setlength{\len}{value}"/>
+<node CREATED="1363570242468" ID="ID_971311948" MODIFIED="1363570243576" TEXT="\addtolength{\len}{amount}"/>
+<node CREATED="1363570311759" ID="ID_1782395122" MODIFIED="1363570380706" TEXT="\settodepth{\len}{text}">
+<node CREATED="1363570321748" ID="ID_785817995" MODIFIED="1363570323049" TEXT="The \settodepth command sets the value of a length command equal to the depth of the text argument."/>
+</node>
+<node CREATED="1363570333521" ID="ID_1862599398" MODIFIED="1363570375170" TEXT="\settoheight{\len}{text}">
+<node CREATED="1363570353618" ID="ID_1233691019" MODIFIED="1363570354747" TEXT="The \settoheight command sets the value of a length command equal to the height of the text argument.  "/>
+</node>
+<node CREATED="1363570368137" ID="ID_341016587" MODIFIED="1363570369176" TEXT="\settowidth{\len}{text}"/>
+</node>
+<node CREATED="1363570411538" ID="ID_199508242" MODIFIED="1363570461451" TEXT="predefined length">
+<node CREATED="1363570462636" ID="ID_434823600" MODIFIED="1363570469643" TEXT="\width">
+<node CREATED="1363570531995" ID="ID_595562316" MODIFIED="1363570533184" TEXT="These length parameters can be used in the arguments of the box-making commands "/>
+</node>
+<node CREATED="1363570469836" ID="ID_775433977" MODIFIED="1363570472019" TEXT="\height"/>
+<node CREATED="1363570472248" ID="ID_523522133" MODIFIED="1363570475002" TEXT="\depth"/>
+<node CREATED="1363570475257" ID="ID_1879467553" MODIFIED="1363570480865" TEXT="\totalheight">
+<node CREATED="1363570513576" ID="ID_794180959" MODIFIED="1363570517932" TEXT="\totalheight equals \height + \depth"/>
+</node>
+</node>
+<node CREATED="1363570184883" ID="ID_4329641" MODIFIED="1363570215839" TEXT="The \newlength command defines the mandatory argument as a length command with a value of 0in. The argument must be a control sequence, as in \newlength{\foo}. An error occurs if \foo is already defined."/>
+</node>
+<node CREATED="1363570601900" FOLDED="true" ID="ID_1164476112" MODIFIED="1363570963403" TEXT="\newsavebox">
+<node CREATED="1363570610457" ID="ID_796181124" MODIFIED="1363570610457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newsavebox{<var>cmd</var>}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1363570611839" FOLDED="true" ID="ID_1580380392" MODIFIED="1363570960593" TEXT="\newenvironment &amp; \renewenvironment">
+<node CREATED="1363570645956" ID="ID_456966646" MODIFIED="1363570654682">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newenvironment{<var>env</var>}[<var>nargs</var>]{<var>begdef</var>}{<var>enddef</var>}
+\newenvironment{<var>env</var>}[<var>nargs</var>][<var>default</var>]{<var>begdef</var>}{<var>enddef</var>}
+\renewenvironment{<var>env</var>}[<var>nargs</var>]{<var>begdef</var>}{<var>enddef</var>}</pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1363570705498" ID="ID_1542795961" MODIFIED="1363570706556" TEXT="env">
+<node CREATED="1363570722388" ID="ID_612589187" MODIFIED="1363570723604" TEXT="The name of the environment"/>
+<node CREATED="1363570724246" ID="ID_1166293566" MODIFIED="1363570743670" TEXT="for \newenvironment">
+<node CREATED="1363570762782" ID="ID_1662099616" MODIFIED="1363570764123" TEXT="env must not be an existing environment, and the command \env must be undefined. "/>
+</node>
+<node CREATED="1363570771370" ID="ID_1393559201" MODIFIED="1363570774351" TEXT="for \renewenvironment">
+<node CREATED="1363570783067" ID="ID_195828095" MODIFIED="1363570784112" TEXT="env must be the name of an existing environment"/>
+</node>
+</node>
+<node CREATED="1363570799856" ID="ID_1779822163" MODIFIED="1363570801157" TEXT="nargs">
+<node CREATED="1363570816612" ID="ID_1224899921" MODIFIED="1363570817771" TEXT="An integer from 1 to 9 denoting the number of arguments of the newly-defined environment. The default is no arguments."/>
+</node>
+<node CREATED="1363570837416" ID="ID_643407762" MODIFIED="1363570838423" TEXT="default">
+<node CREATED="1363570851294" ID="ID_1786866143" MODIFIED="1363570852580" TEXT="If this is specified, the first argument is optional, and default gives the default value for that argument."/>
+</node>
+<node CREATED="1363570910197" ID="ID_1813661045" MODIFIED="1363570911390" TEXT="begdef">
+<node CREATED="1363570917116" ID="ID_1152049867" MODIFIED="1363570924377" TEXT="The text expanded at every occurrence of \begin{env}; a construct of the form #n in begdef is replaced by the text of the nth argument."/>
+</node>
+<node CREATED="1363570930415" ID="ID_1868665320" MODIFIED="1363570931474" TEXT="enddef">
+<node CREATED="1363570939186" ID="ID_756743021" MODIFIED="1363570940231" TEXT="The text expanded at every occurrence of \end{env}. It may not contain any argument parameters."/>
+</node>
+</node>
+<node CREATED="1363570694762" ID="ID_74106593" MODIFIED="1363570695952" TEXT="\begin{env} &#x2026; \end{env}"/>
+</node>
+<node CREATED="1363570967437" FOLDED="true" ID="ID_1524144608" MODIFIED="1363571115111" TEXT="\newtheorem">
+<node CREATED="1363570977802" ID="ID_715258074" MODIFIED="1363570977802">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newtheorem{<var>newenv</var>}{<var>label</var>}[<var>within</var>]
+\newtheorem{<var>newenv</var>}[<var>numbered_like</var>]{<var>label</var>}</pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1363570994742" ID="ID_1452199552" MODIFIED="1363570995838" TEXT="newenv">
+<node CREATED="1363571006833" ID="ID_1578078119" MODIFIED="1363571008147" TEXT="The name of the environment to be defined; must not be the name of an existing environment or otherwise defined."/>
+</node>
+<node CREATED="1363571020951" ID="ID_998773173" MODIFIED="1363571021857" TEXT="label">
+<node CREATED="1363571044389" ID="ID_938522969" MODIFIED="1363571045449" TEXT="The text printed at the beginning of the environment, before the number. For example, &#x2018;Theorem&#x2019;."/>
+</node>
+<node CREATED="1363571053239" ID="ID_1831442395" MODIFIED="1363571054191" TEXT="numbered_like">
+<node CREATED="1363571078616" ID="ID_656780999" MODIFIED="1363571079882" TEXT="(Optional.) The name of an already defined theorem-like environment; the new environment will be numbered just like numbered_like."/>
+</node>
+<node CREATED="1363571087183" ID="ID_581574767" MODIFIED="1363571088178" TEXT="within">
+<node CREATED="1363571099220" ID="ID_689391679" MODIFIED="1363571100459" TEXT="(Optional.) The name of an already defined counter, a sectional unit. The new theorem counter will be reset at the same time as the within counter."/>
+</node>
+</node>
+<node CREATED="1363570984747" ID="ID_1160121056" MODIFIED="1363570985699" TEXT="This command defines a theorem-like environment. Arguments:"/>
+</node>
+<node CREATED="1363571116131" FOLDED="true" ID="ID_1870636671" MODIFIED="1363571183726" TEXT="\newfont">
+<node CREATED="1363571124352" ID="ID_1133957003" MODIFIED="1363571124352">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newfont{<var>cmd</var>}{<var>fontname</var>}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1363571167866" ID="ID_1166096825" MODIFIED="1363571168959" TEXT="Defines a control sequence \cmd, which must not already be defined, to make fontname be the current font. The file looked for on the system is named &#x2018;fontname.tfm&#x2019;."/>
+<node CREATED="1363571174439" ID="ID_1123760923" MODIFIED="1363571175469" TEXT="This is a low-level command for setting up to use an individual font. More commonly, fonts are defined in families through &#x2018;.fd&#x2019; files."/>
+</node>
+<node CREATED="1363571184577" ID="ID_1358520008" MODIFIED="1363571185702" TEXT="\protect">
+<node CREATED="1363571276410" ID="ID_1716063376" MODIFIED="1363571277811" TEXT="Footnotes, line breaks, any command that has an optional argument, and many more are so-called fragile commands. When a fragile command is used in certain contexts, called moving arguments, it must be preceded by \protect. In addition, any fragile commands within the arguments must have their own \protect."/>
+</node>
+</node>
 <node CREATED="1360083576777" ID="ID_1117161769" MODIFIED="1360768351499" TEXT="documentclass">
 <node CREATED="1360083639048" ID="ID_1996939955" MODIFIED="1360083647978" TEXT="\documentclass"/>
 </node>
 <node CREATED="1359820035386" ID="ID_284304188" MODIFIED="1360768351483" TEXT="package">
 <node CREATED="1360083660130" ID="ID_566941087" MODIFIED="1360083664552" TEXT="\usepackage"/>
 </node>
-<node CREATED="1360083550891" FOLDED="true" ID="ID_1779322344" MODIFIED="1363358097388" TEXT="command">
+<node CREATED="1360083550891" FOLDED="true" ID="ID_1779322344" MODIFIED="1363581675501" TEXT="command">
 <node CREATED="1360083669823" ID="ID_516666485" MODIFIED="1360083679729" TEXT="\geometry"/>
 <node CREATED="1360083680038" ID="ID_370638574" MODIFIED="1360083689414" TEXT="\title"/>
 <node CREATED="1360083689723" ID="ID_44526656" MODIFIED="1360083692656" TEXT="\auther"/>
@@ -1000,6 +1227,118 @@
 <node CREATED="1360084105300" ID="ID_909271067" MODIFIED="1360084106764" TEXT="\tableofcontents"/>
 <node CREATED="1360084115625" ID="ID_500202042" MODIFIED="1360084116740" TEXT="\section"/>
 <node CREATED="1360083703074" ID="ID_683796632" MODIFIED="1360083704969" TEXT="\end"/>
+<node CREATED="1363571437034" ID="ID_406372635" MODIFIED="1363571444238" TEXT="robust">
+<node CREATED="1363571788842" ID="ID_1340548168" MODIFIED="1363571792879" TEXT="a command that expands into legal TeX code during the save process"/>
+</node>
+<node CREATED="1363571444425" ID="ID_1777819231" MODIFIED="1363571447273" TEXT="fragile">
+<node CREATED="1363571449332" ID="ID_112153872" MODIFIED="1363571455004" TEXT="moving arguments"/>
+<node CREATED="1363571777453" ID="ID_725164188" MODIFIED="1363571794756" TEXT="a command that expands into illegal TeX code during the save process."/>
+</node>
+</node>
+<node CREATED="1363581677781" ID="ID_751221306" MODIFIED="1363581794256" TEXT="Math formulae">
+<node CREATED="1363582491152" ID="ID_1278472822" MODIFIED="1363582524085" TEXT="\begin{env}...">
+<node CREATED="1363581684711" ID="ID_1801536990" MODIFIED="1363582504450" TEXT="\begin{math}...">
+<node CREATED="1363581952015" ID="ID_929098143" MODIFIED="1363581998078" TEXT="\( ... \) or $ ... $"/>
+</node>
+<node CREATED="1363581838387" ID="ID_1668731963" MODIFIED="1363582504440" TEXT="\begin{displaymath}...">
+<node CREATED="1363581974822" ID="ID_450476198" MODIFIED="1363581986121" TEXT="\[ ... \]"/>
+</node>
+<node CREATED="1363581857695" ID="ID_1484052495" MODIFIED="1363582504440" TEXT="\begin{equation}..."/>
+</node>
+<node CREATED="1363582538855" ID="ID_1366046917" MODIFIED="1363582540524" TEXT="\cmd">
+<node CREATED="1363582111475" ID="ID_124879066" MODIFIED="1363582537290" TEXT="\boldmath">
+<node CREATED="1363582143902" ID="ID_1332140864" MODIFIED="1363582144938" TEXT="The \boldmath command changes math letters and symbols to be in a bold font. It is used outside of math mode. "/>
+</node>
+<node CREATED="1363582115457" ID="ID_415707561" MODIFIED="1363582119603" TEXT="\unboldmath">
+<node CREATED="1363582153824" ID="ID_1638397618" MODIFIED="1363582154815" TEXT="the \unboldmath command changes math glyphs to be in a normal font; it too is used outside of math mode."/>
+</node>
+<node CREATED="1363582120843" ID="ID_1313416147" MODIFIED="1363582127443" TEXT="\dispalystyle">
+<node CREATED="1363582164971" ID="ID_566126361" MODIFIED="1363582167155" TEXT="The \displaystyle declaration forces the size and style of the formula to be that of displaymath"/>
+</node>
+</node>
+<node CREATED="1363582484205" ID="ID_924368451" LINK="#ID_792141372" MODIFIED="1363583023981" TEXT="\delimiter">
+<arrowlink DESTINATION="ID_792141372" ENDARROW="Default" ENDINCLINATION="535;0;" ID="Arrow_ID_795234816" STARTARROW="None" STARTINCLINATION="535;0;"/>
+</node>
+</node>
+<node CREATED="1363574455336" FOLDED="true" ID="ID_379520401" MODIFIED="1363581670979" TEXT="environment">
+<node CREATED="1363574473544" ID="ID_321346993" MODIFIED="1363574824087" TEXT="array (math)">
+<node CREATED="1363574917694" ID="ID_165563740" MODIFIED="1363579776420">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="example">
+      <pre class="example">\begin{array}[<var>valign</var>]{<var>template</var>}
+<var>col1 text</var>&amp;<var>col1 text</var>&amp;<var>coln</var>}\\
+...
+\end{array}</pre>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1363574931923" ID="ID_942058774" MODIFIED="1363575025251" TEXT="template ([lcr]+)">
+<node CREATED="1363574969997" ID="ID_510153561" MODIFIED="1363574971446" TEXT="specifies the number of columns and the alignment of items within the columns.  ">
+<node CREATED="1363574982816" ID="ID_46454524" MODIFIED="1363574995109" TEXT="alignment">
+<node CREATED="1363574996953" ID="ID_1376450014" MODIFIED="1363580181653" TEXT="l">
+<icon BUILTIN="full-1"/>
+<node CREATED="1363575030369" ID="ID_406071249" MODIFIED="1363575031673" TEXT="left"/>
+</node>
+<node CREATED="1363574999495" ID="ID_955014250" MODIFIED="1363580184113" TEXT="c">
+<icon BUILTIN="full-2"/>
+<node CREATED="1363575032783" ID="ID_522942057" MODIFIED="1363575034392" TEXT="center"/>
+</node>
+<node CREATED="1363575000251" ID="ID_998558160" MODIFIED="1363580186509" TEXT="r">
+<icon BUILTIN="full-3"/>
+<node CREATED="1363575035532" ID="ID_1400001951" MODIFIED="1363575040770" TEXT="right"/>
+</node>
+</node>
+<node CREATED="1363575044164" ID="ID_1988510738" MODIFIED="1363575051531" TEXT="number of columns">
+<node CREATED="1363575058045" ID="ID_605282324" MODIFIED="1363575068839" TEXT="length of template"/>
+</node>
+</node>
+<node CREATED="1363575203323" ID="ID_1116947131" MODIFIED="1363575400423" TEXT="Don&apos;t put any extra space in the argument.  "/>
+</node>
+<node CREATED="1363579778815" FOLDED="true" ID="ID_1048223754" MODIFIED="1363581366614" TEXT="valign">
+<node CREATED="1363580171018" ID="ID_747797711" MODIFIED="1363581152967" TEXT="t">
+<icon BUILTIN="full-1"/>
+<node CREATED="1363580207709" ID="ID_420579623" MODIFIED="1363580209895" TEXT="top">
+<node CREATED="1363581327635" ID="ID_997763603" MODIFIED="1363581341128" TEXT="t makes item line up with the top row&apos;s center line."/>
+</node>
+</node>
+<node CREATED="1363580172287" ID="ID_432649500" MODIFIED="1363581153526" TEXT="c">
+<icon BUILTIN="full-2"/>
+<node CREATED="1363580211256" ID="ID_569156825" MODIFIED="1363580212890" TEXT="center">
+<node CREATED="1363580961051" ID="ID_1171899464" MODIFIED="1363581359216" TEXT="TeX draws an imaginary horizontal center line through every formula, at the  height where a minus sign at the beginning of the formula would go. An individual array item is itself a formula with a center line. The items in a row of an  array are positioned vertically so their center lines are all at the same height.  ">
+<node CREATED="1363581226611" ID="ID_1719868440" MODIFIED="1363581229340" TEXT="Normally, the center line of an array lies where you would expect it, halfway  between the top and bottom. "/>
+</node>
+</node>
+</node>
+<node CREATED="1363579783238" ID="ID_886369959" MODIFIED="1363581154279" TEXT="b">
+<icon BUILTIN="full-3"/>
+<node CREATED="1363579786825" ID="ID_10876549" MODIFIED="1363579793285" TEXT="bottom">
+<node CREATED="1363581353483" ID="ID_440291713" MODIFIED="1363581356468" TEXT="b makes it line  up with the bottom row&apos;s center line.  "/>
+</node>
+</node>
+</node>
+<node CREATED="1363575261751" ID="ID_1453513545" MODIFIED="1363575263510" TEXT="&amp;">
+<node CREATED="1363575264403" ID="ID_1516391067" MODIFIED="1363575276093" TEXT="item separator">
+<node CREATED="1363575333625" ID="ID_514899484" MODIFIED="1363575360623" TEXT="no &amp; after the last item in a row."/>
+</node>
+</node>
+<node CREATED="1363575287529" ID="ID_1412296046" MODIFIED="1363575288803" TEXT="\\">
+<node CREATED="1363575290404" ID="ID_1135602167" MODIFIED="1363575303321" TEXT="row separator">
+<node CREATED="1363575354719" ID="ID_926383236" MODIFIED="1363575355795" TEXT="no \\ after the last row. "/>
+<node CREATED="1363575547890" ID="ID_922322993" MODIFIED="1363575557860" TEXT="The \\  command is fragile.  "/>
+</node>
+</node>
+<node CREATED="1363575488820" ID="ID_558519474" MODIFIED="1363575491307" TEXT="item">
+<node CREATED="1363575463601" ID="ID_509478451" MODIFIED="1363575498785" TEXT="In mathematical formulas, array columns are usually centered. However, a  column of numbers often looks best flush right. "/>
+<node CREATED="1363575530301" ID="ID_557036436" MODIFIED="1363575531571" TEXT="Each item in an array is a separate formula, just as if it were in its own  math environment. A declaration that appears in an item is local to the item;  its scope is ended by the &amp;, \\, or \end{array} that ends the item. "/>
+</node>
+</node>
+<node CREATED="1363575383933" ID="ID_1900693475" MODIFIED="1363575385106" TEXT="&#x422;&#x415;&#x425; is in math mode when processing each array element, so it ignores spaces.  "/>
+</node>
 </node>
 <node CREATED="1361443815087" FOLDED="true" ID="ID_1562045608" MODIFIED="1363421019508" TEXT="&#x4e2d;&#x6587;&#x652f;&#x6301;">
 <node CREATED="1361443823486" ID="ID_464275057" MODIFIED="1363420641646" TEXT="CJK(recommended)">
@@ -1362,7 +1701,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360113836833" ID="ID_81663138" MODIFIED="1363535348045" POSITION="right" TEXT="TeX (by Donald E. Knuth)">
+<node CREATED="1360113836833" ID="ID_81663138" MODIFIED="1363584922598" POSITION="right" TEXT="TeX (by Donald E. Knuth)">
 <node CREATED="1360658520714" FOLDED="true" ID="ID_1487996599" MODIFIED="1363441953957" TEXT="TeX logo">
 <node CREATED="1360658529959" ID="ID_759485716" MODIFIED="1360658531761" TEXT="\hbox{T\kern-.1667em\lower.5ex\hbox{E}\kern-.125em X}"/>
 </node>
@@ -1509,7 +1848,7 @@
 <node CREATED="1360204957272" ID="ID_81115487" MODIFIED="1360204986684" TEXT="ignore leading space"/>
 </node>
 </node>
-<node CREATED="1360509993142" ID="ID_1604414062" MODIFIED="1363528575001" TEXT="control sequence">
+<node CREATED="1360509993142" ID="ID_1604414062" MODIFIED="1363584945146" TEXT="control sequence">
 <node CREATED="1360249263919" FOLDED="true" ID="ID_1967258907" MODIFIED="1363528582454" TEXT="control sequence">
 <node CREATED="1360250253865" ID="ID_697228774" MODIFIED="1360258190419" TEXT="control word">
 <node CREATED="1360250270542" ID="ID_1852179839" MODIFIED="1360250593208" TEXT="/\\[[:alpha:]]+(?![[:alpha:]])/">
@@ -1664,19 +2003,18 @@
 </node>
 <node CREATED="1360650769771" ID="ID_558410028" MODIFIED="1360773499804" TEXT="\vrule"/>
 </node>
-<node CREATED="1360405499811" FOLDED="true" ID="ID_25765209" MODIFIED="1362107047455" TEXT="\hsize">
+<node CREATED="1360405499811" ID="ID_25765209" MODIFIED="1363593306037" TEXT="\hsize">
 <node CREATED="1360406137928" ID="ID_1789441077" MODIFIED="1360406150677" TEXT="Overfull \hbox">
 <node CREATED="1360406221382" ID="ID_893137246" MODIFIED="1360406296592" TEXT="no good way to break the given paragraphs into lines that are exactly hsize wide,without making the spaces between words come out too large or too small.">
 <node CREATED="1360406596274" ID="ID_1320455809" MODIFIED="1360406633638" TEXT="(1) a warning message printed on your terminal"/>
-<node CREATED="1360406634050" ID="ID_719164329" MODIFIED="1360406634050" TEXT=""/>
 </node>
 </node>
 </node>
 <node CREATED="1360497786917" ID="ID_46808804" MODIFIED="1360497790975" TEXT="\hf"/>
-<node CREATED="1360496433895" FOLDED="true" ID="ID_675035103" MODIFIED="1362107049936" TEXT="\tolerance">
+<node CREATED="1360496433895" ID="ID_675035103" MODIFIED="1363593371393" TEXT="\tolerance">
 <node CREATED="1360496457927" ID="ID_852508974" MODIFIED="1360496461361" TEXT="badness">
 <node CREATED="1360496508198" ID="ID_1706642382" MODIFIED="1360496556903" TEXT="TeX assigns a  numerical value called &quot;badness&quot; to each line that it sets, in order to assess the quality of the spacing."/>
-<node CREATED="1360496641695" ID="ID_847305994" MODIFIED="1360496677546" TEXT="Plain TeC normally stipulates that no line&apos;s badness should exceed 200."/>
+<node CREATED="1360496641695" ID="ID_847305994" MODIFIED="1363593396803" TEXT="Plain TeX normally stipulates that no line&apos;s badness should exceed 200."/>
 </node>
 <node CREATED="1360496575613" ID="ID_415599337" MODIFIED="1360496586239" TEXT="\tolerance=1600">
 <node CREATED="1360496587306" ID="ID_1053861654" MODIFIED="1360496624373" TEXT="lines with badness up to 1600 will be tolerated."/>
@@ -1688,11 +2026,11 @@
 <node CREATED="1360510483763" ID="ID_1875963487" MODIFIED="1360510485668" TEXT="\string"/>
 <node CREATED="1360510543004" ID="ID_1117653729" MODIFIED="1360510567061" TEXT="\csname&lt;tokens&gt;\endcsname"/>
 <node CREATED="1363528586727" ID="ID_314025672" MODIFIED="1363528589209" TEXT="\relax">
-<node CREATED="1363528590397" ID="ID_1465535485" MODIFIED="1363528598549" TEXT="do nothing">
-<node CREATED="1363528599187" ID="ID_1295441996" MODIFIED="1363528648314" TEXT="\def{extraspace{\nobreak \hskip 0pt plus .16em \relax}">
+<node CREATED="1363528590397" ID="ID_1465535485" MODIFIED="1363573664344" TEXT="do nothing,no-op,nop">
+<node CREATED="1363528599187" FOLDED="true" ID="ID_1295441996" MODIFIED="1363573810802" TEXT="\def{extraspace{\nobreak \hskip 0pt plus .16em \relax}">
 <node CREATED="1363528670592" ID="ID_676286989" MODIFIED="1363528731985" TEXT="the \relax at the end of \extraspace is a precaution in case the next word is &quot;minus&quot;"/>
 </node>
-<node CREATED="1363528969736" ID="ID_1198056048" MODIFIED="1363529092209">
+<node CREATED="1363528969736" FOLDED="true" ID="ID_1198056048" MODIFIED="1363573811314">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1708,9 +2046,39 @@
       \def{struct{\relax\ifmmode\copy\structbox\else\unhcopy\structbox\fi}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1363529099672" ID="ID_1255750277" MODIFIED="1363529193386" TEXT="the \relax in this macro and  in others below is necessary in case \struct appears first in an alignment entry,because TeX is in a somewhat unpredictable mode at such times."/>
+</node>
+<node CREATED="1363573815904" ID="ID_808137729" MODIFIED="1363573824522" TEXT="\relax does nothing by itself, it is a safe command to stop expansion of another command.">
+<icon BUILTIN="full-1"/>
+<node CREATED="1363573860990" ID="ID_1656973081" MODIFIED="1363573866977" TEXT="plain tex">
+<node CREATED="1363573829654" ID="ID_219969353" MODIFIED="1363573888498" TEXT="\hskip 5pt\relax">
+<node CREATED="1363573890169" ID="ID_278458972" MODIFIED="1363573892056" TEXT="in the absence of \relax, the \hskip will keep looking for plus or minus"/>
+</node>
+</node>
+<node CREATED="1363573901704" ID="ID_226169920" MODIFIED="1363573902651" TEXT="latex">
+<node CREATED="1363573928400" ID="ID_1039191513" MODIFIED="1363573929512" TEXT="at the end of a line, \\ \relax [...] will prevent what is in braces from being interpreted as a dimension that would add vertical space"/>
+</node>
+</node>
+<node CREATED="1363573969972" ID="ID_1248627416" MODIFIED="1363573980889" TEXT="TeX&apos;s rules also dictate that in an \if statement, an undefined macro will compare equal to \relax. So it&apos;s sort of a general-purpose nothing.">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1363584954882" ID="ID_466878251" MODIFIED="1363585304335" TEXT="\relax vs. {}">
+<node CREATED="1363585307254" ID="ID_935370367" MODIFIED="1363585308966" TEXT="demos">
+<node CREATED="1363585009482" ID="ID_1923523582" MODIFIED="1363585310179" TEXT="\documentclass{article} &#xa;\begin{document}  &#xa;\[ &#xa;\begin{array}{rl} &#xa; +9mm   &amp; +9m^2 \\     %1&#xa;[+9mm] &amp; [+3m]^2 \\{} %2&#xa; +9mm   &amp; +9m^2 \\{}&#xa;[+9mm] &amp; [+3m]^2 \\\relax&#xa; +9mm   &amp; +9m^2 \\\relax &#xa;[+9mm] &amp; [+3m]^2 &#xa;\end{array} &#xa;\]&#xa;\end{document} ">
+<node CREATED="1363585145321" ID="ID_338113155" MODIFIED="1363585175852" TEXT="">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="button_cancel"/>
+<node CREATED="1363585201617" ID="ID_158621924" MODIFIED="1363585203332" TEXT="If you leave there \\ alone, the [+9mm] is interpreted as an optional argument to \\ and transformed into a vertical space."/>
+</node>
+<node CREATED="1363585150491" ID="ID_173494738" MODIFIED="1363585182941" TEXT="">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="button_cancel"/>
+<node CREATED="1363585217833" ID="ID_1162164492" MODIFIED="1363585218951" TEXT="If you use {}, then it inserts an &quot;empty thing&quot; into the formula and the + is improperly spaced."/>
+</node>
+</node>
+</node>
+<node CREATED="1363585314692" ID="ID_1838679626" MODIFIED="1363585314692" TEXT=""/>
 </node>
 </node>
 </node>
@@ -1959,7 +2327,7 @@
 <node CREATED="1360522998395" ID="ID_333832876" MODIFIED="1360523001283" TEXT="\j"/>
 </node>
 </node>
-<node CREATED="1360648333527" ID="ID_663870707" MODIFIED="1363535348076" TEXT="boxes and glue (paste-up)">
+<node CREATED="1360648333527" FOLDED="true" ID="ID_663870707" MODIFIED="1363593142704" TEXT="boxes and glue (paste-up)">
 <node CREATED="1360648685557" ID="ID_1291883997" MODIFIED="1363521924040" TEXT="boxes">
 <node CREATED="1360648692273" ID="ID_715909684" MODIFIED="1360648772459" TEXT="Boxes in TeX are two-dimensional things with a rectangular shape,having three associated measurements called height,width,and depth.">
 <node CREATED="1360648789992" ID="ID_1971753621" MODIFIED="1360648803083" TEXT="baseline"/>
@@ -2000,7 +2368,7 @@
 <node CREATED="1360651157553" ID="ID_590135931" MODIFIED="1360651202405" TEXT="reference points appear in the same vertical column."/>
 </node>
 </node>
-<node CREATED="1360650937939" FOLDED="true" ID="ID_296426049" MODIFIED="1360654140503" TEXT="traditional typesetting">
+<node CREATED="1360650937939" FOLDED="true" ID="ID_296426049" MODIFIED="1363589703397" TEXT="traditional typesetting">
 <node CREATED="1360653935910" ID="ID_1308706698" MODIFIED="1360653960320" TEXT="type case">
 <node CREATED="1360653966689" ID="ID_361083892" MODIFIED="1360653977921" TEXT="choose letters from type case"/>
 </node>
@@ -2014,19 +2382,72 @@
 <node CREATED="1360654096361" ID="ID_1958540659" MODIFIED="1360654134362" TEXT="lock the type up tightly by adusting external wedges called &quot;quoins.&quot;"/>
 </node>
 </node>
-<node CREATED="1360654145745" ID="ID_775406445" MODIFIED="1360654150097" TEXT="\hbox">
-<node CREATED="1360654141546" ID="ID_1210916784" MODIFIED="1360656170665" TEXT="horizontal box"/>
+<node CREATED="1363589704204" ID="ID_282459697" MODIFIED="1363589705853" TEXT="box">
+<node CREATED="1360654145745" ID="ID_775406445" MODIFIED="1363589809676" TEXT="\hbox&lt;box specification&gt;{&lt;horizontal material&gt;}">
+<node CREATED="1360654141546" ID="ID_1210916784" MODIFIED="1363590716478" TEXT="box specification">
+<node CREATED="1363590717650" ID="ID_1945663106" MODIFIED="1363590728973" TEXT="to&lt;dimen&gt;"/>
+<node CREATED="1363590735797" ID="ID_949172541" MODIFIED="1363590740121" TEXT="spread&lt;dimen&gt;"/>
+<node CREATED="1363590740583" ID="ID_227607232" MODIFIED="1363590750159" TEXT="empty"/>
 </node>
-<node CREATED="1360656116043" ID="ID_1627302553" MODIFIED="1360656118752" TEXT="\vbox">
-<node CREATED="1360656112067" ID="ID_957990428" MODIFIED="1360656180417" TEXT="vertical box"/>
+</node>
+<node CREATED="1363589821129" ID="ID_1365428875" MODIFIED="1363589842419" TEXT="\vbox&lt;box specification&gt;{&lt;vertical material&gt;}"/>
+<node CREATED="1363589850694" ID="ID_1976719736" MODIFIED="1363589855545" TEXT="\vtop&lt;box specification&gt;{&lt;vertical material&gt;} "/>
+<node CREATED="1363589861481" ID="ID_94213156" MODIFIED="1363589875290" TEXT="\box&lt;register number&gt;">
+<node CREATED="1363590858017" ID="ID_655345684" MODIFIED="1363590866671" TEXT="&lt;register number&gt;">
+<node CREATED="1363590868226" ID="ID_1527217063" MODIFIED="1363590872585" TEXT="0~255"/>
+</node>
+<node CREATED="1363590876857" ID="ID_386106675" MODIFIED="1363590919276" TEXT="make register void"/>
+</node>
+<node CREATED="1363589879377" ID="ID_1039446760" MODIFIED="1363589885317" TEXT="\copy&lt;register number&gt;">
+<node CREATED="1363590902313" ID="ID_845689138" MODIFIED="1363590913267" TEXT="make register unchanged"/>
+</node>
+<node CREATED="1363589892548" ID="ID_1706500895" MODIFIED="1363589909003" TEXT="\vsplit&lt;register number&gt; to &lt;dimen&gt;"/>
+<node CREATED="1363590939845" ID="ID_1503652169" MODIFIED="1363590980729" TEXT="\vcenter&lt;box specification&gt;{&lt;vertical material&gt;} ($...$)"/>
+<node CREATED="1363591122872" FOLDED="true" ID="ID_1958204687" MODIFIED="1363591916962" TEXT="\lastbox">
+<node CREATED="1363591234042" ID="ID_1584960633" MODIFIED="1363591302383" TEXT="if the last item on the current horizontal list or vertical list is an hbox or vbox, it is removed from the list and it becomes the  \lastbox; otherwise \lastbox is void."/>
+<node CREATED="1363591722232" ID="ID_1001890371" MODIFIED="1363591731836" TEXT="restricted horizontal mode">
+<node CREATED="1363591753216" ID="ID_1963791554" MODIFIED="1363591758317" TEXT="allowed"/>
+</node>
+<node CREATED="1363591714002" ID="ID_1507968630" MODIFIED="1363591718848" TEXT="horizontal mode">
+<node CREATED="1363591759589" ID="ID_137983416" MODIFIED="1363591761908" TEXT="allowed"/>
+</node>
+<node CREATED="1363591700770" ID="ID_176452082" MODIFIED="1363591713774" TEXT="internal vertical mode">
+<node CREATED="1363591763127" ID="ID_1407282850" MODIFIED="1363591765078" TEXT="allowed"/>
+</node>
+<node CREATED="1363591767469" ID="ID_502144888" MODIFIED="1363591796311" TEXT="vertical mode">
+<node CREATED="1363591797703" ID="ID_291484618" MODIFIED="1363591815738" TEXT="disallowed"/>
+</node>
+<node CREATED="1363591825688" ID="ID_96341501" MODIFIED="1363591830515" TEXT="math mode">
+<node CREATED="1363591831342" ID="ID_1081952381" MODIFIED="1363591837177" TEXT="void"/>
+</node>
+<node CREATED="1363591842158" ID="ID_1741424327" MODIFIED="1363591883308" TEXT="At he beginning of a paragraph, {\setbox0=\lastbox} removes the indentation box"/>
+</node>
+<node CREATED="1363591917648" ID="ID_473247222" MODIFIED="1363591920708" TEXT="\unskip">
+<node CREATED="1363591987301" ID="ID_1953073469" MODIFIED="1363592068858" TEXT="the operation \unskip is something like \lastbox, except that it applies to glue instead of to boxes. if the last thing on the current  list  is a glue item(or leaders,es explained below), it is removed."/>
+<node CREATED="1363592069270" ID="ID_76899283" MODIFIED="1363592132248" TEXT="You can&apos;t remove glue from the current page by using \unskip in vertical mode, but  you can say &apos;\vskip-\lastskip&apos;, which has almost the same effect."/>
+</node>
+</node>
+<node CREATED="1363588869911" FOLDED="true" ID="ID_1268809043" MODIFIED="1363589732412" TEXT="rule">
+<node CREATED="1363588873112" ID="ID_241822665" MODIFIED="1363588913349" TEXT="\vrule height&lt;dimen&gt; width&lt;dimen&gt; depth&lt;dimen&gt;">
+<node CREATED="1363588952049" ID="ID_1445837143" MODIFIED="1363588966066" TEXT="horizontal mode"/>
+</node>
+<node CREATED="1363588873112" ID="ID_1355178475" MODIFIED="1363588932938" TEXT="\hrule height&lt;dimen&gt; width&lt;dimen&gt; depth&lt;dimen&gt;">
+<node CREATED="1363588968862" ID="ID_1763420356" MODIFIED="1363588972484" TEXT="vertical mode"/>
+</node>
+<node CREATED="1363589115919" ID="ID_349163004" MODIFIED="1363589131951" TEXT="\moveright &lt;dimen&gt; \vbox{...}"/>
+<node CREATED="1363589197587" ID="ID_457918317" MODIFIED="1363589214384" TEXT="vbox vs .vrule">
+<node CREATED="1363589215437" ID="ID_525968508" MODIFIED="1363589257216" TEXT="\moveright &lt;dimen&gt; \vbox{\hrule width3in}">
+<node CREATED="1363589273118" ID="ID_1465419631" MODIFIED="1363589333167" TEXT="produced more space above and below the rule than when simply saied &quot;\hrule width 4in&quot; width no \vbox">
+<node CREATED="1363589351222" ID="ID_275257525" MODIFIED="1363589457998" TEXT="The interline skip is added for vboxes, but not for rules;say \nointerlineskip,before and after the move the  \moveright"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1360660510742" ID="ID_1841535056" MODIFIED="1360660516038" TEXT="\kern">
 <node CREATED="1360661122375" ID="ID_824667981" MODIFIED="1360661149601" TEXT="insert blank space"/>
 </node>
 <node CREATED="1360660516360" ID="ID_1667182083" MODIFIED="1360660525045" TEXT="\lower"/>
 <node CREATED="1360660954906" ID="ID_1014999249" MODIFIED="1360660960189" TEXT="\raise"/>
-<node CREATED="1360661792987" ID="ID_660846321" MODIFIED="1360661796488" TEXT="\setbox"/>
-<node CREATED="1360661796730" ID="ID_801809118" MODIFIED="1360661802573" TEXT="\showbox"/>
 </node>
 <node CREATED="1360662583074" ID="ID_1703617728" MODIFIED="1363499033965" TEXT="glue">
 <node CREATED="1360663979969" FOLDED="true" ID="ID_527751641" MODIFIED="1363499084382" TEXT="glue that uses to paste boxes together.">
@@ -2109,8 +2530,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1360495382426" FOLDED="true" ID="ID_306800526" MODIFIED="1363499023568" TEXT="dimension">
-<node CREATED="1363498760154" FOLDED="true" ID="ID_1189590647" MODIFIED="1363498884415" TEXT="infos from msdn">
+<node CREATED="1360495382426" FOLDED="true" ID="ID_306800526" MODIFIED="1363593803467" TEXT="dimension">
+<node CREATED="1363498760154" ID="ID_1189590647" MODIFIED="1363593162702" TEXT="infos from msdn">
 <node CREATED="1360495387937" ID="ID_54680890" MODIFIED="1363498881085" TEXT="DPI">
 <node CREATED="1360495426742" ID="ID_728971709" MODIFIED="1360495434919" TEXT="dot per inch">
 <node CREATED="1360495436251" ID="ID_1904786022" MODIFIED="1360496035468" TEXT="120"/>
@@ -2274,28 +2695,61 @@
 </node>
 </node>
 </node>
-<node CREATED="1360674338911" FOLDED="true" ID="ID_1983703576" MODIFIED="1363528564405" TEXT="mode">
-<node CREATED="1360674342761" FOLDED="true" ID="ID_1920709818" MODIFIED="1360674687281" TEXT="vertical mode">
+<node CREATED="1360674338911" ID="ID_1983703576" MODIFIED="1363594740255" TEXT="mode (6)">
+<node CREATED="1360674342761" ID="ID_1920709818" MODIFIED="1363595870958" TEXT="vertical mode(page)">
+<icon BUILTIN="full-1"/>
 <node CREATED="1360674352148" ID="ID_1921836359" MODIFIED="1360674388614" TEXT="building the main vertical list, from which the pages of output are derived."/>
+<node CREATED="1363594516237" ID="ID_1707814824" MODIFIED="1363594518445" TEXT="\par"/>
+<node CREATED="1363594518669" ID="ID_1060373380" MODIFIED="1363594521630" TEXT="\vskip"/>
+<node CREATED="1363595876555" ID="ID_350402257" MODIFIED="1363595888842" TEXT="\vfill"/>
 </node>
-<node CREATED="1360674389588" FOLDED="true" ID="ID_410665254" MODIFIED="1360674686593" TEXT="internal vertical mode">
+<node CREATED="1360674389588" ID="ID_410665254" MODIFIED="1363595832772" TEXT="internal vertical mode(\vbox)">
+<icon BUILTIN="full-2"/>
 <node CREATED="1360674428137" ID="ID_1556419186" MODIFIED="1360674676655" TEXT="building a vertical list for a vbox."/>
+<node CREATED="1363595835591" ID="ID_927594316" MODIFIED="1363595840859" TEXT="\vbox"/>
+<node CREATED="1363595841131" ID="ID_1614106679" MODIFIED="1363595845363" TEXT="\vtop"/>
+<node CREATED="1363595845630" ID="ID_952685447" MODIFIED="1363595848960" TEXT="\vcenter"/>
+<node CREATED="1363595849630" ID="ID_1232108411" MODIFIED="1363595853605" TEXT="\valign"/>
+<node CREATED="1363595853853" ID="ID_1489551559" MODIFIED="1363595857312" TEXT="\vadjust"/>
+<node CREATED="1363595857582" ID="ID_280009347" MODIFIED="1363595860683" TEXT="\insert"/>
 </node>
-<node CREATED="1360674464937" FOLDED="true" ID="ID_1309803853" MODIFIED="1360674685856" TEXT="horizontal mode">
+<node CREATED="1360674464937" FOLDED="true" ID="ID_1309803853" MODIFIED="1363595896015" TEXT="horizontal mode(paragraph)">
+<icon BUILTIN="full-3"/>
 <node CREATED="1360674472595" ID="ID_80054784" MODIFIED="1360674670610" TEXT="building a horizontal list for a paragraph."/>
+<node CREATED="1363594350689" ID="ID_1217273809" MODIFIED="1363594355961" TEXT="\noindent"/>
+<node CREATED="1363594356182" ID="ID_1192209892" MODIFIED="1363594360023" TEXT="\noindent"/>
+<node CREATED="1363594384747" ID="ID_1249963664" MODIFIED="1363594389022" TEXT="\parindent"/>
 </node>
-<node CREATED="1360674522027" FOLDED="true" ID="ID_1075970882" MODIFIED="1360674685094" TEXT="restricted horizontal mode">
+<node CREATED="1360674522027" FOLDED="true" ID="ID_1075970882" MODIFIED="1363596040638" TEXT="restricted horizontal mode(\hbox)">
+<icon BUILTIN="full-4"/>
 <node CREATED="1360674540090" ID="ID_1778357411" MODIFIED="1360674666738" TEXT="building a horizontal list for a hbox."/>
+<node CREATED="1363595899154" ID="ID_1461155221" MODIFIED="1363595905323" TEXT="\hbox"/>
+<node CREATED="1363595905547" ID="ID_1839700026" MODIFIED="1363595909276" TEXT="\halign"/>
 </node>
-<node CREATED="1360674554923" FOLDED="true" ID="ID_1015474668" MODIFIED="1363528551407" TEXT="math mode">
+<node CREATED="1360674554923" FOLDED="true" ID="ID_1015474668" MODIFIED="1363594702503" TEXT="math mode($...$)">
+<icon BUILTIN="full-5"/>
 <node CREATED="1360674559974" ID="ID_413590899" MODIFIED="1360674663186" TEXT="building a mathematical formula to be placed in a horizontal list."/>
 </node>
-<node CREATED="1360674594696" FOLDED="true" ID="ID_1984491463" MODIFIED="1360674683011" TEXT="display math mode">
+<node CREATED="1360674594696" FOLDED="true" ID="ID_1984491463" MODIFIED="1363594703808" TEXT="display math mode($$...$$)">
+<icon BUILTIN="full-6"/>
 <node CREATED="1360674606989" ID="ID_1474610188" MODIFIED="1360674657255" TEXT="building a mathematical formula to be placed on a line by itself, temporarily interrupting the current paragraph."/>
 </node>
+<node CREATED="1363594754796" ID="ID_982887703" MODIFIED="1363595047557" TEXT="TeX ignores blank spaces and blank lines(or \par commands) when it&apos;s in vertical or  internal vertical mode,so you need not worry that such things might change the mode or affect a printed document. A control space (\&lt;ws&gt;) will, however,be regarded as the beginning of a paragraph; the paragraph will start with a blank space after the indentation."/>
+<node CREATED="1363596047667" ID="ID_639037340" MODIFIED="1363596051805" TEXT="\kern">
+<node CREATED="1363596052834" ID="ID_141315413" MODIFIED="1363596075890" TEXT="specifies vertical spacing in vertical mode"/>
+<node CREATED="1363596076189" ID="ID_1772106571" MODIFIED="1363596102746" TEXT="spacifies horizontal spacing in horizontal mode"/>
 </node>
-<node CREATED="1361717836337" FOLDED="true" ID="ID_295831113" MODIFIED="1363528563105" TEXT="macro">
-<node CREATED="1363499213380" ID="ID_1184775335" MODIFIED="1363499248730" TEXT="definition">
+<node CREATED="1363596122076" ID="ID_1125933760" MODIFIED="1363596123431" TEXT="$">
+<node CREATED="1363596124444" ID="ID_1698058609" MODIFIED="1363596141649" TEXT="causes entry to math mode from horizontal mode."/>
+<node CREATED="1363596142675" ID="ID_260861144" MODIFIED="1363596163564" TEXT="causes exit from math mode when it occurs in math mode."/>
+</node>
+<node CREATED="1363596164452" ID="ID_178690381" MODIFIED="1363596167060" TEXT="$$">
+<node CREATED="1363596169087" ID="ID_1897218942" MODIFIED="1363596197316" TEXT="in horizontal mode,will initiate display math mode."/>
+<node CREATED="1363596197725" ID="ID_141437772" MODIFIED="1363596225772" TEXT="in restricted horizontal mode they simply denote an empty math formula."/>
+</node>
+</node>
+<node CREATED="1361717836337" ID="ID_295831113" MODIFIED="1363598980439" TEXT="macro">
+<node CREATED="1363499213380" FOLDED="true" ID="ID_1184775335" MODIFIED="1363598991410" TEXT="definition">
 <node CREATED="1361767980396" FOLDED="true" ID="ID_197167578" MODIFIED="1363499230635" TEXT="\def">
 <node CREATED="1361717842802" ID="ID_1288344220" MODIFIED="1361786893578" TEXT="/def&lt;cntl_seq&gt;{&lt;repl_text&gt;}"/>
 <node CREATED="1361766816258" FOLDED="true" ID="ID_1067660395" MODIFIED="1361786903111" TEXT="/def&lt;cntl_seq&gt;#1#2...#n{&lt;repl_text&gt;}">
@@ -2383,7 +2837,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1362127230915" FOLDED="true" ID="ID_1622293177" MODIFIED="1363499230635" TEXT="\tracingmacros=1">
+<node CREATED="1362127230915" ID="ID_1622293177" MODIFIED="1363598985928" TEXT="\tracingmacros=1">
 <node CREATED="1362127247880" ID="ID_1968193257" MODIFIED="1362127296257" TEXT="debug macro ,print infos of expansion of  macro in *.log"/>
 </node>
 <node CREATED="1362189793508" FOLDED="true" ID="ID_1596031944" MODIFIED="1363499230633" TEXT="\long\def...">
@@ -2455,7 +2909,7 @@
 </node>
 <node CREATED="1363499176148" ID="ID_1891281742" MODIFIED="1363499176148" TEXT=""/>
 </node>
-<node CREATED="1362204222072" ID="ID_1924341161" MODIFIED="1363529405604" TEXT="user-defined control sequence">
+<node CREATED="1362204222072" FOLDED="true" ID="ID_1924341161" MODIFIED="1363583032714" TEXT="user-defined control sequence">
 <node CREATED="1362204236947" ID="ID_1304119897" MODIFIED="1362204291408" TEXT="\font\cs=&lt;external font name&gt;">
 <node CREATED="1362204297545" ID="ID_530643416" MODIFIED="1362204311415" TEXT="makes \cs a font identifier"/>
 </node>
@@ -2477,29 +2931,26 @@
 <node CREATED="1363523770193" ID="ID_556034485" MODIFIED="1363523794282" TEXT="display the meaning of a control sequence while running TeX"/>
 </node>
 </node>
-<node CREATED="1361718768406" FOLDED="true" ID="ID_1689614030" MODIFIED="1363528544846" TEXT="math">
-<node CREATED="1361718771659" FOLDED="true" ID="ID_792141372" MODIFIED="1361721705582" TEXT="delimter">
-<node CREATED="1361718822632" FOLDED="true" ID="ID_1628451659" MODIFIED="1361719028852" TEXT="22 basic delimiters">
-<node CREATED="1361718776456" ID="ID_1271871192" MODIFIED="1361718833656" TEXT="("/>
-<node CREATED="1361718803561" ID="ID_533546763" MODIFIED="1361718805076" TEXT=")"/>
-<node CREATED="1361718845478" ID="ID_132283123" MODIFIED="1361718848039" TEXT="[">
-<node CREATED="1361718850307" ID="ID_271044504" MODIFIED="1361718854848" TEXT="\bbrack"/>
+<node CREATED="1363599002124" ID="ID_255039714" MODIFIED="1363599004882" TEXT="debug">
+<node CREATED="1363599005814" ID="ID_426006303" MODIFIED="1363599011414" TEXT="\tracingcommands=1"/>
+<node CREATED="1363599011605" ID="ID_1185825246" MODIFIED="1363599018016" TEXT="\tracingmacros=1"/>
 </node>
-<node CREATED="1361718856742" ID="ID_1253273628" MODIFIED="1361718858101" TEXT="]">
-<node CREATED="1361718859245" ID="ID_1447739152" MODIFIED="1361718862367" TEXT="\rbrack"/>
+<node CREATED="1361718768406" FOLDED="true" ID="ID_1689614030" MODIFIED="1363584930765" TEXT="math">
+<node CREATED="1361718771659" FOLDED="true" ID="ID_792141372" LINK="#ID_924368451" MODIFIED="1363584928234" TEXT="delimter">
+<node CREATED="1361718822632" ID="ID_1628451659" MODIFIED="1363582212100" TEXT="22 basic delimiters">
+<node CREATED="1363582965900" ID="ID_912806541" MODIFIED="1363583060869" TEXT="paired(12)">
+<node CREATED="1361718776456" ID="ID_1271871192" MODIFIED="1363583051384" TEXT="( ... )"/>
+<node CREATED="1361718845478" ID="ID_132283123" MODIFIED="1363583048981" TEXT="[ ... ]">
+<node CREATED="1361718850307" ID="ID_271044504" MODIFIED="1363582900263" TEXT="\bbrack ... \rbrack"/>
 </node>
-<node CREATED="1361718863434" ID="ID_68115487" MODIFIED="1361718866072" TEXT="\{">
-<node CREATED="1361718867155" ID="ID_965060775" MODIFIED="1361718872507" TEXT="\lbrace"/>
+<node CREATED="1361718863434" ID="ID_68115487" MODIFIED="1363583047141" TEXT="\{ ... \}">
+<node CREATED="1361718867155" ID="ID_965060775" MODIFIED="1363582915377" TEXT="\lbrace ... \rbrace"/>
 </node>
-<node CREATED="1361718875805" ID="ID_1001244265" MODIFIED="1361718878334" TEXT="\}">
-<node CREATED="1361718879557" ID="ID_676939868" MODIFIED="1361718882304" TEXT="\rbrace"/>
+<node CREATED="1361718883948" ID="ID_1119864395" MODIFIED="1363582977750" TEXT="\lfloor ... \rfloor"/>
+<node CREATED="1361718907364" ID="ID_1375357431" MODIFIED="1363582977749" TEXT="\lceil ... \rceil"/>
+<node CREATED="1361718918800" ID="ID_679368325" MODIFIED="1363582977747" TEXT="\langle ... \rangle"/>
 </node>
-<node CREATED="1361718883948" ID="ID_1119864395" MODIFIED="1361718888989" TEXT="\lfloor"/>
-<node CREATED="1361718900367" ID="ID_1233468580" MODIFIED="1361718906906" TEXT="\rfloor"/>
-<node CREATED="1361718907364" ID="ID_1375357431" MODIFIED="1361718914105" TEXT="\lceil"/>
-<node CREATED="1361718915031" ID="ID_1866986910" MODIFIED="1361718917982" TEXT="\rceil"/>
-<node CREATED="1361718918800" ID="ID_679368325" MODIFIED="1361718921532" TEXT="\langle"/>
-<node CREATED="1361718922208" ID="ID_1537465506" MODIFIED="1361718924878" TEXT="\rangle"/>
+<node CREATED="1363582980205" ID="ID_1853482669" MODIFIED="1363583072172" TEXT="non-paired(10)">
 <node CREATED="1361718926709" ID="ID_957009339" MODIFIED="1361718928770" TEXT="/"/>
 <node CREATED="1361718929166" ID="ID_588378958" MODIFIED="1361718933832" TEXT="\backslash"/>
 <node CREATED="1361718934571" ID="ID_1852989628" MODIFIED="1361718952700" TEXT="|">
@@ -2514,6 +2965,7 @@
 <node CREATED="1361719000895" ID="ID_1634647669" MODIFIED="1361719005982" TEXT="\Downarrow"/>
 <node CREATED="1361719006768" ID="ID_161346496" MODIFIED="1361719012183" TEXT="\updownarrow"/>
 <node CREATED="1361719012688" ID="ID_1800172339" MODIFIED="1361719018166" TEXT="\Updownarrow"/>
+</node>
 </node>
 <node CREATED="1361719030823" ID="ID_1239561564" MODIFIED="1361720802210" TEXT="big">
 <node CREATED="1361719546990" ID="ID_1743829528" MODIFIED="1361719596875" TEXT="l: left"/>
@@ -2542,7 +2994,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1361721707413" ID="ID_1370935367" MODIFIED="1361721713171" TEXT="math character">
+<node CREATED="1361721707413" FOLDED="true" ID="ID_1370935367" MODIFIED="1363582198459" TEXT="math character">
 <node CREATED="1361721868558" ID="ID_1478581938" MODIFIED="1361722140912" TEXT="classes (0~7) * 4096">
 <node CREATED="1361721900561" ID="ID_185539323" MODIFIED="1361721902966" TEXT="0">
 <node CREATED="1361721904126" ID="ID_1942289594" MODIFIED="1361721911444" TEXT="Ordinary"/>
@@ -2595,77 +3047,20 @@
 <node CREATED="1361719967105" ID="ID_1028270003" MODIFIED="1361719970211" TEXT="\over"/>
 </node>
 </node>
-<node CREATED="1360293503305" FOLDED="true" ID="ID_470887445" MODIFIED="1363349349722" POSITION="right" TEXT="running TeX">
-<node CREATED="1360293513477" ID="ID_651410045" MODIFIED="1363331988862" TEXT="$tex">
-<node CREATED="1360293521904" ID="ID_882991709" MODIFIED="1360305794187">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      [~]$ tex
-    </p>
-    <p>
-      This is TeX, Version 3.1415926 (TeX Live 2012/Cygwin)
-    </p>
-    <p>
-      **\relax
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      *Hello World
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      *\end
-    </p>
-    <p>
-      [1]
-    </p>
-    <p>
-      Output written on texput.dvi (1 page, 224 bytes).
-    </p>
-    <p>
-      Transcript written on texput.log.
-    </p>
-    <p>
-      [~]$ dvipdf texput.dvi
-    </p>
-    <p>
-      [~]$
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1360297393733" ID="ID_1133428339" MODIFIED="1360297414917" TEXT="&quot;**&quot; is TeX&apos;s way of asking you for an input file name">
-<node CREATED="1360297422203" ID="ID_1088972535" MODIFIED="1360404183902" TEXT="\relax">
-<node CREATED="1360404185031" ID="ID_243034032" MODIFIED="1360404227787" TEXT="read from stdin ,auto generate texput.dvi"/>
-</node>
-<node CREATED="1360404174618" ID="ID_765942250" MODIFIED="1360404267052" TEXT="[\input] foo[.dvi]">
-<node CREATED="1360404270162" ID="ID_1019720257" MODIFIED="1360404286451" TEXT="read from foo.dvi"/>
-</node>
-<node CREATED="1360404288063" ID="ID_1202329511" MODIFIED="1360404544904" TEXT="&amp;plain [\input] foo[.dvi]"/>
-<node CREATED="1360404649571" ID="ID_1083942569" MODIFIED="1360404659635" TEXT="\hsize=4in \input story">
-<node CREATED="1360404716003" ID="ID_61612335" MODIFIED="1360404718985" TEXT="\hsize">
-<node CREATED="1360404720317" ID="ID_1564682293" MODIFIED="1360404749553" TEXT="primitive of TeX that specifies the horizontal size."/>
-</node>
-</node>
-</node>
-<node CREATED="1360297500855" ID="ID_661379523" MODIFIED="1360297536364" TEXT="&quot;*&quot; wait for input"/>
-<node CREATED="1360297536954" ID="ID_1023489589" MODIFIED="1360297562627" TEXT="&quot;[1]&quot; meanning that it has finished page 1 of your input"/>
-<node CREATED="1360297563814" ID="ID_1540754023" MODIFIED="1360297563814" TEXT=""/>
-</node>
-</node>
-</node>
-<node CREATED="1360306899591" FOLDED="true" ID="ID_581907329" MODIFIED="1363335052193" POSITION="right" TEXT="help">
+<node CREATED="1360306899591" FOLDED="true" ID="ID_581907329" MODIFIED="1363585345009" POSITION="right" TEXT="help">
 <node CREATED="1360157596976" ID="ID_241689584" MODIFIED="1360157598292" TEXT="CTAN">
 <node CREATED="1360157608674" ID="ID_550542920" MODIFIED="1360157613728" TEXT="Comprehensive TEX Archive Network">
 <node CREATED="1360157627384" ID="ID_1745403621" MODIFIED="1360157628611" TEXT="http://www.ctan.org"/>
 </node>
+</node>
+<node CREATED="1363573106560" ID="ID_1034107674" MODIFIED="1363573136297" TEXT="TeX StackExchange">
+<node CREATED="1363573102208" ID="ID_939836782" MODIFIED="1363573138264" TEXT="http://tex.stackexchange.com/"/>
+</node>
+<node CREATED="1363573224526" ID="ID_1502326743" MODIFIED="1363573234536" TEXT="The UK TeX Archive">
+<node CREATED="1363573222092" ID="ID_1707385325" MODIFIED="1363573235985" TEXT="http://www.tex.ac.uk/"/>
+</node>
+<node CREATED="1363573423232" ID="ID_167065906" MODIFIED="1363573431661" TEXT="&#x4e2d;&#x6587;TeX">
+<node CREATED="1363573432476" ID="ID_883631897" MODIFIED="1363573440080" TEXT="http://search.ctex.org/"/>
 </node>
 </node>
 </node>
