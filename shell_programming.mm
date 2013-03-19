@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1337785383657" ID="ID_1913094876" MODIFIED="1363142089098" TEXT="shell programming">
-<node CREATED="1337786341968" ID="ID_1585278679" MODIFIED="1363142134048" POSITION="right" TEXT="variable">
+<node CREATED="1337785383657" ID="ID_1913094876" MODIFIED="1363679661325" TEXT="shell programming">
+<node CREATED="1337786341968" FOLDED="true" ID="ID_1585278679" MODIFIED="1363680337221" POSITION="right" TEXT="variable">
 <node CREATED="1337786359435" ID="ID_551207054" MODIFIED="1337786366604" TEXT="local variable">
 <node CREATED="1337786463868" ID="ID_1279897524" MODIFIED="1337786914768" TEXT="tcsh/csh">
 <icon BUILTIN="full-1"/>
@@ -56,7 +56,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337847253665" ID="ID_1201054718" MODIFIED="1363142135533" POSITION="right" TEXT="input">
+<node CREATED="1337847253665" FOLDED="true" ID="ID_1201054718" MODIFIED="1363680336232" POSITION="right" TEXT="input">
 <node CREATED="1337847269288" ID="ID_292648508" MODIFIED="1337847571362" TEXT="csh/tcsh">
 <node CREATED="1337847284864" ID="ID_1401778456" MODIFIED="1337847325972" TEXT="set  var = $&lt;">
 <node CREATED="1337847351656" ID="ID_293585977" MODIFIED="1337847415791" TEXT="read a line without newline and assign it to var"/>
@@ -69,7 +69,7 @@
 <node CREATED="1337847494311" ID="ID_194193238" MODIFIED="1337847521941" TEXT="read var1 [var2 [var3] ...] [&quot;string&quot;]"/>
 </node>
 </node>
-<node CREATED="1337847576625" ID="ID_622833329" MODIFIED="1363142136855" POSITION="right" TEXT="arguments">
+<node CREATED="1337847576625" FOLDED="true" ID="ID_622833329" MODIFIED="1363680339801" POSITION="right" TEXT="arguments">
 <node CREATED="1337847776204" ID="ID_1505814608" MODIFIED="1337847825408" TEXT="csh/tcsh">
 <node CREATED="1337847828441" ID="ID_1916642836" MODIFIED="1337847851577" TEXT="$1,$2,...,$*,$#"/>
 <node CREATED="1337847852613" ID="ID_1693966212" MODIFIED="1337847892520" TEXT="$argv[1],$argv[2],$argv[*],$#argv"/>
@@ -78,7 +78,7 @@
 <node CREATED="1337847925044" ID="ID_154679053" MODIFIED="1337847944530" TEXT="$1,$2,...,$*,$#"/>
 </node>
 </node>
-<node CREATED="1337786936280" ID="ID_710707623" MODIFIED="1363138929372" POSITION="right" TEXT="control">
+<node CREATED="1337786936280" FOLDED="true" ID="ID_710707623" MODIFIED="1363679748470" POSITION="right" TEXT="control">
 <node CREATED="1337848032395" ID="ID_1708738187" MODIFIED="1360310597695" TEXT="conditional">
 <node CREATED="1337848091629" FOLDED="true" ID="ID_1125759437" MODIFIED="1360310612976" TEXT="csh/tcsh">
 <node CREATED="1337848100482" ID="ID_736681485" MODIFIED="1338556571805">
@@ -528,7 +528,607 @@
 </node>
 </node>
 </node>
-<node CREATED="1341888146700" ID="ID_1520560517" MODIFIED="1363142105903" POSITION="right" TEXT="utilities">
+<node CREATED="1363680341170" FOLDED="true" ID="ID_360454466" MODIFIED="1363683166008" POSITION="right" TEXT="run level (init)">
+<node CREATED="1363680356426" FOLDED="true" ID="ID_593096900" MODIFIED="1363680395076" TEXT="Solaris ">
+<node CREATED="1363680390116" ID="ID_1020894198" MODIFIED="1363680390116">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">
+      <tr>
+        <td valign="top">
+          <p>
+            
+          </p>
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  S, s
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Single-user mode. Filesystems required for basic system operation are mounted.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  0
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Halt.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  1
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  System administrator mode. All local filesystems are mounted. Small set of essential system processes are running. Also a single-user mode.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  2
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Put the system in multiuser mode. All multiuser environment terminal processes and daemons are spawned.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  3
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Extend multiuser mode by making local resources available over the network.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  4
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Is available to be defined as an alternative multiuser environment configuration. It is not necessary for system operation and is usually not used.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  5
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Shut the machine down so that it is safe to remove the power. Have the machine remove power, if possible.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  6
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Reboot.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  a, b, c
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Process only those <tt>/etc/inittab</tt> entries having the a, b, or c run level set. These are pseudo-states, which may be defined to run certain commands, but which do not cause the current run level to change.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="bottomBorder" valign="top">
+                <p class="docText">
+                  Q, q
+                </p>
+              </td>
+              <td align="left" class="bottomBorder" valign="top">
+                <p class="docText">
+                  Re-examine <tt>/etc/inittab</tt>.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1363680406522" FOLDED="true" ID="ID_1918814994" MODIFIED="1363681462323" TEXT="HP-UX">
+<node CREATED="1363680426050" ID="ID_1339023123" MODIFIED="1363680426050">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">
+      <tr>
+        <td valign="top">
+          <p>
+            
+          </p>
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  0
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  System is completely shut down.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  1, s, S
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Single-user mode. All system services and daemons are terminated and all filesystems are unmounted.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  2
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Multiuser mode, except NFS is not enabled.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  3, 4
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Multiuser mode. NFS is enabled.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  4
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Multiuser mode with NFS and HP's desktop.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="bottomBorder" valign="top">
+                <p class="docText">
+                  6
+                </p>
+              </td>
+              <td align="left" class="bottomBorder" valign="top">
+                <p class="docText">
+                  Reboot.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1363680430167" FOLDED="true" ID="ID_1284622908" MODIFIED="1363681460405" TEXT="OpenBSD ">
+<node CREATED="1363680456284" ID="ID_474498875" MODIFIED="1363680456284">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">
+      <tr>
+        <td valign="top">
+          <p>
+            
+          </p>
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  &#8211;1
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  <span class="docEmphRoman">Permanently insecure mode</span>&#8212; always run system in level 0 mode.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  0
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  <span class="docEmphRoman">Insecure mode</span>&#8212; All devices may be read or written subject to permissions.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  1
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  <span class="docEmphRoman">Secure mode</span>&#8212; disks for mounted filesystems, <tt>/dev/mem</tt>, and <tt>/dev/kmem</tt> are read-only.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="bottomBorder" valign="top">
+                <p class="docText">
+                  2
+                </p>
+              </td>
+              <td align="left" class="bottomBorder" valign="top">
+                <p class="docText">
+                  <span class="docEmphRoman">Highly secure mode</span>&#8212; same as secure mode, plus disks are always read-only whether mounted or not and the <tt>settimeofday</tt> system call can only advance the time.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1363680467824" FOLDED="true" ID="ID_11275328" MODIFIED="1363681459063" TEXT="Linux ">
+<node CREATED="1363680483061" ID="ID_918611846" MODIFIED="1363680483061">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">
+      <tr>
+        <td valign="top">
+          <p>
+            
+          </p>
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  0
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Halt the system.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  1
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Single-user mode.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  2, 3
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Multiuser modes. Usually identical. Level 2 or 3 is default.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  4
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Unused.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  5
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Multiuser with graphical environment (X Windows).
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  6
+                </p>
+              </td>
+              <td align="left" class="docTableCell" valign="top">
+                <p class="docText">
+                  Reboot the system.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1363681954981" FOLDED="true" ID="ID_1999524547" MODIFIED="1363682434126" TEXT="Configuration of System V init under Debian GNU/Linux">
+<node CREATED="1363681981838" ID="ID_1605086836" MODIFIED="1363681982871" TEXT="/etc/rc?.d/"/>
+<node CREATED="1363681983220" ID="ID_1521977725" MODIFIED="1363681990186" TEXT="/etc/init.d/"/>
+<node CREATED="1363682164807" ID="ID_750696894" MODIFIED="1363682174289">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Configuration of System V init under Debian GNU/Linux
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Most Unix versions have a file here that describes how the scripts
+    </p>
+    <p>
+      in this directory work, and how the links in the /etc/rc?.d/ directories
+    </p>
+    <p>
+      influence system startup/shutdown.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      For Debian, this information is contained in the policy manual, chapter
+    </p>
+    <p>
+      &quot;System run levels and init.d scripts&quot;.&#160;&#160;The Debian Policy Manual is
+    </p>
+    <p>
+      available at:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;http://www.debian.org/doc/debian-policy/#contents
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The Debian Policy Manual is also available in the Debian package
+    </p>
+    <p>
+      &quot;debian-policy&quot;.&#160;&#160;When this package is installed, the policy manual can be
+    </p>
+    <p>
+      found in directory /usr/share/doc/debian-policy. If you have a browser
+    </p>
+    <p>
+      installed you can probably read it at
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;file://localhost/usr/share/doc/debian-policy/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Some more detailed information can also be found in the files in the
+    </p>
+    <p>
+      /usr/share/doc/sysv-rc directory.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Debian Policy dictates that /etc/init.d/*.sh scripts must work properly
+    </p>
+    <p>
+      when sourced.&#160;&#160;The following additional rules apply:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      * /etc/init.d/*.sh scripts must not rely for their correct functioning
+    </p>
+    <p>
+      &#160;&#160;on their being sourced rather than executed.&#160;&#160;That is, they must work
+    </p>
+    <p>
+      &#160;&#160;properly when executed too. They must include &quot;#!/bin/sh&quot; at the top.
+    </p>
+    <p>
+      &#160;&#160;This is useful when running scripts in parallel.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      * /etc/init.d/*.sh scripts must conform to the rules for sh scripts as
+    </p>
+    <p>
+      &#160;&#160;spelled out in the Debian policy section entitled &quot;Scripts&quot; (&#167;10.4).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Use the update-rc.d command to create symbolic links in the /etc/rc?.d
+    </p>
+    <p>
+      as appropriate. See that man page for more details.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      All init.d scripts are expected to have a LSB style header documenting
+    </p>
+    <p>
+      dependencies and default runlevel settings.&#160;&#160;The header look like this
+    </p>
+    <p>
+      (not all fields are required):
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ### BEGIN INIT INFO
+    </p>
+    <p>
+      # Provides:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;skeleton
+    </p>
+    <p>
+      # Required-Start:&#160;&#160;&#160;&#160;$remote_fs $syslog
+    </p>
+    <p>
+      # Required-Stop:&#160;&#160;&#160;&#160;&#160;$remote_fs $syslog
+    </p>
+    <p>
+      # Should-Start:&#160;&#160;&#160;&#160;&#160;&#160;$portmap
+    </p>
+    <p>
+      # Should-Stop:&#160;&#160;&#160;&#160;&#160;&#160;&#160;$portmap
+    </p>
+    <p>
+      # X-Start-Before:&#160;&#160;&#160;&#160;nis
+    </p>
+    <p>
+      # X-Stop-After:&#160;&#160;&#160;&#160;&#160;&#160;nis
+    </p>
+    <p>
+      # Default-Start:&#160;&#160;&#160;&#160;&#160;2 3 4 5
+    </p>
+    <p>
+      # Default-Stop:&#160;&#160;&#160;&#160;&#160;&#160;0 1 6
+    </p>
+    <p>
+      # X-Interactive:&#160;&#160;&#160;&#160;&#160;true
+    </p>
+    <p>
+      # Short-Description: Example initscript
+    </p>
+    <p>
+      # Description:&#160;&#160;&#160;&#160;&#160;&#160;&#160;This file should be used to construct scripts to be
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;placed in /etc/init.d.
+    </p>
+    <p>
+      ### END INIT INFO
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      More information on the format is available from insserv(8).&#160;&#160;This
+    </p>
+    <p>
+      information is used to dynamicaly assign sequence numbers to the
+    </p>
+    <p>
+      boot scripts and to run the scripts in parallel during the boot.
+    </p>
+    <p>
+      See also /usr/share/doc/insserv/README.Debian.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1341888146700" FOLDED="true" ID="ID_1520560517" MODIFIED="1363679746520" POSITION="right" TEXT="utilities">
 <node CREATED="1341888154489" ID="ID_1448886888" MODIFIED="1341907932242" TEXT="od - dump files in octal and other formats">
 <node CREATED="1341888242839" FOLDED="true" ID="ID_1419817857" MODIFIED="1341888945732" TEXT="od  -j 1M  -N 128 -Ad -w 16 -v  -t x2  foo.bar">
 <node CREATED="1341888707620" ID="ID_1309208422" MODIFIED="1341888746732" TEXT="-j  offset from beginning of file"/>
@@ -637,14 +1237,14 @@
 <node CREATED="1341907896280" ID="ID_51989291" MODIFIED="1341907899734" TEXT="/dev/random"/>
 </node>
 </node>
-<node CREATED="1338447715295" ID="ID_1494036361" MODIFIED="1363142142562" POSITION="right" TEXT="shell">
-<node CREATED="1337855980305" ID="ID_858436998" MODIFIED="1362639933704" TEXT="sh$">
+<node CREATED="1338447715295" FOLDED="true" ID="ID_1494036361" MODIFIED="1363683163724" POSITION="right" TEXT="shell">
+<node CREATED="1337855980305" ID="ID_858436998" MODIFIED="1363683071339" TEXT="sh$">
 <node CREATED="1337856064850" ID="ID_1171322390" MODIFIED="1360308920725" TEXT="$-(built-in)">
 <node CREATED="1337856093796" ID="ID_1777256098" MODIFIED="1337856101364" TEXT="shell  options "/>
 </node>
-<node CREATED="1337856306845" FOLDED="true" ID="ID_497052415" MODIFIED="1359038667391" TEXT="init(inittab System V(">
-<node CREATED="1337856338016" FOLDED="true" ID="ID_745693465" MODIFIED="1345537087516" TEXT="getty(prompt login BSD)">
-<node CREATED="1337856436084" FOLDED="true" ID="ID_1968156506" MODIFIED="1345537087516" TEXT="login(prompt passwd)">
+<node CREATED="1337856306845" ID="ID_497052415" MODIFIED="1363679675961" TEXT="init(inittab System V(">
+<node CREATED="1337856338016" ID="ID_745693465" MODIFIED="1363679636991" TEXT="getty(prompt login BSD)">
+<node CREATED="1337856436084" ID="ID_1968156506" MODIFIED="1363679638223" TEXT="login(prompt passwd)">
 <node CREATED="1337856470444" ID="ID_750064042" MODIFIED="1337856506014" TEXT="sh(etc/profile ~/.profile)"/>
 </node>
 </node>
@@ -835,7 +1435,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338043781528" FOLDED="true" ID="ID_653004652" MODIFIED="1360309110941" TEXT="command substition">
+<node CREATED="1338043781528" ID="ID_653004652" MODIFIED="1363679683132" TEXT="command substition">
 <node CREATED="1338043792668" ID="ID_262980215" MODIFIED="1338043796270" TEXT="`cmd`"/>
 </node>
 <node CREATED="1338043985598" ID="ID_1891218350" MODIFIED="1360308576091" TEXT="function">
@@ -1200,7 +1800,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337785409459" ID="ID_1200163101" MODIFIED="1358146685464" TEXT="csh%tcsh&gt;">
+<node CREATED="1337785409459" FOLDED="true" ID="ID_1200163101" MODIFIED="1363683014974" TEXT="csh%tcsh&gt;">
 <node CREATED="1338554939696" FOLDED="true" ID="ID_622421858" MODIFIED="1345537087494" TEXT="special features">
 <node CREATED="1338554976032" FOLDED="true" ID="ID_605731691" MODIFIED="1338567194374" TEXT="rich operators">
 <node CREATED="1338555025990" ID="ID_1585140653" MODIFIED="1338555620163">
@@ -1290,7 +1890,7 @@
 <node CREATED="1338563742034" ID="ID_1634660973" MODIFIED="1338563745915" TEXT="background"/>
 </node>
 </node>
-<node CREATED="1338123136901" FOLDED="true" ID="ID_199424872" MODIFIED="1363099949411" TEXT="variables&amp;operators">
+<node CREATED="1338123136901" ID="ID_199424872" MODIFIED="1363679704080" TEXT="variables&amp;operators">
 <node CREATED="1338123160501" ID="ID_1983485376" MODIFIED="1338126355969" TEXT="variables">
 <node CREATED="1338126631009" ID="ID_1541880859" MODIFIED="1341815418674" TEXT="scope">
 <node CREATED="1338126358956" ID="ID_98660700" MODIFIED="1338126362546" TEXT="local">
@@ -1408,12 +2008,12 @@
 <node CREATED="1338128611660" ID="ID_1774899626" MODIFIED="1338128614649" TEXT="~"/>
 <node CREATED="1338128614946" ID="ID_1728235803" MODIFIED="1338128620418" TEXT="^"/>
 </node>
-<node CREATED="1338128623844" FOLDED="true" ID="ID_1083911845" MODIFIED="1338554834793" TEXT="logical">
+<node CREATED="1338128623844" FOLDED="true" ID="ID_1083911845" MODIFIED="1363679718210" TEXT="logical">
 <node CREATED="1338128631447" ID="ID_292560891" MODIFIED="1338128637513" TEXT="!"/>
 <node CREATED="1338128637819" ID="ID_1150698157" MODIFIED="1338128639626" TEXT="&amp;&amp;"/>
 <node CREATED="1338128639883" ID="ID_794680834" MODIFIED="1338128641658" TEXT="||"/>
 </node>
-<node CREATED="1338128643333" FOLDED="true" ID="ID_1270412006" MODIFIED="1338554840336" TEXT="relational">
+<node CREATED="1338128643333" FOLDED="true" ID="ID_1270412006" MODIFIED="1363679716224" TEXT="relational">
 <node CREATED="1338128665954" ID="ID_1344317197" MODIFIED="1338128670506" TEXT="=="/>
 <node CREATED="1338128671266" ID="ID_1962007878" MODIFIED="1338128672828" TEXT="!="/>
 <node CREATED="1338128673411" ID="ID_960377134" MODIFIED="1338128677576" TEXT="&lt;="/>
@@ -1536,7 +2136,7 @@
 </node>
 <node CREATED="1338561415041" ID="ID_726698729" MODIFIED="1338561418855" TEXT="goto"/>
 </node>
-<node CREATED="1338561424421" FOLDED="true" ID="ID_1897571962" MODIFIED="1343267987018" TEXT="intr handling">
+<node CREATED="1338561424421" FOLDED="true" ID="ID_1897571962" MODIFIED="1363679698208" TEXT="intr handling">
 <node CREATED="1338561465061" ID="ID_862847735" MODIFIED="1338561469422" TEXT="onintr">
 <node CREATED="1338561475192" ID="ID_540693312" MODIFIED="1338561482091" TEXT="onintr label">
 <node CREATED="1338561505368" ID="ID_1484640804" MODIFIED="1338561525738" TEXT="goto label when interrupt happens"/>
@@ -2274,7 +2874,7 @@
 <node CREATED="1360309900123" ID="ID_1527007671" MODIFIED="1360309905835" TEXT="job control"/>
 </node>
 </node>
-<node CREATED="1359036185352" FOLDED="true" ID="ID_107062368" MODIFIED="1360308515582" POSITION="right" TEXT="smart">
+<node CREATED="1359036185352" FOLDED="true" ID="ID_107062368" MODIFIED="1363679731758" POSITION="right" TEXT="smart">
 <node CREATED="1359036193129" ID="ID_934253660" MODIFIED="1359038220472" TEXT="move dir: ">
 <node CREATED="1359036319863" ID="ID_1770677587" MODIFIED="1359036321925" TEXT="cd -"/>
 <node CREATED="1359036322383" ID="ID_1367783358" MODIFIED="1359036330968" TEXT="popd"/>
@@ -2398,7 +2998,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359035827736" FOLDED="true" ID="ID_1285654468" MODIFIED="1359038515845" POSITION="right" TEXT="help">
+<node CREATED="1359035827736" FOLDED="true" ID="ID_1285654468" MODIFIED="1363679741590" POSITION="right" TEXT="help">
 <node CREATED="1359035832906" ID="ID_213703593" MODIFIED="1359035838508" TEXT="man"/>
 <node CREATED="1359035839169" ID="ID_1844285882" MODIFIED="1359035896980" TEXT="apropos"/>
 <node CREATED="1359035898031" ID="ID_1237430030" MODIFIED="1359035910014" TEXT="info"/>
