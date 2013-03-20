@@ -295,30 +295,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1344476478181" FOLDED="true" ID="ID_1815076567" MODIFIED="1363679557522" POSITION="right" TEXT="java">
-<node CREATED="1344476481653" ID="ID_1211146360" MODIFIED="1363679552080" TEXT="jar">
-<node CREATED="1344476710443" ID="ID_1213416932" MODIFIED="1344476710443" TEXT="jar {ctxui}[vfm0Me] [jar-file] [manifest-file] [entry-point] [-C dir] files ..."/>
-<node CREATED="1344476980378" ID="ID_1722750021" MODIFIED="1344476980378" TEXT="-c  create new archive"/>
-<node CREATED="1344476980379" ID="ID_1244048564" MODIFIED="1344476980379" TEXT="-t  list table of contents for archive"/>
-<node CREATED="1344476980380" ID="ID_1043429795" MODIFIED="1344476980380" TEXT="-x  extract named (or all) files from archive"/>
-<node CREATED="1344476980381" ID="ID_1081244375" MODIFIED="1344476980381" TEXT="-u  update existing archive"/>
-<node CREATED="1344476980381" ID="ID_620202919" MODIFIED="1344476980381" TEXT="-v  generate verbose output on standard output"/>
-<node CREATED="1344476980382" ID="ID_1026182565" MODIFIED="1344476980382" TEXT="-f  specify archive file name"/>
-<node CREATED="1344476980383" ID="ID_700204962" MODIFIED="1344476980383" TEXT="-m  include manifest information from specified manifest file"/>
-<node CREATED="1344476980384" ID="ID_421586263" MODIFIED="1344476980384" TEXT="-e  specify application entry point for stand-alone application">
-<node CREATED="1344476980385" MODIFIED="1344476980385" TEXT="bundled into an executable jar file"/>
-</node>
-<node CREATED="1344476980385" ID="ID_1481439035" MODIFIED="1344476980385" TEXT="-0  store only; use no ZIP compression"/>
-<node CREATED="1344476980386" ID="ID_581901254" MODIFIED="1344476980386" TEXT="-M  do not create a manifest file for the entries"/>
-<node CREATED="1344476980387" ID="ID_740972523" MODIFIED="1344476980387" TEXT="-i  generate index information for the specified jar files"/>
-<node CREATED="1344476980388" ID="ID_1560178937" MODIFIED="1344476980388" TEXT="-C  change to the specified directory and include the following file"/>
-<node CREATED="1344477040664" ID="ID_150992165" MODIFIED="1344477043790" TEXT="If any file is a directory then it is processed recursively. The manifest file name, the archive file name and the entry point name are specified in the same order as the &apos;m&apos;, &apos;f&apos; and &apos;e&apos; flags."/>
-<node CREATED="1344477055506" ID="ID_1989963431" MODIFIED="1344477056983" TEXT="Example 1: to archive two class files into an archive called classes.jar:         jar cvf classes.jar Foo.class Bar.class  Example 2: use an existing manifest file &apos;mymanifest&apos; and archive all the            files in the foo/ directory into &apos;classes.jar&apos;:         jar cvfm classes.jar mymanifest -C foo/ ."/>
-</node>
-<node CREATED="1344496223399" ID="ID_1494158215" MODIFIED="1344496224565" TEXT="ant"/>
-<node CREATED="1344496227766" ID="ID_463927940" MODIFIED="1344496232447" TEXT="javac"/>
-<node CREATED="1344496232712" ID="ID_1163165352" MODIFIED="1344496234068" TEXT="java"/>
-</node>
 <node CREATED="1344496220170" FOLDED="true" ID="ID_590118039" MODIFIED="1363683200637" POSITION="right" TEXT="hdfs">
 <node CREATED="1344496390952" ID="ID_1458830962" MODIFIED="1344496468985" TEXT="single file size 100 TB "/>
 <node CREATED="1344513061492" ID="ID_1219158498" MODIFIED="1363679563345" TEXT="configuration">

@@ -1,202 +1,75 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1344928688194" ID="ID_469395458" MODIFIED="1344928700027" TEXT="java">
-<node CREATED="1344928709477" FOLDED="true" ID="ID_230623101" MODIFIED="1359034636023" POSITION="right" TEXT="generic programming">
-<node CREATED="1344930897070" ID="ID_1089510991" MODIFIED="1344954136770" STYLE="fork" TEXT="parameterized type ensuring compile-time type safety">
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1344930904905" ID="ID_1451160417" MODIFIED="1344954076567" TEXT="vs. ancestor Class Object as generic  type (run-time error)"/>
-<node CREATED="1344954377809" ID="ID_1826645959" MODIFIED="1344954380254" TEXT="Stronger type checks at compile time">
-<node CREATED="1344954078438" ID="ID_622737985" MODIFIED="1344954390800" TEXT="compile-time error">
-<node CREATED="1344954185524" ID="ID_800399872" MODIFIED="1344954199188" TEXT="compile-time type safety"/>
+<node CREATED="1312185565053" FOLDED="true" ID="ID_35294482" MODIFIED="1363743192843" POSITION="right" TEXT="java language basic">
+<node CREATED="1345106669823" FOLDED="true" ID="ID_1251747125" MODIFIED="1359034617803" TEXT="type">
+<node CREATED="1312185600845" ID="ID_16075161" MODIFIED="1345106675667" TEXT="primitive types">
+<node CREATED="1312185623114" ID="ID_1450697019" MODIFIED="1312185642665" TEXT="byte"/>
+<node CREATED="1312185627981" ID="ID_1321392451" MODIFIED="1312185644666" TEXT="short"/>
+<node CREATED="1312185617441" ID="ID_1386705387" MODIFIED="1312185622864" TEXT="int"/>
+<node CREATED="1312185629499" ID="ID_303601940" MODIFIED="1312185646349" TEXT="long"/>
+<node CREATED="1312185651279" ID="ID_1544271899" MODIFIED="1312185655736" TEXT="float"/>
+<node CREATED="1312185647272" ID="ID_1160215808" MODIFIED="1312185649235" TEXT="double"/>
+<node CREATED="1312185625968" ID="ID_680977593" MODIFIED="1312185627741" TEXT="char">
+<node CREATED="1345106061421" ID="ID_996506170" MODIFIED="1345106104077" TEXT="utf-16 &apos;\u0000&apos;~&apos;\uffff&apos;"/>
+</node>
+<node CREATED="1312185630633" ID="ID_1336939222" MODIFIED="1312185664111" TEXT="boolean"/>
+<node CREATED="1345106215423" ID="ID_435475238" MODIFIED="1345106227980" TEXT="literal">
+<node CREATED="1345106232076" ID="ID_1061175292" MODIFIED="1345106253970" TEXT="0x (hex)"/>
+<node CREATED="1345106238611" ID="ID_838668602" MODIFIED="1345106256976" TEXT="0b (bin)"/>
+<node CREATED="1345106240128" ID="ID_197769631" MODIFIED="1345106261198" TEXT="0 (oct)"/>
+<node CREATED="1345106463105" ID="ID_147180219" MODIFIED="1345106473669" TEXT="_(JDK7)">
+<node CREATED="1345106456104" ID="ID_1965036598" MODIFIED="1345106458973" TEXT="any number of underscore characters (_) can appear anywhere between digits in a numerical literal."/>
+</node>
+<node CREATED="1345106477615" ID="ID_1750360624" MODIFIED="1345106486825" TEXT="L/l"/>
+<node CREATED="1345106479592" ID="ID_453270008" MODIFIED="1345106490795" TEXT="F/f"/>
+<node CREATED="1345106482707" ID="ID_1035410511" MODIFIED="1345106493748" TEXT="D/d"/>
 </node>
 </node>
-<node CREATED="1344954467059" ID="ID_1532243466" MODIFIED="1344954468690" TEXT="Elimination of casts"/>
-<node CREATED="1344954530581" ID="ID_1624572204" MODIFIED="1344954533937" TEXT="Enabling programmers to implement generic algorithms"/>
+<node CREATED="1345106677720" FOLDED="true" ID="ID_504169155" MODIFIED="1359034608068" TEXT="array">
+<node CREATED="1345106722315" ID="ID_989614311" MODIFIED="1345106727582" TEXT="defintion">
+<node COLOR="#338800" CREATED="1345106682630" ID="ID_1509434023" MODIFIED="1345106770291" TEXT="Type[] array=new Type[N] "/>
+<node COLOR="#338800" CREATED="1345106852132" ID="ID_641156791" MODIFIED="1345106869261" TEXT="Type[] array={,,...}"/>
+<node COLOR="#ff0000" CREATED="1345106734286" ID="ID_196438211" MODIFIED="1345106759773" TEXT="Type array[]=new Type[N] (deprecated)">
+<icon BUILTIN="stop-sign"/>
 </node>
-<node CREATED="1344956619025" FOLDED="true" ID="ID_114329456" MODIFIED="1345085442156" TEXT="terminology">
-<node CREATED="1344958622616" ID="ID_713811769" MODIFIED="1344958637468" TEXT="generic type"/>
-<node CREATED="1344958637898" ID="ID_488144152" MODIFIED="1344958639860" TEXT="type value"/>
-<node CREATED="1344958640315" ID="ID_1192302033" MODIFIED="1344958654197" TEXT="parameterized type"/>
-<node CREATED="1344958654683" ID="ID_1723352583" MODIFIED="1344958691495" TEXT="type parameter"/>
-<node CREATED="1344958669248" ID="ID_1100716939" MODIFIED="1344958700711" TEXT="type argument"/>
 </node>
-<node CREATED="1345085442768" ID="ID_74009324" MODIFIED="1345085464118" TEXT="type parameter">
-<node CREATED="1345085466615" ID="ID_702184598" MODIFIED="1345085487199" TEXT="non-bounded type parameter">
-<node CREATED="1345085571271" ID="ID_557958642" MODIFIED="1345085576297" TEXT="&lt;T&gt;"/>
+<node CREATED="1345106776842" ID="ID_1379703684" MODIFIED="1345106896716" TEXT="length">
+<node CREATED="1345106898270" ID="ID_48917291" MODIFIED="1345106902969" TEXT="array.length"/>
 </node>
-<node CREATED="1345085487437" ID="ID_767819097" MODIFIED="1345085604638" TEXT="uni-bounded type parameter">
-<node CREATED="1345085607329" ID="ID_1764962452" MODIFIED="1345085610205" TEXT="&lt;U extends Number&gt;"/>
-</node>
-<node CREATED="1345085519007" ID="ID_1023851440" MODIFIED="1345085561576" TEXT="multi-bounded type parameter">
-<node CREATED="1345085637179" ID="ID_689089898" MODIFIED="1345085641341" TEXT="&lt;T extends B1 &amp; B2 &amp; B3&gt;">
-<node CREATED="1345086159882" ID="ID_582279805" MODIFIED="1345086159882">
+<node CREATED="1345106905286" ID="ID_1208924419" MODIFIED="1345106908072" TEXT="copy">
+<node CREATED="1345106935812" ID="ID_1166346046" MODIFIED="1345106935812">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    A type variable with multiple bounds is a subtype of all the types listed in the bound. If one of the bounds is a class, it must be specified first.
+    <pre>public static void arraycopy(Object src, int srcPos,
+                             Object dest, int destPos, int length)</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1345086239855" ID="ID_789320482" MODIFIED="1345086316661" TEXT="first type is class or interface ,remaining types must be interfaces"/>
 </node>
 </node>
-</node>
-<node CREATED="1345087173283" ID="ID_237225749" MODIFIED="1345087176035" TEXT="Type Inference"/>
-<node CREATED="1345087720988" ID="ID_1469374021" MODIFIED="1345087731035" TEXT="wildcard (?)">
-<node CREATED="1345087748163" ID="ID_1099622293" MODIFIED="1345087758402" TEXT="Upper Bounded Wildcards">
-<node CREATED="1345087772515" ID="ID_199697537" MODIFIED="1345087772515">
+<node CREATED="1345107140268" ID="ID_1245458467" MODIFIED="1345107143449" TEXT="operator">
+<node CREATED="1345107148849" ID="ID_1442090007" MODIFIED="1345107160377" TEXT="&gt;&gt;&gt; ">
+<node CREATED="1345107190307" ID="ID_396800619" MODIFIED="1345107190307">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <pre>public static void process(List<strong>&lt;? extends Foo&gt;</strong> list) { /* ... */ }</pre>
+    unsigned right shift
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1345087786440" ID="ID_817249988" MODIFIED="1345087788827" TEXT="Unbounded Wildcards">
-<node CREATED="1345087816474" ID="ID_1334761492" MODIFIED="1345087816474">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre>public static void printList(List&lt;?&gt; list) {
-    for (Object elem: list)
-        System.out.print(elem + &quot; &quot;);
-    System.out.println();
-}</pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1345087882683" ID="ID_389992684" MODIFIED="1345087884549" TEXT="Lower Bounded Wildcards">
-<node CREATED="1345087907035" ID="ID_517802201" MODIFIED="1345087907035">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre>public static void addNumbers(List&lt;? super Integer&gt; list) {
-    for (int i = 1; i &lt;= 10; i++) {
-        list.add(i);
-    }
-}</pre>
-  </body>
-</html></richcontent>
+<node CREATED="1345107191690" ID="ID_1652281941" MODIFIED="1357390386857" TEXT="instanceof()">
+<node CREATED="1345107249589" ID="ID_1629200540" MODIFIED="1357726912856" TEXT="Type Comparison (RTTI)"/>
 </node>
 </node>
 </node>
-<node CREATED="1345086652255" ID="ID_639758981" MODIFIED="1345086655019" TEXT="Given two concrete types A and B (for example, Number and Integer), MyClass&lt;A&gt; has no relationship to MyClass&lt;B&gt;, regardless of whether or not A and B are related. The common parent of MyClass&lt;A&gt; and MyClass&lt;B&gt; is Object."/>
-<node CREATED="1344955211070" ID="ID_1544930650" MODIFIED="1344959028062" TEXT="generic class/interface">
-<node CREATED="1344959035033" ID="ID_1416787328" MODIFIED="1344959039644" TEXT="definition">
-<node CREATED="1344955235578" FOLDED="true" ID="ID_240644656" MODIFIED="1345082968830">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre>class name&lt;T1, T2, ..., Tn&gt; { /* ... */ }</pre>
-  </body>
-</html></richcontent>
-<node COLOR="#ff0000" CREATED="1344956854645" ID="ID_427839111" MODIFIED="1344956895665">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    A type variable can be any <strong>non-primitive</strong> type
-  </body>
-</html></richcontent>
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node CREATED="1345082894620" FOLDED="true" ID="ID_1262216653" MODIFIED="1345082967020" TEXT="A raw type is the name of a generic class or interface without any type arguments">
-<icon BUILTIN="full-2"/>
-<node CREATED="1344956899832" ID="ID_348418350" MODIFIED="1345082956973" TEXT="if type argument is not specified,Object will be the argument">
-<node CREATED="1344957061949" ID="ID_1046288329" MODIFIED="1344957772936" TEXT="Object ref can be assigned to primitive types which are automatically cast into wrapper class ,e.g. int-&gt;java.lang.Integer"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1344959043870" ID="ID_1886365364" MODIFIED="1344959080073" TEXT="instantiation">
-<node CREATED="1344959111573" ID="ID_172593929" MODIFIED="1344959155177" TEXT="ClassName&lt;Integer&gt; intobj = new ClassName&lt;Integer&gt;(...)"/>
-</node>
-</node>
-<node CREATED="1345083843519" FOLDED="true" ID="ID_82476767" MODIFIED="1345085433103" TEXT="generic method">
-<node CREATED="1345083859888" ID="ID_1987882782" MODIFIED="1345083912091" TEXT="definition">
-<node CREATED="1345083888600" ID="ID_1165801600" MODIFIED="1345083888600">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre>public class Util {
-    // Generic static method
-    <strong>public static &lt;K, V&gt; boolean compare(Pair&lt;K, V&gt; p1, Pair&lt;K, V&gt; p2)</strong> {
-        return p1.getKey().equals(p2.getKey()) &amp;&amp;
-               p1.getValue().equals(p2.getValue());
-    }
-}</pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1345083913033" ID="ID_1483245486" MODIFIED="1345083918528" TEXT="invocation">
-<node CREATED="1345083934577" ID="ID_1645009380" MODIFIED="1345083934577">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre>Pair&lt;Integer, String&gt; p1 = new Pair&lt;&gt;(1, &quot;apple&quot;);
-Pair&lt;Integer, String&gt; p2 = new Pair&lt;&gt;(2, &quot;pear&quot;);
-boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1344958497215" FOLDED="true" ID="ID_1882822317" MODIFIED="1344958707604" TEXT="Type Parameter Naming Conventions">
-<node CREATED="1344958533229" ID="ID_545719924" MODIFIED="1344958533229">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li>
-        E - Element (used extensively by the Java Collections Framework)
-      </li>
-      <li>
-        K - Key
-      </li>
-      <li>
-        N - Number
-      </li>
-      <li>
-        T - Type
-      </li>
-      <li>
-        V - Value
-      </li>
-      <li>
-        S,U,V etc. - 2nd, 3rd, 4th types
-      </li>
-    </ul>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1344931204513" FOLDED="true" ID="ID_580698536" MODIFIED="1359034280408" POSITION="right" TEXT="generator">
-<node CREATED="1344931228048" ID="ID_325771025" MODIFIED="1344931230426" TEXT="when you ask a  generator for new object, you don&#x2019;t pass it any arguments, whereas you typically do pass  arguments to a Factory Method"/>
-<node CREATED="1344931246631" ID="ID_1266381565" MODIFIED="1344931248156" TEXT="next( )"/>
-</node>
-<node CREATED="1345183697036" FOLDED="true" ID="ID_274496348" MODIFIED="1359034624963" POSITION="right" TEXT="OOP">
+<node CREATED="1345183697036" FOLDED="true" ID="ID_274496348" MODIFIED="1363743169043" TEXT="OOP">
 <node CREATED="1345183817786" ID="ID_606728563" MODIFIED="1357389716055" TEXT="support overload ">
 <node CREATED="1345183900497" ID="ID_515295403" MODIFIED="1357389745516" TEXT="method signature">
 <node CREATED="1345183918121" ID="ID_16272707" MODIFIED="1357389753284" TEXT="method name and  parameter list"/>
@@ -590,76 +463,208 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </node>
 </node>
 </node>
-<node CREATED="1312185565053" ID="ID_35294482" MODIFIED="1359034599566" POSITION="right" TEXT="java language basic">
-<node CREATED="1345106669823" FOLDED="true" ID="ID_1251747125" MODIFIED="1359034617803" TEXT="type">
-<node CREATED="1312185600845" ID="ID_16075161" MODIFIED="1345106675667" TEXT="primitive types">
-<node CREATED="1312185623114" ID="ID_1450697019" MODIFIED="1312185642665" TEXT="byte"/>
-<node CREATED="1312185627981" ID="ID_1321392451" MODIFIED="1312185644666" TEXT="short"/>
-<node CREATED="1312185617441" ID="ID_1386705387" MODIFIED="1312185622864" TEXT="int"/>
-<node CREATED="1312185629499" ID="ID_303601940" MODIFIED="1312185646349" TEXT="long"/>
-<node CREATED="1312185651279" ID="ID_1544271899" MODIFIED="1312185655736" TEXT="float"/>
-<node CREATED="1312185647272" ID="ID_1160215808" MODIFIED="1312185649235" TEXT="double"/>
-<node CREATED="1312185625968" ID="ID_680977593" MODIFIED="1312185627741" TEXT="char">
-<node CREATED="1345106061421" ID="ID_996506170" MODIFIED="1345106104077" TEXT="utf-16 &apos;\u0000&apos;~&apos;\uffff&apos;"/>
+<node CREATED="1344931204513" FOLDED="true" ID="ID_580698536" MODIFIED="1363743175163" TEXT="generator">
+<node CREATED="1344931228048" ID="ID_325771025" MODIFIED="1344931230426" TEXT="when you ask a  generator for new object, you don&#x2019;t pass it any arguments, whereas you typically do pass  arguments to a Factory Method"/>
+<node CREATED="1344931246631" ID="ID_1266381565" MODIFIED="1344931248156" TEXT="next( )"/>
 </node>
-<node CREATED="1312185630633" ID="ID_1336939222" MODIFIED="1312185664111" TEXT="boolean"/>
-<node CREATED="1345106215423" ID="ID_435475238" MODIFIED="1345106227980" TEXT="literal">
-<node CREATED="1345106232076" ID="ID_1061175292" MODIFIED="1345106253970" TEXT="0x (hex)"/>
-<node CREATED="1345106238611" ID="ID_838668602" MODIFIED="1345106256976" TEXT="0b (bin)"/>
-<node CREATED="1345106240128" ID="ID_197769631" MODIFIED="1345106261198" TEXT="0 (oct)"/>
-<node CREATED="1345106463105" ID="ID_147180219" MODIFIED="1345106473669" TEXT="_(JDK7)">
-<node CREATED="1345106456104" ID="ID_1965036598" MODIFIED="1345106458973" TEXT="any number of underscore characters (_) can appear anywhere between digits in a numerical literal."/>
+<node CREATED="1344928759131" FOLDED="true" ID="ID_1211870260" MODIFIED="1363743172193" TEXT="Class">
+<node CREATED="1344931520612" ID="ID_1728175622" MODIFIED="1344931538315" TEXT="Class.classForName()"/>
+<node CREATED="1344931632714" ID="ID_481295074" MODIFIED="1344931657866" TEXT="Class.getSimpleName()"/>
+<node CREATED="1344931538569" ID="ID_1621932834" MODIFIED="1344931567626" TEXT="Class.newInstance()"/>
+<node CREATED="1344931568290" ID="ID_1594022608" MODIFIED="1344931632478" TEXT="&lt;instance&gt;.getClass()"/>
 </node>
-<node CREATED="1345106477615" ID="ID_1750360624" MODIFIED="1345106486825" TEXT="L/l"/>
-<node CREATED="1345106479592" ID="ID_453270008" MODIFIED="1345106490795" TEXT="F/f"/>
-<node CREATED="1345106482707" ID="ID_1035410511" MODIFIED="1345106493748" TEXT="D/d"/>
+<node CREATED="1344928709477" FOLDED="true" ID="ID_230623101" MODIFIED="1363743178783" TEXT="generic programming">
+<node CREATED="1344930897070" ID="ID_1089510991" MODIFIED="1344954136770" STYLE="fork" TEXT="parameterized type ensuring compile-time type safety">
+<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<node CREATED="1344930904905" ID="ID_1451160417" MODIFIED="1344954076567" TEXT="vs. ancestor Class Object as generic  type (run-time error)"/>
+<node CREATED="1344954377809" ID="ID_1826645959" MODIFIED="1344954380254" TEXT="Stronger type checks at compile time">
+<node CREATED="1344954078438" ID="ID_622737985" MODIFIED="1344954390800" TEXT="compile-time error">
+<node CREATED="1344954185524" ID="ID_800399872" MODIFIED="1344954199188" TEXT="compile-time type safety"/>
 </node>
 </node>
-<node CREATED="1345106677720" FOLDED="true" ID="ID_504169155" MODIFIED="1359034608068" TEXT="array">
-<node CREATED="1345106722315" ID="ID_989614311" MODIFIED="1345106727582" TEXT="defintion">
-<node COLOR="#338800" CREATED="1345106682630" ID="ID_1509434023" MODIFIED="1345106770291" TEXT="Type[] array=new Type[N] "/>
-<node COLOR="#338800" CREATED="1345106852132" ID="ID_641156791" MODIFIED="1345106869261" TEXT="Type[] array={,,...}"/>
-<node COLOR="#ff0000" CREATED="1345106734286" ID="ID_196438211" MODIFIED="1345106759773" TEXT="Type array[]=new Type[N] (deprecated)">
-<icon BUILTIN="stop-sign"/>
+<node CREATED="1344954467059" ID="ID_1532243466" MODIFIED="1344954468690" TEXT="Elimination of casts"/>
+<node CREATED="1344954530581" ID="ID_1624572204" MODIFIED="1344954533937" TEXT="Enabling programmers to implement generic algorithms"/>
 </node>
+<node CREATED="1344956619025" FOLDED="true" ID="ID_114329456" MODIFIED="1345085442156" TEXT="terminology">
+<node CREATED="1344958622616" ID="ID_713811769" MODIFIED="1344958637468" TEXT="generic type"/>
+<node CREATED="1344958637898" ID="ID_488144152" MODIFIED="1344958639860" TEXT="type value"/>
+<node CREATED="1344958640315" ID="ID_1192302033" MODIFIED="1344958654197" TEXT="parameterized type"/>
+<node CREATED="1344958654683" ID="ID_1723352583" MODIFIED="1344958691495" TEXT="type parameter"/>
+<node CREATED="1344958669248" ID="ID_1100716939" MODIFIED="1344958700711" TEXT="type argument"/>
 </node>
-<node CREATED="1345106776842" ID="ID_1379703684" MODIFIED="1345106896716" TEXT="length">
-<node CREATED="1345106898270" ID="ID_48917291" MODIFIED="1345106902969" TEXT="array.length"/>
+<node CREATED="1345085442768" ID="ID_74009324" MODIFIED="1345085464118" TEXT="type parameter">
+<node CREATED="1345085466615" ID="ID_702184598" MODIFIED="1345085487199" TEXT="non-bounded type parameter">
+<node CREATED="1345085571271" ID="ID_557958642" MODIFIED="1345085576297" TEXT="&lt;T&gt;"/>
 </node>
-<node CREATED="1345106905286" ID="ID_1208924419" MODIFIED="1345106908072" TEXT="copy">
-<node CREATED="1345106935812" ID="ID_1166346046" MODIFIED="1345106935812">
+<node CREATED="1345085487437" ID="ID_767819097" MODIFIED="1345085604638" TEXT="uni-bounded type parameter">
+<node CREATED="1345085607329" ID="ID_1764962452" MODIFIED="1345085610205" TEXT="&lt;U extends Number&gt;"/>
+</node>
+<node CREATED="1345085519007" ID="ID_1023851440" MODIFIED="1345085561576" TEXT="multi-bounded type parameter">
+<node CREATED="1345085637179" ID="ID_689089898" MODIFIED="1345085641341" TEXT="&lt;T extends B1 &amp; B2 &amp; B3&gt;">
+<node CREATED="1345086159882" ID="ID_582279805" MODIFIED="1345086159882">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <pre>public static void arraycopy(Object src, int srcPos,
-                             Object dest, int destPos, int length)</pre>
+    A type variable with multiple bounds is a subtype of all the types listed in the bound. If one of the bounds is a class, it must be specified first.
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1345086239855" ID="ID_789320482" MODIFIED="1345086316661" TEXT="first type is class or interface ,remaining types must be interfaces"/>
 </node>
 </node>
-<node CREATED="1345107140268" ID="ID_1245458467" MODIFIED="1345107143449" TEXT="operator">
-<node CREATED="1345107148849" ID="ID_1442090007" MODIFIED="1345107160377" TEXT="&gt;&gt;&gt; ">
-<node CREATED="1345107190307" ID="ID_396800619" MODIFIED="1345107190307">
+</node>
+<node CREATED="1345087173283" ID="ID_237225749" MODIFIED="1345087176035" TEXT="Type Inference"/>
+<node CREATED="1345087720988" ID="ID_1469374021" MODIFIED="1345087731035" TEXT="wildcard (?)">
+<node CREATED="1345087748163" ID="ID_1099622293" MODIFIED="1345087758402" TEXT="Upper Bounded Wildcards">
+<node CREATED="1345087772515" ID="ID_199697537" MODIFIED="1345087772515">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    unsigned right shift
+    <pre>public static void process(List<strong>&lt;? extends Foo&gt;</strong> list) { /* ... */ }</pre>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1345107191690" ID="ID_1652281941" MODIFIED="1357390386857" TEXT="instanceof()">
-<node CREATED="1345107249589" ID="ID_1629200540" MODIFIED="1357726912856" TEXT="Type Comparison (RTTI)"/>
+<node CREATED="1345087786440" ID="ID_817249988" MODIFIED="1345087788827" TEXT="Unbounded Wildcards">
+<node CREATED="1345087816474" ID="ID_1334761492" MODIFIED="1345087816474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>public static void printList(List&lt;?&gt; list) {
+    for (Object elem: list)
+        System.out.print(elem + &quot; &quot;);
+    System.out.println();
+}</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1345087882683" ID="ID_389992684" MODIFIED="1345087884549" TEXT="Lower Bounded Wildcards">
+<node CREATED="1345087907035" ID="ID_517802201" MODIFIED="1345087907035">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>public static void addNumbers(List&lt;? super Integer&gt; list) {
+    for (int i = 1; i &lt;= 10; i++) {
+        list.add(i);
+    }
+}</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1345086652255" ID="ID_639758981" MODIFIED="1345086655019" TEXT="Given two concrete types A and B (for example, Number and Integer), MyClass&lt;A&gt; has no relationship to MyClass&lt;B&gt;, regardless of whether or not A and B are related. The common parent of MyClass&lt;A&gt; and MyClass&lt;B&gt; is Object."/>
+<node CREATED="1344955211070" ID="ID_1544930650" MODIFIED="1344959028062" TEXT="generic class/interface">
+<node CREATED="1344959035033" ID="ID_1416787328" MODIFIED="1344959039644" TEXT="definition">
+<node CREATED="1344955235578" FOLDED="true" ID="ID_240644656" MODIFIED="1345082968830">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>class name&lt;T1, T2, ..., Tn&gt; { /* ... */ }</pre>
+  </body>
+</html></richcontent>
+<node COLOR="#ff0000" CREATED="1344956854645" ID="ID_427839111" MODIFIED="1344956895665">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    A type variable can be any <strong>non-primitive</strong> type
+  </body>
+</html></richcontent>
+<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1345082894620" FOLDED="true" ID="ID_1262216653" MODIFIED="1345082967020" TEXT="A raw type is the name of a generic class or interface without any type arguments">
+<icon BUILTIN="full-2"/>
+<node CREATED="1344956899832" ID="ID_348418350" MODIFIED="1345082956973" TEXT="if type argument is not specified,Object will be the argument">
+<node CREATED="1344957061949" ID="ID_1046288329" MODIFIED="1344957772936" TEXT="Object ref can be assigned to primitive types which are automatically cast into wrapper class ,e.g. int-&gt;java.lang.Integer"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1345299239016" FOLDED="true" ID="ID_274384869" MODIFIED="1357610104047" POSITION="right" TEXT="annotation">
+<node CREATED="1344959043870" ID="ID_1886365364" MODIFIED="1344959080073" TEXT="instantiation">
+<node CREATED="1344959111573" ID="ID_172593929" MODIFIED="1344959155177" TEXT="ClassName&lt;Integer&gt; intobj = new ClassName&lt;Integer&gt;(...)"/>
+</node>
+</node>
+<node CREATED="1345083843519" FOLDED="true" ID="ID_82476767" MODIFIED="1345085433103" TEXT="generic method">
+<node CREATED="1345083859888" ID="ID_1987882782" MODIFIED="1345083912091" TEXT="definition">
+<node CREATED="1345083888600" ID="ID_1165801600" MODIFIED="1345083888600">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>public class Util {
+    // Generic static method
+    <strong>public static &lt;K, V&gt; boolean compare(Pair&lt;K, V&gt; p1, Pair&lt;K, V&gt; p2)</strong> {
+        return p1.getKey().equals(p2.getKey()) &amp;&amp;
+               p1.getValue().equals(p2.getValue());
+    }
+}</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1345083913033" ID="ID_1483245486" MODIFIED="1345083918528" TEXT="invocation">
+<node CREATED="1345083934577" ID="ID_1645009380" MODIFIED="1345083934577">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>Pair&lt;Integer, String&gt; p1 = new Pair&lt;&gt;(1, &quot;apple&quot;);
+Pair&lt;Integer, String&gt; p2 = new Pair&lt;&gt;(2, &quot;pear&quot;);
+boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1344958497215" FOLDED="true" ID="ID_1882822317" MODIFIED="1344958707604" TEXT="Type Parameter Naming Conventions">
+<node CREATED="1344958533229" ID="ID_545719924" MODIFIED="1344958533229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        E - Element (used extensively by the Java Collections Framework)
+      </li>
+      <li>
+        K - Key
+      </li>
+      <li>
+        N - Number
+      </li>
+      <li>
+        T - Type
+      </li>
+      <li>
+        V - Value
+      </li>
+      <li>
+        S,U,V etc. - 2nd, 3rd, 4th types
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1345299239016" FOLDED="true" ID="ID_274384869" MODIFIED="1363743162713" TEXT="annotation">
 <node CREATED="1345299262691" ID="ID_689043907" MODIFIED="1345299805470">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1034,7 +1039,12 @@ void mySuperMethod() { }</pre>
 </node>
 </node>
 </node>
-<node CREATED="1359034527586" FOLDED="true" ID="ID_36676939" MODIFIED="1359034823505" POSITION="right" TEXT="standard lib">
+<node CREATED="1357726880094" FOLDED="true" ID="ID_825203903" MODIFIED="1363743188043" TEXT="RTTI">
+<node CREATED="1357726885872" ID="ID_1459964306" MODIFIED="1357726925214" TEXT="instanceof()"/>
+</node>
+<node CREATED="1345185931743" ID="ID_1696692984" MODIFIED="1363743189853" TEXT="garbage recycling"/>
+</node>
+<node CREATED="1359034527586" FOLDED="true" ID="ID_36676939" MODIFIED="1363743165003" POSITION="right" TEXT="standard lib">
 <node CREATED="1357267216262" FOLDED="true" ID="ID_244607692" MODIFIED="1359034567695" TEXT="IO">
 <icon BUILTIN="full-1"/>
 <node CREATED="1344928739180" FOLDED="true" ID="ID_889414804" MODIFIED="1358952730527" TEXT="java.io.*">
@@ -2921,21 +2931,37 @@ void mySuperMethod() { }</pre>
 <node CREATED="1359034508998" ID="ID_1418897015" MODIFIED="1359034516254" TEXT="javax.swing.*"/>
 </node>
 </node>
-<node CREATED="1345185931743" ID="ID_1696692984" MODIFIED="1359034686794" POSITION="right" TEXT="garbage recycling"/>
-<node CREATED="1344928721463" FOLDED="true" ID="ID_1669046449" MODIFIED="1359034832116" POSITION="right" TEXT="ant">
-<node CREATED="1359034330295" ID="ID_1679088546" MODIFIED="1359034397452" TEXT="ant(*.java) vs. make(*.c,*.h,*.cc)"/>
-<node CREATED="1359034406537" ID="ID_1612987572" MODIFIED="1359034441046" TEXT="build.xml (ant) vs makefile (make)"/>
+<node CREATED="1363743078491" FOLDED="true" ID="ID_845504206" MODIFIED="1363743135933" POSITION="right" TEXT="more technique">
+<node CREATED="1357722811228" ID="ID_1276088937" MODIFIED="1363743114603" TEXT="JNI"/>
+<node CREATED="1357722814107" ID="ID_719604258" MODIFIED="1363743120453" TEXT="JSP"/>
+<node CREATED="1363743021631" ID="ID_186439636" MODIFIED="1363743120453" TEXT="ASF"/>
 </node>
-<node CREATED="1344928759131" FOLDED="true" ID="ID_1211870260" MODIFIED="1357726879329" POSITION="right" TEXT="Class">
-<node CREATED="1344931520612" ID="ID_1728175622" MODIFIED="1344931538315" TEXT="Class.classForName()"/>
-<node CREATED="1344931632714" ID="ID_481295074" MODIFIED="1344931657866" TEXT="Class.getSimpleName()"/>
-<node CREATED="1344931538569" ID="ID_1621932834" MODIFIED="1344931567626" TEXT="Class.newInstance()"/>
-<node CREATED="1344931568290" ID="ID_1594022608" MODIFIED="1344931632478" TEXT="&lt;instance&gt;.getClass()"/>
+<node CREATED="1344476478181" ID="ID_1815076567" MODIFIED="1363743197443" POSITION="right" TEXT="tools">
+<node CREATED="1344476481653" ID="ID_1211146360" MODIFIED="1363679552080" TEXT="jar">
+<node CREATED="1344476710443" ID="ID_1213416932" MODIFIED="1344476710443" TEXT="jar {ctxui}[vfm0Me] [jar-file] [manifest-file] [entry-point] [-C dir] files ..."/>
+<node CREATED="1344476980378" ID="ID_1722750021" MODIFIED="1344476980378" TEXT="-c  create new archive"/>
+<node CREATED="1344476980379" ID="ID_1244048564" MODIFIED="1344476980379" TEXT="-t  list table of contents for archive"/>
+<node CREATED="1344476980380" ID="ID_1043429795" MODIFIED="1344476980380" TEXT="-x  extract named (or all) files from archive"/>
+<node CREATED="1344476980381" ID="ID_1081244375" MODIFIED="1344476980381" TEXT="-u  update existing archive"/>
+<node CREATED="1344476980387" ID="ID_740972523" MODIFIED="1363743325662" TEXT="-i  generate index information for the specified jar files"/>
+<node CREATED="1344476980381" ID="ID_620202919" MODIFIED="1344476980381" TEXT="-v  generate verbose output on standard output"/>
+<node CREATED="1344476980382" ID="ID_1026182565" MODIFIED="1344476980382" TEXT="-f  specify archive file name"/>
+<node CREATED="1344476980383" ID="ID_700204962" MODIFIED="1344476980383" TEXT="-m  include manifest information from specified manifest file"/>
+<node CREATED="1344476980384" ID="ID_421586263" MODIFIED="1344476980384" TEXT="-e  specify application entry point for stand-alone application">
+<node CREATED="1344476980385" MODIFIED="1344476980385" TEXT="bundled into an executable jar file"/>
 </node>
-<node CREATED="1357726880094" FOLDED="true" ID="ID_825203903" MODIFIED="1359034843878" POSITION="right" TEXT="RTTI">
-<node CREATED="1357726885872" ID="ID_1459964306" MODIFIED="1357726925214" TEXT="instanceof()"/>
+<node CREATED="1344476980385" ID="ID_1481439035" MODIFIED="1344476980385" TEXT="-0  store only; use no ZIP compression"/>
+<node CREATED="1344476980386" ID="ID_581901254" MODIFIED="1344476980386" TEXT="-M  do not create a manifest file for the entries"/>
+<node CREATED="1344476980388" ID="ID_1560178937" MODIFIED="1344476980388" TEXT="-C  change to the specified directory and include the following file"/>
+<node CREATED="1344477040664" ID="ID_150992165" MODIFIED="1344477043790" TEXT="If any file is a directory then it is processed recursively. The manifest file name, the archive file name and the entry point name are specified in the same order as the &apos;m&apos;, &apos;f&apos; and &apos;e&apos; flags."/>
+<node CREATED="1344477055506" ID="ID_1989963431" MODIFIED="1344477056983" TEXT="Example 1: to archive two class files into an archive called classes.jar:         jar cvf classes.jar Foo.class Bar.class  Example 2: use an existing manifest file &apos;mymanifest&apos; and archive all the            files in the foo/ directory into &apos;classes.jar&apos;:         jar cvfm classes.jar mymanifest -C foo/ ."/>
 </node>
-<node CREATED="1357722811228" ID="ID_1276088937" MODIFIED="1357722813356" POSITION="right" TEXT="JNI"/>
-<node CREATED="1357722814107" ID="ID_719604258" MODIFIED="1357722815532" POSITION="right" TEXT="JSP"/>
+<node CREATED="1344496223399" ID="ID_1494158215" MODIFIED="1344496224565" TEXT="ant">
+<node CREATED="1359034330295" ID="ID_1679088546" MODIFIED="1363743149023" TEXT="ant(*.java) vs. make(*.c,*.h,*.cc)"/>
+<node CREATED="1359034406537" ID="ID_1612987572" MODIFIED="1363743149033" TEXT="build.xml (ant) vs makefile (make)"/>
+</node>
+<node CREATED="1344496227766" ID="ID_463927940" MODIFIED="1344496232447" TEXT="javac"/>
+<node CREATED="1344496232712" ID="ID_1163165352" MODIFIED="1344496234068" TEXT="java"/>
+</node>
 </node>
 </map>
