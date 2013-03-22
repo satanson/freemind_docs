@@ -473,7 +473,7 @@
 <node CREATED="1344931538569" ID="ID_1621932834" MODIFIED="1344931567626" TEXT="Class.newInstance()"/>
 <node CREATED="1344931568290" ID="ID_1594022608" MODIFIED="1344931632478" TEXT="&lt;instance&gt;.getClass()"/>
 </node>
-<node CREATED="1344928709477" ID="ID_230623101" MODIFIED="1363783631632" TEXT="generic programming">
+<node CREATED="1344928709477" FOLDED="true" ID="ID_230623101" MODIFIED="1363941230729" TEXT="generic programming">
 <node CREATED="1344930897070" ID="ID_1089510991" MODIFIED="1344954136770" STYLE="fork" TEXT="parameterized type ensuring compile-time type safety">
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1344930904905" ID="ID_1451160417" MODIFIED="1344954076567" TEXT="vs. ancestor Class Object as generic  type (run-time error)"/>
@@ -1044,7 +1044,7 @@ void mySuperMethod() { }</pre>
 </node>
 <node CREATED="1345185931743" ID="ID_1696692984" MODIFIED="1363743189853" TEXT="garbage recycling"/>
 </node>
-<node CREATED="1359034527586" ID="ID_36676939" MODIFIED="1363774570114" POSITION="right" TEXT="standard lib">
+<node CREATED="1359034527586" ID="ID_36676939" MODIFIED="1363941240332" POSITION="right" TEXT="standard lib">
 <node CREATED="1357267216262" FOLDED="true" ID="ID_244607692" MODIFIED="1363783673668" TEXT="IO">
 <icon BUILTIN="full-1"/>
 <node CREATED="1344928739180" ID="ID_889414804" MODIFIED="1363783646990" TEXT="java.io.*">
@@ -2708,7 +2708,7 @@ void mySuperMethod() { }</pre>
 </node>
 <node CREATED="1357610220813" ID="ID_515001195" MODIFIED="1357610238691" TEXT="Matcher"/>
 </node>
-<node CREATED="1359034638962" ID="ID_1348255881" MODIFIED="1363774787557" TEXT="util (java.util.*)">
+<node CREATED="1359034638962" FOLDED="true" ID="ID_1348255881" MODIFIED="1363941241247" TEXT="util (java.util.*)">
 <icon BUILTIN="full-4"/>
 <node CREATED="1363774791979" ID="ID_1638324109" MODIFIED="1363789136222" STYLE="fork" TEXT="Java Collections Framework">
 <node CREATED="1363789633727" ID="ID_222272956" MODIFIED="1363789633727" TEXT="">
@@ -3029,8 +3029,66 @@ void mySuperMethod() { }</pre>
 <node CREATED="1359034455123" ID="ID_764837071" MODIFIED="1359034508758" TEXT="java.awt.*"/>
 <node CREATED="1359034508998" ID="ID_1418897015" MODIFIED="1359034516254" TEXT="javax.swing.*"/>
 </node>
+<node CREATED="1363941244599" FOLDED="true" ID="ID_1579528762" MODIFIED="1363942120073" TEXT="JAXP --Java API for XML Processing">
+<icon BUILTIN="full-8"/>
+<node CREATED="1363941274222" ID="ID_802495493" MODIFIED="1363941327692" TEXT="DOM">
+<node CREATED="1363941259883" FOLDED="true" ID="ID_601677301" MODIFIED="1363941787716" TEXT="Document Object Model">
+<node CREATED="1363941538351" ID="ID_1131623974" MODIFIED="1363941539859" TEXT="DocumentBuilder dom=DocumentBuilderFactory.newInstance().newDocumentBuilder();"/>
+<node CREATED="1363941544002" ID="ID_656426723" MODIFIED="1363941646339" TEXT="InputSource ins=new InputSource(new BufferedReader&#xa;                           (newFileReader(&quot;iterator_pattern.xml&quot;))); &#xa;Document doc=dom.parse(ins);"/>
+<node CREATED="1363941664985" ID="ID_697116304" MODIFIED="1363941679853">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NodeList nlist=doc.getElementsByTagName(&quot;pattern&quot;);
+    </p>
+    <p>
+      Node node=nlist.item(0);
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1363743078491" FOLDED="true" ID="ID_845504206" MODIFIED="1363743135933" POSITION="right" TEXT="more technique">
+<node CREATED="1363941703158" ID="ID_1403016372" MODIFIED="1363941704402" TEXT="NamedNodeMap attribMap=node.getAttributes();"/>
+<node CREATED="1363941734714" ID="ID_926286156" MODIFIED="1363941763071" TEXT="Node attribNode=attribMap.item(i); &#xa;String attribName=attribNode.getNodeName(); &#xa;String attribValue=attribNode.getNodeValue();"/>
+<node CREATED="1363941777765" ID="ID_958465830" MODIFIED="1363941779195" TEXT="NodeList nlist=node.getChildNodes();"/>
+</node>
+</node>
+<node CREATED="1363941260882" ID="ID_796706560" MODIFIED="1363941353537" TEXT="SAX">
+<node CREATED="1363941379451" ID="ID_1272334471" MODIFIED="1363941380808" TEXT="Simple API for XML">
+<node CREATED="1363941841547" ID="ID_470744912" MODIFIED="1363941843572" TEXT="javax.xml.parsers.SAXParserFactory">
+<node CREATED="1363941857373" ID="ID_9747332" MODIFIED="1363941858507" TEXT="SAXParser"/>
+</node>
+<node CREATED="1363941872826" ID="ID_1701388298" MODIFIED="1363941874118" TEXT="org.xml.sax.helpers.DefaultHandler">
+<node CREATED="1363941890513" ID="ID_1299390842" MODIFIED="1363941907475" TEXT="ContentHandler">
+<node CREATED="1363941953433" ID="ID_1735944526" MODIFIED="1363941962564" TEXT="startDocument()"/>
+<node CREATED="1363941964258" ID="ID_1918094784" MODIFIED="1363941965344" TEXT="endDocument()"/>
+<node CREATED="1363941976538" ID="ID_1872396936" MODIFIED="1363941988697" TEXT="startElement()"/>
+<node CREATED="1363941988921" ID="ID_909665546" MODIFIED="1363941989953" TEXT="endElement()"/>
+<node CREATED="1363942005553" ID="ID_1040370138" MODIFIED="1363942006637" TEXT="characters()">
+<node CREATED="1363942026946" ID="ID_1948753551" MODIFIED="1363942028374" TEXT="characters() method that is called with the text data contents contained between the start and end tags of an XML document element."/>
+</node>
+</node>
+<node CREATED="1363941909162" ID="ID_936669948" MODIFIED="1363941923658" TEXT="ErrorHandler"/>
+<node CREATED="1363941924322" ID="ID_36925070" MODIFIED="1363941935966" TEXT="DTDHandler"/>
+<node CREATED="1363941937947" ID="ID_203341794" MODIFIED="1363941939008" TEXT="EntityResolver"/>
+</node>
+<node CREATED="1363942080017" ID="ID_321539846" MODIFIED="1363942086688" TEXT="XML Catalog">
+<node CREATED="1363942098570" ID="ID_1834669118" MODIFIED="1363942099742" TEXT="During parsing, the parser may need to access external documents. It is possible to store a local cache for frequently used documents using an XML Catalog."/>
+</node>
+</node>
+</node>
+<node CREATED="1363941261730" ID="ID_1908684073" MODIFIED="1363941394064" TEXT="StAX">
+<node CREATED="1363941407701" ID="ID_405312040" MODIFIED="1363941408613" TEXT="Streaming API for XML"/>
+</node>
+<node CREATED="1363941426320" ID="ID_1818800250" MODIFIED="1363941428267" TEXT="XSLT">
+<node CREATED="1363941446799" ID="ID_1509834038" MODIFIED="1363941448437" TEXT="XML Stylesheet Language for Transformations"/>
+</node>
+</node>
+</node>
+<node CREATED="1363743078491" FOLDED="true" ID="ID_845504206" MODIFIED="1363941239420" POSITION="right" TEXT="more technique">
 <node CREATED="1357722811228" ID="ID_1276088937" MODIFIED="1363743114603" TEXT="JNI"/>
 <node CREATED="1357722814107" ID="ID_719604258" MODIFIED="1363743120453" TEXT="JSP"/>
 <node CREATED="1363743021631" ID="ID_186439636" MODIFIED="1363743120453" TEXT="ASF"/>
