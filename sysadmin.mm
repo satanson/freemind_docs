@@ -220,8 +220,7 @@
       <font size="13px" color="rgb(0, 0, 0)" face="sans-serif">&#160;ONC RPC</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1364626107839" FOLDED="true" ID="ID_1054187482" MODIFIED="1364627508443">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -232,8 +231,7 @@
       <font face="sans-serif" color="rgb(0, 0, 0)">Version 2: portmap </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1364626166550" ID="ID_476753058" MODIFIED="1364627240154" TEXT="program number, version_number &#x2194; port number"/>
 </node>
 <node CREATED="1364626867378" ID="ID_278858369" MODIFIED="1364626948078" TEXT="Versions 3&amp;4: rpcbind">
@@ -379,6 +377,9 @@
 </node>
 <node CREATED="1364642168274" ID="ID_1514055925" MODIFIED="1364642172899" TEXT="$ file"/>
 </node>
+</node>
+<node CREATED="1364654627150" ID="ID_899074347" MODIFIED="1364654630884" POSITION="right" TEXT="xclip">
+<node CREATED="1364654729227" ID="ID_1822668252" MODIFIED="1364654733438" TEXT="command line interface to X selections (clipboard)"/>
 </node>
 </node>
 </map>
