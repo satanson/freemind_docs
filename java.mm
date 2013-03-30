@@ -3327,7 +3327,7 @@ void mySuperMethod() { }</pre>
 <node CREATED="1364373917172" ID="ID_133791031" MODIFIED="1364373919038" TEXT="String toString()"/>
 <node CREATED="1364373906552" ID="ID_574869234" MODIFIED="1364373909040" TEXT="void uncaughtException(Thread t, Throwable e)"/>
 </node>
-<node CREATED="1364269215102" ID="ID_65559370" MODIFIED="1364373960475" TEXT="Thread synchronization">
+<node CREATED="1364269215102" FOLDED="true" ID="ID_65559370" MODIFIED="1364400690041" TEXT="Thread synchronization">
 <icon BUILTIN="full-5"/>
 <node CREATED="1364269240617" ID="ID_1828174694" MODIFIED="1364269242210" TEXT="static boolean holdsLock(Object obj) "/>
 <node CREATED="1358960348097" ID="ID_1247103563" MODIFIED="1364278532255" TEXT="external lock">
@@ -3356,7 +3356,7 @@ void mySuperMethod() { }</pre>
 </node>
 </node>
 </node>
-<node CREATED="1364289252424" ID="ID_612748931" MODIFIED="1364301897674" TEXT="ThreadLocal(Thread Local Storage)">
+<node CREATED="1364289252424" FOLDED="true" ID="ID_612748931" MODIFIED="1364400692845" TEXT="ThreadLocal(Thread Local Storage)">
 <icon BUILTIN="full-6"/>
 <node CREATED="1364301678155" FOLDED="true" ID="ID_251401434" MODIFIED="1364301899150" TEXT="ThreadLocal&lt;T&gt;">
 <node CREATED="1364301687379" ID="ID_227511747" MODIFIED="1364301716462" TEXT="ThreadLocal()"/>
