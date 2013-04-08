@@ -86,6 +86,10 @@
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
 </node>
+<node CREATED="1365435024480" ID="ID_554223747" MODIFIED="1365435177306" TEXT="SSH no passphrase">
+<node CREATED="1365435088097" ID="ID_484100334" MODIFIED="1365435102549" TEXT="$ cd ~./ssh"/>
+<node CREATED="1365435039257" ID="ID_323080386" MODIFIED="1365435108536" TEXT="$ ssh-keygen -t rsa -C &quot;your_email@example.com&quot;"/>
+</node>
 <node CREATED="1345621365684" ID="ID_1169692100" MODIFIED="1345621447541" TEXT="project-specific  path/.git/config">
 <node CREATED="1345621449573" ID="ID_1518043934" MODIFIED="1345639718871" TEXT="$ git config user.name &quot;satanson&quot;">
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
