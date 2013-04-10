@@ -46,7 +46,7 @@
 </node>
 <node CREATED="1337762644773" ID="ID_122262468" MODIFIED="1357542916542" POSITION="right" TEXT="formats">
 <node CREATED="1337756529175" ID="ID_848346178" MODIFIED="1337762671319" TEXT="one action">
-<node CREATED="1337756552053" ID="ID_781140367" MODIFIED="1337757617826" TEXT="% nawk &apos;pattern&apos; filename  ">
+<node CREATED="1337756552053" ID="ID_781140367" MODIFIED="1365606710027" TEXT="% nawk &apos;pattern&apos; filename  ">
 <icon BUILTIN="full-1"/>
 <node CREATED="1337756698103" ID="ID_512896358" MODIFIED="1337756698103">
 <richcontent TYPE="NODE"><html>
@@ -76,7 +76,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1337756640624" ID="ID_120556171" MODIFIED="1339425608318" TEXT="% nawk &apos;pattern {action}&apos; filename">
+<node CREATED="1337756640624" FOLDED="true" ID="ID_120556171" MODIFIED="1365606711843" TEXT="% nawk &apos;pattern {action}&apos; filename">
 <icon BUILTIN="full-3"/>
 <node CREATED="1337756801251" ID="ID_1583856707" MODIFIED="1337756801251">
 <richcontent TYPE="NODE"><html>
@@ -253,7 +253,7 @@
 <node CREATED="1337781429868" ID="ID_1408197569" MODIFIED="1337781433723" TEXT="exit"/>
 </node>
 </node>
-<node CREATED="1337757231599" ID="ID_253791869" MODIFIED="1362722562541" POSITION="right" STYLE="fork" TEXT="process(nawk &apos;{print $1,$2}&apos; employees)">
+<node CREATED="1337757231599" FOLDED="true" ID="ID_253791869" MODIFIED="1365606657031" POSITION="right" STYLE="fork" TEXT="process(nawk &apos;{print $1,$2}&apos; employees)">
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1337757237160" ID="ID_841975563" MODIFIED="1337757735568" TEXT="take a line(record) of input file into buff designated by $0">
 <icon BUILTIN="full-1"/>
@@ -265,9 +265,9 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1337762228758" ID="ID_404128413" MODIFIED="1343358446510" POSITION="right" TEXT="patterns">
-<node CREATED="1337763079561" ID="ID_1964250558" MODIFIED="1362722570450" TEXT="regular expression">
-<node CREATED="1337762833063" ID="ID_567573414" MODIFIED="1362722577626" TEXT="metacharacters">
+<node CREATED="1337762228758" ID="ID_404128413" MODIFIED="1365606779872" POSITION="right" TEXT="patterns">
+<node CREATED="1337763079561" ID="ID_1964250558" MODIFIED="1365606781036" TEXT="regular expression">
+<node CREATED="1337762833063" FOLDED="true" ID="ID_567573414" MODIFIED="1365606790486" TEXT="metacharacters">
 <node CREATED="1337762998021" ID="ID_1423665857" MODIFIED="1337762998021">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -448,7 +448,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1337763108717" ID="ID_627920426" MODIFIED="1362722585910" TEXT="not supported">
+<node CREATED="1337763108717" FOLDED="true" ID="ID_627920426" MODIFIED="1365606786095" TEXT="not supported">
 <node CREATED="1337763158865" ID="ID_1048322717" MODIFIED="1337763177071">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -509,7 +509,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1337763284186" ID="ID_55155352" MODIFIED="1355018967006" TEXT="The POSIX Character Class">
+<node CREATED="1337763284186" FOLDED="true" ID="ID_55155352" MODIFIED="1365606783539" TEXT="The POSIX Character Class">
 <node CREATED="1337763416754" ID="ID_513681570" MODIFIED="1337763416754">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -668,9 +668,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1337758977800" ID="ID_923113264" MODIFIED="1357543193590" POSITION="right" TEXT="actions">
+<node CREATED="1337758977800" FOLDED="true" ID="ID_923113264" MODIFIED="1365606778896" POSITION="right" TEXT="actions">
 <node CREATED="1337764706997" ID="ID_1524787845" MODIFIED="1337764712521" TEXT="BEGIN">
-<node CREATED="1337764726910" ID="ID_1997215993" MODIFIED="1362722611260" TEXT="preprocessing before main input loop is ever executed">
+<node CREATED="1337764726910" ID="ID_1997215993" MODIFIED="1365606754412" TEXT="preprocessing before main input loop is ever executed">
 <node CREATED="1337768403074" ID="ID_1095849251" MODIFIED="1337768571035" TEXT="$ awk  &apos;BEGIN{&#xa;                  FS=&quot;,&quot;        &#xa;                  OFS=&quot;:&quot;      &#xa;           }  &#xa;           {print $1,$2,$3}&apos; &lt;&lt;DONE &#xa;&gt; ranpanf,24,student &#xa;&gt; satanson,23,teacher &#xa;&gt; DONE&#xa; &#xa;ranpanf:24:student &#xa;satanson:23:teacher"/>
 <node CREATED="1337768509772" ID="ID_1884356423" MODIFIED="1337768565793" TEXT="$ awk  &apos;BEGIN{FS=&quot;,&quot;;OFS=&quot;:&quot;};{print $1,$2,$3}&apos; &lt;&lt;DONE &#xa;&gt; ranpanf,24,student &#xa;&gt; satanson,23,teacher &#xa;&gt; DONE&#xa;&#xa;ranpanf:24:student &#xa;satanson:23:teacher"/>
 </node>
@@ -678,7 +678,7 @@
 <node CREATED="1337767135205" ID="ID_554308176" MODIFIED="1337767143865" TEXT="END">
 <node CREATED="1337767365782" ID="ID_1918135127" MODIFIED="1337767398732" TEXT="postprocessing after main input loop has terminated"/>
 </node>
-<node CREATED="1337758984859" FOLDED="true" ID="ID_817842202" MODIFIED="1343358392400" TEXT="print">
+<node CREATED="1337758984859" ID="ID_817842202" MODIFIED="1365606762678" TEXT="print">
 <node CREATED="1337759291869" ID="ID_833511178" MODIFIED="1337759299297" TEXT="arguments">
 <node CREATED="1337759302610" ID="ID_1618861894" MODIFIED="1337759312674" TEXT="computed value">
 <node CREATED="1337759314551" ID="ID_384139933" MODIFIED="1337759317346" TEXT="12"/>
@@ -706,7 +706,7 @@
 </node>
 <node CREATED="1337764698528" ID="ID_884370812" MODIFIED="1337764698528" TEXT=""/>
 </node>
-<node CREATED="1337759486167" FOLDED="true" ID="ID_1578443525" MODIFIED="1343358388720" TEXT="printf">
+<node CREATED="1337759486167" FOLDED="true" ID="ID_1578443525" MODIFIED="1365606766504" TEXT="printf">
 <node CREATED="1337760121736" ID="ID_1917535545" MODIFIED="1337760160036" TEXT="format string(%)">
 <node CREATED="1337760128343" ID="ID_507906741" MODIFIED="1337772217449" TEXT="conversion char">
 <node CREATED="1337772830671" ID="ID_495641917" MODIFIED="1337772830671" TEXT="Conversion Character    Definition"/>
@@ -861,7 +861,7 @@
 <node CREATED="1337781096518" ID="ID_1533252768" MODIFIED="1337781100888" TEXT="?:"/>
 </node>
 </node>
-<node CREATED="1337757759317" FOLDED="true" ID="ID_1177548063" MODIFIED="1363789105298" TEXT="internal variables">
+<node CREATED="1337757759317" FOLDED="true" ID="ID_1177548063" MODIFIED="1365606770468" TEXT="internal variables">
 <node CREATED="1337757774690" ID="ID_436532939" MODIFIED="1337757778577" TEXT="$0">
 <node CREATED="1337757841171" ID="ID_1325824767" MODIFIED="1337757853809" TEXT="the whole record"/>
 </node>
@@ -920,7 +920,7 @@
 </node>
 </node>
 <node CREATED="1337781470584" ID="ID_700390597" MODIFIED="1337784833405" POSITION="right" TEXT="array(associative array)"/>
-<node CREATED="1337760689962" ID="ID_1868310558" MODIFIED="1337780027589" POSITION="right" TEXT="script(awk -f scriptfile inputfile)">
+<node CREATED="1337760689962" FOLDED="true" ID="ID_1868310558" MODIFIED="1365606774954" POSITION="right" TEXT="script(awk -f scriptfile inputfile)">
 <node CREATED="1337780223409" ID="ID_808863121" MODIFIED="1337780237060" TEXT="pass parameters">
 <node CREATED="1337780242105" ID="ID_1286991533" MODIFIED="1337780306051" TEXT="awk -f &lt;scriptfile&gt; argv1=value2 argv2=value2 &lt;inputfile&gt;"/>
 <node CREATED="1337780310441" ID="ID_197536384" MODIFIED="1337780362157" TEXT="no space around equal sign"/>
