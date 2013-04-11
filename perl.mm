@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355236104335" ID="ID_1153208252" MODIFIED="1359305065744" TEXT="perl">
-<node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1365610563850" POSITION="right" TEXT="$@%&amp;*\">
+<node CREATED="1355458302900" ID="ID_1687987652" MODIFIED="1365653594607" POSITION="right" TEXT="$@%&amp;*\">
 <node CREATED="1355458364407" FOLDED="true" ID="ID_937717701" MODIFIED="1365595660267" TEXT="$ scalar">
 <node CREATED="1355240403869" ID="ID_1518752704" MODIFIED="1365583383090" TEXT="undef">
 <node CREATED="1355240432319" ID="ID_179851737" MODIFIED="1365578983476" TEXT="only scalar can have a &quot;undef&quot; value ,containers/collections/aggregations can&apos;t"/>
@@ -134,8 +134,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1355458373206" FOLDED="true" ID="ID_1477647134" MODIFIED="1365610477946" TEXT="@ array">
-<node CREATED="1365595825984" ID="ID_1221949402" MODIFIED="1365610473937" TEXT="array">
+<node CREATED="1355458373206" FOLDED="true" ID="ID_1477647134" MODIFIED="1365649651950" TEXT="@ array">
+<node CREATED="1365595825984" FOLDED="true" ID="ID_1221949402" MODIFIED="1365648348310" TEXT="array">
 <node CREATED="1357883066136" FOLDED="true" ID="ID_137196903" MODIFIED="1365599665983" TEXT="define">
 <node CREATED="1365583549994" ID="ID_393713793" MODIFIED="1365583560632" TEXT="@array=(0..10)">
 <node CREATED="1365583565522" ID="ID_886820725" MODIFIED="1365583571777" TEXT="10 included"/>
@@ -228,7 +228,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1365595853759" ID="ID_58437901" MODIFIED="1365609631785" TEXT="list">
+<node CREATED="1365595853759" ID="ID_58437901" MODIFIED="1365648349214" TEXT="list">
 <node CREATED="1365596020536" FOLDED="true" ID="ID_523673595" MODIFIED="1365609131046" TEXT="create">
 <node CREATED="1365605204579" ID="ID_793434915" MODIFIED="1365605279164" TEXT=".. range operator(in list context)">
 <node CREATED="1365605285243" ID="ID_1599847772" MODIFIED="1365605290517" TEXT="1..10"/>
@@ -244,8 +244,8 @@
 </node>
 <node CREATED="1365605462739" ID="ID_1310490230" MODIFIED="1365605464267" TEXT="lists may end with an optional comma to mean that multiple commas within lists are legal syntax."/>
 </node>
-<node CREATED="1365595515632" FOLDED="true" ID="ID_1539113879" MODIFIED="1365609642738" TEXT="slice">
-<node CREATED="1357883278958" FOLDED="true" ID="ID_885406306" MODIFIED="1365609017519" TEXT="array slice">
+<node CREATED="1365595515632" ID="ID_1539113879" MODIFIED="1365648354628" TEXT="slice">
+<node CREATED="1357883278958" ID="ID_885406306" MODIFIED="1365648633312" TEXT="array slice (lvalue)">
 <node CREATED="1357882929679" ID="ID_1562877082" MODIFIED="1365609004104" TEXT="@array[start..end(including)]">
 <node CREATED="1365594563559" ID="ID_1752106721" MODIFIED="1365594592176" TEXT="$ perl -e &apos;@ar=(0..9);print join&quot; &quot;,@ar[1,2,4..6],&quot;\n&quot;;&apos;">
 <node CREATED="1365594576175" ID="ID_145356461" MODIFIED="1365594588937" TEXT="1 2 4 5 6"/>
@@ -256,14 +256,85 @@
 <node CREATED="1365594655944" ID="ID_497544463" MODIFIED="1365594672783" TEXT="5 2 7 6"/>
 </node>
 </node>
+<node CREATED="1365648371419" ID="ID_539279143" MODIFIED="1365648391060" TEXT="@days[3..5]    = qw/Wed Thu Fri/;">
+<node CREATED="1365648411655" FOLDED="true" ID="ID_1993784859" MODIFIED="1365648416493" TEXT="eq">
+<node CREATED="1365648405766" ID="ID_61737409" MODIFIED="1365648414145" TEXT="($days[3], $days[4], $days[5]) = qw/Wed Thu Fri/;"/>
 </node>
-<node CREATED="1365593748797" FOLDED="true" ID="ID_1387567986" MODIFIED="1365609016799" TEXT="hash slice">
+</node>
+</node>
+<node CREATED="1365593748797" FOLDED="true" ID="ID_1387567986" MODIFIED="1365648850192" TEXT="hash slice (lvalue)">
 <node CREATED="1365594891216" ID="ID_1269701029" MODIFIED="1365595546952" TEXT="@array=%hash{key1,key2,...}">
 <node CREATED="1365595496760" ID="ID_1882136740" MODIFIED="1365595499520" TEXT="($who, $home)  = @ENV{&quot;USER&quot;, &quot;HOME&quot;};"/>
 </node>
+<node CREATED="1365648375374" ID="ID_1665964838" MODIFIED="1365648481203" TEXT="@colors{&apos;red&apos;,&apos;blue&apos;,&apos;green&apos;} = (0xff0000, 0x0000ff, 0x00ff00);">
+<node CREATED="1365648445237" ID="ID_666631999" MODIFIED="1365648446721" TEXT="eq">
+<node CREATED="1365648447694" ID="ID_729383102" MODIFIED="1365648470891" TEXT="($colors{&apos;red&apos;}, $colors{&apos;blue&apos;}, $colors{&apos;green&apos;})= (0xff0000, 0x0000ff, 0x00ff00);"/>
 </node>
-<node CREATED="1365595483320" FOLDED="true" ID="ID_597655128" MODIFIED="1365609018803" TEXT="list slice">
+</node>
+</node>
+<node CREATED="1365595483320" ID="ID_597655128" MODIFIED="1365648851767" TEXT="list slice ">
 <node CREATED="1365595542887" ID="ID_1064036933" MODIFIED="1365595544304" TEXT="($uid, $dir)   = (getpwnam(&quot;daemon&quot;))[2,7];"/>
+<node CREATED="1365648827109" ID="ID_901949151" MODIFIED="1365648828656" TEXT="perl -e &apos;print ((1,2,3)[1,2])&apos;">
+<node CREATED="1365648831735" ID="ID_1499848998" MODIFIED="1365648833671" TEXT="23"/>
+</node>
+</node>
+<node CREATED="1365648586077" FOLDED="true" ID="ID_249660082" MODIFIED="1365649032258" TEXT="A slice of an empty list is still an empty list.">
+<node CREATED="1365648901989" ID="ID_1858291924" MODIFIED="1365648911458">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 104, 139)">@a</font>&#160;= <font color="rgb(0, 0, 0)">()</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">;</font>&#160;<font color="rgb(34, 139, 34)"># @a has no elements</font>
+    </p>
+    <p>
+      <font color="rgb(0, 104, 139)">@b</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">@a</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font>]<font color="rgb(0, 0, 0)">;</font>&#160;<font color="rgb(34, 139, 34)"># @b has no elements</font>
+    </p>
+    <p>
+      <font color="rgb(0, 104, 139)">@c</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">2</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">3</font>]<font color="rgb(0, 0, 0)">;</font>&#160;<font color="rgb(34, 139, 34)"># @c has no elements</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365648924689" ID="ID_138036372" MODIFIED="1365648933386">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 104, 139)">@a</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">;</font>&#160;<font color="rgb(34, 139, 34)"># @a has two elements</font>
+    </p>
+    <p>
+      <font color="rgb(0, 104, 139)">@b</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/undef.html"><b>undef</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">2</font>]<font color="rgb(0, 0, 0)">;</font>&#160; <font color="rgb(34, 139, 34)"># @b has three elements</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365648941320" ID="ID_1596191815" MODIFIED="1365648958729" TEXT="makes it easy to write loops that terminate when a null list is returned:">
+<node CREATED="1365648969509" ID="ID_855998204" MODIFIED="1365649030901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      while <font color="rgb(0, 0, 0)">(</font>&#160;<font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">$home</font><font color="rgb(0, 0, 0)">,</font>&#160;<font color="rgb(0, 104, 139)">$user</font><font color="rgb(0, 0, 0)">)</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/getpwent.html"><b>getpwent</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">7</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">)</font>&#160;<font color="rgb(0, 0, 0)">{</font>
+    </p>
+    <p>
+      <font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/printf.html"><b>printf</b></a></font>&#160;<font color="rgb(205, 85, 85)">&quot;%-8s %s\n&quot;</font><font color="rgb(0, 0, 0)">,</font>&#160;<font color="rgb(0, 104, 139)">$user</font><font color="rgb(0, 0, 0)">,</font>&#160; <font color="rgb(0, 104, 139)">$home</font><font color="rgb(0, 0, 0)">;</font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1365608907323" FOLDED="true" ID="ID_1313839778" MODIFIED="1365609641526" TEXT="concatenate">
@@ -271,7 +342,7 @@
 <node CREATED="1365609120867" ID="ID_523340011" MODIFIED="1365609122577" TEXT="LISTs do automatic interpolation of sublists. That is, when a LIST is evaluated, each element of the list is evaluated in list context, and the resulting list value is interpolated into LIST just as if each individual element were a member of LIST. Thus arrays and hashes lose their identity in a LIST"/>
 </node>
 </node>
-<node CREATED="1365609166891" FOLDED="true" ID="ID_813989987" MODIFIED="1365609636034" TEXT="splice">
+<node CREATED="1365609166891" FOLDED="true" ID="ID_813989987" MODIFIED="1365648352849" TEXT="splice">
 <node CREATED="1365609215731" ID="ID_55683738" MODIFIED="1365609224725" TEXT="return list in list context"/>
 </node>
 <node CREATED="1365609226644" FOLDED="true" ID="ID_695030901" MODIFIED="1365609637474" TEXT="map">
@@ -293,16 +364,17 @@
 <node CREATED="1365609609811" ID="ID_824909112" MODIFIED="1365609613278" TEXT="join EXPR,LIST"/>
 </node>
 </node>
+<node CREATED="1365646656413" ID="ID_1468215513" MODIFIED="1365646661874" TEXT="m//g"/>
 <node CREATED="1365609319963" ID="ID_1276182582" MODIFIED="1365609324114" TEXT="sort/reverse"/>
 </node>
-<node CREATED="1355240531226" FOLDED="true" ID="ID_1439316508" MODIFIED="1365610457670" TEXT="array vs. list">
+<node CREATED="1355240531226" ID="ID_1439316508" MODIFIED="1365647584062" TEXT="array vs. list">
 <node CREATED="1355240563354" ID="ID_1778859340" MODIFIED="1365609842670" TEXT="array holds list, list is a aggregation of scalars.">
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1355240593716" ID="ID_449841035" MODIFIED="1365609908459" TEXT="array is mutable(automatically extended),list is immutable.">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1355240802353" FOLDED="true" ID="ID_1233129572" MODIFIED="1365610455427" TEXT="list assignment vs. array assignment vs. assign list to scalar.">
+<node CREATED="1355240802353" FOLDED="true" ID="ID_1233129572" MODIFIED="1365647621281" TEXT="list assignment vs. array assignment vs. assign list to scalar.">
 <icon BUILTIN="full-3"/>
 <node CREATED="1365610058707" FOLDED="true" ID="ID_658728747" MODIFIED="1365610452326" TEXT="list assignment">
 <node CREATED="1355241050234" ID="ID_1353274457" MODIFIED="1365610133775" TEXT="($a,$b)=($b,$a);"/>
@@ -322,9 +394,24 @@
 </node>
 </node>
 </node>
+<node CREATED="1365647587453" FOLDED="true" ID="ID_66427987" MODIFIED="1365648343988" TEXT="Multi-dimensional array emulation vs. hash slice">
+<icon BUILTIN="full-4"/>
+<node CREATED="1365647625717" ID="ID_754776837" MODIFIED="1365647664937" TEXT="@hash{$key1,$key2,...};#hash slice"/>
+<node CREATED="1365647666144" ID="ID_60378827" MODIFIED="1365647713980" TEXT="$array{$x,$y,$z};#multi-dimen array emulation">
+<node CREATED="1365647720866" ID="ID_1161294622" MODIFIED="1365647722568" TEXT="eq">
+<node CREATED="1365647723572" ID="ID_917998301" MODIFIED="1365647833664" TEXT="$array{join $;,$x,$y,$z}"/>
+<node CREATED="1365647834902" ID="ID_890335496" MODIFIED="1365647929557" TEXT="$;/$SUBSCRIPT_SEPARATOR/$SUBSEP">
+<node CREATED="1365647903302" ID="ID_1111741155" MODIFIED="1365647903302" TEXT="The subscript separator for multidimensional array emulation."/>
+<node CREATED="1365647920983" ID="ID_1052160800" MODIFIED="1365647922326" TEXT="Default is &quot;\034&quot;, the same as SUBSEP in awk."/>
 </node>
 </node>
-<node CREATED="1355458379779" FOLDED="true" ID="ID_1117151819" MODIFIED="1365610556399" TEXT="% hash">
+</node>
+</node>
+</node>
+<node CREATED="1365646677090" ID="ID_971468414" MODIFIED="1365646680618" TEXT="@INC"/>
+<node CREATED="1365646694414" ID="ID_1422027295" MODIFIED="1365646699533" TEXT="@ARGV"/>
+</node>
+<node CREATED="1355458379779" FOLDED="true" ID="ID_1117151819" MODIFIED="1365652798378" TEXT="% hash">
 <node CREATED="1355465477201" ID="ID_1073337979" MODIFIED="1365610469316" TEXT="create">
 <node CREATED="1355466235453" ID="ID_1138465962" MODIFIED="1355466277875" TEXT="assign list">
 <node CREATED="1355465487700" ID="ID_436909523" MODIFIED="1355466715716" TEXT="%hash=@array;#list context"/>
@@ -333,34 +420,63 @@
 <node CREATED="1355466165643" ID="ID_565751933" MODIFIED="1355466193850" TEXT="reverse(rewind)"/>
 </node>
 </node>
-<node CREATED="1355466210793" ID="ID_1801388450" MODIFIED="1355466764497" TEXT="big array(=&gt;)">
+<node CREATED="1355466210793" ID="ID_1801388450" MODIFIED="1365646637780" TEXT="big array(=&gt;)">
 <node CREATED="1355466318607" ID="ID_523914997" MODIFIED="1355466758040" TEXT="%hash=(&quot;key0&quot;=&gt;val0,&quot;key1&quot;=&gt;val1,...);"/>
 </node>
 </node>
-<node CREATED="1355466804734" ID="ID_1313295842" MODIFIED="1365610499405" TEXT="access by key">
-<node CREATED="1355466822745" ID="ID_492490620" MODIFIED="1355467292497" TEXT="$hash{&quot;key&quot;}=value;#insert ."/>
-<node CREATED="1355467076888" ID="ID_1301649411" MODIFIED="1355467293895" TEXT="$value=$hash{&quot;key&quot;};#get value by key."/>
-<node CREATED="1355466873007" ID="ID_421489887" MODIFIED="1355467340905" TEXT="exists $hash{&quot;key&quot;};# ismember."/>
-<node CREATED="1355466886130" ID="ID_1012385926" MODIFIED="1355467343385" TEXT="delete $hash{&quot;key&quot;};#delete."/>
+<node CREATED="1355466804734" FOLDED="true" ID="ID_1313295842" MODIFIED="1365646866360" TEXT="access by key">
+<node CREATED="1365646796079" ID="ID_797604255" MODIFIED="1365646797626" TEXT="set">
+<node CREATED="1355466822745" ID="ID_492490620" MODIFIED="1365646798616" TEXT="$hash{&quot;key&quot;}=value;"/>
 </node>
-<node CREATED="1355467344979" ID="ID_1794859835" MODIFIED="1365610534679" TEXT="keys values items(each)">
+<node CREATED="1365646805120" ID="ID_191326654" MODIFIED="1365646806432" TEXT="get">
+<node CREATED="1355467076888" ID="ID_1301649411" MODIFIED="1365646808421" TEXT="$value=$hash{&quot;key&quot;};"/>
+</node>
+<node CREATED="1365646815392" ID="ID_1303189393" MODIFIED="1365646859995" TEXT="in">
+<node CREATED="1355466873007" ID="ID_421489887" MODIFIED="1365646848848" TEXT="exists $hash{&quot;key&quot;};."/>
+</node>
+<node CREATED="1365646836359" ID="ID_635213705" MODIFIED="1365646864051" TEXT="del">
+<node CREATED="1355466886130" ID="ID_1012385926" MODIFIED="1365646852530" TEXT="delete $hash{&quot;key&quot;};"/>
+</node>
+</node>
+<node CREATED="1355467344979" FOLDED="true" ID="ID_1794859835" MODIFIED="1365647327255" TEXT="keys/values/each">
 <node CREATED="1355467990501" ID="ID_1446202569" MODIFIED="1355468008985" TEXT="keys %hash;">
 <node CREATED="1355468037048" ID="ID_1948962542" MODIFIED="1355468046873" TEXT="keys() in python;"/>
 </node>
 <node CREATED="1355467993019" ID="ID_576788794" MODIFIED="1355468015897" TEXT="values %hash;">
 <node CREATED="1355468048638" ID="ID_943282447" MODIFIED="1355468055113" TEXT="values() in python;"/>
 </node>
-<node CREATED="1355468016171" ID="ID_520068407" MODIFIED="1365610523856" TEXT="each %hash;">
-<node CREATED="1355468056957" ID="ID_507564893" MODIFIED="1355468342572" TEXT="generator.next() in python;"/>
+<node CREATED="1355468016171" ID="ID_520068407" MODIFIED="1365646919072" TEXT="each %hash;">
 <node CREATED="1355468416594" ID="ID_177268595" MODIFIED="1355468501651" TEXT="iterate %hash item one-by-one,at last return undef, next invocation restart a new iteration."/>
+<node CREATED="1365646914811" ID="ID_1121436790" MODIFIED="1365647321178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;while (($key, $value) = each %hash) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;print $key, &quot;\n&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;delete $hash{$key};&#160;&#160;&#160;# This is safe
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1355458405161" ID="ID_1830379433" MODIFIED="1365610557525" TEXT="&amp; function">
+</node>
+<node CREATED="1355458405161" ID="ID_1830379433" MODIFIED="1365654544736" TEXT="&amp; function">
 <node CREATED="1355458505424" ID="ID_1160624316" MODIFIED="1355458511794" TEXT="built-in"/>
 <node CREATED="1355458512231" ID="ID_1855068221" MODIFIED="1355458564346" TEXT="lib function"/>
-<node CREATED="1355404033773" FOLDED="true" ID="ID_251780289" MODIFIED="1365610561944" TEXT=" subroutine &quot;user-defined&quot;">
-<node CREATED="1355404222555" FOLDED="true" ID="ID_1578210497" MODIFIED="1355668816961" TEXT="compared with C lang">
+<node CREATED="1355404033773" ID="ID_251780289" MODIFIED="1365654548448" TEXT=" subroutine &quot;user-defined&quot;">
+<node CREATED="1355404222555" FOLDED="true" ID="ID_1578210497" MODIFIED="1365654586754" TEXT="compared with C lang">
 <node CREATED="1355404240093" ID="ID_719926929" MODIFIED="1355404592581" TEXT="1.invocation after declaration.">
 <node CREATED="1355404301357" ID="ID_581887034" MODIFIED="1355404309097" TEXT="C">
 <icon BUILTIN="button_ok"/>
@@ -382,38 +498,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1355668828752" ID="ID_430810131" MODIFIED="1355668977892" TEXT="declaration">
+<node CREATED="1355668828752" FOLDED="true" ID="ID_430810131" MODIFIED="1365655309238" TEXT="declaration">
 <node CREATED="1355668835264" ID="ID_1821903147" MODIFIED="1355668841848" TEXT="sub func_name;"/>
-<node CREATED="1355668979516" ID="ID_1253798183" MODIFIED="1355668984431" TEXT="definition"/>
+<node CREATED="1355668979516" ID="ID_1253798183" LINK="#ID_757029402" MODIFIED="1365655306964" TEXT="definition">
+<arrowlink DESTINATION="ID_757029402" ENDARROW="Default" ENDINCLINATION="254;0;" ID="Arrow_ID_1040687379" STARTARROW="None" STARTINCLINATION="254;0;"/>
+</node>
 <node CREATED="1355668845297" ID="ID_822418034" MODIFIED="1355668888719" TEXT="use package_name qw(name1 name2 ...)"/>
 </node>
-<node CREATED="1356115554376" ID="ID_1294584414" MODIFIED="1356116269586" TEXT="prototype">
-<node CREATED="1356115690668" ID="ID_1096116363" MODIFIED="1356115709825" TEXT="e.g.">
-<node CREATED="1356115712497" ID="ID_1024861068" MODIFIED="1356115766588" TEXT="sub  mypush(\@$)"/>
-<node CREATED="1356115770141" ID="ID_575010729" MODIFIED="1356115843463" TEXT="sub  mykeys(\%)"/>
-<node CREATED="1356115843974" ID="ID_912123522" MODIFIED="1356115863412" TEXT="sub mylink($$)"/>
-<node CREATED="1356115956804" ID="ID_315185264" MODIFIED="1356115971254" TEXT="sub myopen(*;$)"/>
-</node>
-<node CREATED="1356116136056" ID="ID_747483187" MODIFIED="1356116193771" TEXT="\% \@ \&amp; \* \$">
-<node CREATED="1356116205102" ID="ID_1191776150" MODIFIED="1356116264263" TEXT="parameter begin with type identifier. hard ref"/>
-</node>
-<node CREATED="1356115866943" ID="ID_1009449621" MODIFIED="1356116113743" TEXT="@ %">
-<node CREATED="1356115976734" ID="ID_1293365329" MODIFIED="1356115981528" TEXT="list context"/>
-</node>
-<node CREATED="1356115899452" ID="ID_792923183" MODIFIED="1356115901610" TEXT="$">
-<node CREATED="1356115983794" ID="ID_968178542" MODIFIED="1356115992035" TEXT="$scalar context"/>
-</node>
-<node CREATED="1356115904418" ID="ID_1847957539" MODIFIED="1356115906354" TEXT="&amp;">
-<node CREATED="1356116000646" ID="ID_1657466214" MODIFIED="1356116041957" TEXT="anonymous sub(BLOCK)"/>
-</node>
-<node CREATED="1356115912709" ID="ID_907435585" MODIFIED="1356115914052" TEXT="*">
-<node CREATED="1356116047035" ID="ID_1995396078" MODIFIED="1356116134026" TEXT="file handler typeglobal"/>
-</node>
-<node CREATED="1356115921826" ID="ID_48930606" MODIFIED="1356115923225" TEXT=";">
-<node CREATED="1356116061243" ID="ID_765228920" MODIFIED="1356116111126" TEXT="optional parameters"/>
-</node>
-</node>
-<node CREATED="1355404980847" ID="ID_757029402" MODIFIED="1356115571567" TEXT="definition">
+<node CREATED="1355404980847" ID="ID_757029402" MODIFIED="1365655352047" TEXT="definition">
 <node CREATED="1355404987689" ID="ID_909827149" MODIFIED="1355406458274">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -443,12 +535,14 @@
     </p>
   </body>
 </html></richcontent>
+</node>
 <node CREATED="1355405816429" ID="ID_855430717" MODIFIED="1355405865990" TEXT="keyword &quot;sub&quot;."/>
 <node CREATED="1355405841248" ID="ID_1706009980" MODIFIED="1355405872178" TEXT="no return  type."/>
 <node CREATED="1355405853487" ID="ID_603218668" MODIFIED="1355405874233" TEXT="no argument list."/>
 <node CREATED="1355406113467" ID="ID_261543099" MODIFIED="1355406118246" TEXT="return value.">
 <node CREATED="1355405993587" ID="ID_1329339902" MODIFIED="1355406507139" TEXT="keyword &quot;return&quot;."/>
 <node CREATED="1355405876879" ID="ID_352594926" MODIFIED="1355670377176" TEXT="the value of the last expression evaluated."/>
+</node>
 </node>
 <node CREATED="1355406167600" ID="ID_716071656" MODIFIED="1355451531483" TEXT="parameter passing">
 <node CREATED="1355406178973" ID="ID_1338742465" MODIFIED="1355406217156" TEXT="just like positional variables in shell programming.">
@@ -478,7 +572,7 @@
 <node CREATED="1355406432805" ID="ID_1846227248" MODIFIED="1355406444748" TEXT="(pl) $#_"/>
 </node>
 </node>
-<node CREATED="1355451534174" ID="ID_905352423" MODIFIED="1355451536834" TEXT="@_">
+<node CREATED="1355451534174" ID="ID_905352423" MODIFIED="1365655432016" TEXT="@_ (local)">
 <node CREATED="1355451538820" ID="ID_311657628" MODIFIED="1355451555870" TEXT="The array @_ is a local array, but its elements are aliases for the actual scalar parameters. "/>
 </node>
 <node CREATED="1355447153602" ID="ID_1478159492" MODIFIED="1355459971732" TEXT="by-">
@@ -489,6 +583,30 @@
 <node CREATED="1355459990517" ID="ID_1842747125" MODIFIED="1355459996226" TEXT="alias"/>
 </node>
 </node>
+<node CREATED="1356115554376" ID="ID_1294584414" MODIFIED="1356116269586" TEXT="prototype">
+<node CREATED="1356115690668" ID="ID_1096116363" MODIFIED="1356115709825" TEXT="e.g.">
+<node CREATED="1356115712497" ID="ID_1024861068" MODIFIED="1356115766588" TEXT="sub  mypush(\@$)"/>
+<node CREATED="1356115770141" ID="ID_575010729" MODIFIED="1356115843463" TEXT="sub  mykeys(\%)"/>
+<node CREATED="1356115843974" ID="ID_912123522" MODIFIED="1356115863412" TEXT="sub mylink($$)"/>
+<node CREATED="1356115956804" ID="ID_315185264" MODIFIED="1356115971254" TEXT="sub myopen(*;$)"/>
+</node>
+<node CREATED="1356116136056" ID="ID_747483187" MODIFIED="1356116193771" TEXT="\% \@ \&amp; \* \$">
+<node CREATED="1356116205102" ID="ID_1191776150" MODIFIED="1356116264263" TEXT="parameter begin with type identifier. hard ref"/>
+</node>
+<node CREATED="1356115866943" ID="ID_1009449621" MODIFIED="1356116113743" TEXT="@ %">
+<node CREATED="1356115976734" ID="ID_1293365329" MODIFIED="1356115981528" TEXT="list context"/>
+</node>
+<node CREATED="1356115899452" ID="ID_792923183" MODIFIED="1356115901610" TEXT="$">
+<node CREATED="1356115983794" ID="ID_968178542" MODIFIED="1356115992035" TEXT="$scalar context"/>
+</node>
+<node CREATED="1356115904418" ID="ID_1847957539" MODIFIED="1356115906354" TEXT="&amp;">
+<node CREATED="1356116000646" ID="ID_1657466214" MODIFIED="1356116041957" TEXT="anonymous sub(BLOCK)"/>
+</node>
+<node CREATED="1356115912709" ID="ID_907435585" MODIFIED="1356115914052" TEXT="*">
+<node CREATED="1356116047035" ID="ID_1995396078" MODIFIED="1356116134026" TEXT="file handler typeglobal"/>
+</node>
+<node CREATED="1356115921826" ID="ID_48930606" MODIFIED="1356115923225" TEXT=";">
+<node CREATED="1356116061243" ID="ID_765228920" MODIFIED="1356116111126" TEXT="optional parameters"/>
 </node>
 </node>
 <node CREATED="1355668819952" ID="ID_30398742" MODIFIED="1356115576920" TEXT="invocation">
@@ -620,16 +738,29 @@
 </node>
 </node>
 </node>
-<node CREATED="1355458408526" FOLDED="true" ID="ID_274678487" MODIFIED="1365578820633" TEXT="* typeglob">
-<node CREATED="1355456113776" ID="ID_572681415" MODIFIED="1355456156405" TEXT="alias(typeglob*)"/>
-<node CREATED="1355456191256" ID="ID_963263327" MODIFIED="1355456210227" TEXT="*alias_name=left_value"/>
+<node CREATED="1355458408526" FOLDED="true" ID="ID_274678487" MODIFIED="1365653368549" TEXT="* typeglob">
+<node CREATED="1355456113776" FOLDED="true" ID="ID_572681415" MODIFIED="1365653058734" TEXT="indirectly modify symbol tables.">
+<node CREATED="1365652995888" ID="ID_1829685397" MODIFIED="1365653003425" TEXT="*foo=\$bar">
+<node CREATED="1365653005224" ID="ID_1884190065" MODIFIED="1365653052307" TEXT="bar can be a lexical variable."/>
 </node>
-<node CREATED="1355456156918" FOLDED="true" ID="ID_1667849684" MODIFIED="1365578826637" STYLE="fork" TEXT="\ hard reference">
+<node CREATED="1365652853182" ID="ID_1747575516" MODIFIED="1365653053891" TEXT="*foo=*bar;">
+<node CREATED="1365652878789" ID="ID_351301114" MODIFIED="1365652992450" TEXT="bar must be a dynamic variable. so bar has the corresponding entry in symbol tables."/>
+</node>
+</node>
+<node CREATED="1365653059926" ID="ID_1666633532" MODIFIED="1365653270637" TEXT="import the symbols from external module.">
+<node CREATED="1365653238850" ID="ID_1838802634" MODIFIED="1365653262705" TEXT="use Module qw(foo bar);"/>
+</node>
+<node CREATED="1365653267437" ID="ID_5180736" MODIFIED="1365653361244" TEXT="pass filehandle to sub/func.">
+<node CREATED="1365653319460" ID="ID_1376024133" MODIFIED="1365653337683" TEXT="$foo=*FH"/>
+<node CREATED="1365653338641" ID="ID_148231161" MODIFIED="1365653345678" TEXT="$foo=\*FH"/>
+</node>
+</node>
+<node CREATED="1355456156918" FOLDED="true" ID="ID_1667849684" MODIFIED="1365654543503" STYLE="fork" TEXT="\ hard reference">
 <node CREATED="1355456409164" ID="ID_525132591" MODIFIED="1355456657403" TEXT="definition">
 <node CREATED="1355456350801" ID="ID_1582828918" MODIFIED="1355456615118" TEXT="hard ref is a scalar which references to  the thingy(object) underlying the variable."/>
 </node>
-<node CREATED="1355456638566" ID="ID_303866383" MODIFIED="1365570066053" TEXT="create">
-<node CREATED="1355456659172" ID="ID_1465710276" MODIFIED="1355457230368" TEXT="named &quot;\&quot;">
+<node CREATED="1355456638566" FOLDED="true" ID="ID_303866383" MODIFIED="1365653443092" TEXT="create">
+<node CREATED="1355456659172" ID="ID_1465710276" MODIFIED="1365653389761" TEXT="named &quot;\&quot;">
 <node CREATED="1355456672941" ID="ID_93924745" MODIFIED="1355456988992" TEXT="$ref=\$scalar;">
 <icon BUILTIN="full-1"/>
 <node CREATED="1355469170711" ID="ID_1529666785" MODIFIED="1355469261333" TEXT="@list = (\$a, \$b, \$c);">
@@ -651,14 +782,14 @@
 <icon BUILTIN="full-5"/>
 </node>
 </node>
-<node CREATED="1355456964910" FOLDED="true" ID="ID_616428509" MODIFIED="1365570171696" TEXT="anonymous">
+<node CREATED="1355456964910" FOLDED="true" ID="ID_616428509" MODIFIED="1365653441844" TEXT="anonymous">
 <node CREATED="1355456977943" ID="ID_1787664197" MODIFIED="1355457190166" TEXT="$ref=\do{my  $anon};#scalar">
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1355457045954" ID="ID_1128195288" MODIFIED="1355457191997" TEXT="$ref=[list] ;#array">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1355457093403" ID="ID_1771620583" MODIFIED="1355457193478" TEXT="$ref={list};#hash">
+<node CREATED="1355457093403" ID="ID_1771620583" MODIFIED="1365653417227" TEXT="$ref={list};#hash">
 <icon BUILTIN="full-3"/>
 <node CREATED="1355469563735" ID="ID_1832173709" MODIFIED="1355469712949" TEXT="sub return a hash reference.">
 <node CREATED="1355469490131" ID="ID_308231867" MODIFIED="1355469589148" TEXT="sub hashem {{ @_ } };# silently WRONG">
@@ -677,44 +808,63 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1355457286992" FOLDED="true" ID="ID_598711212" MODIFIED="1355457362551" TEXT="autovivification">
+<node CREATED="1355457286992" ID="ID_598711212" MODIFIED="1365653392723" TEXT="autovivification">
 <node CREATED="1355457305532" ID="ID_470569548" MODIFIED="1355457312093" TEXT="derefenrence a ref that hadn&apos;t been define before can create a ref"/>
 </node>
 </node>
-<node CREATED="1355456834305" ID="ID_343072334" MODIFIED="1355456846985" TEXT="derefence">
+<node CREATED="1355456834305" FOLDED="true" ID="ID_343072334" MODIFIED="1365653568235" TEXT="derefence">
 <node CREATED="1355457365559" ID="ID_1326166795" MODIFIED="1355473307978" TEXT="variable. &quot;$var&quot;">
 <icon BUILTIN="full-1"/>
-<node CREATED="1355473344623" ID="ID_958993016" MODIFIED="1355473558334" TEXT="$$var "/>
-<node CREATED="1355473352232" ID="ID_679229121" MODIFIED="1355473520668" TEXT="@$var $$var[n]"/>
-<node CREATED="1355473357491" ID="ID_64430058" MODIFIED="1355473632965" TEXT="%$var  $${&quot;key&quot;}"/>
-<node CREATED="1355473398812" ID="ID_885231992" MODIFIED="1355473436771" TEXT="&amp;$sub"/>
-<node CREATED="1355473437225" ID="ID_1154524430" MODIFIED="1355473452024" TEXT="*$typeglob"/>
+<node CREATED="1355473344623" ID="ID_958993016" MODIFIED="1365653515492" TEXT="$$var ">
+<icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1355473091388" ID="ID_426168133" MODIFIED="1355482092941" TEXT="block. &quot;{}&quot;">
+<node CREATED="1355473352232" ID="ID_679229121" MODIFIED="1365653517816" TEXT="@$var $$var[n]">
 <icon BUILTIN="full-2"/>
-<node CREATED="1355473482804" ID="ID_1895797" MODIFIED="1355473574057" TEXT="${$var}"/>
-<node CREATED="1355473574522" ID="ID_461430005" MODIFIED="1355473601390" TEXT="@{$var} ${$var}[n]"/>
-<node CREATED="1355473602004" ID="ID_770981724" MODIFIED="1355473637170" TEXT="%{$var} ${$var}{&quot;key&quot;}"/>
-<node CREATED="1355473638544" ID="ID_1278228827" MODIFIED="1355473646877" TEXT="&amp;{$var}"/>
-<node CREATED="1355473647975" ID="ID_907409216" MODIFIED="1355473671323" TEXT="*{$typeglob}"/>
+</node>
+<node CREATED="1355473357491" ID="ID_64430058" MODIFIED="1365653519766" TEXT="%$var $${&quot;key&quot;}">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1355473398812" ID="ID_885231992" MODIFIED="1365653521685" TEXT="&amp;$sub">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1355473437225" ID="ID_1154524430" MODIFIED="1365653525008" TEXT="*$typeglob">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node CREATED="1355473091388" ID="ID_426168133" MODIFIED="1365653455946" TEXT="block. &quot;{}&quot;">
+<icon BUILTIN="full-2"/>
+<node CREATED="1355473482804" ID="ID_1895797" MODIFIED="1365653528627" TEXT="${$var}">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1355473574522" ID="ID_461430005" MODIFIED="1365653536255" TEXT="@{$var} ${$var}[n]">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1355473602004" ID="ID_770981724" MODIFIED="1365653539578" TEXT="%{$var} ${$var}{&quot;key&quot;}">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1355473638544" ID="ID_1278228827" MODIFIED="1365653542121" TEXT="&amp;{$var}">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1355473647975" ID="ID_907409216" MODIFIED="1365653546583" TEXT="*{$typeglob}">
+<icon BUILTIN="full-5"/>
+</node>
 </node>
 <node CREATED="1355473105684" ID="ID_23085293" MODIFIED="1355473333265" TEXT="arrow operator. &quot;-&gt;&quot;">
 <icon BUILTIN="full-3"/>
-<node CREATED="1355473674181" ID="ID_929239780" MODIFIED="1355473787453" TEXT="$var-&gt;[n]"/>
-<node CREATED="1355473768351" ID="ID_941509986" MODIFIED="1355473779026" TEXT="$var-&gt;{&quot;key&quot;}"/>
-<node CREATED="1355473801885" ID="ID_687193377" MODIFIED="1355473821443" TEXT="$var[$r][$c][$p]"/>
-<node CREATED="1355473825964" ID="ID_862027337" MODIFIED="1355473849482" TEXT="$var[0]{&quot;key&quot;}[n]"/>
+<node CREATED="1355473674181" ID="ID_929239780" MODIFIED="1365653554008" TEXT="$var-&gt;[n]">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1355473768351" ID="ID_941509986" MODIFIED="1365653555896" TEXT="$var-&gt;{&quot;key&quot;}">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1355473801885" ID="ID_687193377" MODIFIED="1365653565022" TEXT="$var[$r][$c][$p]">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1355473825964" ID="ID_862027337" MODIFIED="1365653566909" TEXT="$var[0]{&quot;key&quot;}[n]">
+<icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1355456851124" ID="ID_938590772" MODIFIED="1355456851124" TEXT=""/>
-<node CREATED="1355456214019" ID="ID_1538020915" MODIFIED="1355456244405" TEXT="@array">
-<node CREATED="1355456269843" ID="ID_1572250070" MODIFIED="1355456804974" TEXT="anonymous">
-<node CREATED="1355456315636" ID="ID_1307808764" MODIFIED="1355456829801" TEXT="$ref= ... ;"/>
 </node>
-</node>
-<node CREATED="1355456246452" ID="ID_840424691" MODIFIED="1355456253710" TEXT="$scalar"/>
-<node CREATED="1355456254023" ID="ID_1989765627" MODIFIED="1355456258525" TEXT="%hash"/>
-<node CREATED="1355456258969" ID="ID_1227207654" MODIFIED="1355456264784" TEXT="&amp;sub"/>
 </node>
 </node>
 <node CREATED="1355459629280" FOLDED="true" ID="ID_1638982163" MODIFIED="1365554477496" POSITION="right" TEXT="regexp">
@@ -1898,7 +2048,7 @@
 <node CREATED="1355398564245" ID="ID_773903810" MODIFIED="1355398596032" TEXT="check perl manpage for more infos."/>
 </node>
 </node>
-<node CREATED="1355459069971" FOLDED="true" ID="ID_380599138" MODIFIED="1365607708107" POSITION="right" TEXT="program organization">
+<node CREATED="1355459069971" ID="ID_380599138" MODIFIED="1365646686078" POSITION="right" TEXT="program organization">
 <node CREATED="1355459104599" FOLDED="true" ID="ID_1972549584" MODIFIED="1365578811150" TEXT="pragma (compiler directive)">
 <node CREATED="1355496643000" ID="ID_1728537763" MODIFIED="1355496802176" TEXT="use/no strict   qw(subs vars refs);">
 <node CREATED="1355496649675" FOLDED="true" ID="ID_1465382611" MODIFIED="1365572880158" TEXT="use/no strict &apos;vars&apos;;">
@@ -2560,8 +2710,7 @@
       my @greek_small =&#160;&#160;(&quot;\N{alpha}&quot; .. &quot;\N{omega}&quot;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365608863556" ID="ID_884746181" MODIFIED="1365608865281" TEXT="@list = (2.18 .. 3.14); # same as @list = (2 .. 3);"/>
 </node>
@@ -2607,8 +2756,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1365608320036" ID="ID_1080217814" MODIFIED="1365608323787" TEXT="output">
 <node CREATED="1365608325259" ID="ID_1701699155" MODIFIED="1365608366897" TEXT="01 - Bar"/>
 </node>
@@ -2670,8 +2818,7 @@
       1 - Baz
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
