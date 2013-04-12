@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1337785383657" ID="ID_1913094876" MODIFIED="1363679661325" TEXT="shell programming">
+<node CREATED="1337785383657" ID="ID_1913094876" MODIFIED="1365739052873" TEXT="shell programming">
 <node CREATED="1337786341968" ID="ID_1585278679" MODIFIED="1365476337978" POSITION="right" TEXT="variable">
 <node CREATED="1337786359435" ID="ID_551207054" MODIFIED="1337786366604" TEXT="local variable">
 <node CREATED="1337786463868" ID="ID_1279897524" MODIFIED="1337786914768" TEXT="tcsh/csh">
