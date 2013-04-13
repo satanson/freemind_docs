@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355236104335" ID="ID_1153208252" MODIFIED="1359305065744" TEXT="perl">
-<node CREATED="1355458302900" ID="ID_1687987652" MODIFIED="1365653594607" POSITION="right" TEXT="$@%&amp;*\">
+<node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1365818206475" POSITION="right" TEXT="$@%&amp;*\">
 <node CREATED="1355458364407" FOLDED="true" ID="ID_937717701" MODIFIED="1365595660267" TEXT="$ scalar">
 <node CREATED="1355240403869" ID="ID_1518752704" MODIFIED="1365583383090" TEXT="undef">
 <node CREATED="1355240432319" ID="ID_179851737" MODIFIED="1365578983476" TEXT="only scalar can have a &quot;undef&quot; value ,containers/collections/aggregations can&apos;t"/>
@@ -295,8 +295,7 @@
       <font color="rgb(0, 104, 139)">@c</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">2</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">3</font>]<font color="rgb(0, 0, 0)">;</font>&#160;<font color="rgb(34, 139, 34)"># @c has no elements</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365648924689" ID="ID_138036372" MODIFIED="1365648933386">
 <richcontent TYPE="NODE"><html>
@@ -311,8 +310,7 @@
       <font color="rgb(0, 104, 139)">@b</font>&#160;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/undef.html"><b>undef</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">2</font>]<font color="rgb(0, 0, 0)">;</font>&#160; <font color="rgb(34, 139, 34)"># @b has three elements</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365648941320" ID="ID_1596191815" MODIFIED="1365648958729" TEXT="makes it easy to write loops that terminate when a null list is returned:">
 <node CREATED="1365648969509" ID="ID_855998204" MODIFIED="1365649030901">
@@ -331,8 +329,7 @@
       <font color="rgb(0, 0, 0)">}</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -466,8 +463,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -867,7 +863,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1355459629280" FOLDED="true" ID="ID_1638982163" MODIFIED="1365554477496" POSITION="right" TEXT="regexp">
+<node CREATED="1355459629280" ID="ID_1638982163" MODIFIED="1365818208398" POSITION="right" TEXT="regexp">
 <node CREATED="1357887903900" FOLDED="true" ID="ID_1415057125" MODIFIED="1362451114795" TEXT="matacharacters">
 <node CREATED="1357889223324" ID="ID_1684107037" MODIFIED="1357891283961" TEXT="character classes">
 <node CREATED="1357891285052" ID="ID_514960743" MODIFIED="1357891297029" TEXT="\s \S"/>
@@ -1118,15 +1114,15 @@
 <node CREATED="1358015165759" ID="ID_537581909" MODIFIED="1358015181070" TEXT="(*FAIL)"/>
 </node>
 </node>
-<node CREATED="1357887884531" ID="ID_1567696626" MODIFIED="1362451117674" TEXT="(...)">
-<node CREATED="1355461916456" FOLDED="true" ID="ID_11401522" MODIFIED="1360203694193" TEXT="capture group">
-<node CREATED="1355461950286" FOLDED="true" ID="ID_477137922" MODIFIED="1357895712697" TEXT="(...)">
-<node CREATED="1355461956717" FOLDED="true" ID="ID_757488427" MODIFIED="1357893831871" TEXT="absolute backreferences">
+<node CREATED="1357887884531" ID="ID_1567696626" MODIFIED="1365818243732" TEXT="(...)">
+<node CREATED="1355461916456" FOLDED="true" ID="ID_11401522" MODIFIED="1365821229379" TEXT="capture group">
+<node CREATED="1355461950286" ID="ID_477137922" MODIFIED="1365818296351" TEXT="(...)">
+<node CREATED="1355461956717" ID="ID_757488427" MODIFIED="1365818298589" TEXT="absolute backreferences">
 <node CREATED="1357893629711" ID="ID_848826304" MODIFIED="1357893722890" TEXT="\g1,\g2,...,\gn">
 <node CREATED="1357893640626" ID="ID_386385990" MODIFIED="1357893707105" TEXT="&quot;1221&quot;=~/(\d\d)\g1/ (true)"/>
 </node>
 </node>
-<node CREATED="1357893604366" FOLDED="true" ID="ID_76853303" MODIFIED="1357893857751" TEXT="relative backreferences">
+<node CREATED="1357893604366" ID="ID_76853303" MODIFIED="1365818297848" TEXT="relative backreferences">
 <node CREATED="1357893767603" ID="ID_500637108" MODIFIED="1357893826446" TEXT="\g{-1}, \g{-2}, \g{-n}"/>
 </node>
 </node>
@@ -1707,7 +1703,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357881588505" FOLDED="true" ID="ID_711111310" MODIFIED="1365521603262" TEXT="match variables">
+<node CREATED="1357881588505" FOLDED="true" ID="ID_711111310" MODIFIED="1365818241508" TEXT="match variables">
 <node CREATED="1357887669071" ID="ID_1383540869" MODIFIED="1357887717585" TEXT="$1,$2,...,$N"/>
 <node CREATED="1357892638172" ID="ID_524023013" MODIFIED="1357898724299" TEXT="$` $&amp; $&apos;">
 <node CREATED="1355462105131" ID="ID_955619460" MODIFIED="1357892649886" TEXT="$`">
@@ -1906,7 +1902,7 @@
 </node>
 <node CREATED="1355461680043" ID="ID_1120396084" MODIFIED="1355461683245" TEXT="x">
 <node CREATED="1355461760781" ID="ID_439251461" MODIFIED="1355461766584" TEXT="comment">
-<node CREATED="1355461862217" FOLDED="true" ID="ID_1339653444" MODIFIED="1357908489448" TEXT="?x  ?-x">
+<node CREATED="1355461862217" FOLDED="true" ID="ID_1339653444" MODIFIED="1365821246845" TEXT="?x  ?-x">
 <node CREATED="1357908227372" ID="ID_1840918486" MODIFIED="1357908359633" TEXT="allows whitespace and comment in regexp">
 <node CREATED="1357908239263" ID="ID_325982934" MODIFIED="1357908373750" TEXT="arbitrary whitespaces"/>
 <node CREATED="1357908324281" ID="ID_1353611224" MODIFIED="1357908370953" TEXT="comment #"/>
