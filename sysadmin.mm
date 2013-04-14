@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1364545764136" ID="ID_769165188" MODIFIED="1365733333672" TEXT="sysadmin">
+<node CREATED="1364545764136" ID="ID_769165188" MODIFIED="1365871407347" TEXT="sysadmin">
 <node CREATED="1364545773191" FOLDED="true" ID="ID_824780655" MODIFIED="1364638981393" POSITION="right" TEXT="Security-Enhanced Linux(SELinux) &quot;Redhat&quot;">
 <node CREATED="1364545858468" FOLDED="true" ID="ID_422086666" MODIFIED="1364546377389" TEXT="SELinux Mode">
 <node CREATED="1364545883560" ID="ID_1470322699" MODIFIED="1364545890333" TEXT="Enforcing(default)">
@@ -292,7 +292,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364640124923" ID="ID_10115374" MODIFIED="1365839426653" POSITION="right" TEXT="Package Management">
+<node CREATED="1364640124923" FOLDED="true" ID="ID_10115374" MODIFIED="1365871293474" POSITION="right" TEXT="Package Management">
 <node CREATED="1364640148666" FOLDED="true" ID="ID_436010329" MODIFIED="1365839412193" TEXT="debian(*.deb, $ar)">
 <node CREATED="1365746037564" ID="ID_1666897393" MODIFIED="1365746103658" TEXT="$ dpkg --package manager for Debian">
 <node CREATED="1365746081404" ID="ID_1197735659" MODIFIED="1365746323906" TEXT="install">
@@ -424,8 +424,7 @@
       cpio -id #restore file using absolute path
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365843210934" ID="ID_1900625887" MODIFIED="1365843399959">
 <richcontent TYPE="NODE"><html>
@@ -443,8 +442,7 @@
       cpio -id #restore file using relative path
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1365841843214" ID="ID_273906334" MODIFIED="1365841846551" TEXT="extract ">
@@ -480,7 +478,7 @@
 <node CREATED="1364654627150" FOLDED="true" ID="ID_899074347" MODIFIED="1365839417741" POSITION="right" TEXT="xclip">
 <node CREATED="1364654729227" ID="ID_1822668252" MODIFIED="1364654733438" TEXT="command line interface to X selections (clipboard)"/>
 </node>
-<node CREATED="1364809786779" FOLDED="true" ID="ID_633785496" MODIFIED="1365839418853" POSITION="right" TEXT="Networking">
+<node CREATED="1364809786779" FOLDED="true" ID="ID_633785496" MODIFIED="1365871372706" POSITION="right" TEXT="Networking Conf">
 <node CREATED="1364809800089" FOLDED="true" ID="ID_1885701092" MODIFIED="1365745952979" TEXT="virtual network bridge">
 <node CREATED="1364810226449" ID="ID_559468731" MODIFIED="1364810712676" TEXT="virtual interface (TUN/TAP)">
 <node CREATED="1364810632943" ID="ID_4994783" MODIFIED="1364810737126" TEXT="$ tunctl (uml-utilities)">
@@ -545,6 +543,8 @@
 </node>
 </node>
 </node>
+<node CREATED="1365871317547" ID="ID_1071908493" MODIFIED="1365871333030" POSITION="right" TEXT="X11 Conf"/>
+<node CREATED="1365871341460" ID="ID_1385272178" MODIFIED="1365871400083" POSITION="right" TEXT="BootUp Conf"/>
 <node CREATED="1364815733737" ID="ID_201399754" MODIFIED="1365732180762" POSITION="right" TEXT="building a kernel">
 <node CREATED="1364815693216" ID="ID_1654384207" MODIFIED="1364815745170" TEXT="Matt Welsh&apos;s &quot;Installation and Getting Started&quot;"/>
 </node>
