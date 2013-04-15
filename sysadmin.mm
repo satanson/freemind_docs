@@ -250,17 +250,7 @@
 <node CREATED="1364630156210" ID="ID_342464037" MODIFIED="1364630166362" TEXT="(root)$ exportfs -rv"/>
 <node CREATED="1364630167216" ID="ID_647684273" MODIFIED="1364630190503" TEXT="$ showmount -e &lt;host&gt;"/>
 </node>
-<node CREATED="1364630214353" FOLDED="true" ID="ID_1798180327" MODIFIED="1365732176222" POSITION="right" TEXT="host">
-<node CREATED="1364630372064" ID="ID_1129340491" MODIFIED="1364630377457" TEXT="/etc/host.conf">
-<node CREATED="1364630384302" ID="ID_790126774" MODIFIED="1364630531965" TEXT="multi on|off">
-<node CREATED="1364630425288" ID="ID_1069775928" MODIFIED="1364630529003" TEXT="alid values are on and off.  If set to on, the resolv+ library will return all valid addresses for a host that appears in the /etc/hosts file, instead of only the  first. This is off  by default, as it may cause a substantial performance loss at sites with large hosts files."/>
-</node>
-</node>
-<node CREATED="1364630377930" ID="ID_1732995695" MODIFIED="1364630626769" TEXT="/etc/hosts"/>
-<node CREATED="1364630627043" ID="ID_1053091005" MODIFIED="1364630636988" TEXT="/etc/hosts.deny"/>
-<node CREATED="1364630637244" ID="ID_308225117" MODIFIED="1364630643964" TEXT="/etc/hosts.allow"/>
-</node>
-<node CREATED="1364638983699" ID="ID_1895781147" MODIFIED="1365819180933" POSITION="right" TEXT="release info">
+<node CREATED="1364638983699" FOLDED="true" ID="ID_1895781147" MODIFIED="1365953792033" POSITION="right" TEXT="release info">
 <node CREATED="1364639027346" ID="ID_1969890366" MODIFIED="1364639035186" TEXT="uname"/>
 <node CREATED="1364639028073" ID="ID_298542425" MODIFIED="1364639041878" TEXT="lsb_release"/>
 <node CREATED="1364639028570" ID="ID_1371270836" MODIFIED="1364639052660" TEXT="cat /etc/issue"/>
@@ -478,7 +468,7 @@
 <node CREATED="1364654627150" FOLDED="true" ID="ID_899074347" MODIFIED="1365839417741" POSITION="right" TEXT="xclip">
 <node CREATED="1364654729227" ID="ID_1822668252" MODIFIED="1364654733438" TEXT="command line interface to X selections (clipboard)"/>
 </node>
-<node CREATED="1364809786779" FOLDED="true" ID="ID_633785496" MODIFIED="1365871372706" POSITION="right" TEXT="Networking Conf">
+<node CREATED="1364809786779" ID="ID_633785496" MODIFIED="1365990144182" POSITION="right" TEXT="Networking Conf">
 <node CREATED="1364809800089" FOLDED="true" ID="ID_1885701092" MODIFIED="1365745952979" TEXT="virtual network bridge">
 <node CREATED="1364810226449" ID="ID_559468731" MODIFIED="1364810712676" TEXT="virtual interface (TUN/TAP)">
 <node CREATED="1364810632943" ID="ID_4994783" MODIFIED="1364810737126" TEXT="$ tunctl (uml-utilities)">
@@ -519,12 +509,214 @@
 <node CREATED="1364813390648" ID="ID_211950033" MODIFIED="1364813430568" TEXT="pp36: 1.4 Linux Networking"/>
 </node>
 </node>
-<node CREATED="1364814869944" ID="ID_1336619665" MODIFIED="1364814885796" TEXT="hostname resolution">
-<node CREATED="1364814888072" ID="ID_497344097" MODIFIED="1364814929261" TEXT="single node: /etc/hosts"/>
-<node CREATED="1364814888768" ID="ID_1492170279" MODIFIED="1364814959815" TEXT="LAN: NIS(Network Information System)"/>
-<node CREATED="1364814960640" ID="ID_138190334" MODIFIED="1364814972996" TEXT="Internet: DNS"/>
+<node CREATED="1364814869944" FOLDED="true" ID="ID_1336619665" MODIFIED="1365992402073" TEXT="hostname resolution">
+<node CREATED="1364814888072" FOLDED="true" ID="ID_497344097" MODIFIED="1365992095691" TEXT="single node: /etc/hosts">
+<node CREATED="1365991565647" ID="ID_871302417" MODIFIED="1365991628007" TEXT="entry:IP FQDN aliases"/>
+<node CREATED="1365953931883" ID="ID_310957682" MODIFIED="1365992076831" TEXT="$hostname"/>
 </node>
-<node CREATED="1364815017601" ID="ID_1922210929" MODIFIED="1364815027548" TEXT="Hardware conf">
+<node CREATED="1364814888768" FOLDED="true" ID="ID_1492170279" MODIFIED="1365992231795" TEXT="LAN: NIS/YP(Network Information System/Yellow Page)">
+<node CREATED="1365953938466" ID="ID_934088433" MODIFIED="1365992082195" TEXT="$domainname/nisdomainname (eq. hostname -y)"/>
+</node>
+<node CREATED="1364814960640" FOLDED="true" ID="ID_138190334" MODIFIED="1365992233875" TEXT="Internet: DNS">
+<node CREATED="1365991719484" ID="ID_1074373318" MODIFIED="1365991719484" TEXT="/etc/resolv.conf"/>
+<node CREATED="1365954088171" ID="ID_353698819" MODIFIED="1365992088207" TEXT="$dnsdomainname (eq. hostname -d)"/>
+</node>
+<node CREATED="1365954147716" FOLDED="true" ID="ID_1598212900" MODIFIED="1365992237859" TEXT="FQDN (Fully Qualified Domain Name)">
+<node CREATED="1365954183475" ID="ID_219237310" MODIFIED="1365954199879" TEXT="domain+host"/>
+<node CREATED="1365954216427" ID="ID_1509183892" MODIFIED="1365954222955" TEXT="$hostname -f"/>
+</node>
+<node CREATED="1365992156960" ID="ID_1377598766" MODIFIED="1365992158692" TEXT="symbolic name for network numbers">
+<node CREATED="1365992177919" ID="ID_1490689479" MODIFIED="1365992177919">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">/etc/networks</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1365992184871" ID="ID_71621981" MODIFIED="1365992214315" TEXT="entry:networkname networknumber"/>
+</node>
+</node>
+<node CREATED="1364630214353" FOLDED="true" ID="ID_1798180327" MODIFIED="1365992225672" TEXT="conf files">
+<node CREATED="1364630372064" ID="ID_1129340491" MODIFIED="1365991975291" TEXT="/etc/host.conf">
+<node CREATED="1364630384302" FOLDED="true" ID="ID_790126774" MODIFIED="1365991830179" TEXT="multi on|off">
+<node CREATED="1364630425288" ID="ID_1069775928" MODIFIED="1364630529003" TEXT="alid values are on and off.  If set to on, the resolv+ library will return all valid addresses for a host that appears in the /etc/hosts file, instead of only the  first. This is off  by default, as it may cause a substantial performance loss at sites with large hosts files."/>
+</node>
+<node CREATED="1365991819568" ID="ID_811410707" MODIFIED="1365991972620">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier">order hosts,bind,nis </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1365991978400" ID="ID_1971626373" MODIFIED="1365991989889" TEXT="bind for DNS"/>
+</node>
+</node>
+<node CREATED="1364630377930" ID="ID_1732995695" MODIFIED="1364630626769" TEXT="/etc/hosts"/>
+<node CREATED="1365954866275" ID="ID_755980709" MODIFIED="1365954877707" TEXT="/etc/hostname"/>
+<node CREATED="1364630627043" ID="ID_1053091005" MODIFIED="1364630636988" TEXT="/etc/hosts.deny"/>
+<node CREATED="1364630637244" ID="ID_308225117" MODIFIED="1364630643964" TEXT="/etc/hosts.allow"/>
+<node CREATED="1365954861499" ID="ID_1522677976" MODIFIED="1365954863624" TEXT="/etc/init.d/hostname.sh"/>
+</node>
+<node CREATED="1365954831947" FOLDED="true" ID="ID_703806367" MODIFIED="1365991505131" TEXT="#include &lt;unistd.h&gt;">
+<node CREATED="1365955047677" ID="ID_264148704" MODIFIED="1365955047677" TEXT="int getdomainname(char *name, size_t len);"/>
+<node CREATED="1365955047678" ID="ID_442078358" MODIFIED="1365955047678" TEXT="int setdomainname(const char *name, size_t len);"/>
+<node CREATED="1365955086987" ID="ID_189996608" MODIFIED="1365955086987" TEXT="int gethostname(char *name, size_t len);"/>
+<node CREATED="1365955086988" ID="ID_58818648" MODIFIED="1365955086988" TEXT="int sethostname(const char *name, size_t len);"/>
+</node>
+</node>
+<node CREATED="1365992358696" FOLDED="true" ID="ID_1737751998" MODIFIED="1365999931506" TEXT="IP address ($ifconfig)">
+<node CREATED="1365999447309" ID="ID_1378813431" MODIFIED="1365999455821" TEXT="ifconfig">
+<node CREATED="1365992643504" ID="ID_1956272714" MODIFIED="1365999457654" TEXT="ifconfig lo 127.0.0.1"/>
+<node CREATED="1365993170455" FOLDED="true" ID="ID_1028678182" MODIFIED="1365999457652" TEXT="ifconfig eth0 192.168.0.2 netmask 255.255.255.0">
+<node CREATED="1365993332123" ID="ID_94654729" MODIFIED="1365993332123">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Arial,Helvetica,sans-serif"><span style="font-family: Arial,Helvetica,sans-serif; vertical-align: top">the default network mask is derived from the network class of the IP address</span></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1365993344384" ID="ID_1779356948" MODIFIED="1365993469691" TEXT="hostname can be used instead of the IP address.(/etc/hosts)"/>
+</node>
+</node>
+<node CREATED="1365999460771" ID="ID_397575962" MODIFIED="1365999544428" TEXT="IP Alias">
+<node CREATED="1365999560739" ID="ID_1243776553" MODIFIED="1365999570390" TEXT="support ip alias">
+<node CREATED="1365999545547" ID="ID_1695670976" MODIFIED="1365999574227" TEXT="-d /proc/net/ip_alias"/>
+<node CREATED="1365999668307" ID="ID_1281887719" MODIFIED="1365999669685" TEXT="ifconfig eth0:0 172.16.1.1"/>
+</node>
+</node>
+</node>
+<node CREATED="1365992363528" FOLDED="true" ID="ID_1245871888" MODIFIED="1365999929716" TEXT="route table ($route)">
+<node CREATED="1365999806714" ID="ID_1022482580" MODIFIED="1365999808566" TEXT="route">
+<node CREATED="1365993734264" ID="ID_1784057302" MODIFIED="1365999812866" TEXT="route del/add -net 192.168.1.0 netmask 255.255.255.0  metric 2 gw 192.168.0.1 dev eth0"/>
+<node CREATED="1365993882257" ID="ID_833949019" MODIFIED="1365999812863" TEXT="route -n">
+<node CREATED="1365993916656" ID="ID_1105157715" MODIFIED="1365993923124" TEXT="show route tables"/>
+</node>
+<node CREATED="1365993997657" ID="ID_57595671" MODIFIED="1365999812861" TEXT="route add -net network ...">
+<node CREATED="1365994137064" ID="ID_475551564" MODIFIED="1365994187835" TEXT="use network name instead network number,lookup in /etc/networks"/>
+</node>
+<node CREATED="1365994007368" ID="ID_1878994781" MODIFIED="1365999812859" TEXT="route del"/>
+<node CREATED="1365994064296" FOLDED="true" ID="ID_1886793386" MODIFIED="1365999812858" TEXT="route add -host">
+<icon BUILTIN="full-1"/>
+<node CREATED="1365998235026" ID="ID_1772291218" MODIFIED="1365998250357" TEXT="host route">
+<node CREATED="1365998252123" ID="ID_1933065759" MODIFIED="1365998723339">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Destination&#160;&#160;&#160;&#160;&#160;&#160;Gateway&#160;&#160;&#160;&#160;Genmask&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Flags&#160;&#160;Metric Ref&#160;&#160;&#160;&#160;Use Iface
+    </p>
+    <p>
+      192.168.2.2&#160;&#160;&#160;&#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;255.255.255.255&#160;&#160;&#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;&#160; &#160;&#160;&#160;&#160;*
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1365998732426" FOLDED="true" ID="ID_1321143414" MODIFIED="1365999812856" TEXT="route add -net default gw ...">
+<icon BUILTIN="full-2"/>
+<node CREATED="1365998763819" ID="ID_295727333" MODIFIED="1365998772564" TEXT="default route">
+<node CREATED="1365998252123" ID="ID_1384035133" MODIFIED="1365998937347">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Destination&#160;&#160;&#160;&#160;&#160;&#160;Gateway&#160;&#160;&#160;&#160;Genmask&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Flags&#160;&#160;Metric Ref&#160;&#160;&#160;&#160;Use Iface
+    </p>
+    <p>
+      0.0.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0.0.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;*
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1365998773218" ID="ID_86085959" MODIFIED="1365998895264" TEXT="route add -net 0.0.0.0 gw ..."/>
+</node>
+<node CREATED="1365998951882" ID="ID_225954770" MODIFIED="1365999812855" TEXT="route add -host 127.0.0.1 lo">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1365999070554" ID="ID_96867472" MODIFIED="1365999812853" TEXT="route add -net localnet netmask 255.255.255.0 eth0">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node CREATED="1365999818187" ID="ID_1225990185" MODIFIED="1365999838495" TEXT="ip forwarding (router)">
+<node CREATED="1365999903588" ID="ID_1850729131" MODIFIED="1365999912335" TEXT="/proc/net/snmp"/>
+</node>
+</node>
+<node CREATED="1365999933379" FOLDED="true" ID="ID_1453705761" MODIFIED="1366001656882" TEXT="$netstat">
+<node CREATED="1366000068602" FOLDED="true" ID="ID_998593775" MODIFIED="1366001101739" TEXT="--route -r">
+<node CREATED="1366000059834" ID="ID_1939342808" MODIFIED="1366000066013" TEXT="netstat -nr">
+<node CREATED="1366000191202" ID="ID_1938640530" MODIFIED="1366000193760" TEXT="flags">
+<node CREATED="1366000194635" ID="ID_1969132518" MODIFIED="1366000214710" TEXT="G: gateway"/>
+<node CREATED="1366000215251" ID="ID_1609896491" MODIFIED="1366000231094" TEXT="U: up"/>
+<node CREATED="1366000231434" ID="ID_104408046" MODIFIED="1366000242719" TEXT="H: host"/>
+<node CREATED="1366000270235" ID="ID_578671434" MODIFIED="1366000275305" TEXT="D: dynamic"/>
+<node CREATED="1366000288315" ID="ID_784119884" MODIFIED="1366000299383" TEXT="M: modified by IMCP"/>
+<node CREATED="1366000317563" ID="ID_278773425" MODIFIED="1366000321222" TEXT="!: The route is a reject route and datagrams will be dropped"/>
+</node>
+</node>
+</node>
+<node CREATED="1366000099603" FOLDED="true" ID="ID_1292993787" MODIFIED="1366001106063" TEXT="--interfaces -i">
+<node CREATED="1366000136387" ID="ID_928392955" MODIFIED="1366000137757" TEXT="netstat -i">
+<node CREATED="1366000338275" ID="ID_1219269897" MODIFIED="1366000340351" TEXT="flags">
+<node CREATED="1366000341667" ID="ID_1164910368" MODIFIED="1366000348469" TEXT="B: broadcast"/>
+<node CREATED="1366000348714" ID="ID_1681355245" MODIFIED="1366000355405" TEXT="L: loopback"/>
+<node CREATED="1366000374530" ID="ID_552352648" MODIFIED="1366000377853" TEXT="M: promiscuous"/>
+<node CREATED="1366000378812" ID="ID_1310511160" MODIFIED="1366000413078" TEXT="O: ARP turned off"/>
+<node CREATED="1366000436027" ID="ID_1412525620" MODIFIED="1366000440542" TEXT="P: PPP"/>
+<node CREATED="1366000440851" ID="ID_838220297" MODIFIED="1366000446700" TEXT="R: running"/>
+<node CREATED="1366000446960" ID="ID_959928146" MODIFIED="1366000451314" TEXT="U: up"/>
+</node>
+</node>
+</node>
+<node CREATED="1366001108515" FOLDED="true" ID="ID_191996330" MODIFIED="1366001644164" TEXT="--tcp -t --udp -u --raw -w">
+<node CREATED="1366001213507" FOLDED="true" ID="ID_648223230" MODIFIED="1366001356745" TEXT="protocols">
+<node CREATED="1366001165531" ID="ID_758815114" MODIFIED="1366001225192" TEXT="-4">
+<node CREATED="1366001196243" ID="ID_278071603" MODIFIED="1366001200158" TEXT="inet4"/>
+</node>
+<node CREATED="1366001201819" ID="ID_1325615549" MODIFIED="1366001225190" TEXT="-6">
+<node CREATED="1366001205218" ID="ID_480999581" MODIFIED="1366001211255" TEXT="inet6"/>
+</node>
+<node CREATED="1366001286026" ID="ID_1856502579" MODIFIED="1366001287070" TEXT="--protocol={inet,unix,ipx,ax25,netrom,ddp}[,...]"/>
+<node CREATED="1366001294755" ID="ID_718013011" MODIFIED="1366001308326" TEXT="--inet --ip"/>
+<node CREATED="1366001314675" ID="ID_774388488" MODIFIED="1366001318981" TEXT="--unix -x"/>
+<node CREATED="1366001334497" ID="ID_521350509" MODIFIED="1366001338678" TEXT="--ipx"/>
+<node CREATED="1366001340139" ID="ID_1352893844" MODIFIED="1366001343831" TEXT="--ax25"/>
+<node CREATED="1366001344147" ID="ID_200211007" MODIFIED="1366001347716" TEXT="--netrom"/>
+<node CREATED="1366001348001" ID="ID_1656027104" MODIFIED="1366001350060" TEXT="--ddp"/>
+</node>
+<node CREATED="1366001359203" ID="ID_1202954502" MODIFIED="1366001408445" TEXT="-a --all"/>
+<node CREATED="1366001393665" ID="ID_402202919" MODIFIED="1366001422807" TEXT="-l --listening"/>
+<node CREATED="1366001448642" ID="ID_731050782" MODIFIED="1366001454847" TEXT="-p --program"/>
+<node CREATED="1366001458218" ID="ID_1554395233" MODIFIED="1366001554222" TEXT="-n --numeric -N --symbolic"/>
+<node CREATED="1366001505619" ID="ID_295615579" MODIFIED="1366001515190" TEXT="--numeric-hosts"/>
+<node CREATED="1366001516059" ID="ID_1023668658" MODIFIED="1366001522470" TEXT="--numeric-ports"/>
+<node CREATED="1366001522915" ID="ID_56475764" MODIFIED="1366001531359" TEXT="--numeric-users"/>
+<node CREATED="1366001582147" ID="ID_1279201887" MODIFIED="1366001590024" TEXT="-e --extend"/>
+<node CREATED="1366001613402" ID="ID_1179398260" MODIFIED="1366001637079" TEXT="-s --statistics"/>
+</node>
+</node>
+<node CREATED="1366001659899" ID="ID_777895066" MODIFIED="1366001690694" TEXT="ping/traceroute/arp"/>
+<node CREATED="1364815017601" FOLDED="true" ID="ID_1922210929" MODIFIED="1365991490600" TEXT="Hardware conf">
 <node CREATED="1364815084488" ID="ID_582542802" MODIFIED="1364816388306" TEXT="interface">
 <node CREATED="1364816389320" ID="ID_150018573" MODIFIED="1364816391535" TEXT="lo">
 <node CREATED="1364816444496" ID="ID_1784183735" MODIFIED="1364816449593" TEXT="loopback"/>
@@ -539,6 +731,140 @@
 <node CREATED="1364816429368" ID="ID_621252614" MODIFIED="1364816433892" TEXT="ppp&lt;n&gt;"/>
 <node CREATED="1364816434136" ID="ID_175528275" MODIFIED="1364816441759" TEXT="plip&lt;n&gt;">
 <node CREATED="1364816491064" ID="ID_1961387747" MODIFIED="1364816541562" TEXT="PLIP (Parallel Line IP)"/>
+</node>
+</node>
+</node>
+<node CREATED="1365953823344" FOLDED="true" ID="ID_729264144" MODIFIED="1365992153777" TEXT="DHCP">
+<node CREATED="1365990154424" ID="ID_536120908" MODIFIED="1365990175942" TEXT="dhcpcd (DHCP client daemon)">
+<node CREATED="1365990196615" ID="ID_575294445" MODIFIED="1365990257579" TEXT="/etc/default/dhcpcd"/>
+<node CREATED="1365990258719" ID="ID_1641273971" MODIFIED="1365990276160" TEXT="$ dhcpcd eth0">
+<node CREATED="1365990278503" ID="ID_1857563443" MODIFIED="1365990315222" TEXT="rewrite /etc/resolv.conf"/>
+</node>
+<node CREATED="1365990317055" ID="ID_1542305616" MODIFIED="1365990326649" TEXT="$ dhcpcd -R eth0">
+<node CREATED="1365990328735" ID="ID_561613070" MODIFIED="1365990347212" TEXT="don&apos;t rewirte /etc/resolve.conf"/>
+</node>
+</node>
+<node CREATED="1365990176496" ID="ID_1098797505" MODIFIED="1365990190280" TEXT="dhcpd (DHCP server Daemon)">
+<node CREATED="1365990379352" ID="ID_263335707" MODIFIED="1365990379352">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Arial,Helvetica,sans-serif"><span style="font-family: Arial,Helvetica,sans-serif; vertical-align: top">interfaces are configured for multicast support</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365990777217" ID="ID_1485645576" MODIFIED="1365990917220">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Arial,Helvetica,sans-serif"><span style="font-family: Arial,Helvetica,sans-serif; vertical-align: top">dhcpd.conf</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1365990794469" ID="ID_758524775" MODIFIED="1365990794469">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top"># Sample DHCP Server Configuration</span></font>
+    </p>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">option domain-name &quot;vbrew.com&quot;;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">option domain-name-servers ns1.vbrew.com, ns2.vbrew.com;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">default-lease-time 1600;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">max-lease-time 7200;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">log-facility local7;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier"># This is a very basic subnet declaration.</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">subnet 172.16.1.0 netmask 255.255.255.0 {</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  range 172.16.1.10 172.16.1.50;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  option routers router1.vbrew.com;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 12px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">}</font></span></pre>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1365990804240" ID="ID_293755469" MODIFIED="1365990815849" TEXT="option domain-name"/>
+<node CREATED="1365990830194" ID="ID_1255086913" MODIFIED="1365990830194">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">option domain-name-servers</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365990839816" ID="ID_200584020" MODIFIED="1365990839816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">default-lease-time</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365990851348" ID="ID_1913271156" MODIFIED="1365990851348">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">max-lease-time 7200</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365990889679" ID="ID_1755154983" MODIFIED="1365990889679">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">subnet 172.16.1.0 netmask 255.255.255.0 {</span></font>
+    </p>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  range 172.16.1.10 172.16.1.50;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  option routers router1.vbrew.com;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 12px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">}</font></span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1365990914458" ID="ID_1246816035" MODIFIED="1365990914458">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px">
+      <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">host vale {</span></font>
+    </p>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  hardware ethernet 0:0f:d0:ee:ag:4e;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">fixed-address 172.16.1.55;</font></span></pre>
+    <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 12px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">}</font></span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
