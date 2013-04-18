@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355236104335" ID="ID_1153208252" MODIFIED="1359305065744" TEXT="perl">
-<node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1366265106230" POSITION="right" TEXT="$@%&amp;*\">
+<node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1366299231551" POSITION="right" TEXT="$@%&amp;*\">
 <node CREATED="1355458364407" FOLDED="true" ID="ID_937717701" MODIFIED="1365595660267" TEXT="$ scalar">
 <node CREATED="1355240403869" ID="ID_1518752704" MODIFIED="1365583383090" TEXT="undef">
 <node CREATED="1355240432319" ID="ID_179851737" MODIFIED="1365578983476" TEXT="only scalar can have a &quot;undef&quot; value ,containers/collections/aggregations can&apos;t"/>
@@ -774,8 +774,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1355458408526" FOLDED="true" ID="ID_274678487" MODIFIED="1366186753035" TEXT="* typeglob">
-<node CREATED="1355456113776" FOLDED="true" ID="ID_572681415" MODIFIED="1366127707578" TEXT="indirectly modify symbol tables.">
+<node CREATED="1355458408526" FOLDED="true" ID="ID_274678487" MODIFIED="1366299230913" TEXT="* typeglob">
+<node CREATED="1355456113776" ID="ID_572681415" MODIFIED="1366299207659" TEXT="indirectly modify symbol tables.">
 <node CREATED="1365652995888" ID="ID_1829685397" MODIFIED="1365653003425" TEXT="*foo=\$bar">
 <node CREATED="1365653005224" ID="ID_1884190065" MODIFIED="1365653052307" TEXT="bar can be a lexical variable."/>
 </node>
@@ -783,10 +783,10 @@
 <node CREATED="1365652878789" ID="ID_351301114" MODIFIED="1365652992450" TEXT="bar must be a dynamic variable. so bar has the corresponding entry in symbol tables."/>
 </node>
 </node>
-<node CREATED="1365653059926" ID="ID_1666633532" MODIFIED="1365653270637" TEXT="import the symbols from external module.">
+<node CREATED="1365653059926" ID="ID_1666633532" MODIFIED="1366299206202" TEXT="import the symbols from external module.">
 <node CREATED="1365653238850" ID="ID_1838802634" MODIFIED="1365653262705" TEXT="use Module qw(foo bar);"/>
 </node>
-<node CREATED="1365653267437" FOLDED="true" ID="ID_5180736" MODIFIED="1366127705686" TEXT="pass filehandle to sub/func.">
+<node CREATED="1365653267437" FOLDED="true" ID="ID_5180736" MODIFIED="1366299217738" TEXT="pass filehandle to sub/func.">
 <node CREATED="1365653319460" ID="ID_1376024133" MODIFIED="1365653337683" TEXT="$foo=*FH"/>
 <node CREATED="1365653338641" ID="ID_148231161" MODIFIED="1365653345678" TEXT="$foo=\*FH"/>
 </node>
@@ -1156,7 +1156,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1355459629280" FOLDED="true" ID="ID_1638982163" MODIFIED="1366181531534" POSITION="right" TEXT="regexp">
+<node CREATED="1355459629280" FOLDED="true" ID="ID_1638982163" MODIFIED="1366272620518" POSITION="right" TEXT="regexp">
 <node CREATED="1357887903900" FOLDED="true" ID="ID_1415057125" MODIFIED="1362451114795" TEXT="matacharacters">
 <node CREATED="1357889223324" ID="ID_1684107037" MODIFIED="1357891283961" TEXT="character classes">
 <node CREATED="1357891285052" ID="ID_514960743" MODIFIED="1357891297029" TEXT="\s \S"/>
@@ -1834,7 +1834,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357866669374" ID="ID_48524258" MODIFIED="1366181444869" STYLE="fork" TEXT="operator(=~ !~  m// s///)">
+<node CREATED="1357866669374" FOLDED="true" ID="ID_48524258" MODIFIED="1366266509382" STYLE="fork" TEXT="operator(=~ !~  m// s///)">
 <node CREATED="1355460481657" ID="ID_1541790977" MODIFIED="1366181430998" TEXT="delimiter">
 <node CREATED="1355461568903" ID="ID_1872929531" MODIFIED="1357908884301" TEXT="unpaired">
 <node CREATED="1355461361441" ID="ID_297300724" MODIFIED="1355461579102" TEXT="s/\s*//"/>
@@ -2099,7 +2099,7 @@
 <node CREATED="1358005703697" ID="ID_1453264191" MODIFIED="1358005734742" TEXT="result of evaluation of (?{code})"/>
 </node>
 </node>
-<node CREATED="1355461643407" FOLDED="true" ID="ID_1475107631" MODIFIED="1366181529652" TEXT="flags(modifiers)">
+<node CREATED="1355461643407" FOLDED="true" ID="ID_1475107631" MODIFIED="1366266550955" TEXT="flags(modifiers)">
 <node CREATED="1357909867324" ID="ID_263695236" MODIFIED="1365521512592" TEXT="m//">
 <node CREATED="1357887542601" ID="ID_127502727" MODIFIED="1357913466651" TEXT="//c">
 <node CREATED="1357909338739" ID="ID_838585659" MODIFIED="1357909470658" TEXT="position is not reset after failure to match"/>
@@ -2184,7 +2184,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357909881530" FOLDED="true" ID="ID_1852841751" MODIFIED="1366181528233" TEXT="both m// and s///">
+<node CREATED="1357909881530" ID="ID_1852841751" MODIFIED="1366266526716" TEXT="both m// and s///">
 <node CREATED="1355461676925" ID="ID_350852868" MODIFIED="1357913491565" TEXT="g">
 <node CREATED="1355461781485" ID="ID_302893734" MODIFIED="1355461783388" TEXT="global"/>
 </node>
@@ -2195,12 +2195,12 @@
 </node>
 <node CREATED="1355461680043" ID="ID_1120396084" MODIFIED="1355461683245" TEXT="x">
 <node CREATED="1355461760781" ID="ID_439251461" MODIFIED="1355461766584" TEXT="comment">
-<node CREATED="1355461862217" FOLDED="true" ID="ID_1339653444" MODIFIED="1365821246845" TEXT="?x  ?-x">
+<node CREATED="1355461862217" FOLDED="true" ID="ID_1339653444" MODIFIED="1366266547158" TEXT="?x  ?-x">
 <node CREATED="1357908227372" ID="ID_1840918486" MODIFIED="1357908359633" TEXT="allows whitespace and comment in regexp">
 <node CREATED="1357908239263" ID="ID_325982934" MODIFIED="1357908373750" TEXT="arbitrary whitespaces"/>
 <node CREATED="1357908324281" ID="ID_1353611224" MODIFIED="1357908370953" TEXT="comment #"/>
 </node>
-<node CREATED="1357908377159" ID="ID_350006313" MODIFIED="1357908453954" TEXT="escape whitespace and #">
+<node CREATED="1357908377159" FOLDED="true" ID="ID_350006313" MODIFIED="1366266546182" TEXT="escape whitespace and #">
 <node CREATED="1357908456064" ID="ID_1815222162" MODIFIED="1357908463442" TEXT="ws">
 <node CREATED="1357908470689" ID="ID_1121157778" MODIFIED="1357908475748" TEXT="&apos;\ &apos;"/>
 <node CREATED="1357908476286" ID="ID_968927575" MODIFIED="1357908479950" TEXT="[ ]"/>
@@ -2246,7 +2246,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357957062628" ID="ID_161140580" MODIFIED="1365521983839" TEXT="construct regex">
+<node CREATED="1357957062628" FOLDED="true" ID="ID_161140580" MODIFIED="1366266552118" TEXT="construct regex">
 <node CREATED="1357957096929" ID="ID_727360064" MODIFIED="1357957105021" TEXT="compiletime">
 <node CREATED="1357957133799" ID="ID_1968907577" MODIFIED="1357957506253" TEXT=" qr/string/">
 <node CREATED="1357957509806" ID="ID_135162068" MODIFIED="1357957519850" TEXT="qr!string!"/>
@@ -2275,7 +2275,7 @@
 <node CREATED="1358015575357" ID="ID_1503259621" MODIFIED="1358015576294" TEXT="use re &apos;debugcolor&apos;"/>
 </node>
 </node>
-<node CREATED="1355459069971" FOLDED="true" ID="ID_380599138" MODIFIED="1366263531098" POSITION="right" TEXT="program organization">
+<node CREATED="1355459069971" FOLDED="true" ID="ID_380599138" MODIFIED="1366299761030" POSITION="right" TEXT="program organization">
 <node CREATED="1355459104599" FOLDED="true" ID="ID_1972549584" MODIFIED="1365578811150" TEXT="pragma (compiler directive)">
 <node CREATED="1355496643000" ID="ID_1728537763" MODIFIED="1355496802176" TEXT="use/no strict   qw(subs vars refs);">
 <node CREATED="1355496649675" FOLDED="true" ID="ID_1465382611" MODIFIED="1365572880158" TEXT="use/no strict &apos;vars&apos;;">
@@ -2316,7 +2316,7 @@
 <node CREATED="1355459596100" ID="ID_187772785" MODIFIED="1358929773696" TEXT="comment">
 <node CREATED="1364052908593" ID="ID_1054877558" MODIFIED="1364052910315" TEXT="#"/>
 </node>
-<node CREATED="1358017524600" FOLDED="true" ID="ID_1837910359" MODIFIED="1366129893842" TEXT="external/aync/ event signal handling">
+<node CREATED="1358017524600" FOLDED="true" ID="ID_1837910359" MODIFIED="1366299614503" TEXT="external/aync/ event signal handling">
 <node CREATED="1358017524600" ID="ID_235607369" MODIFIED="1366128756845" TEXT="%SIG">
 <node CREATED="1358684912761" ID="ID_1529298274" MODIFIED="1366128714124" TEXT="$SIG{&apos;XXX&apos;}">
 <node CREATED="1358685854400" ID="ID_682323356" MODIFIED="1366128645636" TEXT="kill SIGXXX [, LIST]">
@@ -2354,8 +2354,8 @@
 <node CREATED="1358694502867" ID="ID_1913921059" MODIFIED="1358694513142" TEXT="END{...}"/>
 </node>
 </node>
-<node CREATED="1358237228965" FOLDED="true" ID="ID_1056371444" MODIFIED="1366129892325" TEXT="internal/sync/ event exception handling">
-<node CREATED="1358261439489" ID="ID_905357449" MODIFIED="1358672101076" TEXT="die LIST">
+<node CREATED="1358237228965" FOLDED="true" ID="ID_1056371444" MODIFIED="1366297267582" TEXT="internal/sync/ event exception handling">
+<node CREATED="1358261439489" ID="ID_905357449" MODIFIED="1366289551088" TEXT="die LIST">
 <node CREATED="1358261443451" ID="ID_600521216" MODIFIED="1358671968402" TEXT="outside eval{...}">
 <node CREATED="1358261476468" ID="ID_679093679" MODIFIED="1366129072730" TEXT="STDERR">
 <node CREATED="1358670312144" ID="ID_1893291981" MODIFIED="1366129190172" TEXT="info">
@@ -2382,27 +2382,27 @@
 </node>
 </node>
 </node>
-<node CREATED="1358261582705" ID="ID_727432012" MODIFIED="1358672117972" TEXT="exit status ($? in shell)">
+<node CREATED="1358261582705" FOLDED="true" ID="ID_727432012" MODIFIED="1366269921437" TEXT="exit status ($? in shell)">
 <node CREATED="1358666099828" ID="ID_1621926611" MODIFIED="1366129250177" TEXT="if ($! != 0)">
-<node CREATED="1358666092709" FOLDED="true" ID="ID_1648459333" MODIFIED="1366129253194" TEXT="$!">
+<node CREATED="1358666092709" ID="ID_1648459333" MODIFIED="1366268207838" TEXT="$!">
 <node CREATED="1358667523164" ID="ID_1411041998" MODIFIED="1358667537071" TEXT="last error (errno)"/>
 </node>
 </node>
-<node CREATED="1358666252454" ID="ID_896062652" MODIFIED="1366129254895" TEXT="elsif ($! == 0 and $?&gt;&gt;8 != 0)">
+<node CREATED="1358666252454" ID="ID_896062652" MODIFIED="1366269870822" TEXT="elsif ($! == 0 and $?&gt;&gt;8 != 0)">
 <node CREATED="1358666239492" ID="ID_1250285593" MODIFIED="1366129278748" TEXT="$?&gt;&gt;8">
 <node CREATED="1358667540997" ID="ID_1300527986" MODIFIED="1358667620772" TEXT="status of  normal termination of child process">
 <node CREATED="1358667629846" ID="ID_1289459123" MODIFIED="1358667637264" TEXT="exit"/>
 </node>
 </node>
 </node>
-<node CREATED="1358666290472" ID="ID_1035559738" MODIFIED="1366129305919" TEXT="elsif ($! == 0 and $?&gt;&gt;8 == 0)">
+<node CREATED="1358666290472" ID="ID_1035559738" MODIFIED="1366269920487" TEXT="elsif ($! == 0 and $?&gt;&gt;8 == 0)">
 <node CREATED="1358666247625" ID="ID_1643111131" MODIFIED="1366129307716" TEXT="255">
 <node CREATED="1358667602443" ID="ID_59820022" MODIFIED="1358667626591" TEXT="status of abnormal termination of child process">
 <node CREATED="1358667640652" ID="ID_1791040458" MODIFIED="1358667644409" TEXT="signal"/>
 </node>
 </node>
 </node>
-<node CREATED="1358668536333" ID="ID_1724068831" MODIFIED="1366129319618" TEXT="else">
+<node CREATED="1358668536333" ID="ID_1724068831" MODIFIED="1366268319534" TEXT="else">
 <node CREATED="1358668539807" ID="ID_1496591582" MODIFIED="1358668542978" TEXT="nothing!"/>
 </node>
 </node>
@@ -2417,7 +2417,7 @@
 <node CREATED="1358672044315" ID="ID_1086129873" MODIFIED="1358672045996" TEXT="$EVAL_ERROR"/>
 </node>
 </node>
-<node CREATED="1358672120615" FOLDED="true" ID="ID_1755752069" MODIFIED="1366129403054" TEXT="eval">
+<node CREATED="1358672120615" ID="ID_1755752069" MODIFIED="1366289556495" TEXT="eval">
 <node CREATED="1358680866406" ID="ID_117720704" MODIFIED="1358681074610" STYLE="fork" TEXT="eval EXPR($_)">
 <node CREATED="1358680961626" ID="ID_1014722100" MODIFIED="1358681068599" TEXT="executed as a block within the lexical context of the current Perl program. "/>
 <node CREATED="1358681020465" ID="ID_1969810785" MODIFIED="1358681068599" TEXT="any outer lexical variables are visible to it."/>
@@ -2426,37 +2426,7 @@
 <node CREATED="1358680872581" ID="ID_1339744913" MODIFIED="1358680883207" TEXT="eval BLOCK"/>
 </node>
 </node>
-<node CREATED="1355459126766" FOLDED="true" ID="ID_1497627943" MODIFIED="1365580717406" TEXT="package/module/library">
-<node CREATED="1355460047555" ID="ID_1021967777" MODIFIED="1355460050278" TEXT="module">
-<node CREATED="1355460089045" ID="ID_1700379832" MODIFIED="1355460094196" TEXT="Exporter"/>
-<node CREATED="1355460120883" ID="ID_517909243" MODIFIED="1355460135866" TEXT="@ISA"/>
-<node CREATED="1355460123580" ID="ID_1004669742" MODIFIED="1355460146067" TEXT="@EXPORT"/>
-<node CREATED="1355460147084" ID="ID_641612972" MODIFIED="1355460160629" TEXT="@EXPORT_OK"/>
-<node CREATED="1355460161667" ID="ID_750676538" MODIFIED="1355460168183" TEXT="%EXPORT_TAGS."/>
-<node CREATED="1355460318610" ID="ID_1054960826" MODIFIED="1355460348796" TEXT="CPAN">
-<node CREATED="1355460350469" ID="ID_1384070285" MODIFIED="1355460350469" TEXT="Comprehensive Perl Archive Network"/>
-</node>
-</node>
-<node CREATED="1355460052140" ID="ID_1071890157" MODIFIED="1355460079590" TEXT="export/import symbol">
-<node CREATED="1355446916841" ID="ID_1893000651" MODIFIED="1359555885621" TEXT="do">
-<node CREATED="1358701320871" FOLDED="true" ID="ID_1357932808" MODIFIED="1358702415214" TEXT="do &apos;stat.pl&apos;;">
-<node CREATED="1358701367460" ID="ID_336572278" MODIFIED="1358701376307" TEXT="equivalent to">
-<node CREATED="1358701362370" ID="ID_1810146734" MODIFIED="1358701378954" TEXT="eval `cat stat.pl`;"/>
-</node>
-</node>
-</node>
-<node CREATED="1355446918415" ID="ID_1242608559" MODIFIED="1355460277923" TEXT="use (compile-time)">
-<node CREATED="1358701029157" ID="ID_705315535" MODIFIED="1358702380337" TEXT="use lib &apos;/mypath/libdir/&apos;;"/>
-</node>
-<node CREATED="1355446920750" ID="ID_1465118100" MODIFIED="1359555893217" TEXT="require (run-time)">
-<node CREATED="1358702261388" ID="ID_671014254" MODIFIED="1358702263708" TEXT="require Foo::Bar;"/>
-</node>
-</node>
-<node CREATED="1355459603201" ID="ID_1117089617" MODIFIED="1357885123302" TEXT="namespace">
-<node CREATED="1357958859087" ID="ID_1070048068" MODIFIED="1357958863448" TEXT="@INC"/>
-</node>
-</node>
-<node CREATED="1355239682920" FOLDED="true" ID="ID_1006343557" MODIFIED="1366128375099" TEXT="IO">
+<node CREATED="1355239682920" FOLDED="true" ID="ID_1006343557" MODIFIED="1366273066005" TEXT="IO">
 <node CREATED="1355239686496" ID="ID_909856692" MODIFIED="1355401828474" TEXT="standard IO">
 <node CREATED="1355239716192" ID="ID_1417760401" MODIFIED="1355239718148" TEXT="I">
 <node CREATED="1355239720213" ID="ID_22807217" MODIFIED="1358912738905" TEXT="$line=&lt;FILE_HANDLE&gt;;"/>
@@ -2540,7 +2510,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1355459660214" FOLDED="true" ID="ID_275176102" MODIFIED="1366211580539" TEXT="stmt">
+<node CREATED="1355459660214" FOLDED="true" ID="ID_275176102" MODIFIED="1366299760343" TEXT="stmt">
 <node CREATED="1355459895057" FOLDED="true" ID="ID_1499479158" MODIFIED="1366186026017" TEXT="complex stmt">
 <node CREATED="1355469951464" ID="ID_696260862" MODIFIED="1366186017974" TEXT="{stmts}">
 <node CREATED="1355482212069" ID="ID_324708585" MODIFIED="1355483045736" TEXT="the final simicolon is optional">
@@ -2862,25 +2832,14 @@
 <node CREATED="1366185368544" ID="ID_800589724" MODIFIED="1366185377095" TEXT="curly brackets are required, no dangling statements allowed."/>
 </node>
 </node>
-<node CREATED="1357884721466" ID="ID_1813815338" MODIFIED="1366180510363" TEXT="single stmt">
+<node CREATED="1357884721466" ID="ID_1813815338" MODIFIED="1366297269613" TEXT="single stmt">
 <node CREATED="1355459657037" ID="ID_774238097" MODIFIED="1366180517618" TEXT="expr">
-<node CREATED="1357884665267" FOLDED="true" ID="ID_256474885" MODIFIED="1366180380813" TEXT="lvalue">
-<node CREATED="1355468799740" ID="ID_1619038633" MODIFIED="1365580234165" TEXT="variable">
-<node CREATED="1358694687998" ID="ID_1604108770" MODIFIED="1365580226420" TEXT="Package::Down::To::var | Package&apos;Down&apos;To&apos;var (&lt;=251 chars)">
-<node CREATED="1358694864769" ID="ID_1154146185" MODIFIED="1358694916504" TEXT="package qualifier"/>
-<node CREATED="1358694919256" ID="ID_754397662" MODIFIED="1358695486894" TEXT="separator">
-<node CREATED="1358694924311" ID="ID_279598169" MODIFIED="1358694927128" TEXT="::">
-<node CREATED="1365580152563" ID="ID_1465117847" MODIFIED="1365580160122" TEXT="C++ style"/>
-</node>
-<node CREATED="1358694928053" ID="ID_1275957941" MODIFIED="1358694931459" TEXT="&apos;">
-<node CREATED="1365580162330" ID="ID_1080602922" MODIFIED="1365580169866" TEXT="Ada style"/>
-</node>
-</node>
-<node CREATED="1358694970455" ID="ID_1915233001" MODIFIED="1358694974140" TEXT="variable"/>
-</node>
-</node>
+<node CREATED="1357884665267" ID="ID_256474885" MODIFIED="1366273049870" TEXT="lvalue">
+<node CREATED="1355468799740" ID="ID_1619038633" MODIFIED="1365580234165" TEXT="variable"/>
 <node CREATED="1355468848773" ID="ID_891730747" MODIFIED="1365580237462" TEXT="constant">
-<node CREATED="1355468857611" ID="ID_1115315441" MODIFIED="1355469305875" TEXT="$PI=\3.1415926;"/>
+<node CREATED="1355468857611" ID="ID_1115315441" MODIFIED="1366299637815" TEXT="*PI = \3.14159265358979;">
+<node CREATED="1366299670191" ID="ID_1727846872" MODIFIED="1366299673686" TEXT="cannot alter $PI"/>
+</node>
 </node>
 </node>
 <node CREATED="1357884682318" ID="ID_1301259844" MODIFIED="1365580280979" TEXT="rvalue">
@@ -2934,8 +2893,9 @@
 </node>
 <node CREATED="1366184631480" ID="ID_125734129" MODIFIED="1366184633448" TEXT="The behaviour of a my, state, or our modified with a statement modifier conditional or loop construct (for example, my $x if ... ) is undefined."/>
 </node>
-<node CREATED="1366180392690" FOLDED="true" ID="ID_1510270939" MODIFIED="1366184776431" TEXT="do{}/eval{}/sub{}">
-<node CREATED="1355469936976" ID="ID_428693644" MODIFIED="1366180303969" TEXT="do{}">
+<node CREATED="1366180392690" FOLDED="true" ID="ID_1510270939" MODIFIED="1366289887190" TEXT="do/eval/sub">
+<node CREATED="1355469936976" ID="ID_428693644" MODIFIED="1366289399661" TEXT="do">
+<node CREATED="1366276587334" FOLDED="true" ID="ID_1669592861" MODIFIED="1366287156811" TEXT="do BLOCK">
 <node CREATED="1366184267104" ID="ID_1027117625" MODIFIED="1366184315616" TEXT="do-while/do-until">
 <node CREATED="1366184317288" ID="ID_1380650287" MODIFIED="1366184325007" TEXT="block executes once before the conditional is evaluated."/>
 <node CREATED="1366184396969" ID="ID_550829646" MODIFIED="1366184459072" TEXT="loop control statements last,next will NOT work in this construct.">
@@ -2991,9 +2951,93 @@
 </node>
 </node>
 </node>
+<node CREATED="1366276665582" ID="ID_1323291250" MODIFIED="1366276667645" TEXT="Returns the value of the last command in the sequence of commands indicated by BLOCK"/>
 </node>
-<node CREATED="1355446924347" ID="ID_233129591" MODIFIED="1366180303966" TEXT="eval{}"/>
-<node CREATED="1366128170379" ID="ID_131431566" MODIFIED="1366180303963" TEXT="sub{}"/>
+<node CREATED="1366276680414" ID="ID_142428249" MODIFIED="1366276732014" TEXT="do  (&amp;)SUBROUTINE(LIST) (deprecated)"/>
+<node CREATED="1366276733350" FOLDED="true" ID="ID_503783175" MODIFIED="1366288890051" TEXT="do EXPR">
+<node CREATED="1366276765694" ID="ID_1118113163" MODIFIED="1366276767373" TEXT="Uses the value of EXPR as a filename and executes the contents of the file as a Perl script."/>
+<node CREATED="1366276823350" ID="ID_1653297858" MODIFIED="1366277091196" TEXT="do &apos;external.pl&apos;;   just like,   eval `cat external.pl`; "/>
+<node CREATED="1366276991294" ID="ID_1199770558" MODIFIED="1366277027657" TEXT="do FILENAME cannot see lexicals in the enclosing scope; eval STRING does"/>
+<node CREATED="1366277119086" ID="ID_307082326" MODIFIED="1366277143732" TEXT="do FILENAME and eval STRING do reparse the file every time you call it"/>
+<node CREATED="1366277186774" FOLDED="true" ID="ID_1438903475" MODIFIED="1366282224692" TEXT="error">
+<node CREATED="1366277191374" ID="ID_947843142" MODIFIED="1366277192748" TEXT="If do can read the file but cannot compile it">
+<node CREATED="1366277202822" ID="ID_1805681266" MODIFIED="1366277210260" TEXT="return undef"/>
+<node CREATED="1366277210733" ID="ID_1254218574" MODIFIED="1366277225078" TEXT="sets an error message in $@"/>
+<node CREATED="1366277313614" ID="ID_1136545383" MODIFIED="1366277314974" TEXT="sets $!"/>
+</node>
+<node CREATED="1366277193621" ID="ID_1342519875" MODIFIED="1366277239156" TEXT="If do cannot read the file">
+<node CREATED="1366277251975" ID="ID_419977682" MODIFIED="1366277257318" TEXT="return undef "/>
+<node CREATED="1366277273846" ID="ID_1191463449" MODIFIED="1366277274670" TEXT="sets $! to the error"/>
+</node>
+</node>
+<node CREATED="1366277375398" ID="ID_322844673" MODIFIED="1366287890239" TEXT="peferable to use do to read in a program configuration file.">
+<node CREATED="1366286182098" ID="ID_249299365" MODIFIED="1366287595703">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(34, 139, 34)"># read in config files: system first, then user</font>
+    </p>
+    <p>
+      for <font color="rgb(0, 104, 139)">$file</font>&#160;<font color="rgb(0, 0, 0)">(</font><font color="rgb(205, 85, 85)">&quot;/share/prog/defaults.rc&quot;</font><font color="rgb(0, 0, 0)">, </font><font color="rgb(205, 85, 85)">&quot;$ENV{HOME}/.someprogrc&quot;</font><font color="rgb(0, 0, 0)">)</font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">{</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unless <font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">$return</font>&#160;= <a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/do.html" class="l_k"><b><font color="rgb(102, 102, 102)">do</font></b></a>&#160;<font color="rgb(0, 104, 139)">$file</font><font color="rgb(0, 0, 0)">)</font>&#160;<font color="rgb(0, 0, 0)">{ </font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#160;<font color="rgb(205, 85, 85)">&quot;couldn't parse $file: $@&quot;</font>&#160;if <font color="rgb(0, 104, 139)">$@</font><font color="rgb(0, 0, 0)">; </font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#160;<font color="rgb(205, 85, 85)">&quot;couldn't do $file: $!&quot;</font>&#160;unless <a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/defined.html" class="l_k"><b><font color="rgb(102, 102, 102)">defined</font></b></a>&#160; <font color="rgb(0, 104, 139)">$return</font><font color="rgb(0, 0, 0)">; </font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#160;<font color="rgb(205, 85, 85)">&quot;couldn't run $file&quot;</font>&#160;unless <font color="rgb(0, 104, 139)">$return</font><font color="rgb(0, 0, 0)">;</font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">&#160;&#160;&#160;&#160;}</font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1355446924347" FOLDED="true" ID="ID_233129591" MODIFIED="1366289886295" TEXT="eval">
+<node CREATED="1366286411631" FOLDED="true" ID="ID_1616227164" MODIFIED="1366289101726" TEXT="eval EXPR">
+<node CREATED="1366286516016" ID="ID_156688832" MODIFIED="1366287145724" TEXT="return value of EXPR is parsed and executed as if it were a little Perl program." VSHIFT="1"/>
+<node CREATED="1366287196072" ID="ID_1997371450" MODIFIED="1366287208043" TEXT="The value of the expression (which is itself determined within scalar context) is first parsed, and if there were no errors, executed as a block within the lexical context of the current Perl program."/>
+<node CREATED="1366288903472" ID="ID_1809257634" MODIFIED="1366288914310" TEXT="any outer lexical variables are visible to eval string."/>
+<node CREATED="1366288914624" ID="ID_1512259977" MODIFIED="1366288928480" TEXT="any package variable settings or subroutine and format definitions remain afterwards."/>
+<node CREATED="1366288950312" ID="ID_1655392974" MODIFIED="1366288972846" TEXT="the value is parsed every time the eval executes."/>
+<node CREATED="1366288966697" ID="ID_1749677856" MODIFIED="1366288967918" TEXT="If EXPR is omitted, evaluates $_"/>
+</node>
+<node CREATED="1366286414072" ID="ID_144830964" MODIFIED="1366289584648" TEXT="eval BLOCK">
+<node CREATED="1366289085367" ID="ID_710678827" MODIFIED="1366289097377" TEXT="code within the BLOCK is parsed only once--at the same time the code surrounding the eval itself was parsed."/>
+<node CREATED="1366289175216" ID="ID_478603805" MODIFIED="1366289176551" TEXT="eval BLOCK does not count as a loop, so the loop control statements next, last, or redo cannot be used to leave or restart the block."/>
+<node CREATED="1366289648104" FOLDED="true" ID="ID_491714858" MODIFIED="1366289739515" TEXT="using eval neither silences Perl from printing warnings to STDERR, nor does it stuff the text of warning messages into $@ .">
+<node CREATED="1366289691567" ID="ID_1784673614" MODIFIED="1366289693167" TEXT="use the $SIG{__WARN__} facility"/>
+<node CREATED="1366289711743" ID="ID_729038893" MODIFIED="1366289737760" TEXT="turn off warnings inside the BLOCK or EXPR using no warnings &apos;all&apos;"/>
+</node>
+<node CREATED="1358260465716" ID="ID_264512410" MODIFIED="1366129375815" TEXT="$@">
+<node CREATED="1358672044315" ID="ID_441755759" MODIFIED="1358672045996" TEXT="$EVAL_ERROR">
+<node CREATED="1366289588160" ID="ID_981340056" MODIFIED="1366289852033" TEXT="Before Perl 5.14, the assignment to $@ occurred before restoration of localized variables"/>
+</node>
+</node>
+</node>
+<node CREATED="1366289016535" ID="ID_1074319058" MODIFIED="1366289017799" TEXT="unicode_eval"/>
+<node CREATED="1366289031176" ID="ID_113718294" MODIFIED="1366289032454" TEXT="evalbytes"/>
+<node CREATED="1366289367272" ID="ID_1877648540" MODIFIED="1366289369119" TEXT="the value returned is the value of the last expression evaluated inside the mini-program"/>
+</node>
+<node CREATED="1366128170379" ID="ID_131431566" MODIFIED="1366289413382" TEXT="sub"/>
 <node CREATED="1366180442560" ID="ID_892170837" MODIFIED="1366180497961" TEXT="just TERMs in an expression,need an explicit termination when used as the last item in a statement."/>
 </node>
 </node>
@@ -3077,7 +3121,7 @@
 </node>
 </node>
 <node CREATED="1355465394408" ID="ID_209172666" MODIFIED="1358929765486" TEXT="$ERRNO($!)"/>
-<node CREATED="1355465419058" FOLDED="true" ID="ID_1047713264" MODIFIED="1365580892929" TEXT="logging">
+<node CREATED="1355465419058" ID="ID_1047713264" MODIFIED="1366269934232" TEXT="logging">
 <node CREATED="1355465231043" ID="ID_1780069724" MODIFIED="1355465235372" TEXT="say">
 <node CREATED="1358693506446" ID="ID_1306516800" MODIFIED="1358693517376" TEXT="use feature &quot;say&quot;;"/>
 </node>
@@ -3216,8 +3260,42 @@
 <node CREATED="1359818707757" ID="ID_788916605" MODIFIED="1359818758028" TEXT="formline PICTURE,LIST"/>
 </node>
 </node>
+<node CREATED="1359595626089" FOLDED="true" ID="ID_266714830" MODIFIED="1366294673694" TEXT="use">
+<node CREATED="1359595637490" ID="ID_1936418778" MODIFIED="1359595650195" TEXT="BEGIN { require Module; Module-&gt;import( LIST ); }">
+<node CREATED="1359595698843" ID="ID_1839737173" MODIFIED="1359595700132" TEXT="except that Module must be a bareword. The importation can be made conditional;"/>
 </node>
-<node CREATED="1355411610360" ID="ID_1753210613" MODIFIED="1366265189709" POSITION="right" TEXT="scope">
+<node CREATED="1359595927735" FOLDED="true" ID="ID_1664733976" MODIFIED="1366294433970" TEXT="use VERSION">
+<node CREATED="1359596236005" ID="ID_1550045335" MODIFIED="1359596378256" TEXT="positive decimal fraction">
+<node CREATED="1359596336557" ID="ID_664200614" MODIFIED="1359596565254" TEXT="use 5.006">
+<node CREATED="1359596538245" HGAP="13" ID="ID_509150237" MODIFIED="1359596830398" TEXT="$]" VSHIFT="1"/>
+</node>
+</node>
+<node CREATED="1359596252881" ID="ID_153055808" MODIFIED="1359596254046" TEXT="v-string">
+<node CREATED="1359596347792" ID="ID_25251993" MODIFIED="1359596534826" TEXT="use v5.6.1 (5.6.1)">
+<node CREATED="1359596498638" ID="ID_1289931505" MODIFIED="1359596521535" TEXT="$^V ($PERL_VERSION)"/>
+</node>
+</node>
+<node CREATED="1359596605192" ID="ID_1190370652" MODIFIED="1359596606815" TEXT="An exception is raised if VERSION is greater than the version of the current Perl interpreter; "/>
+<node CREATED="1359596978451" ID="ID_89940501" MODIFIED="1359596983795" TEXT="use VERSION also enables all features available in the requested version as defined by the feature pragma, "/>
+<node CREATED="1359610839935" ID="ID_844142058" MODIFIED="1359610841083" TEXT="If the VERSION argument is present between Module and LIST, then the use will call the VERSION method in class Module with the given version as an argument. The default VERSION method, inherited from the UNIVERSAL class, croaks if the given version is larger than the value of the variable $Module::VERSION ."/>
+</node>
+<node CREATED="1359596160066" ID="ID_1485596066" MODIFIED="1359596200509" TEXT="use Module [LIST]"/>
+<node CREATED="1359596145882" ID="ID_1736953739" MODIFIED="1359596206414" TEXT="use Module VERSION [LIST]"/>
+<node CREATED="1359610965060" ID="ID_1255948931" MODIFIED="1359610981235" TEXT="use constant;"/>
+<node CREATED="1359611002102" ID="ID_1298553571" MODIFIED="1359611003204" TEXT="use diagnostics;"/>
+<node CREATED="1359611011542" ID="ID_597609556" MODIFIED="1359611012475" TEXT="use integer;"/>
+<node CREATED="1359611024037" ID="ID_1067014895" MODIFIED="1359611025848" TEXT="use sigtrap  qw(SEGV BUS);"/>
+<node CREATED="1359611045246" ID="ID_433436743" MODIFIED="1359611046325" TEXT="use strict   qw(subs vars refs);"/>
+<node CREATED="1359611058397" ID="ID_333355638" MODIFIED="1359611059431" TEXT="use subs     qw(afunc blurfl);"/>
+<node CREATED="1359611068533" ID="ID_1993632483" MODIFIED="1359611069684" TEXT="use warnings qw(all);"/>
+<node CREATED="1359611091468" ID="ID_1513347663" MODIFIED="1359611092998" TEXT="use sort     qw(stable _quicksort _mergesort);"/>
+<node CREATED="1359611243211" FOLDED="true" ID="ID_1410492539" MODIFIED="1366294456247" TEXT="conditional compiling (use if)">
+<node CREATED="1359611253765" ID="ID_10493264" MODIFIED="1359611289179" TEXT="use if $] &lt; 5.008, &quot;utf8&quot;;"/>
+<node CREATED="1359611302680" ID="ID_833806849" MODIFIED="1359611304856" TEXT="use if WANT_WARNINGS, warnings =&gt; qw(all);"/>
+</node>
+</node>
+</node>
+<node CREATED="1355411610360" FOLDED="true" ID="ID_1753210613" MODIFIED="1366294516319" POSITION="right" TEXT="scope">
 <node CREATED="1366212533021" ID="ID_320434168" MODIFIED="1366212723444" TEXT="dynamic scope">
 <node CREATED="1355412564906" FOLDED="true" ID="ID_1887332172" MODIFIED="1366212745184" TEXT="local">
 <node CREATED="1366042227512" ID="ID_1859796277" MODIFIED="1366042232567" TEXT="behavior">
@@ -3260,13 +3338,13 @@
 <node CREATED="1359310206112" ID="ID_459181290" MODIFIED="1359310250440" TEXT="Multiple &quot;our&quot; declarations with the same name in the same lexical scope are allowed if they are in different packages.  If they happen to be in the same package, Perl will emit  warnings if you have asked for them, just like multiple &quot;my&quot; declarations.  Unlike a second &quot;my&quot; declaration, which will bind the name to a fresh variable, a second &quot;our&quot; declaration in the same package, in the same scope, is merely redundant."/>
 </node>
 </node>
-<node CREATED="1365554517080" ID="ID_161466044" MODIFIED="1366212588858" TEXT="namespace">
+<node CREATED="1365554517080" ID="ID_161466044" MODIFIED="1366294349442" TEXT="namespace">
 <node CREATED="1365555898114" FOLDED="true" ID="ID_1976399747" MODIFIED="1366212593455" STYLE="fork" TEXT="symbol table %Package::  %main:: (%::)">
 <node CREATED="1365555829722" ID="ID_740795334" MODIFIED="1366212417377" TEXT="*alias_var=*var"/>
 <node CREATED="1365555874972" ID="ID_1699392889" MODIFIED="1366212417377" TEXT="*alias_var=\$var"/>
 </node>
 </node>
-<node CREATED="1359687103492" FOLDED="true" ID="ID_35950354" MODIFIED="1366212823688" TEXT="closure">
+<node CREATED="1359687103492" FOLDED="true" ID="ID_35950354" MODIFIED="1366294351903" TEXT="closure">
 <node CREATED="1359687108975" ID="ID_720941306" MODIFIED="1359687162298" TEXT="closures are implemented in Perl as anonymous  subroutines with lasting references to lexical variables outside their own scopes."/>
 <node CREATED="1359688121415" ID="ID_1830462120" MODIFIED="1359688147517" TEXT="semi-customized function template">
 <node CREATED="1359688032435" ID="ID_869634182" MODIFIED="1364052370542" TEXT="Using a closure gives you a function template with some customization slots left out to be filled later. "/>
@@ -3276,511 +3354,45 @@
 <node CREATED="1359692474476" ID="ID_356200672" MODIFIED="1359692476425" TEXT="lisp"/>
 </node>
 </node>
-<node CREATED="1359469587102" FOLDED="true" ID="ID_1231265054" MODIFIED="1366265192250" POSITION="right" TEXT="phase">
-<node CREATED="1359469208872" ID="ID_1896352152" MODIFIED="1364052780222" TEXT="five special named code blocks">
-<node CREATED="1359469231969" FOLDED="true" ID="ID_1625275714" MODIFIED="1359471910099" TEXT="BEGIN (FIFO) ${^GLOBAL_PHASE}=&quot;START&quot;">
-<icon BUILTIN="full-1"/>
-<node CREATED="1359469823666" ID="ID_1413040787" MODIFIED="1359469825641" TEXT="is executed as soon as possible, that is, the moment it is completely defined, even before the rest of the containing file (or string) is parsed."/>
+<node CREATED="1359699686225" ID="ID_1330420173" MODIFIED="1366301609272" POSITION="right" TEXT="perlmod">
+<node CREATED="1359374100309" FOLDED="true" ID="ID_1513732848" MODIFIED="1366301349938" TEXT="package(namespace)">
+<node CREATED="1366297872564" FOLDED="true" ID="ID_1444632013" MODIFIED="1366298668704" TEXT="package declaration">
+<node CREATED="1366297929367" ID="ID_1841488599" MODIFIED="1366298050126" TEXT="package NAMESPACE [VERSION]">
+<node CREATED="1366298115889" ID="ID_642451392" MODIFIED="1366298148729" TEXT="scope of the package declaration is the supplied code BLOCK."/>
 </node>
-<node CREATED="1359469327583" ID="ID_940246875" MODIFIED="1359470868625" TEXT="UNITCHECK (LIFO ) ${^GLOBAL_PHASE}=&quot;START&quot;">
-<icon BUILTIN="full-2"/>
-<node CREATED="1359471118686" ID="ID_1905470394" MODIFIED="1359471120193" TEXT="blocks are run just after the unit which defined them has been compiled."/>
-<node CREATED="1359471157375" FOLDED="true" ID="ID_1255523920" MODIFIED="1359471709237" TEXT="compilation units">
-<node CREATED="1359471203288" ID="ID_1720766310" MODIFIED="1359471308541" TEXT="main program file">
-<icon BUILTIN="full-1"/>
+<node CREATED="1366297954784" ID="ID_1925134783" MODIFIED="1366298059613" TEXT="package NAMESPACE [VERSION] BLOCK">
+<node CREATED="1366298278471" ID="ID_1420179748" MODIFIED="1366298345110" TEXT="scope of the package declaration is from the declaration itself through the end of current scope (the enclosing block, file, or eval)."/>
 </node>
-<node CREATED="1359471214765" ID="ID_217529554" MODIFIED="1359471310808" TEXT="modules">
-<icon BUILTIN="full-2"/>
+<node CREATED="1366298463624" ID="ID_24147509" MODIFIED="1366298464838" TEXT="A package statement affects dynamic variables only, including those you&apos;ve used local on, but not lexical variables, which are created with my, state, or our. "/>
+<node CREATED="1366298611737" ID="ID_1569087217" MODIFIED="1366298613102" TEXT="If VERSION is provided, package sets the $VERSION variable in the given namespace to a version object with the VERSION provided. VERSION must be a &quot;strict&quot; style version number as defined by the version module: a positive decimal number (integer or decimal-fraction) without exponentiation or else a dotted-decimal v-string with a leading &apos;v&apos; character and at least three components. You should set $VERSION only once per package."/>
 </node>
-<node CREATED="1359471237036" ID="ID_644884426" MODIFIED="1359471312868" TEXT="eval">
-<icon BUILTIN="full-3"/>
+<node CREATED="1366295044007" FOLDED="true" ID="ID_1576547386" MODIFIED="1366298928846" TEXT="refer package/dynamic/global identifier">
+<node CREATED="1359374107451" ID="ID_357293454" MODIFIED="1366295244322" TEXT="unqualified  identifiers"/>
+<node CREATED="1359375095218" ID="ID_256422549" MODIFIED="1366297293414" TEXT="fully qualified identifiers (absolute path)">
+<node CREATED="1358694687998" ID="ID_1604108770" MODIFIED="1366297533698" TEXT="Package::Down::To::identifier  or  Package&apos;Down&apos;To&apos;identifier (&lt;=251 chars)">
+<node CREATED="1358694864769" ID="ID_1154146185" MODIFIED="1358694916504" TEXT="package qualifier"/>
+<node CREATED="1358694919256" FOLDED="true" ID="ID_754397662" MODIFIED="1366297576332" TEXT="separator">
+<node CREATED="1358694924311" ID="ID_279598169" MODIFIED="1366297558341" TEXT=":: (C++ style)"/>
+<node CREATED="1358694928053" FOLDED="true" ID="ID_1275957941" MODIFIED="1366297575158" TEXT="&apos;(deprecated,C++ style)">
+<node CREATED="1359375362646" ID="ID_1439700523" MODIFIED="1366297537331" TEXT="old-fashioned"/>
+<node CREATED="1359375611034" ID="ID_1412442128" MODIFIED="1366297537331" TEXT="opposed"/>
+<node CREATED="1359375627624" ID="ID_181045414" MODIFIED="1366297537332" TEXT="still supported for backward compatibility"/>
 </node>
-<node CREATED="1359471250001" ID="ID_1940606585" MODIFIED="1359471314697" TEXT="(?{ }) construct in a regex">
-<icon BUILTIN="full-4"/>
 </node>
-<node CREATED="1359471266452" ID="ID_499769358" MODIFIED="1359471316720" TEXT="do FILE">
-<icon BUILTIN="full-5"/>
+<node CREATED="1358694970455" ID="ID_1915233001" MODIFIED="1366297409901" TEXT="identifier">
+<node CREATED="1366297413471" ID="ID_222405169" MODIFIED="1366297438821" TEXT="symbol in symbol table of the package"/>
 </node>
-<node CREATED="1359471283571" ID="ID_67521364" MODIFIED="1359471318756" TEXT="require FILE">
-<icon BUILTIN="full-6"/>
 </node>
-<node CREATED="1359471300133" ID="ID_1910351392" MODIFIED="1359471320585" TEXT="code after the -e switch on the command line.">
-<icon BUILTIN="full-7"/>
+<node CREATED="1359375046298" ID="ID_1625577858" MODIFIED="1366297489166" TEXT="refer to variables and filehandles in other packages by prefixing the identifier with the package name and a double colon(::) ."/>
 </node>
+<node CREATED="1359378235208" FOLDED="true" ID="ID_1146278733" MODIFIED="1366296612863" TEXT="not support partial qualified identifiers(relative path)">
+<node CREATED="1359378279265" ID="ID_178379213" MODIFIED="1359378456843" TEXT="all symbols are either local to the current package, or must be fully qualified from the top package name down."/>
+<node CREATED="1359378339264" ID="ID_1874877487" MODIFIED="1359378340309" TEXT="there is nowhere within package OUTER that $INNER::var refers to $OUTER::INNER::var . INNER refers to a totally separate global package."/>
 </node>
 </node>
-<node CREATED="1359469365463" ID="ID_1174478770" MODIFIED="1359470894933" TEXT="CHECK (LIFO ) ${^GLOBAL_PHASE}=&quot;CHECK&quot;">
-<icon BUILTIN="full-3"/>
-<node CREATED="1359471890914" ID="ID_1953568207" MODIFIED="1359471892817" TEXT="BEGIN and CHECK blocks are run when you use the -c switch for a compile-only syntax check, although your main code is not."/>
-</node>
-<node CREATED="1359469451533" ID="ID_715551921" MODIFIED="1359470921274" TEXT="INIT (FIFO) ${^GLOBAL_PHASE}=&quot;INIT&quot;">
-<icon BUILTIN="full-4"/>
-<node CREATED="1359471713893" ID="ID_931768077" MODIFIED="1359471715393" TEXT="The CHECK and INIT blocks in code compiled by require, string do, or string eval will not be executed if they occur after the end of the main compilation phase;"/>
-</node>
-<node CREATED="1359469463465" FOLDED="true" ID="ID_1172133696" MODIFIED="1359471907668" TEXT="END (LIFO) ${^GLOBAL_PHASE}=&quot;END&quot;">
-<icon BUILTIN="full-5"/>
-<node CREATED="1359470031480" ID="ID_1716356048" MODIFIED="1359470033043" TEXT="executed as late as possible, that is, after perl has finished running the program and just before the interpreter is being exited, even if it is exiting as a result of a die() function."/>
-<node CREATED="1359470090382" ID="ID_1046460834" MODIFIED="1359470091789" TEXT="But not if it&apos;s morphing into another program via exec, or being blown out of the water by a signal--you have to trap that yourself (if you can)."/>
-<node CREATED="1359470139776" ID="ID_620774278" MODIFIED="1359470142430" TEXT="END blocks are not executed when you run perl with the -c switch, or if compilation fails."/>
-<node CREATED="1359470198129" ID="ID_575521372" MODIFIED="1359470199464" TEXT="Note that END code blocks are not executed at the end of a string eval(): if any END code blocks are created in a string eval(), they will be executed just as any other END code block of that package in LIFO order just before the interpreter is being exited."/>
-<node CREATED="1359470222829" ID="ID_557225836" MODIFIED="1359470224009" TEXT="Inside an END code block, $? contains the value that the program is going to pass to exit(). You can modify $? to change the exit value of the program. Beware of changing $? by accident (e.g. by running something via system)."/>
-<node CREATED="1359470244873" ID="ID_1216419611" MODIFIED="1359470246135" TEXT="${^GLOBAL_PHASE} will be &quot;END&quot;"/>
-</node>
-</node>
-<node CREATED="1359357318927" FOLDED="true" ID="ID_951170996" MODIFIED="1366128141366" TEXT="${^GLOBAL_PHASE}">
-<node CREATED="1359359319363" FOLDED="true" ID="ID_1544976067" MODIFIED="1359470641608" TEXT="CONSTRUCT">
-<icon BUILTIN="full-1"/>
-<node CREATED="1359359346564" ID="ID_254132688" MODIFIED="1359359348685" TEXT="PerlInterpreter*">
-<node CREATED="1359359361335" ID="ID_1727141325" MODIFIED="1359359363219" TEXT="perl_construct"/>
-<node CREATED="1359359392939" ID="ID_1153595363" MODIFIED="1359359394130" TEXT="underlying C variable PL_phase"/>
-</node>
-</node>
-<node CREATED="1359359434754" FOLDED="true" ID="ID_1361051226" MODIFIED="1359470782937" TEXT="START">
-<icon BUILTIN="full-2"/>
-<node CREATED="1359359432779" ID="ID_56177867" MODIFIED="1359359439590" TEXT="BEGIN"/>
-</node>
-<node CREATED="1359359549869" FOLDED="true" ID="ID_1191199396" MODIFIED="1359470759517" TEXT="CHECK">
-<icon BUILTIN="full-3"/>
-<node CREATED="1359359565762" ID="ID_1282545842" MODIFIED="1359359569290" TEXT="CHECK blocks"/>
-</node>
-<node CREATED="1359359586066" FOLDED="true" ID="ID_407838061" MODIFIED="1359470757685" TEXT="INIT">
-<icon BUILTIN="full-4"/>
-<node CREATED="1359359609392" ID="ID_1675469221" MODIFIED="1359359610992" TEXT="INIT -blocks"/>
-</node>
-<node CREATED="1359359623493" ID="ID_1818417837" MODIFIED="1359470754917" TEXT="RUN">
-<icon BUILTIN="full-5"/>
-<node CREATED="1359359634901" ID="ID_1602445780" MODIFIED="1359359636590" TEXT="PL_main_root"/>
-</node>
-<node CREATED="1359359649483" ID="ID_1833575031" MODIFIED="1359359668832" TEXT="END">
-<icon BUILTIN="full-6"/>
-</node>
-<node CREATED="1359359677409" ID="ID_975306250" MODIFIED="1359359689769" TEXT="DESTRUCT">
-<icon BUILTIN="full-7"/>
-</node>
-</node>
-</node>
-<node CREATED="1365607710540" ID="ID_518375852" MODIFIED="1366265215924" POSITION="right" TEXT="range operator (.. or ...)">
-<node CREATED="1365607726987" FOLDED="true" ID="ID_517072563" MODIFIED="1365608869299" TEXT="list context">
-<node CREATED="1365608476940" ID="ID_1349555061" MODIFIED="1365608478441" TEXT="@alphabet = (&quot;A&quot; .. &quot;Z&quot;);"/>
-<node CREATED="1365608547620" ID="ID_1074674097" MODIFIED="1365608549057" TEXT="$hexdigit = (0 .. 9, &quot;a&quot; .. &quot;f&quot;)[$num &amp; 15];"/>
-<node CREATED="1365608635731" ID="ID_429836759" MODIFIED="1365608637042" TEXT="@z2 = (&quot;01&quot; .. &quot;31&quot;);"/>
-<node CREATED="1365608662811" ID="ID_567429682" MODIFIED="1365608683081">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      use charnames &quot;greek&quot;;
-    </p>
-    <p>
-      my @greek_small =&#160;&#160;(&quot;\N{alpha}&quot; .. &quot;\N{omega}&quot;);
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1365608863556" ID="ID_884746181" MODIFIED="1365608865281" TEXT="@list = (2.18 .. 3.14); # same as @list = (2 .. 3);"/>
-</node>
-<node CREATED="1365607731635" ID="ID_1506213818" MODIFIED="1365608173277" TEXT="scalar context">
-<node CREATED="1365607741108" FOLDED="true" ID="ID_330201647" MODIFIED="1365608435322" TEXT=".. (awk style)">
-<node CREATED="1365608093724" ID="ID_321751588" MODIFIED="1365608118504" TEXT="test the right operand on the same evaluation it became true"/>
-<node CREATED="1365608224755" ID="ID_42247002" MODIFIED="1365608400404">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">
-      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#160;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">&quot; - Foo&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(205, 85, 85)">&quot;01 - Bar&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(205, 85, 85)">&quot;1 - Baz&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(205, 85, 85)">&quot; - Quux&quot;</font><font size="3" color="rgb(0, 0, 0)">);</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#160;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#160;</font><font color="rgb(205, 85, 85)" size="3">&quot;$_\n&quot;</font><font color="rgb(0, 0, 0)" size="3">;</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font color="rgb(0, 0, 0)" size="3">}</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font color="rgb(0, 0, 0)" size="3">}</font>
-      </li>
-    </ol>
-  </body>
-</html></richcontent>
-<node CREATED="1365608320036" ID="ID_1080217814" MODIFIED="1365608323787" TEXT="output">
-<node CREATED="1365608325259" ID="ID_1701699155" MODIFIED="1365608366897" TEXT="01 - Bar"/>
-</node>
-</node>
-</node>
-<node CREATED="1365607751331" FOLDED="true" ID="ID_1875005071" MODIFIED="1365608434066" TEXT="... (sed style)">
-<node CREATED="1365608133166" ID="ID_905658339" MODIFIED="1365608169968" TEXT="test the right operand on the next evaluation when it become true"/>
-<node CREATED="1365608224755" ID="ID_1881396636" MODIFIED="1365608400404">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">
-      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#160;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">&quot; - Foo&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(205, 85, 85)">&quot;01 - Bar&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(205, 85, 85)">&quot;1 - Baz&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3" color="rgb(205, 85, 85)">&quot; - Quux&quot;</font><font size="3" color="rgb(0, 0, 0)">);</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#160;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#160;</font><font color="rgb(205, 85, 85)" size="3">&quot;$_\n&quot;</font><font color="rgb(0, 0, 0)" size="3">;</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font color="rgb(0, 0, 0)" size="3">}</font>
-      </li>
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
-        <font color="rgb(0, 0, 0)" size="3">}</font>
-      </li>
-    </ol>
-  </body>
-</html></richcontent>
-<node CREATED="1365608320036" ID="ID_368603148" MODIFIED="1365608323787" TEXT="output">
-<node CREATED="1365608325259" ID="ID_1492086415" MODIFIED="1365608431810">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      01 - Bar
-    </p>
-    <p>
-      1 - Baz
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1357913837719" FOLDED="true" ID="ID_955721472" MODIFIED="1366265153580" POSITION="right" TEXT="charset(utf8)">
-<node CREATED="1357913774329" ID="ID_96827304" MODIFIED="1357913806355" TEXT="\Q \U \L \E \u \l">
-<node CREATED="1357889254095" ID="ID_750361859" MODIFIED="1357913850181" TEXT="\Q literal"/>
-<node CREATED="1357889272462" ID="ID_1607866032" MODIFIED="1357913850179" TEXT="\U upper "/>
-<node CREATED="1357889285335" ID="ID_1117588530" MODIFIED="1357913850178" TEXT="\u upper char"/>
-</node>
-<node CREATED="1357913866161" ID="ID_1311080215" MODIFIED="1366265124588" TEXT="representations">
-<node CREATED="1357914045711" ID="ID_206944349" MODIFIED="1357914047719" TEXT="hex">
-<node CREATED="1357914050486" ID="ID_1559549216" MODIFIED="1357914105754" TEXT="\x{hex}"/>
-</node>
-<node CREATED="1357914048068" ID="ID_166936782" MODIFIED="1357914059525" TEXT="oct">
-<node CREATED="1357914099661" ID="ID_108138095" MODIFIED="1357914111218" TEXT="\o{oct}"/>
-</node>
-<node CREATED="1357914176483" ID="ID_1330983410" MODIFIED="1357914177694" TEXT="named character escape sequence">
-<node CREATED="1357914192029" ID="ID_1408530570" MODIFIED="1357914193286" TEXT="\N{name}">
-<node CREATED="1357914209536" ID="ID_904272666" MODIFIED="1357914210630" TEXT="\N{MERCURY}"/>
-<node CREATED="1357950220447" ID="ID_1594190254" MODIFIED="1357950222854" TEXT="\N{GREEK SMALL LETTER SIGMA}"/>
-<node CREATED="1357950233970" ID="ID_1190645248" MODIFIED="1357950235315" TEXT="\N{greek:Sigma}"/>
-<node CREATED="1357950265477" ID="ID_1374324253" MODIFIED="1357950302958">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <a class="l_k" href="functions/use.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">use</font></b></a>&#160;<span class="w" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">charnames</font></span>&#160;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">qw(greek)</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>
-    </p>
-    <p>
-      <a class="l_k" href="functions/print.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">print</font></b></a>&#160;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">&quot;\N{sigma} is Greek sigma\n&quot;</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1357951121104" FOLDED="true" ID="ID_1911154364" MODIFIED="1366265127709" TEXT="">
-<node CREATED="1357951127579" ID="ID_1596812641" MODIFIED="1357951128894" TEXT=" use feature &apos;unicode_strings&apos;"/>
-<node CREATED="1357951162669" ID="ID_6025976" MODIFIED="1357951168296" TEXT="use 5.012 or higher"/>
-</node>
-</node>
-<node CREATED="1355397579000" FOLDED="true" ID="ID_1469854044" MODIFIED="1366265153579" POSITION="right" TEXT="help">
-<node CREATED="1355397595235" ID="ID_198012095" MODIFIED="1355397625253" TEXT="$ man perlop"/>
-<node CREATED="1355397609155" ID="ID_118437188" MODIFIED="1355397636827" TEXT="perldoc">
-<node CREATED="1355397638269" ID="ID_1893850286" MODIFIED="1355397696659" TEXT="$ perldoc -f split">
-<node CREATED="1355397658483" ID="ID_1089640174" MODIFIED="1355397684995" TEXT="lookup usage of funtion split."/>
-</node>
-<node CREATED="1355397698901" ID="ID_1949542750" MODIFIED="1355398276631" TEXT="$ perldoc -q strip">
-<node CREATED="1355397810165" ID="ID_898232214" MODIFIED="1355397874279" TEXT="lookup in faq docs for how to strip the leading &amp; trailing space of a string"/>
-</node>
-<node CREATED="1355397876593" ID="ID_1083470888" MODIFIED="1355398598375" TEXT="$ perldoc - v ">
-<node CREATED="1355398288690" ID="ID_711897688" MODIFIED="1355398297238" TEXT="$ perldoc -v &apos;$_&apos;">
-<node CREATED="1355398314887" ID="ID_679654206" MODIFIED="1355398470641" TEXT="vars must be enclosed by single quote(&apos;) to keep them from environment vars substitution in the shell."/>
-</node>
-<node CREATED="1355398297857" ID="ID_102382140" MODIFIED="1355398312648" TEXT="$ perldoc -v ARGV"/>
-</node>
-</node>
-<node CREATED="1355398549379" ID="ID_443747035" MODIFIED="1355398553219" TEXT="$ man perl"/>
-<node CREATED="1355398554327" ID="ID_822491213" MODIFIED="1355398561904" TEXT="$ perlxxx">
-<node CREATED="1355398564245" ID="ID_773903810" MODIFIED="1355398596032" TEXT="check perl manpage for more infos."/>
-</node>
-</node>
-<node CREATED="1358668733794" ID="ID_1119469325" MODIFIED="1366253991201" POSITION="right" TEXT="debug">
-<font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1358081087373" ID="ID_527934069" MODIFIED="1358081089231" TEXT="caller"/>
-<node CREATED="1358081407262" ID="ID_321925476" MODIFIED="1358081408757" TEXT="dump"/>
-</node>
-<node CREATED="1364052656461" ID="ID_831235029" MODIFIED="1366212843058" POSITION="right" TEXT="mess">
-<node CREATED="1359712803681" FOLDED="true" ID="ID_650895025" MODIFIED="1366247406068" TEXT="Perl Culture">
-<node CREATED="1359712811592" ID="ID_1369837789" MODIFIED="1359712826076" TEXT="freely available"/>
-<node CREATED="1359712826981" ID="ID_988962926" MODIFIED="1359712915918" TEXT="freely redistributable"/>
-<node CREATED="1359712877981" ID="ID_15678628" MODIFIED="1359712879334" TEXT="verbosity"/>
-<node CREATED="1359712888223" ID="ID_58847524" MODIFIED="1359712889874" TEXT="conciseness"/>
-<node CREATED="1359712898305" ID="ID_827036411" MODIFIED="1359712899218" TEXT="readability"/>
-<node CREATED="1359712911462" ID="ID_924061624" MODIFIED="1359712912509" TEXT="maintainability"/>
-<node CREATED="1359712927567" ID="ID_1876861258" MODIFIED="1359712928653" TEXT="reusability"/>
-<node CREATED="1359712939732" ID="ID_1943546977" MODIFIED="1359712939732" TEXT="portability"/>
-<node CREATED="1359712938714" ID="ID_815000822" MODIFIED="1359712955766" TEXT="learnability"/>
-<node CREATED="1359712970510" ID="ID_1879251513" MODIFIED="1359712971570" TEXT="teachability"/>
-<node CREATED="1359712991212" ID="ID_1178812387" MODIFIED="1359712992170" TEXT="obscurity">
-<node CREATED="1359713010254" ID="ID_307802718" MODIFIED="1359713011439" TEXT="Obfuscated"/>
-</node>
-<node CREATED="1359713036838" ID="ID_660331911" MODIFIED="1359713037992" TEXT="Practical Extraction and Report Language"/>
-<node CREATED="1359713055253" ID="ID_1074262596" MODIFIED="1359713056522" TEXT="Pathologically Eclectic Rubbish Lister"/>
-<node CREATED="1359713253666" ID="ID_1572642928" MODIFIED="1366263679126" TEXT="Perl doesn&apos;t impose arbitrary limitations on your data - your strings and arrays can grow as large as they like (so long as you have memory)"/>
-<node CREATED="1359714600415" ID="ID_869257303" MODIFIED="1359714601907" TEXT="three great virtues of a programmer:">
-<node CREATED="1359716930303" ID="ID_640024748" MODIFIED="1359716931629" TEXT="laziness"/>
-<node CREATED="1359716942321" ID="ID_1759625753" MODIFIED="1359716944062" TEXT="impatience"/>
-<node CREATED="1359716952693" ID="ID_1564083702" MODIFIED="1359716955937" TEXT="hubris"/>
-</node>
-</node>
-<node CREATED="1359695054272" ID="ID_880362202" MODIFIED="1366212863048" TEXT="CPAN">
-<node CREATED="1359695066334" ID="ID_434237639" MODIFIED="1359695069596" TEXT="Comprehensive Perl Archive Network"/>
-</node>
-<node CREATED="1359695159091" FOLDED="true" ID="ID_215538007" MODIFIED="1366212861464" TEXT="current">
-<node CREATED="1359695166143" ID="ID_438216995" MODIFIED="1359695179645" TEXT="current package (namespace)"/>
-<node CREATED="1359695180061" ID="ID_1897007596" MODIFIED="1359695208504" TEXT="current working directory (cwd)"/>
-<node CREATED="1359695227453" ID="ID_1510476752" MODIFIED="1359695236957" TEXT="currently selected output channel (select)"/>
-</node>
-<node CREATED="1359699557928" FOLDED="true" ID="ID_842313486" MODIFIED="1364052776792" TEXT="Perl lib">
-<node CREATED="1359699562774" ID="ID_282932059" MODIFIED="1359700170274" TEXT="Perl Library(ancient)">
-<node CREATED="1359611736307" FOLDED="true" ID="ID_986481617" MODIFIED="1364052484842" TEXT="old library">
-<node CREATED="1359611743001" ID="ID_1853007645" MODIFIED="1359611792657" TEXT="*.pl">
-<node CREATED="1359611863551" ID="ID_491451063" MODIFIED="1359611864766" TEXT="pl2pm"/>
-</node>
-<node CREATED="1359611793339" ID="ID_1125824445" MODIFIED="1359611795844" TEXT="*.ph">
-<node CREATED="1359611797011" ID="ID_1488207749" MODIFIED="1359611802717" TEXT="h2ph"/>
-<node CREATED="1359611820834" ID="ID_1363594133" MODIFIED="1359611821856" TEXT="h2xs"/>
-</node>
-</node>
-</node>
-<node CREATED="1359699686225" FOLDED="true" ID="ID_1330420173" MODIFIED="1364052561082" TEXT="Perl Module(modern)">
-<node CREATED="1359472966417" ID="ID_1615788740" MODIFIED="1359699830511" TEXT="Perl Modules">
-<node CREATED="1359473045709" ID="ID_195244691" MODIFIED="1359473046830" TEXT="a set of related functions in a library file">
-<node CREATED="1359473049894" ID="ID_725718898" MODIFIED="1359473056608" TEXT="library file">
-<node CREATED="1359473069003" ID="ID_1695693358" MODIFIED="1359473070278" TEXT="a Perl package with the same name as the file."/>
-</node>
-</node>
-<node CREATED="1359473114753" FOLDED="true" ID="ID_1606765100" MODIFIED="1364052512092" TEXT="exporting symbols">
-<node CREATED="1359555920899" ID="ID_1466693754" MODIFIED="1359556874672" TEXT="@EXPORT = qw(...);">
-<node CREATED="1359555963201" ID="ID_1287497537" MODIFIED="1359556166248" TEXT="Symbols to export by default."/>
-</node>
-<node CREATED="1359555965718" ID="ID_1107935758" MODIFIED="1359556892337" TEXT="@EXPORT_OK = qw(...);">
-<node CREATED="1359555974576" ID="ID_1936030177" MODIFIED="1359556186615" TEXT="Symbols to export on request."/>
-</node>
-<node CREATED="1359556188098" ID="ID_877068868" MODIFIED="1359556908586" TEXT="%EXPORT_TAGS = (tag =&gt; [...]);">
-<node CREATED="1359556210563" ID="ID_603471076" MODIFIED="1359556211784" TEXT="Define names for sets of symbols."/>
-</node>
-<node CREATED="1359557764313" ID="ID_1065749909" MODIFIED="1359557766331" TEXT="use YourModule qw(:DEFAULT :T2 !B3 A3);"/>
-<node CREATED="1359557810404" ID="ID_1468973367" MODIFIED="1359557811753" TEXT="use Socket qw(!/^[AP]F_/ !SOMAXCONN !SOL_SOCKET);"/>
-<node CREATED="1359557820923" ID="ID_977961975" MODIFIED="1359557821976" TEXT="use POSIX qw(:errno_h :termios_h !TCSADRAIN !/^EXIT/);"/>
-<node CREATED="1359556939275" ID="ID_1794760248" MODIFIED="1359592760617" TEXT="import LIST">
-<node CREATED="1359556950347" ID="ID_1405404207" MODIFIED="1359556968547" TEXT="use Module;">
-<node CREATED="1359556971512" ID="ID_1117478363" MODIFIED="1359557078776" TEXT="@EXPORT (default)"/>
-</node>
-<node CREATED="1359556951150" FOLDED="true" ID="ID_1594222725" MODIFIED="1359557143459" TEXT="use Module qw(...);">
-<node CREATED="1359557053498" ID="ID_1503889240" MODIFIED="1359557130578" TEXT="@EXPORT"/>
-<node CREATED="1359557131712" ID="ID_539902467" MODIFIED="1359557139332" TEXT="@EXPORT_OK"/>
-<node CREATED="1359557139738" ID="ID_423793425" MODIFIED="1359557140900" TEXT="%EXPORT_TAGS"/>
-</node>
-<node CREATED="1359557144256" ID="ID_1484650484" MODIFIED="1359557188994" TEXT="use Module();">
-<node CREATED="1359557152468" ID="ID_874208612" MODIFIED="1359557193540" TEXT="export no symbols"/>
-</node>
-<node CREATED="1359557195536" ID="ID_1735604576" MODIFIED="1359557665541" TEXT="[!]name">
-<node CREATED="1359557375074" ID="ID_1680374648" MODIFIED="1359557656936" TEXT="This nameonly"/>
-</node>
-<node CREATED="1359557285094" ID="ID_1693420352" MODIFIED="1359557294607" TEXT="[!]:DEFAULT">
-<node CREATED="1359557473183" ID="ID_1162858784" MODIFIED="1359557642635" TEXT="All names in @EXPORT"/>
-</node>
-<node CREATED="1359557247308" ID="ID_1218445398" MODIFIED="1359557271748" TEXT="[!]:tag">
-<node CREATED="1359557486544" ID="ID_1539364247" MODIFIED="1359557626173" TEXT="All names in $EXPORT_TAGS{tag}anonymous list"/>
-</node>
-<node CREATED="1359557302603" ID="ID_664431957" MODIFIED="1359557371901" TEXT="[!]/pattern/">
-<node CREATED="1359557582187" ID="ID_1389996827" MODIFIED="1359557610652" TEXT="All names in @EXPORTand @EXPORT_OKthat match pattern"/>
-<node CREATED="1359557956479" ID="ID_1658130888" MODIFIED="1359557957829" TEXT="Remember that most patterns (using //) will need to be anchored with a leading ^, for example, /^EXIT/ rather than /EXIT/."/>
-</node>
-</node>
-<node CREATED="1359557901681" FOLDED="true" ID="ID_1239578515" MODIFIED="1359593153895" TEXT="BEGIN { $Exporter::Verbose=1 }">
-<node CREATED="1359557935302" ID="ID_1034070604" MODIFIED="1359557940951" TEXT="to see how the specifications are being processed and what is actually being imported into modules">
-<node CREATED="1359557935686" ID="ID_1510006052" MODIFIED="1359557935686" TEXT=""/>
-</node>
-</node>
-<node CREATED="1359592764219" ID="ID_1317986713" MODIFIED="1359593169643" TEXT="require">
-<node CREATED="1359593191217" ID="ID_1578105158" MODIFIED="1359593192667" TEXT="require SomeModule;">
-<node CREATED="1359593245093" ID="ID_994639310" MODIFIED="1359593299655" TEXT=":: translated into directory separator, usually &quot;/&quot;."/>
-</node>
-<node CREATED="1359593206130" ID="ID_1716545163" MODIFIED="1359593207295" TEXT="require &quot;SomeModule.pm&quot;;">
-<node CREATED="1359593282212" ID="ID_284639395" MODIFIED="1359593309344" TEXT="::literal."/>
-<node CREATED="1359593379610" ID="ID_1642612373" MODIFIED="1359593380986" TEXT="indirect object notation involving &quot;SomeModule&quot;, as in $ob = purge SomeModule , are method calls, not function calls. "/>
-</node>
-</node>
-</node>
-<node CREATED="1359595628099" ID="ID_861804151" MODIFIED="1359595635708" TEXT="require"/>
-<node CREATED="1359595626089" FOLDED="true" ID="ID_266714830" MODIFIED="1364052514632" TEXT="use">
-<node CREATED="1359595637490" ID="ID_1936418778" MODIFIED="1359595650195" TEXT="BEGIN { require Module; Module-&gt;import( LIST ); }">
-<node CREATED="1359595698843" ID="ID_1839737173" MODIFIED="1359595700132" TEXT="except that Module must be a bareword. The importation can be made conditional;"/>
-</node>
-<node CREATED="1359595927735" ID="ID_1664733976" MODIFIED="1359596112226" TEXT="use VERSION">
-<node CREATED="1359596236005" ID="ID_1550045335" MODIFIED="1359596378256" TEXT="positive decimal fraction">
-<node CREATED="1359596336557" ID="ID_664200614" MODIFIED="1359596565254" TEXT="use 5.006">
-<node CREATED="1359596538245" HGAP="13" ID="ID_509150237" MODIFIED="1359596830398" TEXT="$]" VSHIFT="1"/>
-</node>
-</node>
-<node CREATED="1359596252881" ID="ID_153055808" MODIFIED="1359596254046" TEXT="v-string">
-<node CREATED="1359596347792" ID="ID_25251993" MODIFIED="1359596534826" TEXT="use v5.6.1 (5.6.1)">
-<node CREATED="1359596498638" ID="ID_1289931505" MODIFIED="1359596521535" TEXT="$^V ($PERL_VERSION)"/>
-</node>
-</node>
-<node CREATED="1359596605192" ID="ID_1190370652" MODIFIED="1359596606815" TEXT="An exception is raised if VERSION is greater than the version of the current Perl interpreter; "/>
-<node CREATED="1359596978451" ID="ID_89940501" MODIFIED="1359596983795" TEXT="use VERSION also enables all features available in the requested version as defined by the feature pragma, "/>
-<node CREATED="1359610839935" ID="ID_844142058" MODIFIED="1359610841083" TEXT="If the VERSION argument is present between Module and LIST, then the use will call the VERSION method in class Module with the given version as an argument. The default VERSION method, inherited from the UNIVERSAL class, croaks if the given version is larger than the value of the variable $Module::VERSION ."/>
-</node>
-<node CREATED="1359596160066" ID="ID_1485596066" MODIFIED="1359596200509" TEXT="use Module [LIST]"/>
-<node CREATED="1359596145882" ID="ID_1736953739" MODIFIED="1359596206414" TEXT="use Module VERSION [LIST]"/>
-<node CREATED="1359610965060" ID="ID_1255948931" MODIFIED="1359610981235" TEXT="use constant;"/>
-<node CREATED="1359611002102" ID="ID_1298553571" MODIFIED="1359611003204" TEXT="use diagnostics;"/>
-<node CREATED="1359611011542" ID="ID_597609556" MODIFIED="1359611012475" TEXT="use integer;"/>
-<node CREATED="1359611024037" ID="ID_1067014895" MODIFIED="1359611025848" TEXT="use sigtrap  qw(SEGV BUS);"/>
-<node CREATED="1359611045246" ID="ID_433436743" MODIFIED="1359611046325" TEXT="use strict   qw(subs vars refs);"/>
-<node CREATED="1359611058397" ID="ID_333355638" MODIFIED="1359611059431" TEXT="use subs     qw(afunc blurfl);"/>
-<node CREATED="1359611068533" ID="ID_1993632483" MODIFIED="1359611069684" TEXT="use warnings qw(all);"/>
-<node CREATED="1359611091468" ID="ID_1513347663" MODIFIED="1359611092998" TEXT="use sort     qw(stable _quicksort _mergesort);"/>
-<node CREATED="1359611243211" ID="ID_1410492539" MODIFIED="1359611266314" TEXT="conditional compiling (use if)">
-<node CREATED="1359611253765" ID="ID_10493264" MODIFIED="1359611289179" TEXT="use if $] &lt; 5.008, &quot;utf8&quot;;"/>
-<node CREATED="1359611302680" ID="ID_833806849" MODIFIED="1359611304856" TEXT="use if WANT_WARNINGS, warnings =&gt; qw(all);"/>
-</node>
-</node>
-<node CREATED="1359611429537" ID="ID_1086866707" MODIFIED="1359611434042" TEXT="-M -m"/>
-<node CREATED="1359611544848" ID="ID_248244143" MODIFIED="1359611548272" TEXT="module">
-<node CREATED="1359611550304" ID="ID_714670543" MODIFIED="1359611554029" TEXT="*.pm"/>
-</node>
-<node CREATED="1359611589161" ID="ID_464403964" MODIFIED="1359611644202" TEXT="small pieces of modules to be autoloaded">
-<node CREATED="1359611654273" ID="ID_1791543892" MODIFIED="1359611656832" TEXT="*.al"/>
-</node>
-<node CREATED="1359614190418" ID="ID_149235407" MODIFIED="1359614192827" TEXT="package">
-<node CREATED="1359614194032" ID="ID_1579173160" MODIFIED="1359614195169" TEXT="A package is just a namespace."/>
-</node>
-<node CREATED="1359614200049" ID="ID_1704891732" MODIFIED="1364052527012" TEXT="class">
-<node CREATED="1359614222151" ID="ID_1777335678" MODIFIED="1359614223388" TEXT="A class is a package that provides subroutines that can be used as methods.">
-<node CREATED="1359614259610" ID="ID_1898468208" MODIFIED="1359614261926" TEXT=" A method is just a subroutine that expects, as its first argument, either the name of a package (for &quot;static&quot; methods), or a reference to something (for &quot;virtual&quot; methods)."/>
-</node>
-</node>
-</node>
-<node CREATED="1359374100309" FOLDED="true" ID="ID_1513732848" MODIFIED="1364052559402" TEXT="package">
-<node CREATED="1359374106535" ID="ID_1694214032" MODIFIED="1359374128948" TEXT="package declaration"/>
-<node CREATED="1359374107451" ID="ID_357293454" MODIFIED="1359374268023" TEXT="unqualified dynamic identifiers"/>
-<node CREATED="1359374108836" ID="ID_1580324383" MODIFIED="1359374310665" TEXT="package statement"/>
-<node CREATED="1359374322577" ID="ID_1894743504" MODIFIED="1359374324130" TEXT="dynamic variables">
-<node CREATED="1359374372060" ID="ID_78207213" MODIFIED="1359374373409" TEXT="including those you&apos;ve used local() on--but not lexical variables created with my()."/>
-</node>
-<node CREATED="1359374561403" ID="ID_539695056" MODIFIED="1359696623383" TEXT="symbol table">
-<node CREATED="1359374764171" ID="ID_519298842" MODIFIED="1359696630429" TEXT="packages switch">
-<node CREATED="1359374820545" ID="ID_1033878622" MODIFIED="1359374836989" TEXT="influences which symbol table is used by the compiler for the rest of that block."/>
-</node>
-<node CREATED="1359374108067" ID="ID_1263092462" MODIFIED="1359379687521" TEXT="main package (%main::)">
-<node CREATED="1359375174365" ID="ID_1198246255" MODIFIED="1359375175694" TEXT="package name is null"/>
-<node CREATED="1359375190946" ID="ID_1502264952" MODIFIED="1359375223991" TEXT="$::sail">
-<node CREATED="1359375202929" ID="ID_688238441" MODIFIED="1359375212697" TEXT="is equivalent to">
-<node CREATED="1359375226227" ID="ID_1376782201" MODIFIED="1359375230851" TEXT="$main::sail"/>
-</node>
-</node>
-<node CREATED="1359379034464" ID="ID_51019265" MODIFIED="1359379098354" TEXT="symbol table">
-<node CREATED="1359379049981" ID="ID_1821008576" MODIFIED="1359379051278" TEXT="all punctuation variables"/>
-<node CREATED="1359379051844" ID="ID_261517708" MODIFIED="1359379057713" TEXT="STDIN"/>
-<node CREATED="1359379057938" ID="ID_794546688" MODIFIED="1359379061083" TEXT="STDOUT"/>
-<node CREATED="1359379061313" ID="ID_496132545" MODIFIED="1359379066383" TEXT="STDERR"/>
-<node CREATED="1359379066706" ID="ID_1954520537" MODIFIED="1359379068060" TEXT="DATA"/>
-<node CREATED="1359379068309" ID="ID_1036286000" MODIFIED="1359379072378" TEXT="ARGV"/>
-<node CREATED="1359379072639" ID="ID_1190145408" MODIFIED="1359379075049" TEXT="ARGVOUT"/>
-<node CREATED="1359379080520" ID="ID_1914641428" MODIFIED="1359379082934" TEXT="ENV"/>
-<node CREATED="1359379083170" ID="ID_657996840" MODIFIED="1359379086368" TEXT="INC"/>
-<node CREATED="1359379087058" ID="ID_218160702" MODIFIED="1359379090732" TEXT="SIG"/>
-</node>
-</node>
-<node CREATED="1359379221626" ID="ID_1580170133" MODIFIED="1359379703635" TEXT="package (%OUTER::INNER::)">
-<node CREATED="1359379239429" ID="ID_1614075053" MODIFIED="1359379264341" TEXT="_XXX">
-<node CREATED="1359379266572" ID="ID_150290234" MODIFIED="1359379283341" TEXT="private variable/method"/>
-</node>
-</node>
-<node CREATED="1359382085744" ID="ID_322267337" MODIFIED="1359696635205" TEXT="typeglob">
-<node CREATED="1359382064327" ID="ID_492678124" MODIFIED="1359382079555" TEXT="*dick = \$richard;">
-<node CREATED="1359382061536" ID="ID_982672754" MODIFIED="1359382080576" TEXT="alias only a particular variable or subroutine"/>
-</node>
-<node CREATED="1359382092949" ID="ID_89079342" MODIFIED="1359382106601" TEXT="*dick = *richard;">
-<node CREATED="1359382125861" ID="ID_381432327" MODIFIED="1359382127113" TEXT="causes variables, subroutines, formats, and file and directory handles accessible via the identifier richard also to be accessible via the identifier dick ."/>
-</node>
-</node>
-<node CREATED="1359382082769" ID="ID_147465003" MODIFIED="1359384777356" TEXT="@EXPORT = qw($FOO); # Usual form, can&apos;t be localized"/>
-<node CREATED="1359384787467" ID="ID_154693365" MODIFIED="1359384788660" TEXT="@EXPORT = qw(*FOO); # Can be localized"/>
-<node CREATED="1359384843385" ID="ID_119865204" MODIFIED="1359384844612" TEXT="You can work around the first case by using the fully qualified name ($Package::FOO ) where you need a local value, or by overriding it by saying *FOO = *Package::FOO in your script."/>
-<node CREATED="1359384927907" ID="ID_1800309027" MODIFIED="1359384937834" TEXT="dynamic variables vs lexical variables"/>
-</node>
-<node CREATED="1359375095218" ID="ID_256422549" MODIFIED="1359375171187" TEXT="qualified identifiers">
-<node CREATED="1359375740203" ID="ID_819948267" MODIFIED="1359375741500" TEXT="$Package::Variable">
-<node CREATED="1359375046298" ID="ID_1625577858" MODIFIED="1359375742686" TEXT="refer to variables and filehandles in other packages by prefixing the identifier with the package name and a double colon: ."/>
-</node>
-<node CREATED="1359375268641" ID="ID_165203652" MODIFIED="1359375750977" TEXT="package delimiter">
-<node CREATED="1359375282776" ID="ID_676362571" MODIFIED="1359375313076" TEXT="single quote &apos;">
-<node CREATED="1359375362646" ID="ID_1439700523" MODIFIED="1359375610429" TEXT="old-fashioned"/>
-<node CREATED="1359375611034" ID="ID_1412442128" MODIFIED="1359375627360" TEXT="opposed"/>
-<node CREATED="1359375627624" ID="ID_181045414" MODIFIED="1359375652452" TEXT="still supported for backward compatibility"/>
-</node>
-<node CREATED="1359375287329" ID="ID_1386205977" MODIFIED="1359375316676" TEXT="double colon ::">
-<node CREATED="1359375305761" ID="ID_1483665842" MODIFIED="1359375378875" TEXT="preferred"/>
-</node>
-</node>
-<node CREATED="1359378201767" FOLDED="true" ID="ID_1188839208" MODIFIED="1359379017078" TEXT="nested packages">
-<node CREATED="1359377737576" ID="ID_1043958384" MODIFIED="1359378232794" TEXT="$OUTER::INNER::Variable">
-<node CREATED="1359377767213" FOLDED="true" ID="ID_1518503167" MODIFIED="1359378220997">
+<node CREATED="1359378201767" ID="ID_1188839208" MODIFIED="1366298924427" TEXT="nested packages">
+<node CREATED="1359377737576" FOLDED="true" ID="ID_1043958384" MODIFIED="1366297671726" TEXT="$OUTER::INNER::Variable">
+<node CREATED="1359377767213" ID="ID_1518503167" MODIFIED="1366297633869">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3862,462 +3474,229 @@
 </node>
 </node>
 </node>
-<node CREATED="1359378235208" ID="ID_1146278733" MODIFIED="1359378468838" TEXT="no relative packages">
-<node CREATED="1359378279265" ID="ID_178379213" MODIFIED="1359378456843" TEXT="all symbols are either local to the current package, or must be fully qualified from the top package name down."/>
-<node CREATED="1359378339264" ID="ID_1874877487" MODIFIED="1359378340309" TEXT="there is nowhere within package OUTER that $INNER::var refers to $OUTER::INNER::var . INNER refers to a totally separate global package."/>
 </node>
+<node CREATED="1359374108067" FOLDED="true" ID="ID_1263092462" MODIFIED="1366298938322" TEXT="main package (%main:: or %::)">
+<node CREATED="1359375174365" ID="ID_1198246255" MODIFIED="1359375175694" TEXT="package name is null"/>
+<node CREATED="1359375190946" ID="ID_1502264952" MODIFIED="1366298847931" TEXT="$::sail">
+<node CREATED="1359375202929" ID="ID_688238441" MODIFIED="1359375212697" TEXT="is equivalent to">
+<node CREATED="1359375226227" ID="ID_1376782201" MODIFIED="1359375230851" TEXT="$main::sail"/>
 </node>
 </node>
-<node CREATED="1359374478551" ID="ID_6917105" MODIFIED="1359374479830" TEXT="do"/>
-<node CREATED="1359374499168" ID="ID_556208509" MODIFIED="1359374500263" TEXT="require"/>
-<node CREATED="1359374513451" ID="ID_675470985" MODIFIED="1359374514479" TEXT="use"/>
+<node CREATED="1359379034464" FOLDED="true" ID="ID_51019265" MODIFIED="1366298937411" TEXT="symbol table">
+<node CREATED="1359379049981" ID="ID_1821008576" MODIFIED="1359379051278" TEXT="all punctuation variables"/>
+<node CREATED="1359379051844" ID="ID_261517708" MODIFIED="1359379057713" TEXT="STDIN"/>
+<node CREATED="1359379057938" ID="ID_794546688" MODIFIED="1359379061083" TEXT="STDOUT"/>
+<node CREATED="1359379061313" ID="ID_496132545" MODIFIED="1359379066383" TEXT="STDERR"/>
+<node CREATED="1359379066706" ID="ID_1954520537" MODIFIED="1359379068060" TEXT="DATA"/>
+<node CREATED="1359379068309" ID="ID_1036286000" MODIFIED="1359379072378" TEXT="ARGV"/>
+<node CREATED="1359379072639" ID="ID_1190145408" MODIFIED="1359379075049" TEXT="ARGVOUT"/>
+<node CREATED="1359379080520" ID="ID_1914641428" MODIFIED="1359379082934" TEXT="ENV"/>
+<node CREATED="1359379083170" ID="ID_657996840" MODIFIED="1359379086368" TEXT="INC"/>
+<node CREATED="1359379087058" ID="ID_218160702" MODIFIED="1359379090732" TEXT="SIG"/>
 </node>
 </node>
-<node CREATED="1359611555096" FOLDED="true" ID="ID_745707915" MODIFIED="1364052563642" TEXT="library">
-<node CREATED="1359611581165" ID="ID_450792896" MODIFIED="1359611588189" TEXT="*.so"/>
+<node CREATED="1359374561403" FOLDED="true" ID="ID_539695056" MODIFIED="1366299401342" TEXT="symbol table (%Package::)">
+<node CREATED="1366299057176" ID="ID_672242771" MODIFIED="1366299268829" TEXT="indirectly modify symtab (typeglob*)">
+<node CREATED="1359382064327" ID="ID_492678124" MODIFIED="1366298984079" TEXT="*dick = \$richard;">
+<node CREATED="1359382061536" ID="ID_982672754" MODIFIED="1359382080576" TEXT="alias only a particular variable or subroutine"/>
 </node>
-<node CREATED="1359699877454" ID="ID_1595404865" MODIFIED="1364052384442" TEXT="class">
-<node CREATED="1359473169749" ID="ID_634438211" MODIFIED="1359699930897" TEXT="class definition">
-<node CREATED="1359473246153" ID="ID_689495416" MODIFIED="1359593159267" TEXT="make its semantics available implicitly through method calls on the class and its objects, without explicitly exporting anything."/>
-<node CREATED="1359472464780" ID="ID_781180870" MODIFIED="1359699933042" TEXT="@ISA"/>
+<node CREATED="1359382092949" ID="ID_89079342" MODIFIED="1366299038653" TEXT="*dick = *richard;">
+<node CREATED="1359382125861" ID="ID_381432327" MODIFIED="1359382127113" TEXT="causes variables, subroutines, formats, and file and directory handles accessible via the identifier richard also to be accessible via the identifier dick ."/>
 </node>
-<node CREATED="1359694816059" ID="ID_1707730381" MODIFIED="1364052567572" TEXT="construct">
-<node CREATED="1359694829591" ID="ID_420236667" MODIFIED="1359694829591" TEXT="constructor">
-<node CREATED="1359694848501" ID="ID_1578555279" MODIFIED="1359694848501" TEXT="class method"/>
 </node>
-<node CREATED="1359694865181" ID="ID_411768948" MODIFIED="1359694867123" TEXT="composer"/>
+<node CREATED="1366299239103" ID="ID_957700482" MODIFIED="1366299374326" TEXT="the behavior of directly modifying symtab(%Package::) is unpredictable/unspecified"/>
+<node CREATED="1359384843385" ID="ID_119865204" MODIFIED="1359384844612" TEXT="You can work around the first case by using the fully qualified name ($Package::FOO ) where you need a local value, or by overriding it by saying *FOO = *Package::FOO in your script."/>
 </node>
-<node CREATED="1359695721382" FOLDED="true" ID="ID_1025525314" MODIFIED="1364052571682" TEXT="destructor">
-<node CREATED="1359695740468" ID="ID_1896766213" MODIFIED="1359695742820" TEXT="destroy"/>
+<node CREATED="1366299452871" FOLDED="true" ID="ID_1507997446" MODIFIED="1366299481686" TEXT="__PACKAGE__">
+<node CREATED="1366299472433" ID="ID_1690636884" MODIFIED="1366299474296" TEXT="the current package"/>
 </node>
+<node CREATED="1366299766127" ID="ID_72158632" MODIFIED="1366299768150" TEXT="*foo{PACKAGE}"/>
+<node CREATED="1366299780607" ID="ID_997976368" MODIFIED="1366299781892" TEXT="*foo{NAME}"/>
 </node>
-<node CREATED="1359699374992" FOLDED="true" ID="ID_1349228769" MODIFIED="1364052573842" TEXT="scope">
-<node CREATED="1359699351077" ID="ID_1226487570" MODIFIED="1359699440020" TEXT="lexical(static) scoping "/>
-<node CREATED="1359699383947" ID="ID_1102296097" MODIFIED="1359699415892" TEXT="dynamic scoping"/>
+<node CREATED="1355460047555" ID="ID_1021967777" MODIFIED="1366301610453" TEXT="module">
+<node CREATED="1355460120883" ID="ID_517909243" MODIFIED="1366301379974" TEXT="@ISA=qw(Exporter )"/>
+<node CREATED="1355460123580" ID="ID_1004669742" MODIFIED="1355460146067" TEXT="@EXPORT"/>
+<node CREATED="1355460147084" ID="ID_641612972" MODIFIED="1355460160629" TEXT="@EXPORT_OK"/>
+<node CREATED="1355460161667" ID="ID_750676538" MODIFIED="1355460168183" TEXT="%EXPORT_TAGS."/>
+<node CREATED="1359611550304" ID="ID_714670543" MODIFIED="1366294704739" TEXT="*.pm"/>
+<node CREATED="1359473069003" ID="ID_1695693358" MODIFIED="1366300244397" TEXT="A module is just a set of related functions in a library file, i.e., a Perl package with the same name as the file. It is specifically designed to be reusable by other modules or programs. It may do this by providing a mechanism for exporting some of its symbols into the symbol table of any package using it, or it may function as a class definition and make its semantics available implicitly through method calls on the class and its objects, without explicitly exporting anything. Or it can do a little of both."/>
+<node CREATED="1359473114753" ID="ID_1606765100" MODIFIED="1366301385284" TEXT="export/import symbols">
+<node CREATED="1359556950347" FOLDED="true" ID="ID_1405404207" MODIFIED="1366301389030" TEXT="use Module;">
+<node CREATED="1359556971512" ID="ID_1117478363" MODIFIED="1359557078776" TEXT="@EXPORT (default)"/>
+<node CREATED="1366300619143" FOLDED="true" ID="ID_1704112987" MODIFIED="1366300632046" TEXT="eq">
+<node CREATED="1366300573279" ID="ID_675003047" MODIFIED="1366300622667" TEXT="BEGIN { require &apos;Module.pm&apos;; &apos;Module&apos;-&gt;import; }"/>
 </node>
 </node>
-<node CREATED="1355459109243" ID="ID_1082751891" MODIFIED="1364052803582" TEXT="memory manage"/>
-<node CREATED="1358080645743" FOLDED="true" ID="ID_1176601912" MODIFIED="1366036331414" TEXT="builtin functions (perlfunc)">
-<node CREATED="1358080662121" FOLDED="true" ID="ID_1885768746" MODIFIED="1358668811411" TEXT="math">
-<node CREATED="1358087685448" FOLDED="true" ID="ID_60811202" MODIFIED="1358087696470" TEXT="trigonometry ">
-<node CREATED="1358080798255" ID="ID_1402362822" MODIFIED="1358087691863" TEXT="atan2">
-<node CREATED="1358080800382" ID="ID_1834922323" MODIFIED="1358080835222" TEXT="arctan"/>
+<node CREATED="1359556951150" FOLDED="true" ID="ID_1594222725" MODIFIED="1366301389974" TEXT="use Module qw(...);">
+<node CREATED="1359557053498" ID="ID_1503889240" MODIFIED="1359557130578" TEXT="@EXPORT"/>
+<node CREATED="1359557131712" ID="ID_539902467" MODIFIED="1359557139332" TEXT="@EXPORT_OK"/>
+<node CREATED="1359557139738" ID="ID_423793425" MODIFIED="1359557140900" TEXT="%EXPORT_TAGS"/>
+<node CREATED="1366300626823" FOLDED="true" ID="ID_1536534160" MODIFIED="1366300631082" TEXT="eq">
+<node CREATED="1366300613944" ID="ID_1195137442" MODIFIED="1366300628956" TEXT="BEGIN { require &apos;Module.pm&apos;; &apos;Module&apos;-&gt;import( LIST ); }"/>
 </node>
-<node CREATED="1358081249778" ID="ID_617892595" MODIFIED="1358087691861" TEXT="cos"/>
-<node CREATED="1358086784037" ID="ID_971709164" MODIFIED="1358087691860" TEXT="sin"/>
 </node>
-<node CREATED="1358087516186" ID="ID_1539411114" MODIFIED="1358087522122" TEXT="absolute value">
-<node CREATED="1358080676128" ID="ID_1687588591" MODIFIED="1358087525465" TEXT="abs"/>
+<node CREATED="1359557144256" FOLDED="true" ID="ID_1484650484" MODIFIED="1366301391242" TEXT="use Module();">
+<node CREATED="1359557152468" ID="ID_874208612" MODIFIED="1359557193540" TEXT="export no symbols"/>
+<node CREATED="1366300634799" ID="ID_1705755218" MODIFIED="1366300647710" TEXT="BEGIN { require &apos;Module.pm&apos;; }"/>
 </node>
-<node CREATED="1358081251443" ID="ID_184255742" MODIFIED="1358087587904" TEXT="encryption">
-<node CREATED="1358087588838" ID="ID_1771406482" MODIFIED="1358087592682" TEXT="crypt"/>
+<node CREATED="1366300797607" FOLDED="true" ID="ID_692853297" MODIFIED="1366301401595" TEXT="">
+<node CREATED="1359557195536" ID="ID_1735604576" MODIFIED="1359557665541" TEXT="[!]name">
+<node CREATED="1359557375074" ID="ID_1680374648" MODIFIED="1359557656936" TEXT="This nameonly"/>
 </node>
-<node CREATED="1358087437469" FOLDED="true" ID="ID_1600729384" MODIFIED="1358087597280" TEXT="exponent &amp;logarithm">
-<node CREATED="1358081677642" ID="ID_674830467" MODIFIED="1358087482757" TEXT="exp"/>
-<node CREATED="1358083855824" ID="ID_1600211428" MODIFIED="1358087482756" TEXT="log"/>
-<node CREATED="1358086169037" ID="ID_1870085942" MODIFIED="1358087482755" TEXT="sqrt"/>
+<node CREATED="1359557285094" ID="ID_1693420352" MODIFIED="1359557294607" TEXT="[!]:DEFAULT">
+<node CREATED="1359557473183" ID="ID_1162858784" MODIFIED="1359557642635" TEXT="All names in @EXPORT"/>
 </node>
-<node CREATED="1358087294322" FOLDED="true" ID="ID_1784496443" MODIFIED="1358087598779" TEXT="pseudorandom number">
-<node CREATED="1358084879216" ID="ID_26658588" MODIFIED="1358087301047" TEXT="rand"/>
-<node CREATED="1358086167062" ID="ID_506581934" MODIFIED="1358087301027" TEXT="srand"/>
+<node CREATED="1359557247308" ID="ID_1218445398" MODIFIED="1359557271748" TEXT="[!]:tag">
+<node CREATED="1359557486544" ID="ID_1539364247" MODIFIED="1359557626173" TEXT="All names in $EXPORT_TAGS{tag}anonymous list"/>
 </node>
+<node CREATED="1359557302603" FOLDED="true" ID="ID_664431957" MODIFIED="1366300792066" TEXT="[!]/pattern/">
+<node CREATED="1359557582187" ID="ID_1389996827" MODIFIED="1359557610652" TEXT="All names in @EXPORTand @EXPORT_OKthat match pattern"/>
+<node CREATED="1359557956479" ID="ID_1658130888" MODIFIED="1359557957829" TEXT="Remember that most patterns (using //) will need to be anchored with a leading ^, for example, /^EXIT/ rather than /EXIT/."/>
 </node>
-<node CREATED="1358081376539" ID="ID_567432545" MODIFIED="1359469752022" TEXT="process">
-<node CREATED="1358089335311" ID="ID_543067770" MODIFIED="1359469752028" TEXT="process control">
-<node CREATED="1358089352988" ID="ID_758913471" MODIFIED="1358089354453" TEXT="fork"/>
-<node CREATED="1358081645914" ID="ID_1600600775" MODIFIED="1358089442406" TEXT="exec"/>
-<node CREATED="1358081381721" ID="ID_1347265649" MODIFIED="1358089439200" TEXT="die"/>
-<node CREATED="1358081659678" ID="ID_387436122" MODIFIED="1358081660777" TEXT="exit"/>
-<node CREATED="1358082122659" ID="ID_1807879964" MODIFIED="1358082129636" TEXT="getpgrp"/>
-<node CREATED="1358085713062" ID="ID_1989449718" MODIFIED="1358085742361" TEXT="setpgrp"/>
-<node CREATED="1358082130298" ID="ID_782551362" MODIFIED="1358082131844" TEXT="getppid"/>
-<node CREATED="1358082139322" ID="ID_392464015" MODIFIED="1358082146830" TEXT="getpriority"/>
-<node CREATED="1358085752861" ID="ID_389038588" MODIFIED="1358085761884" TEXT="setpriority"/>
-<node CREATED="1358082026526" ID="ID_435647870" MODIFIED="1358082039780" TEXT="getlogin"/>
-<node CREATED="1358086574432" ID="ID_1174746696" MODIFIED="1358086575851" TEXT="wait"/>
-<node CREATED="1358086576190" ID="ID_1777920017" MODIFIED="1358086579315" TEXT="waitpid"/>
+<node CREATED="1359557764313" ID="ID_1065749909" MODIFIED="1366300820858" TEXT="use YourModule qw(:DEFAULT :T2 !B3 A3);"/>
+<node CREATED="1359557810404" ID="ID_1468973367" MODIFIED="1366300820859" TEXT="use Socket qw(!/^[AP]F_/ !SOMAXCONN !SOL_SOCKET);"/>
+<node CREATED="1359557820923" ID="ID_977961975" MODIFIED="1366300820864" TEXT="use POSIX qw(:errno_h :termios_h !TCSADRAIN !/^EXIT/);"/>
 </node>
-<node CREATED="1358080708085" ID="ID_1581105259" MODIFIED="1358684801318" TEXT="IPC">
-<node CREATED="1358080685643" ID="ID_533335511" MODIFIED="1358087704391" TEXT="network">
-<node CREATED="1358086080944" ID="ID_606454335" MODIFIED="1358087718784" TEXT="socket"/>
-<node CREATED="1358086056040" FOLDED="true" ID="ID_418009106" MODIFIED="1365955278099" TEXT="shutdown">
-<node CREATED="1358088027852" FOLDED="true" ID="ID_746170171" MODIFIED="1358088094682" TEXT="shutdown SOCKET,HOW">
-<node CREATED="1358088031554" ID="ID_775474317" MODIFIED="1358088033346" TEXT="HOW">
-<node CREATED="1358088061424" ID="ID_799470985" MODIFIED="1358088063215" TEXT="HOW">
-<node CREATED="1358088066669" ID="ID_1563743732" MODIFIED="1358088070955" TEXT="0">
-<node CREATED="1358088034454" ID="ID_861982301" MODIFIED="1358088072225" TEXT="stop reading"/>
+<node CREATED="1359555920899" ID="ID_1466693754" MODIFIED="1366300541427" TEXT="@EXPORT = qw(...);">
+<node CREATED="1359555963201" ID="ID_1287497537" MODIFIED="1359556166248" TEXT="Symbols to export by default."/>
 </node>
-<node CREATED="1358088074506" ID="ID_16254685" MODIFIED="1358088075524" TEXT="1">
-<node CREATED="1358088076610" ID="ID_44829106" MODIFIED="1358088080724" TEXT="stop writing"/>
-</node>
-<node CREATED="1358088057809" ID="ID_1716124649" MODIFIED="1358088086671" TEXT="2">
-<node CREATED="1358088087794" ID="ID_398920675" MODIFIED="1358088091867" TEXT="stop using socket"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1358080861246" ID="ID_1349266084" MODIFIED="1358087743071" TEXT="bind"/>
-<node CREATED="1358087796298" ID="ID_1024164583" MODIFIED="1358087798603" TEXT="listen"/>
-<node CREATED="1358080690867" ID="ID_208436069" MODIFIED="1358080706508" TEXT="accept"/>
-<node CREATED="1358081190884" ID="ID_370474160" MODIFIED="1358081192726" TEXT="connect"/>
-<node CREATED="1358084965892" ID="ID_1440164293" MODIFIED="1358087803123" TEXT="recv"/>
-<node CREATED="1358085399429" ID="ID_1773751818" MODIFIED="1358087805857" TEXT="send"/>
-<node CREATED="1358082100345" ID="ID_1695248413" MODIFIED="1358082110488" TEXT="getpeername">
-<node CREATED="1358088221309" ID="ID_1682413855" MODIFIED="1358088315868" TEXT="get sockaddr of the other end of the SOCKET connection"/>
-</node>
-<node CREATED="1358083103440" ID="ID_1694230667" MODIFIED="1358083106194" TEXT="getsockname">
-<node CREATED="1358088318042" ID="ID_331150576" MODIFIED="1358088351619" TEXT="get sockaddr of one&apos;s own of the SOCKET connection"/>
-</node>
-<node CREATED="1358083117819" ID="ID_146303936" MODIFIED="1358083120583" TEXT="getsockopt"/>
-<node CREATED="1358085904370" ID="ID_784744187" MODIFIED="1358085908570" TEXT="setsockopt"/>
-</node>
-<node CREATED="1358080726079" ID="ID_1460017842" MODIFIED="1358088501058" TEXT="signal">
-<node CREATED="1358080730714" ID="ID_1064647370" MODIFIED="1358080732372" TEXT="alarm">
-<node CREATED="1358089036522" ID="ID_1682369195" MODIFIED="1358089139274" TEXT="SIGARLM"/>
-</node>
-<node CREATED="1358083601911" ID="ID_1332358325" MODIFIED="1358083603502" TEXT="kill">
-<node CREATED="1358088614083" ID="ID_749216354" MODIFIED="1358088614083" TEXT="kill SIGNAL, LIST"/>
-</node>
-<node CREATED="1358086074643" ID="ID_712185170" MODIFIED="1358086076196" TEXT="sleep"/>
-<node CREATED="1358088624590" ID="ID_315712428" MODIFIED="1358088628398" TEXT="%SIG">
-<node CREATED="1358088632456" ID="ID_1931181955" MODIFIED="1358088641450" TEXT="sign"/>
-</node>
-</node>
-<node CREATED="1358085344365" FOLDED="true" ID="ID_1479418878" MODIFIED="1358086099272" TEXT="System V IPC">
-<node CREATED="1358085288165" ID="ID_487801177" MODIFIED="1358085333834" TEXT="semaphore">
-<node CREATED="1358085310998" ID="ID_38527501" MODIFIED="1358085387475" TEXT="semget"/>
-<node CREATED="1358085387692" ID="ID_10023853" MODIFIED="1358085390237" TEXT="semctl"/>
-<node CREATED="1358085390466" ID="ID_1431167937" MODIFIED="1358085393323" TEXT="semop"/>
-</node>
-<node CREATED="1358085334420" ID="ID_1009483803" MODIFIED="1358085342847" TEXT="sharedmemory">
-<node CREATED="1358085915388" ID="ID_1975671667" MODIFIED="1358085918109" TEXT="shmget"/>
-<node CREATED="1358085918327" ID="ID_775890341" MODIFIED="1358086005897" TEXT="shmctl"/>
-<node CREATED="1358085921057" ID="ID_1447683323" MODIFIED="1358085923359" TEXT="shmat">
-<node CREATED="1358086014144" ID="ID_1420055533" MODIFIED="1358086037495" TEXT="N/A"/>
-</node>
-<node CREATED="1358086008098" ID="ID_1479169169" MODIFIED="1358086012563" TEXT="shmdt">
-<node CREATED="1358086025000" ID="ID_1312502587" MODIFIED="1358086042321" TEXT="N/A"/>
-</node>
-<node CREATED="1358086043657" ID="ID_1075350407" MODIFIED="1358086046658" TEXT="shmread"/>
-<node CREATED="1358086047043" ID="ID_373113230" MODIFIED="1358086050109" TEXT="shmwrite"/>
-</node>
-<node CREATED="1358083973058" ID="ID_372851457" MODIFIED="1358085381521" TEXT="message">
-<node CREATED="1358083977022" ID="ID_266391740" MODIFIED="1358083980759" TEXT="msgget"/>
-<node CREATED="1358083980982" ID="ID_218721058" MODIFIED="1358083983565" TEXT="msgctl"/>
-<node CREATED="1358083983917" ID="ID_1333224803" MODIFIED="1358083988464" TEXT="msgrcv"/>
-<node CREATED="1358083997859" ID="ID_1000552688" MODIFIED="1358084001510" TEXT="msgsnd"/>
-</node>
-</node>
-<node CREATED="1358084755352" ID="ID_745069954" MODIFIED="1358087186469" TEXT="pipe">
-<node CREATED="1358084942338" ID="ID_315461742" MODIFIED="1358084944322" TEXT="pipe"/>
-<node CREATED="1358084944530" ID="ID_1618696834" MODIFIED="1358084950337" TEXT="readpipe"/>
-<node CREATED="1358084950554" ID="ID_1943013634" MODIFIED="1358084953706" TEXT="writepipe"/>
-<node CREATED="1358087180808" ID="ID_331028245" MODIFIED="1358087184436" TEXT="close"/>
-<node CREATED="1358086088252" ID="ID_1861739110" MODIFIED="1358087718804" TEXT="socketpair"/>
-</node>
-</node>
-</node>
-<node CREATED="1358080876695" ID="ID_1286427133" MODIFIED="1365955299409" TEXT="IO">
-<node CREATED="1358080880091" ID="ID_850955420" MODIFIED="1358080884270" TEXT="binmode"/>
-<node CREATED="1358081178566" ID="ID_241415705" MODIFIED="1358081181278" TEXT="close"/>
-<node CREATED="1358084514025" ID="ID_699576318" MODIFIED="1358084515345" TEXT="open"/>
-<node CREATED="1358081598389" ID="ID_1058157677" MODIFIED="1358081600396" TEXT="eof"/>
-<node CREATED="1358081850229" ID="ID_1806901978" MODIFIED="1358081852551" TEXT="fcntl"/>
-<node CREATED="1358081853563" ID="ID_1475580406" MODIFIED="1358081855778" TEXT="fileno"/>
-<node CREATED="1358081857068" ID="ID_1780870985" MODIFIED="1358081860347" TEXT="flock"/>
-<node CREATED="1358081938987" ID="ID_1748719911" MODIFIED="1358081940539" TEXT="getc"/>
-<node CREATED="1358086432512" ID="ID_463318243" MODIFIED="1358086437944" TEXT="truncate"/>
-<node CREATED="1358086650408" ID="ID_181006883" MODIFIED="1358086652029" TEXT="write"/>
-<node CREATED="1358086369788" ID="ID_1261629834" MODIFIED="1358086370778" TEXT="tell"/>
-<node CREATED="1358085122631" ID="ID_814883977" MODIFIED="1358085194586" TEXT="say"/>
-<node CREATED="1358083518511" ID="ID_598778081" MODIFIED="1358083521311" TEXT="ioctl"/>
-<node CREATED="1358084802647" ID="ID_873431396" MODIFIED="1358084804267" TEXT="print"/>
-<node CREATED="1358084805498" ID="ID_105287996" MODIFIED="1358084806858" TEXT="printf"/>
-<node CREATED="1358084889959" ID="ID_1085117565" MODIFIED="1358084890864" TEXT="read"/>
-<node CREATED="1358084896429" ID="ID_46997567" MODIFIED="1358084898888" TEXT="readline"/>
-<node CREATED="1358085241753" ID="ID_1097778197" MODIFIED="1358085243750" TEXT="seekdir"/>
-</node>
-<node CREATED="1358086326863" ID="ID_1515097854" MODIFIED="1365955297695" TEXT="sys">
-<node CREATED="1358086330695" ID="ID_1539865327" MODIFIED="1358086333396" TEXT="syscall"/>
-<node CREATED="1358086333618" ID="ID_140265834" MODIFIED="1358086337158" TEXT="sysopen"/>
-<node CREATED="1358086337585" ID="ID_1656616492" MODIFIED="1358086340413" TEXT="sysread"/>
-<node CREATED="1358086340644" ID="ID_705175937" MODIFIED="1358086343073" TEXT="syswrite"/>
-<node CREATED="1358086343293" ID="ID_611289906" MODIFIED="1358086347615" TEXT="sysseek"/>
-<node CREATED="1358086348473" ID="ID_1568214592" MODIFIED="1358086351851" TEXT="system"/>
-</node>
-<node CREATED="1358085202957" ID="ID_1945007109" MODIFIED="1365955303021" TEXT="log">
-<node CREATED="1358085209245" ID="ID_1363000416" MODIFIED="1358085211376" TEXT="say"/>
-<node CREATED="1358085211610" ID="ID_1810135812" MODIFIED="1358085212383" TEXT="die"/>
-<node CREATED="1358085212662" ID="ID_1586774277" MODIFIED="1358085215101" TEXT="warn"/>
-</node>
-<node CREATED="1358081314543" ID="ID_237249980" MODIFIED="1365955305308" TEXT="dbm">
-<node CREATED="1358081319909" ID="ID_132977828" MODIFIED="1358081324005" TEXT="dbmclose"/>
-<node CREATED="1358081324259" ID="ID_173200547" MODIFIED="1358081327297" TEXT="dbmopen"/>
-</node>
-<node CREATED="1358081098933" FOLDED="true" ID="ID_1730126488" MODIFIED="1366036327047" TEXT="fs">
-<node CREATED="1358081102534" ID="ID_1960925866" MODIFIED="1358081105058" TEXT="chdir"/>
-<node CREATED="1358081108167" ID="ID_983120451" MODIFIED="1358081114826" TEXT="chmod"/>
-<node CREATED="1358081143410" ID="ID_1337657468" MODIFIED="1358081146081" TEXT="chown"/>
-<node CREATED="1358083790060" ID="ID_152390082" MODIFIED="1358083791240" TEXT="link"/>
-<node CREATED="1358085254529" ID="ID_153076306" MODIFIED="1358085257995" TEXT="seekdir"/>
-<node CREATED="1358085116889" ID="ID_1932335679" MODIFIED="1358085118747" TEXT="rmdir"/>
-<node CREATED="1358084524697" ID="ID_1800223848" MODIFIED="1358084526859" TEXT="opendir"/>
-<node CREATED="1358086178784" ID="ID_1786867871" MODIFIED="1358086181069" TEXT="stat"/>
-<node CREATED="1358086380150" ID="ID_1786088971" MODIFIED="1358086381891" TEXT="telldir"/>
-<node CREATED="1358086474681" ID="ID_1249206635" MODIFIED="1358086477084" TEXT="umask"/>
-<node CREATED="1358085274985" ID="ID_679411344" MODIFIED="1358085279553" TEXT="select"/>
-<node CREATED="1358085101711" ID="ID_1786107875" MODIFIED="1358085106469" TEXT="rewinddir"/>
-<node CREATED="1358083880014" ID="ID_120716681" MODIFIED="1358083881595" TEXT="lstat"/>
-<node CREATED="1358083918907" ID="ID_843604401" MODIFIED="1358083921142" TEXT="mkdir"/>
-<node CREATED="1358084918065" ID="ID_747618990" MODIFIED="1358084921908" TEXT="readlink"/>
-<node CREATED="1358084925501" ID="ID_1110782156" MODIFIED="1358084927563" TEXT="readdir"/>
-<node CREATED="1358085035819" ID="ID_1339502465" MODIFIED="1358085036923" TEXT="rename"/>
-<node CREATED="1358086263265" ID="ID_404943840" MODIFIED="1358086266231" TEXT="symlink"/>
-<node CREATED="1358086523027" ID="ID_617505738" MODIFIED="1358086524289" TEXT="utime"/>
-</node>
-<node CREATED="1358083395613" FOLDED="true" ID="ID_113700686" MODIFIED="1366036329535" TEXT="container">
-<node CREATED="1358081118320" ID="ID_187058832" MODIFIED="1358085141807" TEXT="string">
-<node CREATED="1358081122603" ID="ID_633085627" MODIFIED="1358081136809" TEXT="chomp"/>
-<node CREATED="1358081125983" ID="ID_439205" MODIFIED="1358081139231" TEXT="chop"/>
-<node CREATED="1358081160404" ID="ID_1205894106" MODIFIED="1358081166987" TEXT="chr"/>
-<node CREATED="1358084534879" ID="ID_1222725303" MODIFIED="1358084540662" TEXT="ord"/>
-<node CREATED="1358083383164" ID="ID_868714020" MODIFIED="1358083384394" TEXT="hex"/>
-<node CREATED="1358083505189" ID="ID_1226092082" MODIFIED="1358083506425" TEXT="index"/>
-<node CREATED="1358083559611" ID="ID_1692410495" MODIFIED="1358083563000" TEXT="join"/>
-<node CREATED="1358083657450" ID="ID_1796860435" MODIFIED="1358083659049" TEXT="lc">
-<node CREATED="1358083675933" ID="ID_325807280" MODIFIED="1358083696341" TEXT="\L...\E"/>
-</node>
-<node CREATED="1358083667458" ID="ID_603592798" MODIFIED="1358083684730" TEXT="lcfirst">
-<node CREATED="1358083671717" ID="ID_1948474742" MODIFIED="1358083698630" TEXT="\l"/>
-</node>
-<node CREATED="1358083685234" ID="ID_1476681442" MODIFIED="1358083687885" TEXT="uc">
-<node CREATED="1358083701605" ID="ID_1165916732" MODIFIED="1358083707277" TEXT="\U...\E"/>
-</node>
-<node CREATED="1358083688178" ID="ID_1710615625" MODIFIED="1358083691538" TEXT="ucfirst">
-<node CREATED="1358083708698" ID="ID_912535282" MODIFIED="1358083712397" TEXT="\u"/>
-</node>
-<node CREATED="1358083776769" ID="ID_1549605664" MODIFIED="1358083782649" TEXT="length"/>
-<node CREATED="1358086254440" ID="ID_355579568" MODIFIED="1358086256316" TEXT="substr"/>
-<node CREATED="1358084780458" ID="ID_946835131" MODIFIED="1358084782377" TEXT="pos"/>
-<node CREATED="1358084740817" ID="ID_1721885330" MODIFIED="1358084742368" TEXT="pack"/>
-<node CREATED="1358084742584" ID="ID_1325325634" MODIFIED="1358084743873" TEXT="unpack"/>
-<node CREATED="1358085145875" ID="ID_1355681441" MODIFIED="1358085147821" TEXT="rindex"/>
-<node CREATED="1358085148591" ID="ID_637179781" MODIFIED="1358085154047" TEXT="reverse"/>
-<node CREATED="1358086149930" ID="ID_1481399082" MODIFIED="1358086153758" TEXT="sprintf"/>
-<node CREATED="1358086563620" ID="ID_544336076" MODIFIED="1358086564687" TEXT="vec"/>
-</node>
-<node CREATED="1358083255221" ID="ID_1704399897" MODIFIED="1358085168562" TEXT="list">
-<node CREATED="1358083267462" ID="ID_37682861" MODIFIED="1358083269751" TEXT="grep">
-<node CREATED="1358083361819" ID="ID_388031128" MODIFIED="1358083371096" TEXT="like &quot;filter&quot; in python"/>
-</node>
-<node CREATED="1358083332140" ID="ID_963744658" MODIFIED="1358083334107" TEXT="map">
-<node CREATED="1358083336624" ID="ID_1444413198" MODIFIED="1358083360021" TEXT="like &quot;map&quot; in python"/>
-</node>
-<node CREATED="1358084787820" ID="ID_1006193065" MODIFIED="1358084790054" TEXT="pop"/>
-<node CREATED="1358084821851" ID="ID_1853617348" MODIFIED="1358084825665" TEXT="shift"/>
-<node CREATED="1358084825915" ID="ID_1984028152" MODIFIED="1358084827757" TEXT="unshift"/>
-<node CREATED="1358085157676" ID="ID_1594342274" MODIFIED="1358085162056" TEXT="reverse"/>
-<node CREATED="1358086121123" ID="ID_1059224655" MODIFIED="1358086123935" TEXT="sort"/>
-<node CREATED="1358086137415" ID="ID_523836324" MODIFIED="1358086139234" TEXT="splice"/>
-</node>
-<node CREATED="1358081361819" ID="ID_634852350" MODIFIED="1358086552075" TEXT="hash">
-<node CREATED="1358081365090" ID="ID_1145700456" MODIFIED="1358081367746" TEXT="delete"/>
-<node CREATED="1358081455293" ID="ID_631061574" MODIFIED="1358081458287" TEXT="each"/>
-<node CREATED="1358081655141" ID="ID_42688653" MODIFIED="1358081656978" TEXT="exists"/>
-<node CREATED="1358083575036" ID="ID_1926415625" MODIFIED="1358083576038" TEXT="keys"/>
-<node CREATED="1358086554612" ID="ID_568674942" MODIFIED="1358086557376" TEXT="values"/>
-</node>
-</node>
-<node CREATED="1358083186669" ID="ID_890314730" MODIFIED="1365955314806" TEXT="time">
-<node CREATED="1358083192032" ID="ID_511107990" MODIFIED="1358083195209" TEXT="gmtime"/>
-<node CREATED="1358083829077" ID="ID_822014256" MODIFIED="1358083831199" TEXT="localtime"/>
-<node CREATED="1358086410267" ID="ID_275830332" MODIFIED="1358086411136" TEXT="time"/>
-<node CREATED="1358086416856" ID="ID_955117046" MODIFIED="1358086418033" TEXT="times"/>
-</node>
-<node CREATED="1358083839717" ID="ID_1330291343" MODIFIED="1365955316204" TEXT="thread">
-<node CREATED="1358083842150" ID="ID_462030536" MODIFIED="1358083844363" TEXT="lock"/>
-</node>
-<node CREATED="1358081525781" ID="ID_1592995418" MODIFIED="1365955317223" TEXT="etc">
-<node CREATED="1358082371724" ID="ID_49505826" MODIFIED="1358082766707" TEXT="networks">
-<node CREATED="1358085426115" ID="ID_1818734707" MODIFIED="1358085427139" TEXT="get">
-<node CREATED="1358082057054" ID="ID_1409846831" MODIFIED="1358085431355" TEXT="getnetbyaddr"/>
-<node CREATED="1358082060787" ID="ID_1870864292" MODIFIED="1358082963206" TEXT="getnetbyname"/>
-<node CREATED="1358082064029" ID="ID_1693254762" MODIFIED="1358082963204" TEXT="getnetent"/>
-</node>
-<node CREATED="1358085442008" ID="ID_1800670239" MODIFIED="1358085442628" TEXT="set">
-<node CREATED="1358085444650" ID="ID_815158516" MODIFIED="1358085647727" TEXT="setnetent"/>
-</node>
-<node CREATED="1358085435542" ID="ID_649132345" MODIFIED="1358085437265" TEXT="end">
-<node CREATED="1358081537866" ID="ID_112385337" MODIFIED="1358085439686" TEXT="endnetent"/>
-</node>
-</node>
-<node CREATED="1358082386373" ID="ID_1537864540" MODIFIED="1358082768391" TEXT="services">
-<node CREATED="1358085456101" ID="ID_1842936038" MODIFIED="1358085456760" TEXT="end">
-<node CREATED="1358081552710" ID="ID_1276845890" MODIFIED="1358085460721" TEXT="endservent"/>
-</node>
-<node CREATED="1358085463116" ID="ID_1075300767" MODIFIED="1358085463981" TEXT="get">
-<node CREATED="1358083064875" ID="ID_660366524" MODIFIED="1358083074523" TEXT="getservbyname"/>
-<node CREATED="1358083074677" ID="ID_1466168417" MODIFIED="1358083078613" TEXT="getservbyport"/>
-<node CREATED="1358083078856" ID="ID_217235763" MODIFIED="1358083085587" TEXT="getservent"/>
-</node>
-<node CREATED="1358085469951" ID="ID_427299195" MODIFIED="1358085470524" TEXT="set">
-<node CREATED="1358085634204" ID="ID_1806190921" MODIFIED="1358085639513" TEXT="setservent"/>
-</node>
-</node>
-<node CREATED="1358082773486" ID="ID_1577490214" MODIFIED="1358082775867" TEXT="hosts">
-<node CREATED="1358085476361" ID="ID_1358675009" MODIFIED="1358085477287" TEXT="get">
-<node CREATED="1358082008078" ID="ID_525487057" MODIFIED="1358085479620" TEXT="gethostbyname"/>
-<node CREATED="1358082000091" ID="ID_1323455425" MODIFIED="1358085479619" TEXT="gethostbyaddr"/>
-<node CREATED="1358082014798" ID="ID_32690476" MODIFIED="1358085479618" TEXT="gethostent"/>
-</node>
-<node CREATED="1358085474068" ID="ID_718228267" MODIFIED="1358085475500" TEXT="set">
-<node CREATED="1358085625974" ID="ID_1184504494" MODIFIED="1358085629778" TEXT="sethostent"/>
-</node>
-<node CREATED="1358085482250" ID="ID_1437020058" MODIFIED="1358085482787" TEXT="end">
-<node CREATED="1358081533756" ID="ID_80395760" MODIFIED="1358082977029" TEXT="endhostent"/>
-</node>
-</node>
-<node CREATED="1358082390636" ID="ID_839676656" MODIFIED="1358082398652" TEXT="paswd">
-<node CREATED="1358085493597" ID="ID_1507539403" MODIFIED="1358085494233" TEXT="get">
-<node CREATED="1358082174987" ID="ID_236795573" MODIFIED="1358085495976" TEXT="getpwent"/>
-<node CREATED="1358082184688" ID="ID_829867864" MODIFIED="1358085495975" TEXT="getpwuid"/>
-</node>
-<node CREATED="1358085499021" ID="ID_910509957" MODIFIED="1358085499773" TEXT="set">
-<node CREATED="1358085667601" ID="ID_998551457" MODIFIED="1358085672168" TEXT="setpwent"/>
-</node>
-<node CREATED="1358085501189" ID="ID_591713265" MODIFIED="1358085503367" TEXT="end">
-<node CREATED="1358081549191" ID="ID_195408355" MODIFIED="1358083006519" TEXT="endpwent"/>
-</node>
-</node>
-<node CREATED="1358082398894" ID="ID_1182330500" MODIFIED="1358082784621" TEXT="group">
-<node CREATED="1358085512091" ID="ID_1354713528" MODIFIED="1358085513409" TEXT="get">
-<node CREATED="1358081968759" ID="ID_458245722" MODIFIED="1358085566848" TEXT="getgrent"/>
-<node CREATED="1358081993436" ID="ID_297266582" MODIFIED="1358082913611" TEXT="getgrnam"/>
-<node CREATED="1358081974297" ID="ID_1288550285" MODIFIED="1358082916389" TEXT="getgrgid"/>
-</node>
-<node CREATED="1358085518527" ID="ID_1667768143" MODIFIED="1358085519135" TEXT="set">
-<node CREATED="1358085554455" ID="ID_739006953" MODIFIED="1358085573358" TEXT="setgrent"/>
-</node>
-<node CREATED="1358085520649" ID="ID_1486695289" MODIFIED="1358085523080" TEXT="end">
-<node CREATED="1358081530137" ID="ID_1641975584" MODIFIED="1358085524698" TEXT="endgrent"/>
-</node>
-</node>
-<node CREATED="1358082875045" ID="ID_1155727238" MODIFIED="1358082879529" TEXT="protocols">
-<node CREATED="1358085528826" ID="ID_238012881" MODIFIED="1358085529509" TEXT="get">
-<node CREATED="1358082147177" ID="ID_1446708965" MODIFIED="1358085530685" TEXT="getprotobyname"/>
-<node CREATED="1358082151590" ID="ID_1640905379" MODIFIED="1358082160720" TEXT="getprotobynumber"/>
-<node CREATED="1358082161829" ID="ID_1771269932" MODIFIED="1358082166840" TEXT="getprotoent"/>
-</node>
-<node CREATED="1358085536284" ID="ID_1069544770" MODIFIED="1358085537017" TEXT="end">
-<node CREATED="1358081544765" ID="ID_819815159" MODIFIED="1358082992113" TEXT="endprotoent"/>
-</node>
-<node CREATED="1358085539558" ID="ID_472820614" MODIFIED="1358085540234" TEXT="set">
-<node CREATED="1358085676400" ID="ID_546886046" MODIFIED="1358085687162" TEXT="setprotoent"/>
-</node>
-</node>
-</node>
-<node CREATED="1358080996801" FOLDED="true" ID="ID_1361782498" MODIFIED="1365955261761" TEXT="package/module">
-<node CREATED="1358080999725" ID="ID_1680599881" MODIFIED="1358081006167" TEXT="AUTOLOAD"/>
-<node CREATED="1358081275654" ID="ID_421829602" MODIFIED="1358081281809" TEXT="DESTROY"/>
-<node CREATED="1358081022685" ID="ID_1641207899" MODIFIED="1358081027082" TEXT="BEGIN"/>
-<node CREATED="1358081059436" ID="ID_1765749621" MODIFIED="1358081065610" TEXT="CHECK"/>
-<node CREATED="1358081437457" ID="ID_165059757" MODIFIED="1358081438806" TEXT="END"/>
-<node CREATED="1358081282577" ID="ID_646459407" MODIFIED="1358668880070" TEXT="__DATA__"/>
-<node CREATED="1358081439104" ID="ID_769685283" MODIFIED="1358081442197" TEXT="__END__"/>
-<node CREATED="1358081691230" ID="ID_991265478" MODIFIED="1358081694610" TEXT="__FILE__"/>
-<node CREATED="1358085176581" ID="ID_1685619381" MODIFIED="1358668881908" TEXT="__SUB__"/>
-<node CREATED="1358083622780" ID="ID_1963899444" MODIFIED="1358668884745" TEXT="__LINE__"/>
-<node CREATED="1358084714368" ID="ID_698036040" MODIFIED="1358668886819" TEXT="__PACKAGE__"/>
-<node CREATED="1358083454385" ID="ID_618255677" MODIFIED="1358083458119" TEXT="INIT"/>
-<node CREATED="1358085049756" ID="ID_196702131" MODIFIED="1358085054134" TEXT="require"/>
-<node CREATED="1358083469183" ID="ID_1388624307" MODIFIED="1358083471275" TEXT="import"/>
-<node CREATED="1358084721992" ID="ID_1657398147" MODIFIED="1358084724913" TEXT="package"/>
-</node>
-<node CREATED="1358081080772" ID="ID_1762955681" MODIFIED="1358668911227" TEXT="debug">
-<node CREATED="1358081087373" ID="ID_1803011167" MODIFIED="1358081089231" TEXT="caller"/>
-<node CREATED="1358081407262" ID="ID_1519981412" MODIFIED="1358081408757" TEXT="dump"/>
-</node>
-<node CREATED="1358081047647" FOLDED="true" ID="ID_529961239" MODIFIED="1359793141846" TEXT="control">
-<node CREATED="1358081050777" ID="ID_140364035" MODIFIED="1358081053022" TEXT="break"/>
-<node CREATED="1358081224423" ID="ID_1397633532" MODIFIED="1358081229340" TEXT="continue"/>
-<node CREATED="1358081466824" ID="ID_56968474" MODIFIED="1358081469595" TEXT="else"/>
-<node CREATED="1358081469944" ID="ID_173574461" MODIFIED="1358081475404" TEXT="elseif"/>
-<node CREATED="1358081475630" ID="ID_1468145484" MODIFIED="1358081480728" TEXT="elsif"/>
-<node CREATED="1358081874152" ID="ID_1132494598" MODIFIED="1358081874837" TEXT="for"/>
-<node CREATED="1358081883803" ID="ID_1861032560" MODIFIED="1358081886664" TEXT="foreach"/>
-<node CREATED="1358083151970" ID="ID_1487066774" MODIFIED="1358083155705" TEXT="given"/>
-<node CREATED="1358086683052" ID="ID_127217843" MODIFIED="1358086684600" TEXT="while"/>
-<node CREATED="1358086684877" ID="ID_41936425" MODIFIED="1358086686613" TEXT="when"/>
-<node CREATED="1358085086340" ID="ID_1800014933" MODIFIED="1358085087577" TEXT="return"/>
-<node CREATED="1358083215832" ID="ID_1791874759" MODIFIED="1358083217434" TEXT="goto"/>
-<node CREATED="1358085005216" ID="ID_380898836" MODIFIED="1358085006830" TEXT="redo"/>
-<node CREATED="1358083418995" ID="ID_1020312086" MODIFIED="1358083419593" TEXT="if"/>
-<node CREATED="1358083641290" ID="ID_599261580" MODIFIED="1358083642154" TEXT="last"/>
-<node CREATED="1358084487259" ID="ID_193530731" MODIFIED="1358084488919" TEXT="next"/>
-<node CREATED="1358086506103" ID="ID_1517284809" MODIFIED="1358086508068" TEXT="unless"/>
-<node CREATED="1358086508571" ID="ID_163235212" MODIFIED="1358086510551" TEXT="until"/>
-</node>
-<node CREATED="1358081036633" ID="ID_1415133557" MODIFIED="1358081038556" TEXT="oop">
-<node CREATED="1358081039494" ID="ID_258922754" MODIFIED="1358081042816" TEXT="bless"/>
-</node>
-<node CREATED="1358080932079" FOLDED="true" ID="ID_1658392914" MODIFIED="1359793135105" TEXT="operator">
-<node CREATED="1358080937989" ID="ID_1063507466" MODIFIED="1358081011061" TEXT="and"/>
-<node CREATED="1358083748382" ID="ID_410189467" MODIFIED="1358083749298" TEXT="or"/>
-<node CREATED="1358083749724" ID="ID_1758918385" MODIFIED="1358086718423" TEXT="xor (x)"/>
-<node CREATED="1358083754882" ID="ID_832042492" MODIFIED="1358083755777" TEXT="not"/>
-<node CREATED="1358081209843" ID="ID_1203472333" MODIFIED="1358081212419" TEXT="cmp"/>
-<node CREATED="1358081609133" ID="ID_1526607436" MODIFIED="1358081609809" TEXT="eq"/>
-<node CREATED="1358081926712" ID="ID_1326394156" MODIFIED="1358081927554" TEXT="ge"/>
-<node CREATED="1358083280905" ID="ID_34265582" MODIFIED="1358083281582" TEXT="gt"/>
-<node CREATED="1358083730366" ID="ID_1903534664" MODIFIED="1358083731946" TEXT="el"/>
-<node CREATED="1358083737971" ID="ID_436215398" MODIFIED="1358083738790" TEXT="ne"/>
-<node CREATED="1358083741671" ID="ID_1755252565" MODIFIED="1358083743236" TEXT="lt"/>
-<node CREATED="1358086447649" ID="ID_750718698" MODIFIED="1358086452781" TEXT="tr"/>
-<node CREATED="1358083900238" ID="ID_1060371754" MODIFIED="1358083901407" TEXT="m"/>
-<node CREATED="1358083901612" ID="ID_1843481604" MODIFIED="1358083902535" TEXT="s"/>
-<node CREATED="1358086701148" ID="ID_789571518" MODIFIED="1358086707096" TEXT="-X"/>
-</node>
-<node CREATED="1358081581610" ID="ID_877952650" MODIFIED="1359793135901" TEXT="others">
-<node CREATED="1358081415137" ID="ID_1941995407" MODIFIED="1358081416571" TEXT="do"/>
-<node CREATED="1358085022338" ID="ID_909886617" MODIFIED="1358085025424" TEXT="ref"/>
-<node CREATED="1358084462117" ID="ID_1502410358" MODIFIED="1358084462927" TEXT="use"/>
-<node CREATED="1358084463236" ID="ID_1384044423" MODIFIED="1358084464523" TEXT="no"/>
-<node CREATED="1358084468383" ID="ID_735210404" MODIFIED="1358084470623" TEXT="import"/>
-<node CREATED="1358081574490" ID="ID_1780316093" MODIFIED="1358081577971" TEXT="eval"/>
-<node CREATED="1358081631328" ID="ID_572295148" MODIFIED="1358081634473" TEXT="evalbytes"/>
-<node CREATED="1358083535854" ID="ID_812026051" MODIFIED="1358083537690" TEXT="int"/>
-<node CREATED="1358081343390" ID="ID_75205587" MODIFIED="1358081347657" TEXT="default"/>
-<node CREATED="1358085079882" ID="ID_1742363486" MODIFIED="1358085082204" TEXT="return"/>
-<node CREATED="1358085225981" ID="ID_1727734729" MODIFIED="1358085231021" TEXT="scalar"/>
-<node CREATED="1358086588372" ID="ID_1967273202" MODIFIED="1366263679126" TEXT="wantarray"/>
-<node CREATED="1358086196607" ID="ID_820105919" MODIFIED="1358086210010" TEXT="variable modifier">
-<node CREATED="1358086193687" ID="ID_744372671" MODIFIED="1358086217049" TEXT="state"/>
-<node CREATED="1358083539435" ID="ID_1077755986" MODIFIED="1358086220622" TEXT="local"/>
-<node CREATED="1358084447061" ID="ID_810757855" MODIFIED="1358086226946" TEXT="my"/>
-<node CREATED="1358084653648" ID="ID_699519098" MODIFIED="1358086226920" TEXT="our"/>
-</node>
-<node CREATED="1358085066938" ID="ID_1150131106" MODIFIED="1358085070410" TEXT="reset"/>
-<node CREATED="1358086490633" ID="ID_188560791" MODIFIED="1358086493628" TEXT="undef"/>
-<node CREATED="1358086493856" ID="ID_1437117066" MODIFIED="1358086497706" TEXT="untie"/>
-<node CREATED="1358086398130" ID="ID_1414381163" MODIFIED="1358086399346" TEXT="tie"/>
-<node CREATED="1358086399913" ID="ID_1224727773" MODIFIED="1358086400882" TEXT="tied"/>
-<node CREATED="1358086232053" ID="ID_1204390791" MODIFIED="1358086232855" TEXT="sub"/>
-<node CREATED="1358081350413" ID="ID_1329987416" MODIFIED="1358081352666" TEXT="defined"/>
-<node CREATED="1358081835315" ID="ID_1500629323" MODIFIED="1358081835946" TEXT="fc"/>
-<node CREATED="1358081909854" ID="ID_1265310997" MODIFIED="1358081912136" TEXT="format"/>
-<node CREATED="1358081912521" ID="ID_1606911256" MODIFIED="1358081915725" TEXT="formline"/>
-<node CREATED="1358083172955" ID="ID_971824972" MODIFIED="1358083175104" TEXT="glob"/>
-<node CREATED="1358084838381" ID="ID_144072447" MODIFIED="1358084843891" TEXT="prototype"/>
-<node CREATED="1358084850270" ID="ID_1016738148" MODIFIED="1358084850754" TEXT="q"/>
-<node CREATED="1358084851207" ID="ID_348779203" MODIFIED="1358084851966" TEXT="qq"/>
-<node CREATED="1358084852217" ID="ID_289809520" MODIFIED="1358084853316" TEXT="qr"/>
-<node CREATED="1358084853599" ID="ID_838922109" MODIFIED="1358084858000" TEXT="quotemata"/>
-<node CREATED="1358084859583" ID="ID_785859508" MODIFIED="1358084860523" TEXT="qw"/>
-<node CREATED="1358084860751" ID="ID_575609249" MODIFIED="1358084862811" TEXT="qx"/>
-</node>
-</node>
-<node CREATED="1358691358073" FOLDED="true" ID="ID_1409135448" MODIFIED="1366183034141" TEXT="predefined/builtin/special/reserved variables (perlvar)">
+<node CREATED="1359555965718" FOLDED="true" ID="ID_1107935758" MODIFIED="1366300540223" TEXT="@EXPORT_OK = qw(...);">
+<node CREATED="1359555974576" ID="ID_1936030177" MODIFIED="1359556186615" TEXT="Symbols to export on request."/>
+</node>
+<node CREATED="1359556188098" ID="ID_877068868" MODIFIED="1366300862107" TEXT="%EXPORT_TAGS = (tag =&gt; [...]);">
+<node CREATED="1359556210563" ID="ID_603471076" MODIFIED="1359556211784" TEXT="Define names for sets of symbols."/>
+</node>
+<node CREATED="1359382082769" ID="ID_147465003" MODIFIED="1366300861536" TEXT="@EXPORT = qw($FOO); # Usual form, can&apos;t be localized"/>
+<node CREATED="1359384787467" ID="ID_154693365" MODIFIED="1366300861541" TEXT="@EXPORT = qw(*FOO); # Can be localized"/>
+<node CREATED="1355460052140" FOLDED="true" ID="ID_1071890157" MODIFIED="1366301407698" TEXT="export/import symbol">
+<node CREATED="1355446916841" ID="ID_1893000651" MODIFIED="1366300890428" TEXT="do">
+<node CREATED="1358701320871" ID="ID_1357932808" MODIFIED="1366294393848" TEXT="do &apos;stat.pl&apos;;">
+<node CREATED="1358701367460" ID="ID_336572278" MODIFIED="1358701376307" TEXT="equivalent to">
+<node CREATED="1358701362370" ID="ID_1810146734" MODIFIED="1358701378954" TEXT="eval `cat stat.pl`;"/>
+</node>
+</node>
+</node>
+<node CREATED="1355446918415" ID="ID_1242608559" MODIFIED="1366300498410" TEXT="use (compile-time)"/>
+<node CREATED="1355446920750" FOLDED="true" ID="ID_1465118100" MODIFIED="1366300998251" TEXT="require (run-time)">
+<node CREATED="1358702261388" ID="ID_671014254" MODIFIED="1358702263708" TEXT="require Foo::Bar;"/>
+<node CREATED="1359592764219" ID="ID_1317986713" MODIFIED="1366300987498" TEXT="require">
+<node CREATED="1359593191217" ID="ID_1578105158" MODIFIED="1359593192667" TEXT="require SomeModule;">
+<node CREATED="1359593245093" ID="ID_994639310" MODIFIED="1359593299655" TEXT=":: translated into directory separator, usually &quot;/&quot;."/>
+<node CREATED="1359593379610" ID="ID_1642612373" MODIFIED="1366300975865" TEXT="indirect object notation involving &quot;SomeModule&quot;, as in $ob = purge SomeModule , are method calls, not function calls. "/>
+</node>
+<node CREATED="1359593206130" ID="ID_1716545163" MODIFIED="1366300932429" TEXT="require &quot;SomeModule.pm&quot;;">
+<node CREATED="1359593282212" ID="ID_284639395" MODIFIED="1359593309344" TEXT="::literal."/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1359557901681" FOLDED="true" ID="ID_1239578515" MODIFIED="1366301081494" TEXT="BEGIN { $Exporter::Verbose=1 }">
+<node CREATED="1359557935302" ID="ID_1034070604" MODIFIED="1359557940951" TEXT="to see how the specifications are being processed and what is actually being imported into modules">
+<node CREATED="1359557935686" ID="ID_1510006052" MODIFIED="1359557935686" TEXT=""/>
+</node>
+</node>
+</node>
+<node CREATED="1357958859087" FOLDED="true" ID="ID_1070048068" MODIFIED="1366301351350" TEXT="@INC">
+<node CREATED="1358701029157" ID="ID_705315535" MODIFIED="1358702380337" TEXT="use lib &apos;/mypath/libdir/&apos;;"/>
+</node>
+<node CREATED="1366301055343" FOLDED="true" ID="ID_1281559828" MODIFIED="1366301352734" TEXT="%INC">
+<node CREATED="1366301063960" ID="ID_518571896" MODIFIED="1366301066006" TEXT="do"/>
+<node CREATED="1366301066247" ID="ID_256772265" MODIFIED="1366301073006" TEXT="require"/>
+<node CREATED="1366301073279" ID="ID_1107930333" MODIFIED="1366301075389" TEXT="use"/>
+</node>
+</node>
+<node CREATED="1359469587102" FOLDED="true" ID="ID_1231265054" MODIFIED="1366298900939" POSITION="right" TEXT="phase">
+<node CREATED="1359469208872" FOLDED="true" ID="ID_1896352152" MODIFIED="1366272410166" TEXT="five special named code blocks">
+<node CREATED="1359469231969" ID="ID_1625275714" MODIFIED="1366272397917" TEXT="BEGIN (FIFO)  &quot;START&quot; -c">
+<icon BUILTIN="full-1"/>
+<node CREATED="1359469823666" ID="ID_1413040787" MODIFIED="1359469825641" TEXT="is executed as soon as possible, that is, the moment it is completely defined, even before the rest of the containing file (or string) is parsed."/>
+</node>
+<node CREATED="1359469327583" ID="ID_940246875" MODIFIED="1366272402102" TEXT="UNITCHECK (LIFO ) &quot;START&quot; -c">
+<icon BUILTIN="full-2"/>
+<node CREATED="1359471118686" ID="ID_1905470394" MODIFIED="1359471120193" TEXT="blocks are run just after the unit which defined them has been compiled."/>
+<node CREATED="1359471157375" FOLDED="true" ID="ID_1255523920" MODIFIED="1366272381277" TEXT="compilation units">
+<node CREATED="1359471203288" ID="ID_1720766310" MODIFIED="1359471308541" TEXT="main program file">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1359471214765" ID="ID_217529554" MODIFIED="1359471310808" TEXT="modules">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1359471237036" ID="ID_644884426" MODIFIED="1359471312868" TEXT="eval">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1359471250001" ID="ID_1940606585" MODIFIED="1359471314697" TEXT="(?{ }) construct in a regex">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1359471266452" ID="ID_499769358" MODIFIED="1359471316720" TEXT="do FILE">
+<icon BUILTIN="full-5"/>
+</node>
+<node CREATED="1359471283571" ID="ID_67521364" MODIFIED="1359471318756" TEXT="require FILE">
+<icon BUILTIN="full-6"/>
+</node>
+<node CREATED="1359471300133" ID="ID_1910351392" MODIFIED="1359471320585" TEXT="code after the -e switch on the command line.">
+<icon BUILTIN="full-7"/>
+</node>
+</node>
+</node>
+<node CREATED="1359469365463" ID="ID_1174478770" MODIFIED="1366272405205" TEXT="CHECK (LIFO ) &quot;CHECK&quot; -c">
+<icon BUILTIN="full-3"/>
+<node CREATED="1359471890914" ID="ID_1953568207" MODIFIED="1359471892817" TEXT="BEGIN and CHECK blocks are run when you use the -c switch for a compile-only syntax check, although your main code is not."/>
+</node>
+<node CREATED="1359469451533" FOLDED="true" ID="ID_715551921" MODIFIED="1366271561749" TEXT="INIT (FIFO)  &quot;INIT&quot;">
+<icon BUILTIN="full-4"/>
+<node CREATED="1359471713893" ID="ID_931768077" MODIFIED="1359471715393" TEXT="The CHECK and INIT blocks in code compiled by require, string do, or string eval will not be executed if they occur after the end of the main compilation phase;"/>
+</node>
+<node CREATED="1359469463465" FOLDED="true" ID="ID_1172133696" MODIFIED="1366271554118" TEXT="END (LIFO) &quot;END&quot;">
+<icon BUILTIN="full-5"/>
+<node CREATED="1359470031480" ID="ID_1716356048" MODIFIED="1359470033043" TEXT="executed as late as possible, that is, after perl has finished running the program and just before the interpreter is being exited, even if it is exiting as a result of a die() function."/>
+<node CREATED="1359470090382" ID="ID_1046460834" MODIFIED="1359470091789" TEXT="But not if it&apos;s morphing into another program via exec, or being blown out of the water by a signal--you have to trap that yourself (if you can)."/>
+<node CREATED="1359470139776" ID="ID_620774278" MODIFIED="1359470142430" TEXT="END blocks are not executed when you run perl with the -c switch, or if compilation fails."/>
+<node CREATED="1359470198129" ID="ID_575521372" MODIFIED="1359470199464" TEXT="Note that END code blocks are not executed at the end of a string eval(): if any END code blocks are created in a string eval(), they will be executed just as any other END code block of that package in LIFO order just before the interpreter is being exited."/>
+<node CREATED="1359470222829" ID="ID_557225836" MODIFIED="1359470224009" TEXT="Inside an END code block, $? contains the value that the program is going to pass to exit(). You can modify $? to change the exit value of the program. Beware of changing $? by accident (e.g. by running something via system)."/>
+<node CREATED="1359470244873" ID="ID_1216419611" MODIFIED="1359470246135" TEXT="${^GLOBAL_PHASE} will be &quot;END&quot;"/>
+</node>
+</node>
+<node CREATED="1359357318927" FOLDED="true" ID="ID_951170996" MODIFIED="1366272417129" TEXT="${^GLOBAL_PHASE}">
+<node CREATED="1359359319363" FOLDED="true" ID="ID_1544976067" MODIFIED="1366271401349" TEXT="CONSTRUCT">
+<icon BUILTIN="full-1"/>
+<node CREATED="1359359346564" ID="ID_254132688" MODIFIED="1359359348685" TEXT="PerlInterpreter*">
+<node CREATED="1359359361335" ID="ID_1727141325" MODIFIED="1359359363219" TEXT="perl_construct"/>
+<node CREATED="1359359392939" ID="ID_1153595363" MODIFIED="1359359394130" TEXT="underlying C variable PL_phase"/>
+</node>
+<node CREATED="1366270583870" ID="ID_1429538705" MODIFIED="1366270585518" TEXT=" It&apos;s not really possible for Perl code to be executed unless construction of the interpreter is finished"/>
+</node>
+<node CREATED="1359359434754" FOLDED="true" ID="ID_1361051226" MODIFIED="1366272356410" TEXT="START">
+<icon BUILTIN="full-2"/>
+<node CREATED="1359359432779" ID="ID_56177867" MODIFIED="1366271146077" TEXT="BEGIN blocks"/>
+<node CREATED="1366271359063" ID="ID_619661786" MODIFIED="1366271380957" TEXT="UNITCHECK blocks"/>
+<node CREATED="1366270639318" ID="ID_361383676" MODIFIED="1366270641277" TEXT="global compile-time"/>
+</node>
+<node CREATED="1359359549869" FOLDED="true" ID="ID_1191199396" MODIFIED="1366271403353" TEXT="CHECK">
+<icon BUILTIN="full-3"/>
+<node CREATED="1359359565762" ID="ID_1282545842" MODIFIED="1359359569290" TEXT="CHECK blocks"/>
+</node>
+<node CREATED="1359359586066" FOLDED="true" ID="ID_407838061" MODIFIED="1366271396578" TEXT="INIT">
+<icon BUILTIN="full-4"/>
+<node CREATED="1359359609392" ID="ID_1675469221" MODIFIED="1366270743709" TEXT="INIT blocks"/>
+</node>
+<node CREATED="1359359623493" FOLDED="true" ID="ID_1818417837" MODIFIED="1366271398313" TEXT="RUN">
+<icon BUILTIN="full-5"/>
+<node CREATED="1366270763238" FOLDED="true" ID="ID_631490269" MODIFIED="1366270783522" TEXT="main run-time">
+<node CREATED="1359359634901" ID="ID_1602445780" MODIFIED="1366270766038" TEXT="PL_main_root"/>
+</node>
+</node>
+<node CREATED="1359359649483" FOLDED="true" ID="ID_1833575031" MODIFIED="1366271154829" TEXT="END">
+<icon BUILTIN="full-6"/>
+<node CREATED="1366271007918" ID="ID_1943374031" MODIFIED="1366271013550" TEXT="END blocks"/>
+</node>
+<node CREATED="1359359677409" FOLDED="true" ID="ID_975306250" MODIFIED="1366271088701" TEXT="DESTRUCT">
+<icon BUILTIN="full-7"/>
+<node CREATED="1366271043870" ID="ID_1483671480" MODIFIED="1366271046847" TEXT="Global destruction"/>
+</node>
+</node>
+</node>
+<node CREATED="1358691358073" FOLDED="true" ID="ID_1409135448" MODIFIED="1366298902327" POSITION="right" TEXT="perlvar">
 <node CREATED="1358696633024" ID="ID_382384475" MODIFIED="1358696818037" TEXT="exempt from the effects of the package declaration and are always forced to be in package main.">
 <icon BUILTIN="full-1"/>
 </node>
@@ -4380,7 +3759,7 @@
 <node CREATED="1358699319075" ID="ID_1963307649" MODIFIED="1358699320704" TEXT="$EUID"/>
 </node>
 </node>
-<node CREATED="1358697814082" ID="ID_1391869897" MODIFIED="1366183011220" TEXT="$_">
+<node CREATED="1358697814082" FOLDED="true" ID="ID_1391869897" MODIFIED="1366272734877" TEXT="$_">
 <node CREATED="1358697871856" ID="ID_210232138" MODIFIED="1358697874364" TEXT="$ARG">
 <node CREATED="1358697906219" ID="ID_174356042" MODIFIED="1358697907748" TEXT="The default input and pattern-searching space.">
 <node CREATED="1358698001940" ID="ID_1928417050" MODIFIED="1358698040941" TEXT="Perl will assume $_ even if you don&apos;t use it.">
@@ -4520,18 +3899,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1358698680633" FOLDED="true" ID="ID_438879620" MODIFIED="1359363023862" TEXT="@_">
+<node CREATED="1358698680633" ID="ID_438879620" MODIFIED="1366272728552" TEXT="@_">
 <node CREATED="1358698690431" ID="ID_1852205058" MODIFIED="1358698691748" TEXT="@ARG">
 <node CREATED="1358698755133" ID="ID_1384530831" MODIFIED="1366263679126" TEXT="default array for the array operators push, pop, shift, and unshift."/>
 <node CREATED="1358698778277" ID="ID_1450497134" MODIFIED="1358698779483" TEXT=" @_ contains the parameters passed to that subroutine"/>
 </node>
 </node>
-<node CREATED="1358698796446" FOLDED="true" ID="ID_1812197354" MODIFIED="1359364291695" TEXT="$&quot;">
+<node CREATED="1358698796446" FOLDED="true" ID="ID_1812197354" MODIFIED="1366272725922" TEXT="$&quot;">
 <node CREATED="1358698815398" ID="ID_707201497" MODIFIED="1359363026360" TEXT="$LIST_SEPARATOR">
 <node CREATED="1358698869603" ID="ID_1574180866" MODIFIED="1366263679126" TEXT="When an array or an array slice is interpolated into a double-quoted string or a similar context such as /.../ , its elements are separated by this value. Default is a space."/>
 </node>
 </node>
-<node CREATED="1358699370531" FOLDED="true" ID="ID_1181852065" MODIFIED="1359364296543" TEXT="$;">
+<node CREATED="1358699370531" FOLDED="true" ID="ID_1181852065" MODIFIED="1366272711149" TEXT="$;">
 <node CREATED="1358699398231" ID="ID_1189548700" MODIFIED="1358699402270" TEXT="$SUBSCRIPT_SEPARATOR"/>
 <node CREATED="1358699411517" ID="ID_421534225" MODIFIED="1358699412664" TEXT="$SUBSEP">
 <node CREATED="1359364201014" ID="ID_1239650711" MODIFIED="1366263679126" TEXT="The subscript separator for multidimensional array emulation.">
@@ -4544,7 +3923,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1358700287390" FOLDED="true" ID="ID_1514180559" MODIFIED="1359362744057" TEXT="sort">
+<node CREATED="1358700287390" FOLDED="true" ID="ID_1514180559" MODIFIED="1366272699627" TEXT="sort">
 <node CREATED="1358700204743" ID="ID_1644744991" MODIFIED="1359362741260" TEXT="$a,$b"/>
 </node>
 <node CREATED="1358700659475" ID="ID_599710168" MODIFIED="1358700856755" TEXT="@INC">
@@ -4568,7 +3947,7 @@
 <node CREATED="1358702906464" ID="ID_1129502243" MODIFIED="1358702908886" TEXT="&apos;DEFAULT&apos;"/>
 <node CREATED="1358702917629" ID="ID_1715964782" MODIFIED="1358702920464" TEXT="&apos;IGNORE&apos;"/>
 </node>
-<node CREATED="1358703510272" FOLDED="true" ID="ID_1541962316" MODIFIED="1359362747241" TEXT="regexp">
+<node CREATED="1358703510272" FOLDED="true" ID="ID_1541962316" MODIFIED="1366272694562" TEXT="regexp">
 <node CREATED="1358703557083" ID="ID_327247280" MODIFIED="1358867659823" TEXT="$` $&amp; $&apos;">
 <node CREATED="1358703722400" FOLDED="true" ID="ID_1000902720" MODIFIED="1358867552708" TEXT="$&amp;">
 <node CREATED="1358703730373" ID="ID_1994474897" MODIFIED="1358703731498" TEXT="$MATCH"/>
@@ -5027,75 +4406,428 @@
 </node>
 </node>
 </node>
-<node CREATED="1358936189823" FOLDED="true" ID="ID_1303380453" MODIFIED="1365955244637" TEXT="perl -i.orig -pe &apos;s/\bfoo\b/bar/g&apos; *.[Cchy]">
-<node CREATED="1358936194817" ID="ID_1045260595" MODIFIED="1358936197488" TEXT="-i">
-<node CREATED="1358936207004" ID="ID_516662842" MODIFIED="1358936215672" TEXT="$^I">
-<node CREATED="1358936217752" ID="ID_1052199308" MODIFIED="1359346337129" TEXT="edited in-place">
-<node CREATED="1359346193520" ID="ID_160044579" MODIFIED="1359346195097" TEXT="specifies that files processed by the &lt;&gt; construct are to be edited in-place. It does this by renaming the input file, opening the output file by the original name, and selecting that output file as the default for print() statements. The extension, if supplied, is used to modify the name of the old file to make a backup copy, following these rules:"/>
+<node CREATED="1358080645743" FOLDED="true" ID="ID_1176601912" MODIFIED="1366289962862" POSITION="right" TEXT="perlfunc">
+<node CREATED="1358080662121" FOLDED="true" ID="ID_1885768746" MODIFIED="1358668811411" TEXT="math">
+<node CREATED="1358087685448" FOLDED="true" ID="ID_60811202" MODIFIED="1358087696470" TEXT="trigonometry ">
+<node CREATED="1358080798255" ID="ID_1402362822" MODIFIED="1358087691863" TEXT="atan2">
+<node CREATED="1358080800382" ID="ID_1834922323" MODIFIED="1358080835222" TEXT="arctan"/>
+</node>
+<node CREATED="1358081249778" ID="ID_617892595" MODIFIED="1358087691861" TEXT="cos"/>
+<node CREATED="1358086784037" ID="ID_971709164" MODIFIED="1358087691860" TEXT="sin"/>
+</node>
+<node CREATED="1358087516186" ID="ID_1539411114" MODIFIED="1358087522122" TEXT="absolute value">
+<node CREATED="1358080676128" ID="ID_1687588591" MODIFIED="1358087525465" TEXT="abs"/>
+</node>
+<node CREATED="1358081251443" ID="ID_184255742" MODIFIED="1358087587904" TEXT="encryption">
+<node CREATED="1358087588838" ID="ID_1771406482" MODIFIED="1358087592682" TEXT="crypt"/>
+</node>
+<node CREATED="1358087437469" FOLDED="true" ID="ID_1600729384" MODIFIED="1358087597280" TEXT="exponent &amp;logarithm">
+<node CREATED="1358081677642" ID="ID_674830467" MODIFIED="1358087482757" TEXT="exp"/>
+<node CREATED="1358083855824" ID="ID_1600211428" MODIFIED="1358087482756" TEXT="log"/>
+<node CREATED="1358086169037" ID="ID_1870085942" MODIFIED="1358087482755" TEXT="sqrt"/>
+</node>
+<node CREATED="1358087294322" FOLDED="true" ID="ID_1784496443" MODIFIED="1358087598779" TEXT="pseudorandom number">
+<node CREATED="1358084879216" ID="ID_26658588" MODIFIED="1358087301047" TEXT="rand"/>
+<node CREATED="1358086167062" ID="ID_506581934" MODIFIED="1358087301027" TEXT="srand"/>
+</node>
+</node>
+<node CREATED="1358081376539" ID="ID_567432545" MODIFIED="1359469752022" TEXT="process">
+<node CREATED="1358089335311" ID="ID_543067770" MODIFIED="1359469752028" TEXT="process control">
+<node CREATED="1358089352988" ID="ID_758913471" MODIFIED="1358089354453" TEXT="fork"/>
+<node CREATED="1358081645914" ID="ID_1600600775" MODIFIED="1358089442406" TEXT="exec"/>
+<node CREATED="1358081381721" ID="ID_1347265649" MODIFIED="1358089439200" TEXT="die"/>
+<node CREATED="1358081659678" ID="ID_387436122" MODIFIED="1358081660777" TEXT="exit"/>
+<node CREATED="1358082122659" ID="ID_1807879964" MODIFIED="1358082129636" TEXT="getpgrp"/>
+<node CREATED="1358085713062" ID="ID_1989449718" MODIFIED="1358085742361" TEXT="setpgrp"/>
+<node CREATED="1358082130298" ID="ID_782551362" MODIFIED="1358082131844" TEXT="getppid"/>
+<node CREATED="1358082139322" ID="ID_392464015" MODIFIED="1358082146830" TEXT="getpriority"/>
+<node CREATED="1358085752861" ID="ID_389038588" MODIFIED="1358085761884" TEXT="setpriority"/>
+<node CREATED="1358082026526" ID="ID_435647870" MODIFIED="1358082039780" TEXT="getlogin"/>
+<node CREATED="1358086574432" ID="ID_1174746696" MODIFIED="1358086575851" TEXT="wait"/>
+<node CREATED="1358086576190" ID="ID_1777920017" MODIFIED="1358086579315" TEXT="waitpid"/>
+</node>
+<node CREATED="1358080708085" ID="ID_1581105259" MODIFIED="1358684801318" TEXT="IPC">
+<node CREATED="1358080685643" ID="ID_533335511" MODIFIED="1358087704391" TEXT="network">
+<node CREATED="1358086080944" ID="ID_606454335" MODIFIED="1358087718784" TEXT="socket"/>
+<node CREATED="1358086056040" FOLDED="true" ID="ID_418009106" MODIFIED="1365955278099" TEXT="shutdown">
+<node CREATED="1358088027852" FOLDED="true" ID="ID_746170171" MODIFIED="1358088094682" TEXT="shutdown SOCKET,HOW">
+<node CREATED="1358088031554" ID="ID_775474317" MODIFIED="1358088033346" TEXT="HOW">
+<node CREATED="1358088061424" ID="ID_799470985" MODIFIED="1358088063215" TEXT="HOW">
+<node CREATED="1358088066669" ID="ID_1563743732" MODIFIED="1358088070955" TEXT="0">
+<node CREATED="1358088034454" ID="ID_861982301" MODIFIED="1358088072225" TEXT="stop reading"/>
+</node>
+<node CREATED="1358088074506" ID="ID_16254685" MODIFIED="1358088075524" TEXT="1">
+<node CREATED="1358088076610" ID="ID_44829106" MODIFIED="1358088080724" TEXT="stop writing"/>
+</node>
+<node CREATED="1358088057809" ID="ID_1716124649" MODIFIED="1358088086671" TEXT="2">
+<node CREATED="1358088087794" ID="ID_398920675" MODIFIED="1358088091867" TEXT="stop using socket"/>
 </node>
 </node>
 </node>
-<node CREATED="1358936336447" ID="ID_455354037" MODIFIED="1358936352429" TEXT="-n">
-<node CREATED="1358936353921" ID="ID_857733150" MODIFIED="1358936355278" TEXT="assume &quot;while (&lt;&gt;) { ... }&quot; loop around program"/>
-</node>
-<node CREATED="1358936336448" ID="ID_1939314583" MODIFIED="1358936364217" TEXT="-p">
-<node CREATED="1358936365753" ID="ID_672160416" MODIFIED="1358936365753" TEXT="assume loop like -n but print line also, like sed"/>
-</node>
-<node CREATED="1358936412718" ID="ID_1839113413" MODIFIED="1358936423230" TEXT="-e program">
-<node CREATED="1358936425284" ID="ID_46970926" MODIFIED="1358936429893" TEXT="one line of program (several -e&apos;s allowed, omit programfile)"/>
-</node>
-<node CREATED="1359350792601" ID="ID_1883477066" MODIFIED="1359350928600">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      -l<i>[octnum]</i>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1359351036160" ID="ID_137389141" MODIFIED="1359351037501" TEXT="enables automatic line-ending processing. It has two separate effects. First, it automatically chomps $/ (the input record separator) when used with -n or -p. Second, it assigns $\ (the output record separator) to have the value of octnum so that any print statements will have that separator added back on. If octnum is omitted, sets $\ to the current value of $/ ."/>
-</node>
-<node CREATED="1359350681589" ID="ID_1569646889" MODIFIED="1359350989981">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      -I<i>directory</i>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1359350701612" ID="ID_684730522" MODIFIED="1359351009635" TEXT="@INC"/>
-</node>
-<node CREATED="1359362568971" ID="ID_180754555" MODIFIED="1359362570992" TEXT="-a">
-<node CREATED="1359362645887" ID="ID_495996410" MODIFIED="1366263679126" TEXT="turns on autosplit mode when used with a -n or -p. An implicit split command to the @F array is done as the first thing inside the implicit while loop produced by the -n or -p."/>
-</node>
-<node CREATED="1359468932419" ID="ID_1608172016" MODIFIED="1359468933475" TEXT="-c">
-<node CREATED="1359468934639" ID="ID_101229551" MODIFIED="1359468935673" TEXT="compile-only syntax check"/>
-</node>
-<node CREATED="1359362571215" ID="ID_1916156582" MODIFIED="1359362602021">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      -F<i>pattern</i>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1359362617903" ID="ID_1133957897" MODIFIED="1359362619194" TEXT="specifies the pattern to split on if -a is also in effect. The pattern may be surrounded by // , &quot;&quot; , or &apos;&apos; , otherwise it will be put in single quotes. You can&apos;t use literal whitespace in the pattern."/>
 </node>
 </node>
-<node CREATED="1355462338875" FOLDED="true" ID="ID_1099640109" MODIFIED="1365955235567" TEXT="OOP">
-<node CREATED="1355471902279" ID="ID_1456000895" MODIFIED="1355471905516" TEXT="bless"/>
-<node CREATED="1355471905736" ID="ID_1531003365" MODIFIED="1355471910281" TEXT="blessed thingy"/>
+<node CREATED="1358080861246" ID="ID_1349266084" MODIFIED="1358087743071" TEXT="bind"/>
+<node CREATED="1358087796298" ID="ID_1024164583" MODIFIED="1358087798603" TEXT="listen"/>
+<node CREATED="1358080690867" ID="ID_208436069" MODIFIED="1358080706508" TEXT="accept"/>
+<node CREATED="1358081190884" ID="ID_370474160" MODIFIED="1358081192726" TEXT="connect"/>
+<node CREATED="1358084965892" ID="ID_1440164293" MODIFIED="1358087803123" TEXT="recv"/>
+<node CREATED="1358085399429" ID="ID_1773751818" MODIFIED="1358087805857" TEXT="send"/>
+<node CREATED="1358082100345" ID="ID_1695248413" MODIFIED="1358082110488" TEXT="getpeername">
+<node CREATED="1358088221309" ID="ID_1682413855" MODIFIED="1358088315868" TEXT="get sockaddr of the other end of the SOCKET connection"/>
 </node>
-<node CREATED="1359350429798" FOLDED="true" ID="ID_888504788" MODIFIED="1365955242767" TEXT="file IO">
-<node CREATED="1358918814744" ID="ID_951598673" MODIFIED="1364052628342" TEXT="open">
+<node CREATED="1358083103440" ID="ID_1694230667" MODIFIED="1358083106194" TEXT="getsockname">
+<node CREATED="1358088318042" ID="ID_331150576" MODIFIED="1358088351619" TEXT="get sockaddr of one&apos;s own of the SOCKET connection"/>
+</node>
+<node CREATED="1358083117819" ID="ID_146303936" MODIFIED="1358083120583" TEXT="getsockopt"/>
+<node CREATED="1358085904370" ID="ID_784744187" MODIFIED="1358085908570" TEXT="setsockopt"/>
+</node>
+<node CREATED="1358080726079" ID="ID_1460017842" MODIFIED="1358088501058" TEXT="signal">
+<node CREATED="1358080730714" ID="ID_1064647370" MODIFIED="1358080732372" TEXT="alarm">
+<node CREATED="1358089036522" ID="ID_1682369195" MODIFIED="1358089139274" TEXT="SIGARLM"/>
+</node>
+<node CREATED="1358083601911" ID="ID_1332358325" MODIFIED="1358083603502" TEXT="kill">
+<node CREATED="1358088614083" ID="ID_749216354" MODIFIED="1358088614083" TEXT="kill SIGNAL, LIST"/>
+</node>
+<node CREATED="1358086074643" ID="ID_712185170" MODIFIED="1358086076196" TEXT="sleep"/>
+<node CREATED="1358088624590" ID="ID_315712428" MODIFIED="1358088628398" TEXT="%SIG">
+<node CREATED="1358088632456" ID="ID_1931181955" MODIFIED="1358088641450" TEXT="sign"/>
+</node>
+</node>
+<node CREATED="1358085344365" FOLDED="true" ID="ID_1479418878" MODIFIED="1358086099272" TEXT="System V IPC">
+<node CREATED="1358085288165" ID="ID_487801177" MODIFIED="1358085333834" TEXT="semaphore">
+<node CREATED="1358085310998" ID="ID_38527501" MODIFIED="1358085387475" TEXT="semget"/>
+<node CREATED="1358085387692" ID="ID_10023853" MODIFIED="1358085390237" TEXT="semctl"/>
+<node CREATED="1358085390466" ID="ID_1431167937" MODIFIED="1358085393323" TEXT="semop"/>
+</node>
+<node CREATED="1358085334420" ID="ID_1009483803" MODIFIED="1358085342847" TEXT="sharedmemory">
+<node CREATED="1358085915388" ID="ID_1975671667" MODIFIED="1358085918109" TEXT="shmget"/>
+<node CREATED="1358085918327" ID="ID_775890341" MODIFIED="1358086005897" TEXT="shmctl"/>
+<node CREATED="1358085921057" ID="ID_1447683323" MODIFIED="1358085923359" TEXT="shmat">
+<node CREATED="1358086014144" ID="ID_1420055533" MODIFIED="1358086037495" TEXT="N/A"/>
+</node>
+<node CREATED="1358086008098" ID="ID_1479169169" MODIFIED="1358086012563" TEXT="shmdt">
+<node CREATED="1358086025000" ID="ID_1312502587" MODIFIED="1358086042321" TEXT="N/A"/>
+</node>
+<node CREATED="1358086043657" ID="ID_1075350407" MODIFIED="1358086046658" TEXT="shmread"/>
+<node CREATED="1358086047043" ID="ID_373113230" MODIFIED="1358086050109" TEXT="shmwrite"/>
+</node>
+<node CREATED="1358083973058" ID="ID_372851457" MODIFIED="1358085381521" TEXT="message">
+<node CREATED="1358083977022" ID="ID_266391740" MODIFIED="1358083980759" TEXT="msgget"/>
+<node CREATED="1358083980982" ID="ID_218721058" MODIFIED="1358083983565" TEXT="msgctl"/>
+<node CREATED="1358083983917" ID="ID_1333224803" MODIFIED="1358083988464" TEXT="msgrcv"/>
+<node CREATED="1358083997859" ID="ID_1000552688" MODIFIED="1358084001510" TEXT="msgsnd"/>
+</node>
+</node>
+<node CREATED="1358084755352" ID="ID_745069954" MODIFIED="1358087186469" TEXT="pipe">
+<node CREATED="1358084942338" ID="ID_315461742" MODIFIED="1358084944322" TEXT="pipe"/>
+<node CREATED="1358084944530" ID="ID_1618696834" MODIFIED="1358084950337" TEXT="readpipe"/>
+<node CREATED="1358084950554" ID="ID_1943013634" MODIFIED="1358084953706" TEXT="writepipe"/>
+<node CREATED="1358087180808" ID="ID_331028245" MODIFIED="1358087184436" TEXT="close"/>
+<node CREATED="1358086088252" ID="ID_1861739110" MODIFIED="1358087718804" TEXT="socketpair"/>
+</node>
+</node>
+</node>
+<node CREATED="1358080876695" ID="ID_1286427133" MODIFIED="1365955299409" TEXT="IO">
+<node CREATED="1358080880091" ID="ID_850955420" MODIFIED="1358080884270" TEXT="binmode"/>
+<node CREATED="1358081178566" ID="ID_241415705" MODIFIED="1358081181278" TEXT="close"/>
+<node CREATED="1358084514025" ID="ID_699576318" MODIFIED="1358084515345" TEXT="open"/>
+<node CREATED="1358081598389" ID="ID_1058157677" MODIFIED="1358081600396" TEXT="eof"/>
+<node CREATED="1358081850229" ID="ID_1806901978" MODIFIED="1358081852551" TEXT="fcntl"/>
+<node CREATED="1358081853563" ID="ID_1475580406" MODIFIED="1358081855778" TEXT="fileno"/>
+<node CREATED="1358081857068" ID="ID_1780870985" MODIFIED="1358081860347" TEXT="flock"/>
+<node CREATED="1358081938987" ID="ID_1748719911" MODIFIED="1358081940539" TEXT="getc"/>
+<node CREATED="1358086432512" ID="ID_463318243" MODIFIED="1358086437944" TEXT="truncate"/>
+<node CREATED="1358086650408" ID="ID_181006883" MODIFIED="1358086652029" TEXT="write"/>
+<node CREATED="1358086369788" ID="ID_1261629834" MODIFIED="1358086370778" TEXT="tell"/>
+<node CREATED="1358085122631" ID="ID_814883977" MODIFIED="1358085194586" TEXT="say"/>
+<node CREATED="1358083518511" ID="ID_598778081" MODIFIED="1358083521311" TEXT="ioctl"/>
+<node CREATED="1358084802647" ID="ID_873431396" MODIFIED="1358084804267" TEXT="print"/>
+<node CREATED="1358084805498" ID="ID_105287996" MODIFIED="1358084806858" TEXT="printf"/>
+<node CREATED="1358084889959" ID="ID_1085117565" MODIFIED="1358084890864" TEXT="read"/>
+<node CREATED="1358084896429" ID="ID_46997567" MODIFIED="1358084898888" TEXT="readline"/>
+<node CREATED="1358085241753" ID="ID_1097778197" MODIFIED="1358085243750" TEXT="seekdir"/>
+</node>
+<node CREATED="1358086326863" ID="ID_1515097854" MODIFIED="1365955297695" TEXT="sys">
+<node CREATED="1358086330695" ID="ID_1539865327" MODIFIED="1358086333396" TEXT="syscall"/>
+<node CREATED="1358086333618" ID="ID_140265834" MODIFIED="1358086337158" TEXT="sysopen"/>
+<node CREATED="1358086337585" ID="ID_1656616492" MODIFIED="1358086340413" TEXT="sysread"/>
+<node CREATED="1358086340644" ID="ID_705175937" MODIFIED="1358086343073" TEXT="syswrite"/>
+<node CREATED="1358086343293" ID="ID_611289906" MODIFIED="1358086347615" TEXT="sysseek"/>
+<node CREATED="1358086348473" ID="ID_1568214592" MODIFIED="1358086351851" TEXT="system"/>
+</node>
+<node CREATED="1358085202957" ID="ID_1945007109" MODIFIED="1365955303021" TEXT="log">
+<node CREATED="1358085209245" ID="ID_1363000416" MODIFIED="1358085211376" TEXT="say"/>
+<node CREATED="1358085211610" ID="ID_1810135812" MODIFIED="1358085212383" TEXT="die"/>
+<node CREATED="1358085212662" ID="ID_1586774277" MODIFIED="1358085215101" TEXT="warn"/>
+</node>
+<node CREATED="1358081314543" ID="ID_237249980" MODIFIED="1365955305308" TEXT="dbm">
+<node CREATED="1358081319909" ID="ID_132977828" MODIFIED="1358081324005" TEXT="dbmclose"/>
+<node CREATED="1358081324259" ID="ID_173200547" MODIFIED="1358081327297" TEXT="dbmopen"/>
+</node>
+<node CREATED="1358081098933" FOLDED="true" ID="ID_1730126488" MODIFIED="1366036327047" TEXT="fs">
+<node CREATED="1358081102534" ID="ID_1960925866" MODIFIED="1358081105058" TEXT="chdir"/>
+<node CREATED="1358081108167" ID="ID_983120451" MODIFIED="1358081114826" TEXT="chmod"/>
+<node CREATED="1358081143410" ID="ID_1337657468" MODIFIED="1358081146081" TEXT="chown"/>
+<node CREATED="1358083790060" ID="ID_152390082" MODIFIED="1358083791240" TEXT="link"/>
+<node CREATED="1358085254529" ID="ID_153076306" MODIFIED="1358085257995" TEXT="seekdir"/>
+<node CREATED="1358085116889" ID="ID_1932335679" MODIFIED="1358085118747" TEXT="rmdir"/>
+<node CREATED="1358084524697" ID="ID_1800223848" MODIFIED="1358084526859" TEXT="opendir"/>
+<node CREATED="1358086178784" ID="ID_1786867871" MODIFIED="1358086181069" TEXT="stat"/>
+<node CREATED="1358086380150" ID="ID_1786088971" MODIFIED="1358086381891" TEXT="telldir"/>
+<node CREATED="1358086474681" ID="ID_1249206635" MODIFIED="1358086477084" TEXT="umask"/>
+<node CREATED="1358085274985" ID="ID_679411344" MODIFIED="1358085279553" TEXT="select"/>
+<node CREATED="1358085101711" ID="ID_1786107875" MODIFIED="1358085106469" TEXT="rewinddir"/>
+<node CREATED="1358083880014" ID="ID_120716681" MODIFIED="1358083881595" TEXT="lstat"/>
+<node CREATED="1358083918907" ID="ID_843604401" MODIFIED="1358083921142" TEXT="mkdir"/>
+<node CREATED="1358084918065" ID="ID_747618990" MODIFIED="1358084921908" TEXT="readlink"/>
+<node CREATED="1358084925501" ID="ID_1110782156" MODIFIED="1358084927563" TEXT="readdir"/>
+<node CREATED="1358085035819" ID="ID_1339502465" MODIFIED="1358085036923" TEXT="rename"/>
+<node CREATED="1358086263265" ID="ID_404943840" MODIFIED="1358086266231" TEXT="symlink"/>
+<node CREATED="1358086523027" ID="ID_617505738" MODIFIED="1358086524289" TEXT="utime"/>
+</node>
+<node CREATED="1358083395613" FOLDED="true" ID="ID_113700686" MODIFIED="1366036329535" TEXT="container">
+<node CREATED="1358081118320" ID="ID_187058832" MODIFIED="1358085141807" TEXT="string">
+<node CREATED="1358081122603" ID="ID_633085627" MODIFIED="1358081136809" TEXT="chomp"/>
+<node CREATED="1358081125983" ID="ID_439205" MODIFIED="1358081139231" TEXT="chop"/>
+<node CREATED="1358081160404" ID="ID_1205894106" MODIFIED="1358081166987" TEXT="chr"/>
+<node CREATED="1358084534879" ID="ID_1222725303" MODIFIED="1358084540662" TEXT="ord"/>
+<node CREATED="1358083383164" ID="ID_868714020" MODIFIED="1358083384394" TEXT="hex"/>
+<node CREATED="1358083505189" ID="ID_1226092082" MODIFIED="1358083506425" TEXT="index"/>
+<node CREATED="1358083559611" ID="ID_1692410495" MODIFIED="1358083563000" TEXT="join"/>
+<node CREATED="1358083657450" ID="ID_1796860435" MODIFIED="1358083659049" TEXT="lc">
+<node CREATED="1358083675933" ID="ID_325807280" MODIFIED="1358083696341" TEXT="\L...\E"/>
+</node>
+<node CREATED="1358083667458" ID="ID_603592798" MODIFIED="1358083684730" TEXT="lcfirst">
+<node CREATED="1358083671717" ID="ID_1948474742" MODIFIED="1358083698630" TEXT="\l"/>
+</node>
+<node CREATED="1358083685234" ID="ID_1476681442" MODIFIED="1358083687885" TEXT="uc">
+<node CREATED="1358083701605" ID="ID_1165916732" MODIFIED="1358083707277" TEXT="\U...\E"/>
+</node>
+<node CREATED="1358083688178" ID="ID_1710615625" MODIFIED="1358083691538" TEXT="ucfirst">
+<node CREATED="1358083708698" ID="ID_912535282" MODIFIED="1358083712397" TEXT="\u"/>
+</node>
+<node CREATED="1358083776769" ID="ID_1549605664" MODIFIED="1358083782649" TEXT="length"/>
+<node CREATED="1358086254440" ID="ID_355579568" MODIFIED="1358086256316" TEXT="substr"/>
+<node CREATED="1358084780458" ID="ID_946835131" MODIFIED="1358084782377" TEXT="pos"/>
+<node CREATED="1358084740817" ID="ID_1721885330" MODIFIED="1358084742368" TEXT="pack"/>
+<node CREATED="1358084742584" ID="ID_1325325634" MODIFIED="1358084743873" TEXT="unpack"/>
+<node CREATED="1358085145875" ID="ID_1355681441" MODIFIED="1358085147821" TEXT="rindex"/>
+<node CREATED="1358085148591" ID="ID_637179781" MODIFIED="1358085154047" TEXT="reverse"/>
+<node CREATED="1358086149930" ID="ID_1481399082" MODIFIED="1358086153758" TEXT="sprintf"/>
+<node CREATED="1358086563620" ID="ID_544336076" MODIFIED="1358086564687" TEXT="vec"/>
+</node>
+<node CREATED="1358083255221" ID="ID_1704399897" MODIFIED="1358085168562" TEXT="list">
+<node CREATED="1358083267462" ID="ID_37682861" MODIFIED="1358083269751" TEXT="grep">
+<node CREATED="1358083361819" ID="ID_388031128" MODIFIED="1358083371096" TEXT="like &quot;filter&quot; in python"/>
+</node>
+<node CREATED="1358083332140" ID="ID_963744658" MODIFIED="1358083334107" TEXT="map">
+<node CREATED="1358083336624" ID="ID_1444413198" MODIFIED="1358083360021" TEXT="like &quot;map&quot; in python"/>
+</node>
+<node CREATED="1358084787820" ID="ID_1006193065" MODIFIED="1358084790054" TEXT="pop"/>
+<node CREATED="1358084821851" ID="ID_1853617348" MODIFIED="1358084825665" TEXT="shift"/>
+<node CREATED="1358084825915" ID="ID_1984028152" MODIFIED="1358084827757" TEXT="unshift"/>
+<node CREATED="1358085157676" ID="ID_1594342274" MODIFIED="1358085162056" TEXT="reverse"/>
+<node CREATED="1358086121123" ID="ID_1059224655" MODIFIED="1358086123935" TEXT="sort"/>
+<node CREATED="1358086137415" ID="ID_523836324" MODIFIED="1358086139234" TEXT="splice"/>
+</node>
+<node CREATED="1358081361819" ID="ID_634852350" MODIFIED="1358086552075" TEXT="hash">
+<node CREATED="1358081365090" ID="ID_1145700456" MODIFIED="1358081367746" TEXT="delete"/>
+<node CREATED="1358081455293" ID="ID_631061574" MODIFIED="1358081458287" TEXT="each"/>
+<node CREATED="1358081655141" ID="ID_42688653" MODIFIED="1358081656978" TEXT="exists"/>
+<node CREATED="1358083575036" ID="ID_1926415625" MODIFIED="1358083576038" TEXT="keys"/>
+<node CREATED="1358086554612" ID="ID_568674942" MODIFIED="1358086557376" TEXT="values"/>
+</node>
+</node>
+<node CREATED="1358083186669" ID="ID_890314730" MODIFIED="1365955314806" TEXT="time">
+<node CREATED="1358083192032" ID="ID_511107990" MODIFIED="1358083195209" TEXT="gmtime"/>
+<node CREATED="1358083829077" ID="ID_822014256" MODIFIED="1358083831199" TEXT="localtime"/>
+<node CREATED="1358086410267" ID="ID_275830332" MODIFIED="1358086411136" TEXT="time"/>
+<node CREATED="1358086416856" ID="ID_955117046" MODIFIED="1358086418033" TEXT="times"/>
+</node>
+<node CREATED="1358083839717" ID="ID_1330291343" MODIFIED="1365955316204" TEXT="thread">
+<node CREATED="1358083842150" ID="ID_462030536" MODIFIED="1358083844363" TEXT="lock"/>
+</node>
+<node CREATED="1358081525781" ID="ID_1592995418" MODIFIED="1365955317223" TEXT="etc">
+<node CREATED="1358082371724" ID="ID_49505826" MODIFIED="1358082766707" TEXT="networks">
+<node CREATED="1358085426115" ID="ID_1818734707" MODIFIED="1358085427139" TEXT="get">
+<node CREATED="1358082057054" ID="ID_1409846831" MODIFIED="1358085431355" TEXT="getnetbyaddr"/>
+<node CREATED="1358082060787" ID="ID_1870864292" MODIFIED="1358082963206" TEXT="getnetbyname"/>
+<node CREATED="1358082064029" ID="ID_1693254762" MODIFIED="1358082963204" TEXT="getnetent"/>
+</node>
+<node CREATED="1358085442008" ID="ID_1800670239" MODIFIED="1358085442628" TEXT="set">
+<node CREATED="1358085444650" ID="ID_815158516" MODIFIED="1358085647727" TEXT="setnetent"/>
+</node>
+<node CREATED="1358085435542" ID="ID_649132345" MODIFIED="1358085437265" TEXT="end">
+<node CREATED="1358081537866" ID="ID_112385337" MODIFIED="1358085439686" TEXT="endnetent"/>
+</node>
+</node>
+<node CREATED="1358082386373" ID="ID_1537864540" MODIFIED="1358082768391" TEXT="services">
+<node CREATED="1358085456101" ID="ID_1842936038" MODIFIED="1358085456760" TEXT="end">
+<node CREATED="1358081552710" ID="ID_1276845890" MODIFIED="1358085460721" TEXT="endservent"/>
+</node>
+<node CREATED="1358085463116" ID="ID_1075300767" MODIFIED="1358085463981" TEXT="get">
+<node CREATED="1358083064875" ID="ID_660366524" MODIFIED="1358083074523" TEXT="getservbyname"/>
+<node CREATED="1358083074677" ID="ID_1466168417" MODIFIED="1358083078613" TEXT="getservbyport"/>
+<node CREATED="1358083078856" ID="ID_217235763" MODIFIED="1358083085587" TEXT="getservent"/>
+</node>
+<node CREATED="1358085469951" ID="ID_427299195" MODIFIED="1358085470524" TEXT="set">
+<node CREATED="1358085634204" ID="ID_1806190921" MODIFIED="1358085639513" TEXT="setservent"/>
+</node>
+</node>
+<node CREATED="1358082773486" ID="ID_1577490214" MODIFIED="1358082775867" TEXT="hosts">
+<node CREATED="1358085476361" ID="ID_1358675009" MODIFIED="1358085477287" TEXT="get">
+<node CREATED="1358082008078" ID="ID_525487057" MODIFIED="1358085479620" TEXT="gethostbyname"/>
+<node CREATED="1358082000091" ID="ID_1323455425" MODIFIED="1358085479619" TEXT="gethostbyaddr"/>
+<node CREATED="1358082014798" ID="ID_32690476" MODIFIED="1358085479618" TEXT="gethostent"/>
+</node>
+<node CREATED="1358085474068" ID="ID_718228267" MODIFIED="1358085475500" TEXT="set">
+<node CREATED="1358085625974" ID="ID_1184504494" MODIFIED="1358085629778" TEXT="sethostent"/>
+</node>
+<node CREATED="1358085482250" ID="ID_1437020058" MODIFIED="1358085482787" TEXT="end">
+<node CREATED="1358081533756" ID="ID_80395760" MODIFIED="1358082977029" TEXT="endhostent"/>
+</node>
+</node>
+<node CREATED="1358082390636" ID="ID_839676656" MODIFIED="1358082398652" TEXT="paswd">
+<node CREATED="1358085493597" ID="ID_1507539403" MODIFIED="1358085494233" TEXT="get">
+<node CREATED="1358082174987" ID="ID_236795573" MODIFIED="1358085495976" TEXT="getpwent"/>
+<node CREATED="1358082184688" ID="ID_829867864" MODIFIED="1358085495975" TEXT="getpwuid"/>
+</node>
+<node CREATED="1358085499021" ID="ID_910509957" MODIFIED="1358085499773" TEXT="set">
+<node CREATED="1358085667601" ID="ID_998551457" MODIFIED="1358085672168" TEXT="setpwent"/>
+</node>
+<node CREATED="1358085501189" ID="ID_591713265" MODIFIED="1358085503367" TEXT="end">
+<node CREATED="1358081549191" ID="ID_195408355" MODIFIED="1358083006519" TEXT="endpwent"/>
+</node>
+</node>
+<node CREATED="1358082398894" ID="ID_1182330500" MODIFIED="1358082784621" TEXT="group">
+<node CREATED="1358085512091" ID="ID_1354713528" MODIFIED="1358085513409" TEXT="get">
+<node CREATED="1358081968759" ID="ID_458245722" MODIFIED="1358085566848" TEXT="getgrent"/>
+<node CREATED="1358081993436" ID="ID_297266582" MODIFIED="1358082913611" TEXT="getgrnam"/>
+<node CREATED="1358081974297" ID="ID_1288550285" MODIFIED="1358082916389" TEXT="getgrgid"/>
+</node>
+<node CREATED="1358085518527" ID="ID_1667768143" MODIFIED="1358085519135" TEXT="set">
+<node CREATED="1358085554455" ID="ID_739006953" MODIFIED="1358085573358" TEXT="setgrent"/>
+</node>
+<node CREATED="1358085520649" ID="ID_1486695289" MODIFIED="1358085523080" TEXT="end">
+<node CREATED="1358081530137" ID="ID_1641975584" MODIFIED="1358085524698" TEXT="endgrent"/>
+</node>
+</node>
+<node CREATED="1358082875045" ID="ID_1155727238" MODIFIED="1358082879529" TEXT="protocols">
+<node CREATED="1358085528826" ID="ID_238012881" MODIFIED="1358085529509" TEXT="get">
+<node CREATED="1358082147177" ID="ID_1446708965" MODIFIED="1358085530685" TEXT="getprotobyname"/>
+<node CREATED="1358082151590" ID="ID_1640905379" MODIFIED="1358082160720" TEXT="getprotobynumber"/>
+<node CREATED="1358082161829" ID="ID_1771269932" MODIFIED="1358082166840" TEXT="getprotoent"/>
+</node>
+<node CREATED="1358085536284" ID="ID_1069544770" MODIFIED="1358085537017" TEXT="end">
+<node CREATED="1358081544765" ID="ID_819815159" MODIFIED="1358082992113" TEXT="endprotoent"/>
+</node>
+<node CREATED="1358085539558" ID="ID_472820614" MODIFIED="1358085540234" TEXT="set">
+<node CREATED="1358085676400" ID="ID_546886046" MODIFIED="1358085687162" TEXT="setprotoent"/>
+</node>
+</node>
+</node>
+<node CREATED="1358080996801" FOLDED="true" ID="ID_1361782498" MODIFIED="1365955261761" TEXT="package/module">
+<node CREATED="1358080999725" ID="ID_1680599881" MODIFIED="1358081006167" TEXT="AUTOLOAD"/>
+<node CREATED="1358081275654" ID="ID_421829602" MODIFIED="1358081281809" TEXT="DESTROY"/>
+<node CREATED="1358081022685" ID="ID_1641207899" MODIFIED="1358081027082" TEXT="BEGIN"/>
+<node CREATED="1358081059436" ID="ID_1765749621" MODIFIED="1358081065610" TEXT="CHECK"/>
+<node CREATED="1358081437457" ID="ID_165059757" MODIFIED="1358081438806" TEXT="END"/>
+<node CREATED="1358081282577" ID="ID_646459407" MODIFIED="1358668880070" TEXT="__DATA__"/>
+<node CREATED="1358081439104" ID="ID_769685283" MODIFIED="1358081442197" TEXT="__END__"/>
+<node CREATED="1358081691230" ID="ID_991265478" MODIFIED="1358081694610" TEXT="__FILE__"/>
+<node CREATED="1358085176581" ID="ID_1685619381" MODIFIED="1358668881908" TEXT="__SUB__"/>
+<node CREATED="1358083622780" ID="ID_1963899444" MODIFIED="1358668884745" TEXT="__LINE__"/>
+<node CREATED="1358084714368" ID="ID_698036040" MODIFIED="1358668886819" TEXT="__PACKAGE__"/>
+<node CREATED="1358083454385" ID="ID_618255677" MODIFIED="1358083458119" TEXT="INIT"/>
+<node CREATED="1358085049756" ID="ID_196702131" MODIFIED="1358085054134" TEXT="require"/>
+<node CREATED="1358083469183" ID="ID_1388624307" MODIFIED="1358083471275" TEXT="import"/>
+<node CREATED="1358084721992" ID="ID_1657398147" MODIFIED="1358084724913" TEXT="package"/>
+</node>
+<node CREATED="1358081080772" ID="ID_1762955681" MODIFIED="1358668911227" TEXT="debug">
+<node CREATED="1358081087373" ID="ID_1803011167" MODIFIED="1358081089231" TEXT="caller"/>
+<node CREATED="1358081407262" ID="ID_1519981412" MODIFIED="1358081408757" TEXT="dump"/>
+</node>
+<node CREATED="1358081047647" FOLDED="true" ID="ID_529961239" MODIFIED="1359793141846" TEXT="control">
+<node CREATED="1358081050777" ID="ID_140364035" MODIFIED="1358081053022" TEXT="break"/>
+<node CREATED="1358081224423" ID="ID_1397633532" MODIFIED="1358081229340" TEXT="continue"/>
+<node CREATED="1358081466824" ID="ID_56968474" MODIFIED="1358081469595" TEXT="else"/>
+<node CREATED="1358081469944" ID="ID_173574461" MODIFIED="1358081475404" TEXT="elseif"/>
+<node CREATED="1358081475630" ID="ID_1468145484" MODIFIED="1358081480728" TEXT="elsif"/>
+<node CREATED="1358081874152" ID="ID_1132494598" MODIFIED="1358081874837" TEXT="for"/>
+<node CREATED="1358081883803" ID="ID_1861032560" MODIFIED="1358081886664" TEXT="foreach"/>
+<node CREATED="1358083151970" ID="ID_1487066774" MODIFIED="1358083155705" TEXT="given"/>
+<node CREATED="1358086683052" ID="ID_127217843" MODIFIED="1358086684600" TEXT="while"/>
+<node CREATED="1358086684877" ID="ID_41936425" MODIFIED="1358086686613" TEXT="when"/>
+<node CREATED="1358085086340" ID="ID_1800014933" MODIFIED="1358085087577" TEXT="return"/>
+<node CREATED="1358083215832" ID="ID_1791874759" MODIFIED="1358083217434" TEXT="goto"/>
+<node CREATED="1358085005216" ID="ID_380898836" MODIFIED="1358085006830" TEXT="redo"/>
+<node CREATED="1358083418995" ID="ID_1020312086" MODIFIED="1358083419593" TEXT="if"/>
+<node CREATED="1358083641290" ID="ID_599261580" MODIFIED="1358083642154" TEXT="last"/>
+<node CREATED="1358084487259" ID="ID_193530731" MODIFIED="1358084488919" TEXT="next"/>
+<node CREATED="1358086506103" ID="ID_1517284809" MODIFIED="1358086508068" TEXT="unless"/>
+<node CREATED="1358086508571" ID="ID_163235212" MODIFIED="1358086510551" TEXT="until"/>
+</node>
+<node CREATED="1358081036633" ID="ID_1415133557" MODIFIED="1358081038556" TEXT="oop">
+<node CREATED="1358081039494" ID="ID_258922754" MODIFIED="1358081042816" TEXT="bless"/>
+</node>
+<node CREATED="1358080932079" FOLDED="true" ID="ID_1658392914" MODIFIED="1359793135105" TEXT="operator">
+<node CREATED="1358080937989" ID="ID_1063507466" MODIFIED="1358081011061" TEXT="and"/>
+<node CREATED="1358083748382" ID="ID_410189467" MODIFIED="1358083749298" TEXT="or"/>
+<node CREATED="1358083749724" ID="ID_1758918385" MODIFIED="1358086718423" TEXT="xor (x)"/>
+<node CREATED="1358083754882" ID="ID_832042492" MODIFIED="1358083755777" TEXT="not"/>
+<node CREATED="1358081209843" ID="ID_1203472333" MODIFIED="1358081212419" TEXT="cmp"/>
+<node CREATED="1358081609133" ID="ID_1526607436" MODIFIED="1358081609809" TEXT="eq"/>
+<node CREATED="1358081926712" ID="ID_1326394156" MODIFIED="1358081927554" TEXT="ge"/>
+<node CREATED="1358083280905" ID="ID_34265582" MODIFIED="1358083281582" TEXT="gt"/>
+<node CREATED="1358083730366" ID="ID_1903534664" MODIFIED="1358083731946" TEXT="el"/>
+<node CREATED="1358083737971" ID="ID_436215398" MODIFIED="1358083738790" TEXT="ne"/>
+<node CREATED="1358083741671" ID="ID_1755252565" MODIFIED="1358083743236" TEXT="lt"/>
+<node CREATED="1358086447649" ID="ID_750718698" MODIFIED="1358086452781" TEXT="tr"/>
+<node CREATED="1358083900238" ID="ID_1060371754" MODIFIED="1358083901407" TEXT="m"/>
+<node CREATED="1358083901612" ID="ID_1843481604" MODIFIED="1358083902535" TEXT="s"/>
+<node CREATED="1358086701148" ID="ID_789571518" MODIFIED="1358086707096" TEXT="-X"/>
+</node>
+<node CREATED="1358081581610" ID="ID_877952650" MODIFIED="1359793135901" TEXT="others">
+<node CREATED="1358081415137" ID="ID_1941995407" MODIFIED="1358081416571" TEXT="do"/>
+<node CREATED="1358085022338" ID="ID_909886617" MODIFIED="1358085025424" TEXT="ref"/>
+<node CREATED="1358084462117" ID="ID_1502410358" MODIFIED="1358084462927" TEXT="use"/>
+<node CREATED="1358084463236" ID="ID_1384044423" MODIFIED="1358084464523" TEXT="no"/>
+<node CREATED="1358084468383" ID="ID_735210404" MODIFIED="1358084470623" TEXT="import"/>
+<node CREATED="1358081574490" ID="ID_1780316093" MODIFIED="1358081577971" TEXT="eval"/>
+<node CREATED="1358081631328" ID="ID_572295148" MODIFIED="1358081634473" TEXT="evalbytes"/>
+<node CREATED="1358083535854" ID="ID_812026051" MODIFIED="1358083537690" TEXT="int"/>
+<node CREATED="1358081343390" ID="ID_75205587" MODIFIED="1358081347657" TEXT="default"/>
+<node CREATED="1358085079882" ID="ID_1742363486" MODIFIED="1358085082204" TEXT="return"/>
+<node CREATED="1358085225981" ID="ID_1727734729" MODIFIED="1358085231021" TEXT="scalar"/>
+<node CREATED="1358086588372" ID="ID_1967273202" MODIFIED="1366263679126" TEXT="wantarray"/>
+<node CREATED="1358086196607" ID="ID_820105919" MODIFIED="1358086210010" TEXT="variable modifier">
+<node CREATED="1358086193687" ID="ID_744372671" MODIFIED="1358086217049" TEXT="state"/>
+<node CREATED="1358083539435" ID="ID_1077755986" MODIFIED="1358086220622" TEXT="local"/>
+<node CREATED="1358084447061" ID="ID_810757855" MODIFIED="1358086226946" TEXT="my"/>
+<node CREATED="1358084653648" ID="ID_699519098" MODIFIED="1358086226920" TEXT="our"/>
+</node>
+<node CREATED="1358085066938" ID="ID_1150131106" MODIFIED="1358085070410" TEXT="reset"/>
+<node CREATED="1358086490633" ID="ID_188560791" MODIFIED="1358086493628" TEXT="undef"/>
+<node CREATED="1358086493856" ID="ID_1437117066" MODIFIED="1358086497706" TEXT="untie"/>
+<node CREATED="1358086398130" ID="ID_1414381163" MODIFIED="1358086399346" TEXT="tie"/>
+<node CREATED="1358086399913" ID="ID_1224727773" MODIFIED="1358086400882" TEXT="tied"/>
+<node CREATED="1358086232053" ID="ID_1204390791" MODIFIED="1358086232855" TEXT="sub"/>
+<node CREATED="1358081350413" ID="ID_1329987416" MODIFIED="1358081352666" TEXT="defined"/>
+<node CREATED="1358081835315" ID="ID_1500629323" MODIFIED="1358081835946" TEXT="fc"/>
+<node CREATED="1358081909854" ID="ID_1265310997" MODIFIED="1358081912136" TEXT="format"/>
+<node CREATED="1358081912521" ID="ID_1606911256" MODIFIED="1358081915725" TEXT="formline"/>
+<node CREATED="1358083172955" ID="ID_971824972" MODIFIED="1358083175104" TEXT="glob"/>
+<node CREATED="1358084838381" ID="ID_144072447" MODIFIED="1358084843891" TEXT="prototype"/>
+<node CREATED="1358084850270" ID="ID_1016738148" MODIFIED="1358084850754" TEXT="q"/>
+<node CREATED="1358084851207" ID="ID_348779203" MODIFIED="1358084851966" TEXT="qq"/>
+<node CREATED="1358084852217" ID="ID_289809520" MODIFIED="1358084853316" TEXT="qr"/>
+<node CREATED="1358084853599" ID="ID_838922109" MODIFIED="1358084858000" TEXT="quotemata"/>
+<node CREATED="1358084859583" ID="ID_785859508" MODIFIED="1358084860523" TEXT="qw"/>
+<node CREATED="1358084860751" ID="ID_575609249" MODIFIED="1358084862811" TEXT="qx"/>
+</node>
+</node>
+<node CREATED="1359350429798" FOLDED="true" ID="ID_888504788" MODIFIED="1366298903982" POSITION="right" TEXT="file IO">
+<node CREATED="1358918814744" FOLDED="true" ID="ID_951598673" MODIFIED="1366272542718" TEXT="open">
 <node CREATED="1358918915099" ID="ID_289663009" MODIFIED="1358918915099" TEXT="open FILEHANDLE,EXPR"/>
 <node CREATED="1358918915099" ID="ID_1684105605" MODIFIED="1358918915099" TEXT="open FILEHANDLE,MODE,EXPR"/>
 <node CREATED="1358918915099" ID="ID_126899348" MODIFIED="1358918915099" TEXT="open FILEHANDLE,MODE,EXPR,LIST"/>
@@ -5188,14 +4920,349 @@
 <node CREATED="1359350440571" ID="ID_601244509" MODIFIED="1359350631993" TEXT="unlink">
 <node CREATED="1359350550370" ID="ID_41696409" MODIFIED="1359350551602" TEXT="unlink LIST "/>
 </node>
-<node CREATED="1359693138792" ID="ID_1981190139" MODIFIED="1359700232740" TEXT="buffer">
+<node CREATED="1359693138792" FOLDED="true" ID="ID_1981190139" MODIFIED="1366272540793" TEXT="buffer">
 <node CREATED="1359693153193" ID="ID_730057064" MODIFIED="1359693153193" TEXT="Block buffering"/>
 <node CREATED="1359693889529" ID="ID_990730015" MODIFIED="1359693894916" TEXT="Line buffering"/>
 <node CREATED="1359693901372" ID="ID_560903670" MODIFIED="1359693930646" TEXT="Command buffering"/>
 </node>
 </node>
+<node CREATED="1365607710540" FOLDED="true" ID="ID_518375852" MODIFIED="1366298905034" POSITION="right" TEXT="range operator (.. or ...)">
+<node CREATED="1365607726987" FOLDED="true" ID="ID_517072563" MODIFIED="1365608869299" TEXT="list context">
+<node CREATED="1365608476940" ID="ID_1349555061" MODIFIED="1365608478441" TEXT="@alphabet = (&quot;A&quot; .. &quot;Z&quot;);"/>
+<node CREATED="1365608547620" ID="ID_1074674097" MODIFIED="1365608549057" TEXT="$hexdigit = (0 .. 9, &quot;a&quot; .. &quot;f&quot;)[$num &amp; 15];"/>
+<node CREATED="1365608635731" ID="ID_429836759" MODIFIED="1365608637042" TEXT="@z2 = (&quot;01&quot; .. &quot;31&quot;);"/>
+<node CREATED="1365608662811" ID="ID_567429682" MODIFIED="1365608683081">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      use charnames &quot;greek&quot;;
+    </p>
+    <p>
+      my @greek_small =&#160;&#160;(&quot;\N{alpha}&quot; .. &quot;\N{omega}&quot;);
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1359643310097" FOLDED="true" ID="ID_871520906" MODIFIED="1365554509476" POSITION="right" TEXT="thingy (ref EXPR)">
+<node CREATED="1365608863556" ID="ID_884746181" MODIFIED="1365608865281" TEXT="@list = (2.18 .. 3.14); # same as @list = (2 .. 3);"/>
+</node>
+<node CREATED="1365607731635" ID="ID_1506213818" MODIFIED="1365608173277" TEXT="scalar context">
+<node CREATED="1365607741108" FOLDED="true" ID="ID_330201647" MODIFIED="1365608435322" TEXT=".. (awk style)">
+<node CREATED="1365608093724" ID="ID_321751588" MODIFIED="1365608118504" TEXT="test the right operand on the same evaluation it became true"/>
+<node CREATED="1365608224755" ID="ID_42247002" MODIFIED="1365608400404">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">
+      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#160;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">&quot; - Foo&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(205, 85, 85)">&quot;01 - Bar&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(205, 85, 85)">&quot;1 - Baz&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(205, 85, 85)">&quot; - Quux&quot;</font><font size="3" color="rgb(0, 0, 0)">);</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#160;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#160;</font><font color="rgb(205, 85, 85)" size="3">&quot;$_\n&quot;</font><font color="rgb(0, 0, 0)" size="3">;</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font color="rgb(0, 0, 0)" size="3">}</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font color="rgb(0, 0, 0)" size="3">}</font>
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+<node CREATED="1365608320036" ID="ID_1080217814" MODIFIED="1365608323787" TEXT="output">
+<node CREATED="1365608325259" ID="ID_1701699155" MODIFIED="1365608366897" TEXT="01 - Bar"/>
+</node>
+</node>
+</node>
+<node CREATED="1365607751331" FOLDED="true" ID="ID_1875005071" MODIFIED="1365608434066" TEXT="... (sed style)">
+<node CREATED="1365608133166" ID="ID_905658339" MODIFIED="1365608169968" TEXT="test the right operand on the next evaluation when it become true"/>
+<node CREATED="1365608224755" ID="ID_1881396636" MODIFIED="1365608400404">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">
+      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#160;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">&quot; - Foo&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(205, 85, 85)">&quot;01 - Bar&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(205, 85, 85)">&quot;1 - Baz&quot;</font><font size="3" color="rgb(0, 0, 0)">,</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3" color="rgb(205, 85, 85)">&quot; - Quux&quot;</font><font size="3" color="rgb(0, 0, 0)">);</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#160;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#160;</font><font size="3" color="rgb(0, 0, 0)">{</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#160;</font><font color="rgb(205, 85, 85)" size="3">&quot;$_\n&quot;</font><font color="rgb(0, 0, 0)" size="3">;</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font color="rgb(0, 0, 0)" size="3">}</font>
+      </li>
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">
+        <font color="rgb(0, 0, 0)" size="3">}</font>
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+<node CREATED="1365608320036" ID="ID_368603148" MODIFIED="1365608323787" TEXT="output">
+<node CREATED="1365608325259" ID="ID_1492086415" MODIFIED="1365608431810">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      01 - Bar
+    </p>
+    <p>
+      1 - Baz
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1355397579000" FOLDED="true" ID="ID_1469854044" MODIFIED="1366298906252" POSITION="right" TEXT="help">
+<node CREATED="1355397595235" ID="ID_198012095" MODIFIED="1355397625253" TEXT="$ man perlop"/>
+<node CREATED="1355397609155" ID="ID_118437188" MODIFIED="1355397636827" TEXT="perldoc">
+<node CREATED="1355397638269" ID="ID_1893850286" MODIFIED="1355397696659" TEXT="$ perldoc -f split">
+<node CREATED="1355397658483" ID="ID_1089640174" MODIFIED="1355397684995" TEXT="lookup usage of funtion split."/>
+</node>
+<node CREATED="1355397698901" ID="ID_1949542750" MODIFIED="1355398276631" TEXT="$ perldoc -q strip">
+<node CREATED="1355397810165" ID="ID_898232214" MODIFIED="1355397874279" TEXT="lookup in faq docs for how to strip the leading &amp; trailing space of a string"/>
+</node>
+<node CREATED="1355397876593" ID="ID_1083470888" MODIFIED="1355398598375" TEXT="$ perldoc - v ">
+<node CREATED="1355398288690" ID="ID_711897688" MODIFIED="1355398297238" TEXT="$ perldoc -v &apos;$_&apos;">
+<node CREATED="1355398314887" ID="ID_679654206" MODIFIED="1355398470641" TEXT="vars must be enclosed by single quote(&apos;) to keep them from environment vars substitution in the shell."/>
+</node>
+<node CREATED="1355398297857" ID="ID_102382140" MODIFIED="1355398312648" TEXT="$ perldoc -v ARGV"/>
+</node>
+</node>
+<node CREATED="1355398549379" ID="ID_443747035" MODIFIED="1355398553219" TEXT="$ man perl"/>
+<node CREATED="1355398554327" ID="ID_822491213" MODIFIED="1355398561904" TEXT="$ perlxxx">
+<node CREATED="1355398564245" ID="ID_773903810" MODIFIED="1355398596032" TEXT="check perl manpage for more infos."/>
+</node>
+</node>
+<node CREATED="1357913837719" FOLDED="true" ID="ID_955721472" MODIFIED="1366289936139" POSITION="right" TEXT="charset(utf8)">
+<node CREATED="1357913774329" ID="ID_96827304" MODIFIED="1357913806355" TEXT="\Q \U \L \E \u \l">
+<node CREATED="1357889254095" ID="ID_750361859" MODIFIED="1357913850181" TEXT="\Q literal"/>
+<node CREATED="1357889272462" ID="ID_1607866032" MODIFIED="1357913850179" TEXT="\U upper "/>
+<node CREATED="1357889285335" ID="ID_1117588530" MODIFIED="1357913850178" TEXT="\u upper char"/>
+</node>
+<node CREATED="1357913866161" ID="ID_1311080215" MODIFIED="1366265124588" TEXT="representations">
+<node CREATED="1357914045711" ID="ID_206944349" MODIFIED="1357914047719" TEXT="hex">
+<node CREATED="1357914050486" ID="ID_1559549216" MODIFIED="1357914105754" TEXT="\x{hex}"/>
+</node>
+<node CREATED="1357914048068" ID="ID_166936782" MODIFIED="1357914059525" TEXT="oct">
+<node CREATED="1357914099661" ID="ID_108138095" MODIFIED="1357914111218" TEXT="\o{oct}"/>
+</node>
+<node CREATED="1357914176483" ID="ID_1330983410" MODIFIED="1357914177694" TEXT="named character escape sequence">
+<node CREATED="1357914192029" ID="ID_1408530570" MODIFIED="1357914193286" TEXT="\N{name}">
+<node CREATED="1357914209536" ID="ID_904272666" MODIFIED="1357914210630" TEXT="\N{MERCURY}"/>
+<node CREATED="1357950220447" ID="ID_1594190254" MODIFIED="1357950222854" TEXT="\N{GREEK SMALL LETTER SIGMA}"/>
+<node CREATED="1357950233970" ID="ID_1190645248" MODIFIED="1357950235315" TEXT="\N{greek:Sigma}"/>
+<node CREATED="1357950265477" ID="ID_1374324253" MODIFIED="1357950302958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a class="l_k" href="functions/use.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">use</font></b></a>&#160;<span class="w" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">charnames</font></span>&#160;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">qw(greek)</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>
+    </p>
+    <p>
+      <a class="l_k" href="functions/print.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">print</font></b></a>&#160;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">&quot;\N{sigma} is Greek sigma\n&quot;</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1357951121104" FOLDED="true" ID="ID_1911154364" MODIFIED="1366265127709" TEXT="">
+<node CREATED="1357951127579" ID="ID_1596812641" MODIFIED="1357951128894" TEXT=" use feature &apos;unicode_strings&apos;"/>
+<node CREATED="1357951162669" ID="ID_6025976" MODIFIED="1357951168296" TEXT="use 5.012 or higher"/>
+</node>
+</node>
+<node CREATED="1364052656461" ID="ID_831235029" MODIFIED="1366298646647" POSITION="right" TEXT="mess">
+<node CREATED="1359712803681" FOLDED="true" ID="ID_650895025" MODIFIED="1366272493689" TEXT="Perl Culture">
+<node CREATED="1359712811592" ID="ID_1369837789" MODIFIED="1359712826076" TEXT="freely available"/>
+<node CREATED="1359712826981" ID="ID_988962926" MODIFIED="1359712915918" TEXT="freely redistributable"/>
+<node CREATED="1359712877981" ID="ID_15678628" MODIFIED="1359712879334" TEXT="verbosity"/>
+<node CREATED="1359712888223" ID="ID_58847524" MODIFIED="1359712889874" TEXT="conciseness"/>
+<node CREATED="1359712898305" ID="ID_827036411" MODIFIED="1359712899218" TEXT="readability"/>
+<node CREATED="1359712911462" ID="ID_924061624" MODIFIED="1359712912509" TEXT="maintainability"/>
+<node CREATED="1359712927567" ID="ID_1876861258" MODIFIED="1359712928653" TEXT="reusability"/>
+<node CREATED="1359712939732" ID="ID_1943546977" MODIFIED="1359712939732" TEXT="portability"/>
+<node CREATED="1359712938714" ID="ID_815000822" MODIFIED="1359712955766" TEXT="learnability"/>
+<node CREATED="1359712970510" ID="ID_1879251513" MODIFIED="1359712971570" TEXT="teachability"/>
+<node CREATED="1359712991212" ID="ID_1178812387" MODIFIED="1359712992170" TEXT="obscurity">
+<node CREATED="1359713010254" ID="ID_307802718" MODIFIED="1359713011439" TEXT="Obfuscated"/>
+</node>
+<node CREATED="1359713036838" ID="ID_660331911" MODIFIED="1359713037992" TEXT="Practical Extraction and Report Language"/>
+<node CREATED="1359713055253" ID="ID_1074262596" MODIFIED="1359713056522" TEXT="Pathologically Eclectic Rubbish Lister"/>
+<node CREATED="1359713253666" ID="ID_1572642928" MODIFIED="1366263679126" TEXT="Perl doesn&apos;t impose arbitrary limitations on your data - your strings and arrays can grow as large as they like (so long as you have memory)"/>
+<node CREATED="1359714600415" ID="ID_869257303" MODIFIED="1359714601907" TEXT="three great virtues of a programmer:">
+<node CREATED="1359716930303" ID="ID_640024748" MODIFIED="1359716931629" TEXT="laziness"/>
+<node CREATED="1359716942321" ID="ID_1759625753" MODIFIED="1359716944062" TEXT="impatience"/>
+<node CREATED="1359716952693" ID="ID_1564083702" MODIFIED="1359716955937" TEXT="hubris"/>
+</node>
+</node>
+<node CREATED="1359695054272" ID="ID_880362202" MODIFIED="1366212863048" TEXT="CPAN">
+<node CREATED="1359695066334" ID="ID_434237639" MODIFIED="1359695069596" TEXT="Comprehensive Perl Archive Network"/>
+</node>
+<node CREATED="1359695159091" FOLDED="true" ID="ID_215538007" MODIFIED="1366212861464" TEXT="current">
+<node CREATED="1359695166143" ID="ID_438216995" MODIFIED="1359695179645" TEXT="current package (namespace)"/>
+<node CREATED="1359695180061" ID="ID_1897007596" MODIFIED="1359695208504" TEXT="current working directory (cwd)"/>
+<node CREATED="1359695227453" ID="ID_1510476752" MODIFIED="1359695236957" TEXT="currently selected output channel (select)"/>
+</node>
+<node CREATED="1359699557928" FOLDED="true" ID="ID_842313486" MODIFIED="1366298653040" TEXT="Perl lib">
+<node CREATED="1359699562774" ID="ID_282932059" MODIFIED="1359700170274" TEXT="Perl Library(ancient)">
+<node CREATED="1359611736307" ID="ID_986481617" MODIFIED="1366272667125" TEXT="old library">
+<node CREATED="1359611743001" ID="ID_1853007645" MODIFIED="1359611792657" TEXT="*.pl">
+<node CREATED="1359611863551" ID="ID_491451063" MODIFIED="1359611864766" TEXT="pl2pm"/>
+</node>
+<node CREATED="1359611793339" ID="ID_1125824445" MODIFIED="1359611795844" TEXT="*.ph">
+<node CREATED="1359611797011" ID="ID_1488207749" MODIFIED="1359611802717" TEXT="h2ph"/>
+<node CREATED="1359611820834" ID="ID_1363594133" MODIFIED="1359611821856" TEXT="h2xs"/>
+</node>
+</node>
+</node>
+<node CREATED="1359611555096" ID="ID_745707915" MODIFIED="1366272668453" TEXT="library">
+<node CREATED="1359611581165" ID="ID_450792896" MODIFIED="1359611588189" TEXT="*.so"/>
+</node>
+<node CREATED="1359699877454" ID="ID_1595404865" MODIFIED="1366272669444" TEXT="class">
+<node CREATED="1359473169749" ID="ID_634438211" MODIFIED="1359699930897" TEXT="class definition">
+<node CREATED="1359473246153" ID="ID_689495416" MODIFIED="1359593159267" TEXT="make its semantics available implicitly through method calls on the class and its objects, without explicitly exporting anything."/>
+<node CREATED="1359472464780" ID="ID_781180870" MODIFIED="1359699933042" TEXT="@ISA"/>
+</node>
+<node CREATED="1359694816059" ID="ID_1707730381" MODIFIED="1364052567572" TEXT="construct">
+<node CREATED="1359694829591" ID="ID_420236667" MODIFIED="1359694829591" TEXT="constructor">
+<node CREATED="1359694848501" ID="ID_1578555279" MODIFIED="1359694848501" TEXT="class method"/>
+</node>
+<node CREATED="1359694865181" ID="ID_411768948" MODIFIED="1359694867123" TEXT="composer"/>
+</node>
+<node CREATED="1359695721382" FOLDED="true" ID="ID_1025525314" MODIFIED="1364052571682" TEXT="destructor">
+<node CREATED="1359695740468" ID="ID_1896766213" MODIFIED="1359695742820" TEXT="destroy"/>
+</node>
+</node>
+<node CREATED="1359699374992" ID="ID_1349228769" MODIFIED="1366272670851" TEXT="scope">
+<node CREATED="1359699351077" ID="ID_1226487570" MODIFIED="1359699440020" TEXT="lexical(static) scoping "/>
+<node CREATED="1359699383947" ID="ID_1102296097" MODIFIED="1359699415892" TEXT="dynamic scoping"/>
+</node>
+</node>
+<node CREATED="1355459109243" ID="ID_1082751891" MODIFIED="1364052803582" TEXT="memory manage"/>
+<node CREATED="1358936189823" FOLDED="true" ID="ID_1303380453" MODIFIED="1366272673934" TEXT="perl -i.orig -pe &apos;s/\bfoo\b/bar/g&apos; *.[Cchy]">
+<node CREATED="1358936194817" ID="ID_1045260595" MODIFIED="1358936197488" TEXT="-i">
+<node CREATED="1358936207004" ID="ID_516662842" MODIFIED="1358936215672" TEXT="$^I">
+<node CREATED="1358936217752" ID="ID_1052199308" MODIFIED="1359346337129" TEXT="edited in-place">
+<node CREATED="1359346193520" ID="ID_160044579" MODIFIED="1359346195097" TEXT="specifies that files processed by the &lt;&gt; construct are to be edited in-place. It does this by renaming the input file, opening the output file by the original name, and selecting that output file as the default for print() statements. The extension, if supplied, is used to modify the name of the old file to make a backup copy, following these rules:"/>
+</node>
+</node>
+</node>
+<node CREATED="1358936336447" ID="ID_455354037" MODIFIED="1358936352429" TEXT="-n">
+<node CREATED="1358936353921" ID="ID_857733150" MODIFIED="1358936355278" TEXT="assume &quot;while (&lt;&gt;) { ... }&quot; loop around program"/>
+</node>
+<node CREATED="1358936336448" ID="ID_1939314583" MODIFIED="1358936364217" TEXT="-p">
+<node CREATED="1358936365753" ID="ID_672160416" MODIFIED="1358936365753" TEXT="assume loop like -n but print line also, like sed"/>
+</node>
+<node CREATED="1358936412718" ID="ID_1839113413" MODIFIED="1358936423230" TEXT="-e program">
+<node CREATED="1358936425284" ID="ID_46970926" MODIFIED="1358936429893" TEXT="one line of program (several -e&apos;s allowed, omit programfile)"/>
+</node>
+<node CREATED="1359350792601" ID="ID_1883477066" MODIFIED="1359350928600">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -l<i>[octnum]</i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1359351036160" ID="ID_137389141" MODIFIED="1359351037501" TEXT="enables automatic line-ending processing. It has two separate effects. First, it automatically chomps $/ (the input record separator) when used with -n or -p. Second, it assigns $\ (the output record separator) to have the value of octnum so that any print statements will have that separator added back on. If octnum is omitted, sets $\ to the current value of $/ ."/>
+</node>
+<node CREATED="1359350681589" ID="ID_1569646889" MODIFIED="1359350989981">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -I<i>directory</i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1359350701612" ID="ID_684730522" MODIFIED="1359351009635" TEXT="@INC"/>
+</node>
+<node CREATED="1359362568971" ID="ID_180754555" MODIFIED="1359362570992" TEXT="-a">
+<node CREATED="1359362645887" ID="ID_495996410" MODIFIED="1366263679126" TEXT="turns on autosplit mode when used with a -n or -p. An implicit split command to the @F array is done as the first thing inside the implicit while loop produced by the -n or -p."/>
+</node>
+<node CREATED="1359468932419" ID="ID_1608172016" MODIFIED="1359468933475" TEXT="-c">
+<node CREATED="1359468934639" ID="ID_101229551" MODIFIED="1359468935673" TEXT="compile-only syntax check"/>
+</node>
+<node CREATED="1359362571215" ID="ID_1916156582" MODIFIED="1359362602021">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -F<i>pattern</i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1359362617903" ID="ID_1133957897" MODIFIED="1359362619194" TEXT="specifies the pattern to split on if -a is also in effect. The pattern may be surrounded by // , &quot;&quot; , or &apos;&apos; , otherwise it will be put in single quotes. You can&apos;t use literal whitespace in the pattern."/>
+</node>
+</node>
+<node CREATED="1358668733794" ID="ID_1119469325" MODIFIED="1366272615093" TEXT="debug">
+<font NAME="SansSerif" SIZE="18"/>
+<node CREATED="1358081087373" ID="ID_527934069" MODIFIED="1358081089231" TEXT="caller"/>
+<node CREATED="1358081407262" ID="ID_321925476" MODIFIED="1358081408757" TEXT="dump"/>
+</node>
+</node>
+<node CREATED="1355462338875" FOLDED="true" ID="ID_1099640109" MODIFIED="1366272680621" POSITION="right" TEXT="OOP">
+<node CREATED="1355471902279" ID="ID_1456000895" MODIFIED="1355471905516" TEXT="bless"/>
+<node CREATED="1355471905736" ID="ID_1531003365" MODIFIED="1355471910281" TEXT="blessed thingy"/>
+</node>
+<node CREATED="1359643310097" FOLDED="true" ID="ID_871520906" MODIFIED="1366289953687" POSITION="right" TEXT="thingy (ref EXPR)">
 <node CREATED="1359643321118" ID="ID_70803116" MODIFIED="1365522338476" TEXT="builtin">
 <node CREATED="1359643409497" ID="ID_834954147" MODIFIED="1365522359676" TEXT="$ SCALAR"/>
 <node CREATED="1359643409498" ID="ID_627001380" MODIFIED="1366263679126" TEXT="ARRAY"/>

@@ -489,7 +489,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1341233738980" ID="ID_1592264497" MODIFIED="1366129758288" POSITION="right" TEXT="Advanced  IO">
+<node CREATED="1341233738980" FOLDED="true" ID="ID_1592264497" MODIFIED="1366266670602" POSITION="right" TEXT="Advanced  IO">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1363183972035" ID="ID_1877880927" MODIFIED="1363183978609" TEXT="IO mode">
 <node CREATED="1363184032875" FOLDED="true" ID="ID_1181800838" MODIFIED="1363184192659" TEXT="busy-wait">
@@ -1515,7 +1515,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338994150146" ID="ID_194992328" MODIFIED="1366129678400" POSITION="right" TEXT="process control">
+<node CREATED="1338994150146" ID="ID_194992328" MODIFIED="1366270147930" POSITION="right" TEXT="process control">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338994404974" ID="ID_1210400997" MODIFIED="1338994412479" TEXT="process">
 <node CREATED="1338994415115" ID="ID_421103117" MODIFIED="1338994419528" TEXT="0">
@@ -1532,213 +1532,9 @@
 <node CREATED="1338994629200" ID="ID_384168062" MODIFIED="1338994633723" TEXT="pagedaemon"/>
 </node>
 </node>
-<node CREATED="1339221928340" FOLDED="true" ID="ID_1029104348" MODIFIED="1366129860452" TEXT="primitives">
+<node CREATED="1339221928340" FOLDED="true" ID="ID_1029104348" MODIFIED="1366267674155" TEXT="uid/gid">
 <node CREATED="1338994699751" ID="ID_939710529" MODIFIED="1339174111553" TEXT="getppid"/>
 <node CREATED="1338994696539" ID="ID_1990506831" MODIFIED="1339221950087" TEXT="getpid"/>
-<node CREATED="1338994752175" FOLDED="true" ID="ID_999655989" MODIFIED="1366129809625" TEXT="fork">
-<node CREATED="1338994841204" ID="ID_1161502757" MODIFIED="1339425140104" TEXT="&lt;sys/types.h&gt;&lt;unistd.h&gt; pid_t fork (void) ;">
-<node CREATED="1338994884529" ID="ID_1715255732" MODIFIED="1338994884529" TEXT="Returns: 0 in child, process ID of child in parent, -1 on error"/>
-<node CREATED="1339074650993" ID="ID_642208880" MODIFIED="1339074679587" TEXT="data,stack,heap copy-on-write">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1339074681082" ID="ID_724571022" MODIFIED="1339074866698" TEXT="it depends on scheduling agorithm that parent or child starting executing first">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1339074914915" ID="ID_1314617397" MODIFIED="1339074961394" TEXT="IPC is required to synchronize child and parent processes">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1339075371248" ID="ID_1208882956" MODIFIED="1339314311863" TEXT="properties of parent herited by child ">
-<icon BUILTIN="button_ok"/>
-<node CREATED="1339075443245" ID="ID_253946005" MODIFIED="1339075443245" TEXT="&#x2022; real user ID, real group ID, effective user ID, effective group ID"/>
-<node CREATED="1339075443247" ID="ID_728540118" MODIFIED="1339075443247" TEXT="&#x2022; supplementary group IDs"/>
-<node CREATED="1339075443248" ID="ID_1714058486" MODIFIED="1339075443248" TEXT="&#x2022; process group ID"/>
-<node CREATED="1339075443249" ID="ID_628226276" MODIFIED="1339075443249" TEXT="&#x2022; session ID"/>
-<node CREATED="1339075443250" ID="ID_1471758074" MODIFIED="1339075443250" TEXT="&#x2022; controlling terminal"/>
-<node CREATED="1339075443251" ID="ID_666863272" MODIFIED="1339075443251" TEXT="&#x2022; set-user-ID flag and set-group-ID flag"/>
-<node CREATED="1339075443252" ID="ID_1560361803" MODIFIED="1339075443252" TEXT="&#x2022; current working directory"/>
-<node CREATED="1339075443253" ID="ID_1469208562" MODIFIED="1339075443253" TEXT="&#x2022; root directory"/>
-<node CREATED="1339075443253" ID="ID_882802680" MODIFIED="1339075443253" TEXT="&#x2022; file mode creation mask"/>
-<node CREATED="1339075443254" ID="ID_558508489" MODIFIED="1339075443254" TEXT="&#x2022; signal mask and dispositions"/>
-<node CREATED="1339075443255" ID="ID_511479901" MODIFIED="1339075443255" TEXT="&#x2022; the close-on-exec flag for any open file descriptors"/>
-<node CREATED="1339075443256" ID="ID_919524643" MODIFIED="1339075443256" TEXT="&#x2022; environment"/>
-<node CREATED="1339075443257" ID="ID_214920060" MODIFIED="1339075443257" TEXT="&#x2022; attached shared memory segments"/>
-<node CREATED="1339075443258" ID="ID_738694583" MODIFIED="1339075443258" TEXT="&#x2022; resource limits"/>
-</node>
-<node CREATED="1339075470630" ID="ID_800073633" MODIFIED="1339075524720" TEXT="properties different between parent and child">
-<icon BUILTIN="button_ok"/>
-<node CREATED="1339075561900" ID="ID_75078523" MODIFIED="1339075561900" TEXT="&#x2022; the retum value from fork"/>
-<node CREATED="1339075561901" ID="ID_933122884" MODIFIED="1339075561901" TEXT="&#x2022; the process IDs are different"/>
-<node CREATED="1339075561902" ID="ID_895583920" MODIFIED="1339075582829" TEXT="&#x2022; the two processes have different parent process IDs--the parent process ID of the child is the parent; the parent process ID of the parent doesn&apos;t change"/>
-<node CREATED="1339075561908" ID="ID_424710585" MODIFIED="1339075598918" TEXT="&#x2022; the child&apos;s values for tms_utime, tms_stime, tms_cutime, and tms ustime are set to 0 "/>
-<node CREATED="1339075561910" ID="ID_1892433651" MODIFIED="1339075561910" TEXT="&#x2022; file locks set by the parent are not inherited by the child"/>
-<node CREATED="1339075561911" ID="ID_1184391112" MODIFIED="1339075561911" TEXT="&#x2022; pending alarms are cleared for the child"/>
-<node CREATED="1339075561911" ID="ID_36490541" MODIFIED="1339075561911" TEXT="&#x2022; the set of pending signals for the child is set to the empty set"/>
-</node>
-</node>
-<node CREATED="1339075715684" FOLDED="true" ID="ID_1196698537" MODIFIED="1339314572946" TEXT="&lt;vfork.h&gt; pid_t vfork(void); ">
-<node CREATED="1339075798232" ID="ID_1229445099" MODIFIED="1339075921005" TEXT="vfork is intended to create a new process when the purpose of the new process is  to exec a new program "/>
-<node CREATED="1339075931296" ID="ID_1751659558" MODIFIED="1339076022006" TEXT="vfork creates the new process, just like fork, without fully copying the address space of the parent into the child,  since the child won&apos;t reference that address space--the child just calls exec (or exit) right after the vfork. "/>
-<node CREATED="1339076062511" ID="ID_568130480" MODIFIED="1339076124711" TEXT="while the child is running, until it calls either exec or  exit, the child runs in the address space of the parent. "/>
-<node CREATED="1339076126017" ID="ID_1875101190" MODIFIED="1339076128054" TEXT="vfork guarantees that the  child runs first, until the child calls exec or exit. When the child calls either of these  functions, the parent resumes. "/>
-</node>
-</node>
-<node CREATED="1339076175245" ID="ID_754308123" MODIFIED="1339424637363" TEXT="exit">
-<node CREATED="1339079166383" ID="ID_1163042621" MODIFIED="1358264783744" TEXT="normal">
-<node CREATED="1339079376693" ID="ID_659505909" MODIFIED="1339079382307" TEXT="return"/>
-<node CREATED="1339076190907" ID="ID_502501278" MODIFIED="1339079371987" TEXT="exit"/>
-<node CREATED="1339076193325" ID="ID_185108301" MODIFIED="1339076194939" TEXT="_exit"/>
-</node>
-<node CREATED="1339079060609" ID="ID_464301849" MODIFIED="1358264761448" TEXT="abnormal">
-<node CREATED="1339079412888" ID="ID_1215565398" MODIFIED="1339079415652" TEXT="abort"/>
-<node CREATED="1339079415918" ID="ID_1001367820" MODIFIED="1339079419532" TEXT="signal"/>
-</node>
-<node CREATED="1339079435471" ID="ID_956365969" MODIFIED="1358264762736" TEXT="when process terminates">
-<node CREATED="1339079580257" ID="ID_1242941529" MODIFIED="1339079625691" TEXT="unavailable">
-<node CREATED="1339079644421" ID="ID_102168110" MODIFIED="1339079652712" TEXT="memory"/>
-<node CREATED="1339079652972" ID="ID_1389590127" MODIFIED="1339079661421" TEXT="file descriptors"/>
-</node>
-<node CREATED="1339079587952" ID="ID_1199714714" MODIFIED="1339079674944" TEXT="available">
-<node CREATED="1339079677519" ID="ID_201413227" MODIFIED="1339079679926" TEXT="pid"/>
-<node CREATED="1339079680226" ID="ID_532159956" MODIFIED="1339079706302" TEXT="termination status"/>
-<node CREATED="1339079706751" ID="ID_1465858674" MODIFIED="1339079721620" TEXT="mount of cpu time"/>
-</node>
-</node>
-<node CREATED="1339078779539" ID="ID_408061442" MODIFIED="1339078787836" TEXT="child process">
-<node CREATED="1339078687656" ID="ID_356726017" MODIFIED="1339078768158" TEXT="orphan process">
-<node CREATED="1339079733008" ID="ID_832142527" MODIFIED="1339079793814" TEXT="process terminates after its parent process and adopted by process 0 init"/>
-</node>
-<node CREATED="1339078712000" ID="ID_833246715" MODIFIED="1339078764369" TEXT="zombie process">
-<node CREATED="1339079795862" ID="ID_1040526321" MODIFIED="1339079908954" TEXT="process terminates before its parent process and will be recycled by its parent process using wait or waitpid"/>
-</node>
-</node>
-</node>
-<node CREATED="1339079911162" ID="ID_403211442" MODIFIED="1339681267951" TEXT="wait">
-<node CREATED="1339079935443" ID="ID_1337300058" MODIFIED="1339079935443" TEXT="#include &lt;sys/types.h&gt;"/>
-<node CREATED="1339079935445" ID="ID_1112245520" MODIFIED="1339079935445" TEXT="#include &lt;sys/wait.h&gt;"/>
-<node CREATED="1339079935446" ID="ID_393326232" MODIFIED="1339079974351" TEXT="pid_t wait(int *statloc);">
-<node CREATED="1339080050538" ID="ID_917046497" MODIFIED="1339080071121" TEXT="bahavior">
-<node CREATED="1339080073111" ID="ID_1522635188" MODIFIED="1339080159052" TEXT="block">
-<icon BUILTIN="full-1"/>
-<node CREATED="1339080160826" ID="ID_1531830440" MODIFIED="1339080303148" TEXT="all child processes ara still running"/>
-</node>
-<node CREATED="1339080081509" ID="ID_807711340" MODIFIED="1339080146950" TEXT="return immediately with termination status">
-<icon BUILTIN="full-2"/>
-<node CREATED="1339080186535" ID="ID_829620081" MODIFIED="1339080278639" TEXT="any child process has terminated and is waiting for its termination status to be fetched"/>
-</node>
-<node CREATED="1339080093863" ID="ID_584658238" MODIFIED="1358665450923" TEXT="return immediately with error (-1)">
-<icon BUILTIN="full-3"/>
-<node CREATED="1339080281188" ID="ID_522629118" MODIFIED="1339080298854" TEXT="no child processes"/>
-</node>
-</node>
-<node CREATED="1339081105787" ID="ID_517132370" MODIFIED="1339081119194" TEXT="termination status">
-<node CREATED="1358664200586" ID="ID_138825532" MODIFIED="1366129825715" TEXT="signaled (terminate abnormally)">
-<node CREATED="1339081168880" ID="ID_547360969" MODIFIED="1358664679757" TEXT="WIFSIGNALED(status&#x7f;)">
-<node CREATED="1339081224407" ID="ID_1433635559" MODIFIED="1339081224407" TEXT="WTERMSIG ( status )">
-<node CREATED="1358664420386" ID="ID_1571649975" MODIFIED="1358664691223" TEXT="which signal caused termination of child process?"/>
-</node>
-<node CREATED="1339081236319" ID="ID_1086358463" MODIFIED="1339081236319" TEXT="WCOREDUMP (status)">
-<node CREATED="1358664496103" ID="ID_273024851" MODIFIED="1358664697884" TEXT="is core file generated?"/>
-</node>
-</node>
-</node>
-<node CREATED="1358664208242" ID="ID_457258712" MODIFIED="1366129851405" TEXT="stopped (jop control)">
-<node CREATED="1339081168883" ID="ID_265387155" MODIFIED="1358664710101" TEXT="WIFSTOPPED (status)">
-<node CREATED="1339081253994" ID="ID_1736161498" MODIFIED="1339081253994" TEXT="WSTOPSIG (status)">
-<node CREATED="1358664557833" ID="ID_1885265194" MODIFIED="1358664716269" TEXT="which signal caused stop of child process?"/>
-</node>
-</node>
-</node>
-<node CREATED="1358664183435" ID="ID_207425608" MODIFIED="1366129846453" TEXT="exited (terminate normally)">
-<node CREATED="1339081168876" ID="ID_1983837262" MODIFIED="1358664659130" TEXT="WIFEXlTED (status)">
-<node CREATED="1339081206224" ID="ID_1392025678" MODIFIED="1339081206224" TEXT="WEXITSTATUS (status)"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1339079935448" ID="ID_1100869807" MODIFIED="1358664145551" TEXT="pid_t waitpid(pid_t pid&#x7f;,int *statloc, int options) ;">
-<node CREATED="1339081422036" ID="ID_725128144" MODIFIED="1339081425507" TEXT="options">
-<node CREATED="1358663686932" ID="ID_867859217" MODIFIED="1358664017798" TEXT="0">
-<node CREATED="1358663997755" ID="ID_1729558107" MODIFIED="1358664016012" TEXT="blocking"/>
-</node>
-<node CREATED="1339081437044" FOLDED="true" ID="ID_716871028" MODIFIED="1358664041913" TEXT="WNOHANG ">
-<node CREATED="1358664020681" FOLDED="true" ID="ID_721511481" MODIFIED="1358664029853" TEXT="non-blocking">
-<node CREATED="1339081491919" ID="ID_997223006" MODIFIED="1339081506119" TEXT="waitpid will not block if a child specified by pid is not immediately available. In this case the return value is 0. "/>
-</node>
-</node>
-<node CREATED="1339081437049" FOLDED="true" ID="ID_1886801217" MODIFIED="1358664040881" TEXT="WUNTRACED ">
-<node CREATED="1358664031202" ID="ID_1287838303" MODIFIED="1358664037534" TEXT="job control">
-<node CREATED="1339081518588" ID="ID_901755186" MODIFIED="1339081574345" TEXT="If the implementation supports job control, the status of any childspecified by pid that bas stopped, and whose status has not been reported since it bas stopped, is returned. The WIFSTOPPED macro determines if the return value corresponds to a stopped child process.&#xa;&#xa;"/>
-</node>
-</node>
-</node>
-<node CREATED="1339081616605" ID="ID_239008581" MODIFIED="1339081633050" TEXT="pid">
-<node CREATED="1339081634412" ID="ID_1723621999" MODIFIED="1339081641453" TEXT="== -1">
-<node CREATED="1339081658568" ID="ID_1303387467" MODIFIED="1339081684831" TEXT="waits for any child process"/>
-</node>
-<node CREATED="1339081686246" ID="ID_315722980" MODIFIED="1339081695529" TEXT="&gt; 0">
-<node CREATED="1339081700549" ID="ID_1781934602" MODIFIED="1339081758665" TEXT="waits for child process whose PID equals pid "/>
-</node>
-<node CREATED="1339081759860" ID="ID_1258723314" MODIFIED="1358663681086" TEXT="== 0">
-<node CREATED="1339081781721" ID="ID_1619065286" MODIFIED="1339081839668" TEXT="waits for any child process whose GPID equals caller&apos;s "/>
-</node>
-<node CREATED="1339081849235" ID="ID_773717609" MODIFIED="1358663682524" TEXT="&lt; -1">
-<node CREATED="1339081855705" ID="ID_34458924" MODIFIED="1339081894261" TEXT="waits for any child process whose GPID equals  absolute pid"/>
-</node>
-</node>
-<node CREATED="1358665462298" ID="ID_199916579" MODIFIED="1358665465911" TEXT="return value">
-<node CREATED="1358665468617" ID="ID_1288004579" MODIFIED="1358665474906" TEXT="-1">
-<node CREATED="1358665480098" ID="ID_1749363087" MODIFIED="1358665484701" TEXT="on error">
-<node CREATED="1358665487009" ID="ID_514308503" MODIFIED="1358665505124" TEXT="has no  such child process."/>
-</node>
-</node>
-<node CREATED="1358665467119" ID="ID_1691275830" MODIFIED="1358665468398" TEXT="0">
-<node CREATED="1358665507670" ID="ID_1196760265" MODIFIED="1358665515444" TEXT="non-blocking">
-<node CREATED="1358665517205" ID="ID_183935575" MODIFIED="1358665596185" TEXT="return immediately if the specified  process is still running."/>
-</node>
-</node>
-<node CREATED="1358665469680" ID="ID_249249863" MODIFIED="1358665470933" TEXT="pid"/>
-</node>
-</node>
-<node CREATED="1339079935450" ID="ID_1682827753" MODIFIED="1339079935450" TEXT="Both return: process ID if OK, 0 (see later), or -1 on error"/>
-<node CREATED="1339082130543" ID="ID_716582997" MODIFIED="1339082280272" TEXT="wait3(3.4+BSD)"/>
-<node CREATED="1339082134109" ID="ID_713389170" MODIFIED="1339082280270" TEXT="wait4(3.4+BSD)"/>
-</node>
-<node CREATED="1339082288144" ID="ID_1503021603" MODIFIED="1339425335110" TEXT="exec">
-<node CREATED="1339158848523" ID="ID_293706532" MODIFIED="1339158853258" TEXT="#include &lt;unistd. h&gt;"/>
-<node CREATED="1339082354512" ID="ID_863683100" MODIFIED="1339082361415" TEXT="execl">
-<node CREATED="1339167270514" ID="ID_173537753" MODIFIED="1339167359787" TEXT="int execl(const char*pathname,arg0,arg1,...,(char*)0);"/>
-</node>
-<node CREATED="1339082365653" ID="ID_1505881015" MODIFIED="1339082368194" TEXT="execv">
-<node CREATED="1339167372054" ID="ID_1450922506" MODIFIED="1339167403072" TEXT="int execv(const char*pathname,argv);"/>
-</node>
-<node CREATED="1339082377919" ID="ID_1957500978" MODIFIED="1339082382443" TEXT="execle">
-<node CREATED="1339167410759" ID="ID_1686952737" MODIFIED="1339167476382" TEXT="int execv(const char*pathname,arg0,arg1,...,(char*)0, char *const envp[]);"/>
-</node>
-<node CREATED="1339082387974" ID="ID_403492269" MODIFIED="1339167493315" TEXT="execve">
-<icon BUILTIN="messagebox_warning"/>
-<node CREATED="1339167223880" ID="ID_457312174" MODIFIED="1339167260298" TEXT="system call,others libaray functions just"/>
-<node CREATED="1339167496290" ID="ID_305047369" MODIFIED="1339167533551" TEXT="int execve(const char*pathname,argv[],char* const envp[]);"/>
-</node>
-<node CREATED="1339082400646" ID="ID_1965507696" MODIFIED="1339082404982" TEXT="execlp">
-<node CREATED="1339167539526" ID="ID_1502263952" MODIFIED="1339167573096" TEXT="int execlp(const char*filename,arg0,arg1,...,(char*)0);"/>
-</node>
-<node CREATED="1339082405274" ID="ID_959174817" MODIFIED="1339082413097" TEXT="execvp">
-<node CREATED="1339167575968" ID="ID_26369015" MODIFIED="1339167593940" TEXT="int execvp(const char*filename,argv);"/>
-</node>
-<node CREATED="1339158797969" ID="ID_1820618979" MODIFIED="1339158825649" TEXT="All six return: -1 on error, no return on success"/>
-<node CREATED="1339166873031" ID="ID_1439127980" MODIFIED="1339166875497" TEXT="e ">
-<node CREATED="1339166938746" ID="ID_851197931" MODIFIED="1339167169509" TEXT="evironment  list terminated with NULL"/>
-</node>
-<node CREATED="1339166875836" ID="ID_517432916" MODIFIED="1339166877111" TEXT="l">
-<node CREATED="1339167017706" ID="ID_805256369" MODIFIED="1339167338591" TEXT="argument list arg0,arg1,...,(char*)0"/>
-</node>
-<node CREATED="1339166877393" ID="ID_1131852162" MODIFIED="1339166878019" TEXT="v">
-<node CREATED="1339167026165" ID="ID_705815986" MODIFIED="1339167118598" TEXT="char *argv[]"/>
-</node>
-<node CREATED="1339166878292" ID="ID_1748812766" MODIFIED="1339166879317" TEXT="p">
-<node CREATED="1339167033900" ID="ID_1944804133" MODIFIED="1339167097181" TEXT="path prefix in $PATH"/>
-</node>
-</node>
 <node CREATED="1338994702126" ID="ID_618800614" MODIFIED="1339174092527" TEXT="getuid"/>
 <node CREATED="1338994708820" ID="ID_155229962" MODIFIED="1339174092528" TEXT="geteuid"/>
 <node CREATED="1338994711415" ID="ID_1935263084" MODIFIED="1339174092530" TEXT="getgid"/>
@@ -1805,7 +1601,7 @@
 </node>
 </node>
 <node CREATED="1339174148969" ID="ID_671828985" MODIFIED="1339174153362" TEXT="setgid"/>
-<node CREATED="1339176428582" FOLDED="true" ID="ID_1980318506" MODIFIED="1339221943465" TEXT="setreuid">
+<node CREATED="1339176428582" FOLDED="true" ID="ID_1980318506" MODIFIED="1366267019333" TEXT="setreuid">
 <node CREATED="1339176440948" ID="ID_521915231" MODIFIED="1339176459698" TEXT="swap real user ID and effective user ID"/>
 </node>
 <node CREATED="1339176421299" ID="ID_164515585" MODIFIED="1339176428066" TEXT="setregid"/>
@@ -1819,7 +1615,227 @@
 </node>
 <node CREATED="1339174156939" ID="ID_1779559083" MODIFIED="1339174161529" TEXT="setegid"/>
 </node>
-<node CREATED="1339221960011" FOLDED="true" ID="ID_1961384818" MODIFIED="1339225285622" TEXT="accouting">
+<node CREATED="1338994752175" FOLDED="true" ID="ID_999655989" MODIFIED="1366129809625" TEXT="fork">
+<node CREATED="1338994841204" ID="ID_1161502757" MODIFIED="1339425140104" TEXT="&lt;sys/types.h&gt;&lt;unistd.h&gt; pid_t fork (void) ;">
+<node CREATED="1338994884529" ID="ID_1715255732" MODIFIED="1338994884529" TEXT="Returns: 0 in child, process ID of child in parent, -1 on error"/>
+<node CREATED="1339074650993" ID="ID_642208880" MODIFIED="1339074679587" TEXT="data,stack,heap copy-on-write">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1339074681082" ID="ID_724571022" MODIFIED="1339074866698" TEXT="it depends on scheduling agorithm that parent or child starting executing first">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1339074914915" ID="ID_1314617397" MODIFIED="1339074961394" TEXT="IPC is required to synchronize child and parent processes">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1339075371248" ID="ID_1208882956" MODIFIED="1339314311863" TEXT="properties of parent herited by child ">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1339075443245" ID="ID_253946005" MODIFIED="1339075443245" TEXT="&#x2022; real user ID, real group ID, effective user ID, effective group ID"/>
+<node CREATED="1339075443247" ID="ID_728540118" MODIFIED="1339075443247" TEXT="&#x2022; supplementary group IDs"/>
+<node CREATED="1339075443248" ID="ID_1714058486" MODIFIED="1339075443248" TEXT="&#x2022; process group ID"/>
+<node CREATED="1339075443249" ID="ID_628226276" MODIFIED="1339075443249" TEXT="&#x2022; session ID"/>
+<node CREATED="1339075443250" ID="ID_1471758074" MODIFIED="1339075443250" TEXT="&#x2022; controlling terminal"/>
+<node CREATED="1339075443251" ID="ID_666863272" MODIFIED="1339075443251" TEXT="&#x2022; set-user-ID flag and set-group-ID flag"/>
+<node CREATED="1339075443252" ID="ID_1560361803" MODIFIED="1339075443252" TEXT="&#x2022; current working directory"/>
+<node CREATED="1339075443253" ID="ID_1469208562" MODIFIED="1339075443253" TEXT="&#x2022; root directory"/>
+<node CREATED="1339075443253" ID="ID_882802680" MODIFIED="1339075443253" TEXT="&#x2022; file mode creation mask"/>
+<node CREATED="1339075443254" ID="ID_558508489" MODIFIED="1339075443254" TEXT="&#x2022; signal mask and dispositions"/>
+<node CREATED="1339075443255" ID="ID_511479901" MODIFIED="1339075443255" TEXT="&#x2022; the close-on-exec flag for any open file descriptors"/>
+<node CREATED="1339075443256" ID="ID_919524643" MODIFIED="1339075443256" TEXT="&#x2022; environment"/>
+<node CREATED="1339075443257" ID="ID_214920060" MODIFIED="1339075443257" TEXT="&#x2022; attached shared memory segments"/>
+<node CREATED="1339075443258" ID="ID_738694583" MODIFIED="1339075443258" TEXT="&#x2022; resource limits"/>
+</node>
+<node CREATED="1339075470630" ID="ID_800073633" MODIFIED="1339075524720" TEXT="properties different between parent and child">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1339075561900" ID="ID_75078523" MODIFIED="1339075561900" TEXT="&#x2022; the retum value from fork"/>
+<node CREATED="1339075561901" ID="ID_933122884" MODIFIED="1339075561901" TEXT="&#x2022; the process IDs are different"/>
+<node CREATED="1339075561902" ID="ID_895583920" MODIFIED="1339075582829" TEXT="&#x2022; the two processes have different parent process IDs--the parent process ID of the child is the parent; the parent process ID of the parent doesn&apos;t change"/>
+<node CREATED="1339075561908" ID="ID_424710585" MODIFIED="1339075598918" TEXT="&#x2022; the child&apos;s values for tms_utime, tms_stime, tms_cutime, and tms ustime are set to 0 "/>
+<node CREATED="1339075561910" ID="ID_1892433651" MODIFIED="1339075561910" TEXT="&#x2022; file locks set by the parent are not inherited by the child"/>
+<node CREATED="1339075561911" ID="ID_1184391112" MODIFIED="1339075561911" TEXT="&#x2022; pending alarms are cleared for the child"/>
+<node CREATED="1339075561911" ID="ID_36490541" MODIFIED="1339075561911" TEXT="&#x2022; the set of pending signals for the child is set to the empty set"/>
+</node>
+</node>
+<node CREATED="1339075715684" FOLDED="true" ID="ID_1196698537" MODIFIED="1339314572946" TEXT="&lt;vfork.h&gt; pid_t vfork(void); ">
+<node CREATED="1339075798232" ID="ID_1229445099" MODIFIED="1339075921005" TEXT="vfork is intended to create a new process when the purpose of the new process is  to exec a new program "/>
+<node CREATED="1339075931296" ID="ID_1751659558" MODIFIED="1339076022006" TEXT="vfork creates the new process, just like fork, without fully copying the address space of the parent into the child,  since the child won&apos;t reference that address space--the child just calls exec (or exit) right after the vfork. "/>
+<node CREATED="1339076062511" ID="ID_568130480" MODIFIED="1339076124711" TEXT="while the child is running, until it calls either exec or  exit, the child runs in the address space of the parent. "/>
+<node CREATED="1339076126017" ID="ID_1875101190" MODIFIED="1339076128054" TEXT="vfork guarantees that the  child runs first, until the child calls exec or exit. When the child calls either of these  functions, the parent resumes. "/>
+</node>
+</node>
+<node CREATED="1339079911162" ID="ID_403211442" MODIFIED="1366269017726" TEXT="wait">
+<node CREATED="1339079935443" ID="ID_1337300058" MODIFIED="1339079935443" TEXT="#include &lt;sys/types.h&gt;"/>
+<node CREATED="1339079935445" ID="ID_1112245520" MODIFIED="1339079935445" TEXT="#include &lt;sys/wait.h&gt;"/>
+<node CREATED="1339079935446" FOLDED="true" ID="ID_393326232" MODIFIED="1366269858468" TEXT="pid_t wait(int *statloc);">
+<node CREATED="1339080050538" ID="ID_917046497" MODIFIED="1339080071121" TEXT="bahavior">
+<node CREATED="1339080073111" ID="ID_1522635188" MODIFIED="1366266745975" TEXT="block">
+<icon BUILTIN="full-1"/>
+<node CREATED="1339080160826" ID="ID_1531830440" MODIFIED="1339080303148" TEXT="all child processes ara still running"/>
+</node>
+<node CREATED="1339080081509" ID="ID_807711340" MODIFIED="1339080146950" TEXT="return immediately with termination status">
+<icon BUILTIN="full-2"/>
+<node CREATED="1339080186535" ID="ID_829620081" MODIFIED="1339080278639" TEXT="any child process has terminated and is waiting for its termination status to be fetched"/>
+</node>
+<node CREATED="1339080093863" ID="ID_584658238" MODIFIED="1358665450923" TEXT="return immediately with error (-1)">
+<icon BUILTIN="full-3"/>
+<node CREATED="1339080281188" ID="ID_522629118" MODIFIED="1339080298854" TEXT="no child processes"/>
+</node>
+</node>
+<node CREATED="1339081105787" FOLDED="true" ID="ID_517132370" MODIFIED="1366269853085" TEXT="termination status (low 16bit)">
+<node CREATED="1366269219646" FOLDED="true" ID="ID_804223851" MODIFIED="1366269851049" TEXT="|-(8b)-|-coredump(1b)-|-0&lt;signal(7b)&lt;0x7f-|">
+<node CREATED="1358664200586" ID="ID_138825532" MODIFIED="1366269413782" TEXT="signaled (terminate abnormally)">
+<node CREATED="1339081168880" ID="ID_547360969" MODIFIED="1366269293807" TEXT="WIFSIGNALED(status&#x7f;)">
+<node CREATED="1339081224407" ID="ID_1433635559" MODIFIED="1366266830639" TEXT="WTERMSIG ( status )">
+<node CREATED="1358664420386" ID="ID_1571649975" MODIFIED="1358664691223" TEXT="which signal caused termination of child process?"/>
+</node>
+<node CREATED="1339081236319" ID="ID_1086358463" MODIFIED="1339081236319" TEXT="WCOREDUMP (status)">
+<node CREATED="1358664496103" ID="ID_273024851" MODIFIED="1358664697884" TEXT="is core file generated?"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366269578599" FOLDED="true" ID="ID_1852704379" MODIFIED="1366269848982" TEXT="|-stop signal(8b)-|-0x7f(8b)-|">
+<node CREATED="1358664208242" ID="ID_457258712" MODIFIED="1366269575114" TEXT="stopped (jop control)">
+<node CREATED="1339081168883" FOLDED="true" ID="ID_265387155" MODIFIED="1366269456482" TEXT="WIFSTOPPED (status)">
+<node CREATED="1339081253994" ID="ID_1736161498" MODIFIED="1339081253994" TEXT="WSTOPSIG (status)">
+<node CREATED="1358664557833" ID="ID_1885265194" MODIFIED="1358664716269" TEXT="which signal caused stop of child process?"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366269715495" FOLDED="true" ID="ID_1756498677" MODIFIED="1366269848358" TEXT="|-0xffff(8b)-|">
+<node CREATED="1366269771136" ID="ID_1944266127" MODIFIED="1366269784812" TEXT="continued(job control)">
+<node CREATED="1366269786111" ID="ID_438293728" MODIFIED="1366269820477" TEXT="WIFCONTINUED(status)"/>
+</node>
+</node>
+<node CREATED="1366269038791" FOLDED="true" ID="ID_281573246" MODIFIED="1366269850377" TEXT="|-exit status(8b)-|-0(8b)-|">
+<node CREATED="1358664183435" ID="ID_207425608" MODIFIED="1366269130521" TEXT="exited (terminate normally)">
+<node CREATED="1339081168876" FOLDED="true" ID="ID_1983837262" MODIFIED="1366269608969" TEXT="WIFEXlTED (status)">
+<node CREATED="1339081206224" ID="ID_1392025678" MODIFIED="1339081206224" TEXT="WEXITSTATUS (status)"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1339079935448" FOLDED="true" ID="ID_1100869807" MODIFIED="1366269019147" TEXT="pid_t waitpid(pid_t pid&#x7f;,int *statloc, int options) ;">
+<node CREATED="1339081422036" ID="ID_725128144" MODIFIED="1366266845014" TEXT="options">
+<node CREATED="1358663686932" FOLDED="true" ID="ID_867859217" MODIFIED="1366266851114" TEXT="0">
+<node CREATED="1358663997755" ID="ID_1729558107" MODIFIED="1358664016012" TEXT="blocking"/>
+</node>
+<node CREATED="1339081437044" FOLDED="true" ID="ID_716871028" MODIFIED="1366266849014" TEXT="WNOHANG ">
+<node CREATED="1358664020681" FOLDED="true" ID="ID_721511481" MODIFIED="1358664029853" TEXT="non-blocking">
+<node CREATED="1339081491919" ID="ID_997223006" MODIFIED="1339081506119" TEXT="waitpid will not block if a child specified by pid is not immediately available. In this case the return value is 0. "/>
+</node>
+</node>
+<node CREATED="1339081437049" FOLDED="true" ID="ID_1886801217" MODIFIED="1366266847653" TEXT="WUNTRACED ">
+<node CREATED="1358664031202" ID="ID_1287838303" MODIFIED="1358664037534" TEXT="job control">
+<node CREATED="1339081518588" ID="ID_901755186" MODIFIED="1339081574345" TEXT="If the implementation supports job control, the status of any childspecified by pid that bas stopped, and whose status has not been reported since it bas stopped, is returned. The WIFSTOPPED macro determines if the return value corresponds to a stopped child process.&#xa;&#xa;"/>
+</node>
+</node>
+</node>
+<node CREATED="1339081616605" ID="ID_239008581" MODIFIED="1339081633050" TEXT="pid">
+<node CREATED="1339081634412" ID="ID_1723621999" MODIFIED="1339081641453" TEXT="== -1">
+<node CREATED="1339081658568" ID="ID_1303387467" MODIFIED="1339081684831" TEXT="waits for any child process"/>
+</node>
+<node CREATED="1339081686246" ID="ID_315722980" MODIFIED="1339081695529" TEXT="&gt; 0">
+<node CREATED="1339081700549" ID="ID_1781934602" MODIFIED="1339081758665" TEXT="waits for child process whose PID equals pid "/>
+</node>
+<node CREATED="1339081759860" ID="ID_1258723314" MODIFIED="1358663681086" TEXT="== 0">
+<node CREATED="1339081781721" ID="ID_1619065286" MODIFIED="1339081839668" TEXT="waits for any child process whose GPID equals caller&apos;s "/>
+</node>
+<node CREATED="1339081849235" ID="ID_773717609" MODIFIED="1358663682524" TEXT="&lt; -1">
+<node CREATED="1339081855705" ID="ID_34458924" MODIFIED="1339081894261" TEXT="waits for any child process whose GPID equals  absolute pid"/>
+</node>
+</node>
+<node CREATED="1358665462298" ID="ID_199916579" MODIFIED="1358665465911" TEXT="return value">
+<node CREATED="1358665468617" ID="ID_1288004579" MODIFIED="1358665474906" TEXT="-1">
+<node CREATED="1358665480098" ID="ID_1749363087" MODIFIED="1358665484701" TEXT="on error">
+<node CREATED="1358665487009" ID="ID_514308503" MODIFIED="1358665505124" TEXT="has no  such child process."/>
+</node>
+</node>
+<node CREATED="1358665467119" ID="ID_1691275830" MODIFIED="1358665468398" TEXT="0">
+<node CREATED="1358665507670" ID="ID_1196760265" MODIFIED="1358665515444" TEXT="non-blocking">
+<node CREATED="1358665517205" ID="ID_183935575" MODIFIED="1358665596185" TEXT="return immediately if the specified  process is still running."/>
+</node>
+</node>
+<node CREATED="1358665469680" ID="ID_249249863" MODIFIED="1358665470933" TEXT="pid"/>
+</node>
+</node>
+<node CREATED="1339079935450" ID="ID_1682827753" MODIFIED="1339079935450" TEXT="Both return: process ID if OK, 0 (see later), or -1 on error"/>
+<node CREATED="1339082130543" ID="ID_716582997" MODIFIED="1339082280272" TEXT="wait3(3.4+BSD)"/>
+<node CREATED="1339082134109" ID="ID_713389170" MODIFIED="1339082280270" TEXT="wait4(3.4+BSD)"/>
+</node>
+<node CREATED="1339082288144" FOLDED="true" ID="ID_1503021603" MODIFIED="1366267025408" TEXT="exec">
+<node CREATED="1339158848523" ID="ID_293706532" MODIFIED="1339158853258" TEXT="#include &lt;unistd. h&gt;"/>
+<node CREATED="1339082354512" ID="ID_863683100" MODIFIED="1339082361415" TEXT="execl">
+<node CREATED="1339167270514" ID="ID_173537753" MODIFIED="1339167359787" TEXT="int execl(const char*pathname,arg0,arg1,...,(char*)0);"/>
+</node>
+<node CREATED="1339082365653" ID="ID_1505881015" MODIFIED="1339082368194" TEXT="execv">
+<node CREATED="1339167372054" ID="ID_1450922506" MODIFIED="1339167403072" TEXT="int execv(const char*pathname,argv);"/>
+</node>
+<node CREATED="1339082377919" ID="ID_1957500978" MODIFIED="1339082382443" TEXT="execle">
+<node CREATED="1339167410759" ID="ID_1686952737" MODIFIED="1339167476382" TEXT="int execv(const char*pathname,arg0,arg1,...,(char*)0, char *const envp[]);"/>
+</node>
+<node CREATED="1339082387974" ID="ID_403492269" MODIFIED="1366266958884" TEXT="execve">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1339167223880" ID="ID_457312174" MODIFIED="1339167260298" TEXT="system call,others libaray functions just"/>
+<node CREATED="1339167496290" ID="ID_305047369" MODIFIED="1339167533551" TEXT="int execve(const char*pathname,argv[],char* const envp[]);"/>
+</node>
+<node CREATED="1339082400646" ID="ID_1965507696" MODIFIED="1339082404982" TEXT="execlp">
+<node CREATED="1339167539526" ID="ID_1502263952" MODIFIED="1339167573096" TEXT="int execlp(const char*filename,arg0,arg1,...,(char*)0);"/>
+</node>
+<node CREATED="1339082405274" ID="ID_959174817" MODIFIED="1366267006591" TEXT="execvp">
+<node CREATED="1339167575968" ID="ID_26369015" MODIFIED="1339167593940" TEXT="int execvp(const char*filename,argv);"/>
+</node>
+<node CREATED="1339158797969" ID="ID_1820618979" MODIFIED="1339158825649" TEXT="All six return: -1 on error, no return on success"/>
+<node CREATED="1339166873031" ID="ID_1439127980" MODIFIED="1339166875497" TEXT="e ">
+<node CREATED="1339166938746" ID="ID_851197931" MODIFIED="1339167169509" TEXT="evironment  list terminated with NULL"/>
+</node>
+<node CREATED="1339166875836" ID="ID_517432916" MODIFIED="1339166877111" TEXT="l">
+<node CREATED="1339167017706" ID="ID_805256369" MODIFIED="1339167338591" TEXT="argument list arg0,arg1,...,(char*)0"/>
+</node>
+<node CREATED="1339166877393" ID="ID_1131852162" MODIFIED="1339166878019" TEXT="v">
+<node CREATED="1339167026165" ID="ID_705815986" MODIFIED="1339167118598" TEXT="char *argv[]"/>
+</node>
+<node CREATED="1339166878292" ID="ID_1748812766" MODIFIED="1339166879317" TEXT="p">
+<node CREATED="1339167033900" ID="ID_1944804133" MODIFIED="1339167097181" TEXT="path prefix in $PATH"/>
+</node>
+</node>
+<node CREATED="1339076175245" FOLDED="true" ID="ID_754308123" MODIFIED="1366269014113" TEXT="exit">
+<node CREATED="1339079166383" FOLDED="true" ID="ID_1163042621" MODIFIED="1366267855489" TEXT="normal">
+<node CREATED="1339079376693" ID="ID_659505909" MODIFIED="1339079382307" TEXT="return"/>
+<node CREATED="1339076190907" ID="ID_502501278" MODIFIED="1339079371987" TEXT="exit">
+<node CREATED="1366267505999" ID="ID_516269719" MODIFIED="1366267638072" TEXT="first performs cleanup handlers registered by atexit(),then call _exit"/>
+</node>
+<node CREATED="1339076193325" ID="ID_185108301" MODIFIED="1339076194939" TEXT="_exit">
+<node CREATED="1366267465772" ID="ID_80391960" MODIFIED="1366267475683" TEXT="returns to the kernel immediately"/>
+</node>
+</node>
+<node CREATED="1339079060609" FOLDED="true" ID="ID_464301849" MODIFIED="1366267861617" TEXT="abnormal">
+<node CREATED="1339079412888" ID="ID_1215565398" MODIFIED="1339079415652" TEXT="abort"/>
+<node CREATED="1339079415918" ID="ID_1001367820" MODIFIED="1339079419532" TEXT="signal"/>
+</node>
+<node CREATED="1366267868687" ID="ID_913070930" MODIFIED="1366267871975" TEXT="exit status"/>
+<node CREATED="1339079435471" FOLDED="true" ID="ID_956365969" MODIFIED="1366267867130" TEXT="when process terminates">
+<node CREATED="1339079580257" ID="ID_1242941529" MODIFIED="1366266715699" TEXT="unavailable">
+<node CREATED="1339079644421" ID="ID_102168110" MODIFIED="1339079652712" TEXT="memory"/>
+<node CREATED="1339079652972" ID="ID_1389590127" MODIFIED="1339079661421" TEXT="file descriptors"/>
+</node>
+<node CREATED="1339079587952" ID="ID_1199714714" MODIFIED="1366266721513" TEXT="available">
+<node CREATED="1339079677519" ID="ID_201413227" MODIFIED="1339079679926" TEXT="pid"/>
+<node CREATED="1339079680226" ID="ID_532159956" MODIFIED="1339079706302" TEXT="termination status"/>
+<node CREATED="1339079706751" ID="ID_1465858674" MODIFIED="1339079721620" TEXT="mount of cpu time"/>
+</node>
+</node>
+<node CREATED="1339078779539" FOLDED="true" ID="ID_408061442" MODIFIED="1366267864174" TEXT="child process">
+<node CREATED="1339078687656" ID="ID_356726017" MODIFIED="1339078768158" TEXT="orphan process">
+<node CREATED="1339079733008" ID="ID_832142527" MODIFIED="1339079793814" TEXT="process terminates after its parent process and adopted by process 0 init"/>
+</node>
+<node CREATED="1339078712000" ID="ID_833246715" MODIFIED="1339078764369" TEXT="zombie process">
+<node CREATED="1339079795862" ID="ID_1040526321" MODIFIED="1339079908954" TEXT="process terminates before its parent process and will be recycled by its parent process using wait or waitpid"/>
+</node>
+</node>
+</node>
+<node CREATED="1339221960011" FOLDED="true" ID="ID_1961384818" MODIFIED="1366269016278" TEXT="accouting">
 <node CREATED="1339222036515" ID="ID_976434166" MODIFIED="1339222051891" TEXT="enable the kernel writes an accounting record each time a process terminates. "/>
 <node CREATED="1339222073486" ID="ID_244985844" MODIFIED="1339222094713" TEXT="accounting  records are typically 32 bytes of binary data with the name of the command, the amount  of CPU time used, the user ID and group ID, the starting time, and so on. "/>
 <node CREATED="1339223103089" ID="ID_1039216420" MODIFIED="1339223105746" TEXT="The data required for the accounting record (CPU times, number of characters  transferred, etc.) are all kept by the kernel in the process table and initialized whenever  a new process is created "/>
@@ -1971,7 +1987,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339225715305" ID="ID_1521787437" MODIFIED="1339225730289" TEXT="process times">
+<node CREATED="1339225715305" FOLDED="true" ID="ID_1521787437" MODIFIED="1366267678142" TEXT="process times">
 <node CREATED="1339226532124" ID="ID_1204706641" MODIFIED="1339226599883" TEXT="&lt;sys/times.h&gt; clock_t times(struct tms *buf);">
 <node CREATED="1339227115623" ID="ID_1995263056" MODIFIED="1339227187625" TEXT="clock_t using clock tick as basic measure unit">
 <node CREATED="1339227202588" ID="ID_417589588" MODIFIED="1339227376330" TEXT="clock tick is quantum (time slice) as schedule period in TSS"/>
