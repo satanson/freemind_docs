@@ -298,7 +298,7 @@
 <node CREATED="1365846438007" ID="ID_261691553" MODIFIED="1365846458912" TEXT="chmod -R 777 /var/www"/>
 </node>
 </node>
-<node CREATED="1366093378742" ID="ID_200931028" MODIFIED="1366093457032" POSITION="right" TEXT="Customizing (/etc/php.ini)">
+<node CREATED="1366093378742" FOLDED="true" ID="ID_200931028" MODIFIED="1366392705552" POSITION="right" TEXT="Customizing (/etc/php.ini)">
 <node CREATED="1366093538918" ID="ID_718843101" MODIFIED="1366094266749" TEXT="file uploads">
 <node CREATED="1366093550606" ID="ID_981753892" MODIFIED="1366093591989" TEXT="file_uploads=On"/>
 <node CREATED="1366093432966" ID="ID_1288285590" MODIFIED="1366093640380" TEXT="upload_max_filesize=2M"/>
@@ -306,11 +306,12 @@
 </node>
 </node>
 <node CREATED="1366093364919" ID="ID_1250007363" MODIFIED="1366093376773" POSITION="right" TEXT="Security"/>
-<node CREATED="1365852069201" ID="ID_1919044814" MODIFIED="1366346748843" POSITION="right" TEXT="language">
-<node CREATED="1365784173677" FOLDED="true" ID="ID_1906414715" MODIFIED="1366340017674" TEXT="&lt;?php ... ?&gt;PHP mode">
-<node CREATED="1365784135550" ID="ID_1872294925" MODIFIED="1365784176523" TEXT="start and end processing instructions &lt;?php and ?&gt;">
+<node CREATED="1365852069201" FOLDED="true" ID="ID_1919044814" MODIFIED="1366392697731" POSITION="right" TEXT="language">
+<node CREATED="1365784173677" ID="ID_1906414715" MODIFIED="1366384963283" TEXT="&lt;?php ... ?&gt;PHP mode">
+<node CREATED="1365784135550" FOLDED="true" ID="ID_1872294925" MODIFIED="1366385003068" TEXT="start and end processing instructions &lt;?php and ?&gt;">
 <node CREATED="1365851136049" ID="ID_1467077523" MODIFIED="1365851228739" TEXT="line feed follows immediately after ?&gt; will be removed by PHP"/>
 <node CREATED="1365851240697" ID="ID_354319232" MODIFIED="1365851279266" TEXT="put a space after the closing ?&gt; to force a space and a line feed to be output"/>
+<node CREATED="1366384975072" ID="ID_1784837106" MODIFIED="1366384999832" TEXT="last ?&gt; just before EOF is optional"/>
 </node>
 </node>
 <node CREATED="1365852678730" FOLDED="true" ID="ID_1500644555" MODIFIED="1366350360897" TEXT="Reserved Variables">
@@ -604,8 +605,7 @@
       ?&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1366350552632" FOLDED="true" ID="ID_907624718" MODIFIED="1366350719137" TEXT="Magic constants">
@@ -752,8 +752,7 @@
       ?&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1366353399840" ID="ID_140896417" MODIFIED="1366353427220">
 <richcontent TYPE="NODE"><html>
@@ -780,8 +779,7 @@
       ?&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1366353448888" ID="ID_1634744829" MODIFIED="1366353485089">
 <richcontent TYPE="NODE"><html>
@@ -811,8 +809,7 @@
       ?&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1366353508527" ID="ID_1710238649" MODIFIED="1366353553796" TEXT="&lt;?php &#xa;     if ($a &gt; $b) {&#xa;          echo &quot;a is bigger than b&quot;; &#xa;     } elseif ($a == $b) {&#xa;          echo &quot;a is equal to b&quot;; &#xa;     } else {&#xa;          echo &quot;a is smaller than b&quot;; &#xa;     } &#xa;?&gt;"/>
 </node>
@@ -966,7 +963,7 @@
 <node CREATED="1366357599935" ID="ID_357708185" MODIFIED="1366357651933" TEXT="$foo=function(paras){...}; $foo(args)"/>
 </node>
 </node>
-<node CREATED="1366357723319" ID="ID_928621089" MODIFIED="1366357731221" TEXT="Classed &amp; Objects">
+<node CREATED="1366357723319" FOLDED="true" ID="ID_928621089" MODIFIED="1366384605501" TEXT="Classed &amp; Objects">
 <node CREATED="1366357732488" ID="ID_1247974508" MODIFIED="1366357800399" TEXT="Among the features in PHP 5 are the inclusions of visibility, abstract and final classes and methods, additional magic methods, interfaces, cloning and typehinting.  PHP treats objects in the same way as references or handles, meaning that each variable contains an object reference rather than a copy of the entire object. See Objects and References  "/>
 <node CREATED="1366358076952" FOLDED="true" ID="ID_112238452" MODIFIED="1366360912587" TEXT="$this static self parent">
 <node CREATED="1366358087263" ID="ID_1584422051" MODIFIED="1366358115830" TEXT="reference to the calling object"/>
@@ -1023,7 +1020,7 @@
 </node>
 <node CREATED="1366359154151" ID="ID_1107846064" MODIFIED="1366359259817" TEXT="method signature remains unchanged upon overriding except constructor,or PHP generate E_STRICT."/>
 </node>
-<node CREATED="1366359888519" ID="ID_1183449549" MODIFIED="1366359889614" TEXT="Autoloading Classes">
+<node CREATED="1366359888519" FOLDED="true" ID="ID_1183449549" MODIFIED="1366384507437" TEXT="Autoloading Classes">
 <node CREATED="1366359897904" ID="ID_1911297949" MODIFIED="1366359898967" TEXT="__autoload() "/>
 </node>
 <node CREATED="1366361617327" FOLDED="true" ID="ID_826720038" MODIFIED="1366361817627" TEXT="Property overloading">
@@ -1036,7 +1033,7 @@
 <node CREATED="1366361702095" ID="ID_474646641" MODIFIED="1366361704261" TEXT="unset"/>
 </node>
 </node>
-<node CREATED="1366361818736" ID="ID_1900622011" MODIFIED="1366361819774" TEXT="Object Iteration">
+<node CREATED="1366361818736" FOLDED="true" ID="ID_1900622011" MODIFIED="1366384506335" TEXT="Object Iteration">
 <node CREATED="1366361830031" ID="ID_40598935" MODIFIED="1366361835678" TEXT="foreach($this as $key =&gt; $value) {...}"/>
 </node>
 <node CREATED="1366362510127" FOLDED="true" ID="ID_1670226055" MODIFIED="1366362588228" TEXT="Object Cloning">
@@ -1046,7 +1043,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1366363971479" ID="ID_1268679850" MODIFIED="1366363972630" TEXT="Object Serialization">
+<node CREATED="1366363971479" FOLDED="true" ID="ID_1268679850" MODIFIED="1366384504831" TEXT="Object Serialization">
 <node CREATED="1366363991183" ID="ID_1574772026" MODIFIED="1366363992662" TEXT="serialize() returns a string containing a byte-stream representation of any value that can be stored in PHP. unserialize() can use this string to recreate the original variable values. "/>
 </node>
 <node CREATED="1366362620159" FOLDED="true" ID="ID_784280333" MODIFIED="1366363836847" TEXT="Comparing Objects">
@@ -1069,7 +1066,7 @@
 <node CREATED="1366363924223" ID="ID_567266272" MODIFIED="1366363935187" TEXT="typeglob in perl"/>
 </node>
 </node>
-<node CREATED="1366361876231" FOLDED="true" ID="ID_702874439" MODIFIED="1366362507912" TEXT="Magic Methods">
+<node CREATED="1366361876231" FOLDED="true" ID="ID_702874439" MODIFIED="1366384513629" TEXT="Magic Methods">
 <node CREATED="1366361889608" ID="ID_1759536977" MODIFIED="1366362014042" TEXT=" , __construct()"/>
 <node CREATED="1366361898567" ID="ID_574837786" MODIFIED="1366361906631" TEXT=", __destruct()"/>
 <node CREATED="1366361911247" ID="ID_1274738814" MODIFIED="1366361917711" TEXT=", __call()"/>
@@ -1106,6 +1103,95 @@
 </node>
 <node CREATED="1366361999495" ID="ID_352325839" MODIFIED="1366362004693" TEXT=",__clone()"/>
 </node>
+</node>
+<node CREATED="1366384607619" FOLDED="true" ID="ID_1877071892" MODIFIED="1366392601072" TEXT="Namespaces">
+<node CREATED="1366385205809" FOLDED="true" ID="ID_663424239" MODIFIED="1366389533664" TEXT="namespaces affect classes, interfaces, functions and constants.">
+<node CREATED="1366385288296" ID="ID_1273384140" MODIFIED="1366385320899" TEXT="&lt;?php &#xa;    namespace MyProject;  &#xa;    const CONNECT_OK = 1; &#xa;    class Connection { /* ... */ } &#xa;    function connect() { /* ... */  }  &#xa;?&gt;"/>
+</node>
+<node CREATED="1366385250120" FOLDED="true" ID="ID_1330078841" MODIFIED="1366389532943" TEXT="namespace keyword">
+<node CREATED="1366385269872" ID="ID_1090024898" MODIFIED="1366385271183" TEXT="A file containing a namespace must declare the namespace at the top of the file before any other code - with one exception: the declare keyword."/>
+<node CREATED="1366385567072" ID="ID_471350448" MODIFIED="1366385871012" TEXT="The only code construct allowed before a namespace declaration is the declare statement, for defining encoding of a source file. In addition, no non-PHP code may precede a namespace declaration, including extra whitespace."/>
+</node>
+<node CREATED="1366389535217" ID="ID_1434877350" MODIFIED="1366389551118" TEXT="sub-namespace, namespace MyProject\Sub\Level;"/>
+<node CREATED="1366389623720" FOLDED="true" ID="ID_291780979" MODIFIED="1366389835943" TEXT="multiple namespaces in the same file(not recommended)">
+<node CREATED="1366389626832" ID="ID_1569931653" MODIFIED="1366389708799" TEXT="&lt;?php &#xa;namespace MyProject;&#xa;  &#xa;const CONNECT_OK = 1; &#xa;class Connection { /* ... */ } &#xa;function connect() { /* ... */  } &#xa; &#xa;namespace AnotherProject;&#xa;  &#xa;const CONNECT_OK = 1; &#xa;class Connection { /* ... */ } &#xa;function connect() { /* ... */  } &#xa;?&gt;"/>
+<node CREATED="1366389717065" ID="ID_575802735" MODIFIED="1366389829279" TEXT="&lt;?php &#xa;namespace MyProject {  &#xa;    const CONNECT_OK = 1; &#xa;    class Connection { /* ... */ } &#xa;    function connect() { /* ... */  } &#xa;}  &#xa;&#xa;namespace AnotherProject {  &#xa;    const CONNECT_OK = 1; &#xa;    class Connection { /* ... */ } &#xa;    function connect() { /* ... */  } &#xa;} &#xa;?&gt;"/>
+</node>
+<node CREATED="1366391071992" FOLDED="true" ID="ID_1123187944" MODIFIED="1366391762885" TEXT="Using namespaces: Basics">
+<node CREATED="1366391111448" ID="ID_287127238" MODIFIED="1366391224366" TEXT="Unqualified name (relative)"/>
+<node CREATED="1366391154784" ID="ID_946099000" MODIFIED="1366391214797" TEXT="Qualified name (relative)"/>
+<node CREATED="1366391167216" ID="ID_389627254" MODIFIED="1366391206110" TEXT="Fully qualified name (absolute)">
+<node CREATED="1366391191584" ID="ID_1488842479" MODIFIED="1366391192982" TEXT="$a = new \currentnamespace\foo(); "/>
+</node>
+<node CREATED="1366391294288" ID="ID_1310543118" MODIFIED="1366391298310" TEXT="current namespace">
+<node CREATED="1366391636592" ID="ID_1503857115" MODIFIED="1366391638383" TEXT="__NAMESPACE__"/>
+<node CREATED="1366391722912" ID="ID_277555937" MODIFIED="1366391724294" TEXT="namespace"/>
+</node>
+<node CREATED="1366391353328" ID="ID_294490687" MODIFIED="1366391355469" TEXT="Note that to access any global class, function or constant, a fully qualified name can be used, such as \strlen() or \Exception or \INI_ALL."/>
+</node>
+<node CREATED="1366391741568" FOLDED="true" ID="ID_1494078781" MODIFIED="1366391949899" TEXT="Using namespaces: Aliasing/Importing">
+<node CREATED="1366391848320" ID="ID_927007595" MODIFIED="1366391849191" TEXT="PHP namespaces support three kinds of aliasing or importing: aliasing a class name, aliasing an interface name, and aliasing a namespace name. Note that importing a function or constant is not supported."/>
+<node CREATED="1366391931840" ID="ID_1060050161" MODIFIED="1366391933239" TEXT="use My\Full\Classname as Another;"/>
+</node>
+<node CREATED="1366391951511" ID="ID_1120926589" MODIFIED="1366391952710" TEXT="Global space">
+<node CREATED="1366391969648" ID="ID_1857972044" MODIFIED="1366391971527" TEXT="\fopen(...)"/>
+</node>
+<node CREATED="1366391985120" FOLDED="true" ID="ID_632429465" MODIFIED="1366392133284" TEXT="Using namespaces: fallback to global function/constant">
+<node CREATED="1366392058207" ID="ID_928366127" MODIFIED="1366392059615" TEXT="Inside a namespace, when PHP encounters a unqualified Name in a class name, function or constant context, it resolves these with different priorities. "/>
+<node CREATED="1366392067536" ID="ID_1451953347" MODIFIED="1366392094585" TEXT="Class names always resolve to the current namespace name. Thus to access internal or non-namespaced user classes, One must refer to them with their fully qualified Name"/>
+<node CREATED="1366392104336" ID="ID_1439829265" MODIFIED="1366392105110" TEXT="For functions and constants, PHP will fall back to global functions or constants if a namespaced function or constant does not exist."/>
+</node>
+<node CREATED="1366392134544" FOLDED="true" ID="ID_655064530" MODIFIED="1366392590207" TEXT="Name resolution rules">
+<node CREATED="1366392149960" ID="ID_356163827" MODIFIED="1366392151062" TEXT="For the purposes of these resolution rules, here are some important definitions:"/>
+<node CREATED="1366392188064" ID="ID_809228631" MODIFIED="1366392188758" TEXT="Unqualified name"/>
+<node CREATED="1366392198664" ID="ID_539865776" MODIFIED="1366392201084" TEXT="Qualified name"/>
+<node CREATED="1366392208704" ID="ID_859346145" MODIFIED="1366392212529" TEXT="Fully qualified name"/>
+<node CREATED="1366392254033" FOLDED="true" ID="ID_743342986" MODIFIED="1366392586804" TEXT="Names are resolved following these resolution rules:">
+<node CREATED="1366392296560" ID="ID_1791026793" MODIFIED="1366392300430" TEXT="Calls to fully qualified functions, classes or constants are resolved at compile-time. For instance new \A\B resolves to class A\B.">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1366392308816" ID="ID_370450265" MODIFIED="1366392312047" TEXT="All unqualified and qualified names (not fully qualified names) are translated during compilation according to current import rules. For example, if the namespace A\B\C is imported as C, a call to C\D\e() is translated to A\B\C\D\e().">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1366392320119" ID="ID_1983510589" MODIFIED="1366392322995" TEXT="Inside a namespace, all qualified names not translated according to import rules have the current namespace prepended. For example, if a call to C\D\e() is performed within namespace A\B, it is translated to A\B\C\D\e().">
+<icon BUILTIN="full-3"/>
+</node>
+<node CREATED="1366392330448" ID="ID_456283926" MODIFIED="1366392335239" TEXT="Unqualified class names are translated during compilation according to current import rules (full name substituted for short imported name). In example, if the namespace A\B\C is imported as C, new C() is translated to new A\B\C().">
+<icon BUILTIN="full-4"/>
+</node>
+<node CREATED="1366392347824" ID="ID_74303431" MODIFIED="1366392448335" TEXT="Inside namespace (say A\B), calls to unqualified functions are resolved at run-time. Here is how a call to function foo() is resolved:">
+<icon BUILTIN="full-5"/>
+<node CREATED="1366392370480" ID="ID_509203403" MODIFIED="1366392377671" TEXT="It looks for a function from the current namespace: A\B\foo().">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1366392372591" ID="ID_1966710866" MODIFIED="1366392393808" TEXT="It tries to find and call the global function foo().">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1366392416496" FOLDED="true" ID="ID_1285154579" MODIFIED="1366392583336" TEXT="Inside namespace (say A\B), calls to unqualified or qualified class names (not fully qualified class names) are resolved at run-time. Here is how a call to new C() or new D\E() is resolved.">
+<icon BUILTIN="full-6"/>
+<node CREATED="1366392434856" ID="ID_1131409879" MODIFIED="1366392506579" TEXT="For new C()">
+<node CREATED="1366392462848" ID="ID_1629550381" MODIFIED="1366392474894" TEXT="It looks for a class from the current namespace: A\B\C.">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1366392483376" ID="ID_845444608" MODIFIED="1366392494018" TEXT="It attempts to autoload A\B\C.">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node CREATED="1366392436256" ID="ID_1227743267" MODIFIED="1366392517063" TEXT="For new D\E():">
+<node CREATED="1366392532872" ID="ID_646077144" MODIFIED="1366392568603" TEXT="It looks for a class by prepending the current namespace: A\B\D\E.">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1366392548904" ID="ID_1187100112" MODIFIED="1366392575255" TEXT="It attempts to autoload A\B\D\E.">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366392607856" ID="ID_909129545" MODIFIED="1366392618653" TEXT="Exceptions">
+<node CREATED="1366392684768" ID="ID_820979200" MODIFIED="1366392694510" TEXT="try-throw-catch"/>
 </node>
 </node>
 <node CREATED="1365852705713" ID="ID_713806400" MODIFIED="1366340014732" POSITION="right" TEXT="phpinfo;"/>
