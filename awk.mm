@@ -120,7 +120,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337780799946" ID="ID_728124429" MODIFIED="1362722552152" POSITION="right" TEXT="control struct">
+<node CREATED="1337780799946" FOLDED="true" ID="ID_728124429" MODIFIED="1366462461568" POSITION="right" TEXT="control struct">
 <node CREATED="1337780820140" ID="ID_1365838319" MODIFIED="1337780835399" TEXT="conditional stmt">
 <node CREATED="1337780838525" ID="ID_1796782129" MODIFIED="1337780961167">
 <richcontent TYPE="NODE"><html>
@@ -253,8 +253,8 @@
 <node CREATED="1337781429868" ID="ID_1408197569" MODIFIED="1337781433723" TEXT="exit"/>
 </node>
 </node>
-<node CREATED="1337757231599" FOLDED="true" ID="ID_253791869" MODIFIED="1365606657031" POSITION="right" STYLE="fork" TEXT="process(nawk &apos;{print $1,$2}&apos; employees)">
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<node CREATED="1337757231599" FOLDED="true" ID="ID_253791869" MODIFIED="1366462457624" POSITION="right" TEXT="process(nawk &apos;{print $1,$2}&apos; employees)">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1337757237160" ID="ID_841975563" MODIFIED="1337757735568" TEXT="take a line(record) of input file into buff designated by $0">
 <icon BUILTIN="full-1"/>
 </node>
