@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355236104335" ID="ID_1153208252" MODIFIED="1359305065744" TEXT="perl">
-<node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1366299231551" POSITION="right" TEXT="$@%&amp;*\">
+<node CREATED="1355458302900" ID="ID_1687987652" MODIFIED="1366441310109" POSITION="right" TEXT="$@%&amp;*\">
 <node CREATED="1355458364407" FOLDED="true" ID="ID_937717701" MODIFIED="1365595660267" TEXT="$ scalar">
 <node CREATED="1355240403869" ID="ID_1518752704" MODIFIED="1365583383090" TEXT="undef">
 <node CREATED="1355240432319" ID="ID_179851737" MODIFIED="1365578983476" TEXT="only scalar can have a &quot;undef&quot; value ,containers/collections/aggregations can&apos;t"/>
@@ -791,11 +791,11 @@
 <node CREATED="1365653338641" ID="ID_148231161" MODIFIED="1365653345678" TEXT="$foo=\*FH"/>
 </node>
 </node>
-<node CREATED="1355456156918" FOLDED="true" ID="ID_1667849684" MODIFIED="1366265105398" STYLE="fork" TEXT="\ hard reference">
+<node CREATED="1355456156918" ID="ID_1667849684" MODIFIED="1366441311905" STYLE="fork" TEXT="\ hard reference">
 <node CREATED="1355456409164" ID="ID_525132591" MODIFIED="1355456657403" TEXT="definition">
 <node CREATED="1355456350801" ID="ID_1582828918" MODIFIED="1355456615118" TEXT="hard ref is a scalar which references to  the thingy(object) underlying the variable."/>
 </node>
-<node CREATED="1355456638566" FOLDED="true" ID="ID_303866383" MODIFIED="1366265104083" TEXT="create">
+<node CREATED="1355456638566" ID="ID_303866383" MODIFIED="1366441320776" TEXT="create">
 <node CREATED="1355456659172" ID="ID_1465710276" MODIFIED="1366188999037" TEXT="named &quot;\&quot;">
 <node CREATED="1355456672941" ID="ID_93924745" MODIFIED="1355456988992" TEXT="$ref=\$scalar;">
 <icon BUILTIN="full-1"/>
@@ -878,7 +878,7 @@
 <node CREATED="1366190211904" ID="ID_1485121694" MODIFIED="1366263679135" TEXT="$array[$x]-&gt;{&quot;foo&quot;}-&gt;[0] = &quot;January&quot;;"/>
 </node>
 </node>
-<node CREATED="1355456834305" FOLDED="true" ID="ID_343072334" MODIFIED="1366265102642" TEXT="dereferencing">
+<node CREATED="1355456834305" ID="ID_343072334" MODIFIED="1366441315608" TEXT="dereferencing">
 <node CREATED="1355457365559" FOLDED="true" ID="ID_1326166795" MODIFIED="1366260673158" TEXT="$@%&amp;*">
 <icon BUILTIN="full-1"/>
 <node CREATED="1355473344623" ID="ID_958993016" MODIFIED="1366260469114" TEXT="$scalarref">
@@ -977,7 +977,7 @@
 <node CREATED="1366256633287" ID="ID_81206349" MODIFIED="1366262450847" TEXT="[n] {key} (args)">
 <icon BUILTIN="full-4"/>
 </node>
-<node CREATED="1366260692790" FOLDED="true" ID="ID_869749915" MODIFIED="1366265091912" TEXT="dereferencing rules">
+<node CREATED="1366260692790" FOLDED="true" ID="ID_869749915" MODIFIED="1366441318985" TEXT="dereferencing rules">
 <node CREATED="1366260705023" FOLDED="true" ID="ID_1477187379" MODIFIED="1366264962002" TEXT="associativity">
 <icon BUILTIN="full-1"/>
 <node CREATED="1366260970775" ID="ID_1092098541" MODIFIED="1366260984223" TEXT="$@%&amp;*">
@@ -1047,8 +1047,7 @@
       ];
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1366261787351" FOLDED="true" ID="ID_83591233" MODIFIED="1366262271270" TEXT="$r-&gt;[3](1,4,7)">
 <node CREATED="1366261838311" ID="ID_209980447" MODIFIED="1366261843885" TEXT="1:4:7"/>
 </node>
@@ -1102,8 +1101,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1366257498086" FOLDED="true" ID="ID_237382272" MODIFIED="1366263679129" TEXT="$array-&gt;[0]{&apos;foo&apos;}[3]">
@@ -1133,8 +1131,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;];
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1366262849039" ID="ID_1527454332" MODIFIED="1366263679126" TEXT="$array[0]{&apos;foo&apos;}[3] != $array-&gt;[0]{&apos;foo&apos;}[3]"/>
@@ -3005,8 +3002,7 @@
       <font color="rgb(0, 0, 0)">}</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
