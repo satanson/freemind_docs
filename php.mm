@@ -98,8 +98,7 @@
       xdebug.remote_port=9001
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1268,19 +1267,22 @@
 <node CREATED="1366349237624" ID="ID_244415570" MODIFIED="1366349251620" TEXT="$argv &#x2014; Array of arguments passed to script"/>
 </node>
 </node>
-<node CREATED="1366442119132" ID="ID_1000397855" MODIFIED="1366447775107" POSITION="right" TEXT="Predefined Functios">
+<node CREATED="1366442119132" ID="ID_1000397855" MODIFIED="1366466462687" POSITION="right" TEXT="Predefined Functios">
 <node CREATED="1366442127052" FOLDED="true" ID="ID_1853569711" MODIFIED="1366443956813" TEXT="Variable handling">
 <node CREATED="1366442162580" ID="ID_284525210" MODIFIED="1366442163942" TEXT="bool isset ( mixed $var [, mixed $... ] )"/>
 <node CREATED="1366442184988" ID="ID_218876014" MODIFIED="1366442186130" TEXT="void unset ( mixed $var [, mixed $... ] )"/>
 </node>
-<node CREATED="1366442250956" FOLDED="true" ID="ID_1028908709" MODIFIED="1366442751265" TEXT="Function handling">
+<node CREATED="1366442250956" FOLDED="true" ID="ID_1028908709" MODIFIED="1366468096168" TEXT="Function handling">
 <node CREATED="1366442289188" ID="ID_748622481" MODIFIED="1366442290982" TEXT="bool function_exists ( string $function_name )"/>
 <node CREATED="1366442314420" ID="ID_1713464348" MODIFIED="1366442315567" TEXT="mixed func_get_arg ( int $arg_num )"/>
 <node CREATED="1366442338748" ID="ID_1083872190" MODIFIED="1366442339981" TEXT="array func_get_args ( void )"/>
 <node CREATED="1366442364885" ID="ID_313822596" MODIFIED="1366442366216" TEXT="int func_num_args ( void )"/>
 <node CREATED="1366442413708" ID="ID_116977937" MODIFIED="1366442424150" TEXT="array get_defined_functions ( void )"/>
+<node CREATED="1366467407308" ID="ID_1311217984" MODIFIED="1366467408627" TEXT="register_shutdown_function"/>
+<node CREATED="1366467448387" ID="ID_1947641555" MODIFIED="1366467449676" TEXT="set_error_handler"/>
+<node CREATED="1366467450040" ID="ID_1118100804" MODIFIED="1366467459490" TEXT="set_exception_handler"/>
 </node>
-<node CREATED="1366442752316" ID="ID_1540589603" MODIFIED="1366450732741" TEXT="PHP Options/Info">
+<node CREATED="1366442752316" FOLDED="true" ID="ID_1540589603" MODIFIED="1366466466860" TEXT="PHP Options/Info">
 <node CREATED="1366442797676" ID="ID_1796196461" MODIFIED="1366442802423" TEXT="php.ini">
 <node CREATED="1366442784892" ID="ID_1494325878" MODIFIED="1366442803790" TEXT="string ini_get ( string $varname )"/>
 <node CREATED="1366442875524" ID="ID_876963837" MODIFIED="1366442877271" TEXT="array ini_get_all ([ string $extension [, bool $details = true ]] )"/>
@@ -1294,7 +1296,7 @@
 <node CREATED="1366449794603" ID="ID_152700305" MODIFIED="1366449796320" TEXT="int get_magic_quotes_gpc ( void )"/>
 <node CREATED="1366450575275" ID="ID_1735508778" MODIFIED="1366450576487" TEXT="set_include_path"/>
 </node>
-<node CREATED="1366443195876" ID="ID_708570554" MODIFIED="1366450734112" TEXT="Filesystem">
+<node CREATED="1366443195876" FOLDED="true" ID="ID_708570554" MODIFIED="1366466467921" TEXT="Filesystem">
 <node CREATED="1366443206748" ID="ID_746831657" MODIFIED="1366443207912" TEXT="string tempnam ( string $dir , string $prefix )"/>
 <node CREATED="1366443232780" ID="ID_1732487435" MODIFIED="1366443234392" TEXT="bool file_exists ( string $filename )"/>
 <node CREATED="1366443277004" ID="ID_160148919" MODIFIED="1366443278279" TEXT="bool unlink ( string $filename [, resource $context ] )"/>
@@ -1393,6 +1395,19 @@
 <node CREATED="1366450248483" ID="ID_790773191" MODIFIED="1366450249647" TEXT="preg_replace_callback"/>
 <node CREATED="1366450264795" ID="ID_339286157" MODIFIED="1366450266230" TEXT="preg_replace "/>
 <node CREATED="1366450278643" ID="ID_34720876" MODIFIED="1366450280137" TEXT="preg_split"/>
+</node>
+<node CREATED="1366466474037" FOLDED="true" ID="ID_1452826514" MODIFIED="1366467696852" TEXT="Misc">
+<node CREATED="1366466482684" ID="ID_1096933627" MODIFIED="1366466498119" TEXT="bool define ( string $name , mixed $value [, bool $case_insensitive = false ] )"/>
+<node CREATED="1366466523988" ID="ID_1702453438" MODIFIED="1366466525324" TEXT="bool defined ( string $name )"/>
+<node CREATED="1366466583556" ID="ID_515113012" MODIFIED="1366466585274" TEXT="mixed constant ( string $name )"/>
+</node>
+<node CREATED="1366467698204" FOLDED="true" ID="ID_1070154197" MODIFIED="1366469096984" TEXT="Streams">
+<node CREATED="1366468101412" ID="ID_1023641797" MODIFIED="1366468103030" TEXT="bool stream_wrapper_unregister ( string $protocol )"/>
+<node CREATED="1366468122044" ID="ID_1041748096" MODIFIED="1366468123562" TEXT="bool stream_wrapper_register ( string $protocol , string $classname [, int $flags = 0 ] )"/>
+<node CREATED="1366468152196" ID="ID_1311160255" MODIFIED="1366468154265" TEXT="bool stream_wrapper_restore ( string $protocol )"/>
+</node>
+<node CREATED="1366469098252" ID="ID_1848690022" MODIFIED="1366469099690" TEXT="Network">
+<node CREATED="1366469113772" ID="ID_1411965392" MODIFIED="1366469115402" TEXT="void header ( string $string [, bool $replace = true [, int $http_response_code ]] )"/>
 </node>
 </node>
 <node CREATED="1365852705713" ID="ID_713806400" MODIFIED="1366340014732" POSITION="right" TEXT="phpinfo;"/>
