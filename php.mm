@@ -345,7 +345,7 @@
 </node>
 </node>
 <node CREATED="1366093364919" ID="ID_1250007363" MODIFIED="1366093376773" POSITION="right" TEXT="Security"/>
-<node CREATED="1365852069201" FOLDED="true" ID="ID_1919044814" MODIFIED="1366442116642" POSITION="right" TEXT="language">
+<node CREATED="1365852069201" FOLDED="true" ID="ID_1919044814" MODIFIED="1366524272362" POSITION="right" TEXT="language">
 <node CREATED="1365784173677" ID="ID_1906414715" MODIFIED="1366384963283" TEXT="&lt;?php ... ?&gt;PHP mode">
 <node CREATED="1365784135550" FOLDED="true" ID="ID_1872294925" MODIFIED="1366385003068" TEXT="start and end processing instructions &lt;?php and ?&gt;">
 <node CREATED="1365851136049" ID="ID_1467077523" MODIFIED="1365851228739" TEXT="line feed follows immediately after ?&gt; will be removed by PHP"/>
@@ -484,7 +484,7 @@
 <node CREATED="1366346528744" ID="ID_1727523289" MODIFIED="1366346529902" TEXT="number"/>
 </node>
 </node>
-<node CREATED="1366346752368" ID="ID_1284693779" MODIFIED="1366442101823" TEXT="Varibles">
+<node CREATED="1366346752368" FOLDED="true" ID="ID_1284693779" MODIFIED="1366522185666" TEXT="Varibles">
 <node CREATED="1366346800929" ID="ID_1470028596" MODIFIED="1366346805430" TEXT="case-sensitive"/>
 <node CREATED="1366346805792" ID="ID_1960403437" MODIFIED="1366346822407" TEXT="$ prefixing identifier"/>
 <node CREATED="1366346903024" ID="ID_1796142845" MODIFIED="1366346904117" TEXT="[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*"/>
@@ -548,7 +548,7 @@
 <node CREATED="1366350640760" ID="ID_736933745" MODIFIED="1366350643330" TEXT="__NAMESPACE__"/>
 </node>
 </node>
-<node CREATED="1366350722840" FOLDED="true" ID="ID_451698836" MODIFIED="1366352135510" TEXT="Operator">
+<node CREATED="1366350722840" ID="ID_451698836" MODIFIED="1366524084033" TEXT="Operator">
 <node CREATED="1366351356744" FOLDED="true" ID="ID_1876318456" MODIFIED="1366351378401" TEXT="all operator (precedence)">
 <node CREATED="1366350726792" ID="ID_946500443" MODIFIED="1366351374577" TEXT="clone new (non-associative)">
 <icon BUILTIN="full-1"/>
@@ -644,22 +644,22 @@
 <node CREATED="1366351656104" ID="ID_1810402001" MODIFIED="1366351666030" TEXT="python"/>
 </node>
 </node>
-<node CREATED="1366351701592" ID="ID_1507516285" MODIFIED="1366351707694" TEXT="error control op">
+<node CREATED="1366351701592" ID="ID_1507516285" MODIFIED="1366524090265" TEXT="error control op">
 <node CREATED="1366351774552" ID="ID_226327891" MODIFIED="1366351778718" TEXT="@expr"/>
 </node>
-<node CREATED="1366351803544" ID="ID_1567489764" MODIFIED="1366351806302" TEXT="execution op">
+<node CREATED="1366351803544" ID="ID_1567489764" MODIFIED="1366524088022" TEXT="execution op">
 <node CREATED="1366351809512" ID="ID_1604486920" MODIFIED="1366351811158" TEXT="``"/>
 </node>
-<node CREATED="1366351861424" ID="ID_836666379" MODIFIED="1366351865374" TEXT="string op">
+<node CREATED="1366351861424" FOLDED="true" ID="ID_836666379" MODIFIED="1366524088549" TEXT="string op">
 <node CREATED="1366351866128" ID="ID_1360594989" MODIFIED="1366351867445" TEXT="."/>
 </node>
-<node CREATED="1366351891288" FOLDED="true" ID="ID_15855451" MODIFIED="1366351976909" TEXT="array op">
+<node CREATED="1366351891288" FOLDED="true" ID="ID_15855451" MODIFIED="1366524086557" TEXT="array op">
 <node CREATED="1366351936375" ID="ID_1001398900" MODIFIED="1366351941710" TEXT="+ UNION"/>
 <node CREATED="1366351942120" ID="ID_901837479" MODIFIED="1366351958007" TEXT="= != &lt;&gt; eq or ne"/>
 <node CREATED="1366351958824" ID="ID_1434654067" MODIFIED="1366351974198" TEXT="=== !== identical or not identical"/>
 </node>
 </node>
-<node CREATED="1366352093408" FOLDED="true" ID="ID_1663505955" MODIFIED="1366355152184" TEXT="Control Structure">
+<node CREATED="1366352093408" FOLDED="true" ID="ID_1663505955" MODIFIED="1366522247910" TEXT="Control Structure">
 <node CREATED="1366353240576" FOLDED="true" ID="ID_1192973819" MODIFIED="1366353733140" TEXT="style">
 <node CREATED="1366353258012" FOLDED="true" ID="ID_397626981" MODIFIED="1366353559248" TEXT="C style">
 <node CREATED="1366353314664" ID="ID_362246225" MODIFIED="1366353386467">
@@ -813,16 +813,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1366354723192" FOLDED="true" ID="ID_1352523112" MODIFIED="1366355142617" TEXT="include/require/include_once/require_once">
-<node CREATED="1366354793016" ID="ID_1751406122" MODIFIED="1366354830998" TEXT="include[_once]">
-<node CREATED="1366354976024" ID="ID_230941757" MODIFIED="1366355001038" TEXT="using external file"/>
-<node CREATED="1366355001648" ID="ID_777830873" MODIFIED="1366355078166" TEXT="produce a fatal E_COMPILE_ERROR level error and halt the script upon failure"/>
-</node>
-<node CREATED="1366354831472" ID="ID_1009406716" MODIFIED="1366354839197" TEXT="require[_once]">
-<node CREATED="1366355006288" ID="ID_875039499" MODIFIED="1366355012029" TEXT="using external file"/>
-<node CREATED="1366355081023" ID="ID_793548181" MODIFIED="1366355138637" TEXT="emits a warning (E_WARNING) and allow script to continue upon failure"/>
-</node>
-</node>
 <node CREATED="1366354787959" ID="ID_1148704093" MODIFIED="1366354789758" TEXT="goto"/>
 </node>
 <node CREATED="1366355155223" FOLDED="true" ID="ID_1213247498" MODIFIED="1366442094740" TEXT="Functions">
@@ -892,7 +882,7 @@
 <node CREATED="1366357599935" ID="ID_357708185" MODIFIED="1366357651933" TEXT="$foo=function(paras){...}; $foo(args)"/>
 </node>
 </node>
-<node CREATED="1366357723319" FOLDED="true" ID="ID_928621089" MODIFIED="1366441423113" TEXT="Classed &amp; Objects">
+<node CREATED="1366357723319" FOLDED="true" ID="ID_928621089" MODIFIED="1366522377509" TEXT="Classed &amp; Objects">
 <node CREATED="1366440500092" FOLDED="true" ID="ID_316374756" MODIFIED="1366440939673" TEXT="{class,object} member">
 <node CREATED="1366440673124" FOLDED="true" ID="ID_436663606" MODIFIED="1366440755088" TEXT="object mem (non-static)">
 <node CREATED="1366440691660" ID="ID_353334559" MODIFIED="1366440698239" TEXT="object property"/>
@@ -1001,16 +991,13 @@
 <node CREATED="1366438898284" ID="ID_517117277" MODIFIED="1366439682758" TEXT="referring superclass&apos; static property and overrided method from subclass must be qualified by parent::"/>
 </node>
 </node>
-<node CREATED="1366358412656" FOLDED="true" ID="ID_1493492995" MODIFIED="1366440539884" TEXT="variable class">
+<node CREATED="1366358412656" FOLDED="true" ID="ID_1493492995" MODIFIED="1366522355781" TEXT="variable class">
 <node CREATED="1366358417687" ID="ID_352458984" MODIFIED="1366358437122" TEXT="If a string containing the name of a class is used with new, a new instance of that class will be created. If the class is in a namespace, its fully qualified name must be used when doing this."/>
 </node>
-<node CREATED="1366361818736" FOLDED="true" ID="ID_1900622011" MODIFIED="1366441390340" TEXT="Object Iteration">
+<node CREATED="1366361818736" FOLDED="true" ID="ID_1900622011" MODIFIED="1366522354253" TEXT="Object Iteration">
 <node CREATED="1366361830031" ID="ID_40598935" MODIFIED="1366361835678" TEXT="foreach($this as $key =&gt; $value) {...}"/>
 </node>
-<node CREATED="1366359888519" ID="ID_1183449549" MODIFIED="1366441392269" TEXT="Autoloading Classes">
-<node CREATED="1366359897904" ID="ID_1911297949" MODIFIED="1366359898967" TEXT="__autoload() "/>
-</node>
-<node CREATED="1366361617327" FOLDED="true" ID="ID_826720038" MODIFIED="1366441411625" TEXT="Property overloading">
+<node CREATED="1366361617327" FOLDED="true" ID="ID_826720038" MODIFIED="1366522350057" TEXT="Property overloading">
 <node CREATED="1366361628352" ID="ID_351550670" MODIFIED="1366361651450" TEXT="public void __set ( string $name , mixed $value )"/>
 <node CREATED="1366361659895" ID="ID_1451305454" MODIFIED="1366361660790" TEXT="public mixed __get ( string $name )"/>
 <node CREATED="1366361669919" ID="ID_1948202807" MODIFIED="1366361670885" TEXT="public bool __isset ( string $name )">
@@ -1020,19 +1007,19 @@
 <node CREATED="1366361702095" ID="ID_474646641" MODIFIED="1366361704261" TEXT="unset"/>
 </node>
 </node>
-<node CREATED="1366363971479" FOLDED="true" ID="ID_1268679850" MODIFIED="1366441416173" TEXT="Object Serialization">
+<node CREATED="1366363971479" FOLDED="true" ID="ID_1268679850" MODIFIED="1366522359509" TEXT="Object Serialization">
 <node CREATED="1366363991183" ID="ID_1574772026" MODIFIED="1366363992662" TEXT="serialize() returns a string containing a byte-stream representation of any value that can be stored in PHP. unserialize() can use this string to recreate the original variable values. "/>
 </node>
-<node CREATED="1366362620159" FOLDED="true" ID="ID_784280333" MODIFIED="1366441377013" TEXT="Comparing Objects">
+<node CREATED="1366362620159" FOLDED="true" ID="ID_784280333" MODIFIED="1366522361225" TEXT="Comparing Objects">
 <node CREATED="1366362630423" ID="ID_815677782" MODIFIED="1366362638357" TEXT="== !="/>
 <node CREATED="1366362632215" ID="ID_478185882" MODIFIED="1366362641966" TEXT="=== !=="/>
 </node>
-<node CREATED="1366362726495" FOLDED="true" ID="ID_1494723250" MODIFIED="1366441380560" TEXT="Type Hinting">
+<node CREATED="1366362726495" FOLDED="true" ID="ID_1494723250" MODIFIED="1366522373521" TEXT="Type Hinting">
 <node CREATED="1366362740039" ID="ID_263902133" MODIFIED="1366362741213" TEXT="PHP 5 introduces type hinting. Functions are now able to force parameters to be objects (by specifying the name of the class in the function prototype), interfaces, arrays (since PHP 5.1) or callable (since PHP 5.4)."/>
 <node CREATED="1366362757335" ID="ID_1349296847" MODIFIED="1366362758373" TEXT="If class or interface is specified as type hint then all its children or implementations are allowed too."/>
 <node CREATED="1366362769255" ID="ID_64209617" MODIFIED="1366362770237" TEXT="Type hints can not be used with scalar types such as int or string. Traits are not allowed either."/>
 </node>
-<node CREATED="1366361876231" FOLDED="true" ID="ID_702874439" MODIFIED="1366440912194" TEXT="Magic Methods">
+<node CREATED="1366361876231" FOLDED="true" ID="ID_702874439" MODIFIED="1366522374803" TEXT="Magic Methods">
 <node CREATED="1366361889608" ID="ID_1759536977" MODIFIED="1366362014042" TEXT=" , __construct()"/>
 <node CREATED="1366361898567" ID="ID_574837786" MODIFIED="1366361906631" TEXT=", __destruct()"/>
 <node CREATED="1366361911247" ID="ID_1274738814" MODIFIED="1366361917711" TEXT=", __call()"/>
@@ -1068,6 +1055,23 @@
 </node>
 </node>
 <node CREATED="1366361999495" ID="ID_352325839" MODIFIED="1366362004693" TEXT=",__clone()"/>
+</node>
+</node>
+<node CREATED="1366522255294" ID="ID_874037520" MODIFIED="1366524262762" TEXT="Loading External">
+<node CREATED="1366359888519" FOLDED="true" ID="ID_1183449549" MODIFIED="1366524270805" TEXT="Autoloading Classes">
+<node CREATED="1366359897904" ID="ID_1911297949" MODIFIED="1366359898967" TEXT="__autoload() "/>
+<node CREATED="1366522302390" ID="ID_1042760364" MODIFIED="1366522328355" TEXT="spl_autoload_register()"/>
+<node CREATED="1366522328653" ID="ID_499532505" MODIFIED="1366522338948" TEXT="spl_autoload()"/>
+</node>
+<node CREATED="1366354723192" FOLDED="true" ID="ID_1352523112" MODIFIED="1366522218684" TEXT="include/require/include_once/require_once">
+<node CREATED="1366354793016" ID="ID_1751406122" MODIFIED="1366354830998" TEXT="include[_once]">
+<node CREATED="1366354976024" ID="ID_230941757" MODIFIED="1366355001038" TEXT="using external file"/>
+<node CREATED="1366355001648" ID="ID_777830873" MODIFIED="1366355078166" TEXT="produce a fatal E_COMPILE_ERROR level error and halt the script upon failure"/>
+</node>
+<node CREATED="1366354831472" ID="ID_1009406716" MODIFIED="1366354839197" TEXT="require[_once]">
+<node CREATED="1366355006288" ID="ID_875039499" MODIFIED="1366355012029" TEXT="using external file"/>
+<node CREATED="1366355081023" ID="ID_793548181" MODIFIED="1366355138637" TEXT="emits a warning (E_WARNING) and allow script to continue upon failure"/>
+</node>
 </node>
 </node>
 <node CREATED="1366384607619" FOLDED="true" ID="ID_1877071892" MODIFIED="1366392601072" TEXT="Namespaces">
@@ -1160,7 +1164,375 @@
 <node CREATED="1366392684768" ID="ID_820979200" MODIFIED="1366392694510" TEXT="try-throw-catch"/>
 </node>
 </node>
-<node CREATED="1366347271792" FOLDED="true" ID="ID_1961162281" MODIFIED="1366442118084" POSITION="right" TEXT="Predefined Variables">
+<node CREATED="1366524204590" ID="ID_761158710" MODIFIED="1366524237762" POSITION="right" TEXT="mechanism">
+<node CREATED="1366359888519" FOLDED="true" ID="ID_1643886401" MODIFIED="1366530326277" TEXT="Autoloading Classes">
+<node CREATED="1366359897904" ID="ID_1131772467" MODIFIED="1366359898967" TEXT="__autoload() "/>
+<node CREATED="1366522302390" ID="ID_704923039" MODIFIED="1366522328355" TEXT="spl_autoload_register()"/>
+<node CREATED="1366522328653" ID="ID_133588295" MODIFIED="1366522338948" TEXT="spl_autoload()"/>
+</node>
+<node CREATED="1366524289582" FOLDED="true" ID="ID_269275430" MODIFIED="1366530324914" TEXT="Error Control">
+<node CREATED="1366524313846" ID="ID_1278141523" MODIFIED="1366524417499" TEXT="error control op: @expr, silence error generated by the expr."/>
+<node CREATED="1366530114821" ID="ID_310367889" MODIFIED="1366530117450" TEXT="ini_set(&apos;display_errors&apos;,&apos;On&apos;)"/>
+<node CREATED="1366525578950" FOLDED="true" ID="ID_1734032772" MODIFIED="1366530211417" TEXT="set error levels which will be reported by error_reporting()">
+<node CREATED="1366526439174" FOLDED="true" ID="ID_1242466710" MODIFIED="1366526931433" TEXT="(32767)E_ALL">
+<node CREATED="1366526454389" ID="ID_777457518" MODIFIED="1366526455660" TEXT="All errors and warnings, as supported, except of level E_STRICT prior to PHP 5.4.0."/>
+</node>
+<node CREATED="1366526479485" FOLDED="true" ID="ID_1923862595" MODIFIED="1366526891596" TEXT="run-time">
+<node CREATED="1366525601470" ID="ID_621637934" MODIFIED="1366526489701" TEXT="(1)E_ERROR"/>
+<node CREATED="1366525634446" ID="ID_1766009264" MODIFIED="1366525681070" TEXT="(2)E_WARNING"/>
+<node CREATED="1366525860461" ID="ID_535741134" MODIFIED="1366526576428" TEXT="(8)E_NOTICE"/>
+<node CREATED="1366526292405" ID="ID_1485562441" MODIFIED="1366526838187" TEXT="(4096)E_RECOVERABLE_ERROR"/>
+</node>
+<node CREATED="1366526506797" FOLDED="true" ID="ID_1765576354" MODIFIED="1366526890764" TEXT="compile-time">
+<node CREATED="1366525828494" ID="ID_1131449388" MODIFIED="1366525833540" TEXT="(4)E_PARSE"/>
+</node>
+<node CREATED="1366526600494" FOLDED="true" ID="ID_804317874" MODIFIED="1366526889401" TEXT="startup-time">
+<node CREATED="1366525922574" ID="ID_1412850190" MODIFIED="1366525928108" TEXT="(16)E_CORE_ERROR"/>
+<node CREATED="1366525957045" ID="ID_1283657129" MODIFIED="1366525962476" TEXT="(32)E_CORE_WARNING"/>
+</node>
+<node CREATED="1366526667838" FOLDED="true" ID="ID_503856894" MODIFIED="1366526733276" TEXT="complie-time (Zend Scripting Engine)">
+<node CREATED="1366525993190" ID="ID_1622626988" MODIFIED="1366525999404" TEXT="(64)E_COMPILE_ERROR"/>
+<node CREATED="1366526033581" ID="ID_1998224041" MODIFIED="1366526041708" TEXT="(128)E_COMPILE_WARNING"/>
+</node>
+<node CREATED="1366526738814" FOLDED="true" ID="ID_1279367716" MODIFIED="1366526887617" TEXT="user">
+<node CREATED="1366526096526" ID="ID_489290607" MODIFIED="1366526105653" TEXT="(256)E_USER_ERROR"/>
+<node CREATED="1366526130454" ID="ID_1753449613" MODIFIED="1366526136028" TEXT="(512)E_USER_WARNING"/>
+<node CREATED="1366526178310" ID="ID_440693618" MODIFIED="1366526223971" TEXT="(1024)E_USER_NOTICE"/>
+</node>
+<node CREATED="1366526934302" ID="ID_1571236982" MODIFIED="1366526936819" TEXT="misc">
+<node CREATED="1366526246494" ID="ID_846830862" MODIFIED="1366526987557" TEXT="(2048)E_STRICT">
+<node CREATED="1366526256317" ID="ID_882682233" MODIFIED="1366527026884" TEXT="interoperability&amp;forward compatibility"/>
+</node>
+<node CREATED="1366526371062" ID="ID_1365459361" MODIFIED="1366526962388" TEXT="(8192)E_DEPRECATED">
+<node CREATED="1366526384733" ID="ID_1943461803" MODIFIED="1366527114139" TEXT="interoperability&amp;backword compatibility"/>
+</node>
+<node CREATED="1366526399773" ID="ID_359342754" MODIFIED="1366527131772" TEXT="(16384)E_USER_DEPRECATED"/>
+</node>
+</node>
+<node CREATED="1366530207501" ID="ID_1009964679" MODIFIED="1366530311036" TEXT="error level can be modified by set_error_handler, so @expr might still report errors after calling set_error_handler"/>
+<node CREATED="1366527268669" ID="ID_1789759564" MODIFIED="1366527309180" TEXT="generate user-generated error by user_error()"/>
+<node CREATED="1366527597926" FOLDED="true" ID="ID_1572624745" MODIFIED="1366528297673" TEXT="error_log for logging error records">
+<node CREATED="1366527613646" ID="ID_201552446" MODIFIED="1366527630686" TEXT="bool error_log ( string $message [, int $message_type = 0 [, string $destination [, string $extra_headers ]]] )"/>
+<node CREATED="1366527634773" ID="ID_943901967" MODIFIED="1366527645531" TEXT="$message_type">
+<node CREATED="1366527647022" FOLDED="true" ID="ID_1604856946" MODIFIED="1366528187741" TEXT="0">
+<node CREATED="1366527722030" ID="ID_1906097568" MODIFIED="1366527723403" TEXT="message is sent to PHP&apos;s system logger">
+<node CREATED="1366527979454" ID="ID_1752400590" MODIFIED="1366528145760" TEXT="php.ini:error_log">
+<node CREATED="1366527996854" ID="ID_1566919632" MODIFIED="1366528000937" TEXT="syslog">
+<node CREATED="1366528051070" ID="ID_1724684042" MODIFIED="1366528059836" TEXT="UNIX syslog"/>
+<node CREATED="1366528060093" ID="ID_217187421" MODIFIED="1366528095988" TEXT="WIndows NT event log"/>
+<node CREATED="1366528096653" ID="ID_493113121" MODIFIED="1366528111652" TEXT="Windows 95(not supported)"/>
+</node>
+<node CREATED="1366528114709" ID="ID_911883429" MODIFIED="1366528125436" TEXT="unset">
+<node CREATED="1366528126941" ID="ID_920577441" MODIFIED="1366528143575" TEXT="using the Operating System&apos;s system logging mechanism"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366527648934" FOLDED="true" ID="ID_1273742858" MODIFIED="1366528290960" TEXT="1">
+<node CREATED="1366528219677" ID="ID_705082841" MODIFIED="1366528221019" TEXT="message is sent by email to the address in the destination parameter. This is the only message type where the fourth parameter, extra_headers is used."/>
+</node>
+<node CREATED="1366527649774" FOLDED="true" ID="ID_1204725884" MODIFIED="1366528290304" TEXT="2">
+<node CREATED="1366528250029" ID="ID_503774438" MODIFIED="1366528251212" TEXT="No longer an option."/>
+</node>
+<node CREATED="1366527650502" ID="ID_838932505" MODIFIED="1366528294776" TEXT="3">
+<node CREATED="1366528269301" ID="ID_263783521" MODIFIED="1366528270364" TEXT="message is appended to the file destination. A newline is not automatically added to the end of the message string."/>
+</node>
+<node CREATED="1366527651958" ID="ID_1882749224" MODIFIED="1366528293438" TEXT="4">
+<node CREATED="1366528283013" ID="ID_1438245682" MODIFIED="1366528284139" TEXT="message is sent directly to the SAPI logging handler."/>
+</node>
+</node>
+</node>
+<node CREATED="1366528332158" FOLDED="true" ID="ID_1827823853" MODIFIED="1366528590169" TEXT="Errors and Logging Configuration Options in php.ini">
+<node CREATED="1366528373874" ID="ID_953551649" MODIFIED="1366528581692">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(153, 153, 204); padding-top: 5px; padding-left: 5px; text-align: left">
+          name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;default&#160;&#160;&#160;changeable&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; changelog
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-reporting"><font color="rgb(0, 0, 153)">error_reporting</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                NULL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.display-errors"><font color="rgb(0, 0, 153)">display_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;1&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.display-startup-errors"><font color="rgb(0, 0, 153)">display_startup_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.log-errors"><font color="rgb(0, 0, 153)">log_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.log-errors-max-len"><font color="rgb(0, 0, 153)">log_errors_max_len</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;1024&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.3.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.ignore-repeated-errors"><font color="rgb(0, 0, 153)">ignore_repeated_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.3.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.ignore-repeated-source"><font color="rgb(0, 0, 153)">ignore_repeated_source</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.3.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.report-memleaks"><font color="rgb(0, 0, 153)">report_memleaks</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;1&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.3.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.track-errors"><font color="rgb(0, 0, 153)">track_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.html-errors"><font color="rgb(0, 0, 153)">html_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;1&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_SYSTEM in PHP &lt;= 4.2.3.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.xmlrpc-errors"><font color="rgb(0, 0, 153)">xmlrpc_errors</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_SYSTEM
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.1.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.xmlrpc-error-number"><font color="rgb(0, 0, 153)">xmlrpc_error_number</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;0&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.1.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.docref-root"><font color="rgb(0, 0, 153)">docref_root</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.3.0.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.docref-ext"><font color="rgb(0, 0, 153)">docref_ext</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                &quot;&quot;
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                Available since PHP 4.3.2.
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-prepend-string"><font color="rgb(0, 0, 153)">error_prepend_string</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                NULL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-append-string"><font color="rgb(0, 0, 153)">error_append_string</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                NULL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-log"><font color="rgb(0, 0, 153)">error_log</font></a>
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                NULL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
+                PHP_INI_ALL
+              </td>
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
+                &#160;
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366528877005" FOLDED="true" ID="ID_1201132031" MODIFIED="1366530178320" TEXT="backtrace">
+<node CREATED="1366524536150" ID="ID_939056969" MODIFIED="1366527362305" TEXT="debug_backtrace ">
+<node CREATED="1366524557574" ID="ID_518312148" MODIFIED="1366524558947" TEXT="&#x2014; Generates a backtrace"/>
+</node>
+<node CREATED="1366524627158" ID="ID_1803030512" MODIFIED="1366527359520" TEXT="debug_print_backtrace ">
+<node CREATED="1366524638238" ID="ID_1452276379" MODIFIED="1366524639364" TEXT="&#x2014; Prints a backtrace"/>
+</node>
+</node>
+<node CREATED="1366528988253" FOLDED="true" ID="ID_1403111941" MODIFIED="1366530247724" TEXT="register user-defined error handler">
+<node CREATED="1366524885214" FOLDED="true" ID="ID_1014510969" MODIFIED="1366529947025" TEXT="set_error_handler">
+<node CREATED="1366524896853" ID="ID_1842644341" MODIFIED="1366524898091" TEXT="&#x2014; Sets a user-defined error handler function"/>
+<node CREATED="1366529939446" ID="ID_77154415" MODIFIED="1366529941308" TEXT="mixed set_error_handler ( callable $error_handler [, int $error_types = E_ALL | E_STRICT ] )"/>
+</node>
+<node CREATED="1366524909733" FOLDED="true" ID="ID_184060682" MODIFIED="1366529948536" TEXT="set_exception_handler">
+<node CREATED="1366524924758" ID="ID_1890858883" MODIFIED="1366524926196" TEXT="&#x2014; Sets a user-defined exception handler function"/>
+</node>
+</node>
+</node>
+<node CREATED="1366557704843" FOLDED="true" ID="ID_639210123" MODIFIED="1366558623614" TEXT="Database access">
+<node CREATED="1366557712195" ID="ID_1575292400" MODIFIED="1366557732081" TEXT="PDO (PHP Data Objects)"/>
+<node CREATED="1366557715772" ID="ID_1609471400" MODIFIED="1366557836233" TEXT="PEAR MDB2">
+<node CREATED="1366558130587" ID="ID_540600867" MODIFIED="1366558132230" TEXT="PEAR MDB2 is a merge of the PEAR DB and Metabase php database abstraction layers."/>
+</node>
+</node>
+<node CREATED="1366558625221" FOLDED="true" ID="ID_1703265387" MODIFIED="1366558695003" TEXT="Variable{Variables,Functions,Classes}">
+<node CREATED="1366558670084" ID="ID_1731371646" MODIFIED="1366558691506" TEXT="like soft(symbol) reference in perl"/>
+</node>
+</node>
+<node CREATED="1366347271792" ID="ID_1961162281" MODIFIED="1366558620339" POSITION="right" TEXT="Predefined Variables">
 <node CREATED="1366347474152" FOLDED="true" ID="ID_1457544889" MODIFIED="1366442107769" TEXT="Reserved Predefined Variables.">
 <node CREATED="1365852075625" ID="ID_1899941064" MODIFIED="1366347502411" TEXT="$_SERVER  (PHP 4.1.0)">
 <node CREATED="1365852231226" ID="ID_1158313746" MODIFIED="1365852251338" TEXT="$_SERVER[&apos;HTTP_USER_AGENT&apos;]">
@@ -1267,10 +1639,38 @@
 <node CREATED="1366349237624" ID="ID_244415570" MODIFIED="1366349251620" TEXT="$argv &#x2014; Array of arguments passed to script"/>
 </node>
 </node>
-<node CREATED="1366442119132" ID="ID_1000397855" MODIFIED="1366466462687" POSITION="right" TEXT="Predefined Functios">
-<node CREATED="1366442127052" FOLDED="true" ID="ID_1853569711" MODIFIED="1366443956813" TEXT="Variable handling">
+<node CREATED="1366442119132" ID="ID_1000397855" MODIFIED="1366618065710" POSITION="right" TEXT="Predefined Functios">
+<node CREATED="1366442127052" FOLDED="true" ID="ID_1853569711" MODIFIED="1366558426734" TEXT="Variable handling">
 <node CREATED="1366442162580" ID="ID_284525210" MODIFIED="1366442163942" TEXT="bool isset ( mixed $var [, mixed $... ] )"/>
 <node CREATED="1366442184988" ID="ID_218876014" MODIFIED="1366442186130" TEXT="void unset ( mixed $var [, mixed $... ] )"/>
+<node CREATED="1366523752686" FOLDED="true" ID="ID_348164687" MODIFIED="1366524076061" TEXT="var_export">
+<node CREATED="1366523828726" ID="ID_871736104" MODIFIED="1366524002574" TEXT="&#x2014; Outputs or returns a parsable string representation of a variable"/>
+<node CREATED="1366523853238" ID="ID_992292185" MODIFIED="1366523854340" TEXT="mixed var_export ( mixed $expression [, bool $return = false ] )"/>
+<node CREATED="1366523855534" ID="ID_1978022978" MODIFIED="1366523871993" TEXT="$return">
+<node CREATED="1366523874446" ID="ID_1663079860" MODIFIED="1366523903237" TEXT="=true, returns a parsable string representation of a variable"/>
+<node CREATED="1366523905678" ID="ID_233786252" MODIFIED="1366523926717" TEXT="=false, Outputs a parsable string representation of a variable"/>
+</node>
+</node>
+<node CREATED="1366523954445" FOLDED="true" ID="ID_26229247" MODIFIED="1366524075293" TEXT="var_dump">
+<node CREATED="1366523973974" ID="ID_1843672851" MODIFIED="1366523975109" TEXT="&#x2014; Dumps information about a variable"/>
+<node CREATED="1366524024365" ID="ID_1548656669" MODIFIED="1366524026244" TEXT="void var_dump ( mixed $expression [, mixed $... ] )"/>
+<node CREATED="1366524070366" ID="ID_852598040" MODIFIED="1366524072044" TEXT="This function displays structured information about one or more expressions that includes its type and value. Arrays and objects are explored recursively with values indented to show structure."/>
+</node>
+<node CREATED="1366529101462" FOLDED="true" ID="ID_963945939" MODIFIED="1366529126273" TEXT="print_r">
+<node CREATED="1366529116301" ID="ID_1392391700" MODIFIED="1366529117486" TEXT="&#x2014; Prints human-readable information about a variable"/>
+</node>
+</node>
+<node CREATED="1366558428457" FOLDED="true" ID="ID_1440897797" MODIFIED="1366558601959" TEXT="Classes/Object">
+<node CREATED="1366558447747" ID="ID_1320646908" MODIFIED="1366558448858" TEXT="trait_exists"/>
+<node CREATED="1366558461427" ID="ID_59178033" MODIFIED="1366558462218" TEXT="property_exists"/>
+<node CREATED="1366558475364" ID="ID_1488658538" MODIFIED="1366558477578" TEXT="method_exists"/>
+<node CREATED="1366558488948" ID="ID_1187897907" MODIFIED="1366558492258" TEXT="interface_exists"/>
+<node CREATED="1366558492555" ID="ID_1003703988" MODIFIED="1366558497995" TEXT="class_exists"/>
+<node CREATED="1366558512907" ID="ID_109430892" MODIFIED="1366558514290" TEXT="is_a"/>
+<node CREATED="1366558527788" ID="ID_362497425" MODIFIED="1366558530745" TEXT="is_subclass_of"/>
+<node CREATED="1366558545284" ID="ID_491464161" MODIFIED="1366558546699" TEXT="get_parent_class"/>
+<node CREATED="1366558564004" ID="ID_970001962" MODIFIED="1366558565450" TEXT="get_object_vars"/>
+<node CREATED="1366558579139" ID="ID_13670751" MODIFIED="1366558580402" TEXT="get_declared_traits"/>
 </node>
 <node CREATED="1366442250956" FOLDED="true" ID="ID_1028908709" MODIFIED="1366468096168" TEXT="Function handling">
 <node CREATED="1366442289188" ID="ID_748622481" MODIFIED="1366442290982" TEXT="bool function_exists ( string $function_name )"/>
@@ -1296,18 +1696,22 @@
 <node CREATED="1366449794603" ID="ID_152700305" MODIFIED="1366449796320" TEXT="int get_magic_quotes_gpc ( void )"/>
 <node CREATED="1366450575275" ID="ID_1735508778" MODIFIED="1366450576487" TEXT="set_include_path"/>
 </node>
-<node CREATED="1366443195876" FOLDED="true" ID="ID_708570554" MODIFIED="1366466467921" TEXT="Filesystem">
+<node CREATED="1366443195876" ID="ID_708570554" MODIFIED="1366618069536" TEXT="Filesystem">
 <node CREATED="1366443206748" ID="ID_746831657" MODIFIED="1366443207912" TEXT="string tempnam ( string $dir , string $prefix )"/>
 <node CREATED="1366443232780" ID="ID_1732487435" MODIFIED="1366443234392" TEXT="bool file_exists ( string $filename )"/>
 <node CREATED="1366443277004" ID="ID_160148919" MODIFIED="1366443278279" TEXT="bool unlink ( string $filename [, resource $context ] )"/>
 <node CREATED="1366443333948" ID="ID_107513893" MODIFIED="1366443335094" TEXT="string dirname ( string $path )"/>
 <node CREATED="1366443398277" ID="ID_880260859" MODIFIED="1366443399477" TEXT="string sys_get_temp_dir ( void )"/>
 <node CREATED="1366450736715" ID="ID_1690087833" MODIFIED="1366450738215" TEXT="string realpath ( string $path )"/>
+<node CREATED="1366523358086" ID="ID_1216752612" MODIFIED="1366523359492" TEXT="file_put_contents "/>
+<node CREATED="1366523374429" ID="ID_32569609" MODIFIED="1366523375628" TEXT="file_get_contents"/>
 </node>
-<node CREATED="1366443619020" ID="ID_93080658" MODIFIED="1366443640191" TEXT="SPL (Standard PHP Library)">
+<node CREATED="1366443619020" FOLDED="true" ID="ID_93080658" MODIFIED="1366524531440" TEXT="SPL (Standard PHP Library)">
 <node CREATED="1366443721684" ID="ID_686463640" MODIFIED="1366443723327" TEXT="bool spl_autoload_register ([ callable $autoload_function [, bool $throw = true [, bool $prepend = false ]]] )"/>
+<node CREATED="1366522017777" ID="ID_16454383" MODIFIED="1366522019931" TEXT="void __autoload ( string $class )"/>
+<node CREATED="1366522079750" ID="ID_260582019" MODIFIED="1366522081516" TEXT="spl_autoload_register()"/>
 </node>
-<node CREATED="1366443983020" FOLDED="true" ID="ID_1777615757" MODIFIED="1366449565680" TEXT="String">
+<node CREATED="1366443983020" FOLDED="true" ID="ID_1777615757" MODIFIED="1366522179873" TEXT="String">
 <node CREATED="1366444241332" ID="ID_1035169457" MODIFIED="1366444756268" TEXT="C-like">
 <node CREATED="1366444249948" ID="ID_1081791123" MODIFIED="1366444671334" TEXT="{,v}{,s,f}print{,f}"/>
 <node CREATED="1366444313124" ID="ID_336404268" MODIFIED="1366444412547" TEXT="strcmp"/>
@@ -1396,20 +1800,92 @@
 <node CREATED="1366450264795" ID="ID_339286157" MODIFIED="1366450266230" TEXT="preg_replace "/>
 <node CREATED="1366450278643" ID="ID_34720876" MODIFIED="1366450280137" TEXT="preg_split"/>
 </node>
-<node CREATED="1366466474037" FOLDED="true" ID="ID_1452826514" MODIFIED="1366467696852" TEXT="Misc">
+<node CREATED="1366466474037" FOLDED="true" ID="ID_1452826514" MODIFIED="1366524529921" TEXT="Misc">
 <node CREATED="1366466482684" ID="ID_1096933627" MODIFIED="1366466498119" TEXT="bool define ( string $name , mixed $value [, bool $case_insensitive = false ] )"/>
 <node CREATED="1366466523988" ID="ID_1702453438" MODIFIED="1366466525324" TEXT="bool defined ( string $name )"/>
 <node CREATED="1366466583556" ID="ID_515113012" MODIFIED="1366466585274" TEXT="mixed constant ( string $name )"/>
 </node>
-<node CREATED="1366467698204" FOLDED="true" ID="ID_1070154197" MODIFIED="1366469096984" TEXT="Streams">
+<node CREATED="1366467698204" FOLDED="true" ID="ID_1070154197" MODIFIED="1366524528977" TEXT="Streams">
 <node CREATED="1366468101412" ID="ID_1023641797" MODIFIED="1366468103030" TEXT="bool stream_wrapper_unregister ( string $protocol )"/>
 <node CREATED="1366468122044" ID="ID_1041748096" MODIFIED="1366468123562" TEXT="bool stream_wrapper_register ( string $protocol , string $classname [, int $flags = 0 ] )"/>
 <node CREATED="1366468152196" ID="ID_1311160255" MODIFIED="1366468154265" TEXT="bool stream_wrapper_restore ( string $protocol )"/>
 </node>
-<node CREATED="1366469098252" ID="ID_1848690022" MODIFIED="1366469099690" TEXT="Network">
+<node CREATED="1366469098252" FOLDED="true" ID="ID_1848690022" MODIFIED="1366524528205" TEXT="Network">
 <node CREATED="1366469113772" ID="ID_1411965392" MODIFIED="1366469115402" TEXT="void header ( string $string [, bool $replace = true [, int $http_response_code ]] )"/>
+</node>
+<node CREATED="1366524534254" FOLDED="true" ID="ID_603715596" MODIFIED="1366529933309" TEXT="Error Handling and Logging">
+<node CREATED="1366524536150" ID="ID_1148109364" MODIFIED="1366527362305" TEXT="debug_backtrace ">
+<node CREATED="1366524557574" ID="ID_1100126686" MODIFIED="1366524558947" TEXT="&#x2014; Generates a backtrace"/>
+</node>
+<node CREATED="1366524627158" ID="ID_1803487692" MODIFIED="1366527359520" TEXT="debug_print_backtrace ">
+<node CREATED="1366524638238" ID="ID_1419203563" MODIFIED="1366524639364" TEXT="&#x2014; Prints a backtrace"/>
+</node>
+<node CREATED="1366524669053" ID="ID_634919255" MODIFIED="1366527355861" TEXT="error_get_last">
+<node CREATED="1366524682622" ID="ID_1329646911" MODIFIED="1366524684132" TEXT="&#x2014; Get the last occurred error"/>
+</node>
+<node CREATED="1366524735413" ID="ID_1965039306" MODIFIED="1366527357129" TEXT="error_log ">
+<node CREATED="1366524779638" ID="ID_1846338381" MODIFIED="1366524780819" TEXT="&#x2014; Send an error message somewhere"/>
+</node>
+<node CREATED="1366524794934" ID="ID_391348255" MODIFIED="1366527350794" TEXT="error_reporting">
+<node CREATED="1366524809005" ID="ID_1316387806" MODIFIED="1366524810196" TEXT="&#x2014; Sets which PHP errors are reported"/>
+</node>
+<node CREATED="1366524833486" ID="ID_1927844698" MODIFIED="1366527349326" TEXT="restore_error_handler">
+<node CREATED="1366524843493" ID="ID_325192594" MODIFIED="1366524844612" TEXT="&#x2014; Restores the previous error handler function"/>
+</node>
+<node CREATED="1366524857294" ID="ID_106184248" MODIFIED="1366527348623" TEXT="restore_exception_handler ">
+<node CREATED="1366524869030" ID="ID_871873489" MODIFIED="1366524870284" TEXT="&#x2014; Restores the previously defined exception handler function"/>
+</node>
+<node CREATED="1366524885214" ID="ID_772429986" MODIFIED="1366529024085" TEXT="set_error_handler">
+<node CREATED="1366524896853" ID="ID_1184788403" MODIFIED="1366524898091" TEXT="&#x2014; Sets a user-defined error handler function"/>
+</node>
+<node CREATED="1366524909733" ID="ID_453801230" MODIFIED="1366527341145" TEXT="set_exception_handler">
+<node CREATED="1366524924758" ID="ID_1821891846" MODIFIED="1366524926196" TEXT="&#x2014; Sets a user-defined exception handler function"/>
+</node>
+<node CREATED="1366524947021" ID="ID_1770784561" MODIFIED="1366527251641" TEXT="trigger_error">
+<node CREATED="1366524957702" ID="ID_375844140" MODIFIED="1366524958928" TEXT="&#x2014; Generates a user-level error/warning/notice message"/>
+</node>
+<node CREATED="1366524967925" ID="ID_1985809256" MODIFIED="1366527253457" TEXT="user_error">
+<node CREATED="1366524978830" ID="ID_1839519857" MODIFIED="1366524979996" TEXT="Alias of trigger_error"/>
+</node>
+</node>
+<node CREATED="1366556898059" FOLDED="true" ID="ID_1583013432" MODIFIED="1366557408183" TEXT="PDO(PHP Data Objects)">
+<node CREATED="1366556992851" ID="ID_648621282" MODIFIED="1366556994297" TEXT="PDO::__construct ">
+<node CREATED="1366556996059" ID="ID_1702609116" MODIFIED="1366556999786" TEXT="connect"/>
+</node>
+<node CREATED="1366557055716" ID="ID_1547783591" MODIFIED="1366557057026" TEXT="PDO::prepare">
+<node CREATED="1366557058955" ID="ID_467167896" MODIFIED="1366557063218" TEXT="stmt"/>
+</node>
+<node CREATED="1366557043163" ID="ID_811507790" MODIFIED="1366557044538" TEXT="PDO::query"/>
+<node CREATED="1366557082723" ID="ID_687172952" MODIFIED="1366557084074" TEXT="PDO::exec"/>
+<node CREATED="1366557135091" ID="ID_290405708" MODIFIED="1366557136474" TEXT="PDO::beginTransaction"/>
+<node CREATED="1366557154715" ID="ID_1932459324" MODIFIED="1366557155937" TEXT="PDO::commit"/>
+<node CREATED="1366557172787" ID="ID_481955441" MODIFIED="1366557173923" TEXT="PDO::inTransaction"/>
+<node CREATED="1366557188387" ID="ID_190849957" MODIFIED="1366557189202" TEXT="PDO::rollBack"/>
+<node CREATED="1366557274075" ID="ID_1035045416" MODIFIED="1366557275678" TEXT="PDOStatement::execute"/>
+<node CREATED="1366557357427" ID="ID_1614405463" MODIFIED="1366557358626" TEXT="PDOStatement::columnCount"/>
+<node CREATED="1366557376539" ID="ID_1359464167" MODIFIED="1366557377698" TEXT="PDOStatement::fetch"/>
+<node CREATED="1366557403196" ID="ID_883042379" MODIFIED="1366557404490" TEXT="PDOStatement::fetchAll"/>
+</node>
+<node CREATED="1366644721109" ID="ID_1772166501" MODIFIED="1366644722637" TEXT="Output Control">
+<node CREATED="1366644871783" ID="ID_629931184" MODIFIED="1366645032227" TEXT="ob_start"/>
+<node CREATED="1366644776943" ID="ID_1808080786" MODIFIED="1366645054110" TEXT="ob_end_{clean, flush}"/>
+<node CREATED="1366644724118" ID="ID_1802250259" MODIFIED="1366644764577" TEXT="ob_clean"/>
+<node CREATED="1366644777511" ID="ID_1162275252" MODIFIED="1366645073181" TEXT="ob_flush"/>
+<node CREATED="1366644775190" ID="ID_69125675" MODIFIED="1366644776685" TEXT="flush"/>
+<node CREATED="1366644777823" ID="ID_455693251" MODIFIED="1366644831710" TEXT="ob_get_clean"/>
+<node CREATED="1366644778135" ID="ID_642586852" MODIFIED="1366644842590" TEXT="ob_get_contents"/>
+<node CREATED="1366644778435" ID="ID_232323160" MODIFIED="1366644857712" TEXT="ob_get_flush"/>
+<node CREATED="1366644778743" ID="ID_990739452" MODIFIED="1366644868885" TEXT="ob_get_length"/>
+<node CREATED="1366644870231" ID="ID_797059645" MODIFIED="1366644890101" TEXT="ob_get_level"/>
+<node CREATED="1366644870599" ID="ID_662359588" MODIFIED="1366644904359" TEXT="ob_get_status"/>
+<node CREATED="1366644870887" ID="ID_867396475" MODIFIED="1366644917363" TEXT="ob_gzhandler"/>
+<node CREATED="1366644871191" ID="ID_1644418425" MODIFIED="1366644930743" TEXT="ob_implicit_flush"/>
+<node CREATED="1366644871495" ID="ID_1890171007" MODIFIED="1366644942868" TEXT="ob_list_handlers"/>
+<node CREATED="1366644964647" ID="ID_437045499" MODIFIED="1366644965750" TEXT="output_add_rewrite_var"/>
+<node CREATED="1366644974871" ID="ID_521483778" MODIFIED="1366644976039" TEXT="output_reset_rewrite_vars"/>
 </node>
 </node>
 <node CREATED="1365852705713" ID="ID_713806400" MODIFIED="1366340014732" POSITION="right" TEXT="phpinfo;"/>
+<node CREATED="1366557801963" ID="ID_1463835636" MODIFIED="1366557823482" POSITION="right" TEXT="PEAR (PHP Extension and Application Repository)"/>
 </node>
 </map>
