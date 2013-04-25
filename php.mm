@@ -1696,7 +1696,7 @@
 <node CREATED="1366449794603" ID="ID_152700305" MODIFIED="1366449796320" TEXT="int get_magic_quotes_gpc ( void )"/>
 <node CREATED="1366450575275" ID="ID_1735508778" MODIFIED="1366450576487" TEXT="set_include_path"/>
 </node>
-<node CREATED="1366443195876" ID="ID_708570554" MODIFIED="1366618069536" TEXT="Filesystem">
+<node CREATED="1366443195876" FOLDED="true" ID="ID_708570554" MODIFIED="1366682948914" TEXT="Filesystem">
 <node CREATED="1366443206748" ID="ID_746831657" MODIFIED="1366443207912" TEXT="string tempnam ( string $dir , string $prefix )"/>
 <node CREATED="1366443232780" ID="ID_1732487435" MODIFIED="1366443234392" TEXT="bool file_exists ( string $filename )"/>
 <node CREATED="1366443277004" ID="ID_160148919" MODIFIED="1366443278279" TEXT="bool unlink ( string $filename [, resource $context ] )"/>
@@ -1711,8 +1711,8 @@
 <node CREATED="1366522017777" ID="ID_16454383" MODIFIED="1366522019931" TEXT="void __autoload ( string $class )"/>
 <node CREATED="1366522079750" ID="ID_260582019" MODIFIED="1366522081516" TEXT="spl_autoload_register()"/>
 </node>
-<node CREATED="1366443983020" FOLDED="true" ID="ID_1777615757" MODIFIED="1366522179873" TEXT="String">
-<node CREATED="1366444241332" ID="ID_1035169457" MODIFIED="1366444756268" TEXT="C-like">
+<node CREATED="1366443983020" FOLDED="true" ID="ID_1777615757" MODIFIED="1366861087897" TEXT="String">
+<node CREATED="1366444241332" FOLDED="true" ID="ID_1035169457" MODIFIED="1366861085113" TEXT="C-like">
 <node CREATED="1366444249948" ID="ID_1081791123" MODIFIED="1366444671334" TEXT="{,v}{,s,f}print{,f}"/>
 <node CREATED="1366444313124" ID="ID_336404268" MODIFIED="1366444412547" TEXT="strcmp"/>
 <node CREATED="1366444412820" ID="ID_1235634782" MODIFIED="1366444415071" TEXT="strstr"/>
@@ -1727,7 +1727,34 @@
 <node CREATED="1366444602044" ID="ID_468930585" MODIFIED="1366444709831" TEXT="substr{, compare, count, replace}"/>
 <node CREATED="1366444837100" ID="ID_748184363" MODIFIED="1366444899656" TEXT="{uc,lc}{first,words}  strto{upper,lower}"/>
 <node CREATED="1366444974532" ID="ID_1705749861" MODIFIED="1366444978768" TEXT="ord chr"/>
-<node CREATED="1366447788388" ID="ID_796839045" MODIFIED="1366447792040" TEXT="strpos"/>
+<node CREATED="1366447788388" ID="ID_796839045" MODIFIED="1366861061752" TEXT="str{,r}pos"/>
+<node CREATED="1366682956960" ID="ID_401123454" MODIFIED="1366682958170" TEXT="htmlspecialchars_decode"/>
+<node CREATED="1366682998338" FOLDED="true" ID="ID_1638840043" MODIFIED="1366683078534" TEXT="htmlspecialchars">
+<node CREATED="1366683028455" ID="ID_1416714396" MODIFIED="1366683076727">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      '&amp;' (ampersand) becomes '&amp;amp;'
+    </p>
+    <p>
+      '&quot;' (double quote) becomes '&amp;quot;' when<strong><font face="Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace"><code style="font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace">ENT_NOQUOTES</code></font></strong>&#160;is not set.
+    </p>
+    <p>
+      &quot;'&quot; (single quote) becomes '&amp;#039;' only when<strong><font face="Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace"><code style="font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace">ENT_QUOTES</code></font></strong>&#160;is set.
+    </p>
+    <p>
+      '&lt;' (less than) becomes '&amp;lt;'
+    </p>
+    <p>
+      '&gt;' (greater than) becomes '&amp;gt;'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1366445107916" FOLDED="true" ID="ID_1982055453" MODIFIED="1366450081956" TEXT="Array">
 <node CREATED="1366445119164" ID="ID_1647682657" MODIFIED="1366446777709" TEXT="array_key_exists in_array">

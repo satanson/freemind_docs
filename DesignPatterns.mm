@@ -42,10 +42,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1345906027786" FOLDED="true" ID="ID_906058490" MODIFIED="1364349396415" POSITION="right" TEXT="23 patterns">
-<node CREATED="1363943045715" ID="ID_514184664" MODIFIED="1364090594741" TEXT="Creational Patterns(5)">
+<node CREATED="1345906027786" ID="ID_906058490" MODIFIED="1366883493476" POSITION="right" TEXT="23 patterns">
+<node CREATED="1363943045715" FOLDED="true" ID="ID_514184664" MODIFIED="1366884197384" TEXT="Creational Patterns(5)">
 <icon BUILTIN="full-1"/>
-<node CREATED="1345916305787" ID="ID_1130723467" MODIFIED="1364089346638">
+<node CREATED="1345916305787" ID="ID_1130723467" MODIFIED="1366884170633">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -83,7 +83,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943083665" ID="ID_1406048282" MODIFIED="1364090426220">
+<node CREATED="1363943083665" FOLDED="true" ID="ID_1406048282" MODIFIED="1366884195988">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -103,7 +103,7 @@
 <node CREATED="1364001929575" ID="ID_685437759" MODIFIED="1364001931022" TEXT="A reader for the RTF (Rich Text Format) document exchange format should be  able to convert RTF to many text formats."/>
 </node>
 </node>
-<node CREATED="1345918274493" ID="ID_580422639" MODIFIED="1364089342202">
+<node CREATED="1345918274493" ID="ID_580422639" MODIFIED="1366884175202">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -175,7 +175,7 @@
 <node CREATED="1364004327819" ID="ID_1639587483" MODIFIED="1364004354930" TEXT="music score, a platte of music notation"/>
 </node>
 </node>
-<node CREATED="1345920894955" FOLDED="true" ID="ID_423783524" MODIFIED="1364090440706">
+<node CREATED="1345920894955" FOLDED="true" ID="ID_423783524" MODIFIED="1366884146248">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -269,9 +269,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943253933" FOLDED="true" ID="ID_406021788" MODIFIED="1364090556434" TEXT="Structural Patterns(7)">
+<node CREATED="1363943253933" FOLDED="true" ID="ID_406021788" MODIFIED="1366884248784" TEXT="Structural Patterns(7)">
 <icon BUILTIN="full-2"/>
-<node CREATED="1363943315306" ID="ID_1798190064" MODIFIED="1364090466089">
+<node CREATED="1363943315306" FOLDED="true" ID="ID_1798190064" MODIFIED="1366883926824">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -292,7 +292,7 @@
 <node CREATED="1364005169139" ID="ID_1107825744" MODIFIED="1364005217720" TEXT="java.io.OutputStreamWriter &amp; java.io.OutputStream"/>
 </node>
 </node>
-<node CREATED="1363943330384" FOLDED="true" ID="ID_1042292249" MODIFIED="1364090473422">
+<node CREATED="1363943330384" FOLDED="true" ID="ID_1042292249" MODIFIED="1366884247880">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -367,7 +367,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345911809484" FOLDED="true" ID="ID_1069352130" MODIFIED="1364090478054">
+<node CREATED="1345911809484" FOLDED="true" ID="ID_1069352130" MODIFIED="1366884218228">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -403,7 +403,7 @@
 <node CREATED="1345912910516" ID="ID_92565512" MODIFIED="1345912919178" TEXT="Java IO API"/>
 </node>
 </node>
-<node CREATED="1363943356010" FOLDED="true" ID="ID_1519691396" MODIFIED="1364090484714">
+<node CREATED="1363943356010" FOLDED="true" ID="ID_1519691396" MODIFIED="1366884216468">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -427,7 +427,7 @@
 <node CREATED="1364010294473" ID="ID_1974264745" MODIFIED="1364010383506" TEXT="Compiler &amp;(Scanner&amp;Parser&amp;ProgramNodeBuilder&amp;CodeGenerator)"/>
 </node>
 </node>
-<node CREATED="1363943396042" FOLDED="true" ID="ID_73209917" MODIFIED="1364090489498">
+<node CREATED="1363943396042" FOLDED="true" ID="ID_73209917" MODIFIED="1366884205836">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -457,7 +457,7 @@
 <node CREATED="1364011946271" ID="ID_118340970" MODIFIED="1364011992388" TEXT="Glyph(flyweight) &amp;typesetting"/>
 </node>
 </node>
-<node CREATED="1363943403749" FOLDED="true" ID="ID_990382327" MODIFIED="1364090506099">
+<node CREATED="1363943403749" FOLDED="true" ID="ID_990382327" MODIFIED="1366883967560">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -474,7 +474,7 @@
 </node>
 <node CREATED="1364008403896" ID="ID_276906047" MODIFIED="1364008405408" TEXT="Surrogate"/>
 <node CREATED="1364008748947" ID="ID_1164943467" MODIFIED="1364008981974" TEXT="Applicability">
-<node CREATED="1364008784231" ID="ID_154126055" MODIFIED="1364008958935" TEXT="A remote proxy">
+<node CREATED="1364008784231" ID="ID_154126055" MODIFIED="1366883950856" TEXT="A remote proxy">
 <node CREATED="1364008972457" ID="ID_1992396472" MODIFIED="1364008973543" TEXT="provides a local representative for an object in a  different address space."/>
 </node>
 <node CREATED="1364008785692" ID="ID_156722413" MODIFIED="1364008919393" TEXT="virtual proxy">
@@ -492,9 +492,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943497418" ID="ID_1516895740" MODIFIED="1364176385599" TEXT="Behavioral Patterns(11)">
+<node CREATED="1363943497418" FOLDED="true" ID="ID_1516895740" MODIFIED="1366884118426" TEXT="Behavioral Patterns(11)">
 <icon BUILTIN="full-3"/>
-<node CREATED="1363943516685" FOLDED="true" ID="ID_31605362" MODIFIED="1364090512170">
+<node CREATED="1363943516685" FOLDED="true" ID="ID_31605362" MODIFIED="1366884005691">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -513,7 +513,7 @@
 <node CREATED="1364012667990" ID="ID_559830759" MODIFIED="1364013358311" TEXT="MFC Message Routing"/>
 </node>
 </node>
-<node CREATED="1363943575002" ID="ID_452331672" MODIFIED="1364348544964">
+<node CREATED="1363943575002" FOLDED="true" ID="ID_452331672" MODIFIED="1366884013329">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -544,7 +544,7 @@
 </node>
 <node CREATED="1364014165371" ID="ID_958639625" MODIFIED="1364014170494" TEXT="demos"/>
 </node>
-<node CREATED="1363943579410" FOLDED="true" ID="ID_1606226797" MODIFIED="1364090518166">
+<node CREATED="1363943579410" FOLDED="true" ID="ID_1606226797" MODIFIED="1366884018580">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -563,7 +563,7 @@
 <node CREATED="1364014887635" ID="ID_1759751774" MODIFIED="1364014890487" TEXT="regexp"/>
 </node>
 </node>
-<node CREATED="1363829696672" FOLDED="true" ID="ID_1358410102" MODIFIED="1364090528545">
+<node CREATED="1363829696672" FOLDED="true" ID="ID_1358410102" MODIFIED="1366884022255">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -582,7 +582,7 @@
 <node CREATED="1363829922255" ID="ID_1830100752" MODIFIED="1363829948511" TEXT="Java Collection Framework"/>
 </node>
 </node>
-<node CREATED="1363943588890" FOLDED="true" ID="ID_1982787346" MODIFIED="1364090536254">
+<node CREATED="1363943588890" FOLDED="true" ID="ID_1982787346" MODIFIED="1366884025356">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -626,7 +626,7 @@
 <node CREATED="1364015591629" ID="ID_1128803673" MODIFIED="1364015721467" TEXT="Dialog contains control component (Button&amp;ListBox&amp;TextField)"/>
 </node>
 </node>
-<node CREATED="1363943620809" FOLDED="true" ID="ID_433246096" MODIFIED="1364090545546">
+<node CREATED="1363943620809" FOLDED="true" ID="ID_433246096" MODIFIED="1366884026905">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -671,7 +671,7 @@
 <node CREATED="1364032131328" ID="ID_689341150" MODIFIED="1364032164515" TEXT="undone, store &amp;restore state in history stack"/>
 </node>
 </node>
-<node CREATED="1363943630497" FOLDED="true" ID="ID_98182576" MODIFIED="1364090547342">
+<node CREATED="1363943630497" FOLDED="true" ID="ID_98182576" MODIFIED="1366884033404">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -709,7 +709,7 @@
 <node CREATED="1345911616202" ID="ID_639201028" MODIFIED="1345911946649" TEXT="Java API: Observable&amp;Observer"/>
 </node>
 </node>
-<node CREATED="1363943641994" FOLDED="true" ID="ID_226284299" MODIFIED="1364090548610">
+<node CREATED="1363943641994" ID="ID_226284299" MODIFIED="1366884034263">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -721,14 +721,14 @@
   </body>
 </html></richcontent>
 <icon BUILTIN="full-8"/>
-<node CREATED="1364032173644" FOLDED="true" ID="ID_1637918447" MODIFIED="1364032322981" TEXT="def">
+<node CREATED="1364032173644" ID="ID_1637918447" MODIFIED="1366884038999" TEXT="def">
 <node CREATED="1364032191894" ID="ID_1295512153" MODIFIED="1364032193044" TEXT="Allow an object to alter its behavior when its internal state changes. The  object will appear to change its class. "/>
 </node>
 <node CREATED="1364032221188" FOLDED="true" ID="ID_1909506717" MODIFIED="1364032321855" TEXT="Applicability">
 <node CREATED="1364032223269" ID="ID_43812581" MODIFIED="1364032237819" TEXT="An object&apos;s behavior depends on its state, and it must change its behavior at  run-time depending on that state."/>
 <node CREATED="1364032281611" ID="ID_586834582" MODIFIED="1364032282686" TEXT="Operations have large, multipart conditional statements that depend on the  object&apos;s state. This state is usually represented by one or more enumerated  constants. Often, several operations will contain this same conditional structure.  The State pattern puts each branch of the conditional in a separate class. This  lets you treat the object&apos;s state as an object in its own right that can vary  independently from other objects."/>
 </node>
-<node CREATED="1364032319704" ID="ID_65149972" MODIFIED="1364032320883" TEXT="Participants">
+<node CREATED="1364032319704" FOLDED="true" ID="ID_65149972" MODIFIED="1366884072835" TEXT="Participants">
 <node CREATED="1364032324553" ID="ID_1812114090" MODIFIED="1364032327527" TEXT="Context">
 <node CREATED="1364032349315" ID="ID_1660775696" MODIFIED="1364032350349" TEXT="defines the interface of interest to clients."/>
 <node CREATED="1364032359244" ID="ID_1273189065" MODIFIED="1364032360212" TEXT="maintains an instance of a ConcreteState subclass that defines the  current state."/>
@@ -744,7 +744,7 @@
 <node CREATED="1364032449171" ID="ID_948738124" MODIFIED="1364032460971" TEXT="TCP connection state"/>
 </node>
 </node>
-<node CREATED="1363943645570" FOLDED="true" ID="ID_1078264347" MODIFIED="1364090550649">
+<node CREATED="1363943645570" ID="ID_1078264347" MODIFIED="1366884074541">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -769,23 +769,12 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1345906461815" ID="ID_259899798" MODIFIED="1345906728429">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      separate <b>strategy</b>&#160;from <b>mechanism</b>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1345906583937" ID="ID_890209221" MODIFIED="1345906591435" TEXT="mechanism">
+<node CREATED="1366884095701" ID="ID_428973993" MODIFIED="1366884098685" TEXT="separate strategy&#xa0;from mechanism">
+<node CREATED="1345906583937" ID="ID_890209221" MODIFIED="1366884102747" TEXT="mechanism">
 <node CREATED="1345906593346" ID="ID_1674949594" MODIFIED="1345906601786" TEXT="framework"/>
 <node CREATED="1345906609880" ID="ID_1532861909" MODIFIED="1345906618719" TEXT="inheritance"/>
 </node>
-<node CREATED="1345906570957" ID="ID_1903085750" MODIFIED="1345906577681" TEXT="strategy">
+<node CREATED="1345906570957" ID="ID_1903085750" MODIFIED="1366884102759" TEXT="strategy">
 <node CREATED="1345906579328" ID="ID_1365266174" MODIFIED="1345906637398" TEXT="callback function">
 <node CREATED="1345906638767" ID="ID_1302701952" MODIFIED="1345906651066" TEXT="user defined algorithm"/>
 </node>
@@ -797,7 +786,7 @@
 <node CREATED="1345906750323" ID="ID_776265767" MODIFIED="1364004480257" TEXT="standard algorithm provided by C++ STL or  Java Collection Framework"/>
 </node>
 </node>
-<node CREATED="1363943655978" ID="ID_1045199387" MODIFIED="1364176387247">
+<node CREATED="1363943655978" ID="ID_1045199387" MODIFIED="1366884113223">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -821,7 +810,7 @@
 </node>
 <node CREATED="1364032984390" ID="ID_264913149" MODIFIED="1364032989175" TEXT="demos">
 <node CREATED="1364032990277" ID="ID_839529289" MODIFIED="1364033004710" TEXT="MFC framework,android framework"/>
-<node CREATED="1364176391396" ID="ID_610718642" MODIFIED="1364176400565" TEXT="so many Java Class">
+<node CREATED="1364176391396" FOLDED="true" ID="ID_610718642" MODIFIED="1366883894780" TEXT="so many Java Class">
 <node CREATED="1364176401593" ID="ID_702070543" MODIFIED="1364176411310" TEXT="AbstractList">
 <node CREATED="1364176414278" ID="ID_1939287213" MODIFIED="1364176442253" TEXT="LinkedList"/>
 <node CREATED="1364176442752" ID="ID_1424040434" MODIFIED="1364176448142" TEXT="ArrayList"/>
@@ -834,7 +823,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943667270" FOLDED="true" ID="ID_1121737591" MODIFIED="1364090553710">
+<node CREATED="1363943667270" FOLDED="true" ID="ID_1121737591" MODIFIED="1366883812912">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -851,24 +840,24 @@
 <node CREATED="1364032972335" ID="ID_633586574" MODIFIED="1364032973971" TEXT="Represent an operation to be performed on the elements of an object  structure. Visitor lets you define a new operation without changing the  classes of the elements on which it operates. "/>
 </node>
 <node CREATED="1364033282007" ID="ID_1767127462" MODIFIED="1364033286037" TEXT="Applicability">
-<node CREATED="1364033314322" ID="ID_1157697365" MODIFIED="1364033315532" TEXT="an object structure contains many classes of objects with differing interfaces,  and you want to perform operations onthese objects that depend on their  concrete classes."/>
+<node CREATED="1364033314322" ID="ID_1157697365" MODIFIED="1366883576735" TEXT="an object structure contains many classes of objects with differing interfaces,  and you want to perform operations on these objects that depend on their  concrete classes."/>
 <node CREATED="1364033341690" ID="ID_1233893227" MODIFIED="1364033342809" TEXT="many distinct and unrelated operations need to be performed on objects in an  object structure, and you want to avoid &quot;polluting&quot; their classes with these  operations. Visitor lets you keep related operations together by defining them in  one class. When the object structure is shared by many applications, use Visitor  to put operations in just those applications that need them. "/>
 <node CREATED="1364033372817" ID="ID_535107709" MODIFIED="1364033373924" TEXT="the classes defining the object structure rarely change, but you often want to  define new operations over the structure.Changing the object structure classes  requires redefining the interface to all visitors, which is potentially costly. If the  object structure classes change often, then it&apos;s probably better to define the  operations in those classes. "/>
 </node>
-<node CREATED="1364033429307" ID="ID_161043403" MODIFIED="1364033430638" TEXT="Participants">
-<node CREATED="1364033441561" ID="ID_3524701" MODIFIED="1364033442634" TEXT="Visitor">
+<node CREATED="1364033429307" FOLDED="true" ID="ID_161043403" MODIFIED="1366883809340" TEXT="Participants">
+<node CREATED="1364033441561" FOLDED="true" ID="ID_3524701" MODIFIED="1366883772468" TEXT="Visitor">
 <node CREATED="1364033486963" ID="ID_649878250" MODIFIED="1364033487973" TEXT="declares a Visit operation for each class of ConcreteElement in the object  structure. The operation&apos;s name and signature identifies the class that  sends the Visit request to the visitor.That lets the visitor determine the  concrete class of the element being visited. Then the visitor can access  the element directly through its particular interface. "/>
 </node>
-<node CREATED="1364033499317" ID="ID_483452035" MODIFIED="1364033500304" TEXT="ConcreteVisitor">
+<node CREATED="1364033499317" ID="ID_483452035" MODIFIED="1366883773408" TEXT="ConcreteVisitor">
 <node CREATED="1364033521660" ID="ID_262794254" MODIFIED="1364033531394" TEXT="implements each operation declared by Visitor. Each operation  implements a fragment of the algorithm defined for the corresponding  class of object in the structure. ConcreteVisitor provides the context for  the algorithm and stores its local state. This state often accumulates  results during the traversal of the structure."/>
 </node>
-<node CREATED="1364033545556" ID="ID_1391460580" MODIFIED="1364033546603" TEXT="Element">
+<node CREATED="1364033545556" FOLDED="true" ID="ID_1391460580" MODIFIED="1366883789863" TEXT="Element">
 <node CREATED="1364033558806" ID="ID_152543613" MODIFIED="1364033559824" TEXT="defines an Accept operation that takes a visitor as an argument."/>
 </node>
-<node CREATED="1364033576566" ID="ID_874772177" MODIFIED="1364033577599" TEXT="ConcreteElement">
-<node CREATED="1364033591805" ID="ID_1038872241" MODIFIED="1364033593219" TEXT="implements an Accept operation thattakes a visitor as an argument."/>
+<node CREATED="1364033576566" ID="ID_874772177" MODIFIED="1366883790780" TEXT="ConcreteElement">
+<node CREATED="1364033591805" ID="ID_1038872241" MODIFIED="1366883797084" TEXT="implements an Accept operation that takes a visitor as an argument."/>
 </node>
-<node CREATED="1364033614336" ID="ID_1884062310" MODIFIED="1364033615399" TEXT="ObjectStructure">
+<node CREATED="1364033614336" FOLDED="true" ID="ID_1884062310" MODIFIED="1366883808599" TEXT="ObjectStructure">
 <node CREATED="1364033623970" ID="ID_1846930529" MODIFIED="1364033624995" TEXT="can enumerate its elements."/>
 <node CREATED="1364033641189" ID="ID_1619171695" MODIFIED="1364033642090" TEXT="may provide a high-levelinterface to allow the visitor to visit its  elements. "/>
 <node CREATED="1364033653463" ID="ID_1619097432" MODIFIED="1364033660888" TEXT="may either be a composite or a collection such as a  list or a set. "/>

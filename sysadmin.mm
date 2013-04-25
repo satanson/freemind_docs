@@ -282,7 +282,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364640124923" FOLDED="true" ID="ID_10115374" MODIFIED="1365871293474" POSITION="right" TEXT="Package Management">
+<node CREATED="1364640124923" ID="ID_10115374" MODIFIED="1366686675954" POSITION="right" TEXT="Package Management">
 <node CREATED="1364640148666" FOLDED="true" ID="ID_436010329" MODIFIED="1365839412193" TEXT="debian(*.deb, $ar)">
 <node CREATED="1365746037564" ID="ID_1666897393" MODIFIED="1365746103658" TEXT="$ dpkg --package manager for Debian">
 <node CREATED="1365746081404" ID="ID_1197735659" MODIFIED="1365746323906" TEXT="install">
@@ -389,9 +389,9 @@
 <node CREATED="1364643649877" ID="ID_1947695532" MODIFIED="1364643686578" TEXT="-f  *.tar.xx"/>
 <node CREATED="1364643653847" ID="ID_1270830319" MODIFIED="1364643674254" TEXT="-C dir"/>
 </node>
-<node CREATED="1364641598709" FOLDED="true" ID="ID_986745845" MODIFIED="1365843404714" TEXT="$ cpio">
+<node CREATED="1364641598709" ID="ID_986745845" MODIFIED="1366686679412" TEXT="$ cpio">
 <node CREATED="1364641984618" ID="ID_1495783624" MODIFIED="1365839267583" TEXT="*.cpio"/>
-<node CREATED="1365843193405" FOLDED="true" ID="ID_519622662" MODIFIED="1365843403300" TEXT="absolute/relative path">
+<node CREATED="1365843193405" FOLDED="true" ID="ID_519622662" MODIFIED="1366690499290" TEXT="absolute/relative path">
 <node CREATED="1364645764563" ID="ID_621341902" MODIFIED="1365843179182" TEXT="--no-absolute-filenames">
 <node CREATED="1364645803649" ID="ID_1501393993" MODIFIED="1364645805086" TEXT="Consider a cpioarchive that contains a copy of /etc/hosts, among other things. If you try to extract files from this archive, it will try to overwrite your copy of /etc/hosts."/>
 </node>
@@ -445,6 +445,9 @@
 <node CREATED="1365839312383" ID="ID_224598614" MODIFIED="1365842039939" TEXT="-i: read content of the archive from stdin, and extract it."/>
 </node>
 </node>
+<node CREATED="1366690503138" ID="ID_743546689" MODIFIED="1366690504722" TEXT="append">
+<node CREATED="1366690505514" ID="ID_594627826" MODIFIED="1366690533321" TEXT="ls file4.txt |cpio -oAO file.cpio"/>
+</node>
 <node CREATED="1365842140409" ID="ID_118777697" MODIFIED="1365842142470" TEXT="cp">
 <node CREATED="1365840520479" ID="ID_1217696942" MODIFIED="1365840521625" TEXT="cpio -p destination-directory &lt; name-list">
 <node CREATED="1365842050860" ID="ID_527463003" MODIFIED="1365842133862" TEXT="-p: read file names from stdin, and cp file to destination-directory"/>
@@ -453,6 +456,45 @@
 <node CREATED="1365842148525" ID="ID_1214675437" MODIFIED="1365842150032" TEXT="list">
 <node CREATED="1365840521935" ID="ID_1899713214" MODIFIED="1365840527973" TEXT="cpio -t">
 <node CREATED="1365840528888" ID="ID_994036061" MODIFIED="1365842191664" TEXT="-t: read content of archive from  stdin, ant list files"/>
+</node>
+</node>
+<node CREATED="1366690538290" FOLDED="true" ID="ID_1820206601" MODIFIED="1366690727796" TEXT="demo">
+<node CREATED="1366690630345" ID="ID_225440284" MODIFIED="1366690639298">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #!/bin/bash
+    </p>
+    <p>
+      rm -f file.cpio
+    </p>
+    <p>
+      rm -f file?.txt
+    </p>
+    <p>
+      touch file{1,2,3}.txt
+    </p>
+    <p>
+      ls file?.txt |cpio -o &gt;file.cpio
+    </p>
+    <p>
+      cpio -t &lt;file.cpio #file[1-3].txt
+    </p>
+    <p>
+      touch file4.txt
+    </p>
+    <p>
+      ls file4.txt |cpio -oAO file.cpio
+    </p>
+    <p>
+      cpio -t &lt;file.cpio #file[1-4].txt
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -468,7 +510,7 @@
 <node CREATED="1364654627150" FOLDED="true" ID="ID_899074347" MODIFIED="1365839417741" POSITION="right" TEXT="xclip">
 <node CREATED="1364654729227" ID="ID_1822668252" MODIFIED="1364654733438" TEXT="command line interface to X selections (clipboard)"/>
 </node>
-<node CREATED="1364809786779" ID="ID_633785496" MODIFIED="1365990144182" POSITION="right" TEXT="Networking Conf">
+<node CREATED="1364809786779" FOLDED="true" ID="ID_633785496" MODIFIED="1366686669930" POSITION="right" TEXT="Networking Conf">
 <node CREATED="1364809800089" FOLDED="true" ID="ID_1885701092" MODIFIED="1365745952979" TEXT="virtual network bridge">
 <node CREATED="1364810226449" ID="ID_559468731" MODIFIED="1364810712676" TEXT="virtual interface (TUN/TAP)">
 <node CREATED="1364810632943" ID="ID_4994783" MODIFIED="1364810737126" TEXT="$ tunctl (uml-utilities)">
@@ -536,8 +578,7 @@
       <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">/etc/networks</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1365992184871" ID="ID_71621981" MODIFIED="1365992214315" TEXT="entry:networkname networknumber"/>
 </node>
 </node>
@@ -556,8 +597,7 @@
       <font face="Courier New,courier">order hosts,bind,nis </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1365991978400" ID="ID_1971626373" MODIFIED="1365991989889" TEXT="bind for DNS"/>
 </node>
 </node>
@@ -755,8 +795,7 @@
       <font face="Arial,Helvetica,sans-serif"><span style="font-family: Arial,Helvetica,sans-serif; vertical-align: top">interfaces are configured for multicast support</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365990777217" ID="ID_1485645576" MODIFIED="1365990917220">
 <richcontent TYPE="NODE"><html>
@@ -768,8 +807,7 @@
       <font face="Arial,Helvetica,sans-serif"><span style="font-family: Arial,Helvetica,sans-serif; vertical-align: top">dhcpd.conf</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1365990794469" ID="ID_758524775" MODIFIED="1365990794469">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -790,8 +828,7 @@
     <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  option routers router1.vbrew.com;</font></span></pre>
     <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 12px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">}</font></span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1365990804240" ID="ID_293755469" MODIFIED="1365990815849" TEXT="option domain-name"/>
 <node CREATED="1365990830194" ID="ID_1255086913" MODIFIED="1365990830194">
 <richcontent TYPE="NODE"><html>
@@ -803,8 +840,7 @@
       <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">option domain-name-servers</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365990839816" ID="ID_200584020" MODIFIED="1365990839816">
 <richcontent TYPE="NODE"><html>
@@ -816,8 +852,7 @@
       <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">default-lease-time</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365990851348" ID="ID_1913271156" MODIFIED="1365990851348">
 <richcontent TYPE="NODE"><html>
@@ -829,8 +864,7 @@
       <font face="Courier New,courier"><span style="font-family: Courier New,courier; vertical-align: top">max-lease-time 7200</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365990889679" ID="ID_1755154983" MODIFIED="1365990889679">
 <richcontent TYPE="NODE"><html>
@@ -845,8 +879,7 @@
     <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">  option routers router1.vbrew.com;</font></span></pre>
     <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 12px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">}</font></span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1365990914458" ID="ID_1246816035" MODIFIED="1365990914458">
 <richcontent TYPE="NODE"><html>
@@ -861,8 +894,7 @@
     <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">fixed-address 172.16.1.55;</font></span></pre>
     <pre style="margin-left: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 12px; margin-top: 0px"><span style="font-family: Courier New,courier; vertical-align: top"><font face="Courier New,courier">}</font></span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
