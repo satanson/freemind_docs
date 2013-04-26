@@ -175,200 +175,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1366886208324" ID="ID_12428643" MODIFIED="1366903097701" POSITION="right" TEXT="Syntax and semantics">
-<node CREATED="1366886220852" ID="ID_1272255338" MODIFIED="1366886278643" TEXT="variable">
-<node CREATED="1366886234356" ID="ID_978023152" MODIFIED="1366886235619" TEXT="var keyword"/>
-<node CREATED="1366886237172" ID="ID_806191564" MODIFIED="1366886239179" TEXT="demo">
-<node CREATED="1366886239675" ID="ID_1114888910" MODIFIED="1366886250094" TEXT="var x;"/>
-<node CREATED="1366886251340" ID="ID_288243739" MODIFIED="1366886256451" TEXT="var y = 2;"/>
-</node>
-</node>
-<node CREATED="1366886279165" FOLDED="true" ID="ID_1181873831" MODIFIED="1366886306763" TEXT="comment">
-<node CREATED="1366886281205" ID="ID_1725114216" MODIFIED="1366886282259" TEXT="//"/>
-</node>
-<node CREATED="1366886307964" FOLDED="true" ID="ID_184908629" MODIFIED="1366886444464" TEXT="IO">
-<node CREATED="1366886310212" ID="ID_1828433216" MODIFIED="1366886338227" TEXT="no built-in I/O functionality in JavaScript, he runtime environment provides that"/>
-<node CREATED="1366886354844" ID="ID_953595438" MODIFIED="1366886356220" TEXT="runtime environments have a console object"/>
-<node CREATED="1366886365604" ID="ID_874446386" MODIFIED="1366886366748" TEXT="console.log(&quot;Hello world!&quot;);"/>
-</node>
-<node CREATED="1366886445460" ID="ID_1315766409" MODIFIED="1366886497767" TEXT="function">
-<node CREATED="1366886449676" FOLDED="true" ID="ID_372738886" MODIFIED="1366887313224" TEXT="function keyword">
-<node CREATED="1366886454221" ID="ID_38977800" MODIFIED="1366886862132" TEXT="demo">
-<node CREATED="1366886471013" ID="ID_1487662667" MODIFIED="1366886471013">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-attachment: scroll; border-right-color: white; font-family: monospace, monospace; margin-top: 0px; background-image: none; border-top-color: white; font-weight: normal; letter-spacing: normal; margin-bottom: 0px; text-align: -webkit-auto; border-right-style: none; font-variant: normal; text-indent: 0px; vertical-align: top; margin-right: 0px; border-bottom-width: 0px; padding-left: 0px; padding-top: 0px; color: rgb(0, 0, 0); border-left-style: none; border-bottom-style: none; padding-bottom: 0px; padding-right: 0px; border-top-style: none; border-bottom-color: white; border-top-width: 0px; background-color: rgb(249, 249, 249); margin-left: 0px; word-spacing: 0px; background-repeat: repeat; font-size: 13px; border-right-width: 0px; line-height: 1.2em; border-left-color: white; border-left-width: 0px; background-position: initial initial; text-transform: none; font-style: normal" class="de1"><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> factorial<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>n<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">if</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>n <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">===</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">1</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> n <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">*</span></font> factorial<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>n <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">-</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">1</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font></pre>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1366886864832" ID="ID_1541705630" MODIFIED="1366886864832">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div style="font-style: normal; letter-spacing: normal; color: rgb(0, 0, 0); word-spacing: 0px; white-space: normal; text-indent: 0px; font-family: sans-serif; font-size: 13px; font-variant: normal; text-align: -webkit-auto; background-color: rgb(255, 255, 255); line-height: 19px; text-transform: none; font-weight: normal">
-      <div style="border-top-width: 1px; border-right-style: dashed; border-right-width: 1px; border-top-color: rgb(47, 111, 171); padding-top: 0; color: black; border-bottom-color: rgb(47, 111, 171); font-family: monospace, Courier; border-left-color: rgb(47, 111, 171); padding-left: 0; border-bottom-style: dashed; border-right-color: rgb(47, 111, 171); padding-bottom: 0; border-left-style: dashed; border-bottom-width: 1px; padding-right: 0; background-color: rgb(249, 249, 249); border-top-style: dashed; line-height: 1.1em; border-left-width: 1px" dir="ltr" class="mw-geshi mw-code mw-content-ltr">
-        <div style="font-family: monospace; line-height: normal" class="javascript source-javascript">
-          <pre style="background-attachment: scroll; border-right-color: white; font-family: monospace, monospace; margin-top: 0px; background-image: none; border-top-color: white; font-weight: normal; margin-bottom: 0px; border-right-style: none; font-variant: normal; vertical-align: top; margin-right: 0px; border-bottom-width: 0px; padding-left: 0px; padding-top: 0px; color: black; border-left-style: none; border-bottom-style: none; padding-bottom: 0px; padding-right: 0px; border-top-style: none; border-bottom-color: white; border-top-width: 0px; margin-left: 0px; background-repeat: repeat; font-size: 1em; border-right-width: 0px; line-height: 1.2em; border-left-color: white; border-left-width: 0px; background-position: initial initial; font-style: normal" class="de1"><i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="coMULTI">/* Finds the lowest common multiple (LCM) of two numbers */</span></font></i>
-<b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> LCMCalculator<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> y<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// constructor function</span></font></i>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> checkInt <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// inner function</span></font></i>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">if</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">%</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">1</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">!==</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-            <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">throw</span></font></b> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">new</span></font></b> TypeError<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">&quot; is not an integer&quot;</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// throw an exception</span></font></i>
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> x<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">a</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> checkInt<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font>
-    <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// ^ semicolons are optional</span></font></i>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">b</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> checkInt<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>y<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-<i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// The prototype of object instances created by a constructor is</span></font></i>
-<i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// that constructor's &quot;prototype&quot; property.</span></font></i>
-LCMCalculator.<b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">prototype</span></font></b> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// object literal</span></font></i>
-    constructor<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> LCMCalculator<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// when reassigning a prototype, set the constructor property appropriately</span></font></i>
-    gcd<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// method that calculates the greatest common divisor</span></font></i>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Euclidean algorithm:</span></font></i>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> a <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <span class="kw4">Math</span>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">abs</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">a</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> b <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <span class="kw4">Math</span>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">abs</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">b</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> t<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">if</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>a <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">&lt;</span></font> b<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-            <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// swap variables</span></font></i>
-            t <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> b<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-            b <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> a<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-            a <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> t<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-        while <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>b <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">!==</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-            t <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> b<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-            b <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> a <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">%</span></font> b<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-            a <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> t<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Only need to calculate GCD once, so &quot;redefine&quot; this method.</span></font></i>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// (Actually not redefinition&#8212;it's defined on the instance itself,</span></font></i>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// so that this.gcd refers to this &quot;redefinition&quot; instead of LCMCalculator.prototype.gcd.)</span></font></i>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Also, 'gcd' === &quot;gcd&quot;, this['gcd'] === this.gcd</span></font></i>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">'gcd'</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-            <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> a<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> a<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>
-    <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Object property names can be specified by strings delimited by double (&quot;) or single (') quotes.</span></font></i>
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">&quot;lcm&quot;</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Variable names don't collide with object properties, e.g. |lcm| is not |this.lcm|.</span></font></i>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// not using |this.a * this.b| to avoid FP precision issues</span></font></i>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> lcm <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">a</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">/</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">gcd</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">*</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">b</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Only need to calculate lcm once, so &quot;redefine&quot; this method.</span></font></i>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">lcm</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-            <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> lcm<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> lcm<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>
-    toString<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">&quot;LCMCalculator: a = &quot;</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">a</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">&quot;, b = &quot;</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">this</span></font></b>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">b</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
- 
-<i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Define generic output function; this implementation only works for web browsers</span></font></i>
-<b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> output<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-    document.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">body</span></font>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">appendChild</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>document.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">createTextNode</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>x<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    document.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">body</span></font>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">appendChild</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>document.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">createElement</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">'br'</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
- 
-<i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// Note: Array's map() and forEach() are defined in JavaScript 1.6.</span></font></i>
-<i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// They are used here to demonstrate JavaScript's inherent functional nature.</span></font></i>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">25</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">55</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">21</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">56</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">22</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">58</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">28</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">56</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span><span style="color: rgb(0, 153, 0)" class="br0">]</span></font>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">map</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>pair<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// array literal + mapping function</span></font></i>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">new</span></font></b> LCMCalculator<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>pair<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> pair<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">1</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">sort</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>a<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> b<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// sort with this comparative function</span></font></i>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> a.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">lcm</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">-</span></font> b.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">lcm</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font>.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">forEach</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>obj<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-    output<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>obj <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">&quot;, gcd = &quot;</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> obj.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">gcd</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">&quot;, lcm = &quot;</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+</span></font> obj.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">lcm</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-</pre>
-        </div>
-      </div>
-    </div>
-    <br class="Apple-interchange-newline" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1366886499716" FOLDED="true" ID="ID_952692815" MODIFIED="1366886546244" TEXT="anonymous function &amp; closure">
-<node CREATED="1366886515892" ID="ID_1060000746" MODIFIED="1366886520513" TEXT="demo">
-<node CREATED="1366886532979" ID="ID_787142137" MODIFIED="1366886532979">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-attachment: scroll; border-right-color: white; font-family: monospace, monospace; margin-top: 0px; background-image: none; border-top-color: white; font-weight: normal; letter-spacing: normal; margin-bottom: 0px; text-align: -webkit-auto; border-right-style: none; font-variant: normal; text-indent: 0px; vertical-align: top; margin-right: 0px; border-bottom-width: 0px; padding-left: 0px; padding-top: 0px; color: rgb(0, 0, 0); border-left-style: none; border-bottom-style: none; padding-bottom: 0px; padding-right: 0px; border-top-style: none; border-bottom-color: white; border-top-width: 0px; background-color: rgb(249, 249, 249); margin-left: 0px; word-spacing: 0px; background-repeat: repeat; font-size: 13px; border-right-width: 0px; line-height: 1.2em; border-left-color: white; border-left-width: 0px; background-position: initial initial; text-transform: none; font-style: normal" class="de1"><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> displayClosure <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> count <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-        <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">++</span></font>count<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-<b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> inc <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> displayClosure<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-inc<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// returns 1</span></font></i>
-inc<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// returns 2</span></font></i>
-inc<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// returns 3</span></font></i></pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1366886547676" FOLDED="true" ID="ID_1040020170" MODIFIED="1366886647227" TEXT="variadic/vararg function">
-<node CREATED="1366886575788" ID="ID_1333474042" MODIFIED="1366886578657" TEXT="demo">
-<node CREATED="1366886579885" ID="ID_618853853" MODIFIED="1366886579885">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-attachment: scroll; border-right-color: white; font-family: monospace, monospace; margin-top: 0px; background-image: none; border-top-color: white; font-weight: normal; letter-spacing: normal; margin-bottom: 0px; text-align: -webkit-auto; border-right-style: none; font-variant: normal; text-indent: 0px; vertical-align: top; margin-right: 0px; border-bottom-width: 0px; padding-left: 0px; padding-top: 0px; color: rgb(0, 0, 0); border-left-style: none; border-bottom-style: none; padding-bottom: 0px; padding-right: 0px; border-top-style: none; border-bottom-color: white; border-top-width: 0px; background-color: rgb(249, 249, 249); margin-left: 0px; word-spacing: 0px; background-repeat: repeat; font-size: 13px; border-right-width: 0px; line-height: 1.2em; border-left-color: white; border-left-width: 0px; background-position: initial initial; text-transform: none; font-style: normal" class="de1"><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> sum <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> i<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> x <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">for</span></font></b> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>i <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> i <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">&lt;</span></font> arguments.<font color="rgb(102, 0, 102)"><span style="color: rgb(102, 0, 102)" class="me1">length</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">++</span></font>i<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-        x <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">+=</span></font> arguments<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font>i<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-    <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> x<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>
-sum<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">1</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">2</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">3</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// returns 6</span></font></i></pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1366886648413" FOLDED="true" ID="ID_1896471753" MODIFIED="1366886668336" TEXT="Immediately-invoked function expressions">
-<node CREATED="1366886661948" ID="ID_280757738" MODIFIED="1366886665235" TEXT="demo">
-<node CREATED="1366886666113" ID="ID_953465336" MODIFIED="1366886666113">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-attachment: scroll; border-right-color: white; font-family: monospace, monospace; margin-top: 0px; background-image: none; border-top-color: white; font-weight: normal; letter-spacing: normal; margin-bottom: 0px; text-align: -webkit-auto; border-right-style: none; font-variant: normal; text-indent: 0px; vertical-align: top; margin-right: 0px; border-bottom-width: 0px; padding-left: 0px; padding-top: 0px; color: rgb(0, 0, 0); border-left-style: none; border-bottom-style: none; padding-bottom: 0px; padding-right: 0px; border-top-style: none; border-bottom-color: white; border-top-width: 0px; background-color: rgb(249, 249, 249); margin-left: 0px; word-spacing: 0px; background-repeat: repeat; font-size: 13px; border-right-width: 0px; line-height: 1.2em; border-left-color: white; border-left-width: 0px; background-position: initial initial; text-transform: none; font-style: normal" class="de1"><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> v<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-v <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">1</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">var</span></font></b> getValue <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>v<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>
-  <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> <b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">function</span></font></b><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font><b><font color="rgb(0, 0, 102)"><span style="font-weight: bold; color: rgb(0, 0, 102)" class="kw1">return</span></font></b> v<font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span><span style="color: rgb(0, 153, 0)" class="br0">(</span></font>v<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">)</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
- 
-v <font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">=</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">2</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font>
- 
-getValue<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">(</span><span style="color: rgb(0, 153, 0)" class="br0">)</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">;</span></font> <i><font color="rgb(0, 102, 0)"><span style="color: rgb(0, 102, 0); font-style: italic" class="co1">// 1</span></font></i></pre>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1366886666333" ID="ID_893157799" MODIFIED="1366886666333" TEXT=""/>
-</node>
-</node>
-</node>
-<node CREATED="1366888959461" ID="ID_1738940744" MODIFIED="1366903768576" POSITION="right" TEXT="JavaScript Reference">
-<node CREATED="1366888967948" ID="ID_1017152262" MODIFIED="1366903774156" TEXT="Global Objects">
+<node CREATED="1366888959461" FOLDED="true" ID="ID_1738940744" MODIFIED="1366994274005" POSITION="right" TEXT="JavaScript">
+<node CREATED="1366888967948" FOLDED="true" ID="ID_1017152262" MODIFIED="1366994253561" TEXT="Global Objects">
 <node CREATED="1366888978156" ID="ID_1537629049" MODIFIED="1366903776549" TEXT="General-purpose constructors">
 <node CREATED="1366889001756" ID="ID_1730335898" MODIFIED="1366889010427" TEXT="Array"/>
 <node CREATED="1366889011100" ID="ID_1839764570" MODIFIED="1366889025092" TEXT="Boolean"/>
@@ -415,7 +223,7 @@ getValue<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="
 <node CREATED="1366904660624" ID="ID_1004039427" MODIFIED="1366905391134" TEXT=".lastIndexOf(searchvalue,fromindex)"/>
 <node CREATED="1366904421872" ID="ID_152582896" MODIFIED="1366905391132" TEXT=".charAt(index)"/>
 </node>
-<node CREATED="1366905133552" FOLDED="true" ID="ID_1805010773" MODIFIED="1366905322512" TEXT="&lt;substr&gt;&lt;strcat&gt;">
+<node CREATED="1366905133552" ID="ID_1805010773" MODIFIED="1366951559383" TEXT="&lt;substr&gt;&lt;strcat&gt;">
 <node CREATED="1366904857328" ID="ID_1325489710" MODIFIED="1366905169842" TEXT=".substr(start,length)"/>
 <node CREATED="1366904807385" ID="ID_1568017047" MODIFIED="1366905169852" TEXT=".slice(start,end)"/>
 <node CREATED="1366904477041" ID="ID_1963199107" MODIFIED="1366905184474" TEXT=".concat(string1,string2,...,stringN)"/>
@@ -469,7 +277,7 @@ getValue<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="
 <node CREATED="1366889453924" ID="ID_963618197" MODIFIED="1366889460473" TEXT="RangeError"/>
 <node CREATED="1366889473076" ID="ID_1294441001" MODIFIED="1366889481051" TEXT="InternalError"/>
 </node>
-<node CREATED="1366889511260" FOLDED="true" ID="ID_396380283" MODIFIED="1366889656312" TEXT="Non-constructor functions">
+<node CREATED="1366889511260" FOLDED="true" ID="ID_396380283" MODIFIED="1366978542295" TEXT="Non-constructor functions">
 <node CREATED="1366889532219" ID="ID_729709853" MODIFIED="1366889563883" TEXT="{, un}eval"/>
 <node CREATED="1366889535652" ID="ID_1057420447" MODIFIED="1366889583107" TEXT="{de,en}codeURI{, Component}"/>
 <node CREATED="1366889585900" ID="ID_1799470569" MODIFIED="1366889611803" TEXT="parse{Int, Float}"/>
@@ -485,12 +293,8 @@ getValue<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="
 <node CREATED="1366889702092" ID="ID_163208647" MODIFIED="1366889712537" TEXT="null"/>
 </node>
 </node>
-<node CREATED="1366889884876" ID="ID_1112914410" MODIFIED="1366889886011" TEXT="Functions and function scope">
-<node CREATED="1366889895084" ID="ID_424499582" MODIFIED="1366889906801" TEXT="arguments     "/>
-<node CREATED="1366889908548" ID="ID_1953239475" MODIFIED="1366889909626" TEXT="Strict mode "/>
-</node>
-<node CREATED="1366889874100" ID="ID_608446651" MODIFIED="1366900551893" TEXT="Statements">
-<node CREATED="1366889926596" FOLDED="true" ID="ID_1373358578" MODIFIED="1366899855341" TEXT="&lt;single stmt&gt;">
+<node CREATED="1366889874100" FOLDED="true" ID="ID_608446651" MODIFIED="1366944806819" TEXT="Statements">
+<node CREATED="1366889926596" ID="ID_1373358578" MODIFIED="1366943933426" TEXT="&lt;single stmt&gt;">
 <node CREATED="1366889933804" ID="ID_296533380" MODIFIED="1366889952002" TEXT="A single statement may span multiple lines"/>
 <node CREATED="1366889969757" ID="ID_191142529" MODIFIED="1366890011515" TEXT="Multiple statements on a single line are separated by semicolon"/>
 <node CREATED="1366890213181" FOLDED="true" ID="ID_140985419" MODIFIED="1366898354739" TEXT="const">
@@ -649,7 +453,7 @@ getValue<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="
 </node>
 </node>
 <node CREATED="1366890023964" ID="ID_1667573238" MODIFIED="1366890034667" TEXT="{block}"/>
-<node CREATED="1366898409446" FOLDED="true" ID="ID_1389487558" MODIFIED="1366902458239" TEXT="&lt;complex stmt&gt;">
+<node CREATED="1366898409446" ID="ID_1389487558" MODIFIED="1366943943212" TEXT="&lt;complex stmt&gt;">
 <node CREATED="1366898431746" ID="ID_711365973" MODIFIED="1366899860996" TEXT="&lt;loop&gt;">
 <node CREATED="1366898417613" ID="ID_290509022" MODIFIED="1366898490163" TEXT="do...while"/>
 <node CREATED="1366898427757" ID="ID_1606130169" MODIFIED="1366898436155" TEXT="while"/>
@@ -949,23 +753,1015 @@ else
 </node>
 <node CREATED="1366900567615" ID="ID_1661265957" MODIFIED="1366900578959" TEXT="Extends the scope chain for a statement."/>
 </node>
-<node CREATED="1366900564300" ID="ID_439156140" MODIFIED="1366900564300" TEXT=""/>
+<node CREATED="1366900564300" FOLDED="true" ID="ID_439156140" MODIFIED="1366944733962" TEXT="import">
+<node CREATED="1366899904746" ID="ID_1887835399" MODIFIED="1366944652745">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>import <i>objectName.name1, objectName.name2, objectName.nameN</i>; </code>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366899904746" ID="ID_534840119" MODIFIED="1366944669843">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>export <i>objectName.*</i>; </code>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366944513037" ID="ID_207487417" MODIFIED="1366944541003" TEXT="JavaScript 1.2,  NES 3.0"/>
+</node>
+<node CREATED="1366944532326" FOLDED="true" ID="ID_99274867" MODIFIED="1366944731526" TEXT="export">
+<node CREATED="1366899904746" ID="ID_1506018909" MODIFIED="1366944541007">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>export <i>name1, name2, nameN</i>; </code>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366899904746" ID="ID_1355646216" MODIFIED="1366944585245">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>export <i>*</i>; </code>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366944513037" ID="ID_156891342" MODIFIED="1366944541003" TEXT="JavaScript 1.2,  NES 3.0"/>
+</node>
+<node CREATED="1366944736254" ID="ID_1301690187" MODIFIED="1366944748006" TEXT="try...throw...catch"/>
 </node>
 </node>
-<node CREATED="1366900056101" ID="ID_1155761373" MODIFIED="1366900057773" TEXT="debug"/>
+<node CREATED="1366944812326" FOLDED="true" ID="ID_866484777" MODIFIED="1366994238351" TEXT="Operators and other keywords">
+<node CREATED="1366944864142" FOLDED="true" ID="ID_1032314428" MODIFIED="1366945050250" TEXT="arithmetic">
+<node CREATED="1366944826966" ID="ID_765576888" MODIFIED="1366944872397" TEXT="+, -, *, /, %, ++, --, unary -, unary +"/>
 </node>
-<node CREATED="1366903447968" ID="ID_1660221284" MODIFIED="1366903461198" POSITION="right" TEXT="language basic">
+<node CREATED="1366944877590" FOLDED="true" ID="ID_1258649679" MODIFIED="1366945119594" TEXT="bitwise">
+<node CREATED="1366944882926" ID="ID_1784857738" MODIFIED="1366945117189" TEXT="&amp;, |, ~, ^, &lt;&lt;, &gt;&gt;, &gt;&gt;&gt;">
+<node CREATED="1366944978646" ID="ID_1843452770" MODIFIED="1366944982819" TEXT="&gt;&gt;">
+<node CREATED="1366944987422" ID="ID_1330893493" MODIFIED="1366945002902" TEXT="arithmetic right shift"/>
+</node>
+<node CREATED="1366944983710" ID="ID_1669328963" MODIFIED="1366944985790" TEXT="&gt;&gt;&gt;">
+<node CREATED="1366945004678" ID="ID_1508999286" MODIFIED="1366945030629" TEXT="logical right shift (fill 0)"/>
+</node>
+</node>
+</node>
+<node CREATED="1366945051590" FOLDED="true" ID="ID_1485118163" MODIFIED="1366945237582" TEXT="comparision">
+<node CREATED="1366945057270" ID="ID_1717702084" MODIFIED="1366945092486" TEXT="&lt;, &lt;=, &gt;, &gt;=, ==, !=, ===, !==">
+<node CREATED="1366945165038" ID="ID_1695109097" MODIFIED="1366945178877" TEXT="== != v.s. === !==">
+<node CREATED="1366945179998" ID="ID_142380514" MODIFIED="1366945217165" TEXT="== != (use type conversion)"/>
+<node CREATED="1366945217998" ID="ID_399549596" MODIFIED="1366945227597" TEXT="=== !== (no type conversion)"/>
+</node>
+</node>
+</node>
+<node CREATED="1366945133806" ID="ID_121525342" MODIFIED="1366945136317" TEXT="logical">
+<node CREATED="1366945137150" ID="ID_34890541" MODIFIED="1366945251749" TEXT="&amp;&amp;, ||, !"/>
+</node>
+<node CREATED="1366945253222" ID="ID_341003769" MODIFIED="1366945301654" TEXT="string">
+<node CREATED="1366945302678" ID="ID_1236666002" MODIFIED="1366945322501" TEXT="+, +="/>
+</node>
+<node CREATED="1366945324502" FOLDED="true" ID="ID_1280607529" MODIFIED="1366945359618" TEXT="member">
+<node CREATED="1366945334173" ID="ID_1415657063" MODIFIED="1366945344238" TEXT="object.property"/>
+<node CREATED="1366945345198" ID="ID_1161550003" MODIFIED="1366945353302" TEXT="object[&quot;property&quot;]"/>
+</node>
+<node CREATED="1366945360646" FOLDED="true" ID="ID_355592485" MODIFIED="1366945609530" TEXT="special">
+<node CREATED="1366945365606" ID="ID_636772572" MODIFIED="1366945371374" TEXT="? :"/>
+<node CREATED="1366945371918" ID="ID_674043469" MODIFIED="1366945375381" TEXT=","/>
+<node CREATED="1366945375926" ID="ID_1429494112" MODIFIED="1366945450757" TEXT="delete, new"/>
+<node CREATED="1366945381278" ID="ID_1021289834" MODIFIED="1366945394390" TEXT="function"/>
+<node CREATED="1366945404213" ID="ID_357723382" MODIFIED="1366945441390" TEXT="get, get"/>
+<node CREATED="1366945410318" ID="ID_64018928" MODIFIED="1366945411646" TEXT="in"/>
+<node CREATED="1366945416670" ID="ID_1881038586" MODIFIED="1366945517365" TEXT="instanceof, typeof"/>
+<node CREATED="1366945432990" ID="ID_1733224753" MODIFIED="1366945463594" TEXT="this"/>
+<node CREATED="1366945468854" ID="ID_1898292709" MODIFIED="1366945470693" TEXT="void"/>
+<node CREATED="1366945470957" ID="ID_1115032375" MODIFIED="1366945474573" TEXT="yield"/>
+</node>
+</node>
+<node CREATED="1366945613957" FOLDED="true" ID="ID_634625379" MODIFIED="1366950407742" TEXT="values, variables, and literals">
+<node CREATED="1366945705366" FOLDED="true" ID="ID_1883771662" MODIFIED="1366950390374" TEXT="values">
+<node CREATED="1366945633054" ID="ID_238717885" MODIFIED="1366945712172" TEXT="Number">
+<node CREATED="1366945641302" ID="ID_863954466" MODIFIED="1366945650933" TEXT="42, 3.1415926"/>
+</node>
+<node CREATED="1366945652558" ID="ID_900239086" MODIFIED="1366945712169" TEXT="Boolean">
+<node CREATED="1366945660630" ID="ID_1475441826" MODIFIED="1366945665133" TEXT="false true"/>
+</node>
+<node CREATED="1366945666341" ID="ID_776285219" MODIFIED="1366945712166" TEXT="String">
+<node CREATED="1366945669694" ID="ID_741388096" MODIFIED="1366945676517" TEXT="&quot;Howdy&quot;"/>
+</node>
+<node CREATED="1366945714670" ID="ID_1746452784" MODIFIED="1366945716621" TEXT="null">
+<node CREATED="1366945728038" ID="ID_965554546" MODIFIED="1366945734829" TEXT="null value"/>
+<node CREATED="1366946385094" ID="ID_833132600" MODIFIED="1366946393974" TEXT="boolean context: false"/>
+<node CREATED="1366946394206" ID="ID_498397781" MODIFIED="1366946400195" TEXT="numeric: 0"/>
+</node>
+<node CREATED="1366945736045" FOLDED="true" ID="ID_10220123" MODIFIED="1366946463222" TEXT="undefined">
+<node CREATED="1366946278293" ID="ID_1647927005" MODIFIED="1366946324405" TEXT="uninitialized var is undefined"/>
+<node CREATED="1366946326478" ID="ID_1304481144" MODIFIED="1366946343526" TEXT="boolean context: false"/>
+<node CREATED="1366946344326" ID="ID_1293528403" MODIFIED="1366946362230" TEXT="numeric context: NaN"/>
+</node>
+</node>
+<node CREATED="1366945678542" FOLDED="true" ID="ID_1687262003" MODIFIED="1366950376022" TEXT="type conversion">
+<node CREATED="1366945965038" ID="ID_1131341126" MODIFIED="1366946011038" TEXT="var x=&quot;30&quot;+1;//&quot;301&quot;"/>
+<node CREATED="1366946011574" ID="ID_1113669196" MODIFIED="1366946024853" TEXT="var y=1+&quot;30&quot;;//&quot;130&quot;"/>
+<node CREATED="1366946025399" ID="ID_1431086641" MODIFIED="1366946052789" TEXT="var x=parseInt(&quot;30&quot;)+1;//31"/>
+<node CREATED="1366946053310" ID="ID_1568388770" MODIFIED="1366946080437" TEXT="var y=parseFloat(&quot;2.2&quot;)+1.1;//3.3"/>
+<node CREATED="1366946080934" ID="ID_287228389" MODIFIED="1366946131469" TEXT="var y=+&quot;1.1&quot;+2.2;//3.3"/>
+</node>
+<node CREATED="1366946199998" ID="ID_1330666266" MODIFIED="1366950386899" TEXT="variables">
+<node CREATED="1366946204062" ID="ID_1139504203" MODIFIED="1366946206845" TEXT="var"/>
+<node CREATED="1366946207285" ID="ID_1827184249" MODIFIED="1366946209517" TEXT="let"/>
+</node>
+<node CREATED="1366946466734" ID="ID_224926780" MODIFIED="1366947910559" TEXT="literals">
+<node CREATED="1366947948982" FOLDED="true" ID="ID_1127148643" MODIFIED="1366947965574" TEXT="primitives">
+<node CREATED="1366946790022" FOLDED="true" ID="ID_546964283" MODIFIED="1366947961274" TEXT="Boolean">
+<node CREATED="1366946797510" ID="ID_942935931" MODIFIED="1366946801709" TEXT="false true"/>
+</node>
+<node CREATED="1366946808334" FOLDED="true" ID="ID_1559925168" MODIFIED="1366947961272" TEXT="Integer">
+<node CREATED="1366946817589" ID="ID_188394261" MODIFIED="1366946867429" TEXT="dec: 0,117"/>
+<node CREATED="1366946838702" ID="ID_1778731638" MODIFIED="1366946861998" TEXT="oct: 015, 0456"/>
+<node CREATED="1366946868606" ID="ID_1108255871" MODIFIED="1366946878726" TEXT="hex: 0xfff"/>
+</node>
+<node CREATED="1366946889885" FOLDED="true" ID="ID_1402484027" MODIFIED="1366947961270" TEXT="Float">
+<node CREATED="1366946892854" ID="ID_699034741" MODIFIED="1366946941958" TEXT="3.14 "/>
+<node CREATED="1366946915654" ID="ID_325513953" MODIFIED="1366946981058" TEXT="[digits][.digits][E|e][(+|-)digits]"/>
+</node>
+<node CREATED="1366947364830" FOLDED="true" ID="ID_1873282087" MODIFIED="1366947961268" TEXT="String">
+<node CREATED="1366947410861" ID="ID_129612013" MODIFIED="1366947440117" TEXT="single-quoted string">
+<node CREATED="1366947458382" ID="ID_1060138101" MODIFIED="1366947466789" TEXT="\&apos; \\"/>
+</node>
+<node CREATED="1366947440470" FOLDED="true" ID="ID_1644281462" MODIFIED="1366947664371" TEXT="double-quoted string">
+<node CREATED="1366947476542" ID="ID_761982018" MODIFIED="1366947534316" TEXT="\b \f \n \&quot; \\ \t \v \r\ \f  "/>
+<node CREATED="1366947538126" ID="ID_1659860853" MODIFIED="1366947633014" TEXT="\[0-7]{1,3} "/>
+<node CREATED="1366947627006" ID="ID_1680156442" MODIFIED="1366947634582" TEXT="\x[0-9A-Fa-f]{1,2}"/>
+<node CREATED="1366947635822" ID="ID_1276384326" MODIFIED="1366947660188" TEXT="\u[0-9A-Fa-f]{4}"/>
+</node>
+</node>
+</node>
+<node CREATED="1366947966766" FOLDED="true" ID="ID_1740059391" MODIFIED="1366948018138" TEXT="containers">
+<node CREATED="1366946478182" FOLDED="true" ID="ID_991631819" MODIFIED="1366947372853" TEXT="Aarry">
+<node CREATED="1366946487261" ID="ID_1664419074" MODIFIED="1366946678309" TEXT="var coffees = [&quot;French Roast&quot;, &quot;Colombian&quot;, &quot;Kona&quot;];"/>
+<node CREATED="1366946571886" ID="ID_1636536063" MODIFIED="1366946681789" TEXT="var fish = [&quot;Lion&quot;, ,&quot;Angel&quot;];">
+<node CREATED="1366946602830" ID="ID_236953634" MODIFIED="1366946627333" TEXT="fish[1] is undefined"/>
+</node>
+<node CREATED="1366946628429" FOLDED="true" ID="ID_617867144" MODIFIED="1366946771546" TEXT="var myList = [&apos;home&apos;, , &apos;school&apos;, ];">
+<node CREATED="1366946687126" ID="ID_176457328" MODIFIED="1366946733837" TEXT="last comma is ignored"/>
+<node CREATED="1366946734294" ID="ID_1446518754" MODIFIED="1366946764773" TEXT="trailing commas cause errors in older browser"/>
+</node>
+</node>
+<node CREATED="1366946995533" FOLDED="true" ID="ID_1350568360" MODIFIED="1366947999365" TEXT="Associative Array(Object)">
+<node CREATED="1366947005838" ID="ID_261813377" MODIFIED="1366947350995">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var me={ name:&quot;satanson&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email:&quot;satanson@gmail.com&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gender:&quot;man&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;famlies: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;father: &quot;senior satanson&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mother: &quot;&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;wife: &quot;&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366953021349" FOLDED="true" ID="ID_1553295703" MODIFIED="1366994101507" TEXT="Associative Array(Object)">
+<node CREATED="1366953026165" ID="ID_230682704" MODIFIED="1366978996821" TEXT="create">
+<node CREATED="1366953052205" ID="ID_1190874689" MODIFIED="1366953070238" TEXT="object initializer">
+<node CREATED="1366953071141" ID="ID_1784749661" MODIFIED="1366953078918" TEXT="{key:value, ...}"/>
+</node>
+<node CREATED="1366953079901" FOLDED="true" ID="ID_1970658306" MODIFIED="1366979006166" TEXT="constructor function">
+<node CREATED="1366953093141" ID="ID_1284919919" MODIFIED="1366953145508">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Car(make, model, year) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.make = make;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.model = model;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.year = year;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366953153646" ID="ID_702655612" MODIFIED="1366953186287" TEXT="var car=new Car(&quot;Eagle&quot;, &quot;Talon TSi&quot;, 1993);"/>
+</node>
+<node CREATED="1366953476301" ID="ID_67225610" MODIFIED="1366953484518" TEXT="Object.create method">
+<node CREATED="1366965376005" ID="ID_141568668" MODIFIED="1366965407703" TEXT="Object.create(proto [, propertiesObject ] )"/>
+</node>
+</node>
+<node CREATED="1366978984870" FOLDED="true" ID="ID_1606242087" MODIFIED="1366983272419" TEXT="Object">
+<node CREATED="1366979263120" FOLDED="true" ID="ID_699567766" MODIFIED="1366979413355" TEXT="new Object( [ value ] )">
+<node CREATED="1366979270693" ID="ID_1256495057" MODIFIED="1366979295384" TEXT="typeof( new Object(1) ) == &apos;object&apos;"/>
+<node CREATED="1366979295941" ID="ID_46103941" MODIFIED="1366979315112" TEXT="typeof(new Object(&quot;&quot;) ) == &apos;object&apos;"/>
+</node>
+<node CREATED="1366982101257" ID="ID_119537105" MODIFIED="1366983199000" TEXT="Object Properties&amp;Methods">
+<node CREATED="1366980245755" ID="ID_139762141" MODIFIED="1366983209673" TEXT="Properties">
+<node CREATED="1366980382914" ID="ID_1776389666" MODIFIED="1366980384352" TEXT="prototype"/>
+<node CREATED="1366980394575" ID="ID_42008911" MODIFIED="1366980395810" TEXT="inherited from Function">
+<node CREATED="1366980257744" ID="ID_1832874009" MODIFIED="1366980397159" TEXT="arity, caller, constructor, length, name"/>
+</node>
+</node>
+<node CREATED="1366982170037" FOLDED="true" ID="ID_1838475757" MODIFIED="1366983266931" TEXT="Methods">
+<node CREATED="1366979415202" ID="ID_1495410862" MODIFIED="1366982159712" TEXT="Object.create(proto [, propertiesObject ])"/>
+<node CREATED="1366979468265" ID="ID_1371240025" MODIFIED="1366982159712" TEXT="Object.defineProperty(obj, prop, descriptor)"/>
+<node CREATED="1366979489099" ID="ID_1811941184" MODIFIED="1366982159712" TEXT="Object.defineProperties(obj, props)"/>
+<node CREATED="1366979522834" ID="ID_1162103716" MODIFIED="1366982159712" TEXT="Object.getOwnPropertyDescriptor(obj, prop)"/>
+<node CREATED="1366979547903" ID="ID_1935439332" MODIFIED="1366982159712" TEXT="Object.keys(obj)"/>
+<node CREATED="1366979564603" ID="ID_639945764" MODIFIED="1366982159712" TEXT="Object.getOwnPropertyNames(obj)"/>
+<node CREATED="1366979586568" ID="ID_1029603998" MODIFIED="1366982159712" TEXT="Object.getPrototypeOf(object)"/>
+<node CREATED="1366979625007" FOLDED="true" ID="ID_1838670041" MODIFIED="1366982159727" TEXT="Object.preventExtensions(obj)">
+<node CREATED="1366979803231" ID="ID_1644601310" MODIFIED="1366979803231">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An object is extensible if new properties can be added to it. &#160;<code>preventExtensions</code>&#160;marks an object as no longer extensible, so that it will never have properties beyond the ones it had at the time it was marked as non-extensible. &#160;Note that the properties of a non-extensible object, in general, may still be <em>deleted</em>. Attempting to add new properties to a non-extensible object will fail, either silently or by throwing a <code><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/TypeError">TypeError</a></code> (most commonly, but not exclusively, when in <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode">strict mode</a>).
+    </p>
+    <p>
+      <code>Object.preventExtensions</code> only prevents addition of own properties. Properties can still be added to the object prototype. However, calling <code>Object.preventExtensions</code> on an object will also prevent extensions on its __proto__ ( <span class="inlineIndicator deprecated deprecatedInline" title="">Deprecated</span> ) property.
+    </p>
+    <p>
+      If there is a way to turn an extensible object to a non-extensible one, there is no way to do the opposite in ECMAScript 5
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366979667774" FOLDED="true" ID="ID_1219676243" MODIFIED="1366982159727" TEXT="Object.isSealed(obj)">
+<node CREATED="1366979700760" ID="ID_1726105473" MODIFIED="1366979702432" TEXT="Returns true if the object is sealed, otherwise false. An object is sealed if it is non-extensible and if all its properties are non-configurable and therefore not removable (but not necessarily non-writable)."/>
+</node>
+<node CREATED="1366979928552" ID="ID_136679173" MODIFIED="1366982159727" TEXT="Object.seal(obj)"/>
+<node CREATED="1366980073258" FOLDED="true" ID="ID_628754110" MODIFIED="1366982159727" TEXT="Object.freeze(obj)">
+<node CREATED="1366980144794" ID="ID_1702030524" MODIFIED="1366980144794">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nothing can be added to or removed from the properties set of a frozen object. Any attempt to do so will fail, either silently or by throwing a <code>TypeError</code> exception (most commonly, but not exclusively, when in <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode" title="JavaScript/Strict mode">strict mode</a>).
+    </p>
+    <p>
+      Values cannot be changed for data properties. Accessor properties (getters and setters) work the same (and still give the illusion that you are changing the value). Note that values that are objects can still be modified, unless they are also frozen.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366980166312" ID="ID_1532092980" MODIFIED="1366982159727" TEXT="Object.isFrozen(obj)"/>
+<node CREATED="1366979964868" FOLDED="true" ID="ID_811097965" MODIFIED="1366982159743" TEXT="var isSame = Object.is(value1, value2);">
+<node CREATED="1366980032303" ID="ID_849890756" MODIFIED="1366980032303">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code><span>Object.is()</span></code><span>&#160;determines whether two values are <dfn>the same value</dfn>. &#160;Two values are the same if one of the following holds:</span>
+    </p>
+    <ul>
+      <li>
+        <span>both <code>undefined</code></span>
+      </li>
+      <li>
+        <span>both <code>null</code></span>
+      </li>
+      <li>
+        <span>both <code>true</code> or both <code>false</code></span>
+      </li>
+      <li>
+        <span>both strings of the same length with the same characters</span>
+      </li>
+      <li>
+        <span>both the same object</span>
+      </li>
+      <li>
+        <span>both numbers and</span>
+
+        <ul>
+          <li>
+            both <code>+0</code>
+          </li>
+          <li>
+            both <code>-0</code>
+          </li>
+          <li>
+            both <code>NaN</code>
+          </li>
+          <li>
+            or both non-zero and both not <code>NaN</code> and both have the same value
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366983247411" FOLDED="true" ID="ID_1747732124" MODIFIED="1366983262907" TEXT="inherited from Function">
+<node CREATED="1366983220259" ID="ID_1858619930" MODIFIED="1366983221578" TEXT="apply, call, toSource, toString"/>
+</node>
+</node>
+</node>
+<node CREATED="1366982189116" FOLDED="true" ID="ID_1762238282" MODIFIED="1366983269443" TEXT="Instance Properties&amp;Methods">
+<node CREATED="1366982269059" ID="ID_535112834" MODIFIED="1366983163104" TEXT="Properties">
+<node CREATED="1366981204098" ID="ID_1160945016" MODIFIED="1366982288567" TEXT="constructor">
+<node CREATED="1366981723660" ID="ID_1979040145" MODIFIED="1366981725113" TEXT="Returns a reference to the Object function that created the instance&apos;s prototype."/>
+</node>
+<node CREATED="1366981804561" ID="ID_258745337" MODIFIED="1366982288572" TEXT=" __count__ (Obsolete since JavaScript 1.8.5)">
+<node CREATED="1366981825366" ID="ID_1512611192" MODIFIED="1366981825366">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Returns the number of enumerable properties directly on a user-defined object.
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366981834895" ID="ID_1108012426" MODIFIED="1366982288576" TEXT=" __parent__ (Obsolete since JavaScript 1.8.5)">
+<node CREATED="1366981886665" ID="ID_21093921" MODIFIED="1366981886665">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Points to an object's context.
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366981897107" ID="ID_940858674" MODIFIED="1366982288581" TEXT=" __proto__ (Non-standard)">
+<node CREATED="1366981917163" ID="ID_664233129" MODIFIED="1366981917163">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Points to the object which was used as prototype when the object was instantiated.
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1366982275716" FOLDED="true" ID="ID_1540677298" MODIFIED="1366983173271" TEXT="Methods">
+<node CREATED="1366982520731" ID="ID_473300405" MODIFIED="1366982521915" TEXT="obj.hasOwnProperty(prop)"/>
+<node CREATED="1366982541251" ID="ID_598776773" MODIFIED="1366982542746" TEXT="prototype.isPrototypeOf(object)"/>
+<node CREATED="1366982670388" ID="ID_1385838246" MODIFIED="1366982701628" TEXT="obj.propertyIsEnumerable(prop)"/>
+<node CREATED="1366982754148" ID="ID_390990878" MODIFIED="1366982913373" TEXT="obj.toLocaleString()"/>
+<node CREATED="1366982762627" ID="ID_616657105" MODIFIED="1366982917707" TEXT="obj.toString()"/>
+<node CREATED="1366982819484" ID="ID_1645830000" MODIFIED="1366982921474" TEXT="obj.valueOf()"/>
+<node CREATED="1366982440607" FOLDED="true" ID="ID_1143344476" MODIFIED="1366983114378" TEXT="Obsolete since JavaScript 1.8.5">
+<node CREATED="1366982427496" ID="ID_85385610" MODIFIED="1366983111414" TEXT="obj.eval(string)"/>
+</node>
+<node CREATED="1366982390764" FOLDED="true" ID="ID_1847186354" MODIFIED="1366983104252">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="inlineIndicator nonStandard nonStandardInline">Non-standard</span>
+  </body>
+</html></richcontent>
+<node CREATED="1366982348661" ID="ID_1763522896" MODIFIED="1366983089772" TEXT="obj.__defineGetter__(sprop, fun)"/>
+<node CREATED="1366982371012" ID="ID_932281807" MODIFIED="1366983089770" TEXT="obj.__defineSetter__(sprop, fun)"/>
+<node CREATED="1366982591244" ID="ID_525367613" MODIFIED="1366983050655" TEXT="obj.__lookupGetter__(sprop)"/>
+<node CREATED="1366982609675" ID="ID_1476772861" MODIFIED="1366983050656" TEXT="obj.__lookupSetter__(sprop)"/>
+<node CREATED="1366982650204" ID="ID_325996385" MODIFIED="1366983050662" TEXT="obj.__noSuchMethod__ = fun"/>
+<node CREATED="1366982791260" ID="ID_1703153135" MODIFIED="1366983074183" TEXT="obj.unwatch(prop)"/>
+<node CREATED="1366982806532" ID="ID_1379145468" MODIFIED="1366983074190" TEXT="obj.watch(prop, handler)"/>
+<node CREATED="1366982718060" ID="ID_571349582" MODIFIED="1366983056069" TEXT="obj.toSource()"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366961304149" ID="ID_300203713" MODIFIED="1366982130945" TEXT="inheritance">
+<node CREATED="1366961310364" FOLDED="true" ID="ID_781650622" MODIFIED="1366965473108" TEXT="prototype chain">
+<node CREATED="1366962290644" ID="ID_1671681285" MODIFIED="1366963283763" TEXT="subClass.prototype = new superClass(args)"/>
+<node CREATED="1366962352301" FOLDED="true" ID="ID_1405099083" MODIFIED="1366963329075" TEXT="var obj= new subClass()">
+<node CREATED="1366962356509" ID="ID_1069694084" MODIFIED="1366963309862" TEXT="this = obj;"/>
+<node CREATED="1366962441053" ID="ID_1798392074" MODIFIED="1366963325694" TEXT="this.__proto__ = subClass.prototype;"/>
+</node>
+</node>
+<node CREATED="1366965538788" ID="ID_405000955" MODIFIED="1366965547206" TEXT="define property">
+<node CREATED="1366965548101" ID="ID_888698819" MODIFIED="1366968054497" TEXT="Object.defineProperty(obj, prop, descriptor)">
+<node CREATED="1366965589364" FOLDED="true" ID="ID_1875292307" MODIFIED="1366967923831" TEXT="descriptor">
+<node CREATED="1366965736260" ID="ID_771411289" MODIFIED="1366966397914" TEXT="two mutex flavors">
+<node CREATED="1366965595068" ID="ID_1180367280" MODIFIED="1366967919510" TEXT="data descriptor">
+<node CREATED="1366966401988" ID="ID_724372842" MODIFIED="1366966466037" TEXT="value: undefined(default)">
+<node CREATED="1366967758972" ID="ID_936129129" MODIFIED="1366967767190" TEXT="default value"/>
+</node>
+<node CREATED="1366966467452" ID="ID_1424702311" MODIFIED="1366966480061" TEXT="writable: false(default)">
+<node CREATED="1366967502196" FOLDED="true" ID="ID_694355820" MODIFIED="1366967600344" TEXT="false">
+<node CREATED="1366967504781" ID="ID_237830924" MODIFIED="1366967591334" TEXT="cannot be reassigned."/>
+<node CREATED="1366967543941" ID="ID_481950341" MODIFIED="1366967561542" TEXT="No error thrown in non-strict mode."/>
+<node CREATED="1366967562548" ID="ID_1267365451" MODIFIED="1366967588322" TEXT="error thrown in strict mode, even if the value had been the same."/>
+</node>
+</node>
+<node CREATED="1366967089892" ID="ID_1297130703" MODIFIED="1366967229261" TEXT="Object.defineProperty(obj, &quot;property&quot;,{value:0, configurable:true, enumerable: true, writable:true});"/>
+</node>
+<node CREATED="1366965664116" FOLDED="true" ID="ID_417596877" MODIFIED="1366967917968" TEXT="accessor descriptor">
+<node CREATED="1366966482172" ID="ID_1930468055" MODIFIED="1366966496757" TEXT="get: undefined(default)"/>
+<node CREATED="1366966497772" ID="ID_1218299526" MODIFIED="1366966507550" TEXT="set: undefined(default)"/>
+<node CREATED="1366967800751" ID="ID_908699027" MODIFIED="1366967901293" TEXT="Object.defineProperty(obj,&quot;property&quot;, {set:function(x){...}, get:function(){return...}, configurable:false, enumerable:false})"/>
+</node>
+</node>
+<node CREATED="1366965800637" ID="ID_279153897" MODIFIED="1366965808586" TEXT="optional keys">
+<node CREATED="1366965809453" ID="ID_1296323604" MODIFIED="1366966450024" TEXT="configurable: false(default)">
+<node CREATED="1366967234548" FOLDED="true" ID="ID_285497563" MODIFIED="1366967461413" TEXT="false">
+<node CREATED="1366967261029" ID="ID_1889908401" MODIFIED="1366967312654" TEXT="no attributes besides writable can be changed"/>
+<node CREATED="1366967313197" ID="ID_1116559737" MODIFIED="1366967349037" TEXT="not possible to switch back and forth between data and accessor property types."/>
+<node CREATED="1366967357852" ID="ID_221225392" MODIFIED="1366967378509" TEXT="writable attributes can only be changed to false."/>
+<node CREATED="1366967380116" ID="ID_885140469" MODIFIED="1366967456574" TEXT="A TypeError is thrown when attemps are made to change non-configurable attributes(besides the writable attributes) unless the current and new values are the same."/>
+</node>
+<node CREATED="1366967253252" ID="ID_183154765" MODIFIED="1366967255197" TEXT="true"/>
+</node>
+<node CREATED="1366966390781" FOLDED="true" ID="ID_58777771" MODIFIED="1366967791820" TEXT="enumerable: false(default)">
+<node CREATED="1366967617956" ID="ID_1149075326" MODIFIED="1366967620261" TEXT="false">
+<node CREATED="1366967621172" ID="ID_440752222" MODIFIED="1366967687253" TEXT="non-enumerable attributes do not show up in for .. in  and Object.keys()"/>
+<node CREATED="1366967687828" ID="ID_724113638" MODIFIED="1366967736030" TEXT="obj.propertyIsEnumerable(&quot;property&quot;)"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366968007188" ID="ID_1973032005" MODIFIED="1366968036333" TEXT="Object.defineProerties(obj,props)">
+<node CREATED="1366968057820" ID="ID_876048917" MODIFIED="1366968691969">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var obj = {};
+    </p>
+    <p>
+      Object.defineProperties(obj, {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;name: {value: &quot;unknown&quot;, writable: true,&#160;&#160;&#160;&#160;&#160;enumerable: true},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;getname: {value: function(){return this.name;},enumerable: false},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;email: {set: function(x){email=x;}, get: function(){return email}}
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1366961357277" ID="ID_1791089031" MODIFIED="1366961421574" TEXT="constuctor.prototype"/>
+<node CREATED="1366962009061" ID="ID_682131306" MODIFIED="1366962023062" TEXT="object.__proto__"/>
+<node CREATED="1366962614053" FOLDED="true" ID="ID_1847872941" MODIFIED="1366963381969" TEXT="superClass.prototype.property=value">
+<node CREATED="1366962150820" ID="ID_461813871" MODIFIED="1366963374334" TEXT="runtime change subClass&apos;s properties which take effect in subClass&apos;s instance"/>
+</node>
+<node CREATED="1366962202732" ID="ID_88074430" MODIFIED="1366962212597" TEXT="instanceof operator"/>
+</node>
+<node CREATED="1366978632945" FOLDED="true" ID="ID_391965931" MODIFIED="1366979096459" TEXT="iterating">
+<node CREATED="1366978625606" ID="ID_1943115465" MODIFIED="1366978627822" TEXT="Enumerating all properties of an object"/>
+<node CREATED="1366978651540" ID="ID_1953084760" MODIFIED="1366978658328" TEXT="for...in">
+<node CREATED="1366978702555" ID="ID_1819034535" MODIFIED="1366978890359" TEXT="enumerable, own, prototype chain"/>
+</node>
+<node CREATED="1366978658989" ID="ID_1661392772" MODIFIED="1366978673172" TEXT="Object.keys(o);">
+<node CREATED="1366978707867" ID="ID_1838300783" MODIFIED="1366978859154" TEXT="enumerable, own"/>
+</node>
+<node CREATED="1366978698304" ID="ID_712393010" MODIFIED="1366978699679" TEXT="Object.getOwnPropertyNames(o)">
+<node CREATED="1366978714286" ID="ID_1156564401" MODIFIED="1366978847469" TEXT="{, non}enumerable, own"/>
+</node>
+</node>
+<node CREATED="1366955619757" FOLDED="true" ID="ID_1721377257" MODIFIED="1366955873285" TEXT="indexing">
+<node CREATED="1366955632093" ID="ID_83115249" MODIFIED="1366955725158" TEXT="if you initially define a property by its name, you must always refer to it by its name."/>
+<node CREATED="1366955685013" ID="ID_1375293694" MODIFIED="1366955718574" TEXT="if you initially define a property by an index, you must always refer to it by its index."/>
+<node CREATED="1366955733813" ID="ID_1293559121" MODIFIED="1366955862474" TEXT="exception is HTML, you can always refer to objects by either ordinal number or name"/>
+</node>
+<node CREATED="1366955198166" FOLDED="true" ID="ID_1280203445" MODIFIED="1366955612545" TEXT="this">
+<node CREATED="1366955215573" ID="ID_494233943" MODIFIED="1366955221358" TEXT="current object"/>
+</node>
+<node CREATED="1366955200069" FOLDED="true" ID="ID_668755782" MODIFIED="1366955613409" TEXT="delete">
+<node CREATED="1366955203757" ID="ID_1243952568" MODIFIED="1366955547822" TEXT="remove non-inherited properties"/>
+<node CREATED="1366955531765" ID="ID_258704653" MODIFIED="1366955581342" TEXT="remove global variables  if the var keyword was not used to declare the variable"/>
+</node>
+<node CREATED="1366955244965" FOLDED="true" ID="ID_61033698" MODIFIED="1366955615926" TEXT="{g,s}etter">
+<node CREATED="1366955255869" ID="ID_490743035" MODIFIED="1366955341376">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var o = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;a:7.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;get b() { return this.a+1;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;set c(x) { this.a = x/2; }
+    </p>
+    <p>
+      };&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366955347533" ID="ID_909064566" MODIFIED="1366955460534">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var o = { a:0 };
+    </p>
+    <p>
+      Object.defineProperties(o, {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;b&quot;: { get: function() { return&#160;&#160;this.a +1;} },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;c&quot;: { set: function(x) { this.a = x/2;} }
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366955470742" ID="ID_692887921" MODIFIED="1366955493319" TEXT="Object.prototype.__define{G,S}etter__"/>
+</node>
+</node>
+<node CREATED="1366955981797" FOLDED="true" ID="ID_1674506205" MODIFIED="1366989254195" TEXT="Array">
+<node CREATED="1366955985005" ID="ID_1744296169" MODIFIED="1366956257916" TEXT="create">
+<node CREATED="1366956048093" FOLDED="true" ID="ID_745931040" MODIFIED="1366956335318" TEXT="var arr = [ e1, e2, ..., eN];">
+<node CREATED="1366955994837" ID="ID_1758394746" MODIFIED="1366956326615" TEXT="var arr = new Array(e1, e2, ..., eN);"/>
+<node CREATED="1366956030229" ID="ID_327456781" MODIFIED="1366956326613" TEXT="var arr = Array(e1, e2, ..., eN);"/>
+</node>
+<node CREATED="1366956296821" FOLDED="true" ID="ID_871139009" MODIFIED="1366956334450" TEXT="var arr=[]; arr.length=arrayLength;">
+<node CREATED="1366956277781" ID="ID_515165787" MODIFIED="1366956330958" TEXT="var arr = Array(arrayLength);"/>
+<node CREATED="1366956259765" ID="ID_356267941" MODIFIED="1366956330956" TEXT="var arr = new Array(arrayLength);"/>
+</node>
+</node>
+<node CREATED="1366956209373" ID="ID_1298155085" MODIFIED="1366956574790" TEXT=".length"/>
+<node CREATED="1366956575933" ID="ID_613229836" MODIFIED="1366956890110" TEXT=".forEach()"/>
+<node CREATED="1366956613846" ID="ID_664169698" MODIFIED="1366956852917" TEXT=".{concat, slice}()"/>
+<node CREATED="1366956639573" ID="ID_1607565925" MODIFIED="1366956648142" TEXT=".join()"/>
+<node CREATED="1366956648814" ID="ID_468522819" MODIFIED="1366956868894" TEXT=".{splice, push, pop, shift, unshift}()"/>
+<node CREATED="1366956723373" ID="ID_1501954668" MODIFIED="1366956883382" TEXT=".{sort, reverse}()"/>
+<node CREATED="1366956972869" ID="ID_788327037" MODIFIED="1366957081309" TEXT=".{map, reduce, filter, reduceRight}()"/>
+<node CREATED="1366957051333" ID="ID_683471515" MODIFIED="1366957059901" TEXT=".{every, some}()"/>
+<node CREATED="1366957100629" ID="ID_376555039" MODIFIED="1366957116629" TEXT=".(lastIndexOf, indexOf}()"/>
+<node CREATED="1366957328205" ID="ID_710588689" MODIFIED="1366957340126" TEXT="Array comprehension"/>
+</node>
+<node CREATED="1366947849509" FOLDED="true" ID="ID_868391193" MODIFIED="1366994249224" TEXT="Function">
+<node CREATED="1366984024538" FOLDED="true" ID="ID_1077629181" MODIFIED="1366994059535" TEXT="declare function">
+<node CREATED="1366948020621" FOLDED="true" ID="ID_369625937" MODIFIED="1366984041739" TEXT="args passing">
+<node CREATED="1366948035142" ID="ID_1724413410" MODIFIED="1366948081796" TEXT="primitives: pass-by-value"/>
+<node CREATED="1366948060925" ID="ID_1858510627" MODIFIED="1366948074045" TEXT="containers: pass-by-reference"/>
+</node>
+<node CREATED="1366950411310" ID="ID_924804150" MODIFIED="1366950416932" TEXT="conditional function">
+<node CREATED="1366950425398" ID="ID_1215082528" MODIFIED="1366950440397" TEXT="conditional compiling"/>
+</node>
+<node CREATED="1366950441982" ID="ID_636109183" MODIFIED="1366950471733" TEXT="anonymous function">
+<node CREATED="1366950513118" ID="ID_1312041320" MODIFIED="1366950550461" TEXT="map(function(x) {return x*x*x}, [0,1,2,5,10]);"/>
+</node>
+<node CREATED="1366950606917" FOLDED="true" ID="ID_1530444514" MODIFIED="1366950739522" TEXT="recursive function">
+<node CREATED="1366950631877" ID="ID_149061925" MODIFIED="1366950738297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function factorial(n){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (n==0 || n==1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 1;
+    </p>
+    <p>
+      &#160;&#160;&#160;else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return n*factorial(n-1);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366950763558" ID="ID_688175775" MODIFIED="1366950767524" TEXT="closure"/>
+<node CREATED="1366950854725" FOLDED="true" ID="ID_1730389759" MODIFIED="1366952222457" TEXT="variadic/vararg function">
+<node CREATED="1366950892781" ID="ID_1060764076" MODIFIED="1366950901636" TEXT="arguments"/>
+<node CREATED="1366950904117" ID="ID_1476979108" MODIFIED="1366951096252">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function mycat(sep){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return reduce(function(a,b){a+sep+b}, arguments[1,-1]);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366952175334" FOLDED="true" ID="ID_833170514" MODIFIED="1366983305854" TEXT="predefined functions">
+<node CREATED="1366889532219" ID="ID_1600525008" MODIFIED="1366889563883" TEXT="{, un}eval"/>
+<node CREATED="1366889535652" ID="ID_164354175" MODIFIED="1366889583107" TEXT="{de,en}codeURI{, Component}"/>
+<node CREATED="1366889585900" ID="ID_608250594" MODIFIED="1366889611803" TEXT="parse{Int, Float}"/>
+<node CREATED="1366889622404" ID="ID_646797801" MODIFIED="1366889639163" TEXT="is{Finite, NaN}"/>
+<node CREATED="1366952387374" ID="ID_336221093" MODIFIED="1366952397198" TEXT="String">
+<node CREATED="1366952402990" ID="ID_595260554" MODIFIED="1366952453079" TEXT="String(obj) eq obj.toString()"/>
+</node>
+<node CREATED="1366952397659" ID="ID_1318149047" MODIFIED="1366952399759" TEXT="Number">
+<node CREATED="1366952431557" ID="ID_1751300018" MODIFIED="1366952446790" TEXT="Number(obj) eq obj.valueOf()"/>
+</node>
+</node>
+</node>
+<node CREATED="1366983383684" ID="ID_1812959132" MODIFIED="1366994062312" TEXT="Function Object">
+<node CREATED="1366994193178" ID="ID_660222106" MODIFIED="1366994194335" TEXT="new Function ([arg1[, arg2[, ... argN]],] functionBody)"/>
+</node>
+<node CREATED="1366983388420" ID="ID_1889464112" MODIFIED="1366994153119" TEXT="Function Object&amp;Instance both inherit from Function.prototype">
+<node CREATED="1366994160504" ID="ID_1676760271" MODIFIED="1366994170287" TEXT="Function.prototype">
+<node CREATED="1366984442431" FOLDED="true" ID="ID_1701813338" MODIFIED="1366994172214" TEXT="Properties">
+<node CREATED="1366984161703" ID="ID_1177686552" MODIFIED="1366984448728" TEXT="arguments">
+<node CREATED="1366984183314" ID="ID_1090131398" MODIFIED="1366984184752" TEXT="An array corresponding to the arguments passed to a function. This is deprecated as property of Function, use the arguments object available within the function instead. "/>
+</node>
+<node CREATED="1366984259724" ID="ID_802489050" MODIFIED="1366984448728" TEXT="arity">
+<node CREATED="1366984275628" ID="ID_46460273" MODIFIED="1366984276722" TEXT="Obsolete since JavaScript 1.8.6"/>
+<node CREATED="1366984285807" ID="ID_1147043596" MODIFIED="1366984286886" TEXT="Specifies the number of arguments expected by the function. Use the length property instead."/>
+</node>
+<node CREATED="1366984306860" ID="ID_556938573" MODIFIED="1366984448728" TEXT="caller">
+<node CREATED="1366984318164" ID="ID_1602979409" MODIFIED="1366984318164">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="inlineIndicator nonStandard nonStandardInline">Non-standard</span>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366984326377" ID="ID_852337965" MODIFIED="1366984326377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Specifies the function that invoked the currently executing function.
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366984338629" ID="ID_418725038" MODIFIED="1366984448712" TEXT="constructor">
+<node CREATED="1366984364005" ID="ID_678319178" MODIFIED="1366984364005">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Specifies the function that creates an object's prototype.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1366984430926" ID="ID_1931863793" MODIFIED="1366984432129" TEXT=" inherited from Object"/>
+</node>
+<node CREATED="1366984381560" ID="ID_1159412480" MODIFIED="1366984448712" TEXT="length">
+<node CREATED="1366984391788" ID="ID_1846076000" MODIFIED="1366984391788">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Specifies the number of arguments expected by the function.
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366984399033" ID="ID_67266956" MODIFIED="1366984448697" TEXT="name">
+<node CREATED="1366984408824" ID="ID_23613781" MODIFIED="1366984408824">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="inlineIndicator nonStandard nonStandardInline">Non-standard</span> The name of the function.
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1366986087149" FOLDED="true" ID="ID_826942398" MODIFIED="1366994172214" TEXT="Methods">
+<node CREATED="1366986093450" FOLDED="true" ID="ID_269594656" MODIFIED="1366993432250" TEXT="fun.apply(thisArg[, argsArray])">
+<node CREATED="1366989260768" ID="ID_1034547631" MODIFIED="1366989724092">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function ApplyFunc(arguments){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var i = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (i=0;i&lt;arguments.length;i++){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this[&quot;property&quot;+i]=arguments[i];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      function ApplyTarget(){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ApplyFunc.apply(this,arguments);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      var a = new ApplyTarget(1,2,3);
+    </p>
+    <p>
+      var values=[];
+    </p>
+    <p>
+      for (var p in a){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;values.unshift(a[p]);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      document.write(values.join(&quot;:&quot;)+&quot;&lt;br&gt;&quot;);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366989522896" FOLDED="true" ID="ID_187134396" MODIFIED="1366993445720" TEXT="fun.bind(thisArg[, arg1[, arg2[, ...]]])">
+<node CREATED="1366989524139" ID="ID_342156287" MODIFIED="1366989535199" TEXT="Requires JavaScript 1.8.5"/>
+<node CREATED="1366991708928" ID="ID_238133006" MODIFIED="1366991710162" TEXT="Creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function was called"/>
+<node CREATED="1366993436780" ID="ID_255713519" MODIFIED="1366993442912">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Func(){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var i = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (i=0;i&lt;arguments.length;i++){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this[&quot;property&quot;+i]=arguments[i];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      function Target(value1,value2,value3){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var boundFunc = Func.bind(this,&quot;value&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;boundFunc(value1,value2,value3);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      var a = new Target(1,2,3);
+    </p>
+    <p>
+      var values=[];
+    </p>
+    <p>
+      for (var p in a){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;document.write(p+&quot;&lt;br&gt;&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;values.push(a[p]);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      document.write(values.join(&quot;:&quot;)+&quot;&lt;br&gt;&quot;);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366991286527" FOLDED="true" ID="ID_1639419568" MODIFIED="1366991706629" TEXT="fun.call(thisArg[, arg1[, arg2[, ...]]])">
+<node CREATED="1366991376502" ID="ID_1552383334" MODIFIED="1366991384412">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Product(name, price) {
+    </p>
+    <p>
+      &#160;&#160;this.name = name;
+    </p>
+    <p>
+      &#160;&#160;this.price = price;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &#160;&#160;if (price &lt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;throw RangeError('Cannot create product &quot;' + name + '&quot; with a negative price');
+    </p>
+    <p>
+      &#160;&#160;return this;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      function Food(name, price) {
+    </p>
+    <p>
+      &#160;&#160;Product.call(this, name, price);
+    </p>
+    <p>
+      &#160;&#160;this.category = 'food';
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      Food.prototype = new Product();
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      function Toy(name, price) {
+    </p>
+    <p>
+      &#160;&#160;Product.call(this, name, price);
+    </p>
+    <p>
+      &#160;&#160;this.category = 'toy';
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      Toy.prototype = new Product();
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      var cheese = new Food('feta', 5);
+    </p>
+    <p>
+      var fun = new Toy('robot', 40);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366991461607" ID="ID_931830172" MODIFIED="1366991462717" TEXT="function.toString(indentation)">
+<node CREATED="1366993642583" ID="ID_141421802" MODIFIED="1366993643786" TEXT="inherited from Object"/>
+</node>
+<node CREATED="1366991508163" ID="ID_1228596337" MODIFIED="1366991509350" TEXT="var sourceString = function.toSource();">
+<node CREATED="1366991525379" ID="ID_1984454025" MODIFIED="1366991525379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="inlineIndicator nonStandard nonStandardInline">Non-standard</span>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1366991564010" ID="ID_1185710801" MODIFIED="1366991565166" TEXT="result = fun.isGenerator()">
+<node CREATED="1366991592723" ID="ID_508262706" MODIFIED="1366991593863" TEXT="Requires JavaScript 1.8.6"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1366979881230" ID="ID_715689899" MODIFIED="1366994244498" TEXT="&quot;use strict&quot;;"/>
+</node>
+<node CREATED="1366903447968" ID="ID_1660221284" MODIFIED="1366994257726" POSITION="right" TEXT="language basic">
 <node CREATED="1366903462171" ID="ID_1709579815" MODIFIED="1366905873521" TEXT="&lt;variable&gt;"/>
-<node CREATED="1366905520112" ID="ID_1464742192" MODIFIED="1366905867748" TEXT="&lt;comment&gt;">
+<node CREATED="1366905520112" FOLDED="true" ID="ID_1464742192" MODIFIED="1366994263717" TEXT="&lt;comment&gt;">
 <node CREATED="1366905524857" ID="ID_520525929" MODIFIED="1366905528576" TEXT="//"/>
 <node CREATED="1366905528849" ID="ID_1070560249" MODIFIED="1366905531440" TEXT="/**/"/>
 </node>
-<node CREATED="1366905689537" FOLDED="true" ID="ID_785745546" MODIFIED="1366905862335" TEXT="&lt;msgbox&gt;">
+<node CREATED="1366905689537" FOLDED="true" ID="ID_785745546" MODIFIED="1366994261564" TEXT="&lt;msgbox&gt;">
 <node CREATED="1366905700361" ID="ID_8971754" MODIFIED="1366905728576" TEXT="alert(s)"/>
 <node CREATED="1366905729023" ID="ID_1152855403" MODIFIED="1366905736745" TEXT="confirm(s)"/>
 <node CREATED="1366905737201" ID="ID_112208807" MODIFIED="1366905742896" TEXT="prompt(s)"/>
 </node>
-<node CREATED="1366905874873" ID="ID_78847448" MODIFIED="1366906217363" TEXT="&lt;event&gt;">
+<node CREATED="1366905874873" FOLDED="true" ID="ID_78847448" MODIFIED="1366947902154" TEXT="&lt;event&gt;">
 <node CREATED="1366905913193" ID="ID_1444107416" MODIFIED="1366906025249" TEXT="on{blur, focus}"/>
 <node CREATED="1366905922721" ID="ID_762753028" MODIFIED="1366905923959" TEXT="onchange"/>
 <node CREATED="1366905930113" ID="ID_330208108" MODIFIED="1366906047592" TEXT="on{, dbl}click"/>
