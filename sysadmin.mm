@@ -282,7 +282,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364640124923" ID="ID_10115374" MODIFIED="1366686675954" POSITION="right" TEXT="Package Management">
+<node CREATED="1364640124923" ID="ID_10115374" MODIFIED="1368152535811" POSITION="right" TEXT="Package Management">
 <node CREATED="1364640148666" FOLDED="true" ID="ID_436010329" MODIFIED="1365839412193" TEXT="debian(*.deb, $ar)">
 <node CREATED="1365746037564" ID="ID_1666897393" MODIFIED="1365746103658" TEXT="$ dpkg --package manager for Debian">
 <node CREATED="1365746081404" ID="ID_1197735659" MODIFIED="1365746323906" TEXT="install">
@@ -389,9 +389,9 @@
 <node CREATED="1364643649877" ID="ID_1947695532" MODIFIED="1364643686578" TEXT="-f  *.tar.xx"/>
 <node CREATED="1364643653847" ID="ID_1270830319" MODIFIED="1364643674254" TEXT="-C dir"/>
 </node>
-<node CREATED="1364641598709" ID="ID_986745845" MODIFIED="1366686679412" TEXT="$ cpio">
+<node CREATED="1364641598709" ID="ID_986745845" MODIFIED="1368187196800" TEXT="$ cpio">
 <node CREATED="1364641984618" ID="ID_1495783624" MODIFIED="1365839267583" TEXT="*.cpio"/>
-<node CREATED="1365843193405" FOLDED="true" ID="ID_519622662" MODIFIED="1366690499290" TEXT="absolute/relative path">
+<node CREATED="1365843193405" ID="ID_519622662" MODIFIED="1368152540008" TEXT="absolute/relative path">
 <node CREATED="1364645764563" ID="ID_621341902" MODIFIED="1365843179182" TEXT="--no-absolute-filenames">
 <node CREATED="1364645803649" ID="ID_1501393993" MODIFIED="1364645805086" TEXT="Consider a cpioarchive that contains a copy of /etc/hosts, among other things. If you try to extract files from this archive, it will try to overwrite your copy of /etc/hosts."/>
 </node>
@@ -436,13 +436,13 @@
 </node>
 </node>
 <node CREATED="1365841843214" ID="ID_273906334" MODIFIED="1365841846551" TEXT="extract ">
-<node CREATED="1365839295368" ID="ID_1075853590" MODIFIED="1365842091248" TEXT="cpio -o &lt; name-list [&gt; archive] ">
-<node CREATED="1365839359960" ID="ID_1339672152" MODIFIED="1365841947025" TEXT="-o: read file names from stdin, and flush content of the archive to stdout"/>
+<node CREATED="1365839301671" ID="ID_1049516429" MODIFIED="1368187251402" TEXT="cpio -i [&lt; archive]">
+<node CREATED="1365839312383" ID="ID_224598614" MODIFIED="1365842039939" TEXT="-i: read content of the archive from stdin, and extract it."/>
 </node>
 </node>
 <node CREATED="1365841952225" ID="ID_685335953" MODIFIED="1365841953921" TEXT="create">
-<node CREATED="1365839301671" ID="ID_1049516429" MODIFIED="1365842047723" TEXT="cpio -i [&lt; archive]">
-<node CREATED="1365839312383" ID="ID_224598614" MODIFIED="1365842039939" TEXT="-i: read content of the archive from stdin, and extract it."/>
+<node CREATED="1365839295368" ID="ID_1075853590" MODIFIED="1368187248990" TEXT="cpio -o &lt; name-list [&gt; archive] ">
+<node CREATED="1365839359960" ID="ID_1339672152" MODIFIED="1365841947025" TEXT="-o: read file names from stdin, and flush content of the archive to stdout"/>
 </node>
 </node>
 <node CREATED="1366690503138" ID="ID_743546689" MODIFIED="1366690504722" TEXT="append">
@@ -493,8 +493,7 @@
       cpio -t &lt;file.cpio #file[1-4].txt
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
