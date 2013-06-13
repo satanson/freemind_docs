@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1345617188848" ID="ID_788686702" MODIFIED="1345639697832" TEXT="git">
-<node CREATED="1345617201861" FOLDED="true" ID="ID_1952613935" MODIFIED="1365436114891" POSITION="right" TEXT="object model">
+<node CREATED="1345617201861" FOLDED="true" ID="ID_1952613935" MODIFIED="1370231180424" POSITION="right" TEXT="object model">
 <node CREATED="1345617702131" ID="ID_346290171" MODIFIED="1345617711151" TEXT="SHA">
 <node CREATED="1345617712834" ID="ID_1577235951" MODIFIED="1345617813544" TEXT="40-digit ">
 <node CREATED="1345617814937" ID="ID_1112518180" MODIFIED="1345617822509" TEXT="reference">
@@ -100,7 +100,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345621759433" FOLDED="true" ID="ID_1242374315" MODIFIED="1365758951818" POSITION="right" TEXT="basic usage">
+<node CREATED="1345621759433" ID="ID_1242374315" MODIFIED="1370231199756" POSITION="right" TEXT="basic usage">
 <node CREATED="1345621802323" ID="ID_1801559050" MODIFIED="1365752106358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -146,8 +146,7 @@
       <i>$ <b>git clone git@</b>github.com:satanson/rtdb.git</i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1345622158865" ID="ID_1032036427" MODIFIED="1345639718886">
 <richcontent TYPE="NODE"><html>
@@ -191,7 +190,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345625617932" ID="ID_578884494" MODIFIED="1345625635075" TEXT="normal workflow">
+<node CREATED="1345625617932" FOLDED="true" ID="ID_578884494" MODIFIED="1370238072931" TEXT="normal workflow">
 <node CREATED="1345625636880" ID="ID_900142384" MODIFIED="1365752119616" TEXT="git add ">
 <icon BUILTIN="full-1"/>
 <node CREATED="1345625831896" ID="ID_1861550549" MODIFIED="1345625831896" TEXT="Modify some files, then add their updated contents to the index"/>
@@ -220,8 +219,7 @@
       see what is about to be committed
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1345626036153" ID="ID_851422303" MODIFIED="1365752145465" TEXT="$ git diff">
@@ -276,8 +274,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1345629544017" ID="ID_75547785" MODIFIED="1365755352935" TEXT="branch&amp;merge">
-<node CREATED="1345630517557" ID="ID_1346799780" MODIFIED="1345630532295" TEXT="branch">
+<node CREATED="1345629544017" ID="ID_75547785" MODIFIED="1370231292073" TEXT="branch&amp;merge">
+<node CREATED="1345630517557" FOLDED="true" ID="ID_1346799780" MODIFIED="1370238065696" TEXT="branch">
 <node CREATED="1345631887571" ID="ID_876764760" MODIFIED="1345631894289" TEXT="create">
 <node CREATED="1345630534574" ID="ID_684651149" MODIFIED="1345639718900" TEXT="$ git branch branch1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
@@ -326,13 +324,12 @@
   <body>
     Delete a branch irrespective of its merged status.
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1345631316815" ID="ID_598548734" MODIFIED="1365752168187" TEXT="merge">
+<node CREATED="1345631316815" FOLDED="true" ID="ID_598548734" MODIFIED="1370238067043" TEXT="merge">
 <node CREATED="1345632408539" ID="ID_1067369693" MODIFIED="1345632413591" TEXT="merge">
 <node CREATED="1345631320325" FOLDED="true" ID="ID_372803641" MODIFIED="1365758945758">
 <richcontent TYPE="NODE"><html>
@@ -568,7 +565,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1365758954168" FOLDED="true" ID="ID_214670172" MODIFIED="1365759652210" POSITION="right" TEXT="self hosted">
+<node CREATED="1365758954168" ID="ID_214670172" MODIFIED="1370231193285" POSITION="right" TEXT="self hosted">
 <node CREATED="1365758964896" ID="ID_1902129446" MODIFIED="1365759090002" TEXT="$ sudo apt-get  install curl">
 <icon BUILTIN="full-1"/>
 </node>
@@ -600,8 +597,7 @@
       $ sudo chmod -R u+x /home/somebody/git-shell-commands
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-6"/>
 </node>
 <node CREATED="1365759492272" ID="ID_272103490" MODIFIED="1365759590441" TEXT="git clone ssh://somebody@host/home/somebody/repo">

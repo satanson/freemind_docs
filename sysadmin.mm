@@ -52,7 +52,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1364547654082" ID="ID_1549872791" MODIFIED="1368775086799" POSITION="right" TEXT="network packet-filtering mechanism,firewall,iptables">
+<node CREATED="1364547654082" FOLDED="true" ID="ID_1549872791" MODIFIED="1371127639389" POSITION="right" TEXT="network packet-filtering mechanism,firewall,iptables">
 <node CREATED="1364547684401" ID="ID_676580123" MODIFIED="1364547697055" TEXT="iptables(*.rpm)"/>
 <node CREATED="1364548119144" ID="ID_1855628323" MODIFIED="1368775304599" TEXT="(root)$ iptables -t &lt;table&gt; cmd &lt;chain&gt; &lt;rulespec&gt; ...">
 <node CREATED="1364552901677" ID="ID_1709236608" MODIFIED="1368775123833" TEXT="cmd">
@@ -509,7 +509,7 @@
 <node CREATED="1364654627150" FOLDED="true" ID="ID_899074347" MODIFIED="1365839417741" POSITION="right" TEXT="xclip">
 <node CREATED="1364654729227" ID="ID_1822668252" MODIFIED="1364654733438" TEXT="command line interface to X selections (clipboard)"/>
 </node>
-<node CREATED="1364809786779" FOLDED="true" ID="ID_633785496" MODIFIED="1366686669930" POSITION="right" TEXT="Networking Conf">
+<node CREATED="1364809786779" ID="ID_633785496" MODIFIED="1371127641870" POSITION="right" TEXT="Networking Conf">
 <node CREATED="1364809800089" FOLDED="true" ID="ID_1885701092" MODIFIED="1365745952979" TEXT="virtual network bridge">
 <node CREATED="1364810226449" ID="ID_559468731" MODIFIED="1364810712676" TEXT="virtual interface (TUN/TAP)">
 <node CREATED="1364810632943" ID="ID_4994783" MODIFIED="1364810737126" TEXT="$ tunctl (uml-utilities)">
@@ -550,8 +550,8 @@
 <node CREATED="1364813390648" ID="ID_211950033" MODIFIED="1364813430568" TEXT="pp36: 1.4 Linux Networking"/>
 </node>
 </node>
-<node CREATED="1364814869944" FOLDED="true" ID="ID_1336619665" MODIFIED="1365992402073" TEXT="hostname resolution">
-<node CREATED="1364814888072" FOLDED="true" ID="ID_497344097" MODIFIED="1365992095691" TEXT="single node: /etc/hosts">
+<node CREATED="1364814869944" ID="ID_1336619665" MODIFIED="1371127645272" TEXT="hostname resolution">
+<node CREATED="1364814888072" ID="ID_497344097" MODIFIED="1371127653788" TEXT="single node: /etc/hosts">
 <node CREATED="1365991565647" ID="ID_871302417" MODIFIED="1365991628007" TEXT="entry:IP FQDN aliases"/>
 <node CREATED="1365953931883" ID="ID_310957682" MODIFIED="1365992076831" TEXT="$hostname"/>
 </node>
@@ -581,7 +581,7 @@
 <node CREATED="1365992184871" ID="ID_71621981" MODIFIED="1365992214315" TEXT="entry:networkname networknumber"/>
 </node>
 </node>
-<node CREATED="1364630214353" FOLDED="true" ID="ID_1798180327" MODIFIED="1365992225672" TEXT="conf files">
+<node CREATED="1364630214353" ID="ID_1798180327" MODIFIED="1371127665156" TEXT="conf files">
 <node CREATED="1364630372064" ID="ID_1129340491" MODIFIED="1365991975291" TEXT="/etc/host.conf">
 <node CREATED="1364630384302" FOLDED="true" ID="ID_790126774" MODIFIED="1365991830179" TEXT="multi on|off">
 <node CREATED="1364630425288" ID="ID_1069775928" MODIFIED="1364630529003" TEXT="alid values are on and off.  If set to on, the resolv+ library will return all valid addresses for a host that appears in the /etc/hosts file, instead of only the  first. This is off  by default, as it may cause a substantial performance loss at sites with large hosts files."/>
