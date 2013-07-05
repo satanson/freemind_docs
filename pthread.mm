@@ -5,7 +5,7 @@
 <node CREATED="1338216590960" ID="ID_1875492219" MODIFIED="1371103079873" TEXT="pthread functions do not set errno"/>
 <node CREATED="1371103156798" ID="ID_1689669441" MODIFIED="1371103158109" TEXT="none of the POSIX thread functions returns EINTR and that POSIX thread functions do not have to be restarted if interrupted by a signal"/>
 </node>
-<node CREATED="1338216592049" FOLDED="true" ID="ID_1204012680" MODIFIED="1371120466293" POSITION="right" TEXT="pthread_t">
+<node CREATED="1338216592049" ID="ID_1204012680" MODIFIED="1371194053720" POSITION="right" TEXT="pthread_t">
 <node CREATED="1371103862533" ID="ID_987346205" MODIFIED="1371120433932" TEXT="pthread_attr_t">
 <node CREATED="1371111735429" ID="ID_1148947269" MODIFIED="1371111740605" TEXT="init/destroy">
 <node CREATED="1371104057350" ID="ID_20405389" MODIFIED="1371111743240" TEXT="int pthread_attr_init(pthread_attr_t *attr);  ">
@@ -124,7 +124,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1371120360877" FOLDED="true" ID="ID_788390896" MODIFIED="1371122424684" POSITION="right" TEXT="termination">
+<node CREATED="1371120360877" ID="ID_788390896" MODIFIED="1371190338069" POSITION="right" TEXT="termination">
 <node CREATED="1338216592840" FOLDED="true" ID="ID_831691151" MODIFIED="1371120382909" TEXT="detached thread">
 <node CREATED="1371104308854" ID="ID_730159597" MODIFIED="1371109712461" TEXT="int pthread_detach(pthread_t thread);">
 <node CREATED="1371103556910" FOLDED="true" ID="ID_1536163093" MODIFIED="1371109714060" TEXT="return: 0(OK),!0 (error)">
@@ -155,13 +155,13 @@
 </node>
 <node CREATED="1338216593584" ID="ID_620642654" MODIFIED="1371120382907" TEXT="void pthread_exit(void *value_ptr);"/>
 <node CREATED="1338216594276" ID="ID_194278251" MODIFIED="1371120382906" TEXT="int pthread_cancel(pthread_t thread);"/>
-<node CREATED="1338216594863" FOLDED="true" ID="ID_894522896" MODIFIED="1371120382904" TEXT="int pthread_setcancelstate(int state, int *oldstate);">
+<node CREATED="1338216594863" ID="ID_894522896" MODIFIED="1371190359940" TEXT="int pthread_setcancelstate(int state, int *oldstate);">
 <node CREATED="1371110538485" ID="ID_1172248054" MODIFIED="1371110549077" TEXT="PTHREAD_CANCEL_ENABLE (default)"/>
 <node CREATED="1371110561206" ID="ID_1182046987" MODIFIED="1371110644781" TEXT="PTHREAD_CANCEL_DISABLE">
 <node CREATED="1371110564606" ID="ID_410112261" MODIFIED="1371110695069" TEXT="cancellation request is held pending "/>
 </node>
 </node>
-<node CREATED="1371110714813" FOLDED="true" ID="ID_1122766196" MODIFIED="1371120382903" TEXT="int pthread_setcanceltype(int type, int *oldtype);">
+<node CREATED="1371110714813" ID="ID_1122766196" MODIFIED="1371190597127" TEXT="int pthread_setcanceltype(int type, int *oldtype);">
 <node CREATED="1371110768686" ID="ID_1118958038" MODIFIED="1371110781606" TEXT="PTHREAD_CANCEL_DEFERRED (default)">
 <node CREATED="1371110840990" ID="ID_1872021186" MODIFIED="1371110861614" TEXT="thread can act on cancellation requests only at specified cancellation points">
 <font NAME="SansSerif" SIZE="12"/>
@@ -173,8 +173,8 @@
 </node>
 <node CREATED="1371110890638" ID="ID_771529150" MODIFIED="1371120382902" TEXT="void pthread_testcancel(void);"/>
 </node>
-<node CREATED="1338216595527" FOLDED="true" ID="ID_737066211" MODIFIED="1371120468896" POSITION="right" TEXT="synchronzation">
-<node CREATED="1371116122557" FOLDED="true" ID="ID_1882214207" MODIFIED="1371119358964" TEXT="pthread_mutex_t">
+<node CREATED="1338216595527" FOLDED="true" ID="ID_737066211" MODIFIED="1371190340050" POSITION="right" TEXT="synchronzation">
+<node CREATED="1371116122557" ID="ID_1882214207" MODIFIED="1371180128685" TEXT="pthread_mutex_t">
 <node CREATED="1371116382685" FOLDED="true" ID="ID_1440169881" MODIFIED="1371119274992" TEXT="pthread_mutexattr_t">
 <node CREATED="1371116728676" ID="ID_1843624071" MODIFIED="1371116729950" TEXT="int pthread_mutexattr_destroy(pthread_mutexattr_t *attr);"/>
 <node CREATED="1371116730542" ID="ID_1602405326" MODIFIED="1371116741521" TEXT="int pthread_mutexattr_init(pthread_mutexattr_t *attr);"/>
