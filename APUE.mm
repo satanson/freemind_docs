@@ -1,9 +1,9 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1338637055049" ID="ID_143495120" MODIFIED="1371282446005" TEXT="APUE">
-<node CREATED="1338637081000" FOLDED="true" ID="ID_640748604" MODIFIED="1363223776775" POSITION="right" TEXT="unbuffered IO (POSIX)">
+<node CREATED="1338637081000" FOLDED="true" ID="ID_640748604" MODIFIED="1375431975460" POSITION="right" TEXT="unbuffered IO (POSIX)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1338638811768" ID="ID_1420511453" MODIFIED="1338638947315" TEXT="header">
+<node CREATED="1338638811768" ID="ID_1420511453" MODIFIED="1375431940364" TEXT="header">
 <node CREATED="1338637134048" ID="ID_418835484" MODIFIED="1341892737423" TEXT="&lt;unistd.h&gt;">
 <node CREATED="1338637168938" ID="ID_425199589" MODIFIED="1338637168938" TEXT="standard symbolic constants and types"/>
 <node CREATED="1338637228910" ID="ID_259807824" MODIFIED="1338637249355" TEXT="STDIN_FILENO"/>
@@ -21,7 +21,7 @@
 <node CREATED="1338639045242" ID="ID_1113121751" MODIFIED="1338639060783" TEXT="&lt;sys/stat.h&gt;"/>
 <node CREATED="1338637857080" ID="ID_1644592417" MODIFIED="1338728798373" TEXT="&lt;fcntl.h&gt; ">
 <node CREATED="1338637878256" ID="ID_1204748916" MODIFIED="1338637878256" TEXT="file control options"/>
-<node CREATED="1338638247435" ID="ID_1816578570" MODIFIED="1338638269319" TEXT="file open flags">
+<node CREATED="1338638247435" FOLDED="true" ID="ID_1816578570" MODIFIED="1374565372942" TEXT="file open flags">
 <node CREATED="1338638362753" ID="ID_1192687196" MODIFIED="1341884928259" TEXT="essential">
 <node CREATED="1338638271436" ID="ID_1758951476" MODIFIED="1338638283364" TEXT="O_RDONLY"/>
 <node CREATED="1338638290583" ID="ID_624769379" MODIFIED="1338638299982" TEXT="O_WRONLY"/>
@@ -50,7 +50,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338638791151" ID="ID_971797200" MODIFIED="1341892754681" TEXT="function">
+<node CREATED="1338638791151" FOLDED="true" ID="ID_971797200" MODIFIED="1375431960926" TEXT="function">
 <node CREATED="1338638914732" ID="ID_981656375" MODIFIED="1341892647265" TEXT="int open(const char *pathname, int oflag .... /* , mode t mode */ );">
 <node CREATED="1338640176854" ID="ID_1988766910" MODIFIED="1338640602942" TEXT="open(pathname,O_RDONLY);">
 <node CREATED="1338639578699" ID="ID_739055899" MODIFIED="1338640457885" TEXT="open a file for read, generate error if file does not exist"/>
@@ -93,7 +93,7 @@
 </node>
 <node CREATED="1338796847993" ID="ID_205764871" MODIFIED="1338796895604" TEXT="&lt;unistd. h&gt;int fsync (int filedes) ;"/>
 </node>
-<node CREATED="1338642434921" ID="ID_1556299629" MODIFIED="1341892623420" TEXT="file I/O implement">
+<node CREATED="1338642434921" ID="ID_1556299629" MODIFIED="1375431925388" TEXT="file I/O implement">
 <node CREATED="1338642498913" ID="ID_1020971923" MODIFIED="1363191425411" TEXT="file descriptor table (u area)">
 <icon BUILTIN="full-1"/>
 <node CREATED="1338642538633" ID="ID_1126099437" MODIFIED="1363191429040" TEXT="file table">
@@ -155,7 +155,7 @@
 <node CREATED="1338645737354" ID="ID_1332558625" MODIFIED="1338645745473" TEXT="get/set record lock"/>
 </node>
 </node>
-<node CREATED="1338639150708" ID="ID_8920670" MODIFIED="1341892631891" TEXT="misc">
+<node CREATED="1338639150708" ID="ID_8920670" MODIFIED="1375431935565" TEXT="misc">
 <node CREATED="1338639177305" ID="ID_1756867882" MODIFIED="1338639189245" TEXT="PATH_MAX"/>
 <node CREATED="1338639189525" ID="ID_1960610422" MODIFIED="1338639192312" TEXT="NAME_MAX"/>
 <node CREATED="1338639192621" ID="ID_1102485188" MODIFIED="1338639227518" TEXT="_POSIX_NO_TRUNC"/>
@@ -167,7 +167,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338637081998" FOLDED="true" ID="ID_1029354476" MODIFIED="1363223771965" POSITION="right" TEXT="buffered IO (C Standard Libary)">
+<node CREATED="1338637081998" FOLDED="true" ID="ID_1029354476" MODIFIED="1375431988148" POSITION="right" TEXT="buffered IO (C Standard Libary)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338800410580" ID="ID_1589389692" MODIFIED="1363190004097" TEXT="buffering">
 <node CREATED="1338801092372" ID="ID_1515962288" MODIFIED="1338801264575" TEXT="#include &lt;stdio.h&gt;  "/>
@@ -731,9 +731,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1341293673913" ID="ID_1427592362" MODIFIED="1363164521768" POSITION="right" TEXT="IPC(InterProcess Communication)">
+<node CREATED="1341293673913" FOLDED="true" ID="ID_1427592362" MODIFIED="1375431903532" POSITION="right" TEXT="IPC(InterProcess Communication)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1341295949046" FOLDED="true" ID="ID_182899331" MODIFIED="1363164531747" TEXT="System V  IPC">
+<node CREATED="1341295949046" ID="ID_182899331" MODIFIED="1374565411287" TEXT="System V  IPC">
 <node CREATED="1341296010736" FOLDED="true" ID="ID_1227441844" MODIFIED="1358084393839" TEXT="getXXX">
 <node CREATED="1341300368793" ID="ID_1217472975" MODIFIED="1341300433666" TEXT="creates a  new IPC structure or obtains a existed IPC structure"/>
 <node CREATED="1341300399147" ID="ID_14596799" MODIFIED="1341300568610" TEXT="specifies key to get a IPC structure identifer ">
@@ -780,28 +780,28 @@
 <node CREATED="1341299854336" ID="ID_1310268124" MODIFIED="1341301976004" TEXT="configuration  limits">
 <node CREATED="1341302017327" ID="ID_984069510" MODIFIED="1341302025520" TEXT="/etc/conf/cf. d/mtune"/>
 </node>
-<node CREATED="1341293727522" FOLDED="true" ID="ID_712599293" MODIFIED="1358086884511" TEXT="shared memory">
+<node CREATED="1341293727522" FOLDED="true" ID="ID_712599293" MODIFIED="1374570580757" TEXT="shared memory">
 <icon BUILTIN="full-1"/>
 <node CREATED="1341294866748" ID="ID_478450725" MODIFIED="1341295387283" TEXT="//#include&lt;sys/shm.h&gt;&#xa;struct shmid ds {  &#xa;    struct ipc_perm shm_perm; /* see Section 14.6.2 */  &#xa;    struct anon_map *shm_amp; /* pointer in kernel */  &#xa;    int shm_segsz; /* size of segment in bytes */  &#xa;    ushort shm_Ikcnt; /* number of times segment is being locked */  &#xa;    pid_t shm_Ipid; /* pid of last shmop() */  &#xa;    pid_t shm_cpid; /* pid of creator */  &#xa;    ulong shm_nattch; /* number of current attaches */  &#xa;    ulong shm_cnattch; /* used only for shminfo */  &#xa;    time_t shm_atime; /* last-attach time */  &#xa;    time_t shm_dtime; /* last-detach time */  &#xa;    time_t shm_ctime; /* last-change time */ &#xa; };  "/>
-<node CREATED="1341295175167" ID="ID_972102095" MODIFIED="1341314867364" TEXT="system limits that affec shared memor&#x7f; ">
-<node CREATED="1341302113240" ID="ID_1349606693" MODIFIED="1341302198806" TEXT="SHMALL   System wide maximum of shared memory pages.(Linux /proc/sys/kernel/shmall)"/>
-<node CREATED="1341295208607" ID="ID_1788937460" MODIFIED="1341302230164" TEXT="SHMMAX The maximum size in bytes of a shared memory segment. (Linux /proc/sys/kernel/shmmax)"/>
-<node CREATED="1341295208607" ID="ID_415212494" MODIFIED="1341302141122" TEXT="SHMMIN The minimum size in bytes of a shared memory segment. 1"/>
-<node CREATED="1341295208607" ID="ID_1069350097" MODIFIED="1341302277693" TEXT="SHMMNI The maximum number of shared memory segments, systemwide. (Linux /proc/sys/kernel/shmmni)"/>
-<node CREATED="1341295208607" ID="ID_294674934" MODIFIED="1341295239563" TEXT="SHMSEG The maximum number of shared memory segments, per process. 6"/>
+<node CREATED="1341295175167" FOLDED="true" ID="ID_972102095" MODIFIED="1374570578573" STYLE="fork" TEXT="system limits that affect shared memory&#x7f; ">
+<node CREATED="1341302113240" ID="ID_1349606693" MODIFIED="1374565468274" TEXT="SHMALL   System wide maximum of shared memory pages.(Linux /proc/sys/kernel/shmall)"/>
+<node CREATED="1341295208607" ID="ID_1788937460" MODIFIED="1374565468274" TEXT="SHMMAX The maximum size in bytes of a shared memory segment. (Linux /proc/sys/kernel/shmmax)"/>
+<node CREATED="1341295208607" ID="ID_415212494" MODIFIED="1374565468274" TEXT="SHMMIN The minimum size in bytes of a shared memory segment. 1"/>
+<node CREATED="1341295208607" ID="ID_1069350097" MODIFIED="1374565468274" TEXT="SHMMNI The maximum number of shared memory segments, systemwide. (Linux /proc/sys/kernel/shmmni)"/>
+<node CREATED="1341295208607" ID="ID_294674934" MODIFIED="1374565468274" TEXT="SHMSEG The maximum number of shared memory segments, per process. 6"/>
 </node>
-<node CREATED="1341295458763" ID="ID_1819317811" MODIFIED="1341295461573" TEXT="shmget">
+<node CREATED="1341295458763" FOLDED="true" ID="ID_1819317811" MODIFIED="1374570574486" TEXT="shmget">
 <node CREATED="1341295474175" ID="ID_751004884" MODIFIED="1341295474175" TEXT="#include &lt;sys/types.h&gt;"/>
 <node CREATED="1341295474175" ID="ID_176169853" MODIFIED="1341295474175" TEXT="#include &lt;sys/ipc.h&gt;"/>
 <node CREATED="1341295474175" ID="ID_997293325" MODIFIED="1341295474175" TEXT="#include &lt;sys/shm.h&gt;"/>
 <node CREATED="1341295474175" ID="ID_1596773694" MODIFIED="1341295484146" TEXT="int shmget (key_t key, int size,int flag) ;"/>
 <node CREATED="1341295474175" ID="ID_449376456" MODIFIED="1341295474175" TEXT="Returns: shared memory ID if OK, -1 on error"/>
 </node>
-<node CREATED="1341302420834" FOLDED="true" ID="ID_865926474" MODIFIED="1341302735237" TEXT="shmctl">
+<node CREATED="1341302420834" ID="ID_865926474" MODIFIED="1374570565906" TEXT="shmctl">
 <node CREATED="1341302434595" ID="ID_345207944" MODIFIED="1341302434595" TEXT="#include &lt;sys/types.h&gt;"/>
 <node CREATED="1341302434596" ID="ID_796659825" MODIFIED="1341302434596" TEXT="#include &lt;sys/ipc.h&gt;"/>
 <node CREATED="1341302434597" ID="ID_600334220" MODIFIED="1341302434597" TEXT="#include &lt;sys/shm.h&gt;"/>
-<node CREATED="1341302434598" ID="ID_1988080660" MODIFIED="1341302434598" TEXT="int shmctl(int shmid, int cmd, struct shmid_ds *buf);">
+<node CREATED="1341302434598" FOLDED="true" ID="ID_1988080660" MODIFIED="1374570572193" TEXT="int shmctl(int shmid, int cmd, struct shmid_ds *buf);">
 <node CREATED="1341302440559" ID="ID_493226867" MODIFIED="1341302442657" TEXT="cmd">
 <node CREATED="1341302444084" ID="ID_1395501179" MODIFIED="1341302518344" TEXT="IPC_STAT  "/>
 <node CREATED="1341302483525" ID="ID_364160896" MODIFIED="1341302521745" TEXT="IPC_SET  "/>
@@ -835,7 +835,7 @@
 <node CREATED="1341295960343" ID="ID_713621043" MODIFIED="1341296022321" TEXT="message queue">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1341295980417" ID="ID_507844474" MODIFIED="1358132593548" TEXT="semaphore set">
+<node CREATED="1341295980417" ID="ID_507844474" MODIFIED="1374570586046" TEXT="semaphore set">
 <icon BUILTIN="full-3"/>
 <node CREATED="1341364975888" ID="ID_57600822" MODIFIED="1341365037658" TEXT="struct semid ds {&#xa;  struct ipc_perm sem&#x7f;erm; /* see Section 14.6.2 */&#xa;  struct sem *sem_base; /* ptr to first semaphore in set */&#xa;  ushort sem_nsems; /* # of semaphores in set */&#xa;  time_t sem_otime; /* last-semop() time */&#xa;  time_t sem_ctime; /* last-change time */&#xa;  };  ">
 <node CREATED="1341365075853" ID="ID_870194815" MODIFIED="1341397771103" TEXT="struct sem {&#xa;  ushort semval; /* semaphore value, always &gt;= 0 */&#xa;  pid_t sempid; /* pid for last operation */&#xa;  ushort semncnt; /* # waiting for increase */&#xa;  ushort semzcnt; /* # waiting for zero */&#xa;  };  "/>
@@ -846,7 +846,7 @@
 <node CREATED="1341366653671" ID="ID_479082150" MODIFIED="1341366890239" TEXT=" struct  seminfo {&#xa;       int semmap;  /* # of entries in semaphore map; unused */ &#xa;       int semmni;  /* Max. # of semaphore sets */                         &#xa;       int semmns;  /* Max. # of semaphores in all semaphore sets */ &#xa;       int semmnu;  /* System-wide max. # of undo structures; unused */&#xa;       int semmsl;  /* Max. # of semaphores in a set */                          &#xa;       int semopm;  /* Max. # of operations for semop() */&#xa;       int semume;  /* Max. # of undo entries per process; unused */&#xa;       int semusz;  /* size of struct sem_undo */ &#xa;       int semvmx;  /* Maximum semaphore value */&#xa;       int semaem;  /* Max. value that can be recorded for   &#xa;                               semaphore adjustment (SEM_UNDO) */ &#xa;       }; "/>
 </node>
 </node>
-<node CREATED="1341314994157" ID="ID_1296062728" MODIFIED="1341315141773" TEXT="semget">
+<node CREATED="1341314994157" FOLDED="true" ID="ID_1296062728" MODIFIED="1374565423689" TEXT="semget">
 <node CREATED="1341364643507" ID="ID_257724758" MODIFIED="1341364686096" TEXT="create a  new semaphore set or obtain a existed semphore set"/>
 <node CREATED="1341393800623" ID="ID_797339531" MODIFIED="1341393800623" TEXT="#include &lt;sys/types.h&gt;"/>
 <node CREATED="1341393800623" ID="ID_89102828" MODIFIED="1341393800623" TEXT="#include &lt;sys/ipc.h&gt;"/>
@@ -868,15 +868,15 @@
 <node CREATED="1341367010096" ID="ID_23107852" MODIFIED="1341367028317" TEXT="#include &lt;sys/types.h&gt;"/>
 <node CREATED="1341367030907" ID="ID_1843193242" MODIFIED="1341367044106" TEXT="#include &lt;sys/ipc.h&gt;"/>
 <node CREATED="1341367045466" ID="ID_804977132" MODIFIED="1341367056015" TEXT="#include &lt;sys/sem.h&gt;"/>
-<node CREATED="1341367057661" ID="ID_327562845" MODIFIED="1341394231168" TEXT="int semctl(int semid, int semnum, int cmd, union  semun arg&#x7f;);  ">
+<node CREATED="1341367057661" ID="ID_327562845" MODIFIED="1374570634164" TEXT="int semctl(int semid, int semnum, int cmd, union  semunarg&#x7f;);  ">
 <node CREATED="1341367148720" ID="ID_1883786859" MODIFIED="1341367281167" TEXT="semnum ">
 <node CREATED="1341367283457" ID="ID_763454522" MODIFIED="1341367283457" TEXT="semnum-th semaphore in set (starting at 0)"/>
 </node>
 <node BACKGROUND_COLOR="#ccff33" CREATED="1341366373249" ID="ID_1597305842" MODIFIED="1341367140930" TEXT="union semun {&#xa;       int              val;    /* Value for SETVAL */&#xa;       struct semid_ds *buf;    /* Buffer for IPC_STAT, IPC_SET */&#xa;       unsigned short  *array;  /* Array for GETALL, SETALL */&#xa;       struct seminfo  *__buf;  /* Buffer for IPC_INFO (Linux specific) */&#xa;       }; "/>
 <node CREATED="1341367257658" ID="ID_1315716304" MODIFIED="1341367260326" TEXT="cmd">
-<node CREATED="1341394273138" ID="ID_777311892" MODIFIED="1341394277898" TEXT="IPC STAT  "/>
+<node CREATED="1341394273138" ID="ID_777311892" MODIFIED="1374570615857" TEXT="IPC_STAT  "/>
 <node CREATED="1341394278340" ID="ID_1971383416" MODIFIED="1341394283522" TEXT="IPC_SET"/>
-<node CREATED="1341394283824" ID="ID_1002626438" MODIFIED="1341394326835" TEXT="IPC RMID  "/>
+<node CREATED="1341394283824" ID="ID_1002626438" MODIFIED="1374570605140" TEXT="IPC_RMID  "/>
 <node CREATED="1341394350225" ID="ID_293792970" MODIFIED="1341394351506" TEXT="GETVAL  "/>
 <node CREATED="1341394351793" ID="ID_362762063" MODIFIED="1341394365648" TEXT="SETVAL  "/>
 <node CREATED="1341394386714" ID="ID_706786597" MODIFIED="1341394387964" TEXT="GETPID  "/>
@@ -933,9 +933,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1338637081684" FOLDED="true" ID="ID_969287546" MODIFIED="1363164514980" POSITION="right" TEXT="file &amp; directory operations">
+<node CREATED="1338637081684" FOLDED="true" ID="ID_969287546" MODIFIED="1375432086691" POSITION="right" TEXT="file &amp; directory operations">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1338647378283" ID="ID_1976735025" MODIFIED="1341892782980" TEXT="stat">
+<node CREATED="1338647378283" ID="ID_1976735025" MODIFIED="1374567659255" TEXT="stat">
 <node CREATED="1338647483842" ID="ID_68683273" MODIFIED="1338647519557" TEXT=":retrieve metadata of a file stored in inode"/>
 <node CREATED="1338647522391" ID="ID_1982945353" MODIFIED="1338647537586" TEXT="utility">
 <node CREATED="1338647539562" ID="ID_1486925285" MODIFIED="1338647541667" TEXT="stat"/>
@@ -949,7 +949,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338647877239" ID="ID_1730061970" MODIFIED="1363164499187">
+<node CREATED="1338647877239" ID="ID_1730061970" MODIFIED="1375432000903">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1002,7 +1002,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1338648004379" FOLDED="true" ID="ID_572783318" MODIFIED="1338788456750" TEXT="file type (st_mode &amp;S_IFMT)">
+<node CREATED="1338648004379" FOLDED="true" ID="ID_572783318" MODIFIED="1374566361065" TEXT="file type (st_mode &amp;S_IFMT)">
 <node CREATED="1338648072309" ID="ID_1451777000" MODIFIED="1338648074186" TEXT="-">
 <node CREATED="1338648097362" ID="ID_1385724685" MODIFIED="1338648100816" TEXT="regular file"/>
 <node CREATED="1338693928567" ID="ID_1610906071" MODIFIED="1338695346300" TEXT="S_ISREG">
@@ -1050,7 +1050,7 @@
 <node CREATED="1338694533025" ID="ID_1632427650" MODIFIED="1338694537336" TEXT="-S"/>
 </node>
 </node>
-<node CREATED="1338695811113" ID="ID_1708337162" MODIFIED="1339172119022" TEXT="file access permission">
+<node CREATED="1338695811113" FOLDED="true" ID="ID_1708337162" MODIFIED="1375432079462" TEXT="file access permission">
 <node CREATED="1338695850235" ID="ID_1017367566" MODIFIED="1338695898680" TEXT="owner">
 <node CREATED="1338704868382" ID="ID_920235737" MODIFIED="1338704877219" TEXT="st_uid"/>
 <node CREATED="1338709596641" ID="ID_711308028" MODIFIED="1338709608869" TEXT="chown"/>
@@ -1077,7 +1077,7 @@
 <node CREATED="1338710623894" ID="ID_1224671248" MODIFIED="1338710745730" TEXT="S_IROTH other-read"/>
 <node CREATED="1338710623894" ID="ID_1756630338" MODIFIED="1338710749183" TEXT="S_IWOTH other-write"/>
 <node CREATED="1338710623895" ID="ID_164768476" MODIFIED="1338710751640" TEXT="S_IXOTH other-execute"/>
-<node CREATED="1338710804695" FOLDED="true" ID="ID_1341186591" MODIFIED="1338726928697" TEXT="directory access">
+<node CREATED="1338710804695" FOLDED="true" ID="ID_1341186591" MODIFIED="1374566198271" TEXT="directory access">
 <node CREATED="1338710844006" ID="ID_1364962236" MODIFIED="1338710845787" TEXT="R">
 <node CREATED="1338710857674" ID="ID_1155021151" MODIFIED="1338710913547" TEXT="read directory file content, e.g.  ls "/>
 </node>
@@ -1086,7 +1086,7 @@
 </node>
 <node CREATED="1338711096188" ID="ID_586525162" MODIFIED="1338711301457" TEXT="create and delete a file has nothing to do with its&#xa;access permission but its parent&apos;s X and W are set"/>
 </node>
-<node CREATED="1338726527114" FOLDED="true" ID="ID_867076917" MODIFIED="1338726921201" TEXT="file access test">
+<node CREATED="1338726527114" FOLDED="true" ID="ID_867076917" MODIFIED="1374566194589" TEXT="file access test">
 <node CREATED="1338726561258" ID="ID_1832595957" MODIFIED="1338726584421" TEXT="superuser">
 <icon BUILTIN="full-1"/>
 </node>
@@ -1109,7 +1109,7 @@
 <node CREATED="1338704710508" ID="ID_50877713" MODIFIED="1338704746263" TEXT="S_ISUID &amp; st_mode"/>
 <node CREATED="1338704824037" ID="ID_326387855" MODIFIED="1338704839852" TEXT="[ -u file ]"/>
 </node>
-<node CREATED="1338704655302" ID="ID_1151325499" MODIFIED="1338704672385" TEXT="set-group-id">
+<node CREATED="1338704655302" ID="ID_1151325499" MODIFIED="1374566338117" TEXT="set-group-id">
 <node CREATED="1338704753637" ID="ID_1687654767" MODIFIED="1338704780232" TEXT="S_ISGID &amp; st_mode"/>
 <node CREATED="1338704840997" ID="ID_1414182279" MODIFIED="1338704847528" TEXT="[ -g file ]"/>
 </node>
@@ -1126,14 +1126,14 @@
 </node>
 </node>
 <node CREATED="1338728521523" ID="ID_1845296362" MODIFIED="1338731496483" TEXT="umask">
-<node CREATED="1338728548696" FOLDED="true" ID="ID_732920657" MODIFIED="1338731500241" TEXT="&lt;sys/types.h&gt;&lt;sys/stat.h&gt;mode_t umask(mode_t cmask);">
+<node CREATED="1338728548696" ID="ID_732920657" MODIFIED="1374566634378" TEXT="&lt;sys/types.h&gt;&lt;sys/stat.h&gt;mode_t umask(mode_t cmask);">
 <node CREATED="1338728589364" ID="ID_1216271260" MODIFIED="1338728644079" TEXT="the bits set in cmask shall be turn off in mode of open or creat file"/>
 <node CREATED="1338728649876" ID="ID_1009621537" MODIFIED="1338728714698" TEXT="return previous file mode creation mask"/>
 </node>
 </node>
 <node CREATED="1338728810498" ID="ID_75042002" MODIFIED="1339172142586" TEXT="chmod">
 <node CREATED="1338728816682" ID="ID_1643121160" MODIFIED="1338728859137" TEXT="&lt;sys/types.h&gt;&lt;sys/stat.h&gt;"/>
-<node CREATED="1338729840656" ID="ID_679460657" MODIFIED="1339173037220" TEXT="int chmod(const char *pathname, mode_t mode);">
+<node CREATED="1338729840656" ID="ID_679460657" MODIFIED="1375432028912" TEXT="int chmod(const char *pathname, mode_t mode);">
 <node CREATED="1338729924400" ID="ID_134649801" MODIFIED="1338731504482" TEXT="mode">
 <node CREATED="1338729988002" ID="ID_796684588" MODIFIED="1338730000410" TEXT="&lt;sys/stat.h&gt;"/>
 <node CREATED="1338729929324" ID="ID_1349309884" MODIFIED="1339173343804" TEXT="S_ISUID (4) set-user-ID on execution"/>
@@ -1162,7 +1162,7 @@
 <node CREATED="1338730034245" ID="ID_255413025" MODIFIED="1338730045008" TEXT="return 0 on OK,-1 on error"/>
 </node>
 <node CREATED="1338729857095" ID="ID_74156099" MODIFIED="1338729892997" TEXT="int fchmod(int filedes, mode_t &#x7f;mode&#x7f;) ;"/>
-<node CREATED="1339173062277" ID="ID_51011575" MODIFIED="1339173068680" TEXT="$chmod">
+<node CREATED="1339173062277" ID="ID_51011575" MODIFIED="1374566670648" TEXT="$chmod">
 <node CREATED="1339173072554" ID="ID_1251049799" MODIFIED="1339173076955" TEXT="t">
 <node CREATED="1339173098601" ID="ID_953140743" MODIFIED="1339173203318" TEXT="chmod o+tx "/>
 </node>
@@ -1187,9 +1187,9 @@
 <node CREATED="1338732524878" ID="ID_17109680" MODIFIED="1338732650839" TEXT="int lchown (const char *pathname, uid_t owner, gid_t group);"/>
 </node>
 </node>
-<node CREATED="1338785022783" ID="ID_781386686" MODIFIED="1339172697958" TEXT="file size">
+<node CREATED="1338785022783" FOLDED="true" ID="ID_781386686" MODIFIED="1374566713189" TEXT="file size">
 <node CREATED="1338785033708" ID="ID_561693436" MODIFIED="1338785038858" TEXT="st_size">
-<node CREATED="1338785061830" ID="ID_546159163" MODIFIED="1338785096976" TEXT="size of file in bytes">
+<node CREATED="1338785061830" FOLDED="true" ID="ID_546159163" MODIFIED="1374566710802" TEXT="size of file in bytes">
 <node CREATED="1338785488558" ID="ID_1527442729" MODIFIED="1338785493584" TEXT="du">
 <node CREATED="1338785514971" ID="ID_1303119827" MODIFIED="1338786379175" TEXT="-estimate file space usage"/>
 </node>
@@ -1215,7 +1215,7 @@
 <node CREATED="1338786421888" ID="ID_16715015" MODIFIED="1338786421888" TEXT="int ftruncate (int filedes, off_t length) ;"/>
 </node>
 </node>
-<node CREATED="1338786798292" ID="ID_1288765094" MODIFIED="1339172690530" TEXT="file system">
+<node CREATED="1338786798292" FOLDED="true" ID="ID_1288765094" MODIFIED="1374566720053" TEXT="file system">
 <node CREATED="1338786806849" ID="ID_288305325" MODIFIED="1338786810922" TEXT="st_ino"/>
 <node CREATED="1338786811474" ID="ID_564565390" MODIFIED="1338786816858" TEXT="st_nlink"/>
 <node CREATED="1338786894068" ID="ID_809033281" MODIFIED="1338786897190" TEXT="link">
@@ -1300,7 +1300,7 @@
 </node>
 <node CREATED="1338795642621" ID="ID_574303469" MODIFIED="1338795648161" TEXT="getcwd"/>
 </node>
-<node CREATED="1338788459907" ID="ID_152909860" MODIFIED="1363164506481" TEXT="file time">
+<node CREATED="1338788459907" FOLDED="true" ID="ID_152909860" MODIFIED="1374566721208" TEXT="file time">
 <node CREATED="1338788505266" ID="ID_767050503" MODIFIED="1338788606089" TEXT="st_atime">
 <node CREATED="1338788505266" ID="ID_792547394" MODIFIED="1338788520601" TEXT="last-access tirne of file data"/>
 <node CREATED="1338788505266" ID="ID_1000530854" MODIFIED="1338788571433" TEXT="read  (ls -u)"/>
@@ -1343,7 +1343,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338796409886" ID="ID_1263416245" MODIFIED="1363164504913" TEXT="file device">
+<node CREATED="1338796409886" FOLDED="true" ID="ID_1263416245" MODIFIED="1374566721910" TEXT="file device">
 <node CREATED="1338796420721" ID="ID_235538431" MODIFIED="1338796423421" TEXT="st_dev">
 <node CREATED="1338796425221" ID="ID_1797301092" MODIFIED="1338796432664" TEXT="major number"/>
 <node CREATED="1338796432920" ID="ID_60303817" MODIFIED="1338796436822" TEXT="minor number"/>
@@ -1353,7 +1353,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338637082269" FOLDED="true" ID="ID_1651944216" MODIFIED="1366129709156" POSITION="right" TEXT="environment of unix procss">
+<node CREATED="1338637082269" FOLDED="true" ID="ID_1651944216" MODIFIED="1375432100591" POSITION="right" TEXT="environment of unix procss">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338822136849" ID="ID_766699234" MODIFIED="1338822194055" TEXT="start-up routine">
 <node CREATED="1338822145228" ID="ID_754782817" MODIFIED="1338822246567" TEXT="executable &apos;s starting address set by linker"/>
@@ -2341,7 +2341,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339310541091" ID="ID_1385180175" MODIFIED="1371285482596" POSITION="right" TEXT="signal">
+<node CREATED="1339310541091" FOLDED="true" ID="ID_1385180175" MODIFIED="1374565349464" POSITION="right" TEXT="signal">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1339311014169" ID="ID_1345831434" MODIFIED="1339311026760" TEXT="signal concept">
 <node CREATED="1339311028388" ID="ID_1342774908" MODIFIED="1339311065627" TEXT="signal name">
