@@ -100,7 +100,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345621759433" ID="ID_1242374315" MODIFIED="1370231199756" POSITION="right" TEXT="basic usage">
+<node CREATED="1345621759433" ID="ID_1242374315" MODIFIED="1377139578824" POSITION="right" TEXT="basic usage">
 <node CREATED="1345621802323" ID="ID_1801559050" MODIFIED="1365752106358">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -190,7 +190,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345625617932" FOLDED="true" ID="ID_578884494" MODIFIED="1370238072931" TEXT="normal workflow">
+<node CREATED="1345625617932" ID="ID_578884494" MODIFIED="1377139586980" TEXT="normal workflow">
 <node CREATED="1345625636880" ID="ID_900142384" MODIFIED="1365752119616" TEXT="git add ">
 <icon BUILTIN="full-1"/>
 <node CREATED="1345625831896" ID="ID_1861550549" MODIFIED="1345625831896" TEXT="Modify some files, then add their updated contents to the index"/>
@@ -241,12 +241,12 @@
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1345626449081" FOLDED="true" ID="ID_589244646" MODIFIED="1365752155140" TEXT="git commit">
+<node CREATED="1345626449081" ID="ID_589244646" MODIFIED="1377139615504" TEXT="git commit">
 <icon BUILTIN="full-3"/>
 <node CREATED="1345626506072" ID="ID_1888630316" MODIFIED="1345639718899" TEXT="$ git commit">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
-<node CREATED="1345626685000" ID="ID_1387581844" MODIFIED="1345639718899" TEXT="$ git commit -m &quot;[`date +&apos;%D %T&apos;` ]:commited by satanson&quot; -a">
+<node CREATED="1345626685000" ID="ID_1387581844" MODIFIED="1377139618569" TEXT="$ git commit -m &quot;[`date +&apos;%D %T&apos;` ]:commited by satanson&quot; -a">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345626734906" ID="ID_1271805221" MODIFIED="1345626739919" TEXT="-m &quot;xxx&quot;">
 <node CREATED="1345626741224" ID="ID_1052505107" MODIFIED="1345626754822" TEXT="message"/>
@@ -267,7 +267,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345629546761" FOLDED="true" ID="ID_1066462275" MODIFIED="1365752161436" TEXT="git push">
+<node CREATED="1345629546761" ID="ID_1066462275" MODIFIED="1377139641348" TEXT="git push">
 <icon BUILTIN="full-4"/>
 <node CREATED="1345629558857" ID="ID_1017975092" MODIFIED="1345639718900" TEXT="$ git push origin master">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
@@ -565,7 +565,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1365758954168" ID="ID_214670172" MODIFIED="1370231193285" POSITION="right" TEXT="self hosted">
+<node CREATED="1365758954168" FOLDED="true" ID="ID_214670172" MODIFIED="1377139576911" POSITION="right" TEXT="self hosted">
 <node CREATED="1365758964896" ID="ID_1902129446" MODIFIED="1365759090002" TEXT="$ sudo apt-get  install curl">
 <icon BUILTIN="full-1"/>
 </node>
