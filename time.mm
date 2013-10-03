@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1371276071613" ID="ID_511017672" MODIFIED="1371276075466" TEXT="time">
-<node CREATED="1371278276301" ID="ID_1276474898" MODIFIED="1371278344585" POSITION="right" TEXT="#include &lt;sys/times.h&gt;">
+<node CREATED="1371278276301" FOLDED="true" ID="ID_1276474898" MODIFIED="1379260571299" POSITION="right" TEXT="#include &lt;sys/times.h&gt;">
 <node CREATED="1371278320184" ID="ID_236490201" MODIFIED="1371278320184" TEXT="clock_t times(struct tms *buf);"/>
 <node CREATED="1371278327260" ID="ID_1650602653" MODIFIED="1371278340655">
 <richcontent TYPE="NODE"><html>
@@ -28,8 +28,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371279048884" ID="ID_831318999" MODIFIED="1371279860251" POSITION="right" TEXT="#include &lt;sys/time.h&gt;">
@@ -73,8 +72,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1371279383548" ID="ID_780243229" MODIFIED="1371279384689" TEXT="getitimer"/>
 </node>
@@ -98,8 +96,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1371279973260" ID="ID_1682136980" MODIFIED="1371282495271" TEXT="time_t">
 <node CREATED="1371280000027" ID="ID_792161842" MODIFIED="1371280019929" TEXT="the  time  since  the  Epoch (00:00:00 UTC, January 1, 1970)"/>
@@ -144,8 +141,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1371282612260" ID="ID_1461303551" MODIFIED="1371282643997" TEXT="time_t time(time_t *t);">
 <node CREATED="1371282671299" ID="ID_524729328" MODIFIED="1371282736386" TEXT="return time since the Epoch(OK),-1(error)"/>
@@ -177,7 +173,7 @@
 <node CREATED="1371282832868" ID="ID_499620375" MODIFIED="1371282832868" TEXT="char *asctime_r(const struct tm *tm, char *buf);"/>
 </node>
 </node>
-<node CREATED="1371282576476" FOLDED="true" ID="ID_1057048001" MODIFIED="1371283271098" TEXT="time_t 2 char*">
+<node CREATED="1371282576476" FOLDED="true" ID="ID_1057048001" MODIFIED="1379260613859" TEXT="time_t 2 char*">
 <node CREATED="1371282782251" ID="ID_141317326" MODIFIED="1371282866493" TEXT="ctime">
 <node CREATED="1371282832868" ID="ID_154566180" MODIFIED="1371282869459" TEXT="char *ctime(const time_t *timep);"/>
 </node>
