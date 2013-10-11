@@ -1,7 +1,7 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1345617188848" ID="ID_788686702" MODIFIED="1345639697832" TEXT="git">
-<node CREATED="1345617201861" FOLDED="true" ID="ID_1952613935" MODIFIED="1370231180424" POSITION="right" TEXT="object model">
+<node CREATED="1345617201861" ID="ID_1952613935" MODIFIED="1381245145940" POSITION="right" TEXT="object model">
 <node CREATED="1345617702131" ID="ID_346290171" MODIFIED="1345617711151" TEXT="SHA">
 <node CREATED="1345617712834" ID="ID_1577235951" MODIFIED="1345617813544" TEXT="40-digit ">
 <node CREATED="1345617814937" ID="ID_1112518180" MODIFIED="1345617822509" TEXT="reference">
@@ -57,31 +57,31 @@
 </node>
 <node CREATED="1345619654489" ID="ID_1586789199" MODIFIED="1345619661564" TEXT="the work directory"/>
 </node>
-<node CREATED="1345621357140" FOLDED="true" ID="ID_1952612481" MODIFIED="1365758950011" POSITION="right" TEXT="config">
+<node CREATED="1345621357140" ID="ID_1952612481" MODIFIED="1381245271066" POSITION="right" TEXT="config">
 <node CREATED="1345621360475" ID="ID_1461187704" MODIFIED="1365435984638" TEXT="global  ~/.gitconfig">
 <node CREATED="1345621449573" ID="ID_723586524" MODIFIED="1345639718863">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ git config <b>--global&#160;</b>&#160;user.name &quot;satanson&quot;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      $ git config <b>--global&#xa0;</b>&#xa0;user.name "satanson"&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
 <node CREATED="1345621484159" ID="ID_1101664132" MODIFIED="1345639718869">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ git config <b>--global </b>user.email &quot;ranpanf@foxmail.com&quot;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      $ git config <b>--global </b>user.email "ranpanf@foxmail.com"&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
@@ -100,92 +100,92 @@
 </node>
 </node>
 </node>
-<node CREATED="1345621759433" ID="ID_1242374315" MODIFIED="1377139578824" POSITION="right" TEXT="basic usage">
+<node CREATED="1345621759433" FOLDED="true" ID="ID_1242374315" MODIFIED="1381245134511" POSITION="right" TEXT="basic usage">
 <node CREATED="1345621802323" ID="ID_1801559050" MODIFIED="1365752106358">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      create repos[itory] (<font color="#ff0033">two mothed</font>)
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      create repos[itory] (<font color="#ff0033">two mothed</font>)&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1345621865360" ID="ID_1589951632" MODIFIED="1345622014830">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>clone</b>&#160;a existing one
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <b>clone</b>&#xa0;a existing one&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1345622094544" ID="ID_1078819603" MODIFIED="1345639718875">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <i>$ <b>git clone</b>&#160;<b>git:</b>//git.kernel.org/pub/scm/git/git.git</i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <i>$ <b>git clone</b>&#xa0;<b>git:</b>//git.kernel.org/pub/scm/git/git.git</i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345622171507" ID="ID_1237166250" MODIFIED="1365752086138">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <i>$ <b>git clone git@</b>github.com:satanson/rtdb.git</i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <i>$ <b>git clone git@</b>github.com:satanson/rtdb.git</i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345622158865" ID="ID_1032036427" MODIFIED="1345639718886">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <i>$ <b>git clone http</b>://www.kernel.org/pub/scm/git/git.git&#160;&#160;</i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <i>$ <b>git clone http</b>://www.kernel.org/pub/scm/git/git.git&#xa0;&#xa0;</i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345621870347" ID="ID_686856337" MODIFIED="1345622030431">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>init </b>a new one
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <b>init </b>a new one&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1345623839219" ID="ID_1253733907" MODIFIED="1345639718894">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <i>$ cd&#160;&#160;projdir </i>
-    </p>
-    <p>
-      <i>$ <b>git init</b></i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <i>$ cd&#xa0;&#xa0;projdir </i>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>$ <b>git init</b></i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -210,30 +210,30 @@
 <node CREATED="1345625983905" ID="ID_1844812126" MODIFIED="1345639718898" TEXT="$ git diff -cached">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345625925541" ID="ID_647826284" MODIFIED="1365755645620">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      see what is about to be committed
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      see what is about to be committed&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345626036153" ID="ID_851422303" MODIFIED="1365752145465" TEXT="$ git diff">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345626046082" ID="ID_1148693767" MODIFIED="1345626097426">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      show you any changes that you've made but <b>not</b>&#160;yet added to the index
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      show you any changes that you've made but <b>not</b>&#xa0;yet added to the index&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -253,15 +253,15 @@
 </node>
 <node CREATED="1345626756196" ID="ID_786430106" MODIFIED="1345626756866" TEXT="-a">
 <node CREATED="1345626829600" ID="ID_655805181" MODIFIED="1345627746955">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      automatically notice any modified (but <b>not new</b>) files, add them to the index, and commit, <b>all in one step(add &amp; commit)</b>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      automatically notice any modified (but <b>not new</b>) files, add them to the index, and commit, <b>all in one step(add &amp; commit)</b>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -288,15 +288,15 @@
 <node CREATED="1345630598036" ID="ID_1516088758" MODIFIED="1345630751946" TEXT="list branchs">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345630669493" ID="ID_784070773" MODIFIED="1345630681857">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>asterisk marks</b>&#160;the branch you are currently on
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <b>asterisk marks</b>&#xa0;the branch you are currently on&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345630779474" ID="ID_1573499836" MODIFIED="1345630786336" TEXT="default branch is master"/>
@@ -317,13 +317,13 @@
 <node CREATED="1345631947797" ID="ID_1111019972" MODIFIED="1345639718903" TEXT="$ git branch -D br1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345632001151" ID="ID_1544763210" MODIFIED="1365755448083">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    Delete a branch irrespective of its merged status.
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    Delete a branch irrespective of its merged status.&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -332,18 +332,18 @@
 <node CREATED="1345631316815" FOLDED="true" ID="ID_598548734" MODIFIED="1370238067043" TEXT="merge">
 <node CREATED="1345632408539" ID="ID_1067369693" MODIFIED="1345632413591" TEXT="merge">
 <node CREATED="1345631320325" FOLDED="true" ID="ID_372803641" MODIFIED="1365758945758">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      (...master)
-    </p>
-    <p>
-      <i>$ git merge branch1</i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      (...master)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>$ git merge branch1</i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1345631406358" ID="ID_1380592839" MODIFIED="1345631415654" TEXT="merge the changes made in branch1 into master"/>
 </node>
@@ -450,21 +450,21 @@
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345637386405" ID="ID_300175619" MODIFIED="1345638343176" TEXT="equivalent to">
 <node CREATED="1345637452309" ID="ID_1753041954" MODIFIED="1345639718919">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <i>$ git remote add myrepos&#160;&#160;/home/bob/myrepos </i>
-    </p>
-    <p>
-      <i>$ git <b>fetch</b>&#160;bob </i>
-    </p>
-    <p>
-      <i>$ git <b>merge</b>&#160;bob/master</i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <i>$ git remote add myrepos&#xa0;&#xa0;/home/bob/myrepos </i>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>$ git <b>fetch</b>&#xa0;bob </i>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>$ git <b>merge</b>&#xa0;bob/master</i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -490,72 +490,72 @@
 <node CREATED="1345639742338" ID="ID_766141459" MODIFIED="1365752275549" TEXT="$ git push ssh://example.com/project.git test">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345639764485" ID="ID_325228698" MODIFIED="1345639771218">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    When remote and local branch are both named &quot;test&quot;.
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    When remote and local branch are both named "test".&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345639926971" FOLDED="true" ID="ID_1649248283" MODIFIED="1365752286572" TEXT="$ git push public-repo master">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345639944571" ID="ID_263258793" MODIFIED="1345639970280">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <i>$ cat &gt;&gt;.git/config &lt;&lt;EOF </i>
-    </p>
-    <p>
-      <i>[<b>remote </b>&quot;public-repo&quot;] </i>
-    </p>
-    <p>
-      <i>url = ssh://yourserver.com/~you/proj.git </i>
-    </p>
-    <p>
-      <i>EOF</i>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <i>$ cat &gt;&gt;.git/config &lt;&lt;EOF </i>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>[<b>remote </b>"public-repo"] </i>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>url = ssh://yourserver.com/~you/proj.git </i>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <i>EOF</i>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345640276073" ID="ID_490700300" MODIFIED="1345640300897">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ git push ssh://yourserver.com/~you/proj.git <b>+</b>master
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      $ git push ssh://yourserver.com/~you/proj.git <b>+</b>master&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345640412208" ID="ID_1966480002" MODIFIED="1345640416164" TEXT="force git-push to perform the update anyway by preceding the branch name with a plus sign"/>
 <node CREATED="1345640327733" ID="ID_1386843704" MODIFIED="1346521035697">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#ff0000">error: remote 'refs/heads/master' is not an ancestor of </font>
-    </p>
-    <p>
-      <font color="#ff0000">local&#160;&#160;'refs/heads/master'. </font>
-    </p>
-    <p>
-      <font color="#ff0000">Maybe you are not up-to-date and need to pull first? </font>
-    </p>
-    <p>
-      <font color="#ff0000">error: failed to push to 'ssh://yourserver.com/~you/proj.git'</font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <font color="#ff0000">error: remote 'refs/heads/master' is not an ancestor of </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font color="#ff0000">local&#xa0;&#xa0;'refs/heads/master'. </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font color="#ff0000">Maybe you are not up-to-date and need to pull first? </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font color="#ff0000">error: failed to push to 'ssh://yourserver.com/~you/proj.git'</font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1345640364680" ID="ID_1813596709" MODIFIED="1345640364680" TEXT="- use `git-reset --hard` to remove already-published commits, or"/>
 <node CREATED="1345640373049" ID="ID_572212057" MODIFIED="1345640373049" TEXT="- use `git-commit --amend` to replace already-published commits"/>
@@ -582,21 +582,21 @@
 <icon BUILTIN="full-5"/>
 </node>
 <node CREATED="1365759101824" ID="ID_1035092467" MODIFIED="1365759556414">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ sudo cp -R /usr/share/doc/git/contrib/git-shell-commands /home/somebody/
-    </p>
-    <p>
-      $ sudo chown -R user:user /home/somebody/git-shell-commnads
-    </p>
-    <p>
-      $ sudo chmod -R u+x /home/somebody/git-shell-commands
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      $ sudo cp -R /usr/share/doc/git/contrib/git-shell-commands /home/somebody/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      $ sudo chown -R user:user /home/somebody/git-shell-commnads&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      $ sudo chmod -R u+x /home/somebody/git-shell-commands&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-6"/>
 </node>

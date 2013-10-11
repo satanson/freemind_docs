@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1338637055049" ID="ID_143495120" MODIFIED="1371282446005" TEXT="APUE">
 <node CREATED="1338637081000" FOLDED="true" ID="ID_640748604" MODIFIED="1375431975460" POSITION="right" TEXT="unbuffered IO (POSIX)">
@@ -348,15 +348,15 @@
 <node CREATED="1338817525502" FOLDED="true" ID="ID_1756453454" MODIFIED="1338818545506" TEXT="int getchar(void);">
 <node CREATED="1338818469826" ID="ID_133139280" MODIFIED="1338818486372" TEXT="getc(stdin);"/>
 <node COLOR="#ff0000" CREATED="1338818120788" ID="ID_392087104" MODIFIED="1338818309530">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      All three return:next character if OK, EOF on end of file or error&#160;&#160;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      All three return:next character if OK, EOF on end of file or error&#xa0;&#xa0;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1338818230649" ID="ID_260039046" MODIFIED="1338818230649" TEXT="#include &lt;stdio.h&gt;"/>
@@ -489,7 +489,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1341233738980" FOLDED="true" ID="ID_1592264497" MODIFIED="1366266670602" POSITION="right" TEXT="Advanced  IO">
+<node CREATED="1341233738980" FOLDED="true" ID="ID_1592264497" MODIFIED="1381482511587" POSITION="right" TEXT="Advanced  IO">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1363183972035" ID="ID_1877880927" MODIFIED="1363183978609" TEXT="IO mode">
 <node CREATED="1363184032875" FOLDED="true" ID="ID_1181800838" MODIFIED="1363184192659" TEXT="busy-wait">
@@ -507,7 +507,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node CREATED="1341237063338" ID="ID_1977167150" MODIFIED="1363192472122" TEXT="record locking">
+<node CREATED="1341237063338" FOLDED="true" ID="ID_1977167150" MODIFIED="1381478581369" TEXT="record locking">
 <node CREATED="1341238164101" ID="ID_226880162" MODIFIED="1357729409409" TEXT="fcntl">
 <node CREATED="1341237086018" ID="ID_478362268" MODIFIED="1341238197524" TEXT="#include&lt;sys/types.h&gt;"/>
 <node CREATED="1341237113328" ID="ID_976998802" MODIFIED="1341238197514" TEXT="#include&lt;unistd.h&gt;"/>
@@ -532,33 +532,33 @@
 </node>
 <node CREATED="1341237208558" ID="ID_1881895460" MODIFIED="1357729448819" TEXT="flockptr">
 <node CREATED="1341237216108" ID="ID_1888920116" MODIFIED="1363192749006">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct flock {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;short l_type; /* F_RDLCK, F_WRLCK, or F_UNLCK */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;off_t l_start; /* offset in bytes, relative to 1_whence */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;short l_whence; /* SEEK_SET, SEEK_CUR, or SEEK_END */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;off_t l_len; /* length, in bytes; 0 means lock to EOF */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;pid_t l_pid; /* returned with F_GETLK */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct flock {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;short l_type; /* F_RDLCK, F_WRLCK, or F_UNLCK */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;off_t l_start; /* offset in bytes, relative to 1_whence */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;short l_whence; /* SEEK_SET, SEEK_CUR, or SEEK_END&#127; */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;off_t l_len; /* length, in bytes; 0 means lock to EOF */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;pid_t l_pid; /* returned with F_GETLK */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -571,7 +571,7 @@
 </node>
 <node CREATED="1363184228958" FOLDED="true" ID="ID_914696221" MODIFIED="1363192768864" TEXT="IO multiplexing">
 <node CREATED="1363184240446" ID="ID_1819502289" MODIFIED="1363184243574" TEXT="select">
-<node CREATED="1363184267740" ID="ID_1042354335" MODIFIED="1363184366376" TEXT="#include &lt;sys/types.h&gt; /* fd_set data type */ &#xa;#include &lt;sys/time.h&gt; /* struct timeval */ &#xa;#include &lt;unistd.h&gt;  /* function prototype might be here */ &#xa;&#x1f;int select(int maxfdpl, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *tvptr); &#xa;&#x1f;Returns: count of ready descriptors, 0 on timeout, -1 on error &#xa;">
+<node CREATED="1363184267740" ID="ID_1042354335" MODIFIED="1363184366376" TEXT="#include &lt;sys/types.h&gt; /* fd_set data type */ &#xa;#include &lt;sys/time.h&gt; /* struct timeval */ &#xa;#include &lt;unistd.h&gt;  /* function prototype might be here */ &#xa;int select(int maxfdpl, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *tvptr); &#xa;Returns: count of ready descriptors, 0 on timeout, -1 on error &#xa;">
 <node CREATED="1363184303749" ID="ID_1724210638" MODIFIED="1363184376229" TEXT="tvptr">
 <node CREATED="1363184377403" ID="ID_1434006835" MODIFIED="1363184393471" TEXT="tvptr==NULL">
 <node CREATED="1363184394903" ID="ID_912774625" MODIFIED="1363184415452" TEXT="Wait forever. "/>
@@ -607,7 +607,7 @@
 </node>
 </node>
 <node CREATED="1363185505791" FOLDED="true" ID="ID_1296494721" MODIFIED="1363185733450" TEXT="maxfdpl">
-<node CREATED="1363185518399" ID="ID_848095732" MODIFIED="1363185539577" TEXT="The first argument to select, maxfdpl, stands for &quot;&apos;max fd plus I.&quot; We calculate  the highest descriptor that we&apos;re interested in, in any of the three descriptor sets, add 1,  and that&apos;s the first argument. We could just set the first argument to FD_SETSIZE, a  constant in &lt;sys/types. h&gt; that specifies the maximum number of descriptors (often  I/O Multiplexing 399  &#x1f;256 or 1024), but this value is too large for most applications. Indeed, most applications  probably use between 3 and 10 descriptors. (There are applications that need many  more descriptors, but these aren&apos;t the typical Unix program.) By specifying the highest  descriptor that we&apos;re interested in, the kernel can avoid going through hundreds of  unused bits in the three descriptor sets, looking for bits that are turned on.  "/>
+<node CREATED="1363185518399" ID="ID_848095732" MODIFIED="1363185539577" TEXT="The first argument to select, maxfdpl, stands for &quot;&apos;max fd plus I.&quot; We calculate  the highest descriptor that we&apos;re interested in, in any of the three descriptor sets, add 1,  and that&apos;s the first argument. We could just set the first argument to FD_SETSIZE, a  constant in &lt;sys/types. h&gt; that specifies the maximum number of descriptors (often  I/O Multiplexing 399  256 or 1024), but this value is too large for most applications. Indeed, most applications  probably use between 3 and 10 descriptors. (There are applications that need many  more descriptors, but these aren&apos;t the typical Unix program.) By specifying the highest  descriptor that we&apos;re interested in, the kernel can avoid going through hundreds of  unused bits in the three descriptor sets, looking for bits that are turned on.  "/>
 <node CREATED="1363185583548" ID="ID_1171404557" MODIFIED="1363185584737" TEXT="The reason we have to add 1 to the maximum descriptor number is because descriptors  start at 0, and the first argument is really a count of the number of descriptors to check  (starting with descriptor 0).  "/>
 </node>
 <node CREATED="1363185734457" ID="ID_848915727" MODIFIED="1363185735659" TEXT="&quot;ready&quot; means. ">
@@ -622,51 +622,51 @@
 </node>
 </node>
 <node CREATED="1363189830636" ID="ID_889823763" MODIFIED="1363189935881">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #include &lt;fcntl.h&gt;
-    </p>
-    <p>
-      #include &quot;ourhdr.h&quot;
-    </p>
-    <p>
-      void set_fl(int fd, int flags)
-    </p>
-    <p>
-      {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;int val;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;/* flags are file status flags to turn on */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if ( (val = fcntl(fd, F_GETFL, 0)) &lt; 0)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;err_sys(&quot;fcntl F_GETFL error&quot;);
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;val I= flags; /* turn on flags */&#160;&#160;&#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if (fcntl(fd, F_SETFL, val) &lt; 0)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;err_sys(&quot;fcntl F_SETFL error&quot;);
-    </p>
-    <p>
-      }
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      #include &lt;fcntl.h&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      #include "ourhdr.h"&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      void set_fl(int fd, int flags)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;int val;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;/* flags are file status flags to turn on */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;if ( (val = fcntl(fd, F_GETFL, 0)) &lt; 0)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;err_sys("fcntl F_GETFL error");&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;val I= flags; /* turn on flags */&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;if (fcntl(fd, F_SETFL, val) &lt; 0)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;err_sys("fcntl F_SETFL error");&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
-<node CREATED="1341283732120" FOLDED="true" ID="ID_1335444766" MODIFIED="1363164550858" TEXT="memory mapped  IO">
+<node CREATED="1341283732120" FOLDED="true" ID="ID_1335444766" MODIFIED="1381482509777" TEXT="memory mapped  IO">
 <node CREATED="1341283750539" ID="ID_731699793" MODIFIED="1341886071068" TEXT="mmap">
 <node CREATED="1341283908429" ID="ID_190168221" MODIFIED="1341283930412" TEXT="#include&lt;sys/types.h&gt;"/>
 <node CREATED="1341283930823" ID="ID_879360502" MODIFIED="1341283955629" TEXT="#include&lt;sys/mman.h&gt;"/>
@@ -950,57 +950,57 @@
 </node>
 </node>
 <node CREATED="1338647877239" ID="ID_1730061970" MODIFIED="1375432000903">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct stat {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dev_t&#160;&#160;&#160;&#160;&#160;st_dev;&#160;&#160;&#160;&#160;&#160;/* ID of device containing file */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ino_t&#160;&#160;&#160;&#160;&#160;st_ino;&#160;&#160;&#160;&#160;&#160;/* inode number */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mode_t&#160;&#160;&#160;&#160;st_mode;&#160;&#160;&#160;&#160;/* file type &amp; permission&#160; */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nlink_t&#160;&#160;&#160;st_nlink;&#160;&#160;&#160;/* number of hard links */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uid_t&#160;&#160;&#160;&#160;&#160;st_uid;&#160;&#160;&#160;&#160;&#160;/* user ID of owner */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gid_t&#160;&#160;&#160;&#160;&#160;st_gid;&#160;&#160;&#160;&#160;&#160;/* group ID of owner */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dev_t&#160;&#160;&#160;&#160;&#160;st_rdev;&#160;&#160;&#160;&#160;/* device ID (if special file) */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;off_t&#160;&#160;&#160;&#160;&#160;st_size;&#160;&#160;&#160;&#160;/* total size, in bytes */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;blksize_t st_blksize; /* blocksize for filesystem I/O */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;blkcnt_t&#160;&#160;st_blocks;&#160;&#160;/* number of blocks allocated */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;time_t&#160;&#160;&#160;&#160;st_atime;&#160;&#160;&#160;/* time of last access */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;time_t&#160;&#160;&#160;&#160;st_mtime;&#160;&#160;&#160;/* time of last modification */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;time_t&#160;&#160;&#160;&#160;st_ctime;&#160;&#160;&#160;/* time of last status change */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct stat {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;dev_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;st_dev;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* ID of device containing file */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ino_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;st_ino;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* inode number */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;mode_t&#xa0;&#xa0;&#xa0;&#xa0;st_mode;&#xa0;&#xa0;&#xa0;&#xa0;/* file type &amp; permission&#xa0; */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;nlink_t&#xa0;&#xa0;&#xa0;st_nlink;&#xa0;&#xa0;&#xa0;/* number of hard links */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uid_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;st_uid;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* user ID of owner */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gid_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;st_gid;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* group ID of owner */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;dev_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;st_rdev;&#xa0;&#xa0;&#xa0;&#xa0;/* device ID (if special file) */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;off_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;st_size;&#xa0;&#xa0;&#xa0;&#xa0;/* total size, in bytes */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;blksize_t st_blksize; /* blocksize for filesystem I/O */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;blkcnt_t&#xa0;&#xa0;st_blocks;&#xa0;&#xa0;/* number of blocks allocated */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;&#xa0;&#xa0;st_atime;&#xa0;&#xa0;&#xa0;/* time of last access */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;&#xa0;&#xa0;st_mtime;&#xa0;&#xa0;&#xa0;/* time of last modification */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;&#xa0;&#xa0;st_ctime;&#xa0;&#xa0;&#xa0;/* time of last status change */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1338648004379" FOLDED="true" ID="ID_572783318" MODIFIED="1374566361065" TEXT="file type (st_mode &amp;S_IFMT)">
 <node CREATED="1338648072309" ID="ID_1451777000" MODIFIED="1338648074186" TEXT="-">
@@ -1261,36 +1261,36 @@
 <node CREATED="1338792463758" ID="ID_993653674" MODIFIED="1338792463758" TEXT="int closedir(DIR *dp);"/>
 <node CREATED="1338792511375" FOLDED="true" ID="ID_281165882" MODIFIED="1338793694846" TEXT="struct dirent">
 <node CREATED="1338793619621" ID="ID_1541925083" MODIFIED="1338793686250">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct dirent {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ino_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;d_ino;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* inode number */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;off_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;d_off;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* offset to the next dirent */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned short d_reclen;&#160;&#160;&#160;&#160;/* length of this record */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned char&#160;&#160;d_type;&#160;&#160;&#160;&#160;&#160;&#160;/* type of file; not supported
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;by all file system types */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;char&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;d_name[256]; /* filename */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct dirent {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ino_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;d_ino;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* inode number */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;off_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;d_off;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* offset to the next dirent */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned short d_reclen;&#xa0;&#xa0;&#xa0;&#xa0;/* length of this record */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned char&#xa0;&#xa0;d_type;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* type of file; not supported&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;by all file system types */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;char&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;d_name[256]; /* filename */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1318,24 +1318,24 @@
 <node CREATED="1338789513309" ID="ID_1838979800" MODIFIED="1338789513309" TEXT="int utime(const char *pathname, const struct utimbuf *times);">
 <node CREATED="1338789933394" ID="ID_1743494061" MODIFIED="1338789945236" TEXT="struct utimbuf">
 <node CREATED="1338789965709" ID="ID_937044291" MODIFIED="1338789976896">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct utimbuf {
-    </p>
-    <p>
-      time t actime; /* access time */
-    </p>
-    <p>
-      time t modtime; /* modification time */
-    </p>
-    <p>
-      }
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct utimbuf {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      time t actime; /* access time */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      time t modtime; /* modification time */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1456,24 +1456,24 @@
 <node CREATED="1338993418259" ID="ID_1469654502" MODIFIED="1339316570330" TEXT="int setrlimit(int resource,const struct rlimit *rlptr); ">
 <node CREATED="1338993418262" ID="ID_984862067" MODIFIED="1338993477386" TEXT="both return: 0 if OK, nonzero on error"/>
 <node CREATED="1338993510640" ID="ID_924224849" MODIFIED="1338993553412">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct rlimit {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;rlim_t rlim_cur; /* soft limit: current limit */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;rlim_t rlim_max; /* hard limit: maximum value for rlim cur */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct rlimit {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;rlim_t rlim_cur; /* soft limit: current limit */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;rlim_t rlim_max; /* hard limit: maximum value for rlim cur */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1338994100711" ID="ID_418386087" MODIFIED="1338994107730" TEXT="RLIM_INFINITY"/>
 </node>
@@ -1568,21 +1568,21 @@
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1339175349804" ID="ID_779778999" MODIFIED="1339175432599">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      The effective user ID is set by the exec functions, only if the set-user-ID bit is
-    </p>
-    <p>
-      set for the program file. If the set-user-ID bit is not set, the exec functions leave
-    </p>
-    <p>
-      the effective user ID as ifs current value. We can call setuid after at any&#160;&#160;time to set the effective user ID to either the real user ID or the saved set-user-ID Naturally we can't set the effective user ID to any random value.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      The effective user ID is set by the exec functions, only if the set-user-ID bit is&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      set for the program file. If the set-user-ID bit is not set, the exec functions leave&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      the effective user ID as ifs current value. We can call setuid after at any&#xa0;&#xa0;time to set the effective user ID to either the real user ID or the saved set-user-ID Naturally we can't set the effective user ID to any random value.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
@@ -1854,107 +1854,107 @@
 <node CREATED="1339222902674" ID="ID_1636149215" MODIFIED="1339222936138" TEXT="struct acct">
 <node CREATED="1339222931662" ID="ID_1202885147" MODIFIED="1339224393580" TEXT="definition">
 <node CREATED="1339222801493" ID="ID_1887087815" MODIFIED="1339224706767">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      typedef u_int16_t comp_t;/* 3-bit base 8 exponent; 13-bit fraction */
-    </p>
-    <p>
-      struct acct
-    </p>
-    <p>
-      &#160;&#160;{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;char ac_flag;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting flags.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;u_int16_t ac_uid;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting user ID.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;u_int16_t ac_gid;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting group ID.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;u_int16_t ac_tty;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Controlling tty.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;u_int32_t ac_btime;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Beginning time.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_utime;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting user time.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_stime;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting system time.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_etime;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting elapsed time.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_mem;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting average memory usage.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_io;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting chars transferred. &#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_rw;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting blocks read or written.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_minflt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting minor pagefaults.&#160; */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_majflt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting major pagefaults.&#160; */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;comp_t ac_swaps;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting number of swaps.&#160; */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;u_int32_t ac_exitcode;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting process exitcode.&#160; */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;char ac_comm[ACCT_COMM+1];&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting command name.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;char ac_pad[10];&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Accounting padding bytes.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;};
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      typedef u_int16_t comp_t;/* 3-bit base 8 exponent; 13-bit fraction */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      struct acct&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;{&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;char ac_flag;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting flags.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;u_int16_t ac_uid;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting user ID.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;u_int16_t ac_gid;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting group ID.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;u_int16_t ac_tty;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Controlling tty.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;u_int32_t ac_btime;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Beginning time.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_utime;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting user time.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_stime;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting system time.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_etime;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting elapsed time.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_mem;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting average memory usage.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_io;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting chars transferred. &#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_rw;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting blocks read or written.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_minflt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting minor pagefaults.&#xa0; */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_majflt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting major pagefaults.&#xa0; */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;comp_t ac_swaps;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting number of swaps.&#xa0; */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;u_int32_t ac_exitcode;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting process exitcode.&#xa0; */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;char ac_comm[ACCT_COMM+1];&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting command name.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;char ac_pad[10];&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Accounting padding bytes.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;};&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1339222972499" FOLDED="true" ID="ID_565961315" MODIFIED="1339223088586" TEXT="ac_flag">
 <node CREATED="1339223028125" ID="ID_327803068" MODIFIED="1339223036043">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      enum
-    </p>
-    <p>
-      &#160;&#160;{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;AFORK = 0x01,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Has executed fork, but no exec.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;ASU = 0x02,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Used super-user privileges.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;ACORE = 0x08,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Dumped core.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;AXSIG = 0x10&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Killed by a signal.&#160;&#160;*/
-    </p>
-    <p>
-      &#160;&#160;};
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      enum&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;{&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;AFORK = 0x01,&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Has executed fork, but no exec.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;ASU = 0x02,&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Used super-user privileges.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;ACORE = 0x08,&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Dumped core.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;AXSIG = 0x10&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Killed by a signal.&#xa0;&#xa0;*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;};&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1999,30 +1999,30 @@
 <node CREATED="1339227836853" ID="ID_489224828" MODIFIED="1371275498034" TEXT="Returns: elapsed wall clock time in dock ticks if OK, -1 on error"/>
 <node CREATED="1339227189749" ID="ID_12176303" MODIFIED="1371275402411" TEXT="struct tms">
 <node CREATED="1339227918503" ID="ID_1585179297" MODIFIED="1339227937827">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct tms {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clock_t tms_utime;&#160;&#160;/* user time */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clock_t tms_stime;&#160;&#160;/* system time */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clock_t tms_cutime; /* user time of children */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clock_t tms_cstime; /* system time of children */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;};
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct tms {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_utime;&#xa0;&#xa0;/* user time */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_stime;&#xa0;&#xa0;/* system time */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_cutime; /* user time of children */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_cstime; /* system time of children */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2229,42 +2229,42 @@
 </node>
 <node CREATED="1339241169318" ID="ID_1290719909" MODIFIED="1339241169318" TEXT="int setpgid(pid_t pid, pid_t pgid);">
 <node CREATED="1339241368282" ID="ID_1833590005" MODIFIED="1339241407434">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      A process can set the process group ID of only itself or one of its children.
-    </p>
-    <p>
-      Furthermore, it can't change the process group ID of one of its children
-    </p>
-    <p>
-      after that child has&#160; called one of the exec functions.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      A process can set the process group ID of only itself or one of its children.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Furthermore, it can't change the process group ID of one of its children&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      after that child has&#xa0; called one of the exec functions.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1339241582864" ID="ID_674082371" MODIFIED="1339241731078">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      In most job-control shells this function is called after a fork fo have the parent
-    </p>
-    <p>
-      set the process group ID of the child, and to have the child set its own process
-    </p>
-    <p>
-      group ID. One of these calls is redundant, but by doing both we are
-    </p>
-    <p>
-      guaranteed that the child is placed into its own process group before either process assumes that is has happened. If we didn't do this we have a race condition, since it depends on which process executes first.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      In most job-control shells this function is called after a fork fo have the parent&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      set the process group ID of the child, and to have the child set its own process&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      group ID. One of these calls is redundant, but by doing both we are&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      guaranteed that the child is placed into its own process group before either process assumes that is has happened. If we didn't do this we have a race condition, since it depends on which process executes first.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2341,7 +2341,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339310541091" FOLDED="true" ID="ID_1385180175" MODIFIED="1374565349464" POSITION="right" TEXT="signal">
+<node CREATED="1339310541091" ID="ID_1385180175" MODIFIED="1381482516609" POSITION="right" TEXT="signal">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1339311014169" ID="ID_1345831434" MODIFIED="1339311026760" TEXT="signal concept">
 <node CREATED="1339311028388" ID="ID_1342774908" MODIFIED="1339311065627" TEXT="signal name">
@@ -2363,10 +2363,10 @@
 <node CREATED="1339314031903" ID="ID_400575991" MODIFIED="1339427724335" TEXT="software condition"/>
 <node CREATED="1339313998667" ID="ID_1579616075" MODIFIED="1339314076217" TEXT="kill function &amp; command"/>
 </node>
-<node CREATED="1339314582156" ID="ID_563473174" MODIFIED="1339314588835" TEXT="handle signal">
-<node CREATED="1339314590900" ID="ID_1838530542" MODIFIED="1366129723553" TEXT="ignore">
-<node CREATED="1339314618052" ID="ID_867197543" MODIFIED="1339316340962" TEXT="SIGSTOP and SIGKILL can never be ignored"/>
-<node CREATED="1339314717385" ID="ID_1736488142" MODIFIED="1339314831205" TEXT="signals generated by hardware exception are not supposed to be ignored "/>
+<node CREATED="1339314582156" FOLDED="true" ID="ID_563473174" MODIFIED="1381482568380" TEXT="handle signal">
+<node CREATED="1339314590900" ID="ID_1838530542" MODIFIED="1381482545632" TEXT="ignore">
+<node CREATED="1339314618052" ID="ID_867197543" MODIFIED="1381482550959" TEXT="SIGSTOP and SIGKILL can never be ignored "/>
+<node CREATED="1339314717385" ID="ID_1736488142" MODIFIED="1381482561201" TEXT="signals generated by hardware exception are not supposed to be ignored  "/>
 </node>
 <node CREATED="1339314598053" ID="ID_725420471" MODIFIED="1339314893543" TEXT="user-defined signal handlers">
 <node CREATED="1339314870850" ID="ID_968234939" MODIFIED="1339314910828" TEXT="handlers are executed in user mode "/>
@@ -2457,7 +2457,7 @@
 <node CREATED="1339421950366" ID="ID_113807667" MODIFIED="1339422002647" TEXT="uninterruptible system call">
 <node CREATED="1339422026114" ID="ID_1585665057" MODIFIED="1339422045884" TEXT="atomic operation/primitive"/>
 </node>
-<node CREATED="1339421990488" FOLDED="true" ID="ID_118537351" MODIFIED="1363224182767" TEXT="interruptible system call">
+<node CREATED="1339421990488" ID="ID_118537351" MODIFIED="1381482584921" TEXT="interruptible system call">
 <node CREATED="1339422059276" ID="ID_1283937267" MODIFIED="1339422480665" TEXT="non-restarted ">
 <node CREATED="1339422461696" ID="ID_1353342940" MODIFIED="1339422477558" TEXT="return error and set errno to EINTR"/>
 </node>
@@ -2472,8 +2472,8 @@
 </node>
 </node>
 <node CREATED="1339418540586" ID="ID_303802728" MODIFIED="1366129732631" TEXT="manipulate signal">
-<node CREATED="1339512363209" ID="ID_1186971720" MODIFIED="1363412791584" TEXT="send signal">
-<node CREATED="1339511296268" ID="ID_908651015" MODIFIED="1339511305273" TEXT="int kill(&#x7f;pid_t pid, int signo);">
+<node CREATED="1339512363209" FOLDED="true" ID="ID_1186971720" MODIFIED="1381482637339" TEXT="send signal">
+<node CREATED="1339511296268" ID="ID_908651015" MODIFIED="1381482631199" TEXT="int kill(pid_t pid, int signo);">
 <node CREATED="1339511334380" ID="ID_517841994" MODIFIED="1363223802795" TEXT="pid">
 <node CREATED="1339511337901" ID="ID_1737066738" MODIFIED="1339511966582" TEXT="&gt;0  (unicast)">
 <node CREATED="1339511350007" ID="ID_1390270522" MODIFIED="1339511412940" TEXT="sent to process whose PID equals pid"/>
@@ -2483,41 +2483,41 @@
 </node>
 <node CREATED="1339511545329" ID="ID_870226609" MODIFIED="1339511952538" TEXT="==-1 (broadcast)">
 <node CREATED="1339512121904" ID="ID_1615689516" MODIFIED="1339512220087">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      SVR4 and 4.3+BSD use this for what they call broadcast signais. These broadcast signals are never sent to the set of system processes described previously.4.3+BSD also never sends a broadcast signal to the process sending the signal. If the caller is the superuser, the signal is sent to ail processes. If the caller is not the superuser, the signal is sent to ail processes whose real user ID or saved set-user-ID equals the real user ID or effective user ID of the caller. These broadcast signais should be
-    </p>
-    <p>
-      used only for administrative purposes (such as a superuser process that is about to shut down the system).
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      SVR4 and 4.3+BSD use this for what they call broadcast signais. These broadcast signals are never sent to the set of system processes described previously.4.3+BSD also never sends a broadcast signal to the process sending the signal. If the caller is the superuser, the signal is sent to ail processes. If the caller is not the superuser, the signal is sent to ail processes whose real user ID or saved set-user-ID equals the real user ID or effective user ID of the caller. These broadcast signais should be&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      used only for administrative purposes (such as a superuser process that is about to shut down the system).&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1339511645899" ID="ID_670572792" MODIFIED="1339512250900" TEXT="&lt;-1 (groupcast)">
 <node CREATED="1339512255803" ID="ID_1688038853" MODIFIED="1339512324879">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      The signal is sent to ail processes whose process group ID equals the
-    </p>
-    <p>
-      absolute value of pid and for which the sender has permission to send the
-    </p>
-    <p>
-      signal. Again, the set of &quot;all processes&quot; excludes certain system processes, as
-    </p>
-    <p>
-      described earlier.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      The signal is sent to ail processes whose process group ID equals the&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      absolute value of pid and for which the sender has permission to send the&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      signal. Again, the set of "all processes" excludes certain system processes, as&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      described earlier.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2533,48 +2533,48 @@
 <node CREATED="1339512513033" FOLDED="true" ID="ID_915329557" MODIFIED="1363412868604" TEXT="unsigned int alarm(unsigned int seconds);">
 <node CREATED="1339512513033" ID="ID_433407181" MODIFIED="1339512519396" TEXT="#include &lt;unistd. h&gt;"/>
 <node CREATED="1339512575324" ID="ID_558717524" MODIFIED="1339512604309">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      The alarm function allows us to set a timer that will expire at a specified time
-    </p>
-    <p>
-      in the future. When the timer expires, the SIGALRM signal is generated. If we
-    </p>
-    <p>
-      ignore or don't catch this signal, its default action is to terminate the process.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      The alarm function allows us to set a timer that will expire at a specified time&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      in the future. When the timer expires, the SIGALRM signal is generated. If we&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ignore or don't catch this signal, its default action is to terminate the process.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1339512722594" ID="ID_1991352409" MODIFIED="1339512763725">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      There is only one of these alarm clocks per process. If, when we call alarm, there is a previously registered alarm dock for the process that has not yet expired, the number of seconds left for that alarm dock is returned as the value of this function. That previously registered alarm dock is replaced by the new value.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      There is only one of these alarm clocks per process. If, when we call alarm, there is a previously registered alarm dock for the process that has not yet expired, the number of seconds left for that alarm dock is returned as the value of this function. That previously registered alarm dock is replaced by the new value.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1339512887388" ID="ID_203512037" MODIFIED="1339512900148">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      If there is a previously registered alarm dock for the process that has not yet
-    </p>
-    <p>
-      expired and if the seconds value is 0, the previous alarm dock is cancelled. The number of seconds left for that previous alarm dock is still returned as the value of the function.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      If there is a previously registered alarm dock for the process that has not yet&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      expired and if the seconds value is 0, the previous alarm dock is cancelled. The number of seconds left for that previous alarm dock is still returned as the value of the function.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1339512513034" ID="ID_1480813764" MODIFIED="1339512513034" TEXT="Returns: 0 or number of seconds until previously set alarm"/>
@@ -2583,21 +2583,21 @@
 <node CREATED="1339513121816" ID="ID_1851929844" MODIFIED="1339513128614" TEXT="#include &lt;unistd.h&gt;"/>
 <node CREATED="1339513172409" ID="ID_470473852" MODIFIED="1339513175261" TEXT="The pause function suspends the calling process until a signal is caught."/>
 <node CREATED="1339513187945" ID="ID_442016560" MODIFIED="1339513195836">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      The only time pause returns is if a signal handler is executed and that handler returns. In that case, pause returns -1 with errno set to EINTR.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      The only time pause returns is if a signal handler is executed and that handler returns. In that case, pause returns -1 with errno set to EINTR.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1339513121818" ID="ID_69731884" MODIFIED="1339513121818" TEXT="Returns: -1 with errno set to EINTR"/>
 </node>
 </node>
-<node CREATED="1339679944156" FOLDED="true" ID="ID_1617527858" MODIFIED="1363227616506" TEXT="mask signal">
+<node CREATED="1339679944156" ID="ID_1617527858" MODIFIED="1381482640464" TEXT="mask signal">
 <node CREATED="1339682799080" ID="ID_1637014054" MODIFIED="1363226830303" TEXT="manipulate sigset_t">
 <node CREATED="1339682841172" ID="ID_1512659845" MODIFIED="1339682841172" TEXT="#include &lt;signal. h&gt;"/>
 <node CREATED="1339682841172" FOLDED="true" ID="ID_402042061" MODIFIED="1363224947326" TEXT="int sigemptyset (sigset_t *set) :">
@@ -2623,8 +2623,8 @@
 <node CREATED="1339682841178" ID="ID_17181270" MODIFIED="1339682841178" TEXT="Returns: 1 if true, 0 if false"/>
 </node>
 </node>
-<node CREATED="1363226820411" FOLDED="true" ID="ID_1875943844" MODIFIED="1363227250944" TEXT="unblock &amp; block signals">
-<node CREATED="1339682943811" FOLDED="true" ID="ID_1520795721" MODIFIED="1363227241669" TEXT="sigprocmask">
+<node CREATED="1363226820411" FOLDED="true" ID="ID_1875943844" MODIFIED="1381483209476" TEXT="unblock &amp; block signals">
+<node CREATED="1339682943811" ID="ID_1520795721" MODIFIED="1381483201216" TEXT="sigprocmask">
 <node CREATED="1339682964258" ID="ID_26647644" MODIFIED="1339682964258" TEXT="#include &lt;signal.h&gt;"/>
 <node CREATED="1339682964259" ID="ID_1850819709" MODIFIED="1339683010097" TEXT="int sigprocmask(int how,const sigset_t *set, sigset_t *oset); ">
 <node CREATED="1339683035360" ID="ID_922192156" MODIFIED="1339683040050" TEXT="how">
@@ -2644,30 +2644,30 @@
 <node CREATED="1363225237266" ID="ID_818674739" MODIFIED="1363225239558" TEXT="set">
 <node CREATED="1363225240596" ID="ID_19974592" MODIFIED="1363225241658" TEXT="if set is a nonnull pointer, then the how argument indicates how the current  signal mask is modified. "/>
 <node CREATED="1363225256896" ID="ID_767044739" MODIFIED="1363225257888" TEXT="If set is a null pointer, the signal mask of the process is not changed, and the value of  how is not significant.  "/>
-<node CREATED="1363225329806" ID="ID_168661165" MODIFIED="1363225330918" TEXT="If there are any pending, unblocked signals after the call to sigprocmask, at least  one of these signals is delivered to the process before s igprocmask returns.  "/>
+<node CREATED="1363225329806" ID="ID_168661165" MODIFIED="1381482793972" TEXT="If there are any pending, unblocked signals after the call to sigprocmask, at least  one of these signals is delivered to the process before sigprocmask returns.  "/>
 </node>
 </node>
 <node CREATED="1339682964261" ID="ID_164619125" MODIFIED="1339683032944" TEXT="Returns:0 if OK,-1 on error"/>
 </node>
 </node>
 </node>
-<node CREATED="1339683354714" FOLDED="true" ID="ID_1831061575" MODIFIED="1363227615446" TEXT="check if the signal is pending and unblock the signal">
+<node CREATED="1339683354714" ID="ID_1831061575" MODIFIED="1381483213916" TEXT="check if the signal is pending ">
 <node CREATED="1363226726703" FOLDED="true" ID="ID_1126625448" MODIFIED="1363227612232">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #include &lt;signal.h&gt;
-    </p>
-    <p>
-      int sigpending(sigset_t *set) ;
-    </p>
-    <p>
-      Returns: 0 if OK, -1 on error
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      #include &lt;signal.h&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      int sigpending(sigset_t *set) ;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Returns: 0 if OK, -1 on error&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363226761601" ID="ID_609744344" MODIFIED="1363226762893" TEXT="sigpending returns the set of signals that are blocked from delivery and currently  pending for the calling process. "/>
 <node CREATED="1363227297726" ID="ID_147734007" MODIFIED="1363227343974" TEXT="pending">
@@ -2676,7 +2676,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339679949543" FOLDED="true" ID="ID_6260115" MODIFIED="1363228932966" TEXT="handle signal">
+<node CREATED="1339679949543" ID="ID_6260115" MODIFIED="1381483219046" TEXT="handle signal">
 <node CREATED="1339679958734" ID="ID_866062993" MODIFIED="1339679999796" TEXT="signal(deprecated)">
 <node CREATED="1339418550927" ID="ID_1973720297" MODIFIED="1339680005985" TEXT="&lt;signal.h&gt;void (*signal (int signo, void (*func) (int)) ) (int) ;  (unreliable)">
 <node CREATED="1339418654162" ID="ID_259810709" MODIFIED="1339420208190" TEXT="func">
@@ -2711,27 +2711,27 @@
 <node CREATED="1339680264938" ID="ID_1799595632" MODIFIED="1339680374900" TEXT="arguments">
 <node CREATED="1339680569688" ID="ID_840481322" MODIFIED="1363227646224" TEXT="struct sigaction">
 <node CREATED="1339680581872" ID="ID_1738517817" MODIFIED="1363227693664">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct sigaction {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;void (*sa_handler) (); /* addr of signal handler, or SIG_IGN, or SIG_DFL */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;sigset_t sa_mask; /* additional signals to block */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;int sa_flags; /* signal options, Figure 10.5 */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct sigaction {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;void (*sa_handler) (); /* addr of signal handler, or SIG_IGN, or SIG_DFL */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sigset_t sa_mask; /* additional signals to block */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int sa_flags; /* signal options, Figure 10.5 */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1339680808604" ID="ID_79833569" MODIFIED="1339681111678" TEXT="sa_flags">
 <node CREATED="1339680931701" ID="ID_703032615" MODIFIED="1339681032791" TEXT="SA_NOCLDSTOP">
@@ -2742,7 +2742,7 @@
 <node CREATED="1339680931704" ID="ID_1295451330" MODIFIED="1339681344620" TEXT="SA_NOCLDWAIT">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1363228648539" ID="ID_1712293438" MODIFIED="1363228653565" TEXT="SIGCHILD">
-<node CREATED="1363228642845" ID="ID_677880863" MODIFIED="1363228654852" TEXT="If signo is SIGCHLD, this option causes the system hot fo  create zombie processes when children of the calling  process terminate. If the calling process subsequenfly calls  wait, it blocks until all its child processes bave terminated  and then returns -1 with errno set to ECHILD. "/>
+<node CREATED="1363228642845" ID="ID_677880863" MODIFIED="1381483630678" TEXT="If signo is SIGCHLD, this option causes the system not to  create zombie processes when children of the calling  process terminate. If the calling process subsequently calls  wait, it blocks until all its child processes bave terminated  and then returns -1 with errno set to ECHILD. "/>
 </node>
 </node>
 <node CREATED="1339680931706" ID="ID_681392429" MODIFIED="1339681807955" TEXT="SA_RESETHAND">
@@ -2759,17 +2759,17 @@
 </node>
 <node CREATED="1339680931712" ID="ID_460689494" MODIFIED="1339681209162" TEXT="SA_RESTART">
 <icon BUILTIN="button_ok"/>
-<node CREATED="1339681151633" ID="ID_420422895" MODIFIED="1339681193262" TEXT="interrupted system call is automatically restarted"/>
+<node CREATED="1339681151633" ID="ID_420422895" MODIFIED="1381483442653" TEXT="interrupted system call is automatically restarted "/>
 </node>
 <node CREATED="1339680931714" ID="ID_385590391" MODIFIED="1339681542180" TEXT="SA_NODEFER">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1339681544776" ID="ID_477517293" MODIFIED="1339681669337" TEXT="When this signal is caught, the signal is not automatically  blocked by the system while the signal-catching function  executes. "/>
-<node CREATED="1339681733513" ID="ID_1646499008" MODIFIED="1339681802059" TEXT="the same signal is blocked when the signal is caught">
+<node CREATED="1339681733513" ID="ID_1646499008" MODIFIED="1381483424833" TEXT="the same signal is blocked when the signal is caught ">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1339680931716" ID="ID_1056990469" MODIFIED="1339680931716" TEXT="SA_SIGINFO">
-<node CREATED="1363227898311" ID="ID_88061912" MODIFIED="1363227899546" TEXT="This option provides additional information fo a signal  handler. Refer to Section 10.21 for additional details.  "/>
+<node CREATED="1339680931716" ID="ID_1056990469" MODIFIED="1381483985884" TEXT="SA_SIGINFO">
+<node CREATED="1363227898311" ID="ID_88061912" MODIFIED="1381483330151" TEXT="This option provides additional information for a signal  handler. Refer to Section 10.21 for additional details.  "/>
 </node>
 </node>
 </node>
@@ -2789,48 +2789,48 @@
 </node>
 </node>
 </node>
-<node CREATED="1339685022002" FOLDED="true" ID="ID_893451140" MODIFIED="1363229004726" TEXT="suspend signal">
+<node CREATED="1339685022002" ID="ID_893451140" MODIFIED="1381484047616" TEXT="suspend signal">
 <node CREATED="1339685038435" ID="ID_643815178" MODIFIED="1339685038435" TEXT="#include &lt;signal.h&gt;"/>
 <node CREATED="1339685038436" ID="ID_1908452355" MODIFIED="1340372551905" TEXT="int sigsuspend(const sigset_t *sigmask) ; ">
 <node CREATED="1339685079531" ID="ID_618887899" MODIFIED="1339685200969" TEXT="both reset the signal mask and put the  process to sleep in a single atomic operation. "/>
 <node CREATED="1339685208673" ID="ID_1058539680" MODIFIED="1339685399774">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if (sigprocmask(SIG_SETMASK,&amp;sigmask,NULL)&lt;0) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;perror(&quot;SIG_SETMASK error&quot;);
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;exit(1);
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      /*race condition*/
-    </p>
-    <p>
-      pause();
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if (sigprocmask(SIG_SETMASK,&amp;sigmask,NULL)&lt;0) {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;perror("SIG_SETMASK error");&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;exit(1);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      /*race condition*/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      pause();&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1339685038438" ID="ID_1116047020" MODIFIED="1339685038438" TEXT="Returns: -1 with errno set to EINTR"/>
 </node>
-<node CREATED="1339684682355" FOLDED="true" ID="ID_779947799" MODIFIED="1363229006957" TEXT="sigsetjmp siglongjmp">
+<node CREATED="1339684682355" ID="ID_779947799" MODIFIED="1381484101066" TEXT="sigsetjmp siglongjmp">
 <node CREATED="1339684747633" ID="ID_82716175" MODIFIED="1339684766318" TEXT="#include &lt;setjmp.h&gt;"/>
 <node CREATED="1339684747633" ID="ID_295626279" MODIFIED="1339684747633" TEXT="int sigsetjmp (sigjmp_buf env, int savemask) ;">
 <node CREATED="1339684747634" ID="ID_1471947110" MODIFIED="1339684747634" TEXT="Returns: 0 if called directly, nonzero if returning from a call to siglongjmp"/>
 </node>
 <node CREATED="1339684747635" ID="ID_852778295" MODIFIED="1339684747635" TEXT="void siglongjmp(sigjmp_buf env, int val);"/>
 <node CREATED="1339684756120" ID="ID_1050354145" MODIFIED="1339684796103" TEXT="sigsetjmp/siglongjmp vs.setjmp/longjmp">
-<node CREATED="1339684798042" ID="ID_215440727" MODIFIED="1339684826617" TEXT="save signal mask and restore signal mask"/>
+<node CREATED="1339684798042" ID="ID_215440727" MODIFIED="1381484115506" TEXT="save signal mask and restore signal mask "/>
 </node>
 </node>
 </node>
@@ -2845,7 +2845,7 @@
 <node CREATED="1339853902323" ID="ID_862147371" MODIFIED="1339853937243" TEXT="SIGABRT can&apos;t be ignored and blocked">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1339853940517" ID="ID_721897055" MODIFIED="1339854223098" TEXT="if abort causes termination of process,before termination,flush all output streams.">
+<node CREATED="1339853940517" ID="ID_721897055" MODIFIED="1381484134926" TEXT="if abort causes termination of process,before termination,flush all output streams. ">
 <icon BUILTIN="full-2"/>
 </node>
 </node>
