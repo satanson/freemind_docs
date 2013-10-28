@@ -709,7 +709,7 @@
 <node CREATED="1381388341408" ID="ID_758297224" MODIFIED="1381388495725" TEXT="because of aligning on 2,4,8 bytes boundary,so empty member objects of empty classes take  up more than 1 bytes."/>
 </node>
 </node>
-<node CREATED="1381387804954" ID="ID_126168652" MODIFIED="1381393870238" POSITION="right" TEXT="25.enable-if">
+<node COLOR="#338800" CREATED="1381387804954" ID="ID_126168652" MODIFIED="1381576127357" POSITION="right" TEXT="25.enable-if">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 </node>
 <node CREATED="1380990495184" FOLDED="true" ID="ID_1242249932" MODIFIED="1381139820318" POSITION="right" STYLE="fork" TEXT="49.Move Constructor">
@@ -927,7 +927,7 @@
 </node>
 <node CREATED="1381409124593" ID="ID_901116980" MODIFIED="1381409139783" TEXT="c++0x provide nullptr keyword"/>
 </node>
-<node CREATED="1381393737486" FOLDED="true" ID="ID_471798300" MODIFIED="1381409035068" POSITION="right" TEXT="77.Substitution Failure Is Not A Error(SFINAE) ">
+<node CREATED="1381393737486" FOLDED="true" ID="ID_471798300" MODIFIED="1381576150134" POSITION="right" TEXT="77.Substitution Failure Is Not A Error(SFINAE) ">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1381393854007" ID="ID_557584537" MODIFIED="1381393944478" TEXT="Prune functions that do not yield valid template instantiations from a set of overloaded functions."/>
 <node CREATED="1381394058081" ID="ID_1855679052" MODIFIED="1381394059789" TEXT="In the process of template argument deduction, a C++ compiler attempts to instantiate signatures of a number of candidate overloaded functions to make sure that exactly one overloaded function is available as a perfect match for a given function call. If an invalid argument or return type is formed during the instantiation of a function template, the instantiation is removed from the overload resolution set instead of causing a compilation error. As long as there is one and only one function to which the call can be dispatched, the compiler issues no errors."/>
@@ -1041,6 +1041,9 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node COLOR="#338800" CREATED="1381576107849" ID="ID_1369751524" MODIFIED="1381576129251" POSITION="right" TEXT="92.Traits">
+<font BOLD="true" NAME="Courier New" SIZE="12"/>
 </node>
 </node>
 </map>
