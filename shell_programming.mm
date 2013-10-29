@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1337785383657" ID="ID_1913094876" MODIFIED="1367131388025" TEXT="shell programming">
 <node CREATED="1337786341968" FOLDED="true" ID="ID_1585278679" MODIFIED="1377688362939" POSITION="right" TEXT="variable">
@@ -30,18 +30,18 @@
 <node CREATED="1337786659536" ID="ID_739130609" MODIFIED="1341395147264" TEXT="sh">
 <icon BUILTIN="full-2"/>
 <node CREATED="1337786664052" ID="ID_383879471" MODIFIED="1337786690633">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      VAR=value
-    </p>
-    <p>
-      export VAR
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      VAR=value&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      export VAR&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -82,293 +82,293 @@
 <node CREATED="1337848032395" FOLDED="true" ID="ID_1708738187" MODIFIED="1376189496370" TEXT="conditional">
 <node CREATED="1337848091629" ID="ID_1125759437" MODIFIED="1376189494244" TEXT="csh/tcsh">
 <node CREATED="1337848100482" ID="ID_736681485" MODIFIED="1338556571805">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if (expr)&#160;&#160;then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      [[if (expr) then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;]
-    </p>
-    <p>
-      else
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      ]
-    </p>
-    <p>
-      endif
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if (expr)&#xa0;&#xa0;then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [[if (expr) then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      else&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      endif&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337848321339" ID="ID_1933532048" MODIFIED="1337848746583">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      switch ($var)
-    </p>
-    <p>
-      case const1:
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;breaksw
-    </p>
-    <p>
-      case const2:
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;breaksw
-    </p>
-    <p>
-      default:
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      endsw
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      switch ($var)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      case const1:&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;breaksw&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      case const2:&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;breaksw&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      default:&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      endsw&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337848958500" ID="ID_404336599" MODIFIED="1337848960982" TEXT="sh">
 <node CREATED="1337848963780" ID="ID_618177224" MODIFIED="1338556641077">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if &lt;cmd&gt;|&lt;[ expr ]&gt;
-    </p>
-    <p>
-      then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      [[elif &lt;cmd&gt;|&lt;[ expr ]&gt;
-    </p>
-    <p>
-      then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;]
-    </p>
-    <p>
-      &#160;else
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      ]
-    </p>
-    <p>
-      fi
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if &lt;cmd&gt;|&lt;[ expr ]&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [[elif &lt;cmd&gt;|&lt;[ expr ]&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;else&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      fi&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1338556593494" ID="ID_39273715" MODIFIED="1338556630268">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if &lt;cmd&gt;|&lt;[ expr ]&gt; ;then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      [[elif &lt;cmd&gt;|&lt;[ expr ]&gt;;then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;]
-    </p>
-    <p>
-      &#160;else
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      ]
-    </p>
-    <p>
-      fi
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if &lt;cmd&gt;|&lt;[ expr ]&gt; ;then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [[elif &lt;cmd&gt;|&lt;[ expr ]&gt;;then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;else&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      fi&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337849530257" ID="ID_1507317357" MODIFIED="1337850027105">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      case&#160;&#160;var in
-    </p>
-    <p>
-      pattern1)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;;;
-    </p>
-    <p>
-      pattern2)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;;;
-    </p>
-    <p>
-      *)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;;;
-    </p>
-    <p>
-      esac
-    </p>
-    <p>
-      (same to ksh)
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      case&#xa0;&#xa0;var in&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      pattern1)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;;;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      pattern2)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;;;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      *)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;;;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      esac&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      (same to ksh)&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337849855557" ID="ID_429268480" MODIFIED="1338556661079" TEXT="ksh/bash">
 <node CREATED="1337848963780" ID="ID_594324692" MODIFIED="1338556674498">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if &lt;cmd&gt;|&lt;[[ string_expr ]]&gt;|&lt;(( numeric_expr ))&gt;
-    </p>
-    <p>
-      then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      [[elif &lt;cmd&gt;|&lt;[[ string_expr ]]&gt;|&lt;(( numeric_expr ))&gt;&gt;
-    </p>
-    <p>
-      then
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;]
-    </p>
-    <p>
-      &#160;else
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      ]
-    </p>
-    <p>
-      fi
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if &lt;cmd&gt;|&lt;[[ string_expr ]]&gt;|&lt;(( numeric_expr ))&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [[elif &lt;cmd&gt;|&lt;[[ string_expr ]]&gt;|&lt;(( numeric_expr ))&gt;&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      then&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;else&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      fi&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337849977385" ID="ID_1181098716" MODIFIED="1337849977385" TEXT="">
 <node CREATED="1337849530257" ID="ID_786818261" MODIFIED="1337850006060">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      case&#160;&#160;var in
-    </p>
-    <p>
-      pattern1)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;;;
-    </p>
-    <p>
-      pattern2)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;;;
-    </p>
-    <p>
-      *)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;;;
-    </p>
-    <p>
-      esac
-    </p>
-    <p>
-      (same to sh)
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      case&#xa0;&#xa0;var in&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      pattern1)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;;;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      pattern2)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;;;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      *)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;;;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      esac&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      (same to sh)&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -378,41 +378,41 @@
 <node CREATED="1337850157082" ID="ID_816856878" MODIFIED="1365822881177" TEXT="csh/tcsh">
 <node CREATED="1337851338567" ID="ID_1094312175" MODIFIED="1365822895395" TEXT="while">
 <node CREATED="1337850205668" ID="ID_1658183668" MODIFIED="1337850220990">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      while (expr)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      end
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      while (expr)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      end&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337851342397" ID="ID_1198924820" MODIFIED="1376216224710" TEXT="foreach">
 <node CREATED="1337850222243" ID="ID_119701915" MODIFIED="1338362418885">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      foreach var (list)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      end
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      foreach var (list)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      end&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -420,48 +420,48 @@
 <node CREATED="1337850257882" ID="ID_1645618118" MODIFIED="1349058013076" TEXT="sh">
 <node CREATED="1337851363636" ID="ID_1547886797" MODIFIED="1349058249259" TEXT="while">
 <node CREATED="1337850421160" ID="ID_266917008" MODIFIED="1337850475294">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;while&gt;|&lt;until&gt; &lt;cmd&gt;|&lt;[ expr ]&gt;
-    </p>
-    <p>
-      do
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      done
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;while&gt;|&lt;until&gt; &lt;cmd&gt;|&lt;[ expr ]&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      do&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      done&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337851370547" ID="ID_1644042941" MODIFIED="1337851372811" TEXT="until"/>
 <node CREATED="1337851365828" ID="ID_1647481161" MODIFIED="1349058016749" TEXT="for">
 <node CREATED="1337850476735" ID="ID_1791809431" MODIFIED="1337850523881">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      for var in item1 item2&#160;&#160;item3
-    </p>
-    <p>
-      do
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      done
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      for var in item1 item2&#xa0;&#xa0;item3&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      do&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      done&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -469,24 +469,24 @@
 <node CREATED="1337851320065" ID="ID_1713483154" MODIFIED="1365822955786" TEXT="ksh/bash">
 <node CREATED="1337851390101" ID="ID_545608397" MODIFIED="1365822959442" TEXT="while">
 <node CREATED="1337850421160" ID="ID_1446855462" MODIFIED="1337851540091">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;while&gt;|&lt;until&gt; &lt;cmd&gt;|&lt;[[ string_expr ]]&gt;|&lt;(( numeric_expr ))&gt;
-    </p>
-    <p>
-      do
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      done
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;while&gt;|&lt;until&gt; &lt;cmd&gt;|&lt;[[ string_expr ]]&gt;|&lt;(( numeric_expr ))&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      do&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      done&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -496,24 +496,24 @@
 </node>
 <node CREATED="1337851403603" ID="ID_1547871308" MODIFIED="1376216236461" TEXT="select">
 <node CREATED="1337850476735" ID="ID_1221276361" MODIFIED="1337853481384">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      select var in item1 item2&#160;&#160;item3
-    </p>
-    <p>
-      do
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      done
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      select var in item1 item2&#xa0;&#xa0;item3&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      do&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      done&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337853483464" ID="ID_1218754461" MODIFIED="1337853494683" TEXT="PS3"/>
@@ -589,401 +589,401 @@
 <node CREATED="1363680341170" FOLDED="true" ID="ID_360454466" MODIFIED="1377226757399" POSITION="right" TEXT="run level (init)">
 <node CREATED="1363680356426" ID="ID_593096900" MODIFIED="1367129330416" TEXT="Solaris ">
 <node CREATED="1363680390116" ID="ID_1020894198" MODIFIED="1363680390116">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table cellspacing="0" width="100%" cellpadding="0" border="0">
-      <tr>
-        <td valign="top">
-          <p>
-            
-          </p>
-          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  S, s
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Single-user mode. Filesystems required for basic system operation are mounted.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  0
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Halt.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  1
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  System administrator mode. All local filesystems are mounted. Small set of essential system processes are running. Also a single-user mode.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  2
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Put the system in multiuser mode. All multiuser environment terminal processes and daemons are spawned.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  3
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Extend multiuser mode by making local resources available over the network.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  4
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Is available to be defined as an alternative multiuser environment configuration. It is not necessary for system operation and is usually not used.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  5
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Shut the machine down so that it is safe to remove the power. Have the machine remove power, if possible.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  6
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Reboot.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  a, b, c
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Process only those <tt>/etc/inittab</tt> entries having the a, b, or c run level set. These are pseudo-states, which may be defined to run certain commands, but which do not cause the current run level to change.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="bottomBorder" valign="top">
-                <p class="docText">
-                  Q, q
-                </p>
-              </td>
-              <td align="left" class="bottomBorder" valign="top">
-                <p class="docText">
-                  Re-examine <tt>/etc/inittab</tt>.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">&#xd;
+      <tr>&#xd;
+        <td valign="top">&#xd;
+          <p>&#xd;
+            &#xd;
+          </p>&#xd;
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  S, s&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Single-user mode. Filesystems required for basic system operation are mounted.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  0&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Halt.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  1&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  System administrator mode. All local filesystems are mounted. Small set of essential system processes are running. Also a single-user mode.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  2&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Put the system in multiuser mode. All multiuser environment terminal processes and daemons are spawned.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  3&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Extend multiuser mode by making local resources available over the network.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  4&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Is available to be defined as an alternative multiuser environment configuration. It is not necessary for system operation and is usually not used.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  5&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Shut the machine down so that it is safe to remove the power. Have the machine remove power, if possible.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  6&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Reboot.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  a, b, c&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Process only those <tt>/etc/inittab</tt> entries having the a, b, or c run level set. These are pseudo-states, which may be defined to run certain commands, but which do not cause the current run level to change.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="bottomBorder" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Q, q&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="bottomBorder" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Re-examine <tt>/etc/inittab</tt>.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+          </table>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1363680406522" ID="ID_1918814994" MODIFIED="1377226733494" TEXT="HP-UX">
 <node CREATED="1363680426050" ID="ID_1339023123" MODIFIED="1363680426050">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table cellspacing="0" width="100%" cellpadding="0" border="0">
-      <tr>
-        <td valign="top">
-          <p>
-            
-          </p>
-          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  0
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  System is completely shut down.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  1, s, S
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Single-user mode. All system services and daemons are terminated and all filesystems are unmounted.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  2
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Multiuser mode, except NFS is not enabled.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  3, 4
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Multiuser mode. NFS is enabled.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  4
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Multiuser mode with NFS and HP's desktop.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="bottomBorder" valign="top">
-                <p class="docText">
-                  6
-                </p>
-              </td>
-              <td align="left" class="bottomBorder" valign="top">
-                <p class="docText">
-                  Reboot.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">&#xd;
+      <tr>&#xd;
+        <td valign="top">&#xd;
+          <p>&#xd;
+            &#xd;
+          </p>&#xd;
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  0&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  System is completely shut down.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  1, s, S&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Single-user mode. All system services and daemons are terminated and all filesystems are unmounted.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  2&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Multiuser mode, except NFS is not enabled.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  3, 4&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Multiuser mode. NFS is enabled.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  4&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Multiuser mode with NFS and HP's desktop.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="bottomBorder" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  6&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="bottomBorder" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Reboot.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+          </table>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1363680430167" FOLDED="true" ID="ID_1284622908" MODIFIED="1363681460405" TEXT="OpenBSD ">
 <node CREATED="1363680456284" ID="ID_474498875" MODIFIED="1363680456284">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table cellspacing="0" width="100%" cellpadding="0" border="0">
-      <tr>
-        <td valign="top">
-          <p>
-            
-          </p>
-          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  &#8211;1
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  <span class="docEmphRoman">Permanently insecure mode</span>&#8212; always run system in level 0 mode.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  0
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  <span class="docEmphRoman">Insecure mode</span>&#8212; All devices may be read or written subject to permissions.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  1
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  <span class="docEmphRoman">Secure mode</span>&#8212; disks for mounted filesystems, <tt>/dev/mem</tt>, and <tt>/dev/kmem</tt> are read-only.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="bottomBorder" valign="top">
-                <p class="docText">
-                  2
-                </p>
-              </td>
-              <td align="left" class="bottomBorder" valign="top">
-                <p class="docText">
-                  <span class="docEmphRoman">Highly secure mode</span>&#8212; same as secure mode, plus disks are always read-only whether mounted or not and the <tt>settimeofday</tt> system call can only advance the time.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">&#xd;
+      <tr>&#xd;
+        <td valign="top">&#xd;
+          <p>&#xd;
+            &#xd;
+          </p>&#xd;
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  &#x2013;1&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  <span class="docEmphRoman">Permanently insecure mode</span>&#x2014; always run system in level 0 mode.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  0&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  <span class="docEmphRoman">Insecure mode</span>&#x2014; All devices may be read or written subject to permissions.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  1&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  <span class="docEmphRoman">Secure mode</span>&#x2014; disks for mounted filesystems, <tt>/dev/mem</tt>, and <tt>/dev/kmem</tt> are read-only.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="bottomBorder" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  2&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="bottomBorder" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  <span class="docEmphRoman">Highly secure mode</span>&#x2014; same as secure mode, plus disks are always read-only whether mounted or not and the <tt>settimeofday</tt> system call can only advance the time.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+          </table>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1363680467824" ID="ID_11275328" MODIFIED="1377226736955" TEXT="Linux ">
 <node CREATED="1363680483061" ID="ID_918611846" MODIFIED="1363680483061">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table cellspacing="0" width="100%" cellpadding="0" border="0">
-      <tr>
-        <td valign="top">
-          <p>
-            
-          </p>
-          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  0
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Halt the system.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  1
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Single-user mode.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  2, 3
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Multiuser modes. Usually identical. Level 2 or 3 is default.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  4
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Unused.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  5
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Multiuser with graphical environment (X Windows).
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  6
-                </p>
-              </td>
-              <td align="left" class="docTableCell" valign="top">
-                <p class="docText">
-                  Reboot the system.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table cellspacing="0" width="100%" cellpadding="0" border="0">&#xd;
+      <tr>&#xd;
+        <td valign="top">&#xd;
+          <p>&#xd;
+            &#xd;
+          </p>&#xd;
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="groups">&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  0&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Halt the system.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  1&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Single-user mode.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  2, 3&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Multiuser modes. Usually identical. Level 2 or 3 is default.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  4&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Unused.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  5&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Multiuser with graphical environment (X Windows).&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  6&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td align="left" class="docTableCell" valign="top">&#xd;
+                <p class="docText">&#xd;
+                  Reboot the system.&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+          </table>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -991,192 +991,192 @@
 <node CREATED="1363681981838" ID="ID_1605086836" MODIFIED="1363681982871" TEXT="/etc/rc?.d/"/>
 <node CREATED="1363681983220" ID="ID_1521977725" MODIFIED="1363681990186" TEXT="/etc/init.d/"/>
 <node CREATED="1363682164807" ID="ID_750696894" MODIFIED="1363682174289">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Configuration of System V init under Debian GNU/Linux
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Most Unix versions have a file here that describes how the scripts
-    </p>
-    <p>
-      in this directory work, and how the links in the /etc/rc?.d/ directories
-    </p>
-    <p>
-      influence system startup/shutdown.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      For Debian, this information is contained in the policy manual, chapter
-    </p>
-    <p>
-      &quot;System run levels and init.d scripts&quot;.&#160;&#160;The Debian Policy Manual is
-    </p>
-    <p>
-      available at:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;http://www.debian.org/doc/debian-policy/#contents
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      The Debian Policy Manual is also available in the Debian package
-    </p>
-    <p>
-      &quot;debian-policy&quot;.&#160;&#160;When this package is installed, the policy manual can be
-    </p>
-    <p>
-      found in directory /usr/share/doc/debian-policy. If you have a browser
-    </p>
-    <p>
-      installed you can probably read it at
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;file://localhost/usr/share/doc/debian-policy/
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Some more detailed information can also be found in the files in the
-    </p>
-    <p>
-      /usr/share/doc/sysv-rc directory.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Debian Policy dictates that /etc/init.d/*.sh scripts must work properly
-    </p>
-    <p>
-      when sourced.&#160;&#160;The following additional rules apply:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * /etc/init.d/*.sh scripts must not rely for their correct functioning
-    </p>
-    <p>
-      &#160;&#160;on their being sourced rather than executed.&#160;&#160;That is, they must work
-    </p>
-    <p>
-      &#160;&#160;properly when executed too. They must include &quot;#!/bin/sh&quot; at the top.
-    </p>
-    <p>
-      &#160;&#160;This is useful when running scripts in parallel.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * /etc/init.d/*.sh scripts must conform to the rules for sh scripts as
-    </p>
-    <p>
-      &#160;&#160;spelled out in the Debian policy section entitled &quot;Scripts&quot; (&#167;10.4).
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Use the update-rc.d command to create symbolic links in the /etc/rc?.d
-    </p>
-    <p>
-      as appropriate. See that man page for more details.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      All init.d scripts are expected to have a LSB style header documenting
-    </p>
-    <p>
-      dependencies and default runlevel settings.&#160;&#160;The header look like this
-    </p>
-    <p>
-      (not all fields are required):
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      ### BEGIN INIT INFO
-    </p>
-    <p>
-      # Provides:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;skeleton
-    </p>
-    <p>
-      # Required-Start:&#160;&#160;&#160;&#160;$remote_fs $syslog
-    </p>
-    <p>
-      # Required-Stop:&#160;&#160;&#160;&#160;&#160;$remote_fs $syslog
-    </p>
-    <p>
-      # Should-Start:&#160;&#160;&#160;&#160;&#160;&#160;$portmap
-    </p>
-    <p>
-      # Should-Stop:&#160;&#160;&#160;&#160;&#160;&#160;&#160;$portmap
-    </p>
-    <p>
-      # X-Start-Before:&#160;&#160;&#160;&#160;nis
-    </p>
-    <p>
-      # X-Stop-After:&#160;&#160;&#160;&#160;&#160;&#160;nis
-    </p>
-    <p>
-      # Default-Start:&#160;&#160;&#160;&#160;&#160;2 3 4 5
-    </p>
-    <p>
-      # Default-Stop:&#160;&#160;&#160;&#160;&#160;&#160;0 1 6
-    </p>
-    <p>
-      # X-Interactive:&#160;&#160;&#160;&#160;&#160;true
-    </p>
-    <p>
-      # Short-Description: Example initscript
-    </p>
-    <p>
-      # Description:&#160;&#160;&#160;&#160;&#160;&#160;&#160;This file should be used to construct scripts to be
-    </p>
-    <p>
-      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;placed in /etc/init.d.
-    </p>
-    <p>
-      ### END INIT INFO
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      More information on the format is available from insserv(8).&#160;&#160;This
-    </p>
-    <p>
-      information is used to dynamicaly assign sequence numbers to the
-    </p>
-    <p>
-      boot scripts and to run the scripts in parallel during the boot.
-    </p>
-    <p>
-      See also /usr/share/doc/insserv/README.Debian.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      Configuration of System V init under Debian GNU/Linux&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Most Unix versions have a file here that describes how the scripts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      in this directory work, and how the links in the /etc/rc?.d/ directories&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      influence system startup/shutdown.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      For Debian, this information is contained in the policy manual, chapter&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      "System run levels and init.d scripts".&#xa0;&#xa0;The Debian Policy Manual is&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      available at:&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;http://www.debian.org/doc/debian-policy/#contents&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      The Debian Policy Manual is also available in the Debian package&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      "debian-policy".&#xa0;&#xa0;When this package is installed, the policy manual can be&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      found in directory /usr/share/doc/debian-policy. If you have a browser&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      installed you can probably read it at&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;file://localhost/usr/share/doc/debian-policy/&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Some more detailed information can also be found in the files in the&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      /usr/share/doc/sysv-rc directory.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Debian Policy dictates that /etc/init.d/*.sh scripts must work properly&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      when sourced.&#xa0;&#xa0;The following additional rules apply:&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      * /etc/init.d/*.sh scripts must not rely for their correct functioning&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;on their being sourced rather than executed.&#xa0;&#xa0;That is, they must work&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;properly when executed too. They must include "#!/bin/sh" at the top.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;This is useful when running scripts in parallel.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      * /etc/init.d/*.sh scripts must conform to the rules for sh scripts as&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;spelled out in the Debian policy section entitled "Scripts" (&#xa7;10.4).&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Use the update-rc.d command to create symbolic links in the /etc/rc?.d&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      as appropriate. See that man page for more details.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      All init.d scripts are expected to have a LSB style header documenting&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      dependencies and default runlevel settings.&#xa0;&#xa0;The header look like this&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      (not all fields are required):&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ### BEGIN INIT INFO&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Provides:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;skeleton&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Required-Start:&#xa0;&#xa0;&#xa0;&#xa0;$remote_fs $syslog&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Required-Stop:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$remote_fs $syslog&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Should-Start:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$portmap&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Should-Stop:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$portmap&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # X-Start-Before:&#xa0;&#xa0;&#xa0;&#xa0;nis&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # X-Stop-After:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;nis&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Default-Start:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;2 3 4 5&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Default-Stop:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0 1 6&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # X-Interactive:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;true&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Short-Description: Example initscript&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      # Description:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;This file should be used to construct scripts to be&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      #&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;placed in /etc/init.d.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ### END INIT INFO&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      More information on the format is available from insserv(8).&#xa0;&#xa0;This&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      information is used to dynamicaly assign sequence numbers to the&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      boot scripts and to run the scripts in parallel during the boot.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      See also /usr/share/doc/insserv/README.Debian.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1290,8 +1290,8 @@
 <node CREATED="1341907896280" ID="ID_51989291" MODIFIED="1341907899734" TEXT="/dev/random"/>
 </node>
 </node>
-<node CREATED="1338447715295" ID="ID_1494036361" MODIFIED="1380463071411" POSITION="right" TEXT="shell">
-<node CREATED="1337855980305" ID="ID_858436998" MODIFIED="1377227790768" TEXT="sh$">
+<node CREATED="1338447715295" ID="ID_1494036361" MODIFIED="1382924360711" POSITION="right" TEXT="shell">
+<node CREATED="1337855980305" FOLDED="true" ID="ID_858436998" MODIFIED="1382924362977" TEXT="sh$">
 <node CREATED="1337856064850" FOLDED="true" ID="ID_1171322390" MODIFIED="1377690384817" TEXT="$-(built-in)">
 <node CREATED="1337856093796" ID="ID_1777256098" MODIFIED="1337856101364" TEXT="shell  options "/>
 </node>
@@ -1838,27 +1838,27 @@
 <node CREATED="1338554939696" FOLDED="true" ID="ID_622421858" MODIFIED="1367130943225" TEXT="special features">
 <node CREATED="1338554976032" FOLDED="true" ID="ID_605731691" MODIFIED="1338567194374" TEXT="rich operators">
 <node CREATED="1338555025990" ID="ID_1585140653" MODIFIED="1338555620163">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      support arithmetic&#160;&#160;which lang C provides.
-    </p>
-    <p>
-      Compared with csh,sh has pool support&#160;&#160;for
-    </p>
-    <p>
-      arithmetic&#160;&#160;instinctively. awk and expr&#160;&#160;help
-    </p>
-    <p>
-      sh implement arithmetic. csh has two new
-    </p>
-    <p>
-      operators =~(match) and !~(not match).
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      support arithmetic&#xa0;&#xa0;which lang C provides.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      Compared with csh,sh has pool support&#xa0;&#xa0;for&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      arithmetic&#xa0;&#xa0;instinctively. awk and expr&#xa0;&#xa0;help&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      sh implement arithmetic. csh has two new&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      operators =~(match) and !~(not match).&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2117,48 +2117,48 @@
 <node CREATED="1338560969596" FOLDED="true" ID="ID_858596490" MODIFIED="1345537087479" TEXT="foreach">
 <node CREATED="1338560982972" FOLDED="true" ID="ID_525216058" MODIFIED="1345537087479" TEXT="differ from sh&apos;s for statement">
 <node CREATED="1338561007165" ID="ID_1254113381" MODIFIED="1338561067130">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #!/bin/sh
-    </p>
-    <p>
-      for var in word1 word2 word3
-    </p>
-    <p>
-      do
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts;
-    </p>
-    <p>
-      done
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      #!/bin/sh&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      for var in word1 word2 word3&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      do&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      done&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1338561048621" ID="ID_559847499" MODIFIED="1338561110827">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #!/bin/tcsh
-    </p>
-    <p>
-      foreach var (word1 word2 word3)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;stmts
-    </p>
-    <p>
-      end
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      #!/bin/tcsh&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      foreach var (word1 word2 word3)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;stmts&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      end&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2191,7 +2191,7 @@
 </node>
 <node CREATED="1338562701812" ID="ID_706059734" MODIFIED="1338562722799" TEXT="chmod 4755 &lt;setuid_script_name&gt;"/>
 </node>
-<node CREATED="1338562724666" FOLDED="true" ID="ID_1404284638" MODIFIED="1380464253242" TEXT="history">
+<node CREATED="1338562724666" ID="ID_1404284638" MODIFIED="1382924370237" TEXT="history">
 <node CREATED="1338567392106" ID="ID_895823261" MODIFIED="1367131058525" TEXT="event">
 <font NAME="Dialog" SIZE="12"/>
 <node CREATED="1338616118650" ID="ID_806108301" MODIFIED="1367131058525" TEXT="each command inputed from terminal and saved in history list">
@@ -2260,7 +2260,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338567412557" FOLDED="true" ID="ID_829717756" MODIFIED="1380464244621" TEXT="history substitution ! ^">
+<node CREATED="1338567412557" ID="ID_829717756" MODIFIED="1382924385208" TEXT="history substitution ! ^">
 <node CREATED="1338617920655" ID="ID_346451741" MODIFIED="1338618543714" TEXT="!event_specification:word_designator:modifier"/>
 <node CREATED="1338618545254" ID="ID_985204102" MODIFIED="1338618560681" TEXT="!{s:d:m}"/>
 <node CREATED="1338618562802" ID="ID_1625386828" MODIFIED="1338620317497" TEXT="\!  , !&lt;\s&gt; , !=, !(,   protect ! "/>
@@ -2287,7 +2287,7 @@
 <node CREATED="1338618751831" ID="ID_1597443896" MODIFIED="1338618776077" TEXT="(tcsh) resembles !?s?"/>
 </node>
 </node>
-<node CREATED="1338618614988" FOLDED="true" ID="ID_1918806471" MODIFIED="1380464216508" TEXT="word  designator">
+<node CREATED="1338618614988" ID="ID_1918806471" MODIFIED="1382924398033" TEXT="word  designator">
 <node CREATED="1338619114993" ID="ID_1384099173" MODIFIED="1373336770439" TEXT="0">
 <node CREATED="1338619124089" ID="ID_522426476" MODIFIED="1338619135284" TEXT="first word (commad)"/>
 </node>
@@ -2325,7 +2325,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1338620679277" FOLDED="true" ID="ID_1791703630" MODIFIED="1380464240908" TEXT="modifier">
+<node CREATED="1338620679277" ID="ID_1791703630" MODIFIED="1382924410320" TEXT="modifier">
 <node CREATED="1338620685553" ID="ID_822052873" MODIFIED="1380464224025" TEXT="r">
 <node CREATED="1338620695207" ID="ID_621817475" MODIFIED="1338620701559" TEXT="root of pathname"/>
 </node>
@@ -2408,18 +2408,18 @@
 <node CREATED="1338623822784" FOLDED="true" ID="ID_598579269" MODIFIED="1345537087463" TEXT="built-in variable">
 <node CREATED="1338623865626" FOLDED="true" ID="ID_489778417" MODIFIED="1345537087463" TEXT="deextract">
 <node CREATED="1338623892833" ID="ID_1118835956" MODIFIED="1338623925820">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      If set, pushd +n extracts the nth directory from the directory
-    </p>
-    <p>
-      stack before pushing it onto the stack.
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      If set, pushd +n extracts the nth directory from the directory&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      stack before pushing it onto the stack.&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2476,418 +2476,418 @@
 </node>
 <node CREATED="1338626891193" FOLDED="true" ID="ID_137086399" MODIFIED="1367558645915" TEXT="prompt string">
 <node CREATED="1338626877669" ID="ID_655447977" MODIFIED="1338626877669">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table border="0" cellspacing="0" width="100%" cellpadding="0">
-      <tr>
-        <td valign="top">
-          <p>
-            
-          </p>
-          <table frame="hsides" cellspacing="0" cellpadding="5" rules="none">
-            <caption>
-              <h5 class="docTableTitle">
-                Table 9.9. Prompt Strings
-              </h5>
-            </caption>
-            <colgroup>
-            <col width="93" />
-            <col width="456" />
-            </colgroup>
-            
-
-            <tr>
-              <th scope="col" class="thead" valign="top" align="left">
-                <p class="docText">
-                  <span class="docEmphBoldItalic">String</span>
-                </p>
-              </th>
-              <th scope="col" class="thead" valign="top" align="left">
-                <p class="docText">
-                  <span class="docEmphBoldItalic">Description</span>
-                </p>
-              </th>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%/</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The current working directory
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%~</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The current working directory, where <tt>~</tt> represents the user's home directory and other users' home directories are represented by <tt>~user</tt>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%c[[0]n], %.[[0]n]</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The trailing component of the current working directory, or if <tt>n</tt> (a digit) is given, <tt>n</tt> trailing components
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%C</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Like <tt>%c</tt>, but without <tt>~</tt> substitution
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%h</tt>, <tt>%!</tt>, <tt>!</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The current history event number
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%M</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The full hostname
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%m</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The hostname up to the first <tt>&quot;.&quot;</tt>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%S (%s)</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Start (stop) standout mode
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%B (%b)</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Start (stop) boldfacing mode
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%U (%u)</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Start (stop) underline mode
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%t</tt>, <tt>%@</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The time of day in 12-hour AM/PM format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%T</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Like <tt>%t</tt>, but in 24-hour format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%p</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The &quot;precise&quot; time of day in 12-hour AM/PM format, with seconds
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%P</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Like <tt>%p</tt>, but in 24-hour format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>^c</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>c</tt> is parsed as in bindkey
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>\c</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>c</tt> is parsed as in bindkey
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%%</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  A single <tt>%</tt>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%n</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The user name
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%d</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The weekday in &quot;Day&quot; format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%D</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The day in &quot;dd&quot; format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%w</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The month in &quot;Mon&quot; format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%W</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The month in &quot;mm&quot; format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%y</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The year in &quot;yy&quot; format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%Y</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The year in &quot;yyyy&quot; format
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%l</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The shell's <tt>tty</tt>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%L</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Clears from the end of the prompt to the end of the display or the end of the line
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%$</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Expands the shell or environment variable name immediately after the $
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%#</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>&gt;</tt> (or the first character of the <tt>promptchars</tt> shell variable) for normal users, <tt>#</tt> (or the second character of <tt>promptchars</tt>) for the superuser
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%{string%}</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  Includes string as a literal escape sequence; should be used only to change terminal attributes and should not move the cursor location; cannot be the last sequence in <tt>prompt</tt>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%?</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  The return code of the command executed just before the prompt
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  <tt>%R</tt>
-                </p>
-              </td>
-              <td class="docTableCell" valign="top" align="left">
-                <p class="docText">
-                  In <tt>prompt2</tt>, the status of the parser; in <tt>prompt3</tt>, the corrected string; in <tt>history</tt>, the history string
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table border="0" cellspacing="0" width="100%" cellpadding="0">&#xd;
+      <tr>&#xd;
+        <td valign="top">&#xd;
+          <p>&#xd;
+            &#xd;
+          </p>&#xd;
+          <table frame="hsides" cellspacing="0" cellpadding="5" rules="none">&#xd;
+            <caption>&#xd;
+              <h5 class="docTableTitle">&#xd;
+                Table 9.9. Prompt Strings&#xd;
+              </h5>&#xd;
+            </caption>&#xd;
+            <colgroup>&#xd;
+            <col width="93"/>&#xd;
+            <col width="456"/>&#xd;
+            </colgroup>&#xd;
+            &#xd;
+&#xd;
+            <tr>&#xd;
+              <th scope="col" class="thead" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <span class="docEmphBoldItalic">String</span>&#xd;
+                </p>&#xd;
+              </th>&#xd;
+              <th scope="col" class="thead" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <span class="docEmphBoldItalic">Description</span>&#xd;
+                </p>&#xd;
+              </th>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%/</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The current working directory&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%~</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The current working directory, where <tt>~</tt> represents the user's home directory and other users' home directories are represented by <tt>~user</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%c[[0]n], %.[[0]n]</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The trailing component of the current working directory, or if <tt>n</tt> (a digit) is given, <tt>n</tt> trailing components&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%C</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Like <tt>%c</tt>, but without <tt>~</tt> substitution&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%h</tt>, <tt>%!</tt>, <tt>!</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The current history event number&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%M</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The full hostname&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%m</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The hostname up to the first <tt>"."</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%S (%s)</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Start (stop) standout mode&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%B (%b)</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Start (stop) boldfacing mode&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%U (%u)</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Start (stop) underline mode&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%t</tt>, <tt>%@</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The time of day in 12-hour AM/PM format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%T</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Like <tt>%t</tt>, but in 24-hour format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%p</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The "precise" time of day in 12-hour AM/PM format, with seconds&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%P</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Like <tt>%p</tt>, but in 24-hour format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>^c</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>c</tt> is parsed as in bindkey&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>\c</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>c</tt> is parsed as in bindkey&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%%</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  A single <tt>%</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%n</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The user name&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%d</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The weekday in "Day" format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%D</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The day in "dd" format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%w</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The month in "Mon" format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%W</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The month in "mm" format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%y</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The year in "yy" format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%Y</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The year in "yyyy" format&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%l</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The shell's <tt>tty</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%L</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Clears from the end of the prompt to the end of the display or the end of the line&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%$</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Expands the shell or environment variable name immediately after the $&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%#</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>&gt;</tt> (or the first character of the <tt>promptchars</tt> shell variable) for normal users, <tt>#</tt> (or the second character of <tt>promptchars</tt>) for the superuser&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%{string%}</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  Includes string as a literal escape sequence; should be used only to change terminal attributes and should not move the cursor location; cannot be the last sequence in <tt>prompt</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%?</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  The return code of the command executed just before the prompt&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  <tt>%R</tt>&#xd;
+                </p>&#xd;
+              </td>&#xd;
+              <td class="docTableCell" valign="top" align="left">&#xd;
+                <p class="docText">&#xd;
+                  In <tt>prompt2</tt>, the status of the parser; in <tt>prompt3</tt>, the corrected string; in <tt>history</tt>, the history string&#xd;
+                </p>&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+          </table>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2909,13 +2909,13 @@
 <node CREATED="1360309900123" ID="ID_1527007671" MODIFIED="1360309905835" TEXT="job control"/>
 </node>
 </node>
-<node CREATED="1359036185352" FOLDED="true" ID="ID_107062368" MODIFIED="1380463059080" POSITION="right" TEXT="smart">
+<node CREATED="1359036185352" FOLDED="true" ID="ID_107062368" MODIFIED="1382924349147" POSITION="right" TEXT="smart">
 <node CREATED="1359036193129" ID="ID_934253660" MODIFIED="1367131217567" TEXT="dir: ">
 <node CREATED="1359036319863" ID="ID_1770677587" MODIFIED="1359036321925" TEXT="cd -"/>
 <node CREATED="1359036322383" ID="ID_1367783358" MODIFIED="1359036330968" TEXT="popd"/>
 <node CREATED="1359036331317" ID="ID_1614654513" MODIFIED="1359036333020" TEXT="pushd"/>
 </node>
-<node CREATED="1359036217379" FOLDED="true" ID="ID_639921955" MODIFIED="1380462887863" TEXT="cmdline">
+<node CREATED="1359036217379" ID="ID_639921955" MODIFIED="1382924338416" TEXT="cmdline">
 <node CREATED="1359036359936" ID="ID_1247670948" MODIFIED="1359036396145" TEXT="cmd completion (TAB \t)"/>
 <node CREATED="1359036399412" ID="ID_1769190236" MODIFIED="1359036413220" TEXT="history (!)"/>
 <node CREATED="1359037860397" FOLDED="true" ID="ID_211698304" MODIFIED="1380462720055" TEXT="move">
@@ -2994,7 +2994,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359038196036" ID="ID_1920039971" MODIFIED="1380462971382" TEXT="file">
+<node CREATED="1359038196036" FOLDED="true" ID="ID_1920039971" MODIFIED="1382924337300" TEXT="file">
 <node CREATED="1359038225703" ID="ID_555291754" MODIFIED="1359038227265" TEXT="vim">
 <node CREATED="1359038374354" ID="ID_1754991274" MODIFIED="1359038396146" TEXT="para">
 <node CREATED="1359038399100" ID="ID_598245199" MODIFIED="1359038401660" TEXT="gg">
