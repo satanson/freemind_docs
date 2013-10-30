@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1383058005118" ID="ID_51956376" MODIFIED="1383058069605" TEXT="thrift">
-<node CREATED="1383059400497" ID="ID_343878817" MODIFIED="1383066185543" POSITION="right" TEXT="Architect">
+<node CREATED="1383059400497" FOLDED="true" ID="ID_343878817" MODIFIED="1383097981477" POSITION="right" TEXT="Architect">
 <node CREATED="1383058073592" FOLDED="true" ID="ID_756140291" MODIFIED="1383064715989" TEXT="TTransport">
 <node CREATED="1383058727136" ID="ID_1636165501" MODIFIED="1383060359090" STYLE="fork" TEXT="class TXXXTransport: public TVirtualTransport&lt;TXXXTransport&gt; (Decorator Pattern) "/>
 <node CREATED="1383059459679" ID="ID_584950115" MODIFIED="1383059595279" TEXT="using namespace apache::thrift::transport; "/>
@@ -114,8 +114,7 @@
       <font size="3">shared_ptr&lt;TProcessorFactory&gt; processorFactory(new FoobarProcessorFactory(handlerFactory)); </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -169,8 +168,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1383060873400" ID="ID_1222339465" MODIFIED="1383060886106" TEXT="TSimpleServer">
@@ -220,8 +218,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -242,17 +239,21 @@
 <node CREATED="1383061153016" MODIFIED="1383061153016" TEXT="TZlibTransportException"/>
 </node>
 </node>
-<node CREATED="1383066226190" FOLDED="true" ID="ID_1240193645" MODIFIED="1383067667169" POSITION="right" TEXT="Building">
+<node CREATED="1383066226190" FOLDED="true" ID="ID_1240193645" MODIFIED="1383098006018" POSITION="right" TEXT="Building">
 <node CREATED="1383066253805" ID="ID_796327520" MODIFIED="1383066292151" TEXT="$ thrift -r -gen cpp -O dir -O Foobar Foobar.thrift"/>
+<node CREATED="1383097966835" FOLDED="true" ID="ID_449083235" MODIFIED="1383097978779" TEXT="issues">
 <node CREATED="1383066363323" ID="ID_550604446" MODIFIED="1383066395672" TEXT="htons ntohs htonl ntohl">
-<node CREATED="1383066292739" ID="ID_758511288" MODIFIED="1383066398653" TEXT="#include&lt;arpa/inet.h&gt;"/>
+<node CREATED="1383066292739" ID="ID_431056963" MODIFIED="1383066398653" TEXT="#include&lt;arpa/inet.h&gt;"/>
 </node>
 <node CREATED="1383066401655" ID="ID_1258540345" MODIFIED="1383066422555" TEXT="uint{8,16,32,64}_t">
-<node CREATED="1383066312202" ID="ID_1455811906" MODIFIED="1383066438779" TEXT="#include&lt;cstdint&gt; (c++0x)"/>
+<node CREATED="1383066312202" ID="ID_630439922" MODIFIED="1383066438779" TEXT="#include&lt;cstdint&gt; (c++0x)"/>
 </node>
-<node CREATED="1383067614987" ID="ID_1629080075" MODIFIED="1383067635155" TEXT="TNonBlockingServer">
-<node CREATED="1383067637631" ID="ID_1814235057" MODIFIED="1383067662091" TEXT="-lthriftnb -levent"/>
+<node CREATED="1383097871462" ID="ID_1487014891" MODIFIED="1383097952142" TEXT="boost::shared_ptr std::shared_ptr(c++0x) ambiguity "/>
+<node CREATED="1383067614987" ID="ID_1629080075" MODIFIED="1383097869488" TEXT="TNonBlockingServer">
+<node CREATED="1383067637631" ID="ID_613880684" MODIFIED="1383067662091" TEXT="-lthriftnb -levent"/>
 </node>
 </node>
+</node>
+<node CREATED="1383097983295" ID="ID_1551914532" MODIFIED="1383097993109" POSITION="right" TEXT="thrift Types/IDL"/>
 </node>
 </map>
