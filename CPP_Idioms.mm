@@ -672,7 +672,7 @@
 <node CREATED="1381426712796" ID="ID_1208624435" MODIFIED="1381426789875" TEXT="place count within the object being counted"/>
 <node CREATED="1381426818460" ID="ID_335572480" MODIFIED="1381426857410" TEXT="String,StringRep"/>
 </node>
-<node CREATED="1380861682588" FOLDED="true" ID="ID_1193029288" MODIFIED="1381389278797" POSITION="right" STYLE="fork" TEXT="22.Curiously Recurring Template Pattern ">
+<node CREATED="1380861682588" FOLDED="true" ID="ID_1193029288" MODIFIED="1383098114454" POSITION="right" STYLE="fork" TEXT="22.Curiously Recurring Template Pattern ">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380861727026" ID="ID_62662733" MODIFIED="1381039068583" STYLE="fork" TEXT="specialize  a base class  using the derived class as a template argument.">
