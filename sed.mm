@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1337499359334" ID="ID_1738548169" MODIFIED="1339660332952" TEXT="sed">
 <node CREATED="1339660504098" ID="ID_505890568" MODIFIED="1357566704546" POSITION="right" TEXT=" command format">
@@ -259,128 +259,127 @@
 <node CREATED="1360244791231" ID="ID_1343883453" MODIFIED="1360245516989" TEXT="demo">
 <node CREATED="1360244837266" FOLDED="true" ID="ID_59769162" MODIFIED="1360247263353" TEXT="parasplit.sed -sed script  for processing spaces in latex">
 <node CREATED="1360244796657" ID="ID_1293309711" MODIFIED="1360247022757">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div>
-      <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; line-height: normal; font-size: medium" align="left">
-        <div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">#ignore blank lines.</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">:blank</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">/^\s*$/{</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;n</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;b blank</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">}</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">#split paragraphs by blank lines.</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">/^\s*$/!{</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;h</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;n</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">}</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">:para</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">/^\s*$/!{</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;H</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;n</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#reach last line.</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;${</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;g</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#multi-line pattern</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#/[ \t]/ is a whitespace.</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#/[ \t]+/ are treated as one space</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#single line break is treated as one space</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/\s\s*/ /g</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#ignore leading and trailing space</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/^\s*\|\s*$//g</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;p</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;b para</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">}</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">#a paragraph terminates</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">/^\s*$/{</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;g</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/\s\s*/ /g</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/^\s*\|\s*$//g</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;p</font>
-          </div>
-          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: Î¢ÈíÑÅºÚ; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">
-            <font size="4" face="Lucida Console" color="#010101">}</font>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
-</richcontent>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <div>&#xd;
+      <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; line-height: normal; font-size: medium" align="left">&#xd;
+        <div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">#ignore blank lines.</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">:blank</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">/^\s*$/{</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;n</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;b blank</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">}</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">#split paragraphs by blank lines.</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">/^\s*$/!{</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;h</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;n</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">}</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">:para</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">/^\s*$/!{</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;H</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;n</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#reach last line.</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;${</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;g</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#multi-line pattern</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#/[ \t]/ is a whitespace.</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#/[ \t]+/ are treated as one space</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#single line break is treated as one space</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/\s\s*/ /g</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#ignore leading and trailing space</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/^\s*\|\s*$//g</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;b para</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">}</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">#a paragraph terminates</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">/^\s*$/{</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;g</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/\s\s*/ /g</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/^\s*\|\s*$//g</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p</font>&#xd;
+          </div>&#xd;
+          <div style="font-weight: normal; letter-spacing: normal; word-spacing: 0px; text-transform: none; font-family: &#x3a2;&#xfffd;&#xfffd;&#xfffd;&#x17a;&#xfffd;; color: rgb(0, 0, 0); font-variant: normal; font-style: normal; white-space: normal; text-indent: 0px; text-align: -webkit-left; line-height: normal; font-size: medium" align="left">&#xd;
+            <font size="4" face="Lucida Console" color="#010101">}</font>&#xd;
+          </div>&#xd;
+        </div>&#xd;
+      </div>&#xd;
+    </div>&#xd;
+  </body>&#xd;
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -415,7 +414,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357565695290" ID="ID_83405746" MODIFIED="1357568256390" POSITION="right" TEXT="sed &apos;addr{cmd1;cmd1;...[;]}&apos; file">
+<node CREATED="1357565695290" ID="ID_83405746" MODIFIED="1383836362084" POSITION="right" TEXT="sed &apos;addr{cmd1;cmd1;...[;]}&apos; file">
 <node CREATED="1357566262607" ID="ID_1277948242" MODIFIED="1357566586961" TEXT="multi cmd performed on pattern space every time"/>
 <node CREATED="1357568257570" ID="ID_140746641" MODIFIED="1357568261938" TEXT="{d;n}">
 <node CREATED="1357568268025" ID="ID_942419026" MODIFIED="1357568269356" TEXT="putting a space after the ncommand causes a syntax error. Putting a space beforethe d command is okay"/>

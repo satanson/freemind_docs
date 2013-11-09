@@ -74,7 +74,7 @@
 <node CREATED="1382684632848" ID="ID_99452776" MODIFIED="1382684633772" TEXT="roll back "/>
 </node>
 </node>
-<node CREATED="1382685375365" ID="ID_65148854" MODIFIED="1382685376298" POSITION="right" TEXT="Data Organization">
+<node CREATED="1382685375365" ID="ID_65148854" MODIFIED="1383836391564" POSITION="right" TEXT="Data Organization">
 <node CREATED="1382685417662" ID="ID_243053480" MODIFIED="1382685418766" TEXT="write-once-read-many"/>
 <node CREATED="1382685419353" FOLDED="true" ID="ID_6299505" MODIFIED="1382685525803" TEXT="A typical block size used by HDFS is 64 MB.">
 <node CREATED="1382685507593" ID="ID_1487377599" MODIFIED="1382685508549" TEXT="Thus, an HDFS file is chopped up into 64 MB chunks, and if possible, each chunk will reside on a different DataNode"/>

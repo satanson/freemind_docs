@@ -1,7 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1373510402418" ID="ID_1228866437" MODIFIED="1373510414351" TEXT="statistics">
-<node CREATED="1373510418316" FOLDED="true" ID="ID_562870548" MODIFIED="1373707311756" POSITION="right" STYLE="fork" TEXT="&#x5b9e;&#x5206;&#x6790;.&#x6d4b;&#x5ea6;&#x8bba;">
+<node CREATED="1373510402418" ID="ID_1228866437" MODIFIED="1383835894452" TEXT="statistics">
+<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<node CREATED="1373510418316" FOLDED="true" ID="ID_562870548" MODIFIED="1383836228552" POSITION="right" STYLE="fork" TEXT="&#x5b9e;&#x5206;&#x6790;.&#x6d4b;&#x5ea6;&#x8bba;">
 <node CREATED="1373513774061" ID="ID_657155009" MODIFIED="1373513778926" TEXT="&#x6d4b;&#x5ea6;">
 <node CREATED="1373514372270" ID="ID_112903634" MODIFIED="1373514374651" TEXT="&#x8fde;&#x7eed;">
 <node CREATED="1373510445886" ID="ID_616082885" MODIFIED="1373642046906" TEXT="&#x6b27;&#x6c0f;&#x7a7a;&#x95f4;">
@@ -67,18 +68,18 @@
 <node CREATED="1373709033756" FOLDED="true" ID="ID_1431925504" MODIFIED="1373711537545" POSITION="right" TEXT="&#x96c6;&#x5408;&#x5e8f;&#x5217;&#x4e0a;&#x4e0b;&#x6781;&#x9650;">
 <node CREATED="1373709071517" ID="ID_932071178" MODIFIED="1373709079922" TEXT="limsup">
 <node CREATED="1373711026444" ID="ID_1577168823" MODIFIED="1373711184315">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \[ \varlimsup_{n \rightarrow \infty} S_{n} =
-    </p>
-    <p>
-      \bigcap\limits _{i=1}^{\infty}\bigcup\limits_{j=i}^{\infty}S_{j}\]
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \[ \varlimsup_{n \rightarrow \infty} S_{n} =&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \bigcap\limits _{i=1}^{\infty}\bigcup\limits_{j=i}^{\infty}S_{j}\]&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1373711197916" ID="ID_440753472" MODIFIED="1373711354690" TEXT="&#x4e0a;&#x6781;&#x9650;&#x7531;&#x5728;&#x65e0;&#x9650;&#x5b50;&#x5217;&#x4e2d;&#x51fa;&#x73b0;&#x7684;&#x5143;&#x7d20;&#x7ec4;&#x6210;"/>
 <node CREATED="1373711332394" ID="ID_1823376845" MODIFIED="1373711332394" TEXT=""/>
@@ -86,25 +87,25 @@
 </node>
 <node CREATED="1373709080833" ID="ID_717689601" MODIFIED="1373709083345" TEXT="liminf">
 <node CREATED="1373711026444" ID="ID_509401891" MODIFIED="1373711195886">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \[ \varliminf_{n \rightarrow \infty} S_{n} =
-    </p>
-    <p>
-      \bigcup\limits _{i=1}^{\infty}\bigcap\limits_{j=i}^{\infty}S_{j}\]
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \[ \varliminf_{n \rightarrow \infty} S_{n} =&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \bigcup\limits _{i=1}^{\infty}\bigcap\limits_{j=i}^{\infty}S_{j}\]&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1373711337318" ID="ID_1681543137" MODIFIED="1373711472349" TEXT="&#x4e0b;&#x6781;&#x9650;&#x7531;&#x5728;&#x622a;&#x53d6;&#x524d;k&#x4e2a;&#x96c6;&#x5408;&#x4e4b;&#x540e;&#x7684;&#x5269;&#x4f59;&#x5168;&#x90e8;&#x96c6;&#x5408;&#x4e2d;&#x51fa;&#x73b0;&#x7684;&#x5143;&#x7d20;&#x7ec4;&#x6210;"/>
 <node CREATED="1373711474231" ID="ID_777504400" MODIFIED="1373711474231" TEXT=""/>
 </node>
 </node>
 </node>
-<node CREATED="1373711538273" FOLDED="true" ID="ID_922213801" MODIFIED="1373878912530" POSITION="right" TEXT="&#x6d4b;&#x5ea6;&#x7a7a;&#x95f4;(measure space)">
+<node CREATED="1373711538273" FOLDED="true" ID="ID_922213801" MODIFIED="1383836222024" POSITION="right" TEXT="&#x6d4b;&#x5ea6;&#x7a7a;&#x95f4;(measure space)">
 <node CREATED="1373711593410" ID="ID_231286821" MODIFIED="1373711677243" TEXT="normal(&#x8303;&#x6570;),absolute value, length"/>
 <node CREATED="1373711677705" FOLDED="true" ID="ID_1618072183" MODIFIED="1373711937378" TEXT="distance">
 <node CREATED="1373711737264" ID="ID_989044782" MODIFIED="1373711749396" TEXT="1. d(x,y)=d(y,x)"/>
