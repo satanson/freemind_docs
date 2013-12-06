@@ -343,7 +343,7 @@
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380910164145" ID="ID_1414956738" MODIFIED="1380910185701" TEXT="swap with temporary."/>
 </node>
-<node CREATED="1380910235970" FOLDED="true" ID="ID_588252967" MODIFIED="1381039113419" POSITION="right" STYLE="fork" TEXT="12.Coercion by Member Template">
+<node CREATED="1380910235970" FOLDED="true" ID="ID_588252967" MODIFIED="1386142496682" POSITION="right" STYLE="fork" TEXT="12.Coercion by Member Template">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380912337939" ID="ID_1397723847" MODIFIED="1380912693851" TEXT="Class D is derived from class B, pointer to object of type D can be assigned to a  pointer to B. But Ptr&lt;B&gt; can&apos;t be assigned to Ptr&lt;D&gt; unless using Coercion By Member Template."/>
@@ -417,7 +417,7 @@
 <node CREATED="1380990875136" ID="ID_341232324" MODIFIED="1380990965852" TEXT="auto_ptr has no copy constructor/assignment operator  but move constructor/assignment operator."/>
 <node CREATED="1380990969489" ID="ID_458852448" MODIFIED="1380991209085" TEXT="neither const auto_ptr can be used to initialize other auto_ptr nor can be assigned to other auto_ptr."/>
 </node>
-<node CREATED="1381027785842" FOLDED="true" ID="ID_280744484" MODIFIED="1381040282272" POSITION="right" STYLE="fork" TEXT="17.Construct On first Use">
+<node CREATED="1381027785842" FOLDED="true" ID="ID_280744484" MODIFIED="1386142424412" POSITION="right" STYLE="fork" TEXT="17.Construct On first Use">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1381027806262" ID="ID_1020933278" MODIFIED="1381027907690" TEXT="Ensure that an object is initialized before its first use, ensure that non-local static object is initialized before its first use"/>
@@ -431,21 +431,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1381028874174" FOLDED="true" ID="ID_1571907848" MODIFIED="1381040486318" POSITION="right" STYLE="fork" TEXT="18.Construction Tracker">
+<node CREATED="1381028874174" FOLDED="true" ID="ID_1571907848" MODIFIED="1386142368682" POSITION="right" STYLE="fork" TEXT="18.Construction Tracker">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
-<node CREATED="1381028895872" ID="ID_1183574590" MODIFIED="1381029040106" TEXT="to Identify the data member that throws an exception when initialization of two or more object objects in the constructor initializaton list can throw the same exception type."/>
-<node CREATED="1381029132332" ID="ID_1799077472" MODIFIED="1381029141506" TEXT="constructor try block">
+<node CREATED="1381028895872" ID="ID_1183574590" MODIFIED="1385537462434" TEXT="to identify the data member that throws an exception when initialization of two or more  objects in the constructor initialization list can throw the same exception type."/>
+<node CREATED="1381029132332" ID="ID_1799077472" MODIFIED="1385537469020" TEXT="constructor try block">
 <node CREATED="1381029086889" ID="ID_602477400" MODIFIED="1381029127406" TEXT="there can be only one try block surrounding the initialization list"/>
 </node>
-<node CREATED="1381029164810" ID="ID_1217636028" MODIFIED="1381029318517" TEXT="counter">
+<node CREATED="1381029164810" ID="ID_1217636028" MODIFIED="1385537471021" TEXT="counter">
 <node CREATED="1381029181237" ID="ID_469985794" MODIFIED="1381029225810" TEXT="A counter is simply incremented as constructors of objects finish successfully one-by-one."/>
 </node>
-<node CREATED="1381029227163" FOLDED="true" ID="ID_1330472511" MODIFIED="1381029327879" TEXT="comma(,) operator">
+<node CREATED="1381029227163" FOLDED="true" ID="ID_1330472511" MODIFIED="1385537476348" TEXT="comma(,) operator">
 <node CREATED="1381029236676" ID="ID_1804490055" MODIFIED="1381029314425" TEXT="inject the counter increments in between calls to the constructors all being invisible to the user of the class."/>
 </node>
 <node CREATED="1381029328601" ID="ID_1637794011" MODIFIED="1381029410632" TEXT="note: member object must be initialized on constructor initialization list in their declaration order"/>
-<node CREATED="1381029413078" FOLDED="true" ID="ID_167089461" MODIFIED="1381029713786" TEXT="code">
+<node CREATED="1381029413078" ID="ID_167089461" MODIFIED="1385537477873" TEXT="code">
 <node CREATED="1381029629547" ID="ID_464118202" MODIFIED="1381029704261">
 <richcontent TYPE="NODE"><html>&#xd;
   <head>&#xd;

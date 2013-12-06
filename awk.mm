@@ -1,41 +1,41 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1337755951238" ID="ID_1931668010" MODIFIED="1377851220287" TEXT="awk">
+<node CREATED="1337755951238" ID="ID_1931668010" MODIFIED="1385650955009" TEXT="awk">
 <node CREATED="1337756031593" FOLDED="true" ID="ID_1278492169" MODIFIED="1367572664125" POSITION="right" TEXT="authors">
 <node CREATED="1337756070104" ID="ID_1366421252" MODIFIED="1337756070104">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">
-      <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="vertical-align: top; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Alfred Aho</span></font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">&#xd;
+      <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="vertical-align: top; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Alfred Aho</span></font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337756095110" ID="ID_43154702" MODIFIED="1337756095110">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">
-      <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="vertical-align: top; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Brian Kernighan</span></font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">&#xd;
+      <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="vertical-align: top; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Brian Kernighan</span></font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337756115305" ID="ID_1064788762" MODIFIED="1337756115305">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">
-      <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="vertical-align: top; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Peter Weinberger</span></font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">&#xd;
+      <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="vertical-align: top; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Peter Weinberger</span></font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -49,45 +49,45 @@
 <node CREATED="1337756552053" ID="ID_781140367" MODIFIED="1365606710027" TEXT="% nawk &apos;pattern&apos; filename  ">
 <icon BUILTIN="full-1"/>
 <node CREATED="1337756698103" ID="ID_512896358" MODIFIED="1337756698103">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">
-      <font face="Courier New,courier"><span style="vertical-align: top; font-family: Courier New,courier">% nawk '/Mary/' employees</span></font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">&#xd;
+      <font face="Courier New,courier"><span style="vertical-align: top; font-family: Courier New,courier">% nawk '/Mary/' employees</span></font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337756640623" ID="ID_1075419310" MODIFIED="1337757620166" TEXT="% nawk &apos;{action}&apos; filename">
 <icon BUILTIN="full-2"/>
 <node CREATED="1337756751884" ID="ID_1038618184" MODIFIED="1337756751884">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">
-      <font face="Courier New,courier"><span style="vertical-align: top; font-family: Courier New,courier">% nawk '{print $1}' employees</span></font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">&#xd;
+      <font face="Courier New,courier"><span style="vertical-align: top; font-family: Courier New,courier">% nawk '{print $1}' employees</span></font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337756640624" FOLDED="true" ID="ID_120556171" MODIFIED="1365606711843" TEXT="% nawk &apos;pattern {action}&apos; filename">
 <icon BUILTIN="full-3"/>
 <node CREATED="1337756801251" ID="ID_1583856707" MODIFIED="1337756801251">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">
-      <font face="Courier New,courier"><span style="vertical-align: top; font-family: Courier New,courier">nawk '/Sally/{print $1, $2}' employees</span></font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="text-indent: 0px; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px">&#xd;
+      <font face="Courier New,courier"><span style="vertical-align: top; font-family: Courier New,courier">nawk '/Sally/{print $1, $2}' employees</span></font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -97,24 +97,24 @@
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1337762718998" ID="ID_201126282" MODIFIED="1337762789185">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      pattern{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;action statement
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;action statement
-    </p>
-    <p>
-      }
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      pattern{&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;action statement&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;action statement&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
@@ -123,126 +123,126 @@
 <node CREATED="1337780799946" FOLDED="true" ID="ID_728124429" MODIFIED="1367572674070" POSITION="right" TEXT="control struct">
 <node CREATED="1337780820140" ID="ID_1365838319" MODIFIED="1337780835399" TEXT="conditional stmt">
 <node CREATED="1337780838525" ID="ID_1796782129" MODIFIED="1337780961167">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if(expr)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action1
-    </p>
-    <p>
-      [else
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action2]
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if(expr)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [else&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action2]&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337780902462" ID="ID_1801201486" MODIFIED="1337780948421">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if(expr){
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action1
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action2
-    </p>
-    <p>
-      }
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if(expr){&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action2&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337780975291" ID="ID_930701271" MODIFIED="1337781002468">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if(expr)action1
-    </p>
-    <p>
-      [else action2]
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if(expr)action1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [else action2]&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337781012052" ID="ID_1522602994" MODIFIED="1337781023941" TEXT="if(expr)action1;else action2"/>
 </node>
 <node CREATED="1337781115355" ID="ID_1715781921" MODIFIED="1362722558875" TEXT="loop stmt">
 <node CREATED="1337781135191" ID="ID_1748198564" MODIFIED="1337781166268">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      while(expr)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      while(expr)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337781167927" ID="ID_470792674" MODIFIED="1337781184310">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      do
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action
-    </p>
-    <p>
-      while(expr)
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      do&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      while(expr)&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337781239742" ID="ID_687236320" MODIFIED="1337784961095">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      for(set_counter;test_counter;increment_counter)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      for(set_counter;test_counter;increment_counter)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1337784903244" ID="ID_1046505785" MODIFIED="1337784974052">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      for(item in associative-array)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;action
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      for(item in associative-array)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;action&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -253,7 +253,7 @@
 <node CREATED="1337781429868" ID="ID_1408197569" MODIFIED="1337781433723" TEXT="exit"/>
 </node>
 </node>
-<node CREATED="1337757231599" ID="ID_253791869" MODIFIED="1367572654307" POSITION="right" TEXT="process(nawk &apos;{print $1,$2}&apos; employees)">
+<node CREATED="1337757231599" FOLDED="true" ID="ID_253791869" MODIFIED="1385650953597" POSITION="right" TEXT="process(nawk &apos;{print $1,$2}&apos; employees)">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1337757237160" ID="ID_841975563" MODIFIED="1337757735568" TEXT="take a line(record) of input file into buff designated by $0">
 <icon BUILTIN="full-1"/>
@@ -265,404 +265,404 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node CREATED="1337762228758" ID="ID_404128413" MODIFIED="1367572649123" POSITION="right" TEXT="patterns">
+<node CREATED="1337762228758" ID="ID_404128413" MODIFIED="1385650965989" POSITION="right" TEXT="patterns">
 <node CREATED="1337763079561" ID="ID_1964250558" MODIFIED="1367572650876" TEXT="regular expression">
 <node CREATED="1337762833063" ID="ID_567573414" MODIFIED="1377851235255" TEXT="metacharacters">
 <node CREATED="1337762998021" ID="ID_1423665857" MODIFIED="1337762998021">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Metacharacter</span></b></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">What It Does</span></b></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">^</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches at the beginning of string</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">$</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches at the end of string</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">.</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for a single character</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">*</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for zero or more of the preceding characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">+</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for one or more of the preceding characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">?</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for zero or one of the preceding characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[ABC]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for any one character in the set of characters </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">B</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">C</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[^ABC]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches any one character not in the set of characters </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">B</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">C</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[A&#8211;Z]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for any one character in the range from </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif"> to </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">Z</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">A|B</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches either </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif"> or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">B</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">(AB)</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">+</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches one or more sets of </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">AB</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">; e.g., </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">AB</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">ABAB</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">ABABAB</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">\*</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for a literal asterisk</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">&amp;</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Used in the replacement string to represent what was found in the search string</span></font>
-          </p>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Metacharacter</span></b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">What It Does</span></b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">^</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches at the beginning of string</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">$</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches at the end of string</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">.</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for a single character</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">*</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for zero or more of the preceding characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">+</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for one or more of the preceding characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">?</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for zero or one of the preceding characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[ABC]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for any one character in the set of characters </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">B</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">C</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[^ABC]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches any one character not in the set of characters </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">B</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">C</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[A&#x2013;Z]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for any one character in the range from </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif"> to </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">Z</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">A|B</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches either </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">A</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif"> or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">B</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">(AB)</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">+</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches one or more sets of </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">AB</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">; e.g., </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">AB</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">ABAB</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">ABABAB</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">\*</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Matches for a literal asterisk</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">&amp;</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Used in the replacement string to represent what was found in the search string</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337763108717" FOLDED="true" ID="ID_627920426" MODIFIED="1377851250309" TEXT="not supported">
 <node CREATED="1337763158865" ID="ID_1048322717" MODIFIED="1337763177071">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b>Metacharacter</b></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b>Function</b></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier">\&lt; \&gt;</font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif">Word anchors</font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier">\( \)</font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif">Backreferencing</font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier">\{ \}</font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif">Repetition</font>
-          </p>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b>Metacharacter</b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b>Function</b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier">\&lt; \&gt;</font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif">Word anchors</font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier">\( \)</font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif">Backreferencing</font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier">\{ \}</font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif">Repetition</font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337763284186" FOLDED="true" ID="ID_55155352" MODIFIED="1377851261026" TEXT="The POSIX Character Class">
 <node CREATED="1337763416754" ID="ID_513681570" MODIFIED="1337763416754">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Bracket Class</span></b></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Meaning</span></b></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:alnum:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Alphanumeric characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:alpha:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Alphabetic characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:cntrl:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Control characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:digit:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Numeric characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:graph:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Nonblank characters (not spaces, control characters, etc.)</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:lower:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Lowercase letters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:print:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Like </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">[:graph:]</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, but includes the space character</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:punct:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Punctuation characters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:space:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">All whitespace characters (newlines, spaces, tabs)</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:upper:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Uppercase letters</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:xdigit:]</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Allows digits in a hexadecimal number (</span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">0-9a-fA-F</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">)</span></font>
-          </p>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Bracket Class</span></b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Meaning</span></b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:alnum:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Alphanumeric characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:alpha:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Alphabetic characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:cntrl:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Control characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:digit:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Numeric characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:graph:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Nonblank characters (not spaces, control characters, etc.)</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:lower:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Lowercase letters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:print:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Like </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">[:graph:]</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, but includes the space character</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:punct:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Punctuation characters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:space:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">All whitespace characters (newlines, spaces, tabs)</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:upper:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Uppercase letters</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">[:xdigit:]</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Allows digits in a hexadecimal number (</span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">0-9a-fA-F</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">)</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -726,74 +726,74 @@
 </node>
 <node CREATED="1337760327565" ID="ID_1565409872" MODIFIED="1337773211757" TEXT="modifier">
 <node CREATED="1337760384944" ID="ID_84227779" MODIFIED="1337760384944">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Character</span></b></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Definition</span></b></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">&#8211;</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Left-justification modifier</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">#</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Integers in octal format are displayed with a leading 0; integers in hexadecimal form are displayed with a leading 0x</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">+</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">For conversions using </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">d</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">e</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">f</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, and </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">g</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, integers are displayed with a numeric sign </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">+</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif"> or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">&#8211;</span></font>
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Courier New,courier"><span style="font-family: Courier New,courier">0</span></font>
-          </p>
-        </td>
-        <td style="vertical-align: top">
-          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">
-            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">The displayed value is padded with zeros instead of whitespace</span></font>
-          </p>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px" border="0" cellspacing="0" cellpadding="5">&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Character</span></b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><b><span style="font-weight: 600; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Definition</span></b></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">&#x2013;</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Left-justification modifier</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">#</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">Integers in octal format are displayed with a leading 0; integers in hexadecimal form are displayed with a leading 0x</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">+</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">For conversions using </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">d</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">e</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">f</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, and </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">g</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">, integers are displayed with a numeric sign </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">+</span></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif"> or </span></font><font face="Courier New,courier"><span style="font-family: Courier New,courier">&#x2013;</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Courier New,courier"><span style="font-family: Courier New,courier">0</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+        <td style="vertical-align: top">&#xd;
+          <p style="text-indent: 0px; margin-bottom: 12px; margin-top: 12px; margin-left: 0px; margin-right: 0px">&#xd;
+            <font face="Verdana,Geneva,Arial,Helvetica,sans-serif"><span style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif">The displayed value is padded with zeros instead of whitespace</span></font>&#xd;
+          </p>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -803,7 +803,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337768962164" ID="ID_1363504691" MODIFIED="1367572636986" POSITION="right" TEXT="expression">
+<node CREATED="1337768962164" FOLDED="true" ID="ID_1363504691" MODIFIED="1385650951874" POSITION="right" TEXT="expression">
 <node CREATED="1337769042044" ID="ID_254239973" MODIFIED="1337769124243" TEXT="identifier(user defined variable)">
 <node CREATED="1337769127150" ID="ID_401689480" MODIFIED="1337769160661" TEXT="[_A-Za-z][_A-Za-z0-9]*"/>
 </node>
@@ -877,18 +877,18 @@
 <node CREATED="1337759004671" ID="ID_1901551679" MODIFIED="1337759010929" TEXT="OFMT">
 <node CREATED="1337759036442" ID="ID_919477790" MODIFIED="1337759054821" TEXT="control  output format of number">
 <node CREATED="1337759199415" ID="ID_811371972" MODIFIED="1337759240633">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      % nawk&#160;&#160;'BEGIN{OFMT=&quot;%.2f&quot;; print 1.2456789, 12E&#8211;2}'
-    </p>
-    <p>
-      1.25&#160;&#160;0.12
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      % nawk&#xa0;&#xa0;'BEGIN{OFMT="%.2f"; print 1.2456789, 12E&#x2013;2}'&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      1.25&#xa0;&#xa0;0.12&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
