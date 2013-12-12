@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1382668177714" ID="ID_1563909317" MODIFIED="1382668192028" TEXT="HDFS">
-<node CREATED="1382668222783" FOLDED="true" ID="ID_1655485859" MODIFIED="1382669078189" POSITION="right" TEXT="master/slave architecture">
+<node CREATED="1382668222783" ID="ID_1655485859" MODIFIED="1386684310887" POSITION="right" TEXT="master/slave architecture">
 <node CREATED="1382668239402" FOLDED="true" ID="ID_443959859" MODIFIED="1382669074418" TEXT="HDFS cluster consists of ">
 <node CREATED="1382668252473" ID="ID_696577111" MODIFIED="1382668253539" TEXT="single NameNode">
 <node CREATED="1382668271650" ID="ID_568933743" MODIFIED="1382668272882" TEXT="a master server that">
@@ -20,10 +20,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1382669786123" FOLDED="true" ID="ID_1454676081" MODIFIED="1382669791605" POSITION="right" TEXT="Data Replication">
+<node CREATED="1382669786123" ID="ID_1454676081" MODIFIED="1386684315536" POSITION="right" TEXT="Data Replication">
 <node CREATED="1382669078470" ID="ID_906875704" MODIFIED="1382669789905" TEXT="rack-aware replica placement policy"/>
 </node>
-<node CREATED="1382669792388" ID="ID_291576821" MODIFIED="1382669825218" POSITION="right" TEXT="The Persistence of File System Metadata">
+<node CREATED="1382669792388" FOLDED="true" ID="ID_291576821" MODIFIED="1386684336266" POSITION="right" TEXT="The Persistence of File System Metadata">
 <node CREATED="1382669850203" ID="ID_839945530" MODIFIED="1382669851452" TEXT="The HDFS namespace is stored by the NameNode. The NameNode uses a transaction log called the EditLog to persistently record every change that occurs to file system metadata."/>
 <node CREATED="1382670343745" ID="ID_49698098" MODIFIED="1382670489580" TEXT="NameNode(metadata)">
 <node CREATED="1382669944847" ID="ID_1653197828" MODIFIED="1382670353400" TEXT="Editlog">
@@ -48,7 +48,7 @@
 <node CREATED="1382670584116" ID="ID_1717486255" MODIFIED="1382670588837" TEXT="HeartBeat"/>
 </node>
 </node>
-<node CREATED="1382670621674" FOLDED="true" ID="ID_160118479" MODIFIED="1382671802406" POSITION="right" TEXT="The Communication Protocols">
+<node CREATED="1382670621674" ID="ID_160118479" MODIFIED="1386684341093" POSITION="right" TEXT="The Communication Protocols">
 <node CREATED="1382670637571" ID="ID_534096999" MODIFIED="1382671577116" TEXT="lay on TCP/IP"/>
 <node CREATED="1382671641872" ID="ID_458894410" MODIFIED="1382671642898" TEXT="ClientProtocol"/>
 <node CREATED="1382671660863" ID="ID_919735167" MODIFIED="1382671662487" TEXT="DataNode Protocol"/>
@@ -74,7 +74,7 @@
 <node CREATED="1382684632848" ID="ID_99452776" MODIFIED="1382684633772" TEXT="roll back "/>
 </node>
 </node>
-<node CREATED="1382685375365" ID="ID_65148854" MODIFIED="1383836391564" POSITION="right" TEXT="Data Organization">
+<node CREATED="1382685375365" FOLDED="true" ID="ID_65148854" MODIFIED="1386684304599" POSITION="right" TEXT="Data Organization">
 <node CREATED="1382685417662" ID="ID_243053480" MODIFIED="1382685418766" TEXT="write-once-read-many"/>
 <node CREATED="1382685419353" FOLDED="true" ID="ID_6299505" MODIFIED="1382685525803" TEXT="A typical block size used by HDFS is 64 MB.">
 <node CREATED="1382685507593" ID="ID_1487377599" MODIFIED="1382685508549" TEXT="Thus, an HDFS file is chopped up into 64 MB chunks, and if possible, each chunk will reside on a different DataNode"/>
