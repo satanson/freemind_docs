@@ -1,6 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1381681526000" ID="ID_975843265" MODIFIED="1381681545319" TEXT="metaprogramming">
+<node CREATED="1381681526000" ID="ID_975843265" MODIFIED="1387025525305" TEXT="metaprogramming">
+<font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1381681573720" ID="ID_1225702659" MODIFIED="1381681608411" POSITION="right" TEXT="&#x201c;The art of programming programs that read, transform, or write other programs.&#x201d; ">
 <node CREATED="1381681611433" ID="ID_1653985081" MODIFIED="1381681612964" TEXT="Fran&#xe7;ois-Ren&#xe9; Rideau"/>
 </node>
@@ -20,13 +21,13 @@
 </node>
 <node CREATED="1381683102029" ID="ID_5541253" MODIFIED="1381683109364" POSITION="right" TEXT="Compiler will select the most specialized applicable class template. "/>
 <node CREATED="1381682050327" ID="ID_490343794" MODIFIED="1381682069025" POSITION="right" TEXT="template argument deduction (type deduction)"/>
-<node CREATED="1381682417504" ID="ID_1809769508" MODIFIED="1381682421496" POSITION="right" TEXT="concepts">
+<node CREATED="1381682417504" FOLDED="true" ID="ID_1809769508" MODIFIED="1387026168758" POSITION="right" TEXT="concepts">
 <node CREATED="1381682422770" ID="ID_940531045" MODIFIED="1381682436426" TEXT="copyable"/>
 <node CREATED="1381682436877" ID="ID_914485453" MODIFIED="1381682442837" TEXT="assignable"/>
 <node CREATED="1381682450473" ID="ID_505194978" MODIFIED="1381682463301" TEXT="concept-check"/>
 <node CREATED="1381682681126" ID="ID_437094961" MODIFIED="1381682681126" TEXT=""/>
 </node>
-<node CREATED="1381682702351" FOLDED="true" ID="ID_1616906271" MODIFIED="1381981863097" POSITION="right" TEXT="class template">
+<node CREATED="1381682702351" FOLDED="true" ID="ID_1616906271" MODIFIED="1387026163379" POSITION="right" TEXT="class template">
 <node CREATED="1381682684705" ID="ID_1198667051" MODIFIED="1381682799270" TEXT="(common practice)publish each class template&apos;s argument."/>
 <node CREATED="1381682800708" ID="ID_394147350" MODIFIED="1381682837087" TEXT="unlike function template">
 <node CREATED="1381682838359" ID="ID_98090418" MODIFIED="1381682969193" TEXT="1. class template arguments can&apos;t be deduced. "/>
@@ -52,7 +53,7 @@
 <node CREATED="1381686030112" ID="ID_1003987417" MODIFIED="1381687306641" TEXT="static const integrals"/>
 <node CREATED="1381686037816" ID="ID_69511350" MODIFIED="1381687310862" TEXT="enums"/>
 </node>
-<node CREATED="1381981868331" ID="ID_1971940693" MODIFIED="1381985090415" POSITION="right" TEXT="template &amp; specialization">
+<node CREATED="1381981868331" FOLDED="true" ID="ID_1971940693" MODIFIED="1387025571527" POSITION="right" TEXT="template &amp; specialization">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1381981888414" ID="ID_869646984" MODIFIED="1381986368547" TEXT="template">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
@@ -117,6 +118,27 @@
 <node CREATED="1381984944184" ID="ID_1230050532" MODIFIED="1381984964351" TEXT="for member function tempalte"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1387026174818" ID="ID_710592225" MODIFIED="1387026179340" POSITION="right" TEXT="template">
+<node CREATED="1387026180606" ID="ID_626560947" MODIFIED="1387026190116" TEXT="template argument deduction">
+<node CREATED="1387029317884" FOLDED="true" ID="ID_1924635850" MODIFIED="1387029333525" TEXT="deduction process">
+<node CREATED="1387026193567" ID="ID_189815405" MODIFIED="1387029331309" TEXT="each argument-parameter pair is analyzed independently."/>
+<node CREATED="1387027418039" ID="ID_606524551" MODIFIED="1387029331308" TEXT="if all the deduced template parameters are not consistently  determined, deduction fails."/>
+<node CREATED="1387027507831" ID="ID_1414956727" MODIFIED="1387029331305" TEXT="even if all the template parameters are consistently determined, deduction can still fail if  substituting the argument in the rest of function declaration results in invalid constructs."/>
+</node>
+<node CREATED="1387029338099" ID="ID_1775016719" MODIFIED="1387029491708" TEXT="argument(type A)-parameter(type P) matching">
+<node CREATED="1387029356823" ID="ID_1752809865" MODIFIED="1387029503271" TEXT="reference (disdecay)">
+<node CREATED="1387029515256" ID="ID_312675581" MODIFIED="1387029706236" TEXT="P is taken to be the type referenced, A is the argument type"/>
+</node>
+<node CREATED="1387029466383" ID="ID_250956273" MODIFIED="1387030409658" TEXT="non-reference (decay)">
+<node CREATED="1387029669329" ID="ID_679508214" MODIFIED="1387029924333" TEXT="P is declared parameter type, and A is obtained from the type of the argument by decaying array and function types to pointer types,ignoring top-level cv-qualifiers"/>
+</node>
+<node CREATED="1387030410550" ID="ID_145158177" MODIFIED="1387030413450" TEXT="error">
+<node CREATED="1387030414450" ID="ID_1660215326" MODIFIED="1387030535220" TEXT="template &lt;typename T&gt; T const&amp; max(T const&amp; lhs, T const&amp; rhs);"/>
+<node CREATED="1387030535847" ID="ID_1053044296" MODIFIED="1387030601116" TEXT="max(&quot;apple&quot;,&quot;pear&quot;);//fail! &quot;apple&quot; deduced char[6], &amp; &quot;pear&quot; char[5]"/>
 </node>
 </node>
 </node>
