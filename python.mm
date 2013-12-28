@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1339490731432" ID="ID_1698989523" MODIFIED="1367227309870" TEXT="python">
-<node CREATED="1340382207821" ID="ID_241930422" MODIFIED="1386684049919" POSITION="right" TEXT="program structure">
+<node CREATED="1340382207821" ID="ID_241930422" MODIFIED="1388256135840" POSITION="right" TEXT="program structure">
 <node CREATED="1343451089222" FOLDED="true" ID="ID_981985245" MODIFIED="1365523634073" TEXT="shbang">
 <node CREATED="1343451110719" ID="ID_1010072118" MODIFIED="1343451127163" TEXT="#!/bin/env python"/>
 </node>
@@ -179,7 +179,7 @@
 </node>
 <node CREATED="1340386292447" ID="ID_1388657339" MODIFIED="1375442068479" TEXT="expr">
 <node CREATED="1343462271606" ID="ID_656820386" MODIFIED="1386684072831" TEXT="data type">
-<node CREATED="1343462291598" FOLDED="true" ID="ID_1157464373" MODIFIED="1370184095367" TEXT="primitive types">
+<node CREATED="1343462291598" ID="ID_1157464373" MODIFIED="1388256286640" TEXT="primitive types">
 <node CREATED="1340386357107" FOLDED="true" ID="ID_1629001754" MODIFIED="1358142920740" TEXT="number">
 <node CREATED="1340387669679" ID="ID_1168945283" MODIFIED="1343462779709" TEXT="int">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
@@ -363,28 +363,28 @@
 </node>
 <node CREATED="1340718201925" ID="ID_736965089" MODIFIED="1340718263586" TEXT="utf-8">
 <node CREATED="1340718233412" ID="ID_1748049677" MODIFIED="1340718248593">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;000000 - 00007F&#x3000;&#x2551;&#x3000;0xxxxxxx&#xd;
-&#xd;
-    <div class="spctrl">&#xd;
-      &#xd;
-    </div>&#xd;
-    &#x3000;&#x3000;000080 - 0007FF&#x3000;&#x2551;&#x3000;110xxxxx 10xxxxxx&#xd;
-&#xd;
-    <div class="spctrl">&#xd;
-      &#xd;
-    </div>&#xd;
-    &#x3000;&#x3000;000800 - 00FFFF&#x3000;&#x2551;&#x3000;1110xxxx 10xxxxxx 10xxxxxx&#xd;
-&#xd;
-    <div class="spctrl">&#xd;
-      &#xd;
-    </div>&#xd;
-    &#x3000;&#x3000;010000 - 10FFFF&#x3000;&#x2551;&#x3000;11110xxx 10xxxxxx 10xxxxxx 10xxxxxx&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;000000 - 00007F&#x3000;&#x2551;&#x3000;0xxxxxxx&#xd;&#xd;
+&#xd;&#xd;
+    <div class="spctrl">&#xd;&#xd;
+      &#xd;&#xd;
+    </div>&#xd;&#xd;
+    &#x3000;&#x3000;000080 - 0007FF&#x3000;&#x2551;&#x3000;110xxxxx 10xxxxxx&#xd;&#xd;
+&#xd;&#xd;
+    <div class="spctrl">&#xd;&#xd;
+      &#xd;&#xd;
+    </div>&#xd;&#xd;
+    &#x3000;&#x3000;000800 - 00FFFF&#x3000;&#x2551;&#x3000;1110xxxx 10xxxxxx 10xxxxxx&#xd;&#xd;
+&#xd;&#xd;
+    <div class="spctrl">&#xd;&#xd;
+      &#xd;&#xd;
+    </div>&#xd;&#xd;
+    &#x3000;&#x3000;010000 - 10FFFF&#x3000;&#x2551;&#x3000;11110xxx 10xxxxxx 10xxxxxx 10xxxxxx&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -536,21 +536,21 @@
 <node CREATED="1340631557483" ID="ID_1215593541" MODIFIED="1340631601696" TEXT="Template.safe_substitute (key1=value1,key2=value2,...)"/>
 <node CREATED="1343463502825" ID="ID_662419965" MODIFIED="1343463503982" TEXT="demo">
 <node CREATED="1343463506795" ID="ID_451221436" MODIFIED="1343463601365">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      from string import Template&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      t=Template("${name} is ${gender}")&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      s=t.substitute(name="ranpanf",gender="boy")&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      from string import Template&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      t=Template("${name} is ${gender}")&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      s=t.substitute(name="ranpanf",gender="boy")&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -610,7 +610,7 @@
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1340460321021" ID="ID_1643479366" MODIFIED="1340460339243" TEXT="as list above"/>
 </node>
-<node CREATED="1340525241305" FOLDED="true" ID="ID_927579740" MODIFIED="1386684100199" TEXT="sequence operator">
+<node CREATED="1340525241305" FOLDED="true" ID="ID_927579740" MODIFIED="1388256296342" TEXT="sequence operator">
 <node CREATED="1340459627664" ID="ID_1608995409" MODIFIED="1340525296367" TEXT="seq[subscript]">
 <font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
@@ -631,7 +631,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1343462480639" FOLDED="true" ID="ID_1925832512" MODIFIED="1386684081581" TEXT="map">
+<node CREATED="1343462480639" ID="ID_1925832512" MODIFIED="1388256305320" TEXT="map">
 <node CREATED="1340459597902" ID="ID_711834141" MODIFIED="1351259459544" TEXT="dict {:,:,...} immutable">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1340459903125" ID="ID_1479331390" MODIFIED="1340459931012" TEXT="dict[&quot;key&quot;]">
@@ -652,7 +652,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1343462491114" FOLDED="true" ID="ID_348752948" MODIFIED="1386684080220" TEXT="set">
+<node CREATED="1343462491114" FOLDED="true" ID="ID_348752948" MODIFIED="1388256303082" TEXT="set">
 <node CREATED="1340519970520" ID="ID_205980283" MODIFIED="1351099943383" TEXT="set (mutable)">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1340806071265" ID="ID_990163325" MODIFIED="1340806168597" TEXT="set.add(elem)"/>
@@ -696,7 +696,7 @@
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1343463664044" FOLDED="true" ID="ID_668427268" MODIFIED="1358143676157" TEXT="iteration">
+<node CREATED="1343463664044" ID="ID_668427268" MODIFIED="1388256297484" TEXT="iteration">
 <node CREATED="1343464420225" ID="ID_981835951" MODIFIED="1343465354701" TEXT="iter(obj)">
 <node CREATED="1343465372459" ID="ID_1072127731" MODIFIED="1343465385472" TEXT="__iter__()"/>
 <node CREATED="1343465386195" ID="ID_796011874" MODIFIED="1343465392078" TEXT="next()"/>
@@ -775,7 +775,7 @@
 <node CREATED="1340476028041" ID="ID_444169134" MODIFIED="1340476696295" TEXT=""/>
 </node>
 </node>
-<node CREATED="1340386324027" ID="ID_1128064216" MODIFIED="1351260036877" TEXT="operator">
+<node CREATED="1340386324027" FOLDED="true" ID="ID_1128064216" MODIFIED="1388256137979" TEXT="operator">
 <node CREATED="1340386377087" ID="ID_422062494" MODIFIED="1358262351877" TEXT="arithmetic">
 <node CREATED="1340386553048" ID="ID_1822540600" MODIFIED="1340386557660" TEXT="+"/>
 <node CREATED="1340386558308" ID="ID_1612972799" MODIFIED="1340386581910" TEXT="-"/>
@@ -854,7 +854,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1340460687255" ID="ID_66485462" MODIFIED="1372834770979" TEXT="statement">
+<node CREATED="1340460687255" FOLDED="true" ID="ID_66485462" MODIFIED="1388256276074" TEXT="statement">
 <node CREATED="1340473909028" ID="ID_1941696547" MODIFIED="1375531929155" TEXT="special characters">
 <node CREATED="1340473932032" ID="ID_1406231405" MODIFIED="1340473933766" TEXT="#">
 <node CREATED="1340473935772" ID="ID_1097788940" MODIFIED="1340473938775" TEXT="comment"/>
@@ -876,8 +876,8 @@
 </node>
 </node>
 <node CREATED="1340460692832" ID="ID_203735173" MODIFIED="1340460704424" TEXT="simple stmt"/>
-<node CREATED="1340460704680" FOLDED="true" ID="ID_972989039" MODIFIED="1375442944574" TEXT="complex stmt">
-<node CREATED="1340460991979" ID="ID_456993867" MODIFIED="1351260141451" TEXT="conditional expr">
+<node CREATED="1340460704680" ID="ID_972989039" MODIFIED="1388256141511" TEXT="complex stmt">
+<node CREATED="1340460991979" FOLDED="true" ID="ID_456993867" MODIFIED="1388256270074" TEXT="conditional expr">
 <node CREATED="1340461004787" ID="ID_816086718" MODIFIED="1340461039515" TEXT="True">
 <node CREATED="1340461041907" ID="ID_1274108141" MODIFIED="1340461053235" TEXT="non-zero"/>
 <node CREATED="1340461053490" ID="ID_989783875" MODIFIED="1340461055442" TEXT="True"/>
@@ -898,7 +898,7 @@
 <node CREATED="1340519485460" ID="ID_319367799" MODIFIED="1340519495127" TEXT="user-defined class instance whose method __nonzero__() or __len__() return zero "/>
 </node>
 </node>
-<node CREATED="1340460713268" ID="ID_593013080" MODIFIED="1375442920688" TEXT="branch">
+<node CREATED="1340460713268" FOLDED="true" ID="ID_593013080" MODIFIED="1388256142967" TEXT="branch">
 <node CREATED="1340460965132" ID="ID_196880921" MODIFIED="1340462437499" TEXT="if">
 <node CREATED="1340462438877" ID="ID_1715901684" MODIFIED="1340462478608" TEXT="if-elif-else"/>
 <node CREATED="1340807177507" ID="ID_1842338270" MODIFIED="1340807234060" TEXT="python has no ?: ,but">
@@ -912,7 +912,7 @@
 <node CREATED="1340807268388" ID="ID_1173052434" MODIFIED="1340807275850" TEXT="if expr:stmt"/>
 </node>
 </node>
-<node CREATED="1340460932965" ID="ID_1447641928" MODIFIED="1367231271239" TEXT="loop">
+<node CREATED="1340460932965" FOLDED="true" ID="ID_1447641928" MODIFIED="1388256264306" TEXT="loop">
 <node CREATED="1340460968509" ID="ID_680713680" MODIFIED="1340462560836" TEXT="while"/>
 <node CREATED="1340807759528" ID="ID_1161178691" MODIFIED="1340807766280" TEXT="while-else"/>
 <node CREATED="1340462561465" ID="ID_531056656" MODIFIED="1340462562575" TEXT="for">
@@ -1048,81 +1048,81 @@
 <node CREATED="1370312531585" FOLDED="true" ID="ID_401188849" MODIFIED="1370333919252" TEXT="super &quot;cooperative super call&quot;,&quot;call-next-method&quot;">
 <node CREATED="1370312536561" FOLDED="true" ID="ID_733702088" MODIFIED="1370315071873" TEXT="super(type, obj)">
 <node CREATED="1370314861610" ID="ID_15958206" MODIFIED="1370315066651">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre/>&#xd;
-    <pre>class A(object):&#xd;
-    def m(self):&#xd;
-        return "A"&#xd;
-&#xd;
-class B(A):&#xd;
-    def m(self):&#xd;
-        return "B" + Super(B, self).m()&#xd;
-&#xd;
-class C(A):&#xd;
-    def m(self):&#xd;
-        return "C" + Super(C, self).m()&#xd;
-&#xd;
-class D(C, B):&#xd;
-    def m(self):&#xd;
-        return "D" + Super(D, self).m()&#xd;
-&#xd;
-print D().m() # "DCBA"</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre/>&#xd;&#xd;
+    <pre>class A(object):&#xd;&#xd;
+    def m(self):&#xd;&#xd;
+        return "A"&#xd;&#xd;
+&#xd;&#xd;
+class B(A):&#xd;&#xd;
+    def m(self):&#xd;&#xd;
+        return "B" + Super(B, self).m()&#xd;&#xd;
+&#xd;&#xd;
+class C(A):&#xd;&#xd;
+    def m(self):&#xd;&#xd;
+        return "C" + Super(C, self).m()&#xd;&#xd;
+&#xd;&#xd;
+class D(C, B):&#xd;&#xd;
+    def m(self):&#xd;&#xd;
+        return "D" + Super(D, self).m()&#xd;&#xd;
+&#xd;&#xd;
+print D().m() # "DCBA"</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370314668489" FOLDED="true" ID="ID_1017349045" MODIFIED="1370315070745" TEXT="super(type, type2)">
 <node CREATED="1370315038090" ID="ID_1003426431" MODIFIED="1370315046330">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      super(type, type2)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;super(cls&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;classRoundFloat(float):&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;def__new__(cls, val):&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;returnsuper(RoundFloat, cls).__new__(&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;cls, round(val, 2))&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      super(type, type2)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;super(cls&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;classRoundFloat(float):&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;def__new__(cls, val):&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;returnsuper(RoundFloat, cls).__new__(&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;cls, round(val, 2))&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370314638218" FOLDED="true" ID="ID_615897105" MODIFIED="1370315075978" TEXT="super(type)">
 <node CREATED="1370314593664" ID="ID_22136688" MODIFIED="1370314640834">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>class A:&#xd;
-        def m(self): "save A's data"&#xd;
-    class B(A):&#xd;
-        def m(self): "save B's data"; self.__super.m()&#xd;
-    B._B__super = super(B)&#xd;
-    class C(A):&#xd;
-        def m(self): "save C's data"; self.__super.m()&#xd;
-    C._C__super = super(C)&#xd;
-    class D(B, C):&#xd;
-        def m(self): "save D's data"; self.__super.m()&#xd;
-    D._D__super = super(D)</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>class A:&#xd;&#xd;
+        def m(self): "save A's data"&#xd;&#xd;
+    class B(A):&#xd;&#xd;
+        def m(self): "save B's data"; self.__super.m()&#xd;&#xd;
+    B._B__super = super(B)&#xd;&#xd;
+    class C(A):&#xd;&#xd;
+        def m(self): "save C's data"; self.__super.m()&#xd;&#xd;
+    C._C__super = super(C)&#xd;&#xd;
+    class D(B, C):&#xd;&#xd;
+        def m(self): "save D's data"; self.__super.m()&#xd;&#xd;
+    D._D__super = super(D)</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1320,7 +1320,7 @@ print D().m() # "DCBA"</pre>&#xd;
 <node CREATED="1370333466168" ID="ID_547186324" MODIFIED="1370333469191" TEXT="__del__"/>
 </node>
 </node>
-<node CREATED="1340518320383" FOLDED="true" ID="ID_288479135" MODIFIED="1370184634213" POSITION="right" TEXT="python  object">
+<node CREATED="1340518320383" FOLDED="true" ID="ID_288479135" MODIFIED="1388256132535" POSITION="right" TEXT="python  object">
 <node CREATED="1340518548503" FOLDED="true" ID="ID_587032191" MODIFIED="1370184450861" TEXT="has three characteristics">
 <node CREATED="1340518628278" ID="ID_1600723046" MODIFIED="1340518633545" TEXT="identity">
 <node CREATED="1340518635048" ID="ID_94847769" MODIFIED="1340518646740" TEXT="id(object) BIF"/>
