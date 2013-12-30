@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1387552126912" TEXT="lang-go">
-<node CREATED="1387552480402" FOLDED="true" ID="ID_1840000910" MODIFIED="1387612399037" POSITION="right" TEXT="intros">
+<node CREATED="1387552480402" FOLDED="true" ID="ID_1840000910" MODIFIED="1388328703360" POSITION="right" TEXT="intros">
 <node CREATED="1387552115759" ID="ID_1500553857" MODIFIED="1387552486157" TEXT="fast {development, execution, compilation}"/>
 <node CREATED="1387552295765" ID="ID_1950810780" MODIFIED="1387612195650" TEXT="compiled, statically-typed, strongly-typed"/>
 <node CREATED="1387552388431" ID="ID_1268843317" MODIFIED="1387552486155" TEXT="dynamic memory allocation/ automatic garbage collection"/>
@@ -9,7 +9,7 @@
 <node CREATED="1387612163420" ID="ID_1454562995" MODIFIED="1387612222364" TEXT="statically linked"/>
 <node CREATED="1387612342195" ID="ID_1891892390" MODIFIED="1387612360670" TEXT="builtin concurrency support"/>
 </node>
-<node CREATED="1387605158006" FOLDED="true" ID="ID_468602589" MODIFIED="1387612405678" POSITION="right" TEXT="dev env {install,workspace,tool}">
+<node CREATED="1387605158006" FOLDED="true" ID="ID_468602589" MODIFIED="1388328701886" POSITION="right" TEXT="dev env {install,workspace,tool}">
 <node CREATED="1387605289221" FOLDED="true" ID="ID_455116758" MODIFIED="1387606168130" TEXT="install: tar; ${GOROOT}; ${PATH}">
 <node CREATED="1387605297050" ID="ID_978656759" MODIFIED="1387605945315" TEXT="$ tar -C /usr/local/ go1.2.linux-386.tar.gz "/>
 <node CREATED="1387605490190" ID="ID_1216139891" MODIFIED="1387605958532" TEXT="$ export GOROOT=/usr/local/go"/>
@@ -91,7 +91,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1387614310292" FOLDED="true" ID="ID_575874544" MODIFIED="1387633015673" POSITION="right" TEXT="Source code representation">
+<node CREATED="1387614310292" FOLDED="true" ID="ID_575874544" MODIFIED="1388328699675" POSITION="right" TEXT="Source code representation">
 <node CREATED="1387614331651" ID="ID_1074146505" MODIFIED="1387614340607" TEXT="utf8 encoding"/>
 <node CREATED="1387614406390" FOLDED="true" ID="ID_1166648974" MODIFIED="1387614637341" TEXT="Implementation restriction (NUL/BOM)">
 <node CREATED="1387614500173" ID="ID_1380315902" MODIFIED="1387614510391" TEXT="U+0000 (NUL character)">
@@ -119,7 +119,7 @@
 <node CREATED="1387614097583" MODIFIED="1387614097583" TEXT="hex_digit     = &quot;0&quot; &#x2026; &quot;9&quot; | &quot;A&quot; &#x2026; &quot;F&quot; | &quot;a&quot; &#x2026; &quot;f&quot; ."/>
 </node>
 </node>
-<node CREATED="1387612662132" FOLDED="true" ID="ID_935840891" MODIFIED="1387633022557" POSITION="right" TEXT="Lexical">
+<node CREATED="1387612662132" FOLDED="true" ID="ID_935840891" MODIFIED="1388328697695" POSITION="right" TEXT="Lexical">
 <node CREATED="1387612994002" FOLDED="true" ID="ID_1600723970" MODIFIED="1387614036914" TEXT="Comments">
 <node CREATED="1387613005982" ID="ID_588822141" MODIFIED="1387613007279" TEXT="//"/>
 <node CREATED="1387613007577" ID="ID_536023060" MODIFIED="1387613010967" TEXT="/* */"/>
@@ -278,7 +278,7 @@
 </node>
 <node CREATED="1387615929688" ID="ID_970742188" MODIFIED="1387615965545" TEXT="String (&quot;interpolation_string&quot;/ `raw_string`)"/>
 </node>
-<node CREATED="1387616241656" ID="ID_13549257" MODIFIED="1387632252369" TEXT="Contants">
+<node CREATED="1387616241656" FOLDED="true" ID="ID_13549257" MODIFIED="1388328694803" TEXT="Contants">
 <node CREATED="1387632256126" ID="ID_1045502543" MODIFIED="1387632260730" TEXT="literals"/>
 <node CREATED="1387632283983" FOLDED="true" ID="ID_1234309505" MODIFIED="1387632568428" TEXT="identifier denoting ">
 <node CREATED="1387632298601" ID="ID_1992516902" MODIFIED="1387632303781" TEXT="a constant"/>
@@ -307,163 +307,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1387633025489" ID="ID_49070361" MODIFIED="1388251450041" POSITION="right" TEXT="Types">
-<node CREATED="1387633028566" ID="ID_1105965748" MODIFIED="1387633043611" TEXT="A type determines the set of values and operations specific to values of that type."/>
-<node CREATED="1387633053297" FOLDED="true" ID="ID_1128930450" MODIFIED="1388251464833" TEXT="named or unnamed">
-<node CREATED="1387633602260" ID="ID_86728704" MODIFIED="1387639329769" TEXT="named type">
-<node CREATED="1387633683410" ID="ID_333115495" MODIFIED="1387633700262" TEXT="(qualified) type name"/>
-<node CREATED="1387633710919" ID="ID_1685772472" MODIFIED="1388131918301" TEXT="predeclared types">
-<node CREATED="1387633726088" ID="ID_56044605" MODIFIED="1387633736467" TEXT="boolean">
-<node CREATED="1387639254994" ID="ID_1932031313" MODIFIED="1387639266987" TEXT="&quot;bool&quot;, &quot;true&quot;, &quot;false&quot;"/>
-</node>
-<node CREATED="1387633737711" ID="ID_1619802449" MODIFIED="1387633744566" TEXT="numeric">
-<node CREATED="1387561044546" ID="ID_654617634" MODIFIED="1387639666660" TEXT="Integer">
-<node CREATED="1387561133172" ID="ID_611295690" MODIFIED="1387639437011" TEXT="{,u}int{8,16,32,64}"/>
-<node CREATED="1387561242076" ID="ID_1985191038" MODIFIED="1387561260066" TEXT="uintptr">
-<node CREATED="1387639604374" ID="ID_1781011811" MODIFIED="1387639605238" TEXT="an unsigned integer large enough to store the uninterpreted bits of a pointer value"/>
-</node>
-<node CREATED="1387639424367" ID="ID_1322856371" MODIFIED="1387639425783" TEXT="byte">
-<node CREATED="1387639550234" ID="ID_2877437" MODIFIED="1387639551244" TEXT="alias for uint8 "/>
-</node>
-<node CREATED="1387639427476" ID="ID_1631088151" MODIFIED="1387639442056" TEXT="{,u}int">
-<node CREATED="1387639587700" ID="ID_1265224703" MODIFIED="1387639588643" TEXT="either 32 or 64 bits "/>
-<node CREATED="1387639669006" ID="ID_1852679516" MODIFIED="1387639669955" TEXT="int32 and int are not the same type even though they may have the same size on a particular architecture."/>
-</node>
-<node CREATED="1387561326272" ID="ID_1528723913" MODIFIED="1387639569518" TEXT="rune">
-<node CREATED="1387639560027" ID="ID_486284754" MODIFIED="1387639560973" TEXT="alias for int32 "/>
-</node>
-</node>
-<node CREATED="1387561067571" ID="ID_536280367" MODIFIED="1387639474740" TEXT="Float">
-<node CREATED="1387561283572" ID="ID_632761126" MODIFIED="1387561290583" TEXT="float{32,64}"/>
-</node>
-<node CREATED="1387561104503" ID="ID_1803556064" MODIFIED="1387639535409" TEXT="Complex">
-<node CREATED="1387561307572" ID="ID_969048383" MODIFIED="1387561320273" TEXT="complex{64,128}"/>
-</node>
-</node>
-<node CREATED="1387561107316" ID="ID_1604580875" MODIFIED="1387639483929" TEXT="String">
-<node CREATED="1387561321647" ID="ID_1303758798" MODIFIED="1387561322902" TEXT="string">
-<node CREATED="1387639778035" ID="ID_1212650399" MODIFIED="1387639778928" TEXT=" It is illegal to take the address of such an element; if s[i] is the i&apos;th byte of a string, &amp;s[i] is invalid. "/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1387633607256" ID="ID_1763936365" MODIFIED="1388131928944" TEXT="unnamed type">
-<node CREATED="1387633680708" ID="ID_325405796" MODIFIED="1387633681869" TEXT=" type literal"/>
-<node CREATED="1387633821200" FOLDED="true" ID="ID_895555814" MODIFIED="1388165712477" TEXT="composite types">
-<node CREATED="1387633844975" ID="ID_1475809711" MODIFIED="1387633851392" TEXT="array">
-<node CREATED="1387639926259" FOLDED="true" ID="ID_119704714" MODIFIED="1387639995243" TEXT="[non-negative-integral-constant] T">
-<node CREATED="1387639920803" ID="ID_1357753318" MODIFIED="1387639934073" TEXT="[32]byte"/>
-<node CREATED="1387639920803" ID="ID_589349912" MODIFIED="1387639934070" TEXT="[2*N] struct { x, y int32 }"/>
-<node CREATED="1387639920804" ID="ID_1765071074" MODIFIED="1387639934051" TEXT="[1000]*float64"/>
-<node CREATED="1387639920805" ID="ID_1649130467" MODIFIED="1387639934030" TEXT="[3][5]int"/>
-<node CREATED="1387639920805" ID="ID_45860812" MODIFIED="1387639934029" TEXT="[2][2][2]float64  // same as [2]([2]([2]float64))"/>
-</node>
-</node>
-<node CREATED="1387633883343" FOLDED="true" ID="ID_1533898267" MODIFIED="1387648768281" TEXT="slice">
-<node CREATED="1387640172612" ID="ID_1607338296" MODIFIED="1387640178452" TEXT="[]T">
-<node CREATED="1387640180482" ID="ID_139055604" MODIFIED="1387640322738" TEXT="uninitialized slice is nil"/>
-<node CREATED="1387640246782" ID="ID_834808454" MODIFIED="1387640283239" TEXT="length unchangeable"/>
-<node CREATED="1387640349558" ID="ID_697645920" MODIFIED="1387640384523" TEXT="associated with an underlying array that holds its elements. "/>
-<node CREATED="1387640387877" ID="ID_887718246" MODIFIED="1387640399652" TEXT="A slice shares storage with its array and with other slices of the same array"/>
-<node CREATED="1387640401043" ID="ID_343596265" MODIFIED="1387640405752" TEXT="distinct arrays always represent distinct storage. "/>
-<node CREATED="1387640497847" ID="ID_466020085" MODIFIED="1387640499390" TEXT="The array underlying a slice may extend past the end of the slice. The capacity is a measure of that extent: it is the sum of the length of the slice and the length of the array beyond the slice; a slice of length up to that capacity can be created by slicing a new one from the original slice. The capacity of a slice a can be discovered using the built-in function cap(a)."/>
-<node CREATED="1387640571346" ID="ID_1301567492" MODIFIED="1387640585425" TEXT=" built-in function make([]T, length, capacity) ">
-<node CREATED="1387640614188" MODIFIED="1387640614188" TEXT="make([]int, 50, 100)"/>
-<node CREATED="1387640614188" MODIFIED="1387640614188" TEXT="new([100]int)[0:50]"/>
-</node>
-</node>
-</node>
-<node CREATED="1387633852615" FOLDED="true" ID="ID_1855081321" MODIFIED="1387648766740" TEXT="struct">
-<node CREATED="1387644217243" ID="ID_1207664565" MODIFIED="1387644270111" TEXT="StructType     = &quot;struct&quot; &quot;{&quot; { FieldDecl &quot;;&quot; } &quot;}&quot; . "/>
-<node CREATED="1387644350241" ID="ID_274672016" MODIFIED="1387644351229" TEXT="FieldDecl      = (IdentifierList Type | AnonymousField) [ Tag ] . "/>
-<node CREATED="1387644365791" ID="ID_1697385154" MODIFIED="1387644366810" TEXT="AnonymousField = [ &quot;*&quot; ] TypeName .">
-<node CREATED="1387648454377" ID="ID_1888778500" MODIFIED="1387648615165" TEXT="anonymous fields(embedded fields )">
-<node CREATED="1387648507470" ID="ID_919502494" MODIFIED="1387648508949" TEXT="An embedded type must be specified as a type name T or as a pointer to a non-interface type name *T, and T itself may not be a pointer type. The unqualified type name acts as the field name."/>
-</node>
-<node CREATED="1387648604466" ID="ID_731310068" MODIFIED="1387648610098" TEXT="promoted fields ">
-<node CREATED="1387648628257" ID="ID_1581378424" MODIFIED="1387648629085" TEXT="A field or method f of an anonymous field in a struct x is called promoted if x.f is a legal selector that denotes that field or method f. "/>
-<node CREATED="1387648645995" ID="ID_830085024" MODIFIED="1387648646876" TEXT="Promoted fields act like ordinary fields of a struct except that they cannot be used as field names in composite literals of the struct."/>
-</node>
-</node>
-<node CREATED="1387644378387" ID="ID_134577303" MODIFIED="1387644380113" TEXT="Tag            = string_lit ."/>
-</node>
-<node CREATED="1387633860625" ID="ID_185699758" MODIFIED="1387633867366" TEXT="pointer">
-<node CREATED="1387648770428" ID="ID_359178306" MODIFIED="1387648771403" TEXT="PointerType = &quot;*&quot; BaseType . "/>
-<node CREATED="1387648783452" ID="ID_975314127" MODIFIED="1387648784276" TEXT="uninitialized pointer is nil"/>
-</node>
-<node CREATED="1387633868735" ID="ID_661165360" MODIFIED="1388132564181" TEXT="function">
-<node CREATED="1387648934805" ID="ID_1492430376" MODIFIED="1387648935859" TEXT="uninitialized variable of function type is nil"/>
-<node CREATED="1388132522949" FOLDED="true" ID="ID_83029195" MODIFIED="1388132536722" TEXT="demo">
-<node CREATED="1387648993045" ID="ID_1981183091" MODIFIED="1387648993045" TEXT="func()"/>
-<node CREATED="1387648993046" ID="ID_374328292" MODIFIED="1387648993046" TEXT="func(x int) int"/>
-<node CREATED="1387648993046" ID="ID_1004770281" MODIFIED="1387648993046" TEXT="func(a, _ int, z float32) bool"/>
-<node CREATED="1387648993046" ID="ID_1034500672" MODIFIED="1387648993046" TEXT="func(a, b int, z float32) (bool)"/>
-<node CREATED="1387648993047" ID="ID_489402185" MODIFIED="1387648993047" TEXT="func(prefix string, values ...int)"/>
-<node CREATED="1387648993047" ID="ID_156258171" MODIFIED="1387648993047" TEXT="func(a, b int, z float64, opt ...interface{}) (success bool)"/>
-<node CREATED="1387648993047" ID="ID_775117182" MODIFIED="1387648993047" TEXT="func(int, int, float64) (float64, *[]int)"/>
-<node CREATED="1387648993047" ID="ID_528810012" MODIFIED="1387648993047" TEXT="func(n int) func(p *T)"/>
-</node>
-<node CREATED="1388132537179" ID="ID_764438233" MODIFIED="1388132558092" TEXT="anonymous function/clousure"/>
-<node CREATED="1388131958389" ID="ID_768883273" MODIFIED="1388132489852" TEXT="variadic {arbitrary, variable} argument"/>
-<node CREATED="1388132496798" ID="ID_315860327" MODIFIED="1388132514054" TEXT="function parameter/argument"/>
-</node>
-<node CREATED="1387633876370" FOLDED="true" ID="ID_112157597" MODIFIED="1388131938630" TEXT="interface">
-<node CREATED="1387649046667" ID="ID_1193166439" MODIFIED="1387649047800" TEXT="An interface type specifies a method set called its interface"/>
-<node CREATED="1387649068842" MODIFIED="1387649068842" TEXT="InterfaceType      = &quot;interface&quot; &quot;{&quot; { MethodSpec &quot;;&quot; } &quot;}&quot; ."/>
-<node CREATED="1387649068843" MODIFIED="1387649068843" TEXT="MethodSpec         = MethodName Signature | InterfaceTypeName ."/>
-<node CREATED="1387649068843" MODIFIED="1387649068843" TEXT="MethodName         = identifier ."/>
-<node CREATED="1387649068843" MODIFIED="1387649068843" TEXT="InterfaceTypeName  = TypeName ."/>
-</node>
-<node CREATED="1387633890889" FOLDED="true" ID="ID_1588570473" MODIFIED="1388131939792" TEXT="map">
-<node CREATED="1387649223009" MODIFIED="1387649223009" TEXT="MapType     = &quot;map&quot; &quot;[&quot; KeyType &quot;]&quot; ElementType ."/>
-<node CREATED="1387649223010" MODIFIED="1387649223010" TEXT="KeyType     = Type ."/>
-<node CREATED="1387649259166" MODIFIED="1387649259166" TEXT="map[string]int"/>
-<node CREATED="1387649259166" ID="ID_1281263237" MODIFIED="1387649259166" TEXT="map[*T]struct{ x, y float64 }"/>
-<node CREATED="1387649333253" MODIFIED="1387649333253" TEXT="make(map[string]int)"/>
-<node CREATED="1387649333254" MODIFIED="1387649333254" TEXT="make(map[string]int, 100)"/>
-</node>
-<node CREATED="1387633899230" FOLDED="true" ID="ID_1355809353" MODIFIED="1388086209906" TEXT="channel">
-<node CREATED="1387649472200" ID="ID_851334998" MODIFIED="1387649472200" TEXT="ChannelType = ( &quot;chan&quot; [ &quot;&lt;-&quot; ] | &quot;&lt;-&quot; &quot;chan&quot; ) ElementType ."/>
-<node CREATED="1387649492250" ID="ID_812496528" MODIFIED="1387649493092" TEXT="make(chan int, 100) "/>
-<node CREATED="1387649582520" MODIFIED="1387649582520" TEXT="chan T          // can be used to send and receive values of type T"/>
-<node CREATED="1387649582521" MODIFIED="1387649582521" TEXT="chan&lt;- float64  // can only be used to send float64s"/>
-<node CREATED="1387649582522" MODIFIED="1387649582522" TEXT="&lt;-chan int      // can only be used to receive ints"/>
-<node CREATED="1387649599136" MODIFIED="1387649599136" TEXT="chan&lt;- chan int    // same as chan&lt;- (chan int)"/>
-<node CREATED="1387649599136" MODIFIED="1387649599136" TEXT="chan&lt;- &lt;-chan int  // same as chan&lt;- (&lt;-chan int)"/>
-<node CREATED="1387649599136" MODIFIED="1387649599136" TEXT="&lt;-chan &lt;-chan int  // same as &lt;-chan (&lt;-chan int)"/>
-<node CREATED="1387649599137" MODIFIED="1387649599137" TEXT="chan (&lt;-chan int)"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1387633998333" FOLDED="true" ID="ID_1193828354" MODIFIED="1388131913924" TEXT="variable has three types: {static, dynamic, underlying}">
-<node CREATED="1387633985735" ID="ID_1463870320" MODIFIED="1388131898124" TEXT="static type">
-<node CREATED="1387633981396" ID="ID_1426736491" MODIFIED="1387633988621" TEXT="The static type (or just type) of a variable is the type defined by its declaration. "/>
-</node>
-<node CREATED="1387634077893" ID="ID_7092998" MODIFIED="1388131902322" TEXT="dynamic type">
-<node CREATED="1387634083690" ID="ID_1572980040" MODIFIED="1387634145312" TEXT="variables of interface type also have a distinct dynamic type, which is the actual type of the value stored in the variable at run time. "/>
-<node CREATED="1387634155801" ID="ID_148056537" MODIFIED="1387634157201" TEXT="The dynamic type may vary during execution but is always assignable to the static type of the interface variable."/>
-<node CREATED="1387634172384" ID="ID_132808595" MODIFIED="1387634173995" TEXT="For non-interface types, the dynamic type is always the static type. "/>
-</node>
-<node CREATED="1387634306027" ID="ID_1427849962" MODIFIED="1388131905681" TEXT="underlying type">
-<node CREATED="1387634359584" ID="ID_1643814700" MODIFIED="1387634402164" TEXT="predeclared types / type literals">
-<node CREATED="1387634424314" ID="ID_729478328" MODIFIED="1387634425310" TEXT="If T is a predeclared type or a type literal, the corresponding underlying type is T itself."/>
-</node>
-<node CREATED="1387634446220" ID="ID_1479717897" MODIFIED="1387634447275" TEXT="type declaration">
-<node CREATED="1387634457992" ID="ID_1592424325" MODIFIED="1387634458892" TEXT="T&apos;s underlying type is the underlying type of the type to which T refers in its type declaration. "/>
-</node>
-</node>
-</node>
-<node CREATED="1387639139562" FOLDED="true" ID="ID_1550866705" MODIFIED="1388131886357" TEXT="method set">
-<node CREATED="1387639144471" ID="ID_1748959854" MODIFIED="1387639151137" TEXT="method receiver">
-<node CREATED="1387639172610" ID="ID_1162666246" MODIFIED="1387639174114" TEXT="The method set of an interface type is its interface"/>
-<node CREATED="1387639183488" ID="ID_869048868" MODIFIED="1387639184502" TEXT="The method set of any other type T consists of all methods with receiver type T."/>
-<node CREATED="1387639196712" ID="ID_1893808867" MODIFIED="1387639198643" TEXT="The method set of the corresponding pointer type *T is the set of all methods with receiver *T or T"/>
-<node CREATED="1387639212343" ID="ID_1241549478" MODIFIED="1387639213116" TEXT="In a method set, each method must have a unique method name. "/>
-</node>
-</node>
-</node>
-<node CREATED="1387612366656" FOLDED="true" ID="ID_737605962" MODIFIED="1388256543832" POSITION="right" TEXT="Packages">
+<node CREATED="1387612366656" FOLDED="true" ID="ID_737605962" MODIFIED="1388295996922" POSITION="right" TEXT="package import">
 <node CREATED="1387559979631" FOLDED="true" ID="ID_1824990804" MODIFIED="1387639351207" TEXT="import stmt">
 <node CREATED="1387559999935" ID="ID_1695015791" MODIFIED="1387560022330" TEXT="import (&quot;fmt&quot;;&quot;math&quot;)"/>
 <node CREATED="1387560022943" ID="ID_1015692753" MODIFIED="1387560058085">
@@ -507,20 +351,171 @@
 <node CREATED="1387560120310" ID="ID_801293542" MODIFIED="1387560145193" TEXT="a name is exported if it begins with a capital letter, otherswise, not exported"/>
 </node>
 </node>
-<node CREATED="1388252660393" FOLDED="true" ID="ID_1289861303" MODIFIED="1388252820951" POSITION="right" TEXT="type switch/assertion">
-<node CREATED="1388252693859" ID="ID_1250229236" MODIFIED="1388252699051" TEXT="type switch">
-<node CREATED="1388252705774" ID="ID_1412163614" MODIFIED="1388252731094" TEXT="switch t:=t.(type) {case: ...}"/>
+<node CREATED="1388286314829" FOLDED="true" ID="ID_1418083607" MODIFIED="1388295998725" POSITION="right" TEXT="print">
+<node CREATED="1388286332789" ID="ID_1146454647" MODIFIED="1388286356009" TEXT="Print{, f, ln}"/>
+<node CREATED="1388286356858" ID="ID_212579235" MODIFIED="1388286372787" TEXT="{F,S}print{, f, ln}"/>
 </node>
-<node CREATED="1388252699576" ID="ID_1143050409" MODIFIED="1388252704551" TEXT="type assertion">
-<node CREATED="1388252735589" ID="ID_1424064597" MODIFIED="1388252786302" TEXT="str: = t.(string)">
-<node CREATED="1388252787676" ID="ID_973209039" MODIFIED="1388252796109" TEXT="panic if fails"/>
+<node CREATED="1388284552103" FOLDED="true" ID="ID_1616296824" MODIFIED="1388292555986" POSITION="right" TEXT="literal new make">
+<node CREATED="1388284602373" ID="ID_1713994607" MODIFIED="1388284606111" TEXT="literal"/>
+<node CREATED="1388284596332" ID="ID_1102301452" MODIFIED="1388284900395" TEXT="new(T)"/>
+<node CREATED="1388284598152" ID="ID_1175257843" MODIFIED="1388284782698" TEXT="make({slice,map,chan},args)"/>
+<node CREATED="1388284770118" ID="ID_718355923" MODIFIED="1388284775362" TEXT="new vs. make">
+<node CREATED="1388284777135" ID="ID_1093680107" MODIFIED="1388284778350" TEXT="new">
+<node CREATED="1388284827006" ID="ID_1993517267" MODIFIED="1388284829934" TEXT="zeroed"/>
+<node CREATED="1388284830176" ID="ID_1644706342" MODIFIED="1388284833105" TEXT="return *T"/>
 </node>
-<node CREATED="1388252796863" ID="ID_1448386852" MODIFIED="1388252805358" TEXT="str,ok:=t.(string)">
-<node CREATED="1388252806618" ID="ID_1966648577" MODIFIED="1388252816576" TEXT="comma,ok idiom"/>
+<node CREATED="1388284778596" FOLDED="true" ID="ID_1952785279" MODIFIED="1388284896356" TEXT="make">
+<node CREATED="1388284800250" ID="ID_678883415" MODIFIED="1388284807595" TEXT="initialized(not zeroed)"/>
+<node CREATED="1388284815668" ID="ID_80846008" MODIFIED="1388284824430" TEXT="return T (not *T)"/>
+<node CREATED="1388284835686" ID="ID_908480756" MODIFIED="1388284849049" TEXT="only {slice, map, chan}"/>
 </node>
 </node>
 </node>
-<node CREATED="1388221184957" FOLDED="true" ID="ID_1586514058" MODIFIED="1388256653415" POSITION="right" TEXT="func">
+<node CREATED="1388286524587" FOLDED="true" ID="ID_359284084" MODIFIED="1388292171100" POSITION="right" TEXT="{array,slice,map}">
+<node CREATED="1388288693385" ID="ID_19026961" MODIFIED="1388292166515" TEXT="[cap]type">
+<node CREATED="1388288740218" ID="ID_1590052468" MODIFIED="1388289975574" TEXT="create">
+<node CREATED="1388288755162" ID="ID_828902441" MODIFIED="1388289622232" TEXT="array:=new([10]int)"/>
+<node CREATED="1388289624349" ID="ID_58139154" MODIFIED="1388289958862" TEXT="array:=[10]int{1,2,4,5}"/>
+<node CREATED="1388289959751" ID="ID_1657351505" MODIFIED="1388289970541" TEXT="array:=[...]int{1,2,3,5}"/>
+</node>
+<node CREATED="1388291156998" ID="ID_896512068" MODIFIED="1388291158672" TEXT="len"/>
+<node CREATED="1388291159077" ID="ID_346662912" MODIFIED="1388291160186" TEXT="cap"/>
+</node>
+<node CREATED="1388289979926" FOLDED="true" ID="ID_1716007979" MODIFIED="1388292170228" TEXT="[]type">
+<node CREATED="1388290179833" ID="ID_824893661" MODIFIED="1388291997963" TEXT="create">
+<node CREATED="1388290186759" ID="ID_1670649177" MODIFIED="1388290584560" TEXT="slice:=[]string{1,2,3,4}"/>
+<node CREATED="1388290598359" ID="ID_1564593092" MODIFIED="1388290619022" TEXT="slice:=make([]string,len,cap)"/>
+<node CREATED="1388290620606" ID="ID_361707534" MODIFIED="1388290630746" TEXT="slice:=make([]string,len)"/>
+<node CREATED="1388290250428" ID="ID_1955366785" MODIFIED="1388290857670" TEXT="slice:=array[b:e]"/>
+<node CREATED="1388290858601" ID="ID_334412014" MODIFIED="1388290868996" TEXT="slice:=slice[b:e]"/>
+<node CREATED="1388291898887" ID="ID_1593678515" MODIFIED="1388291943142" TEXT="slice:={array,slice}[low:high:max]"/>
+</node>
+<node CREATED="1388291114037" ID="ID_1474603014" MODIFIED="1388291963625" TEXT="len=low-high"/>
+<node CREATED="1388291117762" ID="ID_1451142753" MODIFIED="1388291983247" TEXT="cap=max-low"/>
+</node>
+<node CREATED="1388286546951" FOLDED="true" ID="ID_675146998" MODIFIED="1388292161457" TEXT="map[key-type]value-type">
+<node CREATED="1388286549813" ID="ID_806066658" MODIFIED="1388287083572" TEXT="create">
+<node CREATED="1388286780558" ID="ID_1976368072" MODIFIED="1388287006521" TEXT="m=map[string]int{&quot;one&quot;:1,&quot;two&quot;:2} //composite literal"/>
+<node CREATED="1388286804153" ID="ID_1397944638" MODIFIED="1388287069616" TEXT="mpointer=make(map[string]int)//make"/>
+</node>
+<node CREATED="1388287084842" ID="ID_1563186690" MODIFIED="1388287148243" TEXT="one:=m[&quot;one&quot;] //get"/>
+<node CREATED="1388287149297" ID="ID_860664652" MODIFIED="1388287175553" TEXT="m[&quot;three&quot;]=3 //set"/>
+<node CREATED="1388287109415" ID="ID_111734948" MODIFIED="1388287419091" TEXT="_,exist:=m[&quot;two&quot;] //exists $m{two} "/>
+<node CREATED="1388287110579" ID="ID_850882897" MODIFIED="1388290116152" TEXT="delete(m,&quot;three&quot;) //delete $m[three]">
+<node CREATED="1388288370623" ID="ID_582612784" MODIFIED="1388290137498" TEXT="delete(map[key-type]value-type, key-type)"/>
+<node CREATED="1388288412075" ID="ID_1718296724" MODIFIED="1388290151602" TEXT="!delete(&amp;map[key-type]value-type, key-type)"/>
+</node>
+</node>
+</node>
+<node CREATED="1388296012907" FOLDED="true" ID="ID_74886657" MODIFIED="1388307907610" POSITION="right" TEXT="type">
+<node CREATED="1388252660393" FOLDED="true" ID="ID_1289861303" MODIFIED="1388302737702" TEXT="type switch/assertion">
+<node CREATED="1388252693859" FOLDED="true" ID="ID_273048711" MODIFIED="1388302725786" TEXT="type switch">
+<node CREATED="1388252705774" ID="ID_1754441161" MODIFIED="1388252731094" TEXT="switch t:=t.(type) {case: ...}"/>
+</node>
+<node CREATED="1388252699576" FOLDED="true" ID="ID_991832825" MODIFIED="1388302731322" TEXT="type assertion">
+<node CREATED="1388252735589" ID="ID_1350119080" MODIFIED="1388252786302" TEXT="str: = t.(string)">
+<node CREATED="1388252787676" ID="ID_1677567741" MODIFIED="1388252796109" TEXT="panic if fails"/>
+</node>
+<node CREATED="1388252796863" ID="ID_1715585585" MODIFIED="1388252805358" TEXT="str,ok:=t.(string)">
+<node CREATED="1388252806618" ID="ID_1492144158" MODIFIED="1388252816576" TEXT="comma,ok idiom"/>
+</node>
+</node>
+</node>
+<node CREATED="1388305756293" FOLDED="true" ID="ID_1572714782" MODIFIED="1388307801414" TEXT="named type">
+<node CREATED="1388296139648" FOLDED="true" ID="ID_1642999524" MODIFIED="1388305801612" TEXT="predeclared types (T)">
+<node CREATED="1388296162703" ID="ID_1316958651" MODIFIED="1388296419798" TEXT="{,u}int{, 8,16,32,64}, byte(uint8), uintptr,rune(int32)"/>
+<node CREATED="1388296422995" ID="ID_10960103" MODIFIED="1388296435790" TEXT="float{32,64}"/>
+<node CREATED="1388296436260" ID="ID_1785644340" MODIFIED="1388296447922" TEXT="complex{64,128}"/>
+<node CREATED="1388296469017" ID="ID_1881487827" MODIFIED="1388296469997" TEXT="bool"/>
+<node CREATED="1388296470754" ID="ID_1044272745" MODIFIED="1388296474411" TEXT="string"/>
+</node>
+<node CREATED="1388302034146" FOLDED="true" ID="ID_913803705" MODIFIED="1388305766835" TEXT="type declaration(&quot;type&quot; identifier T)">
+<node CREATED="1388302408958" ID="ID_1275082273" MODIFIED="1388302688380" TEXT="declared type vs. existing type">
+<node CREATED="1388302475036" ID="ID_1798639134" MODIFIED="1388302496588" TEXT="same underlying type"/>
+<node CREATED="1388302552553" ID="ID_1553180948" MODIFIED="1388302572546" TEXT="different method set"/>
+<node CREATED="1388302611604" ID="ID_1212554114" MODIFIED="1388302682333" TEXT="{method set of interface type, elements of composite type} unchanged"/>
+</node>
+</node>
+</node>
+<node CREATED="1388305772061" FOLDED="true" ID="ID_562914085" MODIFIED="1388305828133" TEXT="unnamed type(composite type, literal type)">
+<node CREATED="1388296931899" ID="ID_897380583" MODIFIED="1388305825975" TEXT="array([n]T),slice([]T),map(map[KeyT]ValueT)"/>
+<node CREATED="1388301492113" ID="ID_593920760" MODIFIED="1388305825975" TEXT="pointer(*T)"/>
+<node CREATED="1388301494558" ID="ID_1164486241" MODIFIED="1388305825976" TEXT="function(func(param-list)(return-value-list))"/>
+<node CREATED="1388301510035" ID="ID_375168650" MODIFIED="1388305825977" TEXT="interface(interface {}),struct(struct{})"/>
+<node CREATED="1388301505476" ID="ID_1381225145" MODIFIED="1388305825977" TEXT="channel(chan T)"/>
+</node>
+<node CREATED="1388305187821" FOLDED="true" ID="ID_1314365018" MODIFIED="1388307765282" TEXT="type identity">
+<node CREATED="1388305569484" FOLDED="true" ID="ID_1386162448" MODIFIED="1388305899036" TEXT="named types">
+<node CREATED="1388305585928" ID="ID_1147767794" MODIFIED="1388305587066" TEXT="Two named types are identical if their type names originate in the same TypeSpec."/>
+</node>
+<node CREATED="1388305594172" FOLDED="true" ID="ID_1648508148" MODIFIED="1388305887084" TEXT="named and unnamed type">
+<node CREATED="1388305626839" ID="ID_804003173" MODIFIED="1388305627981" TEXT="A named and an unnamed type are always different."/>
+</node>
+<node CREATED="1388305892522" FOLDED="true" ID="ID_1268385735" MODIFIED="1388306747718" TEXT="unnamed types (recursively definition)">
+<node CREATED="1388305920029" ID="ID_1734223143" MODIFIED="1388306085904" TEXT="identical type literals. same literal structure, corresponding components have identical types. "/>
+<node CREATED="1388306161716" FOLDED="true" ID="ID_409753565" MODIFIED="1388306403156" TEXT="array">
+<node CREATED="1388306163861" ID="ID_677640897" MODIFIED="1388306245035" TEXT="identical element types"/>
+<node CREATED="1388306246244" ID="ID_492345212" MODIFIED="1388306250651" TEXT="same array length"/>
+</node>
+<node CREATED="1388306200213" FOLDED="true" ID="ID_1651403199" MODIFIED="1388306418180" TEXT="slice">
+<node CREATED="1388306202095" ID="ID_1514102730" MODIFIED="1388306207855" TEXT="identical element types"/>
+</node>
+<node CREATED="1388306217962" FOLDED="true" ID="ID_1507041625" MODIFIED="1388306364968" TEXT="struct">
+<node CREATED="1388306239062" ID="ID_1198135667" MODIFIED="1388306240139" TEXT="same sequence of fields"/>
+<node CREATED="1388306263975" ID="ID_621132513" MODIFIED="1388306300700" TEXT="corresponding fields have the {same names, identical types, identical tags}."/>
+<node CREATED="1388306353839" ID="ID_888726084" MODIFIED="1388306361652" TEXT="anonymous fields are considered to have the same name. Lower-case field names from different packages are always different."/>
+</node>
+<node CREATED="1388306376334" FOLDED="true" ID="ID_495654517" MODIFIED="1388306402308" TEXT="pointer">
+<node CREATED="1388306382896" ID="ID_1450364854" MODIFIED="1388306394604" TEXT="identical base types"/>
+</node>
+<node CREATED="1388306421411" FOLDED="true" ID="ID_1736504662" MODIFIED="1388306635991" TEXT="func">
+<node CREATED="1388306449131" ID="ID_1027533095" MODIFIED="1388306462757" TEXT="same number of {parameters, result values}"/>
+<node CREATED="1388306493136" ID="ID_1548146154" MODIFIED="1388306520249" TEXT="identical corresponding {parameter,result} types"/>
+<node CREATED="1388306543746" ID="ID_38593619" MODIFIED="1388306564874" TEXT="either both are variadic or neither is"/>
+<node CREATED="1388306589744" ID="ID_1108065869" MODIFIED="1388306599208" TEXT="parameter and result names are not required to match."/>
+</node>
+<node CREATED="1388306636877" FOLDED="true" ID="ID_921930675" MODIFIED="1388306674166" TEXT="interface">
+<node CREATED="1388306642304" ID="ID_634472450" MODIFIED="1388306643306" TEXT="same set of methods with the same names and identical function types."/>
+<node CREATED="1388306653313" ID="ID_333458723" MODIFIED="1388306654086" TEXT="Lower-case method names from different packages are always different."/>
+<node CREATED="1388306665220" ID="ID_576597795" MODIFIED="1388306665905" TEXT="The order of the methods is irrelevant."/>
+</node>
+<node CREATED="1388306674949" ID="ID_1526967469" MODIFIED="1388306675737" TEXT="map">
+<node CREATED="1388306677627" ID="ID_157358296" MODIFIED="1388306707577" TEXT="identical {key , value} types"/>
+</node>
+<node CREATED="1388306717427" ID="ID_1937842652" MODIFIED="1388306719580" TEXT="channel">
+<node CREATED="1388306720545" ID="ID_1851356790" MODIFIED="1388306746413" TEXT="identical value types"/>
+<node CREATED="1388306738418" ID="ID_134147325" MODIFIED="1388306745500" TEXT="same directions"/>
+</node>
+</node>
+</node>
+<node CREATED="1388305099975" FOLDED="true" ID="ID_1251213263" MODIFIED="1388307799570" TEXT="assignability (x is assignable to T)">
+<node CREATED="1388307443670" FOLDED="true" ID="ID_224646053" MODIFIED="1388307607000" TEXT="var =var/value">
+<node CREATED="1388305160547" ID="ID_312013515" MODIFIED="1388307474675" TEXT="x&apos;s type is identical to T."/>
+</node>
+<node CREATED="1388307585861" FOLDED="true" ID="ID_1724647864" MODIFIED="1388307604747" TEXT="var = literal">
+<node CREATED="1388306803992" ID="ID_737055653" MODIFIED="1388307599959" TEXT="x&apos;s type V and T have identical underlying types and at least one of V or T is not a named type. "/>
+</node>
+<node CREATED="1388307486478" FOLDED="true" ID="ID_569387772" MODIFIED="1388307612600" TEXT="interface=method receiver">
+<node CREATED="1388306863718" ID="ID_1940077759" MODIFIED="1388306869294" TEXT="T is an interface type and x implements T. "/>
+</node>
+<node CREATED="1388307647623" FOLDED="true" ID="ID_510918133" MODIFIED="1388307798802" TEXT="chan [&lt;-|-&gt;] T=chan T">
+<node CREATED="1388306919129" ID="ID_240790732" MODIFIED="1388307651528" TEXT="x is a bidirectional channel value, T is a channel type, x&apos;s type V and T have identical element types, and at least one of V or T is not a named type. "/>
+</node>
+<node CREATED="1388307618762" FOLDED="true" ID="ID_1774807692" MODIFIED="1388307625983" TEXT="T =nil">
+<node CREATED="1388306937990" ID="ID_432209265" MODIFIED="1388307622574" TEXT="x is the predeclared identifier nil and T is a pointer, function, slice, map, channel, or interface type. "/>
+</node>
+<node CREATED="1388307629867" FOLDED="true" ID="ID_729921910" MODIFIED="1388307644311" TEXT="var =const">
+<node CREATED="1388306950113" ID="ID_1369564414" MODIFIED="1388307641207" TEXT="x is an untyped constant representable by a value of type T. "/>
+</node>
+</node>
+<node CREATED="1388307803999" ID="ID_1917485823" MODIFIED="1388307903504" TEXT="type conversion T(x)"/>
+<node CREATED="1388303062046" FOLDED="true" ID="ID_919515225" MODIFIED="1388305079362" TEXT="variables have three properties: {static,dynamic,underlying}type">
+<node CREATED="1388304900747" ID="ID_971889004" MODIFIED="1388304904772" TEXT="static type"/>
+<node CREATED="1388304908765" ID="ID_1933953947" MODIFIED="1388304912560" TEXT="dynamic type"/>
+<node CREATED="1388304913215" ID="ID_1702883799" MODIFIED="1388304916865" TEXT="underlying type"/>
+</node>
+</node>
+<node CREATED="1388221184957" FOLDED="true" ID="ID_1586514058" MODIFIED="1388328646283" POSITION="right" TEXT="func">
 <node CREATED="1387563586610" FOLDED="true" ID="ID_1679676679" MODIFIED="1388221238366" TEXT="anonymous functions">
 <node CREATED="1387563614290" ID="ID_1943910198" MODIFIED="1387563620453">
 <richcontent TYPE="NODE"><html>
@@ -815,7 +810,7 @@
 <node CREATED="1388256566620" ID="ID_655886482" MODIFIED="1388256630600" TEXT="pass-by-{value,reference}"/>
 <node CREATED="1388256642398" ID="ID_166996155" MODIFIED="1388256649684" TEXT="multivalue return"/>
 </node>
-<node CREATED="1388221416645" FOLDED="true" ID="ID_1658229071" MODIFIED="1388255026791" POSITION="right" TEXT="goroutine/channel">
+<node CREATED="1388221416645" FOLDED="true" ID="ID_1658229071" MODIFIED="1388287950090" POSITION="right" TEXT="goroutine/channel">
 <node CREATED="1388237886105" ID="ID_1221129601" MODIFIED="1388237901772" TEXT="go func"/>
 <node CREATED="1388237923442" FOLDED="true" ID="ID_113147306" MODIFIED="1388238184782" TEXT="unbuffered channel (pipe)">
 <node CREATED="1388237902030" ID="ID_1870837877" MODIFIED="1388237940394" TEXT="make(int chan)"/>
@@ -841,7 +836,7 @@
 <node CREATED="1388238874804" ID="ID_951771807" MODIFIED="1388238911662" TEXT="rumtime.GOMPROCS(runtime.NumCPU())"/>
 </node>
 </node>
-<node CREATED="1388240693572" FOLDED="true" ID="ID_578587606" MODIFIED="1388240833769" POSITION="right" TEXT="nonblocking/select">
+<node CREATED="1388240693572" FOLDED="true" ID="ID_578587606" MODIFIED="1388287951534" POSITION="right" TEXT="nonblocking/select">
 <node CREATED="1388240711488" ID="ID_1641686508" MODIFIED="1388240829720" TEXT="select ~ case">
 <node CREATED="1388240726332" ID="ID_264623590" MODIFIED="1388240826016">
 <richcontent TYPE="NODE"><html>
@@ -872,7 +867,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1388240998121" FOLDED="true" ID="ID_1358998984" MODIFIED="1388251824518" POSITION="right" TEXT="variable">
+<node CREATED="1388240998121" FOLDED="true" ID="ID_1358998984" MODIFIED="1388287957082" POSITION="right" TEXT="variable">
 <node CREATED="1388241016131" ID="ID_790827399" MODIFIED="1388241115898" TEXT="var (dynamic variables)"/>
 <node CREATED="1388241050355" ID="ID_1812847842" MODIFIED="1388241077778" TEXT=":=">
 <node CREATED="1388243917921" ID="ID_646148975" MODIFIED="1388243928145" TEXT="local (perl)"/>
@@ -880,7 +875,7 @@
 <node CREATED="1388241053897" ID="ID_1555206036" MODIFIED="1388241061471" TEXT="const"/>
 <node CREATED="1388241083666" ID="ID_716101407" MODIFIED="1388241094638" TEXT="no lexical variables"/>
 </node>
-<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1388255020911" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
+<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1388287961939" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
 <node CREATED="1388253686912" FOLDED="true" ID="ID_674596690" MODIFIED="1388254690681" TEXT="go vs. C++">
 <node CREATED="1388253589712" FOLDED="true" ID="ID_539498581" MODIFIED="1388253735065" TEXT="exception(C++)">
 <node CREATED="1388240880146" ID="ID_487320419" MODIFIED="1388253598485" TEXT="error "/>
@@ -956,8 +951,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -975,7 +969,7 @@
 <node CREATED="1388254991790" ID="ID_586733230" MODIFIED="1388255015515" TEXT="multiple catch clauses"/>
 </node>
 </node>
-<node CREATED="1387561614207" FOLDED="true" ID="ID_531506047" MODIFIED="1388256541045" POSITION="right" TEXT="control">
+<node CREATED="1387561614207" FOLDED="true" ID="ID_531506047" MODIFIED="1388284543990" POSITION="right" TEXT="for if switch">
 <node CREATED="1387561635608" FOLDED="true" ID="ID_912764590" MODIFIED="1388256503080" TEXT="loop">
 <node CREATED="1388255078823" ID="ID_656589610" MODIFIED="1388255099630" TEXT="for i:=0;i&lt;10;i++{}"/>
 <node CREATED="1388255102937" ID="ID_1746278105" MODIFIED="1388255136406" TEXT="for {} //forever"/>
@@ -985,7 +979,7 @@
 <node CREATED="1388256432862" ID="ID_764055282" MODIFIED="1388256485096" TEXT="for key:=range m{...} // for $v (keys %m){...}"/>
 <node CREATED="1388256381598" ID="ID_1532546569" MODIFIED="1388256443838" TEXT="for _,value:=range m{...} // for $k (values %m){...}"/>
 </node>
-<node CREATED="1387564681098" FOLDED="true" ID="ID_1636490469" MODIFIED="1388256521804" TEXT="switch">
+<node CREATED="1387564681098" FOLDED="true" ID="ID_1636490469" MODIFIED="1388284542870" TEXT="switch">
 <node CREATED="1387564708216" ID="ID_819069465" MODIFIED="1387564713719" TEXT="fallthrough">
 <node CREATED="1387564727846" ID="ID_910223266" MODIFIED="1387564727846" TEXT=""/>
 </node>
@@ -1195,7 +1189,7 @@
 <node CREATED="1387564875869" ID="ID_1301130801" MODIFIED="1387564877584" TEXT="Switch without a condition is the same as switch true.   This construct can be a clean way to write long if-then-else chains. "/>
 </node>
 </node>
-<node CREATED="1387562011339" FOLDED="true" ID="ID_1876978940" MODIFIED="1388256535900" TEXT="if">
+<node CREATED="1387562011339" FOLDED="true" ID="ID_1876978940" MODIFIED="1388284525970" TEXT="if">
 <node CREATED="1387562013486" ID="ID_723281032" MODIFIED="1387562026677">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1408,1509 +1402,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1387563235629" ID="ID_301615564" MODIFIED="1388256660640" POSITION="right" TEXT="Data Organization/Presentation">
-<node CREATED="1387561039392" ID="ID_1607718308" MODIFIED="1387639368268" TEXT="types">
-<node CREATED="1387561044546" ID="ID_1742686101" MODIFIED="1387561060733" TEXT="Integer">
-<node CREATED="1387561133172" ID="ID_1394417299" MODIFIED="1387561215054" TEXT="{,u}int{,8,16,32,64}"/>
-<node CREATED="1387561242076" ID="ID_920387071" MODIFIED="1387561260066" TEXT="uintptr"/>
+<node CREATED="1388310718952" FOLDED="true" ID="ID_1156767507" MODIFIED="1388328648335" POSITION="right" TEXT="packages">
+<node CREATED="1388310725235" ID="ID_1449865824" MODIFIED="1388310729888" TEXT="fmt"/>
+<node CREATED="1388310730125" ID="ID_982592985" MODIFIED="1388310730670" TEXT="os"/>
 </node>
-<node CREATED="1387561060983" ID="ID_653849301" MODIFIED="1387561065006" TEXT="Boolean">
-<node CREATED="1387561280918" ID="ID_934829708" MODIFIED="1387561282306" TEXT="bool"/>
+<node CREATED="1388286452747" FOLDED="true" ID="ID_756713204" MODIFIED="1388328677595" POSITION="right" TEXT="idioms">
+<node CREATED="1388286464339" ID="ID_1641897751" MODIFIED="1388286468323" TEXT="comma ok"/>
+<node CREATED="1388286481230" ID="ID_252969909" MODIFIED="1388286492633" TEXT="blank identifier"/>
 </node>
-<node CREATED="1387561067571" ID="ID_1027275488" MODIFIED="1387561070828" TEXT="Float">
-<node CREATED="1387561283572" ID="ID_1837625187" MODIFIED="1387561290583" TEXT="float{32,64}"/>
-</node>
-<node CREATED="1387561104503" ID="ID_1024353966" MODIFIED="1387561106844" TEXT="Complex">
-<node CREATED="1387561307572" ID="ID_463422305" MODIFIED="1387561320273" TEXT="complex{64,128}"/>
-</node>
-<node CREATED="1387561107316" ID="ID_1166597448" MODIFIED="1387561108863" TEXT="String">
-<node CREATED="1387561321647" ID="ID_1822090460" MODIFIED="1387561322902" TEXT="string"/>
-</node>
-<node CREATED="1387561114319" ID="ID_282678191" MODIFIED="1387561115581" TEXT="Byte">
-<node CREATED="1387561324230" ID="ID_1796499861" MODIFIED="1387561325179" TEXT="byte"/>
-</node>
-<node CREATED="1387561115978" ID="ID_136529757" MODIFIED="1387561118623" TEXT="Unicode">
-<node CREATED="1387561326272" ID="ID_1422782504" MODIFIED="1387561328289" TEXT="rune"/>
-</node>
-</node>
-<node CREATED="1387562237208" FOLDED="true" ID="ID_43170171" MODIFIED="1387563255447" TEXT="struct">
-<node CREATED="1387562266254" ID="ID_1792611373" MODIFIED="1387562271263">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;X int
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Y int
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(Vertex{1, 2})
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562283659" ID="ID_70052598" MODIFIED="1387562284644" TEXT="A struct is a collection of fields.   (And a type declaration does what you&apos;d expect.)  "/>
-</node>
-<node CREATED="1387562309170" ID="ID_748407254" MODIFIED="1387562316330">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;X int
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Y int
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;v := Vertex{1, 2}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;v.X = 4
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(v.X)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562323493" ID="ID_84571394" MODIFIED="1387562324397" TEXT="Struct fields are accessed using a dot. "/>
-</node>
-<node CREATED="1387562485130" ID="ID_993999338" MODIFIED="1387562489525">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;X, Y int
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      var (
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;p = Vertex{1, 2}&#160;&#160;// has type Vertex
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;q = &amp;Vertex{1, 2} // has type *Vertex
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;r = Vertex{X: 1}&#160;&#160;// Y:0 is implicit
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;s = Vertex{}&#160;&#160;&#160;&#160;&#160;&#160;// X:0 and Y:0
-    </p>
-    <p>
-      )
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(p, q, r, s)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562507925" ID="ID_1244842573" MODIFIED="1387562509037" TEXT="A struct literal denotes a newly allocated struct value by listing the values of its fields.   You can list just a subset of fields by using the Name: syntax. (And the order of named fields is irrelevant.)   The special prefix &amp; constructs a pointer to a newly allocated struct.  "/>
-</node>
-</node>
-<node CREATED="1387563227061" FOLDED="true" ID="ID_226416693" MODIFIED="1387564670333" TEXT="containers">
-<node CREATED="1387562618292" ID="ID_84199168" MODIFIED="1387564319993" TEXT="slices">
-<node CREATED="1387562630912" ID="ID_1688133642" MODIFIED="1387562637390">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;p := []int{2, 3, 5, 7, 11, 13}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;p ==&quot;, p)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;for i := 0; i &lt; len(p); i++ {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Printf(&quot;p[%d] == %d\n&quot;,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;i, p[i])
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562675607" ID="ID_899753902" MODIFIED="1387562676700" TEXT="A slice points to an array of values and also includes a length.   []T is a slice with elements of type T.  "/>
-</node>
-<node CREATED="1387562708871" ID="ID_606401620" MODIFIED="1387562716684">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;p := []int{2, 3, 5, 7, 11, 13}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;p ==&quot;, p)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;p[1:4] ==&quot;, p[1:4])
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;// missing low index implies 0
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;p[:3] ==&quot;, p[:3])
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;// missing high index implies len(s)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;p[4:] ==&quot;, p[4:])
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562738784" ID="ID_1601725017" MODIFIED="1387562739823" TEXT="Slices can be re-sliced, creating a new slice value that points to the same array. "/>
-<node CREATED="1387562749769" ID="ID_553566444" MODIFIED="1387562750585" TEXT="s[lo:hi]">
-<node CREATED="1387562777826" ID="ID_157811712" MODIFIED="1387562778733" TEXT="evaluates to a slice of the elements from lo through hi-1, inclusive"/>
-</node>
-<node CREATED="1387562761629" ID="ID_854014760" MODIFIED="1387562762479" TEXT="s[lo:lo]"/>
-<node CREATED="1387562786721" ID="ID_133447461" MODIFIED="1387562787543" TEXT="s[lo:lo+1]"/>
-</node>
-<node CREATED="1387562888874" ID="ID_1699466301" MODIFIED="1387562893214">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a := make([]int, 5)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;printSlice(&quot;a&quot;, a)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;b := make([]int, 0, 5)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;printSlice(&quot;b&quot;, b)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c := b[:2]
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;printSlice(&quot;c&quot;, c)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;d := c[2:5]
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;printSlice(&quot;d&quot;, d)
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func printSlice(s string, x []int) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Printf(&quot;%s len=%d cap=%d %v\n&quot;,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s, len(x), cap(x), x)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562867222" ID="ID_1926122679" MODIFIED="1387562898019" TEXT="make slices"/>
-<node CREATED="1387562917133" ID="ID_350032452" MODIFIED="1387562918133" TEXT="a := make([]int, 5)  // len(a)=5"/>
-<node CREATED="1387562946141" ID="ID_104007834" MODIFIED="1387562980808">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="slides" id="slides">
-      <div style="display: block" class="slide">
-        <pre>b := make([]int, 0, 5) // len(b)=0, cap(b)=5
-
-b = b[:cap(b)] // len(b)=5, cap(b)=5
-b = b[1:]      // len(b)=4, cap(b)=4</pre>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1387563007583" ID="ID_902019144" MODIFIED="1387563011768">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;var z []int
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(z, len(z), cap(z))
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if z == nil {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;nil!&quot;)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387563021730" ID="ID_609356893" MODIFIED="1387563023710" TEXT="The zero value of a slice is nil.   A nil slice has a length and capacity of 0.   (To learn more about slices, read the Slices: usage and internals article.)  "/>
-</node>
-</node>
-<node CREATED="1387563222590" ID="ID_152333336" MODIFIED="1387563231578" TEXT="maps">
-<node CREATED="1387563362996" ID="ID_1137481356" MODIFIED="1387563367585">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Lat, Long float64
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      var m map[string]Vertex
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;//m = make(map[string]Vertex)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;m[&quot;Bell Labs&quot;] = Vertex{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;40.68433, -74.39967,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(m[&quot;Bell Labs&quot;])
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387563376208" ID="ID_1879515954" MODIFIED="1387563377935" TEXT="A map maps keys to values.   Maps must be created with make (not new) before use; the nil map is empty and cannot be assigned to.  "/>
-</node>
-<node CREATED="1387563406977" ID="ID_834118449" MODIFIED="1387563413600">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Lat, Long float64
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      var m = map[string]Vertex{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;Bell Labs&quot;: Vertex{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;40.68433, -74.39967,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;},
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;Google&quot;: Vertex{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;37.42202, -122.08408,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;},
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(m)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387563420956" ID="ID_640989266" MODIFIED="1387563422520" TEXT="Map literals are like struct literals, but the keys are required"/>
-</node>
-<node CREATED="1387563443242" ID="ID_335936586" MODIFIED="1387563449970">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Lat, Long float64
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      var m = map[string]Vertex{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;Bell Labs&quot;: {40.68433, -74.39967},
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;Google&quot;:&#160;&#160;&#160;&#160;{37.42202, -122.08408},
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(m)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387563458036" ID="ID_1043358650" MODIFIED="1387563458917" TEXT="If the top-level type is just a type name, you can omit it from the elements of the literal. "/>
-</node>
-<node CREATED="1387563515691" ID="ID_1871075897" MODIFIED="1387563536643">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;m := make(map[string]int)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;m[&quot;Answer&quot;] = 42
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;The value:&quot;, m[&quot;Answer&quot;])
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;m[&quot;Answer&quot;] = 48
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;The value:&quot;, m[&quot;Answer&quot;])
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;delete(m, &quot;Answer&quot;)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;The value:&quot;, m[&quot;Answer&quot;])
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;v, ok := m[&quot;Answer&quot;]
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;The value:&quot;, v, &quot;Present?&quot;, ok)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387563530139" ID="ID_1760809320" MODIFIED="1387563530139" TEXT=""/>
-</node>
-</node>
-</node>
-<node CREATED="1387562339978" FOLDED="true" ID="ID_1162346339" MODIFIED="1387563244251" TEXT="pointer">
-<node CREATED="1387562343364" ID="ID_1354140509" MODIFIED="1387562355089">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;X int
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Y int
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;p := Vertex{1, 2}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;q := &amp;p
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;q.X = 1e9
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(p)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562391392" ID="ID_1442530673" MODIFIED="1387562392527" TEXT="Go has pointers, but no pointer arithmetic.   Struct fields can be accessed through a struct pointer. The indirection through the pointer is transparent.  "/>
-</node>
-<node CREATED="1387562555359" ID="ID_1497811455" MODIFIED="1387562570300">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;X, Y int
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;v := new(Vertex)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(v)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;v.X, v.Y = 11, 9
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(v)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387562562043" ID="ID_351746387" MODIFIED="1387562581129" TEXT="The expression new(T) allocates a zeroed T value and returns a pointer to it. "/>
-<node CREATED="1387562588230" ID="ID_169563711" MODIFIED="1387562589139" TEXT="var t *T = new(T)"/>
-<node CREATED="1387562596233" ID="ID_1837619032" MODIFIED="1387562597208" TEXT="t := new(T)"/>
-</node>
-</node>
-<node CREATED="1387570931508" FOLDED="true" ID="ID_1794119046" MODIFIED="1387612291918" TEXT="Interfaces">
-<node CREATED="1387570966617" FOLDED="true" ID="ID_309279222" MODIFIED="1387571282920" TEXT="An interface type is defined by a set of methods.   A value of interface type can hold any value that implements those methods ">
-<node CREATED="1387570944830" ID="ID_1464413732" MODIFIED="1387571275308">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import (
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
-    </p>
-    <p>
-      )
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Abser interface {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Abs() float64
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;var a Abser
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;f := MyFloat(-math.Sqrt2)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;v := Vertex{3, 4}
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a = f&#160;&#160;// a MyFloat implements Abser
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a = &amp;v // a *Vertex implements Abser
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a = v&#160;&#160;// a Vertex, does NOT
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;// implement Abser
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(a.Abs())
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type MyFloat float64
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (f MyFloat) Abs() float64 {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if f &lt; 0 {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return float64(-f)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;return float64(f)
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Vertex struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;X, Y float64
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (v *Vertex) Abs() float64 {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;return math.Sqrt(v.X*v.X + v.Y*v.Y)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1387571164543" FOLDED="true" ID="ID_1748855686" MODIFIED="1387571286318" TEXT="Interfaces are satisfied implicitly   A type implements an interface by implementing the methods.   There is no explicit declaration of intent.   Implicit interfaces decouple implementation packages from the packages that define the interfaces: neither depends on the other.   It also encourages the definition of precise interfaces, because you don&apos;t have to find every implementation and tag it with the new interface name.  ">
-<node CREATED="1387571148121" ID="ID_1850492543" MODIFIED="1387571254794">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import (
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;os&quot;
-    </p>
-    <p>
-      )
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Reader interface {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Read(b []byte) (n int, err error)
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type Writer interface {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Write(b []byte) (n int, err error)
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type ReadWriter interface {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Reader
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;Writer
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;var w Writer
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;// os.Stdout implements Writer
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;w = os.Stdout
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Fprintf(w, &quot;hello, writer\n&quot;)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1387571299018" ID="ID_1342315685" MODIFIED="1387571300157" TEXT="Errors">
-<node CREATED="1387571310020" ID="ID_151111453" MODIFIED="1387571357213">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="slides" id="slides">
-      <div style="display: block" class="slide">
-        <pre>type error interface {
-&#160;&#160;&#160;&#160;Error() string
-}</pre>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-<node CREATED="1387571370319" ID="ID_762495949" MODIFIED="1387571374411">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import (
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;time&quot;
-    </p>
-    <p>
-      )
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      type MyError struct {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;When time.Time
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;What string
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func (e *MyError) Error() string {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;return fmt.Sprintf(&quot;at %v, %s&quot;,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;e.When, e.What)
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func run() error {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;return &amp;MyError{
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;time.Now(),
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;it didn't work&quot;,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if err := run(); err != nil {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(err)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1387552680361" FOLDED="true" ID="ID_985528299" MODIFIED="1387612386117" TEXT="interface &amp; struct">
-<node CREATED="1387552690405" ID="ID_1889798620" MODIFIED="1387552715410" TEXT="interfaces represent abstraction"/>
-<node CREATED="1387552715841" ID="ID_28062782" MODIFIED="1387552725949" TEXT="structs represent data"/>
-</node>
-</node>
-<node CREATED="1387571456730" FOLDED="true" ID="ID_46275048" MODIFIED="1388237851604" POSITION="right" TEXT="Concurrency">
-<node CREATED="1387571571053" FOLDED="true" ID="ID_1130209017" MODIFIED="1387571721688" TEXT="goroutine">
-<node CREATED="1387571581227" ID="ID_303269676" MODIFIED="1387571582200" TEXT=" lightweight thread managed by the Go runtime"/>
-<node CREATED="1387571595134" ID="ID_1235287666" MODIFIED="1387571596092" TEXT="go f(x, y, z)"/>
-</node>
-<node CREATED="1387571722276" ID="ID_1884251018" MODIFIED="1388236287073" TEXT="Channels">
-<node CREATED="1387571828304" ID="ID_1642956134" MODIFIED="1387571853742">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func sum(a []int, c chan int) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;sum := 0
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;for _, v := range a {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sum += v
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c &lt;- sum // send sum to c
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a := []int{7, 2, 8, -9, 4, 0}
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c := make(chan int)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;go sum(a[:len(a)/2], c)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;go sum(a[len(a)/2:], c)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;x, y := &lt;-c, &lt;-c // receive from c
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(x, y, x+y)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1387571871059" ID="ID_1025699885" MODIFIED="1387571890355">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="slides" id="slides">
-      <div style="display: block" class="slide">
-        <pre>ch &lt;- v    // Send v to channel ch.</pre>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1387571902179" ID="ID_1449834721" MODIFIED="1387571930034">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="slides" id="slides">
-      <div style="display: block" class="slide">
-        <pre>v:= &lt;-ch  // Receive from ch, and
-           // assign value to v.</pre>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1387571945501" ID="ID_1137934170" MODIFIED="1387571963366">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="slides" id="slides">
-      <div style="display: block" class="slide">
-        <pre>ch := make(chan int)</pre>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1387571999673" ID="ID_1492897850" MODIFIED="1388236344505" TEXT="Buffered Channels">
-<node CREATED="1387572036782" ID="ID_556313215" MODIFIED="1387572041957">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c := make(chan int, 2)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c &lt;- 1
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c &lt;- 2
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&lt;-c)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&lt;-c)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1387572051734" ID="ID_576466073" MODIFIED="1387572067979">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="slides" id="slides">
-      <div style="display: block" class="slide">
-        <pre>ch := make(chan int, 100)</pre>
-      </div>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1387572118650" FOLDED="true" ID="ID_396980666" MODIFIED="1388237841465" TEXT="Range and Close">
-<node CREATED="1387572130240" ID="ID_1565112371" MODIFIED="1387572148129">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import (
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
-    </p>
-    <p>
-      )
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func fibonacci(n int, c chan int) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;x, y := 0, 1
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;for i := 0; i &lt; n; i++ {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;c &lt;- x
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x, y = y, x+y
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;close(c)
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c := make(chan int, 10)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;go fibonacci(cap(c), c)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;for i := range c {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(i)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1387572140848" ID="ID_619840834" MODIFIED="1387572140848" TEXT=""/>
-</node>
-</node>
-</node>
-<node CREATED="1387572191306" ID="ID_839696887" MODIFIED="1387572199943" TEXT="select">
-<node CREATED="1387572210637" ID="ID_420630419" MODIFIED="1387572215330">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package main
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      import &quot;fmt&quot;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func fibonacci(c, quit chan int) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;x, y := 0, 1
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;for {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;select {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;case c &lt;- x:
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x, y = y, x+y
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;case &lt;-quit:
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;quit&quot;)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      func main() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;c := make(chan int)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;quit := make(chan int)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;go func() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for i := 0; i &lt; 10; i++ {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&lt;-c)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;quit &lt;- 0
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}()
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;fibonacci(c, quit)
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1387572227621" ID="ID_1493102609" MODIFIED="1387572228824" TEXT="Default Selection"/>
-</node>
+<node CREATED="1388287985455" FOLDED="true" ID="ID_551212993" MODIFIED="1388328686111" POSITION="right" TEXT="problems">
+<node CREATED="1388288001587" ID="ID_792961389" MODIFIED="1388288028783" TEXT="how to write &quot;comma ok&quot; functions?"/>
+<node CREATED="1388288034287" ID="ID_1060164145" MODIFIED="1388288068957" TEXT="what&apos;s the type of argument-passage of delete function"/>
+<node CREATED="1388288079333" ID="ID_329024440" MODIFIED="1388288203520" TEXT="how to write functions both &quot;fail-panic&quot; and &quot;comma ok&quot;?"/>
 </node>
 </node>
 </map>
