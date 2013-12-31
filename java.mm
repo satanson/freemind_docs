@@ -1,8 +1,8 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1344928688194" ID="ID_469395458" MODIFIED="1368932592425" TEXT="java">
-<node CREATED="1312185565053" FOLDED="true" ID="ID_35294482" MODIFIED="1383532829093" POSITION="right" TEXT="java language basic">
-<node CREATED="1345106669823" FOLDED="true" ID="ID_1251747125" MODIFIED="1368930572275" TEXT="type">
+<node CREATED="1312185565053" ID="ID_35294482" MODIFIED="1388469228550" POSITION="right" TEXT="java language basic">
+<node CREATED="1345106669823" ID="ID_1251747125" MODIFIED="1388469228554" TEXT="type">
 <node CREATED="1312185600845" ID="ID_16075161" MODIFIED="1368930560012" TEXT="primitive types">
 <node CREATED="1312185623114" ID="ID_1450697019" MODIFIED="1312185642665" TEXT="byte"/>
 <node CREATED="1312185627981" ID="ID_1321392451" MODIFIED="1312185644666" TEXT="short"/>
@@ -39,14 +39,14 @@
 </node>
 <node CREATED="1345106905286" ID="ID_1208924419" MODIFIED="1345106908072" TEXT="copy">
 <node CREATED="1345106935812" ID="ID_1166346046" MODIFIED="1345106935812">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public static void arraycopy(Object src, int srcPos,&#xd;
-                             Object dest, int destPos, int length)</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>public static void arraycopy(Object src, int srcPos,&#xd;&#xd;
+                             Object dest, int destPos, int length)</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -54,13 +54,13 @@
 <node CREATED="1345107140268" FOLDED="true" ID="ID_1245458467" MODIFIED="1368930571363" TEXT="operator">
 <node CREATED="1345107148849" ID="ID_1442090007" MODIFIED="1345107160377" TEXT="&gt;&gt;&gt; ">
 <node CREATED="1345107190307" ID="ID_396800619" MODIFIED="1345107190307">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    unsigned right shift&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    unsigned right shift&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -69,7 +69,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345183697036" ID="ID_274496348" MODIFIED="1379726722172" TEXT="OOP">
+<node CREATED="1345183697036" FOLDED="true" ID="ID_274496348" MODIFIED="1388469237080" TEXT="OOP">
 <node CREATED="1345183817786" ID="ID_606728563" MODIFIED="1357389716055" TEXT="support overload ">
 <node CREATED="1345183900497" ID="ID_515295403" MODIFIED="1357389745516" TEXT="method signature">
 <node CREATED="1345183918121" ID="ID_16272707" MODIFIED="1357389753284" TEXT="method name and  parameter list"/>
@@ -78,102 +78,102 @@
 </node>
 <node CREATED="1345186413655" FOLDED="true" ID="ID_1036717929" MODIFIED="1368930577787" TEXT="access level modifiers">
 <node CREATED="1345186416826" ID="ID_354924338" MODIFIED="1345186416826">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <table>&#xd;
-      <caption id="accesscontrol-levels" style="font-weight: bold">&#xd;
-        Access Levels&#xd;
-      </caption>&#xd;
-      <tr>&#xd;
-        <th id="h1">&#xd;
-          Modifier&#xd;
-        </th>&#xd;
-        <th id="h2">&#xd;
-          Class&#xd;
-        </th>&#xd;
-        <th id="h3">&#xd;
-          Package&#xd;
-        </th>&#xd;
-        <th id="h4">&#xd;
-          Subclass&#xd;
-        </th>&#xd;
-        <th id="h5">&#xd;
-          World&#xd;
-        </th>&#xd;
-      </tr>&#xd;
-      <tr>&#xd;
-        <td headers="h1">&#xd;
-          <code>public</code>&#xd;
-        </td>&#xd;
-        <td headers="h2">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h3">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h4">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h5">&#xd;
-          Y&#xd;
-        </td>&#xd;
-      </tr>&#xd;
-      <tr>&#xd;
-        <td headers="h1">&#xd;
-          <code>protected</code>&#xd;
-        </td>&#xd;
-        <td headers="h2">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h3">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h4">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h5">&#xd;
-          N&#xd;
-        </td>&#xd;
-      </tr>&#xd;
-      <tr>&#xd;
-        <td headers="h1" style="font-style: italic">&#xd;
-          no modifier&#xd;
-        </td>&#xd;
-        <td headers="h2">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h3">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h4">&#xd;
-          N&#xd;
-        </td>&#xd;
-        <td headers="h5">&#xd;
-          N&#xd;
-        </td>&#xd;
-      </tr>&#xd;
-      <tr>&#xd;
-        <td headers="h1">&#xd;
-          <code>private</code>&#xd;
-        </td>&#xd;
-        <td headers="h2">&#xd;
-          Y&#xd;
-        </td>&#xd;
-        <td headers="h3">&#xd;
-          N&#xd;
-        </td>&#xd;
-        <td headers="h4">&#xd;
-          N&#xd;
-        </td>&#xd;
-        <td headers="h5">&#xd;
-          N&#xd;
-        </td>&#xd;
-      </tr>&#xd;
-    </table>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <table>&#xd;&#xd;
+      <caption id="accesscontrol-levels" style="font-weight: bold">&#xd;&#xd;
+        Access Levels&#xd;&#xd;
+      </caption>&#xd;&#xd;
+      <tr>&#xd;&#xd;
+        <th id="h1">&#xd;&#xd;
+          Modifier&#xd;&#xd;
+        </th>&#xd;&#xd;
+        <th id="h2">&#xd;&#xd;
+          Class&#xd;&#xd;
+        </th>&#xd;&#xd;
+        <th id="h3">&#xd;&#xd;
+          Package&#xd;&#xd;
+        </th>&#xd;&#xd;
+        <th id="h4">&#xd;&#xd;
+          Subclass&#xd;&#xd;
+        </th>&#xd;&#xd;
+        <th id="h5">&#xd;&#xd;
+          World&#xd;&#xd;
+        </th>&#xd;&#xd;
+      </tr>&#xd;&#xd;
+      <tr>&#xd;&#xd;
+        <td headers="h1">&#xd;&#xd;
+          <code>public</code>&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h2">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h3">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h4">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h5">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+      </tr>&#xd;&#xd;
+      <tr>&#xd;&#xd;
+        <td headers="h1">&#xd;&#xd;
+          <code>protected</code>&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h2">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h3">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h4">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h5">&#xd;&#xd;
+          N&#xd;&#xd;
+        </td>&#xd;&#xd;
+      </tr>&#xd;&#xd;
+      <tr>&#xd;&#xd;
+        <td headers="h1" style="font-style: italic">&#xd;&#xd;
+          no modifier&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h2">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h3">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h4">&#xd;&#xd;
+          N&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h5">&#xd;&#xd;
+          N&#xd;&#xd;
+        </td>&#xd;&#xd;
+      </tr>&#xd;&#xd;
+      <tr>&#xd;&#xd;
+        <td headers="h1">&#xd;&#xd;
+          <code>private</code>&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h2">&#xd;&#xd;
+          Y&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h3">&#xd;&#xd;
+          N&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h4">&#xd;&#xd;
+          N&#xd;&#xd;
+        </td>&#xd;&#xd;
+        <td headers="h5">&#xd;&#xd;
+          N&#xd;&#xd;
+        </td>&#xd;&#xd;
+      </tr>&#xd;&#xd;
+    </table>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -197,15 +197,15 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1345187257695" ID="ID_1508513559" MODIFIED="1345187378866">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      Class methods <b>cannot</b>&#xa0;access instance variables or instance methods directly&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      Class methods <b>cannot</b>&#xa0;access instance variables or instance methods directly&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -224,15 +224,15 @@
 <node CREATED="1345193024964" ID="ID_1772883338" MODIFIED="1345193043273" TEXT="Class fields">
 <node CREATED="1345192624795" ID="ID_988840686" MODIFIED="1345193294947" TEXT="static initialization blocks">
 <node CREATED="1345192713850" ID="ID_1335061245" MODIFIED="1345192713850">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>static {&#xd;
-    // whatever code is needed for initialization goes here&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>static {&#xd;&#xd;
+    // whatever code is needed for initialization goes here&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -244,15 +244,15 @@
 <node CREATED="1345193211333" ID="ID_546962865" MODIFIED="1345193254730" TEXT="final instance method"/>
 <node CREATED="1345193255206" ID="ID_378007647" MODIFIED="1345193326333" TEXT="initialization blocks">
 <node CREATED="1345193321058" ID="ID_1681745599" MODIFIED="1345193321058">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>{&#xd;
-    // whatever code is needed for initialization goes here&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>{&#xd;&#xd;
+    // whatever code is needed for initialization goes here&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -272,52 +272,52 @@
 <node CREATED="1345295574117" FOLDED="true" ID="ID_345582349" MODIFIED="1368932710908" TEXT="enum">
 <node CREATED="1368931377678" FOLDED="true" ID="ID_1849039765" MODIFIED="1368932368079" TEXT="demos">
 <node CREATED="1368931370109" ID="ID_1681574904" MODIFIED="1368931370109">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public enum Planet {&#xd;
-    MERCURY (3.303e+23, 2.4397e6),&#xd;
-    VENUS   (4.869e+24, 6.0518e6),&#xd;
-    EARTH   (5.976e+24, 6.37814e6),&#xd;
-    MARS    (6.421e+23, 3.3972e6),&#xd;
-    JUPITER (1.9e+27,   7.1492e7),&#xd;
-    SATURN  (5.688e+26, 6.0268e7),&#xd;
-    URANUS  (8.686e+25, 2.5559e7),&#xd;
-    NEPTUNE (1.024e+26, 2.4746e7);&#xd;
-&#xd;
-    private final double mass;   // in kilograms&#xd;
-    private final double radius; // in meters&#xd;
-    Planet(double mass, double radius) {&#xd;
-        this.mass = mass;&#xd;
-        this.radius = radius;&#xd;
-    }&#xd;
-    private double mass() { return mass; }&#xd;
-    private double radius() { return radius; }&#xd;
-&#xd;
-    // universal gravitational constant  (m3 kg-1 s-2)&#xd;
-    public static final double G = 6.67300E-11;&#xd;
-&#xd;
-    double surfaceGravity() {&#xd;
-        return G * mass / (radius * radius);&#xd;
-    }&#xd;
-    double surfaceWeight(double otherMass) {&#xd;
-        return otherMass * surfaceGravity();&#xd;
-    }&#xd;
-    public static void main(String[] args) {&#xd;
-        if (args.length != 1) {&#xd;
-            System.err.println("Usage: java Planet &lt;earth_weight&gt;");&#xd;
-            System.exit(-1);&#xd;
-        }&#xd;
-        double earthWeight = Double.parseDouble(args[0]);&#xd;
-        double mass = earthWeight/EARTH.surfaceGravity();&#xd;
-        for (Planet p : Planet.values())&#xd;
-           System.out.printf("Your weight on %s is %f%n",&#xd;
-                             p, p.surfaceWeight(mass));&#xd;
-    }&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>public enum Planet {&#xd;&#xd;
+    MERCURY (3.303e+23, 2.4397e6),&#xd;&#xd;
+    VENUS   (4.869e+24, 6.0518e6),&#xd;&#xd;
+    EARTH   (5.976e+24, 6.37814e6),&#xd;&#xd;
+    MARS    (6.421e+23, 3.3972e6),&#xd;&#xd;
+    JUPITER (1.9e+27,   7.1492e7),&#xd;&#xd;
+    SATURN  (5.688e+26, 6.0268e7),&#xd;&#xd;
+    URANUS  (8.686e+25, 2.5559e7),&#xd;&#xd;
+    NEPTUNE (1.024e+26, 2.4746e7);&#xd;&#xd;
+&#xd;&#xd;
+    private final double mass;   // in kilograms&#xd;&#xd;
+    private final double radius; // in meters&#xd;&#xd;
+    Planet(double mass, double radius) {&#xd;&#xd;
+        this.mass = mass;&#xd;&#xd;
+        this.radius = radius;&#xd;&#xd;
+    }&#xd;&#xd;
+    private double mass() { return mass; }&#xd;&#xd;
+    private double radius() { return radius; }&#xd;&#xd;
+&#xd;&#xd;
+    // universal gravitational constant  (m3 kg-1 s-2)&#xd;&#xd;
+    public static final double G = 6.67300E-11;&#xd;&#xd;
+&#xd;&#xd;
+    double surfaceGravity() {&#xd;&#xd;
+        return G * mass / (radius * radius);&#xd;&#xd;
+    }&#xd;&#xd;
+    double surfaceWeight(double otherMass) {&#xd;&#xd;
+        return otherMass * surfaceGravity();&#xd;&#xd;
+    }&#xd;&#xd;
+    public static void main(String[] args) {&#xd;&#xd;
+        if (args.length != 1) {&#xd;&#xd;
+            System.err.println("Usage: java Planet &lt;earth_weight&gt;");&#xd;&#xd;
+            System.exit(-1);&#xd;&#xd;
+        }&#xd;&#xd;
+        double earthWeight = Double.parseDouble(args[0]);&#xd;&#xd;
+        double mass = earthWeight/EARTH.surfaceGravity();&#xd;&#xd;
+        for (Planet p : Planet.values())&#xd;&#xd;
+           System.out.printf("Your weight on %s is %f%n",&#xd;&#xd;
+                             p, p.surfaceWeight(mass));&#xd;&#xd;
+    }&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -360,22 +360,22 @@
 <node CREATED="1344928722953" ID="ID_1038389453" MODIFIED="1379726732386" TEXT="nested class">
 <node CREATED="1345196583960" ID="ID_1513693816" MODIFIED="1345196585766" TEXT="static">
 <node CREATED="1345196617925" ID="ID_1771066606" MODIFIED="1379726791459">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <i>static nested classes</i>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <i>static nested classes</i>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345198182349" ID="ID_1693378870" MODIFIED="1345198249874">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    a static nested class is behaviorally a top-level class that has been nested in another top-level class for packaging convenience.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    a static nested class is behaviorally a top-level class that has been nested in another top-level class for packaging convenience.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -392,92 +392,92 @@
 </node>
 <node CREATED="1345196586010" ID="ID_802474804" MODIFIED="1345196588752" TEXT="non-static">
 <node CREATED="1345196638124" ID="ID_162637877" MODIFIED="1345196638124">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <i>inner classes</i>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <i>inner classes</i>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345283004959" ID="ID_952925521" MODIFIED="1345284297618">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    an inner class is associated with an instance of its enclosing class and has direct access to that object's methods and fields.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    an inner class is associated with an instance of its enclosing class and has direct access to that object's methods and fields.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1345283037210" ID="ID_1445262409" MODIFIED="1345284298783">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    because an inner class is associated with an instance, it cannot define any static members itself.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    because an inner class is associated with an instance, it cannot define any static members itself.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1345283172157" ID="ID_578357288" MODIFIED="1345284299792">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    Objects that are instances of an inner class exist <i>within</i> an instance of the outer class.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    Objects that are instances of an inner class exist <i>within</i> an instance of the outer class.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1345284272393" ID="ID_915374599" MODIFIED="1345284300715">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    An instance of <code>InnerClass</code> can exist only within an instance of <code>OuterClass</code> and has direct access to the methods and fields of its enclosing instance&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    An instance of <code>InnerClass</code> can exist only within an instance of <code>OuterClass</code> and has direct access to the methods and fields of its enclosing instance&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1345284292903" ID="ID_399442280" MODIFIED="1345284302038">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      To instantiate an inner class, you must first instantiate the outer class. Then, create the inner object within the outer object with this syntax:&#xd;
-    </p>&#xd;
-    <div class="codeblock">&#xd;
-      <pre>OuterClass.InnerClass innerObject = outerObject.new InnerClass();</pre>&#xd;
-    </div>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      To instantiate an inner class, you must first instantiate the outer class. Then, create the inner object within the outer object with this syntax:&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <div class="codeblock">&#xd;&#xd;
+      <pre>OuterClass.InnerClass innerObject = outerObject.new InnerClass();</pre>&#xd;&#xd;
+    </div>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1345284452375" ID="ID_837723876" MODIFIED="1345288064450">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    two special kinds of inner classes&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    two special kinds of inner classes&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="bookmark"/>
 <node CREATED="1345284522392" ID="ID_1693016747" MODIFIED="1345284522392">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    local class&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    local class&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345284524694" ID="ID_1867409150" MODIFIED="1345284530182" TEXT="anonymous class"/>
@@ -525,13 +525,13 @@
 <node CREATED="1345085519007" ID="ID_1023851440" MODIFIED="1345085561576" TEXT="multi-bounded type parameter">
 <node CREATED="1345085637179" ID="ID_689089898" MODIFIED="1345085641341" TEXT="&lt;T extends B1 &amp; B2 &amp; B3&gt;">
 <node CREATED="1345086159882" ID="ID_582279805" MODIFIED="1345086159882">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    A type variable with multiple bounds is a subtype of all the types listed in the bound. If one of the bounds is a class, it must be specified first.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    A type variable with multiple bounds is a subtype of all the types listed in the bound. If one of the bounds is a class, it must be specified first.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345086239855" ID="ID_789320482" MODIFIED="1345086316661" TEXT="first type is class or interface ,remaining types must be interfaces"/>
@@ -542,45 +542,45 @@
 <node CREATED="1345087720988" ID="ID_1469374021" MODIFIED="1345087731035" TEXT="wildcard (?)">
 <node CREATED="1345087748163" ID="ID_1099622293" MODIFIED="1345087758402" TEXT="Upper Bounded Wildcards">
 <node CREATED="1345087772515" ID="ID_199697537" MODIFIED="1345087772515">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public static void process(List<strong>&lt;? extends Foo&gt;</strong> list) { /* ... */ }</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>public static void process(List<strong>&lt;? extends Foo&gt;</strong> list) { /* ... */ }</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345087786440" ID="ID_817249988" MODIFIED="1345087788827" TEXT="Unbounded Wildcards">
 <node CREATED="1345087816474" ID="ID_1334761492" MODIFIED="1345087816474">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public static void printList(List&lt;?&gt; list) {&#xd;
-    for (Object elem: list)&#xd;
-        System.out.print(elem + " ");&#xd;
-    System.out.println();&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>public static void printList(List&lt;?&gt; list) {&#xd;&#xd;
+    for (Object elem: list)&#xd;&#xd;
+        System.out.print(elem + " ");&#xd;&#xd;
+    System.out.println();&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345087882683" ID="ID_389992684" MODIFIED="1345087884549" TEXT="Lower Bounded Wildcards">
 <node CREATED="1345087907035" ID="ID_517802201" MODIFIED="1345087907035">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public static void addNumbers(List&lt;? super Integer&gt; list) {&#xd;
-    for (int i = 1; i &lt;= 10; i++) {&#xd;
-        list.add(i);&#xd;
-    }&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>public static void addNumbers(List&lt;? super Integer&gt; list) {&#xd;&#xd;
+    for (int i = 1; i &lt;= 10; i++) {&#xd;&#xd;
+        list.add(i);&#xd;&#xd;
+    }&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -589,22 +589,22 @@
 <node CREATED="1344955211070" ID="ID_1544930650" MODIFIED="1344959028062" TEXT="generic class/interface">
 <node CREATED="1344959035033" ID="ID_1416787328" MODIFIED="1344959039644" TEXT="definition">
 <node CREATED="1344955235578" FOLDED="true" ID="ID_240644656" MODIFIED="1345082968830">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>class name&lt;T1, T2, ..., Tn&gt; { /* ... */ }</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>class name&lt;T1, T2, ..., Tn&gt; { /* ... */ }</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node COLOR="#ff0000" CREATED="1344956854645" ID="ID_427839111" MODIFIED="1344956895665">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    A type variable can be any <strong>non-primitive</strong> type&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    A type variable can be any <strong>non-primitive</strong> type&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <icon BUILTIN="full-1"/>
@@ -624,202 +624,202 @@
 <node CREATED="1345083843519" FOLDED="true" ID="ID_82476767" MODIFIED="1345085433103" TEXT="generic method">
 <node CREATED="1345083859888" ID="ID_1987882782" MODIFIED="1345083912091" TEXT="definition">
 <node CREATED="1345083888600" ID="ID_1165801600" MODIFIED="1345083888600">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public class Util {&#xd;
-    // Generic static method&#xd;
-    <strong>public static &lt;K, V&gt; boolean compare(Pair&lt;K, V&gt; p1, Pair&lt;K, V&gt; p2)</strong> {&#xd;
-        return p1.getKey().equals(p2.getKey()) &amp;&amp;&#xd;
-               p1.getValue().equals(p2.getValue());&#xd;
-    }&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>public class Util {&#xd;&#xd;
+    // Generic static method&#xd;&#xd;
+    <strong>public static &lt;K, V&gt; boolean compare(Pair&lt;K, V&gt; p1, Pair&lt;K, V&gt; p2)</strong> {&#xd;&#xd;
+        return p1.getKey().equals(p2.getKey()) &amp;&amp;&#xd;&#xd;
+               p1.getValue().equals(p2.getValue());&#xd;&#xd;
+    }&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345083913033" ID="ID_1483245486" MODIFIED="1345083918528" TEXT="invocation">
 <node CREATED="1345083934577" ID="ID_1645009380" MODIFIED="1345083934577">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>Pair&lt;Integer, String&gt; p1 = new Pair&lt;&gt;(1, "apple");&#xd;
-Pair&lt;Integer, String&gt; p2 = new Pair&lt;&gt;(2, "pear");&#xd;
-boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>Pair&lt;Integer, String&gt; p1 = new Pair&lt;&gt;(1, "apple");&#xd;&#xd;
+Pair&lt;Integer, String&gt; p2 = new Pair&lt;&gt;(2, "pear");&#xd;&#xd;
+boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1344958497215" FOLDED="true" ID="ID_1882822317" MODIFIED="1344958707604" TEXT="Type Parameter Naming Conventions">
 <node CREATED="1344958533229" ID="ID_545719924" MODIFIED="1344958533229">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <ul>&#xd;
-      <li>&#xd;
-        E - Element (used extensively by the Java Collections Framework)&#xd;
-      </li>&#xd;
-      <li>&#xd;
-        K - Key&#xd;
-      </li>&#xd;
-      <li>&#xd;
-        N - Number&#xd;
-      </li>&#xd;
-      <li>&#xd;
-        T - Type&#xd;
-      </li>&#xd;
-      <li>&#xd;
-        V - Value&#xd;
-      </li>&#xd;
-      <li>&#xd;
-        S,U,V etc. - 2nd, 3rd, 4th types&#xd;
-      </li>&#xd;
-    </ul>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <ul>&#xd;&#xd;
+      <li>&#xd;&#xd;
+        E - Element (used extensively by the Java Collections Framework)&#xd;&#xd;
+      </li>&#xd;&#xd;
+      <li>&#xd;&#xd;
+        K - Key&#xd;&#xd;
+      </li>&#xd;&#xd;
+      <li>&#xd;&#xd;
+        N - Number&#xd;&#xd;
+      </li>&#xd;&#xd;
+      <li>&#xd;&#xd;
+        T - Type&#xd;&#xd;
+      </li>&#xd;&#xd;
+      <li>&#xd;&#xd;
+        V - Value&#xd;&#xd;
+      </li>&#xd;&#xd;
+      <li>&#xd;&#xd;
+        S,U,V etc. - 2nd, 3rd, 4th types&#xd;&#xd;
+      </li>&#xd;&#xd;
+    </ul>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1345299239016" FOLDED="true" ID="ID_274384869" MODIFIED="1368930546802" TEXT="annotation">
 <node CREATED="1345299262691" ID="ID_689043907" MODIFIED="1363773949965">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      &#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1345299807485" ID="ID_1442500037" MODIFIED="1345299807485">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <em>Annotations</em>&#xa0;provide data about a program that is not part of the program itself. They have no direct effect on the operation of the code they annotate.&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <em>Annotations</em>&#xa0;provide data about a program that is not part of the program itself. They have no direct effect on the operation of the code they annotate.&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345299602837" ID="ID_748037325" MODIFIED="1345299817963">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="wizard"/>
 <node CREATED="1345299820389" ID="ID_786888988" MODIFIED="1345299820389">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      Annotations can be applied to a program's declarations of <b>classes</b>, <b>fields</b>, <b>methods</b>, and <b>other program elements</b>.&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      Annotations can be applied to a program's declarations of <b>classes</b>, <b>fields</b>, <b>methods</b>, and <b>other program elements</b>.&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345299304783" ID="ID_1156962674" MODIFIED="1345299313779" TEXT="3 functions">
 <node CREATED="1345299328959" ID="ID_136280043" MODIFIED="1345299354455">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <b>Information for the compiler</b>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <b>Information for the compiler</b>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1345299343384" ID="ID_842878963" MODIFIED="1345302957339">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    Annotations can be used by the compiler to detect errors or suppress warnings.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    Annotations can be used by the compiler to detect errors or suppress warnings.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <icon BUILTIN="wizard"/>
 </node>
 <node CREATED="1345302508710" ID="ID_31638783" MODIFIED="1363774044604" TEXT="3 ">
 <node CREATED="1345302542518" ID="ID_1163888116" MODIFIED="1345302605192">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <b>@Deprecated</b>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <b>@Deprecated</b>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1345302558828" ID="ID_276605916" MODIFIED="1345302607885">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <b>@Override</b>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <b>@Override</b>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1345302578605" ID="ID_1008202394" MODIFIED="1345302610966">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <b>@SuppressWarnings</b>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <b>@SuppressWarnings</b>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1345302821737" ID="ID_1967201983" MODIFIED="1345302968291">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@SuppressWarnings("deprecation")</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@SuppressWarnings("deprecation")</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
 <node CREATED="1345302949554" ID="ID_463811006" MODIFIED="1345302949554">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@SuppressWarnings({"unchecked", "deprecation"})</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@SuppressWarnings({"unchecked", "deprecation"})</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345302821737" ID="ID_1373734627" MODIFIED="1345303003186">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@SuppressWarnings("unchecked")</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@SuppressWarnings("unchecked")</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 </node>
@@ -827,58 +827,58 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </node>
 </node>
 <node CREATED="1345299367158" ID="ID_1932329091" MODIFIED="1345299370234">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <b>Compiler-time and deployment-time processing</b>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <b>Compiler-time and deployment-time processing</b>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1345299383200" ID="ID_203105368" MODIFIED="1345299434537">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    Software tools can process annotation information to generate code, XML files, and so forth.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    Software tools can process annotation information to generate code, XML files, and so forth.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
 <node CREATED="1345303290028" ID="ID_102168388" MODIFIED="1345303312367">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <code><font size="5">@Retention(RetentionPolicy.RUNTIME)</font></code>&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <code><font size="5">@Retention(RetentionPolicy.RUNTIME)</font></code>&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345303323128" ID="ID_370936389" MODIFIED="1345303325905" TEXT="apt"/>
 </node>
 </node>
 <node CREATED="1345299395031" ID="ID_881645397" MODIFIED="1345299400235">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <b>Runtime processing</b>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <b>Runtime processing</b>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1345299415249" ID="ID_1847911239" MODIFIED="1345299438610">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    Some annotations are available to be examined at runtime.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    Some annotations are available to be examined at runtime.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="wizard"/>
 </node>
@@ -886,58 +886,58 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </node>
 <node CREATED="1345300123053" ID="ID_561722797" MODIFIED="1345300497519" TEXT="annotation type">
 <node CREATED="1345300232551" ID="ID_505942422" MODIFIED="1345300427380">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <b>@interface&#xa0;</b>AnnotationType{/*...*/}&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <b>@interface&#xa0;</b>AnnotationType{/*...*/}&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345300222577" ID="ID_917307181" LINK="#ID_119178843" MODIFIED="1345300556818">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@interface ClassPreamble {&#xd;
-   String author();&#xd;
-   String date();&#xd;
-   int currentRevision() default 1;&#xd;
-   String lastModified() default "N/A";&#xd;
-   String lastModifiedBy() default "N/A";&#xd;
-   // Note use of array&#xd;
-   String[] reviewers();&#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@interface ClassPreamble {&#xd;&#xd;
+   String author();&#xd;&#xd;
+   String date();&#xd;&#xd;
+   int currentRevision() default 1;&#xd;&#xd;
+   String lastModified() default "N/A";&#xd;&#xd;
+   String lastModifiedBy() default "N/A";&#xd;&#xd;
+   // Note use of array&#xd;&#xd;
+   String[] reviewers();&#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345300336007" ID="ID_996596687" MODIFIED="1345300413679" TEXT="annotation type element">
 <node CREATED="1345300357207" ID="ID_828705575" MODIFIED="1345300365239">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre> String author();&#xd;
- String date();</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre> String author();&#xd;&#xd;
+ String date();</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345300367296" ID="ID_431261225" MODIFIED="1363773919276" TEXT="default value">
 <node CREATED="1345300397685" ID="ID_211273692" MODIFIED="1345300407478">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>String lastModified() default "N/A";&#xd;
-String lastModifiedBy() default "N/A";</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>String lastModified() default "N/A";&#xd;&#xd;
+String lastModifiedBy() default "N/A";</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -946,17 +946,17 @@ String lastModifiedBy() default "N/A";</pre>&#xd;
 <node CREATED="1345299832551" ID="ID_211797337" MODIFIED="1345299836988" TEXT="">
 <icon BUILTIN="full-1"/>
 <node CREATED="1345299719929" ID="ID_167062999" MODIFIED="1363774157483">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@Author(&#xd;
-   name = "Benjamin Franklin",&#xd;
-   date = "3/27/2003"&#xd;
-)&#xd;
-class MyClass() { }</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@Author(&#xd;&#xd;
+   name = "Benjamin Franklin",&#xd;&#xd;
+   date = "3/27/2003"&#xd;&#xd;
+)&#xd;&#xd;
+class MyClass() { }</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345299771778" ID="ID_1217234703" MODIFIED="1345299774324" TEXT="The annotation appears first, often (by convention) on its own line, and may include elements&#xa0;with named or unnamed values."/>
 </node>
@@ -964,34 +964,34 @@ class MyClass() { }</pre>&#xd;
 <node CREATED="1345299841624" ID="ID_808403742" MODIFIED="1345299846375" TEXT="">
 <icon BUILTIN="full-2"/>
 <node CREATED="1345299870680" ID="ID_158087893" MODIFIED="1345299870680">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@SuppressWarnings(value = "unchecked")&#xd;
-void myMethod() { }</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@SuppressWarnings(value = "unchecked")&#xd;&#xd;
+void myMethod() { }</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1345299892772" ID="ID_1259266597" MODIFIED="1363774174469">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@SuppressWarnings("unchecked")&#xd;
-void myMethod() { }</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@SuppressWarnings("unchecked")&#xd;&#xd;
+void myMethod() { }</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345299914403" ID="ID_1845523552" MODIFIED="1345299914403">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    If there is just one element named "value," then the name may be omitted&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    If there is just one element named "value," then the name may be omitted&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -999,23 +999,23 @@ void myMethod() { }</pre>&#xd;
 <node CREATED="1345299922249" ID="ID_1917452954" MODIFIED="1345299926225" TEXT="">
 <icon BUILTIN="full-3"/>
 <node CREATED="1345299939361" ID="ID_716287251" MODIFIED="1363774188710">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@Override&#xd;
-void mySuperMethod() { }</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@Override&#xd;&#xd;
+void mySuperMethod() { }</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345299957115" ID="ID_1705507600" MODIFIED="1345299964042">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    Also, if an annotation has no elements, the parentheses may be omitted.&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    Also, if an annotation has no elements, the parentheses may be omitted.&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1023,39 +1023,39 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1345300468571" ID="ID_37837403" MODIFIED="1345300470347" TEXT="">
 <icon BUILTIN="full-4"/>
 <node CREATED="1345300490364" ID="ID_119178843" LINK="#ID_917307181" MODIFIED="1345300535344">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@ClassPreamble (&#xd;
-   author = "John Doe",&#xd;
-   date = "3/17/2002",&#xd;
-   currentRevision = 6,&#xd;
-   lastModified = "4/12/2004",&#xd;
-   lastModifiedBy = "Jane Doe",&#xd;
-   // Note array notation&#xd;
-   reviewers = {"Alice", "Bob", "Cindy"}&#xd;
-)</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@ClassPreamble (&#xd;&#xd;
+   author = "John Doe",&#xd;&#xd;
+   date = "3/17/2002",&#xd;&#xd;
+   currentRevision = 6,&#xd;&#xd;
+   lastModified = "4/12/2004",&#xd;&#xd;
+   lastModifiedBy = "Jane Doe",&#xd;&#xd;
+   // Note array notation&#xd;&#xd;
+   reviewers = {"Alice", "Bob", "Cindy"}&#xd;&#xd;
+)</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345300589930" ID="ID_1822063483" MODIFIED="1345300591881" TEXT="">
 <icon BUILTIN="full-5"/>
 <node CREATED="1345300593967" ID="ID_1208780695" MODIFIED="1345300593967">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>@Documented&#xd;
-@interface ClassPreamble {&#xd;
-&#xd;
-   // Annotation element definitions&#xd;
-   &#xd;
-}</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre>@Documented&#xd;&#xd;
+@interface ClassPreamble {&#xd;&#xd;
+&#xd;&#xd;
+   // Annotation element definitions&#xd;&#xd;
+   &#xd;&#xd;
+}</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1345300609557" ID="ID_154657052" MODIFIED="1345300613012" TEXT="To make the information in @ClassPreamble appear in Javadoc-generated documentation, you must annotate the @ClassPreamble definition itself with the @Documented annotation."/>
 </node>
@@ -1067,12 +1067,12 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 <node CREATED="1345185931743" ID="ID_1696692984" MODIFIED="1363743189853" TEXT="garbage recycling"/>
 </node>
-<node CREATED="1359034527586" FOLDED="true" ID="ID_36676939" MODIFIED="1383836139186" POSITION="right" TEXT="standard lib">
-<node CREATED="1357267216262" ID="ID_244607692" MODIFIED="1364350055070" TEXT="IO">
+<node CREATED="1359034527586" ID="ID_36676939" MODIFIED="1388469239631" POSITION="right" TEXT="standard lib">
+<node CREATED="1357267216262" FOLDED="true" ID="ID_244607692" MODIFIED="1388469320224" TEXT="IO">
 <icon BUILTIN="full-1"/>
-<node CREATED="1344928739180" FOLDED="true" ID="ID_889414804" MODIFIED="1364373454481" TEXT="java.io.*">
-<node CREATED="1357219757281" FOLDED="true" ID="ID_510121369" MODIFIED="1364373453089" TEXT="byte stream">
-<node CREATED="1357219937410" ID="ID_645362601" MODIFIED="1357644202394" TEXT="I">
+<node CREATED="1344928739180" FOLDED="true" ID="ID_889414804" MODIFIED="1388469287137" TEXT="java.io.*">
+<node CREATED="1357219757281" FOLDED="true" ID="ID_510121369" MODIFIED="1388469278345" TEXT="byte stream">
+<node CREATED="1357219937410" ID="ID_645362601" MODIFIED="1388469259582" TEXT="I">
 <node CREATED="1357219988994" ID="ID_1141515260" MODIFIED="1357264267943" TEXT="InputStream  (abstract base)">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1357225447321" ID="ID_940676544" MODIFIED="1357266074760" TEXT="mark">
@@ -1247,7 +1247,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1357219943416" ID="ID_544151774" MODIFIED="1364303420744" TEXT="O">
+<node CREATED="1357219943416" FOLDED="true" ID="ID_544151774" MODIFIED="1388469262702" TEXT="O">
 <node CREATED="1357220014525" ID="ID_1567967783" MODIFIED="1357266434005" TEXT="outputStream (abstract base)">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1357228246908" ID="ID_1244221435" MODIFIED="1357264319827" TEXT="FilterOutputStream">
@@ -1307,7 +1307,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1357266414984" FOLDED="true" ID="ID_663607105" MODIFIED="1364304003165" TEXT="IO">
+<node CREATED="1357266414984" FOLDED="true" ID="ID_663607105" MODIFIED="1388469258550" TEXT="IO">
 <node CREATED="1357266426451" ID="ID_860323737" MODIFIED="1357266443000" TEXT="RandomAccessFile ">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1357266474561" ID="ID_607715687" MODIFIED="1357266475859" TEXT="RandomAccessFile(File file, String mode) ">
@@ -1326,7 +1326,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1357219930730" ID="ID_981156127" MODIFIED="1364304188706" TEXT="char stream">
+<node CREATED="1357219930730" ID="ID_981156127" MODIFIED="1388469264173" TEXT="char stream">
 <node CREATED="1357219947172" ID="ID_1531729078" MODIFIED="1357219948269" TEXT="I">
 <node CREATED="1357219988994" ID="ID_111108541" MODIFIED="1357698219788" TEXT="Reader  (abstract base)">
 <icon BUILTIN="button_ok"/>
@@ -1433,8 +1433,8 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1357267239022" FOLDED="true" ID="ID_1027101209" MODIFIED="1364121298718" TEXT="java.nio.*">
-<node CREATED="1357734509516" FOLDED="true" ID="ID_1304843071" MODIFIED="1364100383662" TEXT="interface">
+<node CREATED="1357267239022" ID="ID_1027101209" MODIFIED="1388469288815" TEXT="java.nio.*">
+<node CREATED="1357734509516" ID="ID_1304843071" MODIFIED="1388469300396" TEXT="interface">
 <node CREATED="1357727112164" FOLDED="true" ID="ID_1630461053" MODIFIED="1357734516617" TEXT="InterruptibleChannel (Interruptible &amp; Asynchronously closable)">
 <node CREATED="1357727119067" ID="ID_54271967" MODIFIED="1357727200485" TEXT="case 1.">
 <icon BUILTIN="full-1"/>
@@ -1530,7 +1530,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 <node CREATED="1357728899918" ID="ID_705245565" MODIFIED="1358527101139" TEXT="Channel Classes">
-<node CREATED="1357728914829" FOLDED="true" ID="ID_142860974" MODIFIED="1358953154660" TEXT="FileChannel">
+<node CREATED="1357728914829" ID="ID_142860974" MODIFIED="1388469313487" TEXT="FileChannel">
 <node CREATED="1357729103287" FOLDED="true" ID="ID_299813209" MODIFIED="1358952673339" TEXT="flush">
 <node CREATED="1357728925923" ID="ID_1271102294" MODIFIED="1357729106065" TEXT="abstract  void force(boolean metaData) ">
 <node CREATED="1357728985374" ID="ID_1870373631" MODIFIED="1357729052433" TEXT="metaData=true">
@@ -1793,9 +1793,9 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1357268032615" FOLDED="true" ID="ID_1111327557" MODIFIED="1364304176869" TEXT="Byte Char String Buffer">
+<node CREATED="1357268032615" FOLDED="true" ID="ID_1111327557" MODIFIED="1388469346498" TEXT="Byte Char String Buffer">
 <icon BUILTIN="full-2"/>
-<node CREATED="1357660619484" ID="ID_449183508" MODIFIED="1358525343400" TEXT="char Character (UTF-16)">
+<node CREATED="1357660619484" ID="ID_449183508" MODIFIED="1388469332048" TEXT="char Character (UTF-16)">
 <node CREATED="1357660625158" ID="ID_1415139645" MODIFIED="1357701070536" TEXT="char">
 <node CREATED="1357700931443" ID="ID_1374312785" MODIFIED="1357700936380" TEXT="constant">
 <node CREATED="1357660630486" ID="ID_1931060814" MODIFIED="1357700941968" TEXT="&apos;\uxxxx&apos;"/>
@@ -2114,18 +2114,18 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1357717976441" ID="ID_116404141" MODIFIED="1357717982372" TEXT="manipulate">
 <node CREATED="1357713643695" ID="ID_721693417" MODIFIED="1357718235975" TEXT="flip">
 <node CREATED="1357713665015" ID="ID_1774435586" MODIFIED="1357713728603">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      cb.limit(cb.position());&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      cb.position(0);&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      cb.limit(cb.position());&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      cb.position(0);&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2138,27 +2138,27 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 <node CREATED="1357714390541" ID="ID_518641959" MODIFIED="1358144914636" TEXT="compact">
 <node CREATED="1357714524264" ID="ID_153299825" MODIFIED="1357715381273">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      char[] ca=new char[cb.limit()-cb.position()];&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      cb.get(ca);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      cb.rewind();&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      cb.put(ca);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      set capacity to limit&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      char[] ca=new char[cb.limit()-cb.position()];&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      cb.get(ca);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      cb.rewind();&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      cb.put(ca);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      set capacity to limit&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2388,7 +2388,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1344928742864" FOLDED="true" ID="ID_985157545" MODIFIED="1364306516724" TEXT="regex (java.util.regex.*)">
+<node CREATED="1344928742864" FOLDED="true" ID="ID_985157545" MODIFIED="1388469356703" TEXT="regex (java.util.regex.*)">
 <icon BUILTIN="full-3"/>
 <node CREATED="1357611127783" ID="ID_474563116" MODIFIED="1357623638165" TEXT="regex">
 <node CREATED="1357611139403" ID="ID_1245796171" MODIFIED="1364305323125" TEXT="POSIX Character Category">
@@ -2453,54 +2453,54 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1357629228753" ID="ID_358864144" MODIFIED="1357629404591" TEXT="first subregex eat entire string,then backoff(LIFO) char one by one for second regex"/>
 <node CREATED="1357629836563" ID="ID_1230584632" MODIFIED="1359034080494" TEXT="pseudo-code">
 <node CREATED="1357629872747" ID="ID_784939121" MODIFIED="1357631744867">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      boolean greedy_match(String regex, String text)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String[] subregex=partition(regex);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;least_offset=eat_least(subregex[0],text,0,test.length);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if&#xa0;&#xa0;(least_offset==-1)return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;offset=eat_more(subregex[0],text,least_offset,test.length);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;do {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ( greedy_match(subregex[1],test.substring(offset+1,test.length-offset-1))==true)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return true;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;} while (--offset&gt;least_offset)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      boolean greedy_match(String regex, String text)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String[] subregex=partition(regex);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;least_offset=eat_least(subregex[0],text,0,test.length);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if&#xa0;&#xa0;(least_offset==-1)return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;offset=eat_more(subregex[0],text,least_offset,test.length);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;do {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ( greedy_match(subregex[1],test.substring(offset+1,test.length-offset-1))==true)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return true;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;} while (--offset&gt;least_offset)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2517,54 +2517,54 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1357629413200" ID="ID_112215777" MODIFIED="1357630937894" TEXT="first subregex eat the least chars for match, then second regex  try to match  the rest chars, if  fails, the second give the char one by one to the first(FIFO),then have another try. (first introduced by Perl)"/>
 <node CREATED="1357630866262" FOLDED="true" ID="ID_1726871832" MODIFIED="1357631781784" TEXT="pseudo-code">
 <node CREATED="1357629872747" ID="ID_692757975" MODIFIED="1357631720921">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      boolean reluctant_match(String regex, String text)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String[] subregex=partition(regex);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;offset=eat_least(subregex[0],text,0,test.length);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if&#xa0;&#xa0;(offset==-1)return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;do {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ( reluctant_match(subregex[1],test.substring(offset+1,test.length-offset-1))==true)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return true;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;else&#xa0;&#xa0;if ( eat_more(subregex[0],text,offset+1,1)==-1)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;} while (++offset&lt;text.length)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      boolean reluctant_match(String regex, String text)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String[] subregex=partition(regex);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;offset=eat_least(subregex[0],text,0,test.length);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if&#xa0;&#xa0;(offset==-1)return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;do {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ( reluctant_match(subregex[1],test.substring(offset+1,test.length-offset-1))==true)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return true;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;else&#xa0;&#xa0;if ( eat_more(subregex[0],text,offset+1,1)==-1)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;} while (++offset&lt;text.length)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2581,42 +2581,42 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1357629759696" ID="ID_1386853781" MODIFIED="1357629832540" TEXT="eat the entire input string, trying once (and only once) for a match, never back off"/>
 <node CREATED="1357631410145" FOLDED="true" ID="ID_1846982235" MODIFIED="1364305319795" TEXT="pseudo-code">
 <node CREATED="1357631425105" ID="ID_1192062027" MODIFIED="1357631730910">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      boolean possessive_match(String regex, String text)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String[] subregex=partition(regex);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int least_offset=eat_least(subregex[0],text,0,test.length);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (least_offset==-1) return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int most_offset=eat_more(subregex[0],text,least_offset,text.length);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ( possessive_match(subregex[1],test.substring(most_offset+1,test.length-most_offset-1)=-1)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return true;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      boolean possessive_match(String regex, String text)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String[] subregex=partition(regex);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int least_offset=eat_least(subregex[0],text,0,test.length);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (least_offset==-1) return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int most_offset=eat_more(subregex[0],text,least_offset,text.length);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ( possessive_match(subregex[1],test.substring(most_offset+1,test.length-most_offset-1)=-1)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return true;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2731,7 +2731,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 <node CREATED="1357610220813" ID="ID_515001195" MODIFIED="1357610238691" TEXT="Matcher"/>
 </node>
-<node CREATED="1363774791979" FOLDED="true" ID="ID_1638324109" MODIFIED="1383532833157" STYLE="fork" TEXT="Java Collections Framework">
+<node CREATED="1363774791979" ID="ID_1638324109" MODIFIED="1388469358045" STYLE="fork" TEXT="Java Collections Framework">
 <icon BUILTIN="full-4"/>
 <node CREATED="1363789633727" ID="ID_222272956" MODIFIED="1370412974707" TEXT="">
 <node CREATED="1359034702899" ID="ID_1469618662" MODIFIED="1363789648300" TEXT="Array"/>
@@ -2867,7 +2867,7 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1363789806497" ID="ID_1292096493" MODIFIED="1363789831000" TEXT="Algorithms --reusable functionality"/>
 </node>
 </node>
-<node CREATED="1357219743054" FOLDED="true" ID="ID_1511933700" MODIFIED="1359034791173" TEXT="network">
+<node CREATED="1357219743054" FOLDED="true" ID="ID_1511933700" MODIFIED="1388469369971" TEXT="network">
 <icon BUILTIN="full-5"/>
 <node CREATED="1358958415700" ID="ID_643239242" MODIFIED="1359033888411" TEXT="java.net.*">
 <node CREATED="1358958681986" ID="ID_1283806040" MODIFIED="1359033891812" TEXT="UDP">
@@ -2923,18 +2923,18 @@ void mySuperMethod() { }</pre>&#xd;
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1358959345005" ID="ID_1633156570" MODIFIED="1358959401044">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      [bind]&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      connect&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [bind]&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      connect&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
@@ -3003,7 +3003,7 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1364127294762" FOLDED="true" ID="ID_949006314" MODIFIED="1366551408590" TEXT="concurrency">
+<node CREATED="1364127294762" FOLDED="true" ID="ID_949006314" MODIFIED="1388469374923" TEXT="concurrency">
 <icon BUILTIN="full-6"/>
 <node CREATED="1364127312262" ID="ID_1761240576" MODIFIED="1364127322861" TEXT="process">
 <node CREATED="1364127319257" ID="ID_566845455" MODIFIED="1364127342058" TEXT="ProcessBuilder"/>
@@ -3219,54 +3219,54 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1364127695883" FOLDED="true" ID="ID_985552117" MODIFIED="1364278805187" TEXT="Runnable">
 <icon BUILTIN="full-1"/>
 <node CREATED="1364127594360" ID="ID_1608580515" MODIFIED="1364127732420">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      new Thread(new Runnable(){&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;public void run(){&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//implementation&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }).start();&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      new Thread(new Runnable(){&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;public void run(){&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//implementation&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }).start();&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1364127737509" FOLDED="true" ID="ID_353111388" MODIFIED="1364306537282" TEXT="subclass Thread">
 <icon BUILTIN="full-2"/>
 <node CREATED="1364127776386" ID="ID_1413794831" MODIFIED="1364127835148">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      new Thread(){&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;public void run(){&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//implementation&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }.start();&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      new Thread(){&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;public void run(){&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//implementation&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }.start();&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -3428,15 +3428,15 @@ void mySuperMethod() { }</pre>&#xd;
 </node>
 </node>
 <node CREATED="1364127543361" FOLDED="true" ID="ID_133099102" MODIFIED="1364263613524">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      synchronization(keyword <b>synchronized</b>)&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      synchronization(keyword <b>synchronized</b>)&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1364138946033" ID="ID_825267069" MODIFIED="1364138947167" TEXT="synchronized methods">
 <node CREATED="1364139274198" ID="ID_1764926586" MODIFIED="1364139284182" TEXT="constructors cannot be synchronized ">
@@ -3446,12 +3446,12 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1364138947710" ID="ID_1063273389" MODIFIED="1364138954214" TEXT="synchronized statements"/>
 </node>
 </node>
-<node CREATED="1359034289104" FOLDED="true" ID="ID_161687756" MODIFIED="1359034804543" TEXT="GUI">
+<node CREATED="1359034289104" FOLDED="true" ID="ID_161687756" MODIFIED="1388469376924" TEXT="GUI">
 <icon BUILTIN="full-7"/>
 <node CREATED="1359034455123" ID="ID_764837071" MODIFIED="1359034508758" TEXT="java.awt.*"/>
 <node CREATED="1359034508998" ID="ID_1418897015" MODIFIED="1359034516254" TEXT="javax.swing.*"/>
 </node>
-<node CREATED="1363941244599" ID="ID_1579528762" MODIFIED="1383532836155" TEXT="JAXP --Java API for XML Processing">
+<node CREATED="1363941244599" FOLDED="true" ID="ID_1579528762" MODIFIED="1388469242346" TEXT="JAXP --Java API for XML Processing">
 <icon BUILTIN="full-8"/>
 <node CREATED="1363941274222" ID="ID_802495493" MODIFIED="1383532840876" TEXT="DOM">
 <node CREATED="1363941259883" ID="ID_601677301" MODIFIED="1368929374509" TEXT="Document Object Model">
@@ -3462,18 +3462,18 @@ void mySuperMethod() { }</pre>&#xd;
 <node CREATED="1368929532655" ID="ID_1456656588" MODIFIED="1368929534930" TEXT="Node"/>
 <node CREATED="1368929482079" FOLDED="true" ID="ID_230149411" MODIFIED="1368929561292" TEXT="Nodelist">
 <node CREATED="1363941664985" ID="ID_697116304" MODIFIED="1363941679853">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      NodeList nlist=doc.getElementsByTagName("pattern");&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      Node node=nlist.item(0);&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      NodeList nlist=doc.getElementsByTagName("pattern");&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      Node node=nlist.item(0);&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1363941777765" ID="ID_958465830" MODIFIED="1368929559032" TEXT="NodeList nlist=node.getChildNodes();"/>
