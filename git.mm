@@ -45,7 +45,7 @@
 <node CREATED="1345617967057" ID="ID_1276470767" MODIFIED="1345617971379" TEXT="content"/>
 </node>
 </node>
-<node CREATED="1345619624684" FOLDED="true" ID="ID_681230773" MODIFIED="1388165756354" POSITION="right" TEXT="git directory &amp; work directory">
+<node CREATED="1345619624684" ID="ID_681230773" MODIFIED="1388426726962" POSITION="right" TEXT="git directory &amp; work directory">
 <node CREATED="1345619647522" ID="ID_437017497" MODIFIED="1345620943432" TEXT="the git directory  (.git/)">
 <node CREATED="1345619698211" ID="ID_1771872358" MODIFIED="1345619710556" TEXT="one git directory per project">
 <node CREATED="1345620922507" ID="ID_1642720773" MODIFIED="1345621014120" TEXT="index">
@@ -57,50 +57,7 @@
 </node>
 <node CREATED="1345619654489" ID="ID_1586789199" MODIFIED="1345619661564" TEXT="the work directory"/>
 </node>
-<node CREATED="1345621357140" FOLDED="true" ID="ID_1952612481" MODIFIED="1388165752218" POSITION="right" TEXT="config">
-<node CREATED="1345621360475" ID="ID_1461187704" MODIFIED="1365435984638" TEXT="global  ~/.gitconfig">
-<node CREATED="1345621449573" ID="ID_723586524" MODIFIED="1345639718863">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $ git config <b>--global&#xa0;</b>&#xa0;user.name "satanson"&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-<font ITALIC="true" NAME="Dialog" SIZE="16"/>
-</node>
-<node CREATED="1345621484159" ID="ID_1101664132" MODIFIED="1345639718869">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $ git config <b>--global </b>user.email "ranpanf@foxmail.com"&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-<font ITALIC="true" NAME="Dialog" SIZE="16"/>
-</node>
-</node>
-<node CREATED="1365435024480" ID="ID_554223747" MODIFIED="1365435177306" TEXT="SSH no passphrase">
-<node CREATED="1365435088097" ID="ID_484100334" MODIFIED="1365435102549" TEXT="$ cd ~./ssh"/>
-<node CREATED="1365435039257" ID="ID_323080386" MODIFIED="1365435108536" TEXT="$ ssh-keygen -t rsa -C &quot;your_email@example.com&quot;"/>
-<node CREATED="1365435959360" ID="ID_859868585" MODIFIED="1365435974057" TEXT="$ ssh -T git@github.com"/>
-</node>
-<node CREATED="1345621365684" ID="ID_1169692100" MODIFIED="1345621447541" TEXT="project-specific  path/.git/config">
-<node CREATED="1345621449573" ID="ID_1518043934" MODIFIED="1345639718871" TEXT="$ git config user.name &quot;satanson&quot;">
-<font ITALIC="true" NAME="Dialog" SIZE="16"/>
-</node>
-<node CREATED="1345621484159" ID="ID_182231979" MODIFIED="1345639718871" TEXT="$ git config user.email &quot;ranpanf@foxmail.com&quot;">
-<font ITALIC="true" NAME="Dialog" SIZE="16"/>
-</node>
-</node>
-</node>
-<node CREATED="1345621759433" FOLDED="true" ID="ID_1242374315" MODIFIED="1388165748581" POSITION="right" TEXT="basic usage">
+<node CREATED="1345621759433" FOLDED="true" ID="ID_1242374315" MODIFIED="1388428749960" POSITION="right" TEXT="basic usage">
 <node CREATED="1345621802323" ID="ID_1801559050" MODIFIED="1365752106358">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
@@ -274,15 +231,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1345629544017" ID="ID_75547785" MODIFIED="1370231292073" TEXT="branch&amp;merge">
-<node CREATED="1345630517557" FOLDED="true" ID="ID_1346799780" MODIFIED="1370238065696" TEXT="branch">
-<node CREATED="1345631887571" ID="ID_876764760" MODIFIED="1345631894289" TEXT="create">
+<node CREATED="1345629544017" ID="ID_75547785" MODIFIED="1388428733672" TEXT="branch&amp;merge">
+<node CREATED="1345630517557" ID="ID_1346799780" MODIFIED="1388426740958" TEXT="branch">
+<node CREATED="1345631887571" FOLDED="true" ID="ID_876764760" MODIFIED="1388426796464" TEXT="create">
 <node CREATED="1345630534574" ID="ID_684651149" MODIFIED="1345639718900" TEXT="$ git branch branch1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345630578642" ID="ID_1610820183" MODIFIED="1345630733203" TEXT="create a new branch named &quot;branch1&quot;"/>
 </node>
 </node>
-<node CREATED="1345631898428" ID="ID_93509061" MODIFIED="1345631901680" TEXT="list">
+<node CREATED="1345631898428" ID="ID_93509061" MODIFIED="1388426797952" TEXT="list">
 <node CREATED="1345630587129" ID="ID_1056474390" MODIFIED="1345639718900" TEXT="$ git branch">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345630598036" ID="ID_1516088758" MODIFIED="1345630751946" TEXT="list branchs">
@@ -303,18 +260,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1345631913314" ID="ID_133850665" MODIFIED="1345631920287" TEXT="switch">
+<node CREATED="1345631913314" ID="ID_133850665" MODIFIED="1388426799877" TEXT="switch">
 <node CREATED="1345630737310" ID="ID_119543386" MODIFIED="1345639718900" TEXT="$ git checkout branch1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345630765003" ID="ID_309439053" MODIFIED="1345630774389" TEXT="switch branch"/>
 </node>
 </node>
-<node CREATED="1345631906678" ID="ID_57475937" MODIFIED="1345631910142" TEXT="delete">
+<node CREATED="1345631906678" ID="ID_57475937" MODIFIED="1388428729680" TEXT="delete">
 <node CREATED="1345631926942" ID="ID_1896810204" MODIFIED="1345639718901" TEXT="$ git branch -d br1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345631989157" ID="ID_393682148" MODIFIED="1365755432132" TEXT="Delete a branch. The branch must be fully merged in its upstream branch, or in HEAD if no upstream was set with --track or --set-upstream.&#xa;"/>
 </node>
-<node CREATED="1345631947797" ID="ID_1111019972" MODIFIED="1345639718903" TEXT="$ git branch -D br1">
+<node CREATED="1345631947797" ID="ID_1111019972" MODIFIED="1388427269700" TEXT="$ git branch -D br1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345632001151" ID="ID_1544763210" MODIFIED="1365755448083">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
@@ -329,7 +286,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345631316815" FOLDED="true" ID="ID_598548734" MODIFIED="1370238067043" TEXT="merge">
+<node CREATED="1345631316815" ID="ID_598548734" MODIFIED="1388428735008" TEXT="merge">
 <node CREATED="1345632408539" ID="ID_1067369693" MODIFIED="1345632413591" TEXT="merge">
 <node CREATED="1345631320325" FOLDED="true" ID="ID_372803641" MODIFIED="1365758945758">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
@@ -348,7 +305,7 @@
 <node CREATED="1345631406358" ID="ID_1380592839" MODIFIED="1345631415654" TEXT="merge the changes made in branch1 into master"/>
 </node>
 </node>
-<node CREATED="1345632417070" ID="ID_1206843631" MODIFIED="1345632422947" TEXT="undo merge">
+<node CREATED="1345632417070" ID="ID_1206843631" MODIFIED="1388428739056" TEXT="undo merge">
 <node CREATED="1345632424508" ID="ID_1424720044" MODIFIED="1345639718909" TEXT="$ git reset --hard HEAD">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345632513075" ID="ID_833398306" MODIFIED="1345632513075" TEXT="return to the pre-merge state"/>
@@ -360,7 +317,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345632795199" FOLDED="true" ID="ID_65693724" MODIFIED="1365752228887" TEXT="log">
+<node CREATED="1345632795199" FOLDED="true" ID="ID_65693724" MODIFIED="1388428746111" TEXT="log">
 <node CREATED="1345633061762" ID="ID_496225952" MODIFIED="1365752226568" TEXT="$ git log v2.5..">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345633072921" ID="ID_237099646" MODIFIED="1345633072921" TEXT=""/>
@@ -417,7 +374,7 @@
 <node CREATED="1345633712606" ID="ID_1429871808" MODIFIED="1345633715431" TEXT="--reverse"/>
 </node>
 </node>
-<node CREATED="1345633719533" FOLDED="true" ID="ID_1749643732" MODIFIED="1365755350418" TEXT="diff">
+<node CREATED="1345633719533" FOLDED="true" ID="ID_1749643732" MODIFIED="1388428743635" TEXT="diff">
 <node CREATED="1345633728238" ID="ID_1331173246" MODIFIED="1345639718912" TEXT="$ git diff master..br1">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
@@ -442,7 +399,7 @@
 <node CREATED="1345633991093" ID="ID_227904069" MODIFIED="1345634016735" TEXT="limit the output to the files that have changed along with a little text graph depicting how many lines changed in each file"/>
 </node>
 </node>
-<node CREATED="1345637221900" ID="ID_311808746" MODIFIED="1365752246058" TEXT="distributed workflow">
+<node CREATED="1345637221900" FOLDED="true" ID="ID_311808746" MODIFIED="1388428747379" TEXT="distributed workflow">
 <node CREATED="1345637293666" ID="ID_556248057" MODIFIED="1345639718916" TEXT="$ git clone /home/alice/project myrepos">
 <font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
@@ -565,7 +522,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1365758954168" FOLDED="true" ID="ID_214670172" MODIFIED="1388165750443" POSITION="right" TEXT="self hosted">
+<node CREATED="1365758954168" FOLDED="true" ID="ID_214670172" MODIFIED="1388392652155" POSITION="right" TEXT="self hosted">
 <node CREATED="1365758964896" ID="ID_1902129446" MODIFIED="1365759090002" TEXT="$ sudo apt-get  install curl">
 <icon BUILTIN="full-1"/>
 </node>
@@ -581,30 +538,15 @@
 <node CREATED="1365759057919" ID="ID_465523760" MODIFIED="1365759098766" TEXT="$ mkdir repo &amp;&amp; git init">
 <icon BUILTIN="full-5"/>
 </node>
-<node CREATED="1365759101824" ID="ID_1035092467" MODIFIED="1365759556414">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $ sudo cp -R /usr/share/doc/git/contrib/git-shell-commands /home/somebody/&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $ sudo chown -R user:user /home/somebody/git-shell-commnads&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $ sudo chmod -R u+x /home/somebody/git-shell-commands&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
+<node CREATED="1365759101824" ID="ID_1035092467" MODIFIED="1388370013187">
+<richcontent TYPE="NODE"><html>&#xd;  <head>&#xd;    &#xd;  </head>&#xd;  <body>&#xd;    <p>&#xd;      $ sudo cp -R /usr/share/doc/git/contrib/git-shell-commands /home/somebody/&#xd;    </p>&#xd;    <p>&#xd;      $ sudo chown -R user:user /home/somebody/git-shell-commands&#xd;    </p>&#xd;    <p>&#xd;      $ sudo chmod -R u+x /home/somebody/git-shell-commands&#xd;    </p>&#xd;  </body>&#xd;</html>&#xd;</richcontent>
 <icon BUILTIN="full-6"/>
 </node>
 <node CREATED="1365759492272" ID="ID_272103490" MODIFIED="1365759590441" TEXT="git clone ssh://somebody@host/home/somebody/repo">
 <icon BUILTIN="full-7"/>
 </node>
 </node>
-<node CREATED="1388165759092" ID="ID_1064709093" MODIFIED="1388165775658" POSITION="right" TEXT="git internals">
+<node CREATED="1388165759092" FOLDED="true" ID="ID_1064709093" MODIFIED="1388369312754" POSITION="right" TEXT="git internals">
 <node CREATED="1388166043413" ID="ID_1001089878" MODIFIED="1388166049771" TEXT=".git">
 <node CREATED="1388166168099" ID="ID_967087050" MODIFIED="1388166174834" TEXT="COMMIT_EDITMSG"/>
 <node CREATED="1388166175159" ID="ID_717278590" MODIFIED="1388166264073" TEXT="config (project-specific conf)"/>
@@ -633,6 +575,108 @@
 </node>
 <node CREATED="1388166050049" ID="ID_19003144" MODIFIED="1388166055850" TEXT=".gitignore"/>
 <node CREATED="1388166056386" ID="ID_1724704867" MODIFIED="1388166063064" TEXT="README.md"/>
+</node>
+<node CREATED="1388393170736" FOLDED="true" ID="ID_1036060750" MODIFIED="1388453017180" POSITION="right" TEXT="perspective">
+<node CREATED="1388392653545" ID="ID_950499025" MODIFIED="1388393191920" TEXT="filesystem, snapshot, powerful tools built on fs"/>
+<node CREATED="1388392796690" ID="ID_558417163" MODIFIED="1388393191919" TEXT="fully mirror repository, local operation, offline operation"/>
+<node CREATED="1388392950351" ID="ID_199115191" MODIFIED="1388393191918" TEXT="integrity, checksumed by SHA-1, referenced(store,access)by SHA-1 checksum"/>
+<node CREATED="1388393142326" ID="ID_1359958614" MODIFIED="1388393191918" TEXT="add data, undoable"/>
+</node>
+<node CREATED="1388408713937" FOLDED="true" ID="ID_1511751978" MODIFIED="1388428863810" POSITION="right" TEXT="print info">
+<node CREATED="1388408813342" ID="ID_1033115232" MODIFIED="1388409284591" TEXT="{modified, staged}: git {status, git}">
+<node CREATED="1388405152141" ID="ID_1261002558" MODIFIED="1388409222605" TEXT="(brief) git status"/>
+<node CREATED="1388406273486" FOLDED="true" ID="ID_834703110" MODIFIED="1388409241405" TEXT="(detail) git diff: modified&amp;staged; staged&amp;committed">
+<node CREATED="1388406284436" ID="ID_1491045853" MODIFIED="1388406287530" TEXT="git diff">
+<node CREATED="1388406337888" ID="ID_747481266" MODIFIED="1388406366686" TEXT="diff modified and staged"/>
+</node>
+<node CREATED="1388406287779" ID="ID_1742286986" MODIFIED="1388406318260" TEXT="git diff --{cached, staged}">
+<node CREATED="1388406369468" ID="ID_1613352623" MODIFIED="1388406377636" TEXT="diff staged and commited"/>
+</node>
+</node>
+</node>
+<node CREATED="1388407128064" FOLDED="true" ID="ID_27222981" MODIFIED="1388415633320" TEXT="{committed}: git log">
+<node CREATED="1388414385935" ID="ID_1369630623" MODIFIED="1388414388083" TEXT="git log"/>
+<node CREATED="1388414403288" ID="ID_1425007276" MODIFIED="1388414517507" TEXT="git log -p/--patch -2"/>
+<node CREATED="1388414536704" ID="ID_360970020" MODIFIED="1388414541195" TEXT="git log --stat"/>
+<node CREATED="1388414605548" ID="ID_33214395" MODIFIED="1388414620126" TEXT="git log --pretty=oneline"/>
+<node CREATED="1388414644229" ID="ID_540865490" MODIFIED="1388414771223" TEXT="git log --pretty=format:&quot;%h - %an, %nr: %s&quot;">
+<node CREATED="1388414858703" ID="ID_363809951" MODIFIED="1388414860532" TEXT="format"/>
+</node>
+<node CREATED="1388414791148" ID="ID_1129823016" MODIFIED="1388414820540" TEXT="git log --pretty=format:&quot;%h %s&quot; --graph"/>
+</node>
+</node>
+<node CREATED="1388428759958" FOLDED="true" ID="ID_434370742" MODIFIED="1388428858931" POSITION="right" TEXT="{tracked, unmodified, modified, staged, committed}">
+<node CREATED="1388393139411" ID="ID_1198322338" MODIFIED="1388428836770" TEXT="3 states">
+<node CREATED="1388393309462" ID="ID_965030898" MODIFIED="1388395754224" TEXT="committed(git dir)">
+<node CREATED="1388393489022" ID="ID_1713031028" MODIFIED="1388393535819" TEXT="data is safely stored into local db"/>
+</node>
+<node CREATED="1388393316132" ID="ID_1754499234" MODIFIED="1388407990106" TEXT="modified(working dir)">
+<node CREATED="1388393354735" ID="ID_1970315631" MODIFIED="1388393486385" TEXT="u&apos;v changed files but u&apos;v not committed them to local db"/>
+</node>
+<node CREATED="1388393318442" ID="ID_1166332858" MODIFIED="1388393696867" TEXT="staged (staging area)">
+<node CREATED="1388393552276" ID="ID_531129478" MODIFIED="1388393605101" TEXT="u&apos;v maked a modified files in current version to go to next snapshot"/>
+</node>
+</node>
+<node CREATED="1388404848201" ID="ID_929338838" MODIFIED="1388428836767" TEXT="4 file statuses">
+<node CREATED="1388404921472" ID="ID_1741432755" MODIFIED="1388404924853" TEXT="untracked"/>
+<node CREATED="1388404939757" ID="ID_1215600527" MODIFIED="1388404947342" TEXT="unmodified"/>
+<node CREATED="1388404953743" ID="ID_1105900730" MODIFIED="1388405033066" TEXT="modified"/>
+<node CREATED="1388404969724" ID="ID_1647168881" MODIFIED="1388404979651" TEXT="staged"/>
+</node>
+<node CREATED="1388418115452" FOLDED="true" ID="ID_1890857351" MODIFIED="1388428842884" TEXT="{,un}stage">
+<node CREATED="1388418711304" ID="ID_1204132036" MODIFIED="1388419156969" TEXT="stage: git add file"/>
+<node CREATED="1388418731242" ID="ID_801866843" MODIFIED="1388418751944" TEXT="unstage: git reset HEAD file"/>
+</node>
+<node CREATED="1388418125683" FOLDED="true" ID="ID_1192342049" MODIFIED="1388421762345" TEXT="{,un}track">
+<node CREATED="1388418789771" ID="ID_1845032812" MODIFIED="1388418797120" TEXT="track: go add file"/>
+<node CREATED="1388418797858" ID="ID_659443757" MODIFIED="1388418857355" TEXT="untrack: go rm --cached(reserved in working dir)  file"/>
+</node>
+<node CREATED="1388418592072" FOLDED="true" ID="ID_411125071" MODIFIED="1388421759543" TEXT="{,re,un}commit">
+<node CREATED="1388419062725" ID="ID_1563550286" MODIFIED="1388419096912" TEXT="commit: go commit  -m &quot;msg&quot; file "/>
+<node CREATED="1388419073125" ID="ID_1882064237" MODIFIED="1388419167970" TEXT="recommit: git commit --amend"/>
+<node CREATED="1388419170759" ID="ID_488803026" MODIFIED="1388419176469" TEXT="uncommit:"/>
+</node>
+<node CREATED="1388418684781" FOLDED="true" ID="ID_1038911160" MODIFIED="1388421764685" TEXT="{,un}modify">
+<node CREATED="1388418951763" ID="ID_233571135" MODIFIED="1388418974414" TEXT="modify: edit file by vim, emacs..."/>
+<node CREATED="1388418977181" ID="ID_989273456" MODIFIED="1388419028224" TEXT="unmodify: git checkout -- file"/>
+</node>
+</node>
+<node CREATED="1388421765122" FOLDED="true" ID="ID_362779812" MODIFIED="1388428860242" POSITION="right" TEXT="branch">
+<node CREATED="1388421787507" ID="ID_589174625" MODIFIED="1388422061698" TEXT="git {fetch(!merged), pull(merged)}"/>
+</node>
+<node CREATED="1388422748407" FOLDED="true" ID="ID_980114663" MODIFIED="1388428861647" POSITION="right" TEXT="version(tagging)">
+<node CREATED="1388423131333" ID="ID_145917228" MODIFIED="1388423132814" TEXT="git tag"/>
+<node CREATED="1388423184114" ID="ID_186227362" MODIFIED="1388423198103" TEXT="git tag -l &quot;tagname glob&quot;"/>
+<node CREATED="1388423289715" ID="ID_1343760079" MODIFIED="1388423294355" TEXT="git show &quot;tagname&quot;"/>
+<node CREATED="1388422796341" FOLDED="true" ID="ID_303811536" MODIFIED="1388423336061" TEXT="git tag {,-s,-a} &quot;tagname&quot; &quot;commit SHA-1&quot;">
+<node CREATED="1388423137488" ID="ID_101697499" MODIFIED="1388423211909" TEXT="default (lightweight)"/>
+<node CREATED="1388423166592" ID="ID_340535467" MODIFIED="1388423299985" TEXT="-a (annotated)"/>
+<node CREATED="1388423300409" ID="ID_516651304" MODIFIED="1388423314602" TEXT="-s (signed, GPG)"/>
+</node>
+<node CREATED="1388423337070" ID="ID_611399958" MODIFIED="1388423465024" TEXT="git tag -v &quot;tagname&quot; (verify signed tag)"/>
+<node CREATED="1388423434889" ID="ID_1526000645" MODIFIED="1388423445854" TEXT="git push origin &quot;tagname&quot;"/>
+<node CREATED="1388423446205" ID="ID_1346012806" MODIFIED="1388423458429" TEXT="git push origin --tags (push all tags)"/>
+</node>
+<node CREATED="1345621357140" FOLDED="true" ID="ID_1952612481" MODIFIED="1388426720617" POSITION="right" TEXT="git config">
+<node CREATED="1365435024480" FOLDED="true" ID="ID_554223747" MODIFIED="1388396430091" TEXT="SSH no passphrase">
+<node CREATED="1365435088097" ID="ID_484100334" MODIFIED="1365435102549" TEXT="$ cd ~./ssh"/>
+<node CREATED="1365435039257" ID="ID_323080386" MODIFIED="1365435108536" TEXT="$ ssh-keygen -t rsa -C &quot;your_email@example.com&quot;"/>
+<node CREATED="1365435959360" ID="ID_859868585" MODIFIED="1365435974057" TEXT="$ ssh -T git@github.com"/>
+</node>
+<node CREATED="1388395915665" ID="ID_923350521" MODIFIED="1388423727372" TEXT="git config --{,system, global} name value">
+<node CREATED="1388396227515" FOLDED="true" ID="ID_687555641" MODIFIED="1388396600257" TEXT="--{,system,gloabl}">
+<node CREATED="1388396133314" ID="ID_714629624" MODIFIED="1388396562609" TEXT="--system[system-wide]: /etc/gitconfig"/>
+<node CREATED="1388396180172" ID="ID_1439605859" MODIFIED="1388396572756" TEXT="--global[user-specific]: ~/.gitconfig"/>
+<node CREATED="1388396188137" ID="ID_445792622" MODIFIED="1388396592372" TEXT="(default)[project-specific]: .git/config"/>
+</node>
+<node CREATED="1388396280363" ID="ID_440501772" MODIFIED="1388396389328" TEXT="git config --global user.name &quot;satanson&quot;"/>
+<node CREATED="1388396389894" ID="ID_1612443661" MODIFIED="1388396404906" TEXT="git config --global user.email &quot;ranpanf@gmail.com&quot;"/>
+</node>
+<node CREATED="1388423717771" ID="ID_1157458825" MODIFIED="1388423743505" TEXT="aliases">
+<node CREATED="1388423753324" ID="ID_1269354595" MODIFIED="1388423803420" TEXT="git config --global alias.unstage &apos;git reset HEAD&apos;"/>
+<node CREATED="1388423804194" ID="ID_944406627" MODIFIED="1388423838309" TEXT="git config --global alias.last &apos;git log -1&apos;"/>
+<node CREATED="1388423841143" ID="ID_916471872" MODIFIED="1388423906336" TEXT="git config --gloabl alias.untrack &apos;git rm&apos;"/>
+</node>
 </node>
 </node>
 </map>
