@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1359819968730" ID="ID_1754679472" MODIFIED="1359819983143" TEXT="Latex">
 <node CREATED="1360293030004" ID="ID_926013866" MODIFIED="1360768484255" POSITION="right" TEXT="TeX version">
@@ -13,10 +13,10 @@
 <node CREATED="1360293168174" ID="ID_1454787113" MODIFIED="1360293174291" TEXT="2.718281"/>
 </node>
 </node>
-<node CREATED="1360291569861" FOLDED="true" ID="ID_1105474816" MODIFIED="1363571420036" POSITION="right" TEXT="input/output">
+<node CREATED="1360291569861" FOLDED="true" ID="ID_1105474816" MODIFIED="1388767158831" POSITION="right" TEXT="input/output">
 <node CREATED="1360291575017" ID="ID_1202940172" MODIFIED="1362107062307" TEXT="*.tex (plain text)">
 <node CREATED="1360291581327" ID="ID_1215853202" MODIFIED="1360291628027" TEXT="--tex/latex--&gt;">
-<node CREATED="1360291630592" ID="ID_1672076166" MODIFIED="1360291655320" TEXT="*.dvi (device independent)">
+<node CREATED="1360291630592" ID="ID_1672076166" MODIFIED="1388766910788" TEXT="*.dvi (device independent)">
 <node CREATED="1360291658196" ID="ID_641015722" MODIFIED="1360291699148" TEXT="--xdvi--&gt;">
 <node CREATED="1360118550250" ID="ID_1271496207" MODIFIED="1360118551578" TEXT="A DVI file previewer for the X window system.">
 <node CREATED="1360118563627" ID="ID_1881788812" MODIFIED="1360118564955" TEXT="display directly"/>
@@ -73,28 +73,28 @@
 </node>
 </node>
 </node>
-<node CREATED="1360113815877" ID="ID_1648866062" MODIFIED="1364445430596" POSITION="right" TEXT="LaTeX (by Leslie Lamport)">
+<node CREATED="1360113815877" FOLDED="true" ID="ID_1648866062" MODIFIED="1388768672968" POSITION="right" TEXT="LaTeX (by Leslie Lamport)">
 <node CREATED="1360113901519" FOLDED="true" ID="ID_1401567320" MODIFIED="1367644758614" TEXT="">
 <node CREATED="1360113963342" ID="ID_1596159058" MODIFIED="1360114025806" TEXT="LATEX typesets a file of text using the TEX program and the LATEX &quot;macro package&quot; for TEX."/>
 <node CREATED="1360121178243" ID="ID_1405992702" MODIFIED="1360121189742">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \documentclass{class}
-    </p>
-    <p>
-      \begin{document}
-    </p>
-    <p>
-      your text
-    </p>
-    <p>
-      \end{document}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \documentclass{class}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \begin{document}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      your text&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{document}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -658,21 +658,21 @@
 </node>
 <node CREATED="1360143670204" FOLDED="true" ID="ID_1814372901" MODIFIED="1364445278839" TEXT="Environments">
 <node CREATED="1360143719227" ID="ID_1958708105" MODIFIED="1360143730804">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{envname}
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{envname}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{envname}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{envname}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1360143743696" FOLDED="true" ID="ID_65329555" MODIFIED="1360144112186" TEXT="abstract">
@@ -704,94 +704,94 @@
 </node>
 <node CREATED="1360144455842" FOLDED="true" ID="ID_1928875802" MODIFIED="1360144805471" TEXT="center">
 <node CREATED="1360144732688" ID="ID_1066452266" MODIFIED="1360144754623">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{center}
-    </p>
-    <p>
-      &#160;line1 \\
-    </p>
-    <p>
-      &#160;line2 \\
-    </p>
-    <p>
-      \end{center}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{center}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;line1 \\&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;line2 \\&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{center}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1360144766329" ID="ID_1465385006" MODIFIED="1360144775457">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{quote}
-    </p>
-    <p>
-      \centering
-    </p>
-    <p>
-      first line \\
-    </p>
-    <p>
-      second line \\
-    </p>
-    <p>
-      \end{quote}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{quote}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \centering&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      first line \\&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      second line \\&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{quote}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1360144806164" FOLDED="true" ID="ID_1227082304" MODIFIED="1360144866943" TEXT="description">
 <node CREATED="1360144817138" ID="ID_394119215" MODIFIED="1360144824285">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{description}
-    </p>
-    <p>
-      \item [label1] item1
-    </p>
-    <p>
-      \item [label2] item2
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{description}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{description}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \item [label1] item1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \item [label2] item2&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{description}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1360144864243" FOLDED="true" ID="ID_32844499" MODIFIED="1360144948079" TEXT="displaymath">
 <node CREATED="1360144903157" ID="ID_748047567" MODIFIED="1360144911458">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{displaymath}
-    </p>
-    <p>
-      math
-    </p>
-    <p>
-      \end{displaymath}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{displaymath}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      math&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{displaymath}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1360144924880" ID="ID_911657048" MODIFIED="1360144926255" TEXT="\[math\]"/>
@@ -799,100 +799,100 @@
 <node CREATED="1360144948553" ID="ID_1091165526" MODIFIED="1360144949647" TEXT="document"/>
 <node CREATED="1360144980697" FOLDED="true" ID="ID_1268058838" MODIFIED="1360145193717" TEXT="enumerate">
 <node CREATED="1360144990969" ID="ID_1065669821" MODIFIED="1360145001143">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{enumerate}
-    </p>
-    <p>
-      \item item1
-    </p>
-    <p>
-      \item item2
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{enumerate}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{enumerate}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \item item1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \item item2&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{enumerate}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1360145112345" ID="ID_1109407478" MODIFIED="1360145113907" TEXT="The enumerate environment produces a numbered list. Enumerations can be nested within one another, up to four levels deep."/>
 </node>
 <node CREATED="1360145194940" FOLDED="true" ID="ID_679680374" MODIFIED="1360145237709" TEXT="eqnarray">
 <node CREATED="1360145221421" ID="ID_1118501609" MODIFIED="1360145228755">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{eqnarray} (or eqnarray*)
-    </p>
-    <p>
-      formula1 \\
-    </p>
-    <p>
-      formula2 \\
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{eqnarray}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{eqnarray} (or eqnarray*)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      formula1 \\&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      formula2 \\&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{eqnarray}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1360145238167" FOLDED="true" ID="ID_591087488" MODIFIED="1360145258637" TEXT="equation">
 <node CREATED="1360145248112" ID="ID_1667079170" MODIFIED="1360145257311">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{equation}
-    </p>
-    <p>
-      math
-    </p>
-    <p>
-      \end{equation}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{equation}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      math&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{equation}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1360145271076" FOLDED="true" ID="ID_1802335550" MODIFIED="1360145691694" TEXT="figure">
 <node CREATED="1360145296106" ID="ID_1774532838" MODIFIED="1360145313713">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{figure[*]}[placement]
-    </p>
-    <p>
-      figbody
-    </p>
-    <p>
-      \label{label}
-    </p>
-    <p>
-      \caption[loftitle]{text}
-    </p>
-    <p>
-      \end{figure}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{figure[*]}[placement]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      figbody&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \label{label}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \caption[loftitle]{text}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{figure}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1360145391672" ID="ID_1803079496" MODIFIED="1360145393000" TEXT="[placement]">
 <node CREATED="1360145408918" ID="ID_1802760707" MODIFIED="1360145409996" TEXT="t"/>
@@ -916,27 +916,27 @@
 </node>
 <node CREATED="1360145759739" FOLDED="true" ID="ID_728668670" MODIFIED="1360145856282" TEXT="itemize">
 <node CREATED="1360145801305" ID="ID_1257681384" MODIFIED="1360145807984">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{itemize}
-    </p>
-    <p>
-      \item item1
-    </p>
-    <p>
-      \item item2
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{itemize}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{itemize}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \item item1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \item item2&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{itemize}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -987,16 +987,16 @@
 <node CREATED="1363567810457" FOLDED="true" ID="ID_539825498" MODIFIED="1364446332856" TEXT="Definitions">
 <node CREATED="1363567813204" FOLDED="true" ID="ID_585132240" MODIFIED="1364444891392" TEXT="\newcommand &amp; \renewcommand">
 <node CREATED="1363567988727" ID="ID_661043808" MODIFIED="1363569187902">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newcommand{<var>cmd</var>}[<var>nargs</var>]{<var>defn</var>}
-\renewcommand{<var>cmd</var>}[<var>nargs</var>]{<var>defn</var>}
-\newcommand{<var>cmd</var>}[<var>nargs</var>][<var>default</var>]{<var>defn</var>}
-\renewcommand{<var>cmd</var>}[<var>nargs</var>][<var>default</var>]{<var>defn</var>}</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newcommand{<var>cmd</var>}[<var>nargs</var>]{<var>defn</var>}&#xd;
+\renewcommand{<var>cmd</var>}[<var>nargs</var>]{<var>defn</var>}&#xd;
+\newcommand{<var>cmd</var>}[<var>nargs</var>][<var>default</var>]{<var>defn</var>}&#xd;
+\renewcommand{<var>cmd</var>}[<var>nargs</var>][<var>default</var>]{<var>defn</var>}</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363568058741" ID="ID_1569428588" MODIFIED="1363568072108" TEXT="cmd">
 <node CREATED="1363568082586" ID="ID_1268535411" MODIFIED="1363568084052" TEXT="command name beginning with \"/>
@@ -1018,35 +1018,35 @@
 </node>
 <node CREATED="1363569306352" FOLDED="true" ID="ID_1747660199" MODIFIED="1363569435667" TEXT="demo">
 <node CREATED="1363569317849" ID="ID_431304450" MODIFIED="1363569317849">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="margin-left: 0px; margin-top: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px">
-      \newcommand{\cndemoi}[2][foobar]{#1:#2}
-    </p>
-    <p style="margin-left: 0px; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px">
-      \cndemoi{deadbeef}\par
-    </p>
-    <p style="margin-left: 0px; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px">
-      \cndemoi[dead]{beef} \par
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p style="margin-left: 0px; margin-top: 0px; text-indent: 0px; margin-right: 0px; margin-bottom: 0px">&#xd;
+      \newcommand{\cndemoi}[2][foobar]{#1:#2}&#xd;
+    </p>&#xd;
+    <p style="margin-left: 0px; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px">&#xd;
+      \cndemoi{deadbeef}\par&#xd;
+    </p>&#xd;
+    <p style="margin-left: 0px; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px">&#xd;
+      \cndemoi[dead]{beef} \par&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363569333242" ID="ID_121401186" MODIFIED="1363569423713">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      foobar:deadbeef
-    </p>
-    <p>
-      dead:beef
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      foobar:deadbeef&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      dead:beef&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1055,13 +1055,13 @@
 </node>
 <node CREATED="1363421735663" FOLDED="true" ID="ID_867440992" MODIFIED="1363570964779" TEXT="\newcounter">
 <node CREATED="1363569583317" ID="ID_1455612992" MODIFIED="1363569669992">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newcounter{<var>newstr</var>}[<var>within</var>]</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newcounter{<var>newstr</var>}[<var>within</var>]</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363421858220" ID="ID_70710866" MODIFIED="1363569589679" TEXT="newstr">
 <node CREATED="1363421889154" ID="ID_1899895582" MODIFIED="1363421890226" TEXT="A string of letters that is not the name of an existing counter. "/>
@@ -1078,13 +1078,13 @@
 </node>
 <node CREATED="1363570175809" ID="ID_1545484875" MODIFIED="1364445357796" TEXT="\newlength">
 <node CREATED="1363570205395" ID="ID_845883904" MODIFIED="1363570205395">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newlength{\<var>arg</var>}</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newlength{\<var>arg</var>}</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1363570416202" ID="ID_1677602042" MODIFIED="1364445364177" TEXT="manipulate length">
@@ -1112,27 +1112,27 @@
 </node>
 <node CREATED="1363570601900" FOLDED="true" ID="ID_1164476112" MODIFIED="1363570963403" TEXT="\newsavebox">
 <node CREATED="1363570610457" ID="ID_796181124" MODIFIED="1363570610457">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newsavebox{<var>cmd</var>}</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newsavebox{<var>cmd</var>}</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1363570611839" FOLDED="true" ID="ID_1580380392" MODIFIED="1363570960593" TEXT="\newenvironment &amp; \renewenvironment">
 <node CREATED="1363570645956" ID="ID_456966646" MODIFIED="1363570654682">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newenvironment{<var>env</var>}[<var>nargs</var>]{<var>begdef</var>}{<var>enddef</var>}
-\newenvironment{<var>env</var>}[<var>nargs</var>][<var>default</var>]{<var>begdef</var>}{<var>enddef</var>}
-\renewenvironment{<var>env</var>}[<var>nargs</var>]{<var>begdef</var>}{<var>enddef</var>}</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newenvironment{<var>env</var>}[<var>nargs</var>]{<var>begdef</var>}{<var>enddef</var>}&#xd;
+\newenvironment{<var>env</var>}[<var>nargs</var>][<var>default</var>]{<var>begdef</var>}{<var>enddef</var>}&#xd;
+\renewenvironment{<var>env</var>}[<var>nargs</var>]{<var>begdef</var>}{<var>enddef</var>}</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363570705498" ID="ID_1542795961" MODIFIED="1363570706556" TEXT="env">
 <node CREATED="1363570722388" ID="ID_612589187" MODIFIED="1363570723604" TEXT="The name of the environment"/>
@@ -1160,14 +1160,14 @@
 </node>
 <node CREATED="1363570967437" FOLDED="true" ID="ID_1524144608" MODIFIED="1363571115111" TEXT="\newtheorem">
 <node CREATED="1363570977802" ID="ID_715258074" MODIFIED="1363570977802">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newtheorem{<var>newenv</var>}{<var>label</var>}[<var>within</var>]
-\newtheorem{<var>newenv</var>}[<var>numbered_like</var>]{<var>label</var>}</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newtheorem{<var>newenv</var>}{<var>label</var>}[<var>within</var>]&#xd;
+\newtheorem{<var>newenv</var>}[<var>numbered_like</var>]{<var>label</var>}</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363570994742" ID="ID_1452199552" MODIFIED="1363570995838" TEXT="newenv">
 <node CREATED="1363571006833" ID="ID_1578078119" MODIFIED="1363571008147" TEXT="The name of the environment to be defined; must not be the name of an existing environment or otherwise defined."/>
@@ -1186,13 +1186,13 @@
 </node>
 <node CREATED="1363571116131" FOLDED="true" ID="ID_1870636671" MODIFIED="1363571183726" TEXT="\newfont">
 <node CREATED="1363571124352" ID="ID_1133957003" MODIFIED="1363571124352">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newfont{<var>cmd</var>}{<var>fontname</var>}</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre style="font-variant: normal; background-color: rgb(255, 255, 255); font-weight: normal; letter-spacing: normal; text-align: -webkit-auto; font-style: normal; word-spacing: 0px; line-height: normal; text-transform: none; text-indent: 0px; color: rgb(0, 0, 0)" class="example">\newfont{<var>cmd</var>}{<var>fontname</var>}</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1363571167866" ID="ID_1166096825" MODIFIED="1363571168959" TEXT="Defines a control sequence \cmd, which must not already be defined, to make fontname be the current font. The file looked for on the system is named &#x2018;fontname.tfm&#x2019;."/>
@@ -1254,18 +1254,18 @@
 <node CREATED="1363574455336" FOLDED="true" ID="ID_379520401" MODIFIED="1363581670979" TEXT="environment">
 <node CREATED="1363574473544" ID="ID_321346993" MODIFIED="1363574824087" TEXT="array (math)">
 <node CREATED="1363574917694" ID="ID_165563740" MODIFIED="1363579776420">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="example">
-      <pre class="example">\begin{array}[<var>valign</var>]{<var>template</var>}
-<var>col1 text</var>&amp;<var>col1 text</var>&amp;<var>coln</var>}\\
-...
-\end{array}</pre>
-    </div>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <div class="example">&#xd;
+      <pre class="example">\begin{array}[<var>valign</var>]{<var>template</var>}&#xd;
+<var>col1 text</var>&amp;<var>col1 text</var>&amp;<var>coln</var>}\\&#xd;
+...&#xd;
+\end{array}</pre>&#xd;
+    </div>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363574931923" ID="ID_942058774" MODIFIED="1363575025251" TEXT="template ([lcr]+)">
 <node CREATED="1363574969997" ID="ID_510153561" MODIFIED="1363574971446" TEXT="specifies the number of columns and the alignment of items within the columns.  ">
@@ -1344,48 +1344,48 @@
 <node CREATED="1363313737608" ID="ID_1728601290" MODIFIED="1363313998753" TEXT="\documentclass[cs4size|c5size]{ctexart|ctexbook|ctexrep}">
 <node CREATED="1363313823913" ID="ID_1381508917" MODIFIED="1363313860092" TEXT="ctex &#x5b8f;&#x5305;&#x5728; \begin{document} &#x548c; \end{document} &#x4e4b;&#x95f4;&#x81ea;&#x52a8;&#x52a0;&#x5165; CJK &#x73af;&#x5883;&#xff0c;&#x65e0;&#x9700;&#x518d;&#x6dfb;&#x52a0; CJK &#x73af;&#x5883;&#x3002;CJK &#x5b8f;&#x5305;&#x7684;&#x547d;&#x4ee4;&#x90fd;&#x53ef;&#x4ee5;&#x5728; \begin{document} &#x548c; \end{document} &#x4e4b;&#x95f4;&#x6b63;&#x5e38;&#x4f7f;&#x7528;&#x3002;"/>
 <node CREATED="1363313890549" ID="ID_1217387695" MODIFIED="1363313897555">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \documentclass{ctexart}
-    </p>
-    <p>
-      \begin{document}
-    </p>
-    <p>
-      &#20013;&#25991;&#23439;&#21253;&#27979;&#35797;
-    </p>
-    <p>
-      \end{document}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \documentclass{ctexart}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \begin{document}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#x4e2d;&#x6587;&#x5b8f;&#x5305;&#x6d4b;&#x8bd5;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{document}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1363313906282" ID="ID_979086329" MODIFIED="1363313913592">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \documentclass{article}
-    </p>
-    <p>
-      \usepackage{ctex}
-    </p>
-    <p>
-      \begin{document}
-    </p>
-    <p>
-      &#20013;&#25991;&#23439;&#21253;&#27979;&#35797;
-    </p>
-    <p>
-      \end{document}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \documentclass{article}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \usepackage{ctex}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \begin{document}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#x4e2d;&#x6587;&#x5b8f;&#x5305;&#x6d4b;&#x8bd5;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{document}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1611,42 +1611,42 @@
 </node>
 <node CREATED="1363313052172" FOLDED="true" ID="ID_452096406" MODIFIED="1363313147421" TEXT="CJK">
 <node CREATED="1363313004829" ID="ID_1052256273" MODIFIED="1363313057611">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{CJK}....
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{CJK}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{CJK}....&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{CJK}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363313129425" ID="ID_605804081" MODIFIED="1363313141720" TEXT="&#x4fdd;&#x7559;&#x7a7a;&#x683c;(&#x82f1;&#x6587;&#x4e60;&#x60ef;)"/>
 </node>
 </node>
 <node CREATED="1363313059153" ID="ID_448462474" MODIFIED="1363313192895" TEXT="CJK*">
 <node CREATED="1363313027392" ID="ID_1758844082" MODIFIED="1363313063094">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \begin{CJK*}....
-    </p>
-    <p>
-      ...
-    </p>
-    <p>
-      \end{CJK*}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \begin{CJK*}....&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \end{CJK*}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363313079388" ID="ID_1804574518" MODIFIED="1363313087970" TEXT="&#x5ffd;&#x7565; CJK &#x5b57;&#x7b26;&#x4e4b;&#x95f4;&#x7684;&#x7a7a;&#x683c;(&#x4e2d;&#x6587;&#x4e60;&#x60ef;)"/>
 <node CREATED="1363313195865" ID="ID_1930291310" MODIFIED="1363313207349" TEXT="&#x63d2;&#x5165;&#x7a7a;&#x683c;">
@@ -1691,139 +1691,139 @@
 </node>
 </node>
 </node>
-<node CREATED="1360113836833" ID="ID_81663138" MODIFIED="1367644763114" POSITION="right" TEXT="TeX (by Donald E. Knuth)">
+<node CREATED="1360113836833" FOLDED="true" ID="ID_81663138" MODIFIED="1388766894852" POSITION="right" TEXT="TeX (by Donald E. Knuth)">
 <node CREATED="1360658520714" FOLDED="true" ID="ID_1487996599" MODIFIED="1363441953957" TEXT="TeX logo">
 <node CREATED="1360658529959" ID="ID_759485716" MODIFIED="1360658531761" TEXT="\hbox{T\kern-.1667em\lower.5ex\hbox{E}\kern-.125em X}"/>
 </node>
 <node CREATED="1360201867755" FOLDED="true" ID="ID_1188051678" MODIFIED="1363452185522" TEXT="space">
 <node CREATED="1360213452347" ID="ID_1331018009" MODIFIED="1360244760886">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      parasplit.sed -sed script&#160;&#160;for processing spaces in latex
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      parasplit.sed -sed script&#xa0;&#xa0;for processing spaces in latex&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1360244648837" ID="ID_894609131" MODIFIED="1360247088930">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-style: normal; letter-spacing: normal; font-variant: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">#ignore blank lines.</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">:blank</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/{</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;n</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;b blank</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">#split paragraphs by blank lines.</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/!{</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;h</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;n</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">:para</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/!{</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;H</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;n</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#reach last line.</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;${</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;g</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#multi-line pattern</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#/[ \t]/ is a whitespace.</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#/[ \t]+/ are treated as one space</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#single line break is treated as one space</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/\s\s*/ /g</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#ignore leading and trailing space</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/^\s*\|\s*$//g</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;p</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;b para</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">#a paragraph terminates</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/{</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;g</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/\s\s*/ /g</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;s/^\s*\|\s*$//g</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;p</font></span>
-      </div>
-      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">
-        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>
-      </div>
-    </div>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-style: normal; letter-spacing: normal; font-variant: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">#ignore blank lines.</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">:blank</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/{</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;n</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;b blank</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">#split paragraphs by blank lines.</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/!{</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;h</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;n</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">:para</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/!{</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;H</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;n</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#reach last line.</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;${</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;g</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#multi-line pattern</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#/[ \t]/ is a whitespace.</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#/[ \t]+/ are treated as one space</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#single line break is treated as one space</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/\s\s*/ /g</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#ignore leading and trailing space</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/^\s*\|\s*$//g</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;b para</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">#a paragraph terminates</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">/^\s*$/{</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;g</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/\s\s*/ /g</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s/^\s*\|\s*$//g</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p</font></span>&#xd;
+      </div>&#xd;
+      <div style="font-weight: normal; color: rgb(0, 0, 0); word-spacing: 0px; text-transform: none; text-align: -webkit-left; text-indent: 0px; font-family: ??????; font-variant: normal; letter-spacing: normal; font-style: normal; font-size: medium; white-space: normal; line-height: normal" align="left">&#xd;
+        <span style="font-size: 12pt"><font color="#010101" size="4" face="Lucida Console">}</font></span>&#xd;
+      </div>&#xd;
+    </div>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2021,21 +2021,21 @@
 <node CREATED="1363528670592" ID="ID_676286989" MODIFIED="1363528731985" TEXT="the \relax at the end of \extraspace is a precaution in case the next word is &quot;minus&quot;"/>
 </node>
 <node CREATED="1363528969736" FOLDED="true" ID="ID_1198056048" MODIFIED="1363573811314">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      \newbox\structbox
-    </p>
-    <p>
-      \setbox\structbox=\hbox{\vrule height8.5pt depth3.5pt width0pt}
-    </p>
-    <p>
-      \def{struct{\relax\ifmmode\copy\structbox\else\unhcopy\structbox\fi}
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      \newbox\structbox&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \setbox\structbox=\hbox{\vrule height8.5pt depth3.5pt width0pt}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      \def{struct{\relax\ifmmode\copy\structbox\else\unhcopy\structbox\fi}&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1363529099672" ID="ID_1255750277" MODIFIED="1363529193386" TEXT="the \relax in this macro and  in others below is necessary in case \struct appears first in an alignment entry,because TeX is in a somewhat unpredictable mode at such times."/>
 </node>

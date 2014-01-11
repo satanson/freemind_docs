@@ -1,56 +1,56 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1365784038684" ID="ID_837592368" MODIFIED="1365784043505" TEXT="php">
+<node CREATED="1365784038684" ID="ID_837592368" MODIFIED="1389339274507" TEXT="php">
 <node CREATED="1365784044877" FOLDED="true" ID="ID_1800847292" MODIFIED="1365843424979" POSITION="right" TEXT="PHP (Hypertext Preprocessor)">
 <node CREATED="1365784119245" ID="ID_488569854" MODIFIED="1365784127141">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
-    </p>
-    <p>
-      &lt;html&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;head&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;title&gt;Example&lt;/title&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;/head&gt;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;body&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;?php
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;Hi, I'm a PHP script!&quot;;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;?&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&lt;/body&gt;
-    </p>
-    <p>
-      &lt;/html&gt;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;"http://www.w3.org/TR/html4/loose.dtd"&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &lt;html&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;head&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;title&gt;Example&lt;/title&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/head&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;body&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;?php&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;echo "Hi, I'm a PHP script!";&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;?&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/body&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &lt;/html&gt;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -71,33 +71,33 @@
 <node CREATED="1366423074194" ID="ID_145919071" MODIFIED="1366423123875" TEXT="PHP-xdebug">
 <node CREATED="1366423126186" FOLDED="true" ID="ID_1912072713" MODIFIED="1366423177474" TEXT="php.ini">
 <node CREATED="1366423151258" ID="ID_201275177" MODIFIED="1366423175679">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      ;php.ini
-    </p>
-    <p>
-      [PHP_XDEBUG]
-    </p>
-    <p>
-      extension=php_xdebug-2.2.2-5.3-vc9.dll
-    </p>
-    <p>
-      xdebug.remote_enable=on
-    </p>
-    <p>
-      xdebug.remote_handler=dbgp
-    </p>
-    <p>
-      xdebug.remote_host=localhost
-    </p>
-    <p>
-      xdebug.remote_port=9001
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      ;php.ini&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      [PHP_XDEBUG]&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      extension=php_xdebug-2.2.2-5.3-vc9.dll&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      xdebug.remote_enable=on&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      xdebug.remote_handler=dbgp&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      xdebug.remote_host=localhost&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      xdebug.remote_port=9001&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -152,18 +152,18 @@
 <icon BUILTIN="full-3"/>
 </node>
 <node CREATED="1365785660069" ID="ID_1856259316" MODIFIED="1365785688546">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ /etc/init.d/apache2 stop
-    </p>
-    <p>
-      $ /etc/init.d/apache2 start
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      $ /etc/init.d/apache2 stop&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      $ /etc/init.d/apache2 start&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-4"/>
 </node>
@@ -172,21 +172,21 @@
 <node CREATED="1365785731821" ID="ID_243268426" MODIFIED="1365785750445" TEXT=" MySQL, cURL, GD, etc."/>
 </node>
 <node CREATED="1365785773670" ID="ID_1789613368" MODIFIED="1365785794658">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ apt-cache search php5
-    </p>
-    <p>
-      $ aptitude search php5
-    </p>
-    <p>
-      $ aptitude search php5 |grep -i mysql
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      $ apt-cache search php5&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      $ aptitude search php5&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      $ aptitude search php5 |grep -i mysql&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <icon BUILTIN="full-6"/>
 </node>
@@ -216,27 +216,27 @@
 <node CREATED="1365821956785" ID="ID_1078532219" MODIFIED="1365840009866" TEXT="install curl">
 <icon BUILTIN="full-1"/>
 <node CREATED="1365821764865" ID="ID_1211841519" MODIFIED="1365821978623">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      tar -xzvf curl*
-    </p>
-    <p>
-      cd curl*
-    </p>
-    <p>
-      ./configure --prefix=/usr/local/curl
-    </p>
-    <p>
-      make
-    </p>
-    <p>
-      sudo make install
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      tar -xzvf curl*&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      cd curl*&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ./configure --prefix=/usr/local/curl&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      make&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      sudo make install&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -348,7 +348,7 @@
 </node>
 </node>
 <node CREATED="1366093364919" ID="ID_1250007363" MODIFIED="1366093376773" POSITION="right" TEXT="Security"/>
-<node CREATED="1365852069201" ID="ID_1919044814" MODIFIED="1369570430010" POSITION="right" TEXT="language">
+<node CREATED="1365852069201" ID="ID_1919044814" MODIFIED="1389339280303" POSITION="right" TEXT="language">
 <node CREATED="1365784173677" ID="ID_1906414715" MODIFIED="1366384963283" TEXT="&lt;?php ... ?&gt;PHP mode">
 <node CREATED="1365784135550" FOLDED="true" ID="ID_1872294925" MODIFIED="1366385003068" TEXT="start and end processing instructions &lt;?php and ?&gt;">
 <node CREATED="1365851136049" ID="ID_1467077523" MODIFIED="1365851228739" TEXT="line feed follows immediately after ?&gt; will be removed by PHP"/>
@@ -516,27 +516,27 @@
 </node>
 <node CREATED="1366350499048" FOLDED="true" ID="ID_1475883473" MODIFIED="1366350539428" TEXT="const keyword">
 <node CREATED="1366350507576" ID="ID_1807332701" MODIFIED="1366350537824">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;?php
-    </p>
-    <p>
-      &#160;&#160;&#160;// Works as of PHP 5.3.0
-    </p>
-    <p>
-      &#160;&#160;&#160;const CONSTANT = 'Hello World';
-    </p>
-    <p>
-      &#160;&#160;&#160;echo CONSTANT;
-    </p>
-    <p>
-      ?&gt;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;?php&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;// Works as of PHP 5.3.0&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;const CONSTANT = 'Hello World';&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;echo CONSTANT;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ?&gt;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -551,8 +551,8 @@
 <node CREATED="1366350640760" ID="ID_736933745" MODIFIED="1366350643330" TEXT="__NAMESPACE__"/>
 </node>
 </node>
-<node CREATED="1366350722840" FOLDED="true" ID="ID_451698836" MODIFIED="1369215541952" TEXT="Operator">
-<node CREATED="1366351356744" FOLDED="true" ID="ID_1876318456" MODIFIED="1366351378401" TEXT="all operator (precedence)">
+<node CREATED="1366350722840" ID="ID_451698836" MODIFIED="1389339280306" TEXT="Operator">
+<node CREATED="1366351356744" FOLDED="true" ID="ID_1876318456" MODIFIED="1389339311596" TEXT="all operator (precedence)">
 <node CREATED="1366350726792" ID="ID_946500443" MODIFIED="1366351374577" TEXT="clone new (non-associative)">
 <icon BUILTIN="full-1"/>
 </node>
@@ -640,7 +640,7 @@
 <node CREATED="1366351522216" ID="ID_1041771830" MODIFIED="1366351523734" TEXT="Assignment by reference means that both variables end up pointing at the same data, and nothing is copied anywhere."/>
 </node>
 </node>
-<node CREATED="1366351549656" FOLDED="true" ID="ID_793581674" MODIFIED="1366351668189" TEXT="comparison op">
+<node CREATED="1366351549656" ID="ID_793581674" MODIFIED="1389339316766" TEXT="comparison op">
 <node CREATED="1366351567192" ID="ID_604543062" MODIFIED="1366351607870" TEXT="==(eq) vs. ===(identical)"/>
 <node CREATED="1366351608696" ID="ID_499364984" MODIFIED="1366351627278" TEXT="!=(ne) vs. !==(not identical)"/>
 <node CREATED="1366351643008" ID="ID_770157007" MODIFIED="1366351654902" TEXT="!=(ne) &lt;&gt;(ne)">
@@ -666,81 +666,81 @@
 <node CREATED="1366353240576" FOLDED="true" ID="ID_1192973819" MODIFIED="1366353733140" TEXT="style">
 <node CREATED="1366353258012" FOLDED="true" ID="ID_397626981" MODIFIED="1366353559248" TEXT="C style">
 <node CREATED="1366353314664" ID="ID_362246225" MODIFIED="1366353386467">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;?php
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if ($a &gt; $b)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;a is bigger than b&quot;;
-    </p>
-    <p>
-      ?&gt;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;?php&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;if ($a &gt; $b)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;echo "a is bigger than b";&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ?&gt;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1366353399840" ID="ID_140896417" MODIFIED="1366353427220">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;?php
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;if ($a &gt; $b) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;a is bigger than b&quot;;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$b = $a;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      ?&gt;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;?php&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;if ($a &gt; $b) {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;echo "a is bigger than b";&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$b = $a;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ?&gt;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1366353448888" ID="ID_1634744829" MODIFIED="1366353485089">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;?php
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;if ($a &gt; $b) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;a is greater than b&quot;;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;} else {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo &quot;a is NOT greater than b&quot;;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      ?&gt;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      &lt;?php&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ($a &gt; $b) {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;echo "a is greater than b";&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;} else {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;echo "a is NOT greater than b";&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      ?&gt;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1366353508527" ID="ID_1710238649" MODIFIED="1366353553796" TEXT="&lt;?php &#xa;     if ($a &gt; $b) {&#xa;          echo &quot;a is bigger than b&quot;; &#xa;     } elseif ($a == $b) {&#xa;          echo &quot;a is equal to b&quot;; &#xa;     } else {&#xa;          echo &quot;a is smaller than b&quot;; &#xa;     } &#xa;?&gt;"/>
@@ -748,33 +748,33 @@
 <node CREATED="1366353263611" FOLDED="true" ID="ID_401935815" MODIFIED="1366353726760" TEXT="csh &amp; python hybrid style">
 <node CREATED="1366353717448" FOLDED="true" ID="ID_719180993" MODIFIED="1366353725848" TEXT="if...endif">
 <node CREATED="1366353579792" ID="ID_819896413" MODIFIED="1366353724059">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if (expr):
-    </p>
-    <p>
-      &#160;&#160;&#160;...
-    </p>
-    <p>
-      elseif (expr):
-    </p>
-    <p>
-      &#160;&#160;&#160;...
-    </p>
-    <p>
-      else:
-    </p>
-    <p>
-      &#160;&#160;&#160;...
-    </p>
-    <p>
-      endif;
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      if (expr):&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      elseif (expr):&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      else:&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      endif;&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1247,263 +1247,263 @@
 </node>
 <node CREATED="1366528332158" FOLDED="true" ID="ID_1827823853" MODIFIED="1366528590169" TEXT="Errors and Logging Configuration Options in php.ini">
 <node CREATED="1366528373874" ID="ID_953551649" MODIFIED="1366528581692">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <table>
-      <tr>
-        <th style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(153, 153, 204); padding-top: 5px; padding-left: 5px; text-align: left">
-          name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;default&#160;&#160;&#160;changeable&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; changelog
-        </th>
-      </tr>
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-reporting"><font color="rgb(0, 0, 153)">error_reporting</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                NULL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.display-errors"><font color="rgb(0, 0, 153)">display_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;1&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.display-startup-errors"><font color="rgb(0, 0, 153)">display_startup_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.log-errors"><font color="rgb(0, 0, 153)">log_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.log-errors-max-len"><font color="rgb(0, 0, 153)">log_errors_max_len</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;1024&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.3.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.ignore-repeated-errors"><font color="rgb(0, 0, 153)">ignore_repeated_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.3.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.ignore-repeated-source"><font color="rgb(0, 0, 153)">ignore_repeated_source</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.3.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.report-memleaks"><font color="rgb(0, 0, 153)">report_memleaks</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;1&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.3.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.track-errors"><font color="rgb(0, 0, 153)">track_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.html-errors"><font color="rgb(0, 0, 153)">html_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;1&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_SYSTEM in PHP &lt;= 4.2.3.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.xmlrpc-errors"><font color="rgb(0, 0, 153)">xmlrpc_errors</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_SYSTEM
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.1.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.xmlrpc-error-number"><font color="rgb(0, 0, 153)">xmlrpc_error_number</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;0&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.1.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.docref-root"><font color="rgb(0, 0, 153)">docref_root</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.3.0.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.docref-ext"><font color="rgb(0, 0, 153)">docref_ext</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                &quot;&quot;
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                Available since PHP 4.3.2.
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-prepend-string"><font color="rgb(0, 0, 153)">error_prepend_string</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                NULL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-append-string"><font color="rgb(0, 0, 153)">error_append_string</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                NULL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-log"><font color="rgb(0, 0, 153)">error_log</font></a>
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                NULL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">
-                PHP_INI_ALL
-              </td>
-              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">
-                &#160;
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <table>&#xd;
+      <tr>&#xd;
+        <th style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(153, 153, 204); padding-top: 5px; padding-left: 5px; text-align: left">&#xd;
+          name&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;default&#xa0;&#xa0;&#xa0;changeable&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; changelog&#xd;
+        </th>&#xd;
+      </tr>&#xd;
+      <tr>&#xd;
+        <td>&#xd;
+          <table>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-reporting"><font color="rgb(0, 0, 153)">error_reporting</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                NULL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.display-errors"><font color="rgb(0, 0, 153)">display_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "1"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.display-startup-errors"><font color="rgb(0, 0, 153)">display_startup_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.log-errors"><font color="rgb(0, 0, 153)">log_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.log-errors-max-len"><font color="rgb(0, 0, 153)">log_errors_max_len</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "1024"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.3.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.ignore-repeated-errors"><font color="rgb(0, 0, 153)">ignore_repeated_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.3.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.ignore-repeated-source"><font color="rgb(0, 0, 153)">ignore_repeated_source</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.3.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.report-memleaks"><font color="rgb(0, 0, 153)">report_memleaks</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "1"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.3.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.track-errors"><font color="rgb(0, 0, 153)">track_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.html-errors"><font color="rgb(0, 0, 153)">html_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "1"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_SYSTEM in PHP &lt;= 4.2.3.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.xmlrpc-errors"><font color="rgb(0, 0, 153)">xmlrpc_errors</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_SYSTEM&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.1.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.xmlrpc-error-number"><font color="rgb(0, 0, 153)">xmlrpc_error_number</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                "0"&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.1.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.docref-root"><font color="rgb(0, 0, 153)">docref_root</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                ""&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.3.0.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.docref-ext"><font color="rgb(0, 0, 153)">docref_ext</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                ""&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                Available since PHP 4.3.2.&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-prepend-string"><font color="rgb(0, 0, 153)">error_prepend_string</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                NULL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-append-string"><font color="rgb(0, 0, 153)">error_append_string</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                NULL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+            <tr>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                <a style="color: rgb(0, 0, 153); text-decoration: none; border-bottom-color: rgb(0, 0, 153); border-bottom-width: 1px; border-bottom-style: solid" class="link" href="errorfunc.configuration.html#ini.error-log"><font color="rgb(0, 0, 153)">error_log</font></a>&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                NULL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px">&#xd;
+                PHP_INI_ALL&#xd;
+              </td>&#xd;
+              <td style="padding-right: 5px; padding-bottom: 5px; background-color: rgb(240, 240, 240); padding-top: 5px; padding-left: 5px" class="empty">&#xd;
+                &#xa0;&#xd;
+              </td>&#xd;
+            </tr>&#xd;
+          </table>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1734,27 +1734,27 @@
 <node CREATED="1366682956960" ID="ID_401123454" MODIFIED="1366682958170" TEXT="htmlspecialchars_decode"/>
 <node CREATED="1366682998338" FOLDED="true" ID="ID_1638840043" MODIFIED="1366683078534" TEXT="htmlspecialchars">
 <node CREATED="1366683028455" ID="ID_1416714396" MODIFIED="1366683076727">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      '&amp;' (ampersand) becomes '&amp;amp;'
-    </p>
-    <p>
-      '&quot;' (double quote) becomes '&amp;quot;' when<strong><font face="Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace"><code style="font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace">ENT_NOQUOTES</code></font></strong>&#160;is not set.
-    </p>
-    <p>
-      &quot;'&quot; (single quote) becomes '&amp;#039;' only when<strong><font face="Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace"><code style="font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace">ENT_QUOTES</code></font></strong>&#160;is set.
-    </p>
-    <p>
-      '&lt;' (less than) becomes '&amp;lt;'
-    </p>
-    <p>
-      '&gt;' (greater than) becomes '&amp;gt;'
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      '&amp;' (ampersand) becomes '&amp;amp;'&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      '"' (double quote) becomes '&amp;quot;' when<strong><font face="Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace"><code style="font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace">ENT_NOQUOTES</code></font></strong>&#xa0;is not set.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      "'" (single quote) becomes '&amp;#039;' only when<strong><font face="Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace"><code style="font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Monaco, Courier New, Courier, monospace">ENT_QUOTES</code></font></strong>&#xa0;is set.&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      '&lt;' (less than) becomes '&amp;lt;'&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      '&gt;' (greater than) becomes '&amp;gt;'&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>

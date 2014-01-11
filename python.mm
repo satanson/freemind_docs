@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1339490731432" ID="ID_1698989523" MODIFIED="1367227309870" TEXT="python">
-<node CREATED="1340382207821" ID="ID_241930422" MODIFIED="1388256135840" POSITION="right" TEXT="program structure">
+<node CREATED="1339490731432" ID="ID_1698989523" MODIFIED="1389339250167" TEXT="python">
+<node CREATED="1340382207821" FOLDED="true" ID="ID_241930422" MODIFIED="1389339249159" POSITION="right" TEXT="program structure">
 <node CREATED="1343451089222" FOLDED="true" ID="ID_981985245" MODIFIED="1365523634073" TEXT="shbang">
 <node CREATED="1343451110719" ID="ID_1010072118" MODIFIED="1343451127163" TEXT="#!/bin/env python"/>
 </node>
