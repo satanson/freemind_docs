@@ -85,35 +85,35 @@
 <node CREATED="1383065832256" ID="ID_1359613509" MODIFIED="1383065888289" TEXT="FoobarProcessor/FoobarHandlerFactory "/>
 <node CREATED="1383066054421" ID="ID_932708472" MODIFIED="1383066116589" TEXT="FoobarHandler &amp; TProcessor">
 <node CREATED="1383065926339" ID="ID_1687717300" MODIFIED="1383066045209">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="3">shared_ptr&lt;FoobarHandler&gt; handler(new FoobarHandler()); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;TProcessor&gt; processor(new FoobarProcessor(handler)); </font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;FoobarHandler&gt; handler(new FoobarHandler()); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;TProcessor&gt; processor(new FoobarProcessor(handler)); </font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1383066088173" ID="ID_1237704220" MODIFIED="1383066119243" TEXT="FoobarHandlerFactory &amp; TProcessorFactory ">
 <node CREATED="1383065926339" ID="ID_827960984" MODIFIED="1383066171568">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="3">shared_ptr&lt;FoobarHandlerFactory&gt; handlerFactory(new FoobarHandlerFactory()); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;TProcessorFactory&gt; processorFactory(new FoobarProcessorFactory(handlerFactory)); </font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;FoobarHandlerFactory&gt; handlerFactory(new FoobarHandlerFactory()); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;TProcessorFactory&gt; processorFactory(new FoobarProcessorFactory(handlerFactory)); </font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -123,51 +123,51 @@
 <node CREATED="1383060873398" ID="ID_1773908962" MODIFIED="1383060891936" TEXT="TNonblockingServer">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1383063511276" ID="ID_653898522" MODIFIED="1383064701348">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="3">shared_ptr&lt;FoobarHandler&gt; handler(new FoobarHandler()); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;TProcessor&gt; processor(new FoobarProcessor(handler)); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;TProtocolFactory&gt; protocolFactory(new TBinaryProtocolFactory()); </font>
-    </p>
-    <p>
-      <font size="3">int port=0x9090; </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;ThreadFactory&gt; pthreadFactory(new PosixThreadFactory()); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;ThreadManager&gt; pthreadManager=ThreadManager::newSimpleThreadManager(10,5); </font>
-    </p>
-    <p>
-      <font size="3">pthreadManager-&gt;threadFactory(pthreadFactory); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;TNonblockingServer&gt; server(processor,protocolFactory,port,pthreadManager); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="3">pthreadManager-&gt;start(); </font>
-    </p>
-    <p>
-      <font size="3">server-&gt;serve(); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;FoobarHandler&gt; handler(new FoobarHandler()); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;TProcessor&gt; processor(new FoobarProcessor(handler)); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;TProtocolFactory&gt; protocolFactory(new TBinaryProtocolFactory()); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">int port=0x9090; </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;ThreadFactory&gt; pthreadFactory(new PosixThreadFactory()); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;ThreadManager&gt; pthreadManager=ThreadManager::newSimpleThreadManager(10,5); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">pthreadManager-&gt;threadFactory(pthreadFactory); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;TNonblockingServer&gt; server(processor,protocolFactory,port,pthreadManager); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">pthreadManager-&gt;start(); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">server-&gt;serve(); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -194,30 +194,30 @@
 <node CREATED="1383061395181" ID="ID_883019641" MODIFIED="1383098984246" TEXT="SimpleThreadManager">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1383061399237" ID="ID_179080517" MODIFIED="1383061781007">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="3">shared_ptr&lt;ThreadFactory&gt; pthreadFactory(PosixThreadFactory); </font>
-    </p>
-    <p>
-      <font size="3">shared_ptr&lt;ThreadManager&gt; pthreadManager = </font>
-    </p>
-    <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;ThreadManager::newSimpleThreadManager(10,5); </font>
-    </p>
-    <p>
-      <font size="3">pthreadManager-&gt;threadFactory(pthreadFactory); </font>
-    </p>
-    <p>
-      <font size="3">pthreadManager-&gt;start(); </font>
-    </p>
-    <p>
-      
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;ThreadFactory&gt; pthreadFactory(PosixThreadFactory); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">shared_ptr&lt;ThreadManager&gt; pthreadManager = </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;ThreadManager::newSimpleThreadManager(10,5); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">pthreadManager-&gt;threadFactory(pthreadFactory); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">pthreadManager-&gt;start(); </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -255,8 +255,8 @@
 </node>
 </node>
 <node CREATED="1383097983295" ID="ID_1551914532" MODIFIED="1383097993109" POSITION="right" TEXT="thrift Types/IDL">
-<node CREATED="1382957201256" FOLDED="true" ID="ID_108374405" MODIFIED="1386837950716" TEXT="Types">
-<node CREATED="1382957204284" ID="ID_1502044980" MODIFIED="1382957276735" TEXT="Base Types">
+<node CREATED="1382957201256" ID="ID_108374405" MODIFIED="1389711058445" TEXT="Types">
+<node CREATED="1382957204284" FOLDED="true" ID="ID_1502044980" MODIFIED="1389707592660" TEXT="Base Types">
 <node CREATED="1382957304851" MODIFIED="1382957304851" TEXT="bool: A boolean value (true or false)"/>
 <node CREATED="1382957304852" MODIFIED="1382957304852" TEXT="byte: An 8-bit signed integer"/>
 <node CREATED="1382957304854" MODIFIED="1382957304854" TEXT="i16: A 16-bit signed integer"/>
@@ -265,11 +265,11 @@
 <node CREATED="1382957304859" MODIFIED="1382957304859" TEXT="double: A 64-bit floating point number"/>
 <node CREATED="1382957304860" MODIFIED="1382957304860" TEXT="string: A text string encoded using UTF-8 encoding"/>
 </node>
-<node CREATED="1382957306762" ID="ID_246980928" MODIFIED="1382957318749" TEXT="Special Types">
+<node CREATED="1382957306762" FOLDED="true" ID="ID_246980928" MODIFIED="1389707591332" TEXT="Special Types">
 <node CREATED="1382957327988" ID="ID_589795720" MODIFIED="1382957328976" TEXT="binary: a sequence of unencoded bytes"/>
 </node>
 <node CREATED="1382957386030" ID="ID_1183404209" MODIFIED="1382957387031" TEXT="Structs"/>
-<node CREATED="1382957411666" FOLDED="true" ID="ID_471079415" MODIFIED="1382957576048" TEXT="Containers">
+<node CREATED="1382957411666" ID="ID_471079415" MODIFIED="1389712661244" TEXT="Containers">
 <node CREATED="1382957423263" ID="ID_1740797901" MODIFIED="1382957545856" TEXT="list">
 <node CREATED="1382957441814" ID="ID_1282389661" MODIFIED="1382957450180" TEXT="std::vector"/>
 <node CREATED="1382957450496" ID="ID_173684824" MODIFIED="1382957462532" TEXT="java.util.ArrayList"/>
@@ -283,7 +283,7 @@
 <node CREATED="1382957557701" ID="ID_961307261" MODIFIED="1382957569144" TEXT="java.util.HashMap"/>
 </node>
 </node>
-<node CREATED="1382957632312" FOLDED="true" ID="ID_1948472854" MODIFIED="1382957690567" TEXT="Exceptions">
+<node CREATED="1382957632312" FOLDED="true" ID="ID_1948472854" MODIFIED="1389707578323" TEXT="Exceptions">
 <node CREATED="1382957666948" ID="ID_734351164" MODIFIED="1382957667839" TEXT="functionally equivalent to structs"/>
 <node CREATED="1382957675160" ID="ID_1019994545" MODIFIED="1382957675955" TEXT=" inherit from the native exception base class "/>
 </node>
@@ -292,7 +292,8 @@
 <node CREATED="1382957732616" ID="ID_140936873" MODIFIED="1382957733569" TEXT="The Thrift compiler generates fully functional client and server stubs that implement the interface."/>
 </node>
 </node>
-<node CREATED="1383101027617" ID="ID_1834375207" MODIFIED="1383101029737" TEXT="IDL">
+<node CREATED="1383101027617" ID="ID_1834375207" MODIFIED="1389710945018" TEXT="IDL">
+<font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1383101456748" ID="ID_920557797" MODIFIED="1383101656696" TEXT="namespace *(wildcard)|cpp|java|perl|py exterior.middle.interior (no terminator) "/>
 </node>
 </node>
