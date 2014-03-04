@@ -1,0 +1,20 @@
+<map version="1.0.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1392968875051" ID="ID_1356508968" MODIFIED="1392968883000" TEXT="Nynn">
+<node CREATED="1392968894187" ID="ID_1197677658" MODIFIED="1392968897447" POSITION="right" TEXT="large graph">
+<node CREATED="1392968887512" ID="ID_1161142423" MODIFIED="1392972002135" TEXT="web graph(billions of pages,trillions of hyperlink)">
+<node CREATED="1392968951922" ID="ID_1716257805" MODIFIED="1392968958313" TEXT="PageRank"/>
+<node CREATED="1392969248568" ID="ID_1076660596" MODIFIED="1392971656331" TEXT="ExpertRank"/>
+<node CREATED="1392969287067" ID="ID_633492921" MODIFIED="1392971650534" TEXT="TrustRank">
+<node CREATED="1392971652486" ID="ID_319077255" MODIFIED="1392971653713" TEXT="semi-automatically separating useful webpages from spam"/>
+</node>
+<node CREATED="1392969274310" ID="ID_1693421913" MODIFIED="1392972004189" TEXT="HITS">
+<node CREATED="1392971926924" ID="ID_1348003294" MODIFIED="1392971928077" TEXT="Hyperlink-Induced Topic Search"/>
+</node>
+<node CREATED="1392968973127" ID="ID_1998230384" MODIFIED="1392971657885" TEXT="personalized PageRank"/>
+<node CREATED="1392969239185" ID="ID_37676571" MODIFIED="1392969240282" TEXT="Hilltop"/>
+</node>
+<node CREATED="1392968901818" ID="ID_289761239" MODIFIED="1392972167364" TEXT="social graph(internet user,relationship)"/>
+</node>
+</node>
+</map>
