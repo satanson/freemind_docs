@@ -1,8 +1,8 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1354258718240" ID="ID_364383742" MODIFIED="1378613243632" TEXT="matlab">
-<node CREATED="1354962856846" FOLDED="true" ID="ID_60128635" MODIFIED="1378611656604" POSITION="right" TEXT="graphics">
-<node CREATED="1354258742123" FOLDED="true" ID="ID_1323709109" MODIFIED="1354962875804" TEXT="plot">
+<node CREATED="1354962856846" ID="ID_60128635" MODIFIED="1395722471976" POSITION="right" TEXT="graphics">
+<node CREATED="1354258742123" ID="ID_1323709109" MODIFIED="1395722476277" TEXT="plot">
 <node CREATED="1354258775563" ID="ID_1377732397" MODIFIED="1354258799996" TEXT="coordinate graphics"/>
 <node CREATED="1354258800607" ID="ID_1384971707" MODIFIED="1354259821599" TEXT="format">
 <node CREATED="1354258825021" ID="ID_1111594511" MODIFIED="1354258867335" TEXT="Line Specification">
@@ -23,7 +23,7 @@
 <node CREATED="1354259108667" ID="ID_631508622" MODIFIED="1354259113560" TEXT="no line"/>
 </node>
 </node>
-<node CREATED="1354259158325" FOLDED="true" ID="ID_473895160" MODIFIED="1354259437696" TEXT="Marker Specifier">
+<node CREATED="1354259158325" ID="ID_473895160" MODIFIED="1395722498615" TEXT="Marker Specifier">
 <node CREATED="1354259168844" ID="ID_38452302" MODIFIED="1354259171698" TEXT="+">
 <node CREATED="1354259182978" ID="ID_847904731" MODIFIED="1354259184903" TEXT="plus"/>
 </node>
@@ -102,10 +102,10 @@
 <node CREATED="1354259684939" ID="ID_1196895374" MODIFIED="1354259690635" TEXT="MarkerSize"/>
 </node>
 </node>
-<node CREATED="1354259830942" ID="ID_1272487233" MODIFIED="1354962875802" TEXT="color">
+<node CREATED="1354259830942" ID="ID_1272487233" MODIFIED="1395722648104" TEXT="color">
 <node CREATED="1354259836403" ID="ID_1793097821" MODIFIED="1354259984311" TEXT="ColorSpec">
 <node CREATED="1354259937040" ID="ID_331084798" MODIFIED="1354259937040" TEXT="[r g b]  r,g,b&#x2208;[0,1]"/>
-<node CREATED="1354259419052" FOLDED="true" ID="ID_783178833" MODIFIED="1354259948442" TEXT="Color Specifier">
+<node CREATED="1354259419052" ID="ID_783178833" MODIFIED="1395722505003" TEXT="Color Specifier">
 <node CREATED="1354259439408" ID="ID_1288185916" MODIFIED="1354259441227" TEXT="r">
 <node CREATED="1354259442939" ID="ID_1964759432" MODIFIED="1354259444331" TEXT="red"/>
 </node>
@@ -132,10 +132,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1354259941918" ID="ID_1579418615" MODIFIED="1354259941918" TEXT=""/>
 </node>
 </node>
-<node CREATED="1355622424371" FOLDED="true" ID="ID_1541101124" MODIFIED="1378611655632" POSITION="right" TEXT="operator">
+<node CREATED="1355622424371" FOLDED="true" ID="ID_1541101124" MODIFIED="1395722632701" POSITION="right" TEXT="operator">
 <node CREATED="1355034181945" FOLDED="true" ID="ID_103656224" MODIFIED="1355622441962" TEXT="set">
 <node CREATED="1355049650300" ID="ID_1193821966" MODIFIED="1355049678686" TEXT="&#x222a;">
 <node CREATED="1355049902963" ID="ID_1987317190" MODIFIED="1355049910145" TEXT="intersect">
@@ -235,379 +234,379 @@
 <node CREATED="1355212057301" FOLDED="true" ID="ID_1560531027" MODIFIED="1378612901410" TEXT="data type verification">
 <node CREATED="1355587361803" ID="ID_1926323148" MODIFIED="1355627703436" TEXT="validateattributes()">
 <node CREATED="1355214596526" ID="ID_234106324" MODIFIED="1355587382561">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>position</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>, <i>position</i>)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>position</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>, <i>position</i>)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355214603857" FOLDED="true" ID="ID_559331436" MODIFIED="1355587380141" TEXT="classes">
 <node CREATED="1355214638625" ID="ID_1094664240" MODIFIED="1355214638625">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tr valign="top">
-      <th bgcolor="#b2b2b2" valign="top">
-        <tt>classes</tt> Argument
-      </th>
-      <th bgcolor="#b2b2b2" valign="top">
-        Contents of Array <tt>A</tt>
-      </th>
-    </tr>
-    <table>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'numeric'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Any numeric value
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'single'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Single-precision number
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'double'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Double-precision number
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int8'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 8-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int16'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 16-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int32'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 32-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int64'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 64-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint8'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 8-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint16'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 16-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint32'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 32-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint64'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 64-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'logical'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Logical <tt>true</tt> or <tt>false</tt>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          '<tt>'char'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Character or string
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'struct'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          MATLAB structure
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'cell'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Cell array
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'function_handle'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Scalar function handle
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <em><span class="emphasis">class name</span></em>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Object of any MATLAB class
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tr valign="top">&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        <tt>classes</tt> Argument&#xd;
+      </th>&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        Contents of Array <tt>A</tt>&#xd;
+      </th>&#xd;
+    </tr>&#xd;
+    <table>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'numeric'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Any numeric value&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'single'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Single-precision number&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'double'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Double-precision number&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int8'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 8-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int16'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 16-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int32'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 32-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int64'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 64-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint8'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 8-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint16'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 16-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint32'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 32-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint64'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 64-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'logical'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Logical <tt>true</tt> or <tt>false</tt>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          '<tt>'char'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Character or string&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'struct'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          MATLAB structure&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'cell'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Cell array&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'function_handle'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Scalar function handle&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <em><span class="emphasis">class name</span></em>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Object of any MATLAB class&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355214754590" ID="ID_355207962" MODIFIED="1355627703492" TEXT="attributes">
 <node CREATED="1355214760561" ID="ID_1636182226" MODIFIED="1355214760561">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tr valign="top">
-      <th bgcolor="#b2b2b2" valign="top">
-        <tt>attributes</tt> Argument
-      </th>
-      <th bgcolor="#b2b2b2" valign="top">
-        Description of array <tt>A</tt>
-      </th>
-    </tr>
-    <table>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&gt;', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are greater than <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&gt;=', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are greater than or equal to <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&lt;', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are less than <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&lt;=', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are lass than or equal to <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'2d'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>M</tt>-by-<tt>N</tt> (includes scalars, vectors, 2-D matrices, and empty arrays)
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'binary'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array of ones and zeros
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'column'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>N</tt>-by-1
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'even'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are even (includes zero)
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'finite'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are finite
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'integer'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are integer-valued
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonempty'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having no dimension equal to zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonnan'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which there are no elements equal to NaN (Not a Number)
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonnegative'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are zero or greater than zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonsparse'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array that is not sparse
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonzero'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are less than or greater than zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'odd'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are odd integers
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'positive'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are greater than zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'real'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are real
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'row'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions 1-by-<tt>N</tt>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'scalar'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions 1-by-1
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'size', [M,N,...]</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>M</tt>-by-<tt>N</tt>-by- <tt>...</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'vector'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>N</tt>-by-1 or 1-by-<tt>N</tt> (includes scalar arrays)
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tr valign="top">&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        <tt>attributes</tt> Argument&#xd;
+      </th>&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        Description of array <tt>A</tt>&#xd;
+      </th>&#xd;
+    </tr>&#xd;
+    <table>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&gt;', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are greater than <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&gt;=', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are greater than or equal to <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&lt;', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are less than <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&lt;=', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are lass than or equal to <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'2d'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>M</tt>-by-<tt>N</tt> (includes scalars, vectors, 2-D matrices, and empty arrays)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'binary'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array of ones and zeros&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'column'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>N</tt>-by-1&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'even'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are even (includes zero)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'finite'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are finite&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'integer'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are integer-valued&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonempty'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having no dimension equal to zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonnan'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which there are no elements equal to NaN (Not a Number)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonnegative'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are zero or greater than zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonsparse'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array that is not sparse&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonzero'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are less than or greater than zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'odd'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are odd integers&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'positive'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are greater than zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'real'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are real&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'row'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions 1-by-<tt>N</tt>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'scalar'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions 1-by-1&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'size', [M,N,...]</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>M</tt>-by-<tt>N</tt>-by- <tt>...</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'vector'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>N</tt>-by-1 or 1-by-<tt>N</tt> (includes scalar arrays)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1355587390507" FOLDED="true" ID="ID_1059078306" MODIFIED="1355587477526" TEXT="validatestring()">
 <node CREATED="1355587452092" ID="ID_575031002" MODIFIED="1355587452092">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>validstr = validatestring(str, strarray)<br />validstr = validatestring(str, strarray, position)<br />validstr = validatestring(str, strarray, funname)<br />validstr = validatestring(str, strarray, funname, varname)<br />validstr = validatestring(str, strarray, funname, varname, position)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>validstr = validatestring(str, strarray)<br/>validstr = validatestring(str, strarray, position)<br/>validstr = validatestring(str, strarray, funname)<br/>validstr = validatestring(str, strarray, funname, varname)<br/>validstr = validatestring(str, strarray, funname, varname, position)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -689,8 +688,8 @@
 <node CREATED="1355211540706" ID="ID_1710577090" MODIFIED="1355211559098" TEXT="ishghandle()"/>
 </node>
 </node>
-<node CREATED="1354962889003" FOLDED="true" ID="ID_267144173" MODIFIED="1355627661211" POSITION="right" TEXT="string">
-<node CREATED="1354963138809" ID="ID_482194284" MODIFIED="1354963239870" TEXT="string is int vector consisting of code of char in string">
+<node CREATED="1354962889003" ID="ID_267144173" MODIFIED="1395722616833" POSITION="right" TEXT="string">
+<node CREATED="1354963138809" FOLDED="true" ID="ID_482194284" MODIFIED="1395722624082" TEXT="string is int vector consisting of code of char in string">
 <node CREATED="1354963277149" ID="ID_1857402083" MODIFIED="1354963285860" TEXT="vector-like">
 <node CREATED="1354963296225" ID="ID_667855234" MODIFIED="1354963305729" TEXT="strlen">
 <node CREATED="1354963252453" ID="ID_1143182147" MODIFIED="1354963330411" TEXT="length(str)"/>
@@ -707,7 +706,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1354963145867" ID="ID_1175512038" MODIFIED="1355579552596" TEXT="string-like">
+<node CREATED="1354963145867" FOLDED="true" ID="ID_1175512038" MODIFIED="1395722620134" TEXT="string-like">
 <node CREATED="1354962922208" ID="ID_1652387329" MODIFIED="1354963710245" TEXT="char-x-ascii">
 <node CREATED="1354963652151" ID="ID_255438266" MODIFIED="1354963733875" TEXT="char()">
 <node CREATED="1354963673452" ID="ID_365480764" MODIFIED="1354963687020" TEXT="CHR"/>
@@ -884,74 +883,74 @@
 <node CREATED="1355014487673" ID="ID_1526980100" MODIFIED="1355014989843" TEXT="cell=cell2mat(mat)"/>
 <node CREATED="1355014994872" FOLDED="true" ID="ID_177432015" MODIFIED="1355016578669" TEXT="split">
 <node CREATED="1355016561893" ID="ID_844738684" MODIFIED="1355016574435">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      function [ tokens ] = split( str,delimiter)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;i=1;remain=str;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;while true
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[token,remain]=strtok(remain,delimiter);
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tokens{i}=token;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;i=i+1;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if isempty(remain),break;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;end
-    </p>
-    <p>
-      end
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      function [ tokens ] = split( str,delimiter)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;i=1;remain=str;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;while true&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;[token,remain]=strtok(remain,delimiter);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;tokens{i}=token;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;i=i+1;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if isempty(remain),break;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;end&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      end&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355015023106" FOLDED="true" ID="ID_1510270982" MODIFIED="1355016579519" TEXT="join">
 <node CREATED="1355016539991" ID="ID_1662936645" MODIFIED="1355016550419">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      function [ str ] = join(tokens,delimiter)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;n=length(tokens);
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;cells=cell(1,n);
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;for i=1:n-1;cells{i}=delimiter;end;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;cells{n}='';
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a=[tokens;cells];
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;str=sprintf('%s',a{1:end});
-    </p>
-    <p>
-      end
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      function [ str ] = join(tokens,delimiter)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;n=length(tokens);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;cells=cell(1,n);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;for i=1:n-1;cells{i}=delimiter;end;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;cells{n}='';&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;a=[tokens;cells];&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;str=sprintf('%s',a{1:end});&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      end&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -961,7 +960,7 @@
 <node CREATED="1355016689442" ID="ID_1030912961" MODIFIED="1355016692333" TEXT="strcat"/>
 </node>
 </node>
-<node CREATED="1355016844973" ID="ID_1724877070" MODIFIED="1355033983646" TEXT="regex">
+<node CREATED="1355016844973" FOLDED="true" ID="ID_1724877070" MODIFIED="1395722621969" TEXT="regex">
 <node CREATED="1355016851237" ID="ID_1489970349" MODIFIED="1355021435643" TEXT="regexprep/regexprepi">
 <node CREATED="1355017075935" ID="ID_1544740528" MODIFIED="1355017080363" TEXT="s = regexprep(&apos;str&apos;, &apos;expr&apos;, &apos;repstr&apos;)">
 <node CREATED="1355023080814" ID="ID_1065130205" MODIFIED="1355023102034" TEXT="$n "/>
@@ -1082,42 +1081,42 @@
 <node CREATED="1355124886621" ID="ID_1952955147" MODIFIED="1355125026894" TEXT="s = struct(&apos;field1&apos;, values1, &apos;field2&apos;, values2, ...)"/>
 <node CREATED="1355125027999" ID="ID_1542037371" MODIFIED="1355125039063" TEXT="s = struct(&apos;field1&apos;, {}, &apos;field2&apos;, {}, ...)">
 <node CREATED="1355577508884" FOLDED="true" ID="ID_1269816983" MODIFIED="1355577849906">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">W = struct('city', {'Bos','Chi','Lin','Dnv','Vgs','SFr'}, ...
-           'temp', {43, 34, 25, 15, 31, 52}, ...
-           'heatix', {32, 27, 17, -5, 22, 47}, ...
-           'wspeed', {8, 3, 11, 9, 4, 18}, ...
-           'wchill', {37, 30, 16, 0, 35, 42});</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">W = struct('city', {'Bos','Chi','Lin','Dnv','Vgs','SFr'}, ...&#xd;
+           'temp', {43, 34, 25, 15, 31, 52}, ...&#xd;
+           'heatix', {32, 27, 17, -5, 22, 47}, ...&#xd;
+           'wspeed', {8, 3, 11, 9, 4, 18}, ...&#xd;
+           'wchill', {37, 30, 16, 0, 35, 42});</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355577554451" ID="ID_351426172" MODIFIED="1355577579677" TEXT="1*6 struct array."/>
 </node>
 <node CREATED="1355577535735" FOLDED="true" ID="ID_1606579137" MODIFIED="1355577848631">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      W = struct('city', {{'Bos','Chi','Lin','Dnv','Vgs','SFr'}}, ...
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'temp', {{43, 34, 25, 15, 31, 52}}, ...
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'heatix', {{32, 27, 17, -5, 22, 47}}, ...
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'wspeed', {{8, 3, 11, 9, 4, 18}}, ...
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'wchill', {{37, 30, 16, 0, 35, 42}});
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      W = struct('city', {{'Bos','Chi','Lin','Dnv','Vgs','SFr'}}, ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;'temp', {{43, 34, 25, 15, 31, 52}}, ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;'heatix', {{32, 27, 17, -5, 22, 47}}, ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;'wspeed', {{8, 3, 11, 9, 4, 18}}, ...&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;'wchill', {{37, 30, 16, 0, 35, 42}});&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355577569800" ID="ID_374666843" MODIFIED="1355577578143" TEXT="1*1 struct array."/>
 </node>
@@ -1160,40 +1159,40 @@
 </node>
 </node>
 </node>
-<node CREATED="1355626150512" FOLDED="true" ID="ID_871182585" MODIFIED="1378612892229" POSITION="right" TEXT="map">
-<node CREATED="1355626153936" FOLDED="true" ID="ID_1865840877" MODIFIED="1355626458432" TEXT="containers.Map">
+<node CREATED="1355626150512" ID="ID_871182585" MODIFIED="1395722593529" POSITION="right" TEXT="map">
+<node CREATED="1355626153936" FOLDED="true" ID="ID_1865840877" MODIFIED="1395722599643" TEXT="containers.Map">
 <node CREATED="1355626248814" ID="ID_1131508287" MODIFIED="1355626248814">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>M = containers.Map<br />M = containers.Map('KeyType', <i>kType</i>, 'ValueType', <i>vType</i>)<br />M = containers.Map(<i>keys</i>, <i>values</i>)<br />M = containers.Map(<i>keys</i>, <i>values</i>, 'uniformvalues', tf)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>M = containers.Map<br/>M = containers.Map('KeyType', <i>kType</i>, 'ValueType', <i>vType</i>)<br/>M = containers.Map(<i>keys</i>, <i>values</i>)<br/>M = containers.Map(<i>keys</i>, <i>values</i>, 'uniformvalues', tf)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1355626257556" FOLDED="true" ID="ID_1431642694" MODIFIED="1355626456170" TEXT="isKey">
+<node CREATED="1355626257556" FOLDED="true" ID="ID_1431642694" MODIFIED="1395722604633" TEXT="isKey">
 <node CREATED="1355626275911" ID="ID_1528192156" MODIFIED="1355626275911">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>tf = isKey(M, keys)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>tf = isKey(M, keys)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1355626286260" FOLDED="true" ID="ID_1665414741" MODIFIED="1355626455562" TEXT="keys">
+<node CREATED="1355626286260" FOLDED="true" ID="ID_1665414741" MODIFIED="1395722602444" TEXT="keys">
 <node CREATED="1355626292573" ID="ID_19666548" MODIFIED="1355626292573">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>k = keys(M)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>k = keys(M)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1202,42 +1201,42 @@
 </node>
 <node CREATED="1355626320237" FOLDED="true" ID="ID_140174626" MODIFIED="1355626452910" TEXT="remove">
 <node CREATED="1355626323430" ID="ID_17960279" MODIFIED="1355626323430">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>remove(M, keys)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>remove(M, keys)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355626428080" FOLDED="true" ID="ID_551616432" MODIFIED="1355626452161" TEXT="size">
 <node CREATED="1355626433238" ID="ID_994563076" MODIFIED="1355626433238">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>d = size(M)<br />d = size(M, dim)<br />[d1, d2, ..., dn] = size(M)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>d = size(M)<br/>d = size(M, dim)<br/>[d1, d2, ..., dn] = size(M)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355626443493" FOLDED="true" ID="ID_56322592" MODIFIED="1355626451490" TEXT="values">
 <node CREATED="1355626449400" ID="ID_1838132206" MODIFIED="1355626449400">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>v = values(M)<br />v = values(M, keys)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>v = values(M)<br/>v = values(M, keys)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1355626826460" FOLDED="true" ID="ID_1035050866" MODIFIED="1378612890503" POSITION="right" TEXT="func_handler">
+<node CREATED="1355626826460" FOLDED="true" ID="ID_1035050866" MODIFIED="1395722589524" POSITION="right" TEXT="func_handler">
 <node CREATED="1355626832942" ID="ID_542089665" MODIFIED="1355626834987" TEXT="isa">
 <node CREATED="1355626923601" ID="ID_944499312" MODIFIED="1355626935007" TEXT="isa(handler,&apos;func_handler&apos;)"/>
 </node>
@@ -1251,111 +1250,111 @@
 <node CREATED="1355626869789" ID="ID_32567744" MODIFIED="1355626872271" TEXT="class"/>
 <node CREATED="1355626883416" ID="ID_301251540" MODIFIED="1355626885508" TEXT="feval"/>
 </node>
-<node CREATED="1355150546414" FOLDED="true" ID="ID_1224243306" MODIFIED="1378611803037" POSITION="right" TEXT="data acquisition">
+<node CREATED="1355150546414" FOLDED="true" ID="ID_1224243306" MODIFIED="1395722578921" POSITION="right" TEXT="data acquisition">
 <node CREATED="1355150842873" ID="ID_1005390549" MODIFIED="1378611643087" TEXT="workflow">
 <node CREATED="1355151243852" ID="ID_1614863060" MODIFIED="1355151259217" TEXT="get device infos">
 <icon BUILTIN="full-0"/>
 <node CREATED="1355151260570" ID="ID_1066017071" MODIFIED="1355151266031" TEXT="daqhwinfo()">
 <node CREATED="1355151306335" ID="ID_1284572189" MODIFIED="1355151324232">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="synopsis"><tt>out = daqhwinfo</tt></pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="synopsis"><tt>out = daqhwinfo</tt></pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355151307370" ID="ID_427019359" MODIFIED="1355151337366">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="synopsis"><tt>out = daqhwinfo('<i>adaptor</i>')</tt></pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="synopsis"><tt>out = daqhwinfo('<i>adaptor</i>')</tt></pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355151393240" ID="ID_762490629" MODIFIED="1355151469476">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <tt>advantech</tt>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <tt>advantech</tt>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355151417228" ID="ID_19963530" MODIFIED="1355151431109">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <tt>mcc</tt>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <tt>mcc</tt>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355151434331" ID="ID_286330583" MODIFIED="1355151443397">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <tt>nidaq</tt>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <tt>nidaq</tt>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355151445443" ID="ID_1961280646" MODIFIED="1355151457778">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <tt>parallel</tt>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <tt>parallel</tt>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355151460190" ID="ID_661378990" MODIFIED="1355151464435">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <tt>winsound</tt>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <tt>winsound</tt>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355151311465" ID="ID_585151752" MODIFIED="1355151360210">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="synopsis"><tt>out = daqhwinfo(obj)</tt>
-</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="synopsis"><tt>out = daqhwinfo(obj)</tt>&#xd;
+</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355151311967" ID="ID_809823337" MODIFIED="1355151373070">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="synopsis"><tt>out = daqhwinfo(obj,'<i>FieldName</i>')</tt>
-</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="synopsis"><tt>out = daqhwinfo(obj,'<i>FieldName</i>')</tt>&#xd;
+</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1363,13 +1362,13 @@
 <node CREATED="1355150572269" ID="ID_1360463637" MODIFIED="1355150857680" TEXT="create device">
 <icon BUILTIN="full-1"/>
 <node CREATED="1355151675161" ID="ID_1009872258" MODIFIED="1355151675161">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">AI = analoginput('winsound');</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">AI = analoginput('winsound');</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355152506593" ID="ID_258361185" MODIFIED="1355152510234" TEXT="daqregister()">
 <node CREATED="1355152550943" ID="ID_1368748235" MODIFIED="1355152578939" TEXT="register device/load device driver"/>
@@ -1382,13 +1381,13 @@
 <node CREATED="1355150592273" ID="ID_552370070" MODIFIED="1355150857675" TEXT="add channels(analog)/lines(digit) to device">
 <icon BUILTIN="full-2"/>
 <node CREATED="1355151686288" ID="ID_1503551258" MODIFIED="1355151686288">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">addchannel(AI,1:2); </pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">addchannel(AI,1:2); </pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355152980273" ID="ID_1324996371" MODIFIED="1355152993591" TEXT="addchannel() (analog)"/>
 <node CREATED="1355152993762" ID="ID_1745975135" MODIFIED="1355153001460" TEXT="addline() (digital)"/>
@@ -1398,14 +1397,14 @@
 <node CREATED="1355150637816" ID="ID_914576120" MODIFIED="1355150857673" TEXT="config property set/get">
 <icon BUILTIN="full-3"/>
 <node CREATED="1355151699405" ID="ID_1710739255" MODIFIED="1355151699405">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">set(AI,'SampleRate',11025)
-set(AI,'SamplesPerTrigger',22050)</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">set(AI,'SampleRate',11025)&#xd;
+set(AI,'SamplesPerTrigger',22050)</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355153054889" ID="ID_1744652890" MODIFIED="1355153073287" TEXT="set(device,&apos;Property&apos;,value)">
 <node CREATED="1355153081462" ID="ID_746025789" MODIFIED="1355153103525" TEXT="common Properties">
@@ -1438,53 +1437,53 @@ set(AI,'SamplesPerTrigger',22050)</pre>
 <node CREATED="1355150691282" ID="ID_1930545626" MODIFIED="1355150857669" TEXT="start acquisition or output data in background">
 <icon BUILTIN="full-5"/>
 <node CREATED="1355151713724" ID="ID_1502552796" MODIFIED="1355151713724">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">start(AI)</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">start(AI)</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355150747029" ID="ID_242077588" MODIFIED="1355150857668" TEXT="wait for acquisition or output finish">
 <icon BUILTIN="full-6"/>
 <node CREATED="1355151732303" ID="ID_298286313" MODIFIED="1355151732303">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">wait(AI,3);</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">wait(AI,3);</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355150787606" ID="ID_542416599" MODIFIED="1355150857666" TEXT="extract acquired data">
 <icon BUILTIN="full-7"/>
 <node CREATED="1355151753722" ID="ID_1581818407" MODIFIED="1355151753722">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">data = getdata(AI);</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">data = getdata(AI);</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355150814203" ID="ID_494153155" MODIFIED="1355150857664" TEXT="cleanup">
 <icon BUILTIN="full-8"/>
 <node CREATED="1355151773569" ID="ID_1394843728" MODIFIED="1355151773569">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre class="programlisting">delete(AI)
-clear AI</pre>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <pre class="programlisting">delete(AI)&#xd;
+clear AI</pre>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355151866253" ID="ID_1933220825" MODIFIED="1355151872083" TEXT="delete(h)">
 <node CREATED="1355151878467" ID="ID_1925498949" MODIFIED="1355151900867" TEXT="release system-allocated resource">
@@ -1501,7 +1500,7 @@ clear AI</pre>
 </node>
 </node>
 </node>
-<node CREATED="1355152187495" FOLDED="true" ID="ID_1255863560" MODIFIED="1378612888648" POSITION="right" TEXT="memory manage">
+<node CREATED="1355152187495" FOLDED="true" ID="ID_1255863560" MODIFIED="1395722575868" POSITION="right" TEXT="memory manage">
 <node CREATED="1355152200202" ID="ID_817706163" MODIFIED="1378612057204" TEXT="clc">
 <node CREATED="1355152210374" ID="ID_486229296" MODIFIED="1355152226907" TEXT="clear cmd window,as CLS"/>
 </node>
@@ -1516,7 +1515,7 @@ clear AI</pre>
 </node>
 </node>
 </node>
-<node CREATED="1355216419320" FOLDED="true" ID="ID_1219587637" MODIFIED="1378612887387" POSITION="right" TEXT="programming paradigms  ">
+<node CREATED="1355216419320" FOLDED="true" ID="ID_1219587637" MODIFIED="1395722572842" POSITION="right" TEXT="programming paradigms  ">
 <node CREATED="1355216354832" ID="ID_936154915" MODIFIED="1355581644279" TEXT="SP">
 <node CREATED="1355216453961" FOLDED="true" ID="ID_531330685" MODIFIED="1378611670646" TEXT="function">
 <node CREATED="1355216488296" ID="ID_73008038" MODIFIED="1378611660431" TEXT="organization">
@@ -1629,13 +1628,13 @@ clear AI</pre>
 <node CREATED="1355233908702" ID="ID_1164764725" MODIFIED="1355233911342" TEXT="MEX-files">
 <icon BUILTIN="full-2"/>
 <node CREATED="1355234579784" ID="ID_219817812" MODIFIED="1355234587998">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    call&#160;&#160;C, C++, or Fortran subroutines from the MATLAB command line
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    call&#xa0;&#xa0;C, C++, or Fortran subroutines from the MATLAB command line&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -1761,378 +1760,378 @@ clear AI</pre>
 <node CREATED="1355587956459" ID="ID_1230855469" MODIFIED="1355587969380" TEXT="validate*">
 <node CREATED="1355587390507" FOLDED="true" ID="ID_1100883028" MODIFIED="1355624674085" TEXT="validatestring()">
 <node CREATED="1355587452092" ID="ID_187197147" MODIFIED="1355587452092">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>validstr = validatestring(str, strarray)<br />validstr = validatestring(str, strarray, position)<br />validstr = validatestring(str, strarray, funname)<br />validstr = validatestring(str, strarray, funname, varname)<br />validstr = validatestring(str, strarray, funname, varname, position)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>validstr = validatestring(str, strarray)<br/>validstr = validatestring(str, strarray, position)<br/>validstr = validatestring(str, strarray, funname)<br/>validstr = validatestring(str, strarray, funname, varname)<br/>validstr = validatestring(str, strarray, funname, varname, position)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355587361803" FOLDED="true" ID="ID_1380694944" MODIFIED="1355624672166" TEXT="validateattributes()">
 <node CREATED="1355214596526" ID="ID_92865469" MODIFIED="1355587382561">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tt>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>position</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>)<br />validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>, <i>position</i>)</tt>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tt>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>position</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>)<br/>validateattributes(<i>A</i>, <i>classes</i>, <i>attributes</i>, <i>funcname</i>, <i>varname</i>, <i>position</i>)</tt>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1355214603857" ID="ID_972031429" MODIFIED="1355587603345" TEXT="classes">
 <node CREATED="1355214638625" ID="ID_55091377" MODIFIED="1355214638625">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tr valign="top">
-      <th bgcolor="#b2b2b2" valign="top">
-        <tt>classes</tt> Argument
-      </th>
-      <th bgcolor="#b2b2b2" valign="top">
-        Contents of Array <tt>A</tt>
-      </th>
-    </tr>
-    <table>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'numeric'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Any numeric value
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'single'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Single-precision number
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'double'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Double-precision number
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int8'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 8-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int16'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 16-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int32'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 32-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'int64'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Signed 64-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint8'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 8-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint16'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 16-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint32'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 32-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'uint64'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Unsigned 64-bit integer
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'logical'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Logical <tt>true</tt> or <tt>false</tt>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          '<tt>'char'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Character or string
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'struct'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          MATLAB structure
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'cell'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Cell array
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'function_handle'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Scalar function handle
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <em><span class="emphasis">class name</span></em>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Object of any MATLAB class
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tr valign="top">&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        <tt>classes</tt> Argument&#xd;
+      </th>&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        Contents of Array <tt>A</tt>&#xd;
+      </th>&#xd;
+    </tr>&#xd;
+    <table>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'numeric'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Any numeric value&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'single'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Single-precision number&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'double'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Double-precision number&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int8'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 8-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int16'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 16-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int32'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 32-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'int64'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Signed 64-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint8'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 8-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint16'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 16-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint32'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 32-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'uint64'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Unsigned 64-bit integer&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'logical'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Logical <tt>true</tt> or <tt>false</tt>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          '<tt>'char'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Character or string&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'struct'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          MATLAB structure&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'cell'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Cell array&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'function_handle'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Scalar function handle&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <em><span class="emphasis">class name</span></em>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Object of any MATLAB class&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355214754590" ID="ID_1096005527" MODIFIED="1355587630183" TEXT="attributes">
 <node CREATED="1355214760561" ID="ID_337407602" MODIFIED="1355214760561">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <tr valign="top">
-      <th bgcolor="#b2b2b2" valign="top">
-        <tt>attributes</tt> Argument
-      </th>
-      <th bgcolor="#b2b2b2" valign="top">
-        Description of array <tt>A</tt>
-      </th>
-    </tr>
-    <table>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&gt;', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are greater than <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&gt;=', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are greater than or equal to <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&lt;', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are less than <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'&lt;=', N</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array in which all values are lass than or equal to <tt>N</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'2d'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>M</tt>-by-<tt>N</tt> (includes scalars, vectors, 2-D matrices, and empty arrays)
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'binary'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array of ones and zeros
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'column'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>N</tt>-by-1
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'even'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are even (includes zero)
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'finite'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are finite
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'integer'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are integer-valued
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonempty'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having no dimension equal to zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonnan'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which there are no elements equal to NaN (Not a Number)
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonnegative'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are zero or greater than zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonsparse'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array that is not sparse
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'nonzero'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are less than or greater than zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'odd'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are odd integers
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'positive'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric or logical array in which all elements are greater than zero
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'real'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Numeric array in which all elements are real
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'row'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions 1-by-<tt>N</tt>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'scalar'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions 1-by-1
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'size', [M,N,...]</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>M</tt>-by-<tt>N</tt>-by- <tt>...</tt>.
-        </td>
-      </tr>
-      <tr valign="top">
-        <td bgcolor="#f2f2f2">
-          <tt>'vector'</tt>
-        </td>
-        <td bgcolor="#f2f2f2">
-          Array having dimensions <tt>N</tt>-by-1 or 1-by-<tt>N</tt> (includes scalar arrays)
-        </td>
-      </tr>
-    </table>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <tr valign="top">&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        <tt>attributes</tt> Argument&#xd;
+      </th>&#xd;
+      <th bgcolor="#b2b2b2" valign="top">&#xd;
+        Description of array <tt>A</tt>&#xd;
+      </th>&#xd;
+    </tr>&#xd;
+    <table>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&gt;', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are greater than <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&gt;=', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are greater than or equal to <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&lt;', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are less than <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'&lt;=', N</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array in which all values are lass than or equal to <tt>N</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'2d'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>M</tt>-by-<tt>N</tt> (includes scalars, vectors, 2-D matrices, and empty arrays)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'binary'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array of ones and zeros&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'column'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>N</tt>-by-1&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'even'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are even (includes zero)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'finite'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are finite&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'integer'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are integer-valued&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonempty'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having no dimension equal to zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonnan'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which there are no elements equal to NaN (Not a Number)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonnegative'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are zero or greater than zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonsparse'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array that is not sparse&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'nonzero'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are less than or greater than zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'odd'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are odd integers&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'positive'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric or logical array in which all elements are greater than zero&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'real'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Numeric array in which all elements are real&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'row'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions 1-by-<tt>N</tt>&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'scalar'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions 1-by-1&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'size', [M,N,...]</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>M</tt>-by-<tt>N</tt>-by- <tt>...</tt>.&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+      <tr valign="top">&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          <tt>'vector'</tt>&#xd;
+        </td>&#xd;
+        <td bgcolor="#f2f2f2">&#xd;
+          Array having dimensions <tt>N</tt>-by-1 or 1-by-<tt>N</tt> (includes scalar arrays)&#xd;
+        </td>&#xd;
+      </tr>&#xd;
+    </table>&#xd;
+  </body>&#xd;
 </html></richcontent>
 <node CREATED="1355588119322" ID="ID_152483481" MODIFIED="1355588294617" TEXT="&apos;scalar&apos; &apos;vector&apos; &apos;row&apos; &apos;column&apos; &apos;size&apos; [m,n,...] 2d"/>
 <node CREATED="1355588265582" ID="ID_868101984" MODIFIED="1355588271003" TEXT="&gt; &lt; &gt;= &lt;="/>
@@ -2164,57 +2163,57 @@ clear AI</pre>
 <node CREATED="1355230559405" ID="ID_1361217739" MODIFIED="1355230565254" TEXT="persistent">
 <node CREATED="1355230586254" FOLDED="true" ID="ID_1085563533" MODIFIED="1355575425427" TEXT="static local variables defined in functions">
 <node CREATED="1355575394652" ID="ID_1819058322" MODIFIED="1355575418070">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      function f = fact(n)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%Function definition line
-    </p>
-    <p>
-      % Compute a factorial value.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%H1 line
-    </p>
-    <p>
-      % FACT(N) returns the factorial of N,&#160;&#160;%Help text
-    </p>
-    <p>
-      % usually denoted by N!
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      % Put simply, FACT(N) is PROD(1:N).&#160;&#160;&#160;&#160;%Comment
-    </p>
-    <p>
-      persistent a;
-    </p>
-    <p>
-      if isempty(a)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a=1;
-    </p>
-    <p>
-      else
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;a=a+1;
-    </p>
-    <p>
-      end
-    </p>
-    <p>
-      disp(a);
-    </p>
-    <p>
-      f = prod(1:n);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%Function body
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      function f = fact(n)&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;%Function definition line&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      % Compute a factorial value.&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;%H1 line&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      % FACT(N) returns the factorial of N,&#xa0;&#xa0;%Help text&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      % usually denoted by N!&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      % Put simply, FACT(N) is PROD(1:N).&#xa0;&#xa0;&#xa0;&#xa0;%Comment&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      persistent a;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      if isempty(a)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;a=1;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      else&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;a=a+1;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      end&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      disp(a);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      f = prod(1:n);&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;%Function body&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -2230,33 +2229,33 @@ clear AI</pre>
 <node CREATED="1355216461481" ID="ID_989200466" MODIFIED="1355216485722" TEXT="class&amp;object&amp;instance"/>
 </node>
 </node>
-<node CREATED="1355627780778" FOLDED="true" ID="ID_1258310114" MODIFIED="1378612868353" POSITION="right" TEXT="help">
+<node CREATED="1355627780778" FOLDED="true" ID="ID_1258310114" MODIFIED="1395722569226" POSITION="right" TEXT="help">
 <node CREATED="1355627913079" ID="ID_478061689" MODIFIED="1355627915375" TEXT="which">
 <node CREATED="1355627917170" ID="ID_375790529" MODIFIED="1355627933734" TEXT="locate functions and files"/>
 </node>
 <node CREATED="1355627975677" ID="ID_1483607833" MODIFIED="1355627977402" TEXT="who, whos">
 <node CREATED="1355627986863" ID="ID_711153764" MODIFIED="1355627991535">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    list variables in workspace
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    list variables in workspace&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1355628011877" ID="ID_83422904" MODIFIED="1355628013207" TEXT="what">
 <node CREATED="1355628014606" ID="ID_226615910" MODIFIED="1355628022297">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p class="purpose">
-      list MATLAB files in folder
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p class="purpose">&#xd;
+      list MATLAB files in folder&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
