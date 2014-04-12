@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1362448669746" ID="ID_1994088080" MODIFIED="1365491640734" TEXT="make">
-<node CREATED="1362448682869" ID="ID_657714606" MODIFIED="1385713129810" POSITION="right" TEXT="variable(macro)">
+<node CREATED="1362448682869" FOLDED="true" ID="ID_657714606" MODIFIED="1397319095015" POSITION="right" TEXT="variable(macro)">
 <node CREATED="1362463690835" ID="ID_930782766" MODIFIED="1372647633929" TEXT="intros">
 <node CREATED="1362469428983" FOLDED="true" ID="ID_792856957" MODIFIED="1372647667218" TEXT="lhs">
 <node CREATED="1362463161825" ID="ID_127806118" MODIFIED="1371201623826" TEXT="not containing &apos;:&apos;,&apos;#&apos;,&apos;=&apos;,leading or trailing ws">
@@ -122,15 +122,15 @@
 <node CREATED="1362466090988" ID="ID_353924589" MODIFIED="1362466126449" TEXT=" it only has an effect if the variable is not yet defined."/>
 <node CREATED="1362466134660" ID="ID_696611927" MODIFIED="1362466182227" TEXT="FOO ?= bar">
 <node CREATED="1362466144575" ID="ID_486769116" MODIFIED="1362466175652">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre class="example">ifeq ($(origin FOO), undefined)&#xd;
-    FOO = bar&#xd;
-endif</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre class="example">ifeq ($(origin FOO), undefined)&#xd;&#xd;
+    FOO = bar&#xd;&#xd;
+endif</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -147,105 +147,105 @@ endif</pre>&#xd;
 <node CREATED="1362534385308" ID="ID_1081061885" MODIFIED="1371206963807" TEXT="Defining Multi-Line Variables">
 <node CREATED="1362534570698" ID="ID_926648898" MODIFIED="1371206964993" TEXT="recursively">
 <node CREATED="1362534393037" ID="ID_1913078537" MODIFIED="1362534577384">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      [override] define variable-name [=]&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line1&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line2&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      ....&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      endef&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [override] define variable-name [=]&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line1&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line2&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      ....&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      endef&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1362534579613" ID="ID_930630629" MODIFIED="1371206974571" TEXT="simply">
 <node CREATED="1362534393037" ID="ID_1173847080" MODIFIED="1362534593803">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      [override] define variable-name :=&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line1&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line2&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      ....&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      endef&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [override] define variable-name :=&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line1&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line2&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      ....&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      endef&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1362534596032" ID="ID_491735440" MODIFIED="1371206977067" TEXT="conditional">
 <node CREATED="1362534393037" ID="ID_1773191278" MODIFIED="1362534602859">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      [override] define variable-name ?=&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line1&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line2&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      ....&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      endef&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [override] define variable-name ?=&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line1&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line2&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      ....&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      endef&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1362534621296" FOLDED="true" ID="ID_1182148419" MODIFIED="1371206980780" TEXT="append">
 <node CREATED="1362534393037" ID="ID_1386927587" MODIFIED="1362534626002">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      [override] define variable-name +=&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line1&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;line2&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      ....&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      endef&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [override] define variable-name +=&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line1&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;line2&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      ....&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      endef&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -334,20 +334,20 @@ endif</pre>&#xd;
 <node CREATED="1362541253271" ID="ID_1926034623" MODIFIED="1362541255125" TEXT="MAKE_RESTARTS"/>
 <node CREATED="1362541319837" FOLDED="true" ID="ID_185644336" MODIFIED="1371207343725" TEXT=".RECIPEPREFIX">
 <node CREATED="1362541357101" ID="ID_195669949" MODIFIED="1362541357101">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    The first character of the value of this variable is used as the character make assumes is introducing a recipe line. If the variable is empty (as it is by default) that character is the standard tab character. For example, this is a valid makefile:&#xd;
-&#xd;
-    <pre class="example">          .RECIPEPREFIX = &gt;&#xd;
-          all:&#xd;
-          &gt; @echo Hello, world</pre>&#xd;
-    <p>&#xd;
-      The value of <code>.RECIPEPREFIX</code> can be changed multiple times; once set it stays in effect for all rules parsed until it is modified.&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    The first character of the value of this variable is used as the character make assumes is introducing a recipe line. If the variable is empty (as it is by default) that character is the standard tab character. For example, this is a valid makefile:&#xd;&#xd;
+&#xd;&#xd;
+    <pre class="example">          .RECIPEPREFIX = &gt;&#xd;&#xd;
+          all:&#xd;&#xd;
+          &gt; @echo Hello, world</pre>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      The value of <code>.RECIPEPREFIX</code> can be changed multiple times; once set it stays in effect for all rules parsed until it is modified.&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -357,69 +357,69 @@ endif</pre>&#xd;
 <node CREATED="1362541440767" FOLDED="true" ID="ID_1990156971" MODIFIED="1371207334256" TEXT=".FEATURES">
 <node CREATED="1362541464736" ID="ID_1923152760" MODIFIED="1362541465909" TEXT="Expands to a list of special features supported by this version of make. Possible values include: ">
 <node CREATED="1362541521274" ID="ID_1532226216" MODIFIED="1362541521274">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <dl>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>archives</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports <code>ar</code> (archive) files using special filename syntax. See <a href="file:///D:/docs/manual&amp;faq/make.html#Archives">Using <code>make</code> to Update Archive Files</a>.<br/>&#xd;
-      </dd>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>check-symlink</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports the <code>-L</code> (<code>--check-symlink-times</code>) flag. See <a href="file:///D:/docs/manual&amp;faq/make.html#Options-Summary">Summary of Options</a>.<br/>&#xd;
-      </dd>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>else-if</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports &#x201c;else if&#x201d; non-nested conditionals. See <a href="file:///D:/docs/manual&amp;faq/make.html#Conditional-Syntax">Syntax of Conditionals</a>.<br/>&#xd;
-      </dd>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>jobserver</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports &#x201c;job server&#x201d; enhanced parallel builds. See <a href="file:///D:/docs/manual&amp;faq/make.html#Parallel">Parallel Execution</a>.<br/>&#xd;
-      </dd>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>second-expansion</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports secondary expansion of prerequisite lists.<br/>&#xd;
-      </dd>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>order-only</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports order-only prerequisites. See <a href="file:///D:/docs/manual&amp;faq/make.html#Prerequisite-Types">Types of Prerequisites</a>.<br/>&#xd;
-      </dd>&#xd;
-      <dt>&#xd;
-        &#x2018;<span class="samp"><samp>target-specific</samp></span>&#x2019;&#xd;
-      </dt>&#xd;
-      <dd>&#xd;
-        Supports target-specific and pattern-specific variable assignments. See <a href="file:///D:/docs/manual&amp;faq/make.html#Target_002dspecific">Target-specific Variable Values</a>.&#xd;
-      </dd>&#xd;
-    </dl>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <dl>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>archives</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports <code>ar</code> (archive) files using special filename syntax. See <a href="file:///D:/docs/manual&amp;faq/make.html#Archives">Using <code>make</code> to Update Archive Files</a>.<br/>&#xd;&#xd;
+      </dd>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>check-symlink</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports the <code>-L</code> (<code>--check-symlink-times</code>) flag. See <a href="file:///D:/docs/manual&amp;faq/make.html#Options-Summary">Summary of Options</a>.<br/>&#xd;&#xd;
+      </dd>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>else-if</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports &#x201c;else if&#x201d; non-nested conditionals. See <a href="file:///D:/docs/manual&amp;faq/make.html#Conditional-Syntax">Syntax of Conditionals</a>.<br/>&#xd;&#xd;
+      </dd>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>jobserver</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports &#x201c;job server&#x201d; enhanced parallel builds. See <a href="file:///D:/docs/manual&amp;faq/make.html#Parallel">Parallel Execution</a>.<br/>&#xd;&#xd;
+      </dd>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>second-expansion</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports secondary expansion of prerequisite lists.<br/>&#xd;&#xd;
+      </dd>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>order-only</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports order-only prerequisites. See <a href="file:///D:/docs/manual&amp;faq/make.html#Prerequisite-Types">Types of Prerequisites</a>.<br/>&#xd;&#xd;
+      </dd>&#xd;&#xd;
+      <dt>&#xd;&#xd;
+        &#x2018;<span class="samp"><samp>target-specific</samp></span>&#x2019;&#xd;&#xd;
+      </dt>&#xd;&#xd;
+      <dd>&#xd;&#xd;
+        Supports target-specific and pattern-specific variable assignments. See <a href="file:///D:/docs/manual&amp;faq/make.html#Target_002dspecific">Target-specific Variable Values</a>.&#xd;&#xd;
+      </dd>&#xd;&#xd;
+    </dl>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1362541546485" ID="ID_1637248188" MODIFIED="1362541547674" TEXT=".INCLUDE_DIRS">
 <node CREATED="1362541564040" ID="ID_1327700863" MODIFIED="1362541564040">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    Expands to a list of directories that <code>make</code> searches for included makefiles (see <a href="file:///D:/docs/manual&amp;faq/make.html#Include">Including Other Makefiles</a>).&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    Expands to a list of directories that <code>make</code> searches for included makefiles (see <a href="file:///D:/docs/manual&amp;faq/make.html#Include">Including Other Makefiles</a>).&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -496,37 +496,37 @@ endif</pre>&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1362647381643" FOLDED="true" ID="ID_1832648668" MODIFIED="1371207581836" TEXT="multi-line">
+<node CREATED="1362647381643" ID="ID_1832648668" MODIFIED="1397319097283" TEXT="multi-line">
 <node CREATED="1362647391619" ID="ID_809453088" MODIFIED="1362647400466" TEXT="define...undef">
 <node CREATED="1362648892738" ID="ID_1181926472" MODIFIED="1362649591552" TEXT="defining canned recipes"/>
 <node CREATED="1362648904848" ID="ID_200368627" MODIFIED="1362649586852" TEXT="eval function"/>
 </node>
 </node>
 </node>
-<node CREATED="1362649613729" ID="ID_836152952" MODIFIED="1385713123851" POSITION="right" TEXT="rule">
+<node CREATED="1362649613729" FOLDED="true" ID="ID_836152952" MODIFIED="1397319089330" POSITION="right" TEXT="rule">
 <node CREATED="1362650109769" ID="ID_1163176003" MODIFIED="1362650159951" TEXT="form">
 <node CREATED="1362650127518" ID="ID_1756640216" MODIFIED="1362650127518">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre class="example"><var>targets</var> : <var>prerequisites</var> ; <var>recipe</var>&#xd;
-             <var>recipe</var>&#xd;
-             ...</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre class="example"><var>targets</var> : <var>prerequisites</var> ; <var>recipe</var>&#xd;&#xd;
+             <var>recipe</var>&#xd;&#xd;
+             ...</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1362650155081" ID="ID_311818180" MODIFIED="1362650155081">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre class="example"><var>targets</var> : <var>prerequisites</var>&#xd;
-             <var>recipe</var>&#xd;
-             ...</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <pre class="example"><var>targets</var> : <var>prerequisites</var>&#xd;&#xd;
+             <var>recipe</var>&#xd;&#xd;
+             ...</pre>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -540,21 +540,21 @@ endif</pre>&#xd;
 <node CREATED="1362649628282" ID="ID_322659626" MODIFIED="1362650136948" TEXT="prerequisite"/>
 <node CREATED="1362649634362" ID="ID_1403824438" MODIFIED="1362650136948" TEXT="recipe">
 <node CREATED="1362649930493" ID="ID_491320389" MODIFIED="1362650008052">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      &lt;.RECIPEPREFIX&gt;cmd&lt;newline&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;.RECIPEPREFIX&gt;cmd&lt;newline&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &lt;.RECIPEPREFIX&gt;cmd&lt;newline&gt;&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;.RECIPEPREFIX&gt;cmd&lt;newline&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;.RECIPEPREFIX&gt;cmd&lt;newline&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &lt;.RECIPEPREFIX&gt;cmd&lt;newline&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1362649984347" ID="ID_16792720" MODIFIED="1362649997892" TEXT="&lt;.RECIPEPREFIX&gt; defualt is &lt;tab&gt;"/>
 </node>
@@ -866,21 +866,21 @@ endif</pre>&#xd;
 </node>
 <node CREATED="1362448764458" FOLDED="true" ID="ID_868511459" MODIFIED="1372655560009" TEXT="user-defined">
 <node CREATED="1372649332639" ID="ID_300832822" MODIFIED="1372649342509">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      source-to-object = $(subst .c,.o,$(filter %.c,$1)) \&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      $(subst .y,.o,$(filter %.y,$1)) \&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      $(subst .l,.o,$(filter %.l,$1))&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      source-to-object = $(subst .c,.o,$(filter %.c,$1)) \&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      $(subst .y,.o,$(filter %.y,$1)) \&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      $(subst .l,.o,$(filter %.l,$1))&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1372649353072" ID="ID_1319180513" MODIFIED="1372649354509" TEXT="$(call source-to-object, source-file-list)"/>
@@ -889,33 +889,33 @@ endif</pre>&#xd;
 <node CREATED="1362460396178" ID="ID_1272794560" MODIFIED="1372659991889" POSITION="right" TEXT="conditionals">
 <node CREATED="1362460453899" FOLDED="true" ID="ID_913035734" MODIFIED="1372924756244" TEXT="ifeq,ifneq,ifdef,ifndef,else,endif">
 <node CREATED="1362460511848" ID="ID_1970283145" MODIFIED="1371201502547">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      conditional-directive&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      text-if-one-is-true&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      [else conditional-directive&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      text-if-true]...&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      [else&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      text-if-false]&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      endif&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      conditional-directive&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      text-if-one-is-true&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [else conditional-directive&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      text-if-true]...&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      [else&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      text-if-false]&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      endif&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <node CREATED="1362460943470" ID="ID_375621899" MODIFIED="1362460994658" TEXT="else ifxxx">
 <node CREATED="1362460951405" ID="ID_753509073" MODIFIED="1362460970230" TEXT="just like elifxxx"/>
