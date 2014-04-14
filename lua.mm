@@ -291,7 +291,7 @@
 </node>
 <node CREATED="1397378213933" ID="ID_404695424" MODIFIED="1397378314359" TEXT="raw{get|set|eq|len}  -- pass by metamethed __{index|newindex|eq|len}"/>
 </node>
-<node CREATED="1397370694485" FOLDED="true" ID="ID_823025835" MODIFIED="1397376054357" POSITION="right" TEXT="io">
+<node CREATED="1397370694485" FOLDED="true" ID="ID_823025835" MODIFIED="1397476812971" POSITION="right" TEXT="io">
 <node CREATED="1397369802726" ID="ID_597129866" MODIFIED="1397371576738" TEXT="io.*">
 <node CREATED="1397369827464" FOLDED="true" ID="ID_1358172038" MODIFIED="1397371377618" TEXT="input output open tmpfile stdin stdout stderr ">
 <node CREATED="1397370797410" ID="ID_1544672295" MODIFIED="1397371212542" TEXT="io.{input|output}([file]) --get/[set] default input/output file"/>
@@ -355,7 +355,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1397380523862" ID="ID_1673877019" MODIFIED="1397380539497" POSITION="right" TEXT="modules packages">
+<node CREATED="1397380523862" FOLDED="true" ID="ID_1673877019" MODIFIED="1397481711408" POSITION="right" TEXT="modules packages">
 <node CREATED="1397380540564" ID="ID_987675813" MODIFIED="1397380592570" TEXT="package -- a collection of modules"/>
 <node CREATED="1397380681179" ID="ID_673480024" MODIFIED="1397380720767" TEXT="module -- some code loaded through require and creates and returns a  table"/>
 <node CREATED="1397380733489" ID="ID_888123778" MODIFIED="1397381281380" TEXT="require&quot;modname&quot;">
@@ -373,6 +373,129 @@
 <node CREATED="1397381312616" ID="ID_926152634" MODIFIED="1397381313517" TEXT="check in table package.loaded"/>
 </node>
 </node>
+<node CREATED="1397476771524" FOLDED="true" ID="ID_730077041" MODIFIED="1397479180268" POSITION="right" TEXT="debug">
+<node CREATED="1397476776321" ID="ID_995105064" MODIFIED="1397478889232" TEXT="introspective functions">
+<node CREATED="1397476803942" FOLDED="true" ID="ID_1885712339" MODIFIED="1397477748411" TEXT="debug.getinfo(level|function, [,what])">
+<node CREATED="1397476940134" FOLDED="true" ID="ID_1259056107" MODIFIED="1397477095831" TEXT="level (stack level)">
+<node CREATED="1397476942644" ID="ID_942543088" MODIFIED="1397476948531" TEXT="a function"/>
+<node CREATED="1397477005602" ID="ID_1685268395" MODIFIED="1397477006636" TEXT="0">
+<node CREATED="1397477013051" ID="ID_874933670" MODIFIED="1397477051015" TEXT="debug.getinfo itself"/>
+</node>
+<node CREATED="1397477006866" ID="ID_22180824" MODIFIED="1397477007281" TEXT="1">
+<node CREATED="1397477052627" ID="ID_1702508219" MODIFIED="1397477073613" TEXT="caller of debug.getinfo"/>
+</node>
+<node CREATED="1397477007562" ID="ID_1445916005" MODIFIED="1397477007944" TEXT="2">
+<node CREATED="1397477052627" ID="ID_1940255796" MODIFIED="1397477084692" TEXT="caller of caller of debug.getinfo"/>
+</node>
+</node>
+<node CREATED="1397477096496" ID="ID_819881785" MODIFIED="1397477097313" TEXT="what">
+<node CREATED="1397477126354" ID="ID_1209981266" MODIFIED="1397477136597" TEXT="&apos;n&apos;  selects name and namewhat"/>
+<node CREATED="1397477126355" ID="ID_475716395" MODIFIED="1397477141771" TEXT="&apos;f&apos;  selects func"/>
+<node CREATED="1397477126355" ID="ID_182618113" MODIFIED="1397477147367" TEXT="&apos;S&apos; selects source, short_src, what, linedefined, and lastlinedefined"/>
+<node CREATED="1397477126356" ID="ID_550716335" MODIFIED="1397477159368" TEXT="&apos;l&apos;  selects currentline"/>
+<node CREATED="1397477126356" ID="ID_1797183709" MODIFIED="1397477165665" TEXT="&apos;L&apos; selects activelines"/>
+<node CREATED="1397477126357" ID="ID_1533153058" MODIFIED="1397477173143" TEXT="&apos;u&apos; selects nup"/>
+</node>
+<node CREATED="1397477179079" ID="ID_1750562836" MODIFIED="1397477185011" TEXT="return table or nil">
+<node CREATED="1397477185898" ID="ID_1587171674" MODIFIED="1397477191936" TEXT="table fields">
+<node CREATED="1397477192732" ID="ID_1303425326" MODIFIED="1397477499015" TEXT="&quot;name&quot; -- name of functions"/>
+<node CREATED="1397477198297" ID="ID_1867861355" MODIFIED="1397477730228" TEXT="&quot;namewhat&quot;  -- &quot;local&quot;, &quot;global&quot;, &quot;method&quot;, &quot;field&quot;, &quot;&quot; ,etc.."/>
+<node CREATED="1397477202738" ID="ID_109402388" MODIFIED="1397477567314" TEXT="&quot;source&quot; -- where function is defined">
+<node CREATED="1397477568681" ID="ID_1472936031" MODIFIED="1397477580501" TEXT="@filename"/>
+<node CREATED="1397477584624" ID="ID_1655608685" MODIFIED="1397477598616" TEXT="string for load &amp; loadstring"/>
+</node>
+<node CREATED="1397477206374" ID="ID_1706436816" MODIFIED="1397477682557" TEXT="&quot;short_src&quot; -- up to 60 chars"/>
+<node CREATED="1397477210110" ID="ID_381305558" MODIFIED="1397477673996" TEXT="&quot;what&quot; -- &quot;C&quot;, &quot;Lua&quot;, &quot;main&quot;"/>
+<node CREATED="1397477212639" ID="ID_1331385538" MODIFIED="1397477739506" TEXT="&quot;linedefined&quot;"/>
+<node CREATED="1397477217352" ID="ID_44451899" MODIFIED="1397477744365" TEXT="&quot;lastlinedefined&quot;"/>
+<node CREATED="1397477225974" ID="ID_936833301" MODIFIED="1397477690497" TEXT="&quot;currentline&quot;"/>
+<node CREATED="1397477229344" ID="ID_1256371931" MODIFIED="1397477397932" TEXT="&quot;activelines&quot; -- lines except {blank|comment} lines "/>
+<node CREATED="1397477233190" ID="ID_268994884" MODIFIED="1397477417684" TEXT="&quot;nups&quot; -- number of upvalues"/>
+<node CREATED="1397477271604" ID="ID_25825643" MODIFIED="1397477401518" TEXT="&quot;func&quot; -- the function itself "/>
+</node>
+</node>
+</node>
+<node CREATED="1397477821266" FOLDED="true" ID="ID_835743410" MODIFIED="1397478066091" TEXT="debug.getlocal(level,index)">
+<node CREATED="1397477842977" ID="ID_1082456531" MODIFIED="1397477891070" TEXT="return name, current value"/>
+<node CREATED="1397477891681" ID="ID_292409520" MODIFIED="1397477928907" TEXT="return nil if index exceeds number of local variables"/>
+<node CREATED="1397477929926" ID="ID_1803565701" MODIFIED="1397477966332" TEXT="raise an error if level exceeds number of stack levels"/>
+</node>
+<node CREATED="1397478213572" ID="ID_310638682" MODIFIED="1397478225342" TEXT="debug.setlocal(level,index,value)"/>
+<node CREATED="1397478066590" ID="ID_121530151" MODIFIED="1397478092415" TEXT="debug.getupvalue(f,index)"/>
+<node CREATED="1397478123691" ID="ID_987000350" MODIFIED="1397478161154" TEXT="debug.setupvalue(f,index,value)"/>
+<node CREATED="1397478282793" ID="ID_527474883" MODIFIED="1397478283806" TEXT="debug.getmetatable (value)"/>
+<node CREATED="1397478323881" ID="ID_1762049977" MODIFIED="1397478324750" TEXT="debug.setmetatable (value, table)"/>
+<node CREATED="1397478346452" ID="ID_1010728956" MODIFIED="1397478347513" TEXT="debug.setuservalue (udata, value)"/>
+<node CREATED="1397478365650" ID="ID_268818889" MODIFIED="1397478367246" TEXT="debug.getuservalue (u)"/>
+<node CREATED="1397478292571" ID="ID_1811897711" MODIFIED="1397478293470" TEXT="debug.getregistry ()"/>
+<node CREATED="1397478410094" ID="ID_240365188" MODIFIED="1397478411009" TEXT="debug.upvalueid (f, n)"/>
+<node CREATED="1397478451885" ID="ID_1486514300" MODIFIED="1397478452807" TEXT="debug.upvaluejoin (f1, n1, f2, n2)"/>
+<node CREATED="1397478509458" ID="ID_833148933" MODIFIED="1397478510800" TEXT="debug.traceback ([thread,] [message [, level]"/>
+<node CREATED="1397478558676" ID="ID_807467009" MODIFIED="1397478559514" TEXT="debug.debug ()"/>
+</node>
+<node CREATED="1397476799964" ID="ID_939632086" MODIFIED="1397478657514" TEXT="hooks (breakpoint)">
+<node CREATED="1397478660180" FOLDED="true" ID="ID_1359398420" MODIFIED="1397478888378" TEXT="hook mechanism">
+<node CREATED="1397478716774" ID="ID_1789683265" MODIFIED="1397478717820" TEXT=" register a function to be called at speci&#xfb01;c events as a program runs."/>
+<node CREATED="1397478727073" FOLDED="true" ID="ID_176338856" MODIFIED="1397478885767" TEXT="four kinds of events that can trigger a hook:">
+<node CREATED="1397478739126" MODIFIED="1397478739126" TEXT="call events happen every time Lua calls a function;"/>
+<node CREATED="1397478739127" MODIFIED="1397478739127" TEXT="return events happen every time a function returns;"/>
+<node CREATED="1397478739127" MODIFIED="1397478739127" TEXT="line events happen when Lua starts executing a new line of code;"/>
+<node CREATED="1397478739127" MODIFIED="1397478739127" TEXT="count events happen after a given number of instructions."/>
+</node>
+</node>
+<node CREATED="1397478310386" ID="ID_1738921218" MODIFIED="1397478904505" TEXT="debug.sethook ([thread,] hook, mask [, count])">
+<node CREATED="1397478912288" ID="ID_33423019" MODIFIED="1397479047385" TEXT="mask -- &quot;c&quot;, &quot;r&quot;, &quot;n&quot;"/>
+</node>
+<node CREATED="1397478589496" ID="ID_188928144" MODIFIED="1397478904505" TEXT="debug.gethook ([thread])"/>
+</node>
+</node>
+<node CREATED="1397479183553" FOLDED="true" ID="ID_776971251" MODIFIED="1397481663142" POSITION="right" TEXT="coroutine">
+<node CREATED="1397479317042" ID="ID_681977892" MODIFIED="1397479387823" TEXT="difference: coroutine vs thread">
+<node CREATED="1397479388727" ID="ID_716677272" MODIFIED="1397479425762" TEXT="a program with coroutines is running only one of its corou- tines, and this running coroutine suspends its execution only when it explicitly requests to be suspended."/>
+<node CREATED="1397479438646" ID="ID_503811245" MODIFIED="1397479439447" TEXT="a program with threads runs several threads in parallel."/>
+</node>
+<node CREATED="1397479578367" ID="ID_1933056601" MODIFIED="1397479579843" TEXT="collaborative multithreading"/>
+<node CREATED="1397479525366" ID="ID_1308201423" MODIFIED="1397479740235" TEXT="coroutine.create(f) -- only creates a new coroutine and returns a handle to it, it does not start the coroutine."/>
+<node CREATED="1397479525366" FOLDED="true" ID="ID_405319027" MODIFIED="1397480603463" TEXT="coroutine.wrap(f)">
+<node CREATED="1397480438898" ID="ID_893737704" MODIFIED="1397480458026" TEXT="creates a coroutine and returns a function that, when called, resumes the coroutine."/>
+<node CREATED="1397480522570" ID="ID_1140968535" MODIFIED="1397480523338" TEXT="Any arguments passed to this function go as extra arguments to coroutine.resume."/>
+<node CREATED="1397480541827" ID="ID_1507738081" MODIFIED="1397480567160" TEXT="coroutine.wrap returns all the values returned by coroutine.resume, except the first one (boolean)."/>
+<node CREATED="1397480590943" ID="ID_125621477" MODIFIED="1397480592193" TEXT="Unlike coroutine.resume, coroutine.wrap does not catch errors; any error is propagated to the caller."/>
+</node>
+<node CREATED="1397479525366" ID="ID_1598096598" MODIFIED="1397481541837" TEXT="coroutine.resume(co,...)">
+<node CREATED="1397480639959" ID="ID_1669842007" MODIFIED="1397480672229" TEXT="first call">
+<node CREATED="1397480707635" ID="ID_1771405991" MODIFIED="1397480780170" TEXT="first argument -- coroutine handle returned by coroutine.create"/>
+<node CREATED="1397480745356" ID="ID_1321051849" MODIFIED="1397480807212" TEXT="rest arguments -- args passed to main function of coroutine"/>
+</node>
+<node CREATED="1397480683703" ID="ID_1169705650" MODIFIED="1397480702289" TEXT="midway call&amp;return">
+<node CREATED="1397481064166" ID="ID_642615239" MODIFIED="1397481082792" TEXT="arguments">
+<node CREATED="1397480707635" ID="ID_1275764723" MODIFIED="1397481075980" TEXT="first argument -- coroutine handle returned by coroutine.create"/>
+<node CREATED="1397480913103" ID="ID_1062029851" MODIFIED="1397481075979" TEXT="rest arguments -- call to coroutine.yield returning any extra arguments passed to coroutine.resume."/>
+</node>
+<node CREATED="1397481077180" ID="ID_137410525" MODIFIED="1397481142101" TEXT="return -- coroutine.resume  returns true, plus any values passed to coroutine.yield. "/>
+</node>
+<node CREATED="1397480672786" ID="ID_1437529039" MODIFIED="1397480677107" TEXT="last return">
+<node CREATED="1397481052484" ID="ID_1626604764" MODIFIED="1397481264893" TEXT="normally(ok): true, plus any values returned by the coroutine main function."/>
+<node CREATED="1397481200004" ID="ID_442776717" MODIFIED="1397481255013" TEXT="abnormally(err): false, plus an error message"/>
+</node>
+</node>
+<node CREATED="1397479525366" ID="ID_132985777" MODIFIED="1397481303320" TEXT="coroutine.yield(...)">
+<node CREATED="1397481306710" ID="ID_1201248058" MODIFIED="1397481365450" TEXT="args passed to yield is return values of resume"/>
+<node CREATED="1397481365743" ID="ID_1019100778" MODIFIED="1397481402549" TEXT="args except first one passed to resume is reuturn value of yield"/>
+</node>
+<node CREATED="1397479525366" ID="ID_770472158" MODIFIED="1397481551611" TEXT="coroutine.running(co) -- true for running, otherwise false"/>
+<node CREATED="1397479525366" ID="ID_944449630" MODIFIED="1397481566638" TEXT="corouine.status(co)">
+<node CREATED="1397481461883" ID="ID_1529663327" MODIFIED="1397481588160" TEXT="&quot;running&quot;"/>
+<node CREATED="1397481571014" ID="ID_1081909702" MODIFIED="1397481593223" TEXT="&quot;suspended&quot;"/>
+<node CREATED="1397481593499" ID="ID_842459374" MODIFIED="1397481599010" TEXT="&quot;normal&quot;">
+<node CREATED="1397481657995" ID="ID_348399797" MODIFIED="1397481659262" TEXT="the coroutine is active but not running (that is, it has resumed another coroutine);"/>
+</node>
+<node CREATED="1397481599263" ID="ID_245831636" MODIFIED="1397481627379" TEXT="&quot;dead&quot;">
+<node CREATED="1397481633913" ID="ID_559039171" MODIFIED="1397481635567" TEXT="he coroutine has finished its body function, or if it has stopped with an error."/>
+</node>
+</node>
+</node>
+<node CREATED="1397481669081" ID="ID_610282261" MODIFIED="1397481670628" POSITION="right" TEXT="oop"/>
 <node CREATED="1397369073035" ID="ID_526683365" MODIFIED="1397369485526" POSITION="right" TEXT="lua luac(string.dump) package.loadlib(&quot;a&quot;,&quot;b&quot;) require"/>
 <node CREATED="1397331712246" FOLDED="true" ID="ID_706119286" MODIFIED="1397369442316" POSITION="right" TEXT="statements">
 <node CREATED="1397330935341" FOLDED="true" ID="ID_196645284" MODIFIED="1397331717801" TEXT="list assign: pull-nil-discard-extra idiom">
