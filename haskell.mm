@@ -40,15 +40,91 @@
 </node>
 <node CREATED="1389808748552" ID="ID_1366358932" MODIFIED="1389808765357" POSITION="right" TEXT="pattern matching &amp; guard"/>
 <node CREATED="1389808782862" ID="ID_1454878318" MODIFIED="1389808834342" POSITION="right" TEXT="lazy evaluation &amp; equational reasoning"/>
-<node CREATED="1389810778639" FOLDED="true" ID="ID_607613279" MODIFIED="1395549974659" POSITION="right" TEXT="comment -- {- -}">
-<node CREATED="1389810781940" ID="ID_1480735375" MODIFIED="1389810804391" TEXT="-- single line"/>
-<node CREATED="1389810804676" ID="ID_1570212576" MODIFIED="1389810826557" TEXT="{- enclosing comment -}"/>
+<node CREATED="1397954006979" ID="ID_1993585575" MODIFIED="1397954049923" POSITION="right" TEXT="code style --literate non-literate">
+<node CREATED="1397954053038" ID="ID_680357432" MODIFIED="1397954070857" TEXT="non-literate *.hs">
+<node CREATED="1389810778639" FOLDED="true" ID="ID_607613279" MODIFIED="1397954083800" TEXT="comment -- {- -}">
+<node CREATED="1389810781940" ID="ID_630092462" MODIFIED="1389810804391" TEXT="-- single line"/>
+<node CREATED="1389810804676" ID="ID_1404930705" MODIFIED="1389810826557" TEXT="{- enclosing comment -}"/>
 </node>
-<node CREATED="1391393647491" FOLDED="true" ID="ID_1824842425" MODIFIED="1395549992095" POSITION="right" TEXT="type system">
-<node CREATED="1391393716115" ID="ID_1737607836" MODIFIED="1395153937821" TEXT="parametric polymorphism/Hindley-Milner type structure">
-<node CREATED="1391393652162" ID="ID_421621738" MODIFIED="1391393790381" TEXT=""/>
+<node CREATED="1392169977823" ID="ID_113000710" MODIFIED="1397954089004" TEXT="layout">
+<node CREATED="1392169980556" ID="ID_906131835" MODIFIED="1392170029144" TEXT="layout-sensitive(omit [:{}]) c-lang"/>
+<node CREATED="1392169997380" FOLDED="true" ID="ID_858191299" MODIFIED="1395543673543" TEXT="layout-insensitive(indentation) py-lang">
+<node CREATED="1392170172563" ID="ID_585848598" MODIFIED="1392170194539" TEXT="{where,let,do,of}"/>
 </node>
-<node CREATED="1391393734889" ID="ID_35007510" MODIFIED="1391393769445" TEXT="ad hoc polymorphism/overloading/type classes"/>
+<node CREATED="1389810120412" ID="ID_792571264" MODIFIED="1395549985572" TEXT="block stmt">
+<node CREATED="1389810244592" ID="ID_1687980783" MODIFIED="1389810765201" TEXT="stmt1;stmt2;...;stmtN --multi stmts lying in single line,separeted by colon(;)"/>
+<node CREATED="1389810588059" ID="ID_440923970" MODIFIED="1389810770448" TEXT="{stmt1;stmt2;...;stmtN} --c style"/>
+<node CREATED="1389810597693" ID="ID_514064712" MODIFIED="1389810775105" TEXT="grouped into block stmt by same indent. --py style"/>
+</node>
+</node>
+</node>
+<node CREATED="1397954071115" FOLDED="true" ID="ID_1273771353" MODIFIED="1397954360650" TEXT="literate *.lhs">
+<node CREATED="1397954079129" ID="ID_1242662513" MODIFIED="1397954280208" TEXT="Bird-scripts (&gt;)">
+<node CREATED="1397954235335" ID="ID_250994091" MODIFIED="1397954240933">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is a simple (literate!) Hello World program.
+    </p>
+    <p>
+      &gt; module Main
+    </p>
+    <p>
+      &gt; where
+    </p>
+    <p>
+      All our main function does is print a string:
+    </p>
+    <p>
+      &gt; main = putStrLn &quot;Hello World&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1397954115943" ID="ID_1164140283" MODIFIED="1397954356301" TEXT="LaTex-scripts \begin{code}...\end{code}">
+<node CREATED="1397954348151" ID="ID_695469805" MODIFIED="1397954353064">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is another simple (literate!) Hello World program.
+    </p>
+    <p>
+      \begin{code}
+    </p>
+    <p>
+      module Main
+    </p>
+    <p>
+      where
+    </p>
+    <p>
+      \end{code}
+    </p>
+    <p>
+      All our main function does is print a string:
+    </p>
+    <p>
+      \begin{code}
+    </p>
+    <p>
+      main = putStrLn &quot;Hello World&quot;
+    </p>
+    <p>
+      \end{code}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1391393880063" FOLDED="true" ID="ID_1228295333" MODIFIED="1395549989355" POSITION="right" TEXT="name">
 <node CREATED="1391393881787" ID="ID_1563136124" MODIFIED="1391394473836" TEXT="value variables [_a-z]\w*"/>
@@ -59,18 +135,7 @@
 <node CREATED="1391393979812" ID="ID_147787255" MODIFIED="1391394523990" TEXT="module names [A-Z]\w*"/>
 <node CREATED="1391394599281" ID="ID_1544613567" MODIFIED="1391394600890" TEXT="An identi&#xfb01;er must not be used as the name of a type constructor and a class in the same scope."/>
 </node>
-<node CREATED="1392169977823" FOLDED="true" ID="ID_113000710" MODIFIED="1396190779689" POSITION="right" TEXT="layout">
-<node CREATED="1392169980556" ID="ID_993778176" MODIFIED="1392170029144" TEXT="layout-sensitive(omit [:{}]) c-lang"/>
-<node CREATED="1392169997380" FOLDED="true" ID="ID_1171861696" MODIFIED="1395543673543" TEXT="layout-insensitive(indentation) py-lang">
-<node CREATED="1392170172563" ID="ID_124226677" MODIFIED="1392170194539" TEXT="{where,let,do,of}"/>
-</node>
-<node CREATED="1389810120412" ID="ID_567909989" MODIFIED="1395549985572" TEXT="block stmt">
-<node CREATED="1389810244592" ID="ID_1940319373" MODIFIED="1389810765201" TEXT="stmt1;stmt2;...;stmtN --multi stmts lying in single line,separeted by colon(;)"/>
-<node CREATED="1389810588059" ID="ID_1342102926" MODIFIED="1389810770448" TEXT="{stmt1;stmt2;...;stmtN} --c style"/>
-<node CREATED="1389810597693" ID="ID_670912493" MODIFIED="1389810775105" TEXT="grouped into block stmt by same indent. --py style"/>
-</node>
-</node>
-<node CREATED="1392172708467" FOLDED="true" ID="ID_247941803" MODIFIED="1395549971088" POSITION="right" TEXT="operator">
+<node CREATED="1392172708467" ID="ID_247941803" MODIFIED="1397959746318" POSITION="right" TEXT="operator">
 <node CREATED="1392175017781" ID="ID_1226430947" MODIFIED="1392175034463" TEXT="`op`">
 <node CREATED="1392172711994" ID="ID_1931705678" MODIFIED="1392175039396" TEXT="x `op` y (infix)"/>
 <node CREATED="1392172733107" ID="ID_1343594809" MODIFIED="1392175039395" TEXT="op x y (prefix)"/>
@@ -98,7 +163,7 @@
 <node CREATED="1392173447085" ID="ID_809831811" MODIFIED="1392173460339" TEXT="map (\x-&gt;x*x) [1,2,3,4]"/>
 </node>
 </node>
-<node CREATED="1392187907177" FOLDED="true" ID="ID_42073033" MODIFIED="1395543832163" POSITION="right" TEXT="{let,case,if,do}">
+<node CREATED="1392187907177" FOLDED="true" ID="ID_42073033" MODIFIED="1397922369651" POSITION="right" TEXT="{let,case,if,do}">
 <node CREATED="1392191623757" ID="ID_509333579" MODIFIED="1392191632518" TEXT="let">
 <node CREATED="1392191636461" ID="ID_1987436170" MODIFIED="1392191642547" TEXT="~irrefutable"/>
 <node CREATED="1392191648843" ID="ID_1496692972" MODIFIED="1392191651479" TEXT="letrec"/>
@@ -145,7 +210,7 @@
 <node CREATED="1393076893310" MODIFIED="1393076893310" TEXT="catch :: IO a -&gt; (IOError -&gt; IO a) -&gt; IO a"/>
 </node>
 </node>
-<node CREATED="1395154722016" FOLDED="true" ID="ID_1573526149" MODIFIED="1396193307063" POSITION="right" TEXT="type">
+<node CREATED="1395154722016" ID="ID_1573526149" MODIFIED="1397955222072" POSITION="right" TEXT="type">
 <node CREATED="1395154725179" FOLDED="true" ID="ID_1124910611" MODIFIED="1395575919193" TEXT="concept">
 <node CREATED="1395154735154" ID="ID_830179845" MODIFIED="1395154779720" TEXT="static type checking"/>
 <node CREATED="1395154783885" ID="ID_612410134" MODIFIED="1395154788117" TEXT="type inference"/>
@@ -158,8 +223,8 @@
 <node CREATED="1395154969701" ID="ID_1227447749" MODIFIED="1395154974697" TEXT=":t &apos;c&apos;"/>
 <node CREATED="1395154975415" ID="ID_688854939" MODIFIED="1395154979054" TEXT=":t atoi"/>
 </node>
-<node CREATED="1395155195722" ID="ID_1496660778" MODIFIED="1396192988871" TEXT="type hierarchy">
-<node CREATED="1389811166066" FOLDED="true" ID="ID_446306415" MODIFIED="1395558748426" TEXT="basic">
+<node CREATED="1395155195722" FOLDED="true" ID="ID_1496660778" MODIFIED="1397990911608" TEXT="type hierarchy">
+<node CREATED="1389811166066" FOLDED="true" ID="ID_446306415" MODIFIED="1397922261552" TEXT="basic">
 <node CREATED="1395155331325" ID="ID_740286330" MODIFIED="1395155339378" TEXT="Bool"/>
 <node CREATED="1395155339662" ID="ID_750463212" MODIFIED="1395155347013" TEXT="Char"/>
 <node CREATED="1395155347417" ID="ID_1923664346" MODIFIED="1395155355357" TEXT="String"/>
@@ -169,8 +234,8 @@
 <node CREATED="1395545935430" ID="ID_1748751397" MODIFIED="1395545936883" TEXT="Double"/>
 <node CREATED="1395499891615" ID="ID_668750230" MODIFIED="1395499924907" TEXT="() --similar to void in c,c++,java"/>
 </node>
-<node CREATED="1389811274462" FOLDED="true" ID="ID_1123117476" MODIFIED="1395558746303" TEXT="complex">
-<node CREATED="1392189683768" FOLDED="true" ID="ID_501689195" MODIFIED="1395543795777" TEXT="list tuple string">
+<node CREATED="1389811274462" ID="ID_1123117476" MODIFIED="1397957260065" TEXT="complex">
+<node CREATED="1392189683768" ID="ID_501689195" MODIFIED="1397922277940" TEXT="list tuple string">
 <node CREATED="1392127366699" ID="ID_1382728295" MODIFIED="1395156242976" TEXT="string&quot;&quot;">
 <node CREATED="1392127368884" ID="ID_1884953158" MODIFIED="1395156314831" TEXT="&quot;\&amp;&quot; null character">
 <node CREATED="1392127407794" ID="ID_1415638964" MODIFIED="1392127421057" TEXT="not as \0 in c-lang"/>
@@ -222,14 +287,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1395495200169" ID="ID_1310515281" MODIFIED="1396192992445" TEXT="type newtype data">
-<node CREATED="1395494814140" FOLDED="true" ID="ID_242701899" MODIFIED="1395543134561" TEXT="type --type synonyms(typedef in C++)">
+<node CREATED="1395495200169" FOLDED="true" ID="ID_1310515281" MODIFIED="1397990910262" TEXT="type newtype data">
+<node CREATED="1395494814140" ID="ID_242701899" MODIFIED="1397922326376" TEXT="type --type synonyms(typedef in C++)">
 <node CREATED="1395494848479" ID="ID_369679871" MODIFIED="1395495089631" TEXT="type Pt3d = (Double,Double,Double)"/>
 <node CREATED="1395494870319" ID="ID_1810452362" MODIFIED="1395495071531" TEXT="type BadType = Int-&gt;BadType --Wrong!!! can&apos;t be self-referential"/>
 <node CREATED="1395494980539" ID="ID_488137749" MODIFIED="1395495094611" TEXT="type Pt3d a  = (a,a,a) -- can be parameterized"/>
 <node CREATED="1395495097869" ID="ID_763765202" MODIFIED="1395496824694" TEXT="? MyInt (type MyInt=Int) and Int belong to same Type Class? go-lang is not! yes! newtype just like type in go"/>
 </node>
-<node CREATED="1395496690712" ID="ID_1466082345" MODIFIED="1396193010411" TEXT="newtype --renamed datatypes(type in go)">
+<node CREATED="1395496690712" ID="ID_1466082345" MODIFIED="1397922335125" TEXT="newtype --renamed datatypes(type in go)">
 <node CREATED="1395497486264" ID="ID_669469453" MODIFIED="1395497490835" TEXT="concept">
 <node CREATED="1395497509094" ID="ID_126452519" MODIFIED="1395497636007" TEXT="newtypes in haskell similar to declared types in go-lang"/>
 <node CREATED="1395497647345" ID="ID_1394292575" MODIFIED="1395498463128" TEXT="type classes in haskell similar to interfaces in go-lang"/>
@@ -241,7 +306,7 @@
 <node CREATED="1395497018373" ID="ID_1013815730" MODIFIED="1395497187195" TEXT="newtype MyType=MyType1 Int|MyType Float --wrong!!! multi-constructor unsupported "/>
 <node CREATED="1395497195553" ID="ID_124526029" MODIFIED="1395497415686" TEXT="newtype MyType=MyType1 Int Int --wrong!!! newtypes&apos; constructor take only one parameters"/>
 </node>
-<node CREATED="1395495196019" FOLDED="true" ID="ID_67262775" MODIFIED="1395554373334" STYLE="fork" TEXT="data --algebraic datatypes(struct in *)">
+<node CREATED="1395495196019" FOLDED="true" ID="ID_67262775" MODIFIED="1397957256581" STYLE="fork" TEXT="data --algebraic datatypes(struct in *)">
 <node CREATED="1395495270529" ID="ID_713162199" MODIFIED="1395543727535" TEXT="concept">
 <node CREATED="1395495236999" ID="ID_1243514317" MODIFIED="1395498756389" TEXT="similar to struct in other langs"/>
 <node CREATED="1395495277319" ID="ID_580483247" MODIFIED="1395501895084" TEXT="multi-constructor"/>
@@ -270,7 +335,7 @@
 <node CREATED="1395499069828" ID="ID_724814220" MODIFIED="1395499225460" TEXT="data BinTree a=Leaf a|Branch (BinTree a)  a (BinTree a) -- recursive definition"/>
 <node CREATED="1395499597904" ID="ID_1016746437" MODIFIED="1395499668176" TEXT="data Unit=Unit --similar to symbols in schema and atom in erlang"/>
 <node CREATED="1395499717895" ID="ID_1060483088" MODIFIED="1395499846367" TEXT="data Color=Red|Green|Blue|Yellow|...|Rgb (Int Int Int) --similar to enum in c++,c and java"/>
-<node CREATED="1395501917962" FOLDED="true" ID="ID_1787098000" MODIFIED="1395504371157" TEXT="labelled fields">
+<node CREATED="1395501917962" ID="ID_1787098000" MODIFIED="1397955321652" TEXT="labelled fields">
 <node CREATED="1395501930662" ID="ID_157413878" MODIFIED="1395502661786" TEXT="definition">
 <node CREATED="1395502662914" ID="ID_707151446" MODIFIED="1395502775856" TEXT="data Point=Point1d{x::Double}|Point2d{x::Double,y::Double}|Point3d{x,y,z::Double}"/>
 </node>
@@ -291,9 +356,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1395505110005" FOLDED="true" ID="ID_694454170" MODIFIED="1395558743129" TEXT="class instance deriving">
-<node CREATED="1395544051899" FOLDED="true" ID="ID_989987241" MODIFIED="1395557996931" TEXT="class (interface in *-lang)">
-<node CREATED="1389812442021" FOLDED="true" ID="ID_1425671587" MODIFIED="1395551236003" TEXT="Standard Haskell Class">
+<node CREATED="1395505110005" ID="ID_694454170" MODIFIED="1397959908189" TEXT="class instance deriving">
+<node CREATED="1395544051899" ID="ID_989987241" MODIFIED="1397922355320" TEXT="class (interface in *-lang)">
+<node CREATED="1389812442021" ID="ID_1425671587" MODIFIED="1397959914421" TEXT="Standard Haskell Class">
 <node CREATED="1389812444429" ID="ID_17058239" MODIFIED="1395544163901" TEXT="Eq">
 <node CREATED="1395544165313" ID="ID_251565498" MODIFIED="1395544165313" TEXT="(==), (/=) :: a -&gt; a -&gt; Bool"/>
 </node>
@@ -338,7 +403,7 @@
 <node CREATED="1395545732708" ID="ID_439901391" MODIFIED="1395545736782" TEXT="Functor">
 <node CREATED="1395545763963" ID="ID_609958281" MODIFIED="1395545765057" TEXT="fmap :: (a -&gt; b) -&gt; f a -&gt; f b"/>
 </node>
-<node CREATED="1389812746634" FOLDED="true" ID="ID_6503014" MODIFIED="1395546254977" TEXT="Num">
+<node CREATED="1389812746634" FOLDED="true" ID="ID_6503014" MODIFIED="1397959934241" TEXT="Num">
 <node CREATED="1395546252668" MODIFIED="1395546252668" TEXT="(-) :: Num a =&gt; a -&gt; a -&gt; a"/>
 <node CREATED="1395546252668" MODIFIED="1395546252668" TEXT="(*) :: Num a =&gt; a -&gt; a -&gt; a"/>
 <node CREATED="1395546252668" MODIFIED="1395546252668" TEXT="(+) :: Num a =&gt; a -&gt; a -&gt; a"/>
@@ -364,7 +429,7 @@
 <node CREATED="1395551124190" ID="ID_413615948" MODIFIED="1395551227520" TEXT="class MyEq a=&gt;MyOrd a where{(&gt;&gt;),(&lt;&lt;),(&gt;&gt;=),(&lt;&lt;=)::a-&gt;a-&gt;Bool;}"/>
 </node>
 </node>
-<node CREATED="1395551251146" FOLDED="true" ID="ID_247228208" MODIFIED="1395558003867" TEXT="instance(implements class)">
+<node CREATED="1395551251146" FOLDED="true" ID="ID_247228208" MODIFIED="1397922362090" TEXT="instance(implements class)">
 <node CREATED="1395555025629" FOLDED="true" ID="ID_209892293" MODIFIED="1395557991403" TEXT="instance [sctx=&gt;] qtycls inst [where {decls}]">
 <node CREATED="1395555227366" ID="ID_308198169" MODIFIED="1395555232651" TEXT="inst">
 <node CREATED="1395555242069" FOLDED="true" ID="ID_1688898286" MODIFIED="1395555789052" TEXT="gtycon">
@@ -432,7 +497,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1395546396381" FOLDED="true" ID="ID_930603188" MODIFIED="1395558269273" TEXT="deriving">
+<node CREATED="1395546396381" ID="ID_930603188" MODIFIED="1397922303236" TEXT="deriving">
 <node CREATED="1395546406139" ID="ID_371292437" MODIFIED="1395546538117" TEXT="auto generates instances for {algebraic(data)|renamed(newtype)}datatypes"/>
 <node CREATED="1395546570509" ID="ID_700615748" MODIFIED="1395546587452" TEXT="data Point=Point1d{x::Double}|Point2d{x::Double,y::Double}|Point3d{x,y,z::Double} deriving (Show,Eq,Ord)"/>
 <node CREATED="1395556266979" ID="ID_1596074662" MODIFIED="1395556401562" TEXT="{data|newtype} tycon=con1|...|conN deriving (tycls1,tycls2,...tyclsN)"/>
@@ -442,8 +507,14 @@
 <node CREATED="1395502295672" ID="ID_607361734" MODIFIED="1395502317834" TEXT="strict apply function:$"/>
 <node CREATED="1395502318142" ID="ID_118130690" MODIFIED="1395502327444" TEXT="non-strict apply function: $!"/>
 </node>
+<node CREATED="1391393647491" FOLDED="true" ID="ID_1824842425" MODIFIED="1397955221538" TEXT="type system">
+<node CREATED="1391393716115" ID="ID_140069672" MODIFIED="1395153937821" TEXT="parametric polymorphism/Hindley-Milner type structure">
+<node CREATED="1391393652162" ID="ID_1968660991" MODIFIED="1391393790381" TEXT=""/>
 </node>
-<node CREATED="1395496636742" ID="ID_1470740578" MODIFIED="1396281579351" POSITION="right" TEXT=". $ flip $! seq">
+<node CREATED="1391393734889" ID="ID_1099402747" MODIFIED="1391393769445" TEXT="ad hoc polymorphism/overloading/type classes"/>
+</node>
+</node>
+<node CREATED="1395496636742" FOLDED="true" ID="ID_1470740578" MODIFIED="1397922242535" POSITION="right" TEXT=". $ flip $! seq">
 <node CREATED="1395572203003" ID="ID_162660073" MODIFIED="1395572206672" TEXT="seq">
 <node CREATED="1395574020497" ID="ID_1431387004" MODIFIED="1395574383941" TEXT="infixr 0 `seq`"/>
 <node CREATED="1395572229161" ID="ID_1852685771" MODIFIED="1395572253525" TEXT="seq::a-&gt;b-&gt;a"/>
@@ -455,7 +526,7 @@
 <node CREATED="1395574441139" ID="ID_1197820713" MODIFIED="1395574490368" TEXT="(.)::(b-&gt;c)-&gt;(a-&gt;b)-&gt;(a-&gt;c)"/>
 <node CREATED="1395574500502" ID="ID_1650136312" MODIFIED="1395574751435" TEXT="f.g x=\x-&gt;f(g x)"/>
 </node>
-<node CREATED="1395572217684" ID="ID_1328039538" MODIFIED="1395572218764" TEXT="$">
+<node CREATED="1395572217684" ID="ID_1328039538" MODIFIED="1397922238836" TEXT="$">
 <node CREATED="1395574254970" ID="ID_1986646366" MODIFIED="1395574375838" TEXT="infixr 0 ($)"/>
 <node CREATED="1395574301888" ID="ID_187645446" MODIFIED="1395574314860" TEXT="($)::(a-&gt;b)-&gt;a-&gt;b"/>
 <node CREATED="1395574316120" ID="ID_392171494" MODIFIED="1395574324477" TEXT="f $ x=f x"/>
@@ -470,7 +541,7 @@
 <node CREATED="1395575890688" ID="ID_788055768" MODIFIED="1395575892511" TEXT="flip f x y = f y x"/>
 </node>
 </node>
-<node CREATED="1395549347447" FOLDED="true" ID="ID_647815935" MODIFIED="1396190759460" POSITION="right" TEXT="declaration">
+<node CREATED="1395549347447" ID="ID_647815935" MODIFIED="1397990923812" POSITION="right" TEXT="declaration">
 <node CREATED="1395549349931" ID="ID_1049494760" MODIFIED="1395549413800" TEXT="operator">
 <node CREATED="1395549355720" ID="ID_1924931063" MODIFIED="1395549364697" TEXT="fixity decl"/>
 <node CREATED="1395549365073" ID="ID_825730968" MODIFIED="1395549404084" TEXT="type signature decl"/>
@@ -478,14 +549,14 @@
 </node>
 <node CREATED="1395549414349" ID="ID_937559453" MODIFIED="1395549416215" TEXT="body"/>
 </node>
-<node CREATED="1396190782046" FOLDED="true" ID="ID_1388969726" MODIFIED="1396193305283" POSITION="right" TEXT="Monad">
-<node CREATED="1396190790341" ID="ID_1627641602" MODIFIED="1396190917973" TEXT="class Monad m where">
-<node CREATED="1396190828456" MODIFIED="1396190828456" TEXT="return :: a -&gt; m a"/>
+<node CREATED="1396190782046" ID="ID_1388969726" MODIFIED="1397990942081" POSITION="right" TEXT="Monad">
+<node CREATED="1396190790341" ID="ID_1627641602" MODIFIED="1397922125538" TEXT="class Monad m where">
+<node CREATED="1396190828456" ID="ID_334989448" MODIFIED="1396190828456" TEXT="return :: a -&gt; m a"/>
 <node CREATED="1396190828456" ID="ID_1514256593" MODIFIED="1396190828456" TEXT="fail :: String -&gt; m a"/>
 <node CREATED="1396190828456" ID="ID_1962436464" MODIFIED="1396190828456" TEXT="(&gt;&gt;=) :: m a -&gt; (a -&gt; m b) -&gt; m b"/>
 <node CREATED="1396190828457" ID="ID_810124585" MODIFIED="1396190828457" TEXT="(&gt;&gt;) :: m a -&gt; m b -&gt; m b"/>
 </node>
-<node CREATED="1396190918842" FOLDED="true" ID="ID_1665155386" MODIFIED="1396191475111" TEXT="do">
+<node CREATED="1396190918842" ID="ID_1665155386" MODIFIED="1397922150313" TEXT="do">
 <node CREATED="1396191358920" MODIFIED="1396191358920" TEXT="do {e} = e"/>
 <node CREATED="1396191358921" MODIFIED="1396191358921" TEXT="do {e;stmts} = e &gt;&gt; do {stmts}"/>
 <node CREATED="1396191358921" ID="ID_1801461232" MODIFIED="1396191389741" TEXT="do {p &lt;- e; stmts} = let ok p = do {stmts} ok _ = fail &quot;...&quot; in e &gt;&gt;= ok"/>
@@ -494,10 +565,10 @@
 <node CREATED="1396191476254" ID="ID_1080670602" MODIFIED="1396191477151" TEXT="Monad Laws">
 <node CREATED="1396191512174" ID="ID_182839454" MODIFIED="1396191597601" TEXT="1. return a &gt;&gt;= f &#x2261; f a"/>
 <node CREATED="1396191512252" ID="ID_130464983" MODIFIED="1396191606586" TEXT="2. f &gt;&gt;= return &#x2261; f"/>
-<node CREATED="1396191512253" ID="ID_1570574495" MODIFIED="1396191620000" TEXT="3. f &gt;&gt;= (nx -&gt; g x &gt;&gt;= h) &#x2261; (f &gt;&gt;= g) &gt;&gt;= h"/>
+<node CREATED="1396191512253" ID="ID_1570574495" MODIFIED="1397991044930" TEXT="3. f &gt;&gt;= (\x -&gt; g x &gt;&gt;= h) &#x2261; (f &gt;&gt;= g) &gt;&gt;= h"/>
 </node>
 </node>
-<node CREATED="1396193309153" FOLDED="true" ID="ID_1090285746" MODIFIED="1396194906744" POSITION="right" TEXT="Module">
+<node CREATED="1396193309153" FOLDED="true" ID="ID_1090285746" MODIFIED="1397990949135" POSITION="right" TEXT="Module">
 <node CREATED="1396194043270" ID="ID_1052117497" MODIFIED="1396194905346" TEXT="import">
 <node CREATED="1396194053877" ID="ID_436184802" MODIFIED="1396194060463" TEXT="qualified">
 <node CREATED="1396194107409" ID="ID_70504643" MODIFIED="1396194129515" TEXT="import "/>
