@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1387552126912" TEXT="lang-go">
-<node CREATED="1387552480402" ID="ID_1840000910" MODIFIED="1395216861796" POSITION="right" TEXT="intros">
+<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1407514830558" TEXT="lang-go">
+<node CREATED="1387552480402" FOLDED="true" ID="ID_1840000910" MODIFIED="1407511915962" POSITION="right" TEXT="intros">
 <node CREATED="1387552115759" ID="ID_1500553857" MODIFIED="1387552486157" TEXT="fast {development, execution, compilation}"/>
 <node CREATED="1387552295765" ID="ID_1950810780" MODIFIED="1387612195650" TEXT="compiled, statically-typed, strongly-typed"/>
 <node CREATED="1387552388431" ID="ID_1268843317" MODIFIED="1387552486155" TEXT="dynamic memory allocation/ automatic garbage collection"/>
@@ -9,19 +9,19 @@
 <node CREATED="1387612163420" ID="ID_1454562995" MODIFIED="1387612222364" TEXT="statically linked"/>
 <node CREATED="1387612342195" ID="ID_1891892390" MODIFIED="1387612360670" TEXT="builtin concurrency support"/>
 </node>
-<node CREATED="1387605158006" ID="ID_468602589" MODIFIED="1395216872300" POSITION="right" TEXT="dev env {install,workspace,tool}">
-<node CREATED="1387605289221" FOLDED="true" ID="ID_455116758" MODIFIED="1387606168130" TEXT="install: tar; ${GOROOT}; ${PATH}">
+<node CREATED="1387605158006" FOLDED="true" ID="ID_468602589" MODIFIED="1407507929656" POSITION="right" TEXT="dev env {install,workspace,tool}">
+<node CREATED="1387605289221" ID="ID_455116758" MODIFIED="1407504773199" TEXT="install: tar; ${GOROOT}; ${PATH}">
 <node CREATED="1387605297050" ID="ID_978656759" MODIFIED="1387605945315" TEXT="$ tar -C /usr/local/ go1.2.linux-386.tar.gz "/>
 <node CREATED="1387605490190" ID="ID_1216139891" MODIFIED="1387605958532" TEXT="$ export GOROOT=/usr/local/go"/>
 <node CREATED="1387605522915" ID="ID_1132218754" MODIFIED="1387605916429" TEXT="$ export PATH=$PATH:$GOROOT/bin"/>
 </node>
-<node CREATED="1387602524278" FOLDED="true" ID="ID_875428792" MODIFIED="1387607451238" TEXT="workspace">
-<node CREATED="1387606037285" FOLDED="true" ID="ID_198558145" MODIFIED="1387606182345" TEXT="conf: ${GOPATH}, ${PATH}">
+<node CREATED="1387602524278" ID="ID_875428792" MODIFIED="1407504780273" TEXT="workspace">
+<node CREATED="1387606037285" ID="ID_198558145" MODIFIED="1407506831856" TEXT="conf: ${GOPATH}, ${PATH}">
 <node CREATED="1387605743746" ID="ID_1123832048" MODIFIED="1387606039890" TEXT="$ export GOPATH=$HOME/go"/>
 <node CREATED="1387605982380" ID="ID_1843292072" MODIFIED="1387606039888" TEXT="$ export PATH=$PATH:$GOPATH/bin"/>
 </node>
 <node CREATED="1387606048778" ID="ID_370580650" MODIFIED="1387607391571" TEXT="subdir: {src, pkg, bin}">
-<node CREATED="1387605702793" FOLDED="true" ID="ID_718399470" MODIFIED="1387607286565" TEXT="$GOPATH/src">
+<node CREATED="1387605702793" ID="ID_718399470" MODIFIED="1407506875979" TEXT="$GOPATH/src">
 <node CREATED="1387606326301" ID="ID_1633836562" MODIFIED="1387606338762" TEXT="*.go"/>
 <node CREATED="1387606339339" ID="ID_1597994985" MODIFIED="1387606349766" TEXT="package src"/>
 <node CREATED="1387606350295" ID="ID_1852593651" MODIFIED="1387606734903" TEXT="main package src: &quot;$GOPATH/src/github.com/user/newmath/Sqrt.go&quot; "/>
@@ -73,8 +73,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1387605591355" ID="ID_1407111325" MODIFIED="1387608718192" TEXT="tool: $GOROOT/bin">
-<node CREATED="1387605611857" FOLDED="true" ID="ID_495302774" MODIFIED="1387607559256" TEXT="$ go">
+<node CREATED="1387605591355" ID="ID_1407111325" MODIFIED="1407506848778" TEXT="tool: $GOROOT/bin">
+<node CREATED="1387605611857" ID="ID_495302774" MODIFIED="1407506849523" TEXT="$ go">
 <node CREATED="1387607521970" ID="ID_471326227" MODIFIED="1387607521970" TEXT="build       compile packages and dependencies"/>
 <node CREATED="1387607521971" ID="ID_1970207902" MODIFIED="1387607553223" TEXT="get         download and install packages and dependencies"/>
 <node CREATED="1387607521972" ID="ID_360267365" MODIFIED="1387607553223" TEXT="install     compile and install packages and dependencies"/>
@@ -91,7 +91,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1387614310292" ID="ID_575874544" MODIFIED="1395216874504" POSITION="right" TEXT="Source code representation">
+<node CREATED="1387614310292" FOLDED="true" ID="ID_575874544" MODIFIED="1407504765096" POSITION="right" TEXT="Source code representation">
 <node CREATED="1387614331651" ID="ID_1074146505" MODIFIED="1387614340607" TEXT="utf8 encoding"/>
 <node CREATED="1387614406390" FOLDED="true" ID="ID_1166648974" MODIFIED="1387614637341" TEXT="Implementation restriction (NUL/BOM)">
 <node CREATED="1387614500173" ID="ID_1380315902" MODIFIED="1387614510391" TEXT="U+0000 (NUL character)">
@@ -119,8 +119,8 @@
 <node CREATED="1387614097583" MODIFIED="1387614097583" TEXT="hex_digit     = &quot;0&quot; &#x2026; &quot;9&quot; | &quot;A&quot; &#x2026; &quot;F&quot; | &quot;a&quot; &#x2026; &quot;f&quot; ."/>
 </node>
 </node>
-<node CREATED="1387612662132" FOLDED="true" ID="ID_935840891" MODIFIED="1395216888785" POSITION="right" TEXT="Lexical">
-<node CREATED="1387612994002" FOLDED="true" ID="ID_1600723970" MODIFIED="1387614036914" TEXT="Comments">
+<node CREATED="1387612662132" FOLDED="true" ID="ID_935840891" MODIFIED="1407509621990" POSITION="right" TEXT="Lexical">
+<node CREATED="1387612994002" FOLDED="true" ID="ID_1600723970" MODIFIED="1407508965471" TEXT="Comments">
 <node CREATED="1387613005982" ID="ID_588822141" MODIFIED="1387613007279" TEXT="//"/>
 <node CREATED="1387613007577" ID="ID_536023060" MODIFIED="1387613010967" TEXT="/* */"/>
 </node>
@@ -355,7 +355,7 @@
 <node CREATED="1388286332789" ID="ID_1146454647" MODIFIED="1388286356009" TEXT="Print{, f, ln}"/>
 <node CREATED="1388286356858" ID="ID_212579235" MODIFIED="1388286372787" TEXT="{F,S}print{, f, ln}"/>
 </node>
-<node CREATED="1388284552103" FOLDED="true" ID="ID_1616296824" MODIFIED="1388292555986" POSITION="right" TEXT="literal new make">
+<node CREATED="1388284552103" FOLDED="true" ID="ID_1616296824" MODIFIED="1407511912518" POSITION="right" TEXT="literal new make">
 <node CREATED="1388284602373" ID="ID_1713994607" MODIFIED="1388284606111" TEXT="literal"/>
 <node CREATED="1388284596332" ID="ID_1102301452" MODIFIED="1388284900395" TEXT="new(T)"/>
 <node CREATED="1388284598152" ID="ID_1175257843" MODIFIED="1388284782698" TEXT="make({slice,map,chan},args)"/>
@@ -371,7 +371,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1388286524587" FOLDED="true" ID="ID_359284084" MODIFIED="1388292171100" POSITION="right" TEXT="{array,slice,map}">
+<node CREATED="1388286524587" FOLDED="true" ID="ID_359284084" MODIFIED="1407509750378" POSITION="right" TEXT="{array,slice,map}">
 <node CREATED="1388288693385" ID="ID_19026961" MODIFIED="1388292166515" TEXT="[cap]type">
 <node CREATED="1388288740218" ID="ID_1590052468" MODIFIED="1388289975574" TEXT="create">
 <node CREATED="1388288755162" ID="ID_828902441" MODIFIED="1388289622232" TEXT="array:=new([10]int)"/>
@@ -381,7 +381,7 @@
 <node CREATED="1388291156998" ID="ID_896512068" MODIFIED="1388291158672" TEXT="len"/>
 <node CREATED="1388291159077" ID="ID_346662912" MODIFIED="1388291160186" TEXT="cap"/>
 </node>
-<node CREATED="1388289979926" FOLDED="true" ID="ID_1716007979" MODIFIED="1388292170228" TEXT="[]type">
+<node CREATED="1388289979926" ID="ID_1716007979" MODIFIED="1407509639686" TEXT="[]type">
 <node CREATED="1388290179833" ID="ID_824893661" MODIFIED="1388291997963" TEXT="create">
 <node CREATED="1388290186759" ID="ID_1670649177" MODIFIED="1388290584560" TEXT="slice:=[]string{1,2,3,4}"/>
 <node CREATED="1388290598359" ID="ID_1564593092" MODIFIED="1388290619022" TEXT="slice:=make([]string,len,cap)"/>
@@ -407,7 +407,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1388296012907" ID="ID_74886657" MODIFIED="1395494236509" POSITION="right" TEXT="type">
+<node CREATED="1388296012907" FOLDED="true" ID="ID_74886657" MODIFIED="1407504754406" POSITION="right" TEXT="type">
 <node CREATED="1388252660393" ID="ID_1289861303" MODIFIED="1388469115990" TEXT="type switch/assertion">
 <node CREATED="1388252693859" ID="ID_273048711" MODIFIED="1388469118635" TEXT="type switch">
 <node CREATED="1388252705774" ID="ID_1754441161" MODIFIED="1388252731094" TEXT="switch t:=t.(type) {case: ...}"/>
@@ -515,8 +515,8 @@
 <node CREATED="1388304913215" ID="ID_1702883799" MODIFIED="1388304916865" TEXT="underlying type"/>
 </node>
 </node>
-<node CREATED="1388221184957" FOLDED="true" ID="ID_1586514058" MODIFIED="1388328646283" POSITION="right" TEXT="func">
-<node CREATED="1387563586610" FOLDED="true" ID="ID_1679676679" MODIFIED="1388221238366" TEXT="anonymous functions">
+<node CREATED="1388221184957" FOLDED="true" ID="ID_1586514058" MODIFIED="1407511918219" POSITION="right" TEXT="func">
+<node CREATED="1387563586610" FOLDED="true" ID="ID_1679676679" MODIFIED="1407508265935" TEXT="anonymous functions">
 <node CREATED="1387563614290" ID="ID_1943910198" MODIFIED="1387563620453">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -570,7 +570,7 @@
 <node CREATED="1387563628332" ID="ID_1284999883" MODIFIED="1387563629362" TEXT="Functions are values too. "/>
 </node>
 </node>
-<node CREATED="1387563642825" FOLDED="true" ID="ID_1391450493" MODIFIED="1388221243072" TEXT="closures">
+<node CREATED="1387563642825" FOLDED="true" ID="ID_1391450493" MODIFIED="1407508249683" TEXT="closures">
 <node CREATED="1387563662337" ID="ID_1216650887" MODIFIED="1387563669571">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -654,7 +654,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1387570532241" FOLDED="true" ID="ID_1278907545" MODIFIED="1388256564504" TEXT="methods">
+<node CREATED="1387570532241" FOLDED="true" ID="ID_1278907545" MODIFIED="1407508254069" TEXT="methods">
 <node CREATED="1387570553086" FOLDED="true" ID="ID_773355191" MODIFIED="1387639100368" TEXT="method receiver">
 <node CREATED="1387570568720" ID="ID_1250621266" MODIFIED="1387570569719" TEXT="The method receiver appears in its own argument list between the func keyword and the method name. "/>
 <node CREATED="1387570595036" ID="ID_1509194179" MODIFIED="1387570600360">
@@ -802,7 +802,7 @@
 <node CREATED="1387570819870" ID="ID_550103663" MODIFIED="1387570824617" TEXT="pass-by-value"/>
 </node>
 </node>
-<node CREATED="1388221250765" FOLDED="true" ID="ID_1941430054" MODIFIED="1388252840038" TEXT="only dynamic variables,no lexical variables">
+<node CREATED="1388221250765" FOLDED="true" ID="ID_1941430054" MODIFIED="1407508252711" TEXT="only dynamic variables,no lexical variables">
 <node CREATED="1388221335431" ID="ID_1823396709" MODIFIED="1388221367892" TEXT="varable:=variable">
 <node CREATED="1388221369941" ID="ID_1092407090" MODIFIED="1388221390006" TEXT="local variable=variable;#perl"/>
 </node>
@@ -810,7 +810,7 @@
 <node CREATED="1388256566620" ID="ID_655886482" MODIFIED="1388256630600" TEXT="pass-by-{value,reference}"/>
 <node CREATED="1388256642398" ID="ID_166996155" MODIFIED="1388256649684" TEXT="multivalue return"/>
 </node>
-<node CREATED="1388221416645" ID="ID_1658229071" MODIFIED="1395969352188" POSITION="right" TEXT="goroutine/channel">
+<node CREATED="1388221416645" FOLDED="true" ID="ID_1658229071" MODIFIED="1407504760677" POSITION="right" TEXT="goroutine/channel">
 <node CREATED="1388237886105" ID="ID_1221129601" MODIFIED="1388237901772" TEXT="go func"/>
 <node CREATED="1388237923442" FOLDED="true" ID="ID_113147306" MODIFIED="1394041055924" TEXT="unbuffered channel (pipe)">
 <node CREATED="1388237902030" ID="ID_1870837877" MODIFIED="1388237940394" TEXT="make(int chan)"/>
@@ -876,15 +876,15 @@
 <node CREATED="1388241053897" ID="ID_1555206036" MODIFIED="1388241061471" TEXT="const"/>
 <node CREATED="1388241083666" ID="ID_716101407" MODIFIED="1388241094638" TEXT="no lexical variables"/>
 </node>
-<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1395230566666" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
-<node CREATED="1388253686912" FOLDED="true" ID="ID_674596690" MODIFIED="1388254690681" TEXT="go vs. C++">
+<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1407504747517" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
+<node CREATED="1388253686912" ID="ID_674596690" MODIFIED="1407427793251" TEXT="go vs. C++">
 <node CREATED="1388253589712" FOLDED="true" ID="ID_539498581" MODIFIED="1388253735065" TEXT="exception(C++)">
 <node CREATED="1388240880146" ID="ID_487320419" MODIFIED="1388253598485" TEXT="error "/>
 </node>
 <node CREATED="1388253499939" ID="ID_1921505742" MODIFIED="1388253735066" TEXT="throw(C++)">
 <node CREATED="1388253611273" ID="ID_807501394" MODIFIED="1388253639782" TEXT="panic(arbitrary-type-value) "/>
 </node>
-<node CREATED="1388253642884" FOLDED="true" ID="ID_489633974" MODIFIED="1388254643545" TEXT="try-catch(C++)">
+<node CREATED="1388253642884" ID="ID_489633974" MODIFIED="1407427795075" TEXT="try-catch(C++)">
 <node CREATED="1388253523013" ID="ID_1606694250" MODIFIED="1388254633293">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -956,13 +956,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1388254691584" FOLDED="true" ID="ID_1895306513" MODIFIED="1388254761325" TEXT="built-in error interface">
+<node CREATED="1388254691584" ID="ID_1895306513" MODIFIED="1407427788787" TEXT="built-in error interface">
 <node CREATED="1388254726688" ID="ID_1753667953" MODIFIED="1388254754454" TEXT="type error interface{ Error()string }"/>
 </node>
 <node CREATED="1388254762214" ID="ID_268480084" MODIFIED="1388254827897" TEXT="panic (throw exception)">
 <node CREATED="1388254769817" ID="ID_139450375" MODIFIED="1388254865813" TEXT="func panic(a interface{})"/>
 </node>
-<node CREATED="1388254834887" FOLDED="true" ID="ID_654500481" MODIFIED="1388254985892" TEXT="recover (catch)">
+<node CREATED="1388254834887" ID="ID_654500481" MODIFIED="1407427790293" TEXT="recover (catch)">
 <node CREATED="1388254847615" ID="ID_1326565622" MODIFIED="1388254872863" TEXT="func recover() interface{}"/>
 <node CREATED="1388254877321" ID="ID_1943766319" MODIFIED="1388254957367" TEXT="stop unwinding stack and return argument passed to panic"/>
 </node>
@@ -1415,6 +1415,208 @@
 <node CREATED="1388288001587" ID="ID_792961389" MODIFIED="1388288028783" TEXT="how to write &quot;comma ok&quot; functions?"/>
 <node CREATED="1388288034287" ID="ID_1060164145" MODIFIED="1388288068957" TEXT="what&apos;s the type of argument-passage of delete function"/>
 <node CREATED="1388288079333" ID="ID_329024440" MODIFIED="1388288203520" TEXT="how to write functions both &quot;fail-panic&quot; and &quot;comma ok&quot;?"/>
+</node>
+<node CREATED="1407511931339" FOLDED="true" ID="ID_318311100" MODIFIED="1407525465187" POSITION="right" TEXT="go compiler">
+<node CREATED="1407511922571" ID="ID_830331792" MODIFIED="1407511990596" TEXT="gccgo">
+<node CREATED="1407511950394" ID="ID_1292966521" MODIFIED="1407511956477" TEXT="frontend of gcc"/>
+<node CREATED="1407511959161" ID="ID_1150944401" MODIFIED="1407511964326" TEXT="gccgo"/>
+<node CREATED="1407511972578" ID="ID_527590031" MODIFIED="1407511985186" TEXT="gold -- go linker"/>
+</node>
+<node CREATED="1407511929402" ID="ID_1226836168" MODIFIED="1407511938080" TEXT="gc"/>
+<node CREATED="1407512004606" ID="ID_1637272970" MODIFIED="1407512005524" TEXT="cgo">
+<node CREATED="1407512006788" ID="ID_873187267" MODIFIED="1407512016703" TEXT="imbed go in c"/>
+<node CREATED="1407512016983" ID="ID_1680796576" MODIFIED="1407512021773" TEXT="imbed c in go"/>
+</node>
+</node>
+<node CREATED="1407525466168" FOLDED="true" ID="ID_901192620" MODIFIED="1407530991085" POSITION="right" TEXT="vim">
+<node CREATED="1407526453851" FOLDED="true" ID="ID_167662263" MODIFIED="1407530964636" TEXT="Vundle  -- a vim plugin for managing other plugins">
+<node CREATED="1407526531544" ID="ID_1798687594" MODIFIED="1407526642824" TEXT="HOW">
+<node CREATED="1407526534909" ID="ID_1776887296" MODIFIED="1407526547812" TEXT="git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle"/>
+<node CREATED="1407526589853" FOLDED="true" ID="ID_1248229883" MODIFIED="1407526653749" TEXT="alter .vimrc">
+<node CREATED="1407526611415" ID="ID_1622076794" MODIFIED="1407526635435">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      set nocompatible&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot; be iMproved
+    </p>
+    <p>
+      filetype off&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot; required!
+    </p>
+    <p>
+      set rtp+=~/.vim/bundle/vundle/
+    </p>
+    <p>
+      call vundle#rc()
+    </p>
+    <p>
+      &quot; let Vundle manage Vundle
+    </p>
+    <p>
+      &quot; required!
+    </p>
+    <p>
+      Bundle 'gmarik/vundle'
+    </p>
+    <p>
+      filetype plugin indent on
+    </p>
+    <p>
+      syntax on
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1407526654956" ID="ID_7721724" MODIFIED="1407526682683" TEXT="install desired plugins">
+<node CREATED="1407526695569" ID="ID_1963695974" MODIFIED="1407526750140" TEXT="add line: Bundle &apos;plugin&apos; to .vimrc"/>
+<node CREATED="1407526750399" ID="ID_807325076" MODIFIED="1407527095306" TEXT="open vim and exec :BundleInstall"/>
+</node>
+</node>
+</node>
+<node CREATED="1407525493383" FOLDED="true" ID="ID_1634099368" MODIFIED="1407530963069" TEXT="goimports -- auto delete/insert imports">
+<node CREATED="1407525701947" ID="ID_1923683797" MODIFIED="1407525703521" TEXT="WHY">
+<node CREATED="1407525596032" ID="ID_1097586097" MODIFIED="1407525704531" TEXT="compile errors caused by never used pkgs"/>
+</node>
+<node CREATED="1407525690862" ID="ID_675320787" MODIFIED="1407525706010" TEXT="HOW">
+<node CREATED="1407525547645" FOLDED="true" ID="ID_845366873" MODIFIED="1407525923751" TEXT="go get github.com/bradfitz/goimport">
+<node CREATED="1407525721821" ID="ID_1766944403" MODIFIED="1407525726299" TEXT="deps">
+<node CREATED="1407525727708" ID="ID_1029506401" MODIFIED="1407525776566" TEXT="code.google.com/p/{go.tools,goplan9}"/>
+</node>
+<node CREATED="1407525782616" ID="ID_194776384" MODIFIED="1407525815236" TEXT="if can&apos;t auto download deps, just download manually"/>
+</node>
+<node CREATED="1407525931854" ID="ID_991654709" MODIFIED="1407526709339" TEXT="alter .vimrc conf">
+<node CREATED="1407525826218" ID="ID_147829028" MODIFIED="1407525963702" TEXT="add .vimrc: Bundle &apos;cespare/vim-golang&apos;"/>
+<node CREATED="1407526009778" ID="ID_635634504" MODIFIED="1407527110736" TEXT="open .vimrc, and exec :BundleInstall to install missed plugins"/>
+</node>
+<node CREATED="1407525926690" ID="ID_1489095773" MODIFIED="1407526343273" TEXT="sed &apos;34s/gofmt/goimports/g&apos;  ~/.vim/bundle/vim-golang/ftplugin/go/fmt.vim"/>
+<node CREATED="1407526377292" ID="ID_1708614188" MODIFIED="1407526438692" TEXT="above ops add :Fmt to vim, open a go file and test :Fmt cmd"/>
+</node>
+</node>
+<node CREATED="1407526910818" ID="ID_1645793653" MODIFIED="1407526966458" TEXT="godef -- use &apos;gd&apos; to go to definitions of functions, structs">
+<node CREATED="1407529842323" ID="ID_525270106" MODIFIED="1407529843928" TEXT="HOW">
+<node CREATED="1407529942236" ID="ID_774023815" MODIFIED="1407529943319" TEXT="go get code.google.com/p/rog-go/exp/cmd/godef"/>
+<node CREATED="1407529943801" ID="ID_1332958258" MODIFIED="1407529966186" TEXT="Bundle &apos;dgryski/vim-godef&apos;"/>
+</node>
+</node>
+<node CREATED="1407527232463" ID="ID_371513868" MODIFIED="1407527257729" TEXT="gocode -- go code autocompletion">
+<node CREATED="1407529927152" ID="ID_1105148317" MODIFIED="1407529928192" TEXT="HOW">
+<node CREATED="1407529844939" ID="ID_932156671" MODIFIED="1407529929927" TEXT="go get github.com/nsf/gocode"/>
+<node CREATED="1407529880077" ID="ID_1256673356" MODIFIED="1407530890372" TEXT="?! .vimrc: Bundle &apos;Blackrush/vim-gocode&apos;, not work">
+<node CREATED="1407530900915" ID="ID_1157381846" MODIFIED="1407530930790" TEXT="instead">
+<node CREATED="1407530931987" ID="ID_144300390" MODIFIED="1407530958134" TEXT="cd github.com/nsf/gocode &amp;&amp; vim/update.sh"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1407529344553" FOLDED="true" ID="ID_1624829670" MODIFIED="1407529815687" TEXT="gotags -- tagbar">
+<node CREATED="1407529648897" ID="ID_842264217" MODIFIED="1407529651087" TEXT="HOW">
+<node CREATED="1407529652170" ID="ID_1122195647" MODIFIED="1407529653496" TEXT="go get github.com/jstemmer/gotags"/>
+<node CREATED="1407529665619" FOLDED="true" ID="ID_423569068" MODIFIED="1407529709984" TEXT=".vimrc">
+<node CREATED="1407529668075" ID="ID_961180650" MODIFIED="1407529707506">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Bundle 'majutsushi/tagbar'
+    </p>
+    <p>
+      nmap &lt;F8&gt; :TagbarToggle&lt;CR&gt;
+    </p>
+    <p>
+      let g:tagbar_type_go = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'ctagstype' : 'go',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'kinds'&#160;&#160;&#160;&#160;&#160;: [
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'p:package',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'i:imports:1',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'c:constants',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'v:variables',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 't:types',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'n:interfaces',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'w:fields',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'e:embedded',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'm:methods',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'r:constructor',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'f:functions'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ ],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'sro' : '.',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'kind2scope' : {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 't' : 'ctype',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'n' : 'ntype'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'scope2kind' : {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'ctype' : 't',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'ntype' : 'n'
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'ctagsbin'&#160;&#160;: 'gotags',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;\ 'ctagsargs' : '-sort -silent'
+    </p>
+    <p>
+      \ }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1407529714742" ID="ID_463856435" MODIFIED="1407529736035" TEXT="reopen .vimrc , :BundleInstall"/>
+</node>
+</node>
 </node>
 </node>
 </map>

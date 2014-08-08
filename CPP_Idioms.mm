@@ -15,7 +15,7 @@
 <node COLOR="#338800" CREATED="1381040409123" ID="ID_1249539832" MODIFIED="1381040454431" POSITION="right" TEXT="4.Attach by Initialzation">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 </node>
-<node CREATED="1380818024573" FOLDED="true" ID="ID_1606954371" MODIFIED="1381040445403" POSITION="right" STYLE="fork" TEXT="5.Barton-Nackman trick (deprecated)">
+<node CREATED="1380818024573" FOLDED="true" ID="ID_1606954371" MODIFIED="1405432823935" POSITION="right" STYLE="fork" TEXT="5.Barton-Nackman trick (deprecated)">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380818099450" ID="ID_1260454013" MODIFIED="1380818209468" TEXT="early C++ implementations did not support namespaces and function template overload."/>
@@ -25,78 +25,78 @@
 </node>
 <node CREATED="1380818430016" FOLDED="true" ID="ID_1161503953" MODIFIED="1380818821008" TEXT="solution">
 <node CREATED="1380818437743" ID="ID_472424949" MODIFIED="1380818812074">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      template&lt;typename T&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      class base{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;friend bool operator==(const T&amp; lhs, const T&amp; rhs)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return lhs.equalTo(rhs);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xd;
-    </p>&#xd;
-    <p>&#xd;
-      class A:public base&lt;A&gt;{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;public:&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;bool equalTo(const A&amp; other){...}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xd;
-    </p>&#xd;
-    <p>&#xd;
-      template &lt;typename T&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      List:public base&lt;List&lt;T&gt; &gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;bool equalTo (const List&amp; other){...}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template&lt;typename T&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      class base{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;friend bool operator==(const T&amp; lhs, const T&amp; rhs)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return lhs.equalTo(rhs);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      class A:public base&lt;A&gt;{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;public:&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;bool equalTo(const A&amp; other){...}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template &lt;typename T&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      List:public base&lt;List&lt;T&gt; &gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;bool equalTo (const List&amp; other){...}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1380818870706" FOLDED="true" ID="ID_142361587" MODIFIED="1381040442699" POSITION="right" STYLE="fork" TEXT="6.Base-from-Member">
+<node CREATED="1380818870706" FOLDED="true" ID="ID_142361587" MODIFIED="1405432825974" POSITION="right" STYLE="fork" TEXT="6.Base-from-Member">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380818907107" ID="ID_664934795" MODIFIED="1380818941696" TEXT="to initialize a base class from the member of the deverived class."/>
 <node CREATED="1380819194640" ID="ID_1368062991" MODIFIED="1380819247719" TEXT="base classes are always initialized in the order of declaration."/>
 <node CREATED="1380819285408" ID="ID_385541378" MODIFIED="1380819371969" TEXT="push the parameter data member in a private base class and put that private base class before the dependent base class in the derivation order."/>
 </node>
-<node CREATED="1380819469599" FOLDED="true" ID="ID_1443718633" MODIFIED="1381040442701" POSITION="right" STYLE="fork" TEXT="7.Boost mutant">
+<node CREATED="1380819469599" FOLDED="true" ID="ID_1443718633" MODIFIED="1405432829878" POSITION="right" STYLE="fork" TEXT="7.Boost mutant">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380820022144" ID="ID_937609238" MODIFIED="1380820081560" TEXT="reverse a pair of POD data without physically reorganizing or copying the data items."/>
@@ -105,120 +105,120 @@
 </node>
 <node CREATED="1380821728666" FOLDED="true" ID="ID_1215591606" MODIFIED="1380821769235" TEXT="solution">
 <node CREATED="1380821753460" ID="ID_1173281119" MODIFIED="1380821759546">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      #include&lt;iostream&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      using namespace std;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xd;
-    </p>&#xd;
-    <p>&#xd;
-      template &lt;typename T1,typename T2&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      struct pair_t{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//illegal:typedef typename T1 first_type.&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef T1 first_type;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef T2 second_type;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;first_type first;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;second_type second;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xd;
-    </p>&#xd;
-    <p>&#xd;
-      template &lt;typename pair_t&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      struct reverse_pair_t{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef typename pair_t::first_type second_type;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef typename pair_t::second_type first_type;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//reverse order of declaration of pair_t&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;second_type second;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;first_type first;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      template&lt;typename pair_t&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      reverse_pair_t&lt;pair_t&gt; &amp; mutate(pair_t &amp; p)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return reinterpret_cast&lt;reverse_pair_t&lt;pair_t&gt;&amp;&gt;(p);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      typedef pair_t&lt;int,double&gt; Pair;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      typedef reverse_pair_t&lt;Pair&gt; Reverse_Pair;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      int main()&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Pair p;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p.first=10;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p.second=3.14;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Reverse_Pair &amp;rp=mutate(p);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cout&lt;&lt;"rp.first="&lt;&lt;rp.first&lt;&lt;endl;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cout&lt;&lt;"rp.second="&lt;&lt;rp.second&lt;&lt;endl;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      #include&lt;iostream&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      using namespace std;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template &lt;typename T1,typename T2&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct pair_t{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//illegal:typedef typename T1 first_type.&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef T1 first_type;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef T2 second_type;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;first_type first;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;second_type second;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template &lt;typename pair_t&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct reverse_pair_t{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef typename pair_t::first_type second_type;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;typedef typename pair_t::second_type first_type;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//reverse order of declaration of pair_t&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;second_type second;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;first_type first;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template&lt;typename pair_t&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      reverse_pair_t&lt;pair_t&gt; &amp; mutate(pair_t &amp; p)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return reinterpret_cast&lt;reverse_pair_t&lt;pair_t&gt;&amp;&gt;(p);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      typedef pair_t&lt;int,double&gt; Pair;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      typedef reverse_pair_t&lt;Pair&gt; Reverse_Pair;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      int main()&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Pair p;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p.first=10;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;p.second=3.14;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Reverse_Pair &amp;rp=mutate(p);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cout&lt;&lt;"rp.first="&lt;&lt;rp.first&lt;&lt;endl;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cout&lt;&lt;"rp.second="&lt;&lt;rp.second&lt;&lt;endl;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -227,13 +227,13 @@
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 </node>
-<node CREATED="1380905684089" FOLDED="true" ID="ID_1529568580" MODIFIED="1381039113421" POSITION="right" STYLE="fork" TEXT="9.Capability Query">
+<node CREATED="1380905684089" FOLDED="true" ID="ID_1529568580" MODIFIED="1405432833747" POSITION="right" STYLE="fork" TEXT="9.Capability Query">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380905825217" ID="ID_1307180221" MODIFIED="1380905884282" TEXT="To check at runtime whether an object supports an interface."/>
 <node CREATED="1380905885001" ID="ID_1767852335" MODIFIED="1380905951362" TEXT="polymorphism, multiple inheritance, cross-cast, dynamic_cast"/>
 </node>
-<node CREATED="1380907536136" FOLDED="true" ID="ID_1811829747" MODIFIED="1381039113421" POSITION="right" STYLE="fork" TEXT="10.Checked delete">
+<node CREATED="1380907536136" FOLDED="true" ID="ID_1811829747" MODIFIED="1405432836143" POSITION="right" STYLE="fork" TEXT="10.Checked delete">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380907674264" ID="ID_933427315" MODIFIED="1380907694452" TEXT="Increase safety of delete expression"/>
@@ -245,21 +245,21 @@
 <node CREATED="1380908281390" ID="ID_1908809181" MODIFIED="1380908378516" TEXT="delete p invokes trivial default destructor of Object and default operator delete."/>
 <node CREATED="1380908188476" ID="ID_1522220373" MODIFIED="1380908189427" TEXT="code">
 <node CREATED="1380908190545" ID="ID_412981697" MODIFIED="1380908243704">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      //deleter.hpp&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      class Object;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      void delete_object(Object*p){delete p;}&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      //deleter.hpp&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      class Object;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      void delete_object(Object*p){delete p;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -270,30 +270,30 @@
 <node CREATED="1380908421014" ID="ID_1246390366" MODIFIED="1380908451221" TEXT="Object has class-specific operator delete."/>
 <node CREATED="1380908461395" FOLDED="true" ID="ID_1484971077" MODIFIED="1380909234757" TEXT="code">
 <node CREATED="1380908465120" ID="ID_1688779023" MODIFIED="1380908596779">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      #object.hpp&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      class Object{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      public:&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;~Object{//code...}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;void operator delete(void* buff,size_t){//...}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      #object.hpp&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      class Object{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      public:&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;~Object{//code...}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;void operator delete(void* buff,size_t){//...}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -304,87 +304,87 @@
 </node>
 <node CREATED="1380909336213" ID="ID_1457412456" MODIFIED="1380909340298" TEXT="solution">
 <node CREATED="1380909341270" ID="ID_1089073627" MODIFIED="1380909898702">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      template&lt;typename T&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      inline void check_delete(T* x)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;//generator compile error or return 0 if T is incomplete.&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;//array with negative size generator compile error.&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;typedef char type_must_be_complete[sizeof(T)?1:-1];&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;(void) sizeof(type_must_be_complete);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;delete x;<br/>}&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template&lt;typename T&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      inline void check_delete(T* x)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;//generator compile error or return 0 if T is incomplete.&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;//array with negative size generator compile error.&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;typedef char type_must_be_complete[sizeof(T)?1:-1];&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;(void) sizeof(type_must_be_complete);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;delete x;<br/>}&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1380910025141" FOLDED="true" ID="ID_1355516654" MODIFIED="1381039113420" POSITION="right" STYLE="fork" TEXT="11.Clear-and-minimize">
+<node CREATED="1380910025141" FOLDED="true" ID="ID_1355516654" MODIFIED="1405432838499" POSITION="right" STYLE="fork" TEXT="11.Clear-and-minimize">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380910164145" ID="ID_1414956738" MODIFIED="1380910185701" TEXT="swap with temporary."/>
 </node>
-<node CREATED="1380910235970" FOLDED="true" ID="ID_588252967" MODIFIED="1386142496682" POSITION="right" STYLE="fork" TEXT="12.Coercion by Member Template">
+<node CREATED="1380910235970" FOLDED="true" ID="ID_588252967" MODIFIED="1405432873506" POSITION="right" STYLE="fork" TEXT="12.Coercion by Member Template">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1380912337939" ID="ID_1397723847" MODIFIED="1380912693851" TEXT="Class D is derived from class B, pointer to object of type D can be assigned to a  pointer to B. But Ptr&lt;B&gt; can&apos;t be assigned to Ptr&lt;D&gt; unless using Coercion By Member Template."/>
 <node CREATED="1380912700072" ID="ID_1936895530" MODIFIED="1380912704969" TEXT="solution">
 <node CREATED="1380912706306" ID="ID_124845401" MODIFIED="1380913063667">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      template&lt;typename T&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      class Ptr {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      ...&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      public:&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;template &lt;typename U&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;Ptr(const Ptr&lt;U&gt; other){//...}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;template&lt;typename U&gt;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;Ptr&amp; operator(const Ptr&lt;U&gt;&amp; other){//...}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      };&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      template&lt;typename T&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      class Ptr {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      ...&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      public:&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;template &lt;typename U&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;Ptr(const Ptr&lt;U&gt; other){//...}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;template&lt;typename U&gt;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;Ptr&amp; operator(const Ptr&lt;U&gt;&amp; other){//...}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      };&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -447,218 +447,218 @@
 <node CREATED="1381029328601" ID="ID_1637794011" MODIFIED="1381029410632" TEXT="note: member object must be initialized on constructor initialization list in their declaration order"/>
 <node CREATED="1381029413078" ID="ID_167089461" MODIFIED="1385537477873" TEXT="code">
 <node CREATED="1381029629547" ID="ID_464118202" MODIFIED="1381029704261">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      struct B {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;B (char const *) { throw std::runtime_error("B Error"); }};struct C {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;C (char const *) { throw std::runtime_error("C Error"); }};class A {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;B b_;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;C c_;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;enum TrackerType { NONE, ONE, TWO };public:&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;A( TrackerType tracker = NONE)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;try&#xa0;&#xa0;&#xa0;&#xa0;// A constructor try block.&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: b_((tracker = ONE, "hello")) // Can throw std::exception&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;, c_((tracker = TWO, "world")) // Can throw std::exception&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert(tracker == TWO);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// ... constructor body ...&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;catch (std::exception const &amp; e)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (tracker == ONE) {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::cout &lt;&lt; "B threw: " &lt;&lt; e.what() &lt;&lt; std::endl;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;else if (tracker == TWO) {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::cout &lt;&lt; "C threw: " &lt;&lt; e.what() &lt;&lt; std::endl;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;throw;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}};&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      int main (void)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;try {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;A a;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;catch (std::exception const &amp; e) {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::cout &lt;&lt; "Caught: " &lt;&lt; e.what() &lt;&lt; std::endl;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;return 0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct B {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;B (char const *) { throw std::runtime_error("B Error"); }};struct C {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;C (char const *) { throw std::runtime_error("C Error"); }};class A {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;B b_;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;C c_;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;enum TrackerType { NONE, ONE, TWO };public:&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;A( TrackerType tracker = NONE)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;try&#xa0;&#xa0;&#xa0;&#xa0;// A constructor try block.&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: b_((tracker = ONE, "hello")) // Can throw std::exception&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;, c_((tracker = TWO, "world")) // Can throw std::exception&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;assert(tracker == TWO);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// ... constructor body ...&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;catch (std::exception const &amp; e)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (tracker == ONE) {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::cout &lt;&lt; "B threw: " &lt;&lt; e.what() &lt;&lt; std::endl;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;else if (tracker == TWO) {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::cout &lt;&lt; "C threw: " &lt;&lt; e.what() &lt;&lt; std::endl;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;throw;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}};&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      int main (void)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;try {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;A a;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;catch (std::exception const &amp; e) {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::cout &lt;&lt; "Caught: " &lt;&lt; e.what() &lt;&lt; std::endl;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;return 0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1381040460948" FOLDED="true" ID="ID_1293959315" MODIFIED="1381136583312" POSITION="right" TEXT="19.Copy-and-swap">
+<node CREATED="1381040460948" ID="ID_1293959315" MODIFIED="1405432881885" POSITION="right" TEXT="19.Copy-and-swap">
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
 <node CREATED="1381040539355" ID="ID_929749754" MODIFIED="1381040575843" TEXT="To create an exception safe implementation of overloaded assignment operator"/>
 <node CREATED="1381040576444" ID="ID_190655194" MODIFIED="1381040598491" TEXT="Create-Temporary-and-swap"/>
 <node CREATED="1381040659020" ID="ID_1071715991" MODIFIED="1381040681075" TEXT="temporary RAII swap"/>
-<node CREATED="1381040734972" FOLDED="true" ID="ID_1604041334" MODIFIED="1381041987585" TEXT="solution I">
+<node CREATED="1381040734972" ID="ID_1604041334" MODIFIED="1405433233356" TEXT="solution I">
 <node CREATED="1381040742683" ID="ID_49513894" MODIFIED="1381040872282">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      String&amp; String::operator=(const String&amp; other)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;String temp(other);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;temp.swap(*this);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;return *this;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      String&amp; String::operator=(const String&amp; other)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;String temp(other);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;temp.swap(*this);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;return *this;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1381040734972" FOLDED="true" ID="ID_424154427" MODIFIED="1381041988530" TEXT="solution II">
+<node CREATED="1381040734972" FOLDED="true" ID="ID_424154427" MODIFIED="1405433277015" TEXT="solution II">
 <node CREATED="1381040742683" ID="ID_1881329347" MODIFIED="1381041071323">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      String&amp; String::operator=(const String&amp; other)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;if (this != &amp;other){&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String(other).swap(*this);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return *this;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      String&amp; String::operator=(const String&amp; other)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;if (this != &amp;other){&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;String(other).swap(*this);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return *this;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1381040734972" FOLDED="true" ID="ID_865341134" MODIFIED="1381041989632" TEXT="solution III">
+<node CREATED="1381040734972" ID="ID_865341134" MODIFIED="1405433249952" TEXT="solution III">
 <node CREATED="1381040742683" ID="ID_972439254" MODIFIED="1381041064646">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      String&amp; String::operator=(String other)&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;s.swap(*this);&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;return *this;&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      String&amp; String::operator=(String other)&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;s.swap(*this);&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;return *this;&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1381041996300" FOLDED="true" ID="ID_337627058" MODIFIED="1381043287939" TEXT="copy elision (solution III)">
+<node CREATED="1381041996300" ID="ID_337627058" MODIFIED="1405433224939" TEXT="copy elision (solution III)">
 <node CREATED="1381042028660" ID="ID_227202761" MODIFIED="1381043031526" TEXT="when an const reference accept an rvalue, an additional object being created and destoryed.(in fact in g++,also copy elision because of optimazation)."/>
 <node CREATED="1381043051556" ID="ID_177172937" MODIFIED="1381043247996" TEXT="when parameter of passed-by-value binds to a rvalue,the copy is typically elided. "/>
 </node>
-<node CREATED="1381043296988" ID="ID_399145971" MODIFIED="1381043316203" TEXT="issues">
+<node CREATED="1381043296988" ID="ID_399145971" MODIFIED="1405433207323" TEXT="issues">
 <node CREATED="1381043317892" ID="ID_1547880945" MODIFIED="1381043597771" TEXT="Consider a String assignment operator, which releases old memory and allocates new memory only if the existing memory is insufficient to hold a copy of the rhs."/>
 </node>
 </node>
@@ -719,10 +719,10 @@
 <node CREATED="1380990769801" ID="ID_1013558018" MODIFIED="1380990774107" TEXT="auto_ptr"/>
 <node CREATED="1380990778492" ID="ID_117406483" MODIFIED="1380990861798" TEXT="auto_ptr&lt;T&gt;::auto_ptr(auto_ptr&lt;T&gt;&amp; other);#remove const, can&apos;t accept temporary value as argument."/>
 </node>
-<node CREATED="1381030940991" FOLDED="true" ID="ID_690236286" MODIFIED="1381139818907" POSITION="right" STYLE="fork" TEXT="62.Non-throwing swap">
+<node CREATED="1381030940991" ID="ID_690236286" MODIFIED="1405433283732" POSITION="right" STYLE="fork" TEXT="62.Non-throwing swap">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font BOLD="true" NAME="Courier New" SIZE="12"/>
-<node CREATED="1381037795928" ID="ID_426456369" MODIFIED="1381039068570" STYLE="fork" TEXT="To implement an exception safe and efficient swap function.">
+<node CREATED="1381037795928" ID="ID_426456369" MODIFIED="1405433389072" STYLE="fork" TEXT="To implement an exception safe and efficient swap function.">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
 <node CREATED="1381037948346" ID="ID_1183929979" MODIFIED="1381039068569" STYLE="fork" TEXT="performance">
@@ -742,7 +742,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1381037845707" ID="ID_1732115907" MODIFIED="1381039068567" STYLE="fork" TEXT="To provide uniform interface to facilitate generic programming.">
+<node CREATED="1381037845707" ID="ID_1732115907" MODIFIED="1405433428331" STYLE="fork" TEXT="To provide uniform interface to facilitate generic programming.">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
 <node CREATED="1381038213624" ID="ID_1743605737" MODIFIED="1381039068566" STYLE="fork" TEXT="std::swap()">
@@ -750,7 +750,7 @@
 <font NAME="Courier New" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1381038256051" ID="ID_1067260623" MODIFIED="1381039068565" STYLE="fork" TEXT="performance &amp; exception-safety">
+<node CREATED="1381038256051" ID="ID_1067260623" MODIFIED="1405433577262" STYLE="fork" TEXT="performance &amp; exception-safety">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
 <node CREATED="1381038275256" ID="ID_1959675444" MODIFIED="1381039068565" STYLE="fork" TEXT="Handle Body idiom">
@@ -762,49 +762,49 @@
 </node>
 </node>
 </node>
-<node CREATED="1381038372061" ID="ID_1461861577" MODIFIED="1381039706328" STYLE="fork" TEXT="uniform interface">
+<node CREATED="1381038372061" ID="ID_1461861577" MODIFIED="1405433591931" STYLE="fork" TEXT="uniform interface">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
-<node CREATED="1381038401693" ID="ID_576495756" MODIFIED="1381039068560" STYLE="fork" TEXT="An explicit speicalization of std::swap should be added in the std namespace as well as the namespace of the class itself.">
+<node CREATED="1381038401693" ID="ID_576495756" MODIFIED="1405433683434" STYLE="fork" TEXT="An explicit speicalization of std::swap should be added in the std namespace as well as the namespace of the class itself.">
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
 <node CREATED="1381038574566" ID="ID_1696103402" MODIFIED="1381039068550" STYLE="fork">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <font face="Courier New">namespace Orange{ </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">class String{ </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;char *str; </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">public: </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;void swap(String &amp;s) </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::swap(this-&gt;str,s.str); </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;} </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">}; </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">}</font>&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">namespace Orange{ </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">class String{ </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;char *str; </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">public: </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;void swap(String &amp;s) </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;std::swap(this-&gt;str,s.str); </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;} </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">}; </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">}</font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
@@ -812,30 +812,30 @@
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
 <node CREATED="1381038574566" ID="ID_320122989" MODIFIED="1381039233228" STYLE="fork">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <font face="Courier New">namespace Orange{ &#xa0;</font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;void swap(String &amp;s1,String &amp;s2) </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s1.swap(s2); </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;} </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">}</font>&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">namespace Orange{ &#xa0;</font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;void swap(String &amp;s1,String &amp;s2) </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s1.swap(s2); </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;} </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">}</font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
@@ -843,33 +843,33 @@
 </node>
 <node CREATED="1381039248468" ID="ID_293186012" MODIFIED="1381039373247" TEXT="add fully qualified swap in namespace std ">
 <node CREATED="1381038574566" ID="ID_1951203511" MODIFIED="1381039424050" STYLE="fork">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <font face="Courier New">namespace std{ </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;template&lt;&gt; &#xa0;</font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;void swap(Orange::String &amp;s1,Orange::String &amp;s2) </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s1.swap(s2); </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;} </font>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      <font face="Courier New">}</font>&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">namespace std{ </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;template&lt;&gt; &#xa0;</font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;void swap(Orange::String &amp;s1,Orange::String &amp;s2) </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;{ </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;s1.swap(s2); </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">&#xa0;&#xa0;&#xa0;&#xa0;} </font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      <font face="Courier New">}</font>&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
 <font NAME="Courier New" SIZE="12"/>
@@ -889,39 +889,39 @@
 <node CREATED="1381409055854" ID="ID_607108659" MODIFIED="1381409111883" TEXT="To distinguish between an integer 0 and a null pointer."/>
 <node CREATED="1381409118666" ID="ID_1502481159" MODIFIED="1381409120792" TEXT="code">
 <node CREATED="1381409561955" ID="ID_1867718316" MODIFIED="1381409578978">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="3">const struct nullptr_t{ </font>
-    </p>
-    <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;template&lt;typename T&gt; </font>
-    </p>
-    <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;operator T*()const {return 0;} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;template&lt;typename C,typename T&gt; </font>
-    </p>
-    <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;operator T C::*()const { return 0;} </font>
-    </p>
-    <p>
-      <font size="3">private: </font>
-    </p>
-    <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;void operator&amp;()const; </font>
-    </p>
-    <p>
-      <font size="3">}nullptr={};</font>
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      <font size="3">const struct nullptr_t{ </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;template&lt;typename T&gt; </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;operator T*()const {return 0;} </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;template&lt;typename C,typename T&gt; </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;operator T C::*()const { return 0;} </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">private: </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;void operator&amp;()const; </font>&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      <font size="3">}nullptr={};</font>&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
@@ -933,111 +933,111 @@
 <node CREATED="1381394058081" ID="ID_1855679052" MODIFIED="1381394059789" TEXT="In the process of template argument deduction, a C++ compiler attempts to instantiate signatures of a number of candidate overloaded functions to make sure that exactly one overloaded function is available as a perfect match for a given function call. If an invalid argument or return type is formed during the instantiation of a function template, the instantiation is removed from the overload resolution set instead of causing a compilation error. As long as there is one and only one function to which the call can be dispatched, the compiler issues no errors."/>
 <node CREATED="1381394118726" FOLDED="true" ID="ID_1867282558" MODIFIED="1381394193660" TEXT="code">
 <node CREATED="1381394125858" ID="ID_454763140" MODIFIED="1381394187449">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      template &lt;class T&gt;
-    </p>
-    <p>
-      struct is_pointer
-    </p>
-    <p>
-      {
-    </p>
-    <p>
-      &#160;&#160;template &lt;class U&gt;
-    </p>
-    <p>
-      &#160;&#160;static char is_ptr(U *);
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &#160;&#160;template &lt;class X, class Y&gt;
-    </p>
-    <p>
-      &#160;&#160;static char is_ptr(Y X::*);
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &#160;&#160;template &lt;class U&gt;
-    </p>
-    <p>
-      &#160;&#160;static char is_ptr(U (*)());
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &#160;&#160;static double is_ptr(...);
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &#160;&#160;static T t;
-    </p>
-    <p>
-      &#160;&#160;enum { value = sizeof(is_ptr(t)) == sizeof(char) };
-    </p>
-    <p>
-      };
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      struct Foo {
-    </p>
-    <p>
-      &#160;&#160;int bar;
-    </p>
-    <p>
-      };
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      int main(void)
-    </p>
-    <p>
-      {
-    </p>
-    <p>
-      &#160;&#160;typedef int * IntPtr;
-    </p>
-    <p>
-      &#160;&#160;typedef int Foo::* FooMemberPtr;
-    </p>
-    <p>
-      &#160;&#160;typedef int (*FuncPtr)();
-    </p>
-    <p>
-      &#160;
-    </p>
-    <p>
-      &#160;&#160;printf(&quot;%d\n&quot;,is_pointer&lt;IntPtr&gt;::value);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// prints 1
-    </p>
-    <p>
-      &#160;&#160;printf(&quot;%d\n&quot;,is_pointer&lt;FooMemberPtr&gt;::value);&#160;&#160;// prints 1
-    </p>
-    <p>
-      &#160;&#160;printf(&quot;%d\n&quot;,is_pointer&lt;FuncPtr&gt;::value);&#160;&#160;&#160;&#160;&#160;&#160;&#160;// prints 1
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      template &lt;class T&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      struct is_pointer&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;template &lt;class U&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;static char is_ptr(U *);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;template &lt;class X, class Y&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;static char is_ptr(Y X::*);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;template &lt;class U&gt;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;static char is_ptr(U (*)());&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;static double is_ptr(...);&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;static T t;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;enum { value = sizeof(is_ptr(t)) == sizeof(char) };&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      struct Foo {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;int bar;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      int main(void)&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;typedef int * IntPtr;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;typedef int Foo::* FooMemberPtr;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;typedef int (*FuncPtr)();&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;printf(&quot;%d\n&quot;,is_pointer&lt;IntPtr&gt;::value);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// prints 1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;printf(&quot;%d\n&quot;,is_pointer&lt;FooMemberPtr&gt;::value);&#160;&#160;// prints 1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#160;&#160;printf(&quot;%d\n&quot;,is_pointer&lt;FuncPtr&gt;::value);&#160;&#160;&#160;&#160;&#160;&#160;&#160;// prints 1&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
