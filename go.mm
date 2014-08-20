@@ -1,6 +1,6 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1407514830558" TEXT="lang-go">
+<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1408272259019" TEXT="lang-go">
 <node CREATED="1387552480402" FOLDED="true" ID="ID_1840000910" MODIFIED="1407511915962" POSITION="right" TEXT="intros">
 <node CREATED="1387552115759" ID="ID_1500553857" MODIFIED="1387552486157" TEXT="fast {development, execution, compilation}"/>
 <node CREATED="1387552295765" ID="ID_1950810780" MODIFIED="1387612195650" TEXT="compiled, statically-typed, strongly-typed"/>
@@ -307,8 +307,35 @@
 </node>
 </node>
 </node>
-<node CREATED="1387612366656" ID="ID_737605962" MODIFIED="1395216889849" POSITION="right" TEXT="package import">
-<node CREATED="1387559979631" FOLDED="true" ID="ID_1824990804" MODIFIED="1387639351207" TEXT="import stmt">
+<node CREATED="1387612366656" FOLDED="true" ID="ID_737605962" MODIFIED="1408272281487" POSITION="right" TEXT="package import">
+<node CREATED="1387559979631" FOLDED="true" ID="ID_1824990804" MODIFIED="1408171962007" TEXT="import stmt">
+<node CREATED="1408169146933" ID="ID_1903092246" MODIFIED="1408170997773" TEXT="import &quot;from/basepath/to/pkg&quot;">
+<node CREATED="1408170656869" ID="ID_432933654" MODIFIED="1408170732865" TEXT="import from.base.to.pkg; #python"/>
+</node>
+<node CREATED="1408169701045" FOLDED="true" ID="ID_599647711" MODIFIED="1408171024902" TEXT="import pkg &quot;from/basepath/to/pkg&quot; -- pkg alias">
+<node CREATED="1408169726768" ID="ID_1193115935" MODIFIED="1408170238204">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      using namespace from::basepath::to::pkg;
+    </p>
+    <p>
+      namespace pkg=from::basepath::to::pkg;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1408170656869" ID="ID_1814981904" MODIFIED="1408170789311" TEXT="import from.base.to.pkg as pkg; #python"/>
+</node>
+<node CREATED="1408169381184" FOLDED="true" ID="ID_278419653" MODIFIED="1408171015549" TEXT="import . &quot;from/base/basepath/to/pkg&quot; -- import all symbols">
+<node CREATED="1408170656869" ID="ID_850786250" MODIFIED="1408170877221" TEXT="from from.base.to.pkg import *; #python"/>
+</node>
+<node CREATED="1408170887407" FOLDED="true" ID="ID_1264925430" MODIFIED="1408170984829" TEXT="import _ &quot;from/basepath/to/pkg&quot; -- import NONE, side effects">
+<node CREATED="1408170924749" ID="ID_1720949564" MODIFIED="1408170975866" TEXT="use from::basepath::to::pkg  (); #perl"/>
+</node>
 <node CREATED="1387559999935" ID="ID_1695015791" MODIFIED="1387560022330" TEXT="import (&quot;fmt&quot;;&quot;math&quot;)"/>
 <node CREATED="1387560022943" ID="ID_1015692753" MODIFIED="1387560058085">
 <richcontent TYPE="NODE"><html>
@@ -347,15 +374,31 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1408171963229" ID="ID_325455228" MODIFIED="1408171964271" TEXT="Go&apos;s convention is that the package name is the last element of the import path"/>
+<node CREATED="1408171322699" ID="ID_1695125523" MODIFIED="1408171346124" TEXT="package main/func main"/>
 <node CREATED="1387560088834" FOLDED="true" ID="ID_503803467" MODIFIED="1387639352568" TEXT="exported names">
 <node CREATED="1387560120310" ID="ID_801293542" MODIFIED="1387560145193" TEXT="a name is exported if it begins with a capital letter, otherswise, not exported"/>
+</node>
+<node CREATED="1408171034353" FOLDED="true" ID="ID_889084776" MODIFIED="1408171764523" TEXT="restriction">
+<node CREATED="1408171057683" ID="ID_177886091" MODIFIED="1408171136830" TEXT="a pkg can NOT import ITSELF both DIRECTLY and INDIRECTLY"/>
+<node CREATED="1408171177588" ID="ID_1313521216" MODIFIED="1408171270588" TEXT="a pkg can NOT import another pkg WITHOUT referring any of its EXPORTED symbols"/>
+</node>
+<node CREATED="1408171281087" ID="ID_1552571349" MODIFIED="1408171786077" TEXT="practice">
+<node CREATED="1408171307229" FOLDED="true" ID="ID_1433241015" MODIFIED="1408171716953" TEXT="program(not library) has the same name with the its parent package path">
+<node CREATED="1408171578578" ID="ID_33360819" MODIFIED="1408171607904" TEXT="$GOPATH/src/github.com/user/hello/hello.go">
+<node CREATED="1408171634089" ID="ID_849682811" MODIFIED="1408171689258" TEXT="after exec &quot;go install&quot;, bin &quot;hello&quot; generated in $GOPATH/bin/"/>
+</node>
+<node CREATED="1408171619201" ID="ID_234316930" MODIFIED="1408171629727" TEXT="$GOPATH/src/github.com/user/foobar/hello.go ">
+<node CREATED="1408171634089" ID="ID_1257741892" MODIFIED="1408171703475" TEXT="after exec &quot;go install&quot;,bin &quot;foobar&quot; generated in $GOPATH/bin/"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1388286314829" ID="ID_1418083607" MODIFIED="1395216891237" POSITION="right" TEXT="print">
 <node CREATED="1388286332789" ID="ID_1146454647" MODIFIED="1388286356009" TEXT="Print{, f, ln}"/>
 <node CREATED="1388286356858" ID="ID_212579235" MODIFIED="1388286372787" TEXT="{F,S}print{, f, ln}"/>
 </node>
-<node CREATED="1388284552103" FOLDED="true" ID="ID_1616296824" MODIFIED="1407511912518" POSITION="right" TEXT="literal new make">
+<node CREATED="1388284552103" ID="ID_1616296824" MODIFIED="1408273191019" POSITION="right" TEXT="literal new make">
 <node CREATED="1388284602373" ID="ID_1713994607" MODIFIED="1388284606111" TEXT="literal"/>
 <node CREATED="1388284596332" ID="ID_1102301452" MODIFIED="1388284900395" TEXT="new(T)"/>
 <node CREATED="1388284598152" ID="ID_1175257843" MODIFIED="1388284782698" TEXT="make({slice,map,chan},args)"/>
@@ -371,7 +414,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1388286524587" FOLDED="true" ID="ID_359284084" MODIFIED="1407509750378" POSITION="right" TEXT="{array,slice,map}">
+<node CREATED="1388286524587" ID="ID_359284084" MODIFIED="1408273193568" POSITION="right" TEXT="{array,slice,map}">
 <node CREATED="1388288693385" ID="ID_19026961" MODIFIED="1388292166515" TEXT="[cap]type">
 <node CREATED="1388288740218" ID="ID_1590052468" MODIFIED="1388289975574" TEXT="create">
 <node CREATED="1388288755162" ID="ID_828902441" MODIFIED="1388289622232" TEXT="array:=new([10]int)"/>
@@ -407,8 +450,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1388296012907" FOLDED="true" ID="ID_74886657" MODIFIED="1407504754406" POSITION="right" TEXT="type">
-<node CREATED="1388252660393" ID="ID_1289861303" MODIFIED="1388469115990" TEXT="type switch/assertion">
+<node CREATED="1388296012907" ID="ID_74886657" MODIFIED="1408273074237" POSITION="right" TEXT="type">
+<node CREATED="1388252660393" FOLDED="true" ID="ID_1289861303" MODIFIED="1408287695876" TEXT="type switch/assertion">
 <node CREATED="1388252693859" ID="ID_273048711" MODIFIED="1388469118635" TEXT="type switch">
 <node CREATED="1388252705774" ID="ID_1754441161" MODIFIED="1388252731094" TEXT="switch t:=t.(type) {case: ...}"/>
 </node>
@@ -421,60 +464,67 @@
 </node>
 </node>
 </node>
-<node CREATED="1388305756293" ID="ID_1572714782" MODIFIED="1388469126313" TEXT="named type">
-<node CREATED="1388296139648" FOLDED="true" ID="ID_1642999524" MODIFIED="1395494260289" TEXT="predeclared types (T)">
-<node CREATED="1388296162703" ID="ID_1316958651" MODIFIED="1388296419798" TEXT="{,u}int{, 8,16,32,64}, byte(uint8), uintptr,rune(int32)"/>
-<node CREATED="1388296422995" ID="ID_10960103" MODIFIED="1388296435790" TEXT="float{32,64}"/>
-<node CREATED="1388296436260" ID="ID_1785644340" MODIFIED="1388296447922" TEXT="complex{64,128}"/>
-<node CREATED="1388296469017" ID="ID_1881487827" MODIFIED="1388296469997" TEXT="bool"/>
-<node CREATED="1388296470754" ID="ID_1044272745" MODIFIED="1388296474411" TEXT="string"/>
+<node CREATED="1408287696975" ID="ID_999419875" MODIFIED="1408292451641" TEXT="type categorized">
+<node CREATED="1388305756293" ID="ID_1572714782" MODIFIED="1408292452641" TEXT="named type">
+<node CREATED="1388296139648" ID="ID_616746711" MODIFIED="1408175106488" TEXT="predeclared types (T)">
+<node CREATED="1388296162703" ID="ID_544935543" MODIFIED="1388296419798" TEXT="{,u}int{, 8,16,32,64}, byte(uint8), uintptr,rune(int32)"/>
+<node CREATED="1388296422995" ID="ID_1384388757" MODIFIED="1388296435790" TEXT="float{32,64}"/>
+<node CREATED="1388296436260" ID="ID_1151022048" MODIFIED="1388296447922" TEXT="complex{64,128}"/>
+<node CREATED="1388296469017" ID="ID_1658137865" MODIFIED="1388296469997" TEXT="bool"/>
+<node CREATED="1388296470754" ID="ID_485254170" MODIFIED="1388296474411" TEXT="string"/>
 </node>
-<node CREATED="1388302034146" ID="ID_913803705" MODIFIED="1395494261199" TEXT="type declaration(&quot;type&quot; identifier T)">
-<node CREATED="1388302408958" ID="ID_1275082273" MODIFIED="1388302688380" TEXT="declared type vs. existing type">
-<node CREATED="1388302475036" ID="ID_1798639134" MODIFIED="1388302496588" TEXT="same underlying type"/>
-<node CREATED="1388302552553" ID="ID_1553180948" MODIFIED="1388302572546" TEXT="different method set"/>
-<node CREATED="1388302611604" ID="ID_1212554114" MODIFIED="1388302682333" TEXT="{method set of interface type, elements of composite type} unchanged"/>
+<node CREATED="1388302034146" ID="ID_966914610" MODIFIED="1395494261199" TEXT="type declaration(&quot;type&quot; identifier T)">
+<node CREATED="1388302408958" ID="ID_717898700" MODIFIED="1388302688380" TEXT="declared type vs. existing type">
+<node CREATED="1388302475036" ID="ID_1571948573" MODIFIED="1388302496588" TEXT="same underlying type"/>
+<node CREATED="1388302552553" ID="ID_1933722626" MODIFIED="1388302572546" TEXT="different method set"/>
+<node CREATED="1388302611604" ID="ID_1605966554" MODIFIED="1388302682333" TEXT="{method set of interface type, elements of composite type} unchanged"/>
 </node>
 </node>
 </node>
-<node CREATED="1388305772061" ID="ID_562914085" MODIFIED="1388469127773" TEXT="unnamed type(composite type, literal type)">
-<node CREATED="1388296931899" ID="ID_897380583" MODIFIED="1388305825975" TEXT="array([n]T),slice([]T),map(map[KeyT]ValueT)"/>
-<node CREATED="1388301492113" ID="ID_593920760" MODIFIED="1388305825975" TEXT="pointer(*T)"/>
-<node CREATED="1388301494558" ID="ID_1164486241" MODIFIED="1388305825976" TEXT="function(func(param-list)(return-value-list))"/>
-<node CREATED="1388301510035" ID="ID_375168650" MODIFIED="1388305825977" TEXT="interface(interface {}),struct(struct{})"/>
-<node CREATED="1388301505476" ID="ID_1381225145" MODIFIED="1388305825977" TEXT="channel(chan T)"/>
+<node CREATED="1388305772061" FOLDED="true" ID="ID_562914085" MODIFIED="1408287688850" TEXT="unnamed type(composite type, literal type)">
+<node CREATED="1388296931899" ID="ID_793719821" MODIFIED="1388305825975" TEXT="array([n]T),slice([]T),map(map[KeyT]ValueT)"/>
+<node CREATED="1388301492113" ID="ID_1865592989" MODIFIED="1388305825975" TEXT="pointer(*T)"/>
+<node CREATED="1388301494558" ID="ID_667249449" MODIFIED="1388305825976" TEXT="function(func(param-list)(return-value-list))"/>
+<node CREATED="1388301510035" ID="ID_1643098988" MODIFIED="1388305825977" TEXT="interface(interface {}),struct(struct{})"/>
+<node CREATED="1388301505476" ID="ID_131492880" MODIFIED="1388305825977" TEXT="channel(chan T)"/>
 </node>
-<node CREATED="1388305187821" FOLDED="true" ID="ID_1314365018" MODIFIED="1395494238059" TEXT="type identity">
+</node>
+<node CREATED="1388303062046" FOLDED="true" ID="ID_919515225" MODIFIED="1408287769285" TEXT="variables have three properties: {static,dynamic,underlying}type">
+<node CREATED="1388304900747" ID="ID_971889004" MODIFIED="1388304904772" TEXT="static type"/>
+<node CREATED="1388304908765" ID="ID_1933953947" MODIFIED="1388304912560" TEXT="dynamic type"/>
+<node CREATED="1388304913215" ID="ID_1702883799" MODIFIED="1388304916865" TEXT="underlying type"/>
+</node>
+<node CREATED="1388305187821" ID="ID_1314365018" MODIFIED="1408287771963" TEXT="type identity">
 <node CREATED="1388305569484" ID="ID_1386162448" MODIFIED="1388469129766" TEXT="named types">
 <node CREATED="1388305585928" ID="ID_1147767794" MODIFIED="1388305587066" TEXT="Two named types are identical if their type names originate in the same TypeSpec."/>
 </node>
 <node CREATED="1388305594172" ID="ID_1648508148" MODIFIED="1388469130653" TEXT="named and unnamed type">
 <node CREATED="1388305626839" ID="ID_804003173" MODIFIED="1388305627981" TEXT="A named and an unnamed type are always different."/>
 </node>
-<node CREATED="1388305892522" ID="ID_1268385735" MODIFIED="1388469131478" TEXT="unnamed types (recursively definition)">
+<node CREATED="1388305892522" FOLDED="true" ID="ID_1268385735" MODIFIED="1408289494972" TEXT="unnamed types (recursively definition)">
 <node CREATED="1388305920029" ID="ID_1734223143" MODIFIED="1388306085904" TEXT="identical type literals. same literal structure, corresponding components have identical types. "/>
-<node CREATED="1388306161716" FOLDED="true" ID="ID_409753565" MODIFIED="1388306403156" TEXT="array">
+<node CREATED="1388306161716" FOLDED="true" ID="ID_409753565" MODIFIED="1408287836707" TEXT="array">
 <node CREATED="1388306163861" ID="ID_677640897" MODIFIED="1388306245035" TEXT="identical element types"/>
 <node CREATED="1388306246244" ID="ID_492345212" MODIFIED="1388306250651" TEXT="same array length"/>
 </node>
-<node CREATED="1388306200213" FOLDED="true" ID="ID_1651403199" MODIFIED="1388306418180" TEXT="slice">
+<node CREATED="1388306200213" FOLDED="true" ID="ID_1651403199" MODIFIED="1408287838450" TEXT="slice">
 <node CREATED="1388306202095" ID="ID_1514102730" MODIFIED="1388306207855" TEXT="identical element types"/>
 </node>
-<node CREATED="1388306217962" FOLDED="true" ID="ID_1507041625" MODIFIED="1388306364968" TEXT="struct">
+<node CREATED="1388306217962" ID="ID_1507041625" MODIFIED="1408287839923" TEXT="struct">
 <node CREATED="1388306239062" ID="ID_1198135667" MODIFIED="1388306240139" TEXT="same sequence of fields"/>
 <node CREATED="1388306263975" ID="ID_621132513" MODIFIED="1388306300700" TEXT="corresponding fields have the {same names, identical types, identical tags}."/>
 <node CREATED="1388306353839" ID="ID_888726084" MODIFIED="1388306361652" TEXT="anonymous fields are considered to have the same name. Lower-case field names from different packages are always different."/>
 </node>
-<node CREATED="1388306376334" FOLDED="true" ID="ID_495654517" MODIFIED="1388306402308" TEXT="pointer">
+<node CREATED="1388306376334" FOLDED="true" ID="ID_495654517" MODIFIED="1408287892439" TEXT="pointer">
 <node CREATED="1388306382896" ID="ID_1450364854" MODIFIED="1388306394604" TEXT="identical base types"/>
 </node>
-<node CREATED="1388306421411" FOLDED="true" ID="ID_1736504662" MODIFIED="1388306635991" TEXT="func">
+<node CREATED="1388306421411" ID="ID_1736504662" MODIFIED="1408287893382" TEXT="func">
 <node CREATED="1388306449131" ID="ID_1027533095" MODIFIED="1388306462757" TEXT="same number of {parameters, result values}"/>
 <node CREATED="1388306493136" ID="ID_1548146154" MODIFIED="1388306520249" TEXT="identical corresponding {parameter,result} types"/>
 <node CREATED="1388306543746" ID="ID_38593619" MODIFIED="1388306564874" TEXT="either both are variadic or neither is"/>
 <node CREATED="1388306589744" ID="ID_1108065869" MODIFIED="1388306599208" TEXT="parameter and result names are not required to match."/>
 </node>
-<node CREATED="1388306636877" FOLDED="true" ID="ID_921930675" MODIFIED="1388306674166" TEXT="interface">
+<node CREATED="1388306636877" ID="ID_921930675" MODIFIED="1408287908492" TEXT="interface">
 <node CREATED="1388306642304" ID="ID_634472450" MODIFIED="1388306643306" TEXT="same set of methods with the same names and identical function types."/>
 <node CREATED="1388306653313" ID="ID_333458723" MODIFIED="1388306654086" TEXT="Lower-case method names from different packages are always different."/>
 <node CREATED="1388306665220" ID="ID_576597795" MODIFIED="1388306665905" TEXT="The order of the methods is irrelevant."/>
@@ -488,34 +538,29 @@
 </node>
 </node>
 </node>
-<node CREATED="1388305099975" ID="ID_1251213263" MODIFIED="1388469132665" TEXT="assignability (x is assignable to T)">
-<node CREATED="1388307443670" FOLDED="true" ID="ID_224646053" MODIFIED="1388307607000" TEXT="var =var/value">
+<node CREATED="1388305099975" ID="ID_1251213263" MODIFIED="1408289497634" TEXT="assignability (x is assignable to T)">
+<node CREATED="1388307443670" ID="ID_224646053" MODIFIED="1408289510759" TEXT="var =var/value">
 <node CREATED="1388305160547" ID="ID_312013515" MODIFIED="1388307474675" TEXT="x&apos;s type is identical to T."/>
 </node>
-<node CREATED="1388307585861" FOLDED="true" ID="ID_1724647864" MODIFIED="1388307604747" TEXT="var = literal">
+<node CREATED="1388307585861" ID="ID_1724647864" MODIFIED="1408289509143" TEXT="var = literal">
 <node CREATED="1388306803992" ID="ID_737055653" MODIFIED="1388307599959" TEXT="x&apos;s type V and T have identical underlying types and at least one of V or T is not a named type. "/>
 </node>
-<node CREATED="1388307486478" FOLDED="true" ID="ID_569387772" MODIFIED="1388307612600" TEXT="interface=method receiver">
+<node CREATED="1388307486478" ID="ID_569387772" MODIFIED="1408289584124" TEXT="interface=method receiver">
 <node CREATED="1388306863718" ID="ID_1940077759" MODIFIED="1388306869294" TEXT="T is an interface type and x implements T. "/>
 </node>
-<node CREATED="1388307647623" FOLDED="true" ID="ID_510918133" MODIFIED="1388307798802" TEXT="chan [&lt;-|-&gt;] T=chan T">
+<node CREATED="1388307647623" ID="ID_510918133" MODIFIED="1408290052614" TEXT="chan [&lt;-|-&gt;] T=chan T">
 <node CREATED="1388306919129" ID="ID_240790732" MODIFIED="1388307651528" TEXT="x is a bidirectional channel value, T is a channel type, x&apos;s type V and T have identical element types, and at least one of V or T is not a named type. "/>
 </node>
-<node CREATED="1388307618762" FOLDED="true" ID="ID_1774807692" MODIFIED="1388307625983" TEXT="T =nil">
+<node CREATED="1388307618762" ID="ID_1774807692" MODIFIED="1408289600068" TEXT="T =nil">
 <node CREATED="1388306937990" ID="ID_432209265" MODIFIED="1388307622574" TEXT="x is the predeclared identifier nil and T is a pointer, function, slice, map, channel, or interface type. "/>
 </node>
-<node CREATED="1388307629867" FOLDED="true" ID="ID_729921910" MODIFIED="1388307644311" TEXT="var =const">
+<node CREATED="1388307629867" ID="ID_729921910" MODIFIED="1408289601163" TEXT="var =const">
 <node CREATED="1388306950113" ID="ID_1369564414" MODIFIED="1388307641207" TEXT="x is an untyped constant representable by a value of type T. "/>
 </node>
 </node>
 <node CREATED="1388307803999" ID="ID_1917485823" MODIFIED="1388307903504" TEXT="type conversion T(x)"/>
-<node CREATED="1388303062046" ID="ID_919515225" MODIFIED="1388469134747" TEXT="variables have three properties: {static,dynamic,underlying}type">
-<node CREATED="1388304900747" ID="ID_971889004" MODIFIED="1388304904772" TEXT="static type"/>
-<node CREATED="1388304908765" ID="ID_1933953947" MODIFIED="1388304912560" TEXT="dynamic type"/>
-<node CREATED="1388304913215" ID="ID_1702883799" MODIFIED="1388304916865" TEXT="underlying type"/>
 </node>
-</node>
-<node CREATED="1388221184957" FOLDED="true" ID="ID_1586514058" MODIFIED="1407511918219" POSITION="right" TEXT="func">
+<node CREATED="1388221184957" FOLDED="true" ID="ID_1586514058" MODIFIED="1408255368603" POSITION="right" TEXT="func">
 <node CREATED="1387563586610" FOLDED="true" ID="ID_1679676679" MODIFIED="1407508265935" TEXT="anonymous functions">
 <node CREATED="1387563614290" ID="ID_1943910198" MODIFIED="1387563620453">
 <richcontent TYPE="NODE"><html>
@@ -654,8 +699,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1387570532241" FOLDED="true" ID="ID_1278907545" MODIFIED="1407508254069" TEXT="methods">
-<node CREATED="1387570553086" FOLDED="true" ID="ID_773355191" MODIFIED="1387639100368" TEXT="method receiver">
+<node CREATED="1387570532241" FOLDED="true" ID="ID_1278907545" MODIFIED="1408175084689" TEXT="methods">
+<node CREATED="1387570553086" FOLDED="true" ID="ID_773355191" MODIFIED="1408175030440" TEXT="method receiver">
 <node CREATED="1387570568720" ID="ID_1250621266" MODIFIED="1387570569719" TEXT="The method receiver appears in its own argument list between the func keyword and the method name. "/>
 <node CREATED="1387570595036" ID="ID_1509194179" MODIFIED="1387570600360">
 <richcontent TYPE="NODE"><html>
@@ -724,7 +769,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1387570665853" FOLDED="true" ID="ID_575238030" MODIFIED="1387570782624" TEXT="In fact, you can define a method on any type you define in your package, not just structs.   You cannot define a method on a type from another package, or on a basic type ">
+<node CREATED="1387570665853" ID="ID_575238030" MODIFIED="1408175068695" TEXT="In fact, you can define a method on any type you define in your package, not just structs.   You cannot define a method on a type from another package, or on a basic type ">
 <node CREATED="1387570680917" ID="ID_1390369596" MODIFIED="1387570689320">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -802,7 +847,7 @@
 <node CREATED="1387570819870" ID="ID_550103663" MODIFIED="1387570824617" TEXT="pass-by-value"/>
 </node>
 </node>
-<node CREATED="1388221250765" FOLDED="true" ID="ID_1941430054" MODIFIED="1407508252711" TEXT="only dynamic variables,no lexical variables">
+<node CREATED="1388221250765" ID="ID_1941430054" MODIFIED="1408175017677" TEXT="only dynamic variables,no lexical variables">
 <node CREATED="1388221335431" ID="ID_1823396709" MODIFIED="1388221367892" TEXT="varable:=variable">
 <node CREATED="1388221369941" ID="ID_1092407090" MODIFIED="1388221390006" TEXT="local variable=variable;#perl"/>
 </node>
@@ -810,7 +855,7 @@
 <node CREATED="1388256566620" ID="ID_655886482" MODIFIED="1388256630600" TEXT="pass-by-{value,reference}"/>
 <node CREATED="1388256642398" ID="ID_166996155" MODIFIED="1388256649684" TEXT="multivalue return"/>
 </node>
-<node CREATED="1388221416645" FOLDED="true" ID="ID_1658229071" MODIFIED="1407504760677" POSITION="right" TEXT="goroutine/channel">
+<node CREATED="1388221416645" FOLDED="true" ID="ID_1658229071" MODIFIED="1408415377613" POSITION="right" TEXT="goroutine/channel">
 <node CREATED="1388237886105" ID="ID_1221129601" MODIFIED="1388237901772" TEXT="go func"/>
 <node CREATED="1388237923442" FOLDED="true" ID="ID_113147306" MODIFIED="1394041055924" TEXT="unbuffered channel (pipe)">
 <node CREATED="1388237902030" ID="ID_1870837877" MODIFIED="1388237940394" TEXT="make(int chan)"/>
@@ -876,9 +921,9 @@
 <node CREATED="1388241053897" ID="ID_1555206036" MODIFIED="1388241061471" TEXT="const"/>
 <node CREATED="1388241083666" ID="ID_716101407" MODIFIED="1388241094638" TEXT="no lexical variables"/>
 </node>
-<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1407504747517" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
-<node CREATED="1388253686912" ID="ID_674596690" MODIFIED="1407427793251" TEXT="go vs. C++">
-<node CREATED="1388253589712" FOLDED="true" ID="ID_539498581" MODIFIED="1388253735065" TEXT="exception(C++)">
+<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1408273064158" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
+<node CREATED="1388253686912" ID="ID_674596690" MODIFIED="1408273023230" TEXT="go vs. C++">
+<node CREATED="1388253589712" ID="ID_539498581" MODIFIED="1408173498268" TEXT="exception(C++)">
 <node CREATED="1388240880146" ID="ID_487320419" MODIFIED="1388253598485" TEXT="error "/>
 </node>
 <node CREATED="1388253499939" ID="ID_1921505742" MODIFIED="1388253735066" TEXT="throw(C++)">
@@ -956,21 +1001,23 @@
 </node>
 </node>
 </node>
-<node CREATED="1388254691584" ID="ID_1895306513" MODIFIED="1407427788787" TEXT="built-in error interface">
-<node CREATED="1388254726688" ID="ID_1753667953" MODIFIED="1388254754454" TEXT="type error interface{ Error()string }"/>
+<node CREATED="1388254726688" ID="ID_1753667953" MODIFIED="1408271452055" TEXT="type error interface{ Error()string }">
+<node CREATED="1388254691584" ID="ID_1895306513" MODIFIED="1408173262030" TEXT="built-in error interface"/>
 </node>
-<node CREATED="1388254762214" ID="ID_268480084" MODIFIED="1388254827897" TEXT="panic (throw exception)">
-<node CREATED="1388254769817" ID="ID_139450375" MODIFIED="1388254865813" TEXT="func panic(a interface{})"/>
+<node CREATED="1388254769817" ID="ID_139450375" MODIFIED="1388254865813" TEXT="func panic(a interface{})">
+<node CREATED="1388254762214" ID="ID_268480084" MODIFIED="1408173236125" TEXT="throw exception"/>
 </node>
-<node CREATED="1388254834887" ID="ID_654500481" MODIFIED="1407427790293" TEXT="recover (catch)">
-<node CREATED="1388254847615" ID="ID_1326565622" MODIFIED="1388254872863" TEXT="func recover() interface{}"/>
-<node CREATED="1388254877321" ID="ID_1943766319" MODIFIED="1388254957367" TEXT="stop unwinding stack and return argument passed to panic"/>
+<node CREATED="1388254847615" ID="ID_1326565622" MODIFIED="1408173485901" TEXT="func recover() interface{}">
+<node CREATED="1388254834887" ID="ID_654500481" MODIFIED="1408173249309" TEXT="catch exception">
+<node CREATED="1388254877321" ID="ID_1155114569" MODIFIED="1388254957367" TEXT="stop unwinding stack and return argument passed to panic"/>
 </node>
-<node CREATED="1388254963058" ID="ID_1259682308" MODIFIED="1388254979003" TEXT="type switch/assertion">
+</node>
+<node CREATED="1408173275183" ID="ID_1820487774" MODIFIED="1408173277052" TEXT="defer"/>
+<node CREATED="1388254963058" ID="ID_1259682308" MODIFIED="1408173273450" TEXT="type switch/assertion">
 <node CREATED="1388254991790" ID="ID_586733230" MODIFIED="1388255015515" TEXT="multiple catch clauses"/>
 </node>
 </node>
-<node CREATED="1387561614207" FOLDED="true" ID="ID_531506047" MODIFIED="1389021120105" POSITION="right" TEXT="for if switch">
+<node CREATED="1387561614207" FOLDED="true" ID="ID_531506047" MODIFIED="1408284766391" POSITION="right" TEXT="for if switch">
 <node CREATED="1387561635608" FOLDED="true" ID="ID_912764590" MODIFIED="1388469191935" TEXT="loop">
 <node CREATED="1388255078823" ID="ID_656589610" MODIFIED="1388255099630" TEXT="for i:=0;i&lt;10;i++{}"/>
 <node CREATED="1388255102937" ID="ID_1746278105" MODIFIED="1388255136406" TEXT="for {} //forever"/>
@@ -980,7 +1027,7 @@
 <node CREATED="1388256432862" ID="ID_764055282" MODIFIED="1388256485096" TEXT="for key:=range m{...} // for $v (keys %m){...}"/>
 <node CREATED="1388256381598" ID="ID_1532546569" MODIFIED="1388256443838" TEXT="for _,value:=range m{...} // for $k (values %m){...}"/>
 </node>
-<node CREATED="1387564681098" FOLDED="true" ID="ID_1636490469" MODIFIED="1388469186646" TEXT="switch">
+<node CREATED="1387564681098" ID="ID_1636490469" MODIFIED="1408273950390" TEXT="switch">
 <node CREATED="1387564708216" ID="ID_819069465" MODIFIED="1387564713719" TEXT="fallthrough">
 <node CREATED="1387564727846" ID="ID_910223266" MODIFIED="1387564727846" TEXT=""/>
 </node>
@@ -1403,20 +1450,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1388310718952" FOLDED="true" ID="ID_1156767507" MODIFIED="1389021121165" POSITION="right" TEXT="packages">
+<node CREATED="1388310718952" FOLDED="true" ID="ID_1156767507" MODIFIED="1408175157820" POSITION="right" TEXT="packages">
 <node CREATED="1388310725235" ID="ID_1449865824" MODIFIED="1388310729888" TEXT="fmt"/>
 <node CREATED="1388310730125" ID="ID_982592985" MODIFIED="1388310730670" TEXT="os"/>
 </node>
-<node CREATED="1388286452747" FOLDED="true" ID="ID_756713204" MODIFIED="1395216900130" POSITION="right" TEXT="idioms">
+<node CREATED="1388286452747" FOLDED="true" ID="ID_756713204" MODIFIED="1408272271747" POSITION="right" TEXT="idioms">
 <node CREATED="1388286464339" ID="ID_1641897751" MODIFIED="1388286468323" TEXT="comma ok"/>
 <node CREATED="1388286481230" ID="ID_252969909" MODIFIED="1388286492633" TEXT="blank identifier"/>
 </node>
-<node CREATED="1388287985455" FOLDED="true" ID="ID_551212993" MODIFIED="1388469198923" POSITION="right" TEXT="problems">
+<node CREATED="1388287985455" FOLDED="true" ID="ID_551212993" MODIFIED="1408272276015" POSITION="right" TEXT="problems">
 <node CREATED="1388288001587" ID="ID_792961389" MODIFIED="1388288028783" TEXT="how to write &quot;comma ok&quot; functions?"/>
 <node CREATED="1388288034287" ID="ID_1060164145" MODIFIED="1388288068957" TEXT="what&apos;s the type of argument-passage of delete function"/>
 <node CREATED="1388288079333" ID="ID_329024440" MODIFIED="1388288203520" TEXT="how to write functions both &quot;fail-panic&quot; and &quot;comma ok&quot;?"/>
 </node>
-<node CREATED="1407511931339" FOLDED="true" ID="ID_318311100" MODIFIED="1407525465187" POSITION="right" TEXT="go compiler">
+<node CREATED="1407511931339" FOLDED="true" ID="ID_318311100" MODIFIED="1408175154141" POSITION="right" TEXT="go compiler">
 <node CREATED="1407511922571" ID="ID_830331792" MODIFIED="1407511990596" TEXT="gccgo">
 <node CREATED="1407511950394" ID="ID_1292966521" MODIFIED="1407511956477" TEXT="frontend of gcc"/>
 <node CREATED="1407511959161" ID="ID_1150944401" MODIFIED="1407511964326" TEXT="gccgo"/>
@@ -1428,7 +1475,7 @@
 <node CREATED="1407512016983" ID="ID_1680796576" MODIFIED="1407512021773" TEXT="imbed c in go"/>
 </node>
 </node>
-<node CREATED="1407525466168" FOLDED="true" ID="ID_901192620" MODIFIED="1407530991085" POSITION="right" TEXT="vim">
+<node CREATED="1407525466168" FOLDED="true" ID="ID_901192620" MODIFIED="1408255376575" POSITION="right" TEXT="vim">
 <node CREATED="1407526453851" FOLDED="true" ID="ID_167662263" MODIFIED="1407530964636" TEXT="Vundle  -- a vim plugin for managing other plugins">
 <node CREATED="1407526531544" ID="ID_1798687594" MODIFIED="1407526642824" TEXT="HOW">
 <node CREATED="1407526534909" ID="ID_1776887296" MODIFIED="1407526547812" TEXT="git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle"/>
@@ -1467,8 +1514,7 @@
       syntax on
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1407526654956" ID="ID_7721724" MODIFIED="1407526682683" TEXT="install desired plugins">
@@ -1477,11 +1523,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1407525493383" FOLDED="true" ID="ID_1634099368" MODIFIED="1407530963069" TEXT="goimports -- auto delete/insert imports">
+<node CREATED="1407525493383" ID="ID_1634099368" MODIFIED="1408068178857" TEXT="goimports -- auto delete/insert imports">
 <node CREATED="1407525701947" ID="ID_1923683797" MODIFIED="1407525703521" TEXT="WHY">
 <node CREATED="1407525596032" ID="ID_1097586097" MODIFIED="1407525704531" TEXT="compile errors caused by never used pkgs"/>
 </node>
-<node CREATED="1407525690862" ID="ID_675320787" MODIFIED="1407525706010" TEXT="HOW">
+<node CREATED="1407525690862" FOLDED="true" ID="ID_675320787" MODIFIED="1408068180400" TEXT="HOW">
 <node CREATED="1407525547645" FOLDED="true" ID="ID_845366873" MODIFIED="1407525923751" TEXT="go get github.com/bradfitz/goimport">
 <node CREATED="1407525721821" ID="ID_1766944403" MODIFIED="1407525726299" TEXT="deps">
 <node CREATED="1407525727708" ID="ID_1029506401" MODIFIED="1407525776566" TEXT="code.google.com/p/{go.tools,goplan9}"/>
@@ -1495,14 +1541,16 @@
 <node CREATED="1407525926690" ID="ID_1489095773" MODIFIED="1407526343273" TEXT="sed &apos;34s/gofmt/goimports/g&apos;  ~/.vim/bundle/vim-golang/ftplugin/go/fmt.vim"/>
 <node CREATED="1407526377292" ID="ID_1708614188" MODIFIED="1407526438692" TEXT="above ops add :Fmt to vim, open a go file and test :Fmt cmd"/>
 </node>
+<node CREATED="1408068181078" ID="ID_1392748906" MODIFIED="1408068184207" TEXT=":Fmt"/>
 </node>
 <node CREATED="1407526910818" ID="ID_1645793653" MODIFIED="1407526966458" TEXT="godef -- use &apos;gd&apos; to go to definitions of functions, structs">
 <node CREATED="1407529842323" ID="ID_525270106" MODIFIED="1407529843928" TEXT="HOW">
 <node CREATED="1407529942236" ID="ID_774023815" MODIFIED="1407529943319" TEXT="go get code.google.com/p/rog-go/exp/cmd/godef"/>
 <node CREATED="1407529943801" ID="ID_1332958258" MODIFIED="1407529966186" TEXT="Bundle &apos;dgryski/vim-godef&apos;"/>
 </node>
+<node CREATED="1408068205122" ID="ID_1828127372" MODIFIED="1408068208502" TEXT="gd"/>
 </node>
-<node CREATED="1407527232463" ID="ID_371513868" MODIFIED="1407527257729" TEXT="gocode -- go code autocompletion">
+<node CREATED="1407527232463" FOLDED="true" ID="ID_371513868" MODIFIED="1408068246642" TEXT="gocode -- go code autocompletion">
 <node CREATED="1407529927152" ID="ID_1105148317" MODIFIED="1407529928192" TEXT="HOW">
 <node CREATED="1407529844939" ID="ID_932156671" MODIFIED="1407529929927" TEXT="go get github.com/nsf/gocode"/>
 <node CREATED="1407529880077" ID="ID_1256673356" MODIFIED="1407530890372" TEXT="?! .vimrc: Bundle &apos;Blackrush/vim-gocode&apos;, not work">
@@ -1511,8 +1559,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1408068223368" ID="ID_1344914316" MODIFIED="1408068230619" TEXT="&lt;C-X&gt;&lt;C-O&gt;"/>
 </node>
-<node CREATED="1407529344553" FOLDED="true" ID="ID_1624829670" MODIFIED="1407529815687" TEXT="gotags -- tagbar">
+<node CREATED="1407529344553" ID="ID_1624829670" MODIFIED="1408068249174" TEXT="gotags -- tagbar">
 <node CREATED="1407529648897" ID="ID_842264217" MODIFIED="1407529651087" TEXT="HOW">
 <node CREATED="1407529652170" ID="ID_1122195647" MODIFIED="1407529653496" TEXT="go get github.com/jstemmer/gotags"/>
 <node CREATED="1407529665619" FOLDED="true" ID="ID_423569068" MODIFIED="1407529709984" TEXT=".vimrc">
@@ -1610,12 +1659,47 @@
       \ }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1407529714742" ID="ID_463856435" MODIFIED="1407529736035" TEXT="reopen .vimrc , :BundleInstall"/>
 </node>
+<node CREATED="1408068250529" ID="ID_1514697109" MODIFIED="1408068253846" TEXT="&lt;F8&gt;"/>
+</node>
+</node>
+<node CREATED="1408266911346" FOLDED="true" ID="ID_1577395722" MODIFIED="1408270143590" POSITION="right" TEXT="at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson.">
+<node CREATED="1408268354130" ID="ID_1194318080" MODIFIED="1408268355540" TEXT="Ken Thompson states that">
+<node CREATED="1408268364102" ID="ID_627225769" MODIFIED="1408268365365" TEXT="When the three of us [Thompson, Rob Pike, and Robert Griesemer] got started, it was pure research. The three of us got together and decided that we hated C++. [laughter] ... [Returning to Go,] we started off with the idea that all three of us had to be talked into every feature in the language, so there was no extraneous garbage put into the language for any reason."/>
+</node>
+</node>
+<node CREATED="1408256440365" FOLDED="true" ID="ID_27781839" MODIFIED="1408272285770" POSITION="right" TEXT="pointer">
+<node CREATED="1408256442990" ID="ID_1294835144" MODIFIED="1408256483139" TEXT="&amp;"/>
+<node CREATED="1408256477488" ID="ID_681945376" MODIFIED="1408256478657" TEXT="*"/>
+</node>
+<node CREATED="1408255377845" ID="ID_214766301" MODIFIED="1408293358939" POSITION="right" TEXT="method">
+<node CREATED="1408255387314" ID="ID_1083384557" MODIFIED="1408270151133" TEXT="method set of type T">
+<node CREATED="1408255447471" ID="ID_1354772092" MODIFIED="1408255451478" TEXT="A type may have a method set associated with it"/>
+<node CREATED="1408255464123" ID="ID_1183816301" MODIFIED="1408255531589" TEXT="interface{} is implemented by all types"/>
+<node CREATED="1408255497969" ID="ID_280285507" MODIFIED="1408255625646" TEXT="A method set of a interface type is its interface"/>
+<node CREATED="1408255648314" ID="ID_1482190521" MODIFIED="1408255816437" TEXT="If a method set of type T is SUPERSET of interface I, then T implements I, T is ASSIGNABLE to I"/>
+</node>
+<node CREATED="1408255841632" ID="ID_245356060" MODIFIED="1408257331214" TEXT="method receiver: T  *T">
+<node CREATED="1408255880484" ID="ID_1936146372" MODIFIED="1408256035440" TEXT="the method set of type T consists of  all methods declared with receiver T"/>
+<node CREATED="1408255880484" ID="ID_1177660938" MODIFIED="1408256053986" TEXT="the method set of type *T consists of  all methods declared with receiver *T or T"/>
+<node CREATED="1408257341839" ID="ID_1891778388" MODIFIED="1408257434278" TEXT="The receiver type must be of the form T or *T where T is a type name, T is called RECEIVER BASE TYPE">
+<node CREATED="1408257401357" ID="ID_647054200" MODIFIED="1408257499995" TEXT="T must not be a POINTER or INTERFACE type"/>
+<node CREATED="1408257513858" ID="ID_1286656241" MODIFIED="1408257528814" TEXT="T must be declared in the SAME PACKAGE as the method"/>
+</node>
+</node>
+<node CREATED="1408256166759" ID="ID_91969839" MODIFIED="1408256167887" TEXT="A method is a function with a receiver">
+<node CREATED="1408257649640" ID="ID_783349685" MODIFIED="1408257650640" TEXT="The type of a method is the type of a function with the receiver as first argument"/>
+</node>
+</node>
+<node CREATED="1408261228451" ID="ID_279493294" MODIFIED="1408293987061" POSITION="right" TEXT="selector expression">
+<node CREATED="1408261271464" ID="ID_846698952" MODIFIED="1408261276050" TEXT="field"/>
+<node CREATED="1408261276284" ID="ID_471000064" MODIFIED="1408261278649" TEXT="method"/>
+<node CREATED="1408261291568" ID="ID_515354793" MODIFIED="1408261292791" TEXT="nested anonymous field">
+<node CREATED="1408261321597" ID="ID_1290942372" MODIFIED="1408261322571" TEXT=" depth"/>
 </node>
 </node>
 </node>
