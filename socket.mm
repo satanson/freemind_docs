@@ -1,18 +1,18 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1338169427940" ID="ID_188126901" MODIFIED="1338169433494" TEXT="socket">
-<node CREATED="1370774130393" FOLDED="true" ID="ID_1798504090" MODIFIED="1370774414250" POSITION="right" TEXT="socket, bind, listen, accept, connect">
+<node CREATED="1370774130393" ID="ID_1798504090" MODIFIED="1410743855856" POSITION="right" TEXT="socket, bind, listen, accept, connect">
 <node CREATED="1370753259722" ID="ID_945160799" MODIFIED="1370774160058" TEXT="int     socket(int, int, int);"/>
 <node CREATED="1370753259704" ID="ID_1063884229" MODIFIED="1370774167599" TEXT="int     bind(int, const struct sockaddr *, socklen_t);"/>
-<node CREATED="1370753259711" FOLDED="true" ID="ID_321263570" MODIFIED="1370774192961" TEXT="int     listen(int sockfd, int backlog);">
-<node CREATED="1370757573723" FOLDED="true" ID="ID_330365303" MODIFIED="1370758337219" TEXT="backlog">
+<node CREATED="1370753259711" ID="ID_321263570" MODIFIED="1410743859413" TEXT="int     listen(int sockfd, int backlog);">
+<node CREATED="1370757573723" ID="ID_330365303" MODIFIED="1410743862050" TEXT="backlog">
 <node CREATED="1370757744699" ID="ID_1511600720" MODIFIED="1370757754658" TEXT="must not be zero"/>
 <node CREATED="1370758286539" ID="ID_382805413" MODIFIED="1370758302395" TEXT="backlog argument to the listen function has historically specified the maximum value for the sum of both queues."/>
 <node CREATED="1370758219307" ID="ID_753782599" MODIFIED="1370758237738" TEXT="incomplete connection queue(SYN_RCVD)"/>
 <node CREATED="1370758251323" ID="ID_1678854713" MODIFIED="1370758271682" TEXT="completed connection queue(ESTABLISHED)"/>
 </node>
 <node CREATED="1370757578003" ID="ID_1038978734" MODIFIED="1370757589906" TEXT="return : 0(success), -1(error) "/>
-<node CREATED="1370757592995" FOLDED="true" ID="ID_298816185" MODIFIED="1370757741819" TEXT="errno">
+<node CREATED="1370757592995" ID="ID_298816185" MODIFIED="1410743894779" TEXT="errno">
 <node CREATED="1370757614501" ID="ID_1448685628" MODIFIED="1370757614501" TEXT="EBADF">
 <node CREATED="1370757616642" ID="ID_1953639970" MODIFIED="1370757626981" TEXT="invalid fd"/>
 </node>
@@ -28,9 +28,9 @@
 </node>
 </node>
 <node CREATED="1370774290458" ID="ID_629540007" MODIFIED="1370774312958" TEXT="int     accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);"/>
-<node CREATED="1370753259672" FOLDED="true" ID="ID_1474239185" MODIFIED="1370774211777" TEXT="int     connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen); ">
+<node CREATED="1370753259672" ID="ID_1474239185" MODIFIED="1410743902407" TEXT="int     connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen); ">
 <node CREATED="1370757578003" ID="ID_1567953744" MODIFIED="1370757589906" TEXT="return : 0(success), -1(error) "/>
-<node CREATED="1370758429307" FOLDED="true" ID="ID_1058785842" MODIFIED="1370758847516" TEXT="errno">
+<node CREATED="1370758429307" FOLDED="true" ID="ID_1058785842" MODIFIED="1410743921673" TEXT="errno">
 <node CREATED="1370758433459" ID="ID_1942400116" MODIFIED="1370758434865" TEXT="ETIMEDOUT">
 <node CREATED="1370758470034" ID="ID_1700457210" MODIFIED="1370758478810" TEXT="The server may be too busy to accept new connections."/>
 </node>
@@ -58,15 +58,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1370759922482" FOLDED="true" ID="ID_613493525" MODIFIED="1370774405626" POSITION="right" TEXT="close, shutdown">
+<node CREATED="1370759922482" ID="ID_613493525" MODIFIED="1410743925339" POSITION="right" TEXT="close, shutdown">
 <node CREATED="1370753259721" ID="ID_1153461722" MODIFIED="1370761364182" TEXT="int shutdown(int sockfd, int how);">
-<node CREATED="1370754238675" FOLDED="true" ID="ID_1527170962" MODIFIED="1370754441867" TEXT="how">
+<node CREATED="1370754238675" ID="ID_1527170962" MODIFIED="1410743927617" TEXT="how">
 <node CREATED="1370754250011" ID="ID_167649048" MODIFIED="1370754258140" TEXT="SHUT_RD"/>
 <node CREATED="1370754258402" ID="ID_1210004896" MODIFIED="1370754263266" TEXT="SHUT_WR"/>
 <node CREATED="1370754263843" ID="ID_1844182604" MODIFIED="1370754268922" TEXT="SHUT_RDWR"/>
 </node>
 <node CREATED="1370754334155" ID="ID_1021847920" MODIFIED="1370754363017" TEXT="return : 0(success), -1(error)"/>
-<node CREATED="1370754363755" FOLDED="true" ID="ID_402949116" MODIFIED="1370754438220" TEXT="errno">
+<node CREATED="1370754363755" ID="ID_402949116" MODIFIED="1410743931891" TEXT="errno">
 <node CREATED="1370754384071" ID="ID_1811175190" MODIFIED="1370754414418" TEXT="EBADF">
 <node CREATED="1370754401058" ID="ID_533757377" MODIFIED="1370754401058" TEXT="sockfd is not a valid descriptor."/>
 </node>
@@ -83,7 +83,7 @@
 <node CREATED="1370761372074" ID="ID_1998482185" MODIFIED="1370761389098" TEXT="discrease reference count"/>
 </node>
 </node>
-<node CREATED="1370774348545" FOLDED="true" ID="ID_776349744" MODIFIED="1370774401337" POSITION="right" TEXT="getpeername, getsockname">
+<node CREATED="1370774348545" ID="ID_776349744" MODIFIED="1410743949254" POSITION="right" TEXT="getpeername, getsockname">
 <node CREATED="1370753259707" ID="ID_1125477975" MODIFIED="1370753259707" TEXT="int     getpeername(int, struct sockaddr *restrict, socklen_t *restrict);"/>
 <node CREATED="1370753259709" ID="ID_661351333" MODIFIED="1370753259709" TEXT="int     getsockname(int, struct sockaddr *restrict, socklen_t *restrict);"/>
 </node>
@@ -91,7 +91,7 @@
 <node CREATED="1370753259710" ID="ID_1018343550" MODIFIED="1370823197647" TEXT="int     getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen); "/>
 <node CREATED="1370753259720" ID="ID_858682342" MODIFIED="1370823196404" TEXT="int     setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen); "/>
 <node CREATED="1370792369962" ID="ID_1041184552" MODIFIED="1370823343945" TEXT="level">
-<node CREATED="1370792383571" FOLDED="true" ID="ID_1843081881" MODIFIED="1370823906054" TEXT="SOL_SOCKET ">
+<node CREATED="1370792383571" FOLDED="true" ID="ID_1843081881" MODIFIED="1410743956040" TEXT="SOL_SOCKET ">
 <node CREATED="1370823323702" ID="ID_247918748" MODIFIED="1370823548308" TEXT="SO_BROADCAST (flag int)">
 <node CREATED="1370823533810" ID="ID_628094986" MODIFIED="1370823533810" TEXT="permit sending of broadcast datagrams"/>
 </node>
@@ -208,152 +208,152 @@
 </node>
 <node CREATED="1370755860603" FOLDED="true" ID="ID_1012968592" MODIFIED="1370759250187" POSITION="right" TEXT="in_addr">
 <node CREATED="1370755806195" ID="ID_112042897" MODIFIED="1370755875275">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      typedef uint32_t in_addr_t;
-    </p>
-    <p>
-      
-    </p>
-    <p style="text-align: left">
-      struct in_addr {
-    </p>
-    <p style="text-align: left">
-      &#160;&#160;&#160;&#160;in_addr_t s_addr;
-    </p>
-    <p style="text-align: left">
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      typedef uint32_t in_addr_t;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xd;
+    </p>&#xd;
+    <p style="text-align: left">&#xd;
+      struct in_addr {&#xd;
+    </p>&#xd;
+    <p style="text-align: left">&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;in_addr_t s_addr;&#xd;
+    </p>&#xd;
+    <p style="text-align: left">&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370759251267" FOLDED="true" ID="ID_471066670" MODIFIED="1370759308162" POSITION="right" TEXT="in6_addr">
 <node CREATED="1370759263339" ID="ID_1329596383" MODIFIED="1370759303511">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct in6_addr {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;uint8_t s6_addr[16];&#160;&#160;&#160;/* 128-bit IPv6 address */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* network byte ordered */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct in6_addr {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;uint8_t s6_addr[16];&#xa0;&#xa0;&#xa0;/* 128-bit IPv6 address */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* network byte ordered */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370758921155" FOLDED="true" ID="ID_1589125970" MODIFIED="1370759315619" POSITION="right" TEXT="sockaddr">
 <node CREATED="1370758891514" ID="ID_603538820" MODIFIED="1370758925472">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct sockaddr {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;sa_family_t sa_family;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;char&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sa_data[14];
-    </p>
-    <p>
-      }
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct sockaddr {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;sa_family_t sa_family;&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;char&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sa_data[14];&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      }&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370759345170" FOLDED="true" ID="ID_457097440" MODIFIED="1370759531715" POSITION="right" TEXT="sockaddr_in">
 <node CREATED="1370759477187" ID="ID_1586461803" MODIFIED="1370759528968">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct sockaddr_in {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;uint8_t sin_len;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* length of structure (16) */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;sa_family_t sin_family; /* AF_INET */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;in_port_t sin_port;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* 16-bit TCP or UDP port number */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* network byte ordered */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;struct in_addr sin_addr; /* 32-bit IPv4 address */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* network byte ordered */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;char sin_zero[8]; /* unused */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct sockaddr_in {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;uint8_t sin_len;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* length of structure (16) */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;sa_family_t sin_family; /* AF_INET */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;in_port_t sin_port;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* 16-bit TCP or UDP port number */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* network byte ordered */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;struct in_addr sin_addr; /* 32-bit IPv4 address */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* network byte ordered */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;char sin_zero[8]; /* unused */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370759352379" FOLDED="true" ID="ID_228512945" MODIFIED="1370759446115" POSITION="right" TEXT="sockaddr_in6">
 <node CREATED="1370759359666" ID="ID_1517986599" MODIFIED="1370759439097">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      struct sockaddr_in6 {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;uint8_t sin6_len;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* length of this struct (28) */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;sa_family_t sin6_family;&#160;&#160;/* AF_INET6 */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;in_port_t sin6_port;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* transport layer port# */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* network byte ordered */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;uint32_t sin6_flowinfo;&#160;&#160;&#160;&#160;&#160;/* flow information, undefined */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;struct in6_addr sin6_addr; /* IPv6 address */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* network byte ordered */
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;uint32_t sin6_scope_id;&#160;&#160;&#160;&#160;&#160;/* set of interfaces for a scope */
-    </p>
-    <p>
-      };
-    </p>
-  </body>
+<richcontent TYPE="NODE"><html>&#xd;
+  <head>&#xd;
+    &#xd;
+  </head>&#xd;
+  <body>&#xd;
+    <p>&#xd;
+      struct sockaddr_in6 {&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;uint8_t sin6_len;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* length of this struct (28) */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;sa_family_t sin6_family;&#xa0;&#xa0;/* AF_INET6 */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;in_port_t sin6_port;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* transport layer port# */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* network byte ordered */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;uint32_t sin6_flowinfo;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* flow information, undefined */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;struct in6_addr sin6_addr; /* IPv6 address */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* network byte ordered */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;uint32_t sin6_scope_id;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* set of interfaces for a scope */&#xd;
+    </p>&#xd;
+    <p>&#xd;
+      };&#xd;
+    </p>&#xd;
+  </body>&#xd;
 </html></richcontent>
 </node>
 </node>
