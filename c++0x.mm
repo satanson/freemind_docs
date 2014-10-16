@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1394035462954" ID="ID_1633829724" MODIFIED="1394035574878" TEXT="c++0x">
 <font NAME="SansSerif" SIZE="13"/>
-<node CREATED="1394035495041" FOLDED="true" ID="ID_1898775212" MODIFIED="1394042560085" POSITION="right" TEXT="multi-threading">
+<node CREATED="1394035495041" FOLDED="true" ID="ID_1898775212" MODIFIED="1413433328745" POSITION="right" TEXT="multi-threading">
 <node CREATED="1394038118141" FOLDED="true" ID="ID_215737241" MODIFIED="1394040379280" TEXT="#include&lt;mutex&gt;">
 <node CREATED="1394035580518" FOLDED="true" ID="ID_196991402" MODIFIED="1394038123681" TEXT="{recursive}{timed}mutex">
 <node CREATED="1394035732099" ID="ID_405349833" MODIFIED="1394035935232" TEXT="mutex">
@@ -193,9 +193,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1395046334295" ID="ID_1009988085" MODIFIED="1395046340125" POSITION="right" TEXT="functional">
+<node CREATED="1395046334295" FOLDED="true" ID="ID_1009988085" MODIFIED="1413466386012" POSITION="right" TEXT="functional">
 <node CREATED="1395046341501" ID="ID_205384723" MODIFIED="1395057256952" TEXT="#include&lt;functional&gt;">
-<node CREATED="1395046355356" FOLDED="true" ID="ID_1807669745" MODIFIED="1395058459394" TEXT="functors">
+<node CREATED="1395046355356" ID="ID_1807669745" MODIFIED="1413452399039" TEXT="functors">
 <node CREATED="1395046363675" FOLDED="true" ID="ID_1317967142" MODIFIED="1395057677307" TEXT="unary_function">
 <node CREATED="1395057490476" FOLDED="true" ID="ID_746383114" MODIFIED="1395057531625" TEXT="arithmetic">
 <node CREATED="1395046370012" ID="ID_305046230" MODIFIED="1395057528572" TEXT="plus +"/>
@@ -225,18 +225,18 @@
 <node CREATED="1395057684426" ID="ID_1259974086" MODIFIED="1395057714895" TEXT="not1/unary_negate"/>
 <node CREATED="1395057695613" ID="ID_1658299285" MODIFIED="1395057714894" TEXT="not2/binary_negate"/>
 </node>
-<node CREATED="1395057729699" FOLDED="true" ID="ID_614055938" MODIFIED="1395058122665" TEXT="bind (bind in js, section in haskell)">
+<node CREATED="1395057729699" ID="ID_614055938" MODIFIED="1413452403032" TEXT="bind (bind in js, section in haskell)">
 <node CREATED="1395057987423" ID="ID_1516914636" MODIFIED="1395058035118" TEXT="bind1st/binder1st"/>
 <node CREATED="1395058007317" ID="ID_1681557635" MODIFIED="1395058039865" TEXT="bind2nd/binder2nd"/>
 </node>
-<node CREATED="1395058428727" FOLDED="true" ID="ID_1397817140" MODIFIED="1395058443444" TEXT="function pointer">
+<node CREATED="1395058428727" ID="ID_1397817140" MODIFIED="1413452405391" TEXT="function pointer">
 <node CREATED="1395058124734" FOLDED="true" ID="ID_428326322" MODIFIED="1395058441757" TEXT="ptr_fun">
 <node CREATED="1395058305517" ID="ID_517148891" MODIFIED="1395058312212" TEXT="ptr_to_binary_func"/>
 <node CREATED="1395058312457" ID="ID_276296454" MODIFIED="1395058317938" TEXT="ptr_to_unary_func"/>
 </node>
 </node>
-<node CREATED="1395058443851" FOLDED="true" ID="ID_817648874" MODIFIED="1395058454223" TEXT="member pointer">
-<node CREATED="1395058201765" FOLDED="true" ID="ID_1254650487" MODIFIED="1395058423445" TEXT="mem_fun">
+<node CREATED="1395058443851" ID="ID_817648874" MODIFIED="1413452406730" TEXT="member pointer">
+<node CREATED="1395058201765" FOLDED="true" ID="ID_1254650487" MODIFIED="1413452409807" TEXT="mem_fun">
 <node CREATED="1395058327805" ID="ID_1171405755" MODIFIED="1395058341997" TEXT="mem_fun_t"/>
 <node CREATED="1395058335987" ID="ID_1169546424" MODIFIED="1395058348899" TEXT="mem_fun1_t"/>
 <node CREATED="1395058349177" ID="ID_977517931" MODIFIED="1395058359416" TEXT="const_fun_t"/>
@@ -249,6 +249,375 @@
 <node CREATED="1395058359685" ID="ID_240978724" MODIFIED="1395058414253" TEXT="const_func1_ref_t"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1413433459202" ID="ID_1805124486" MODIFIED="1413433464242" POSITION="right" TEXT="C++03"/>
+<node CREATED="1413433409064" FOLDED="true" ID="ID_1937750448" MODIFIED="1413466384439" POSITION="right" TEXT="C++11/C++0x">
+<node CREATED="1413433799666" FOLDED="true" ID="ID_30599021" MODIFIED="1413433809053" TEXT="history">
+<node CREATED="1413433607720" ID="ID_731076599" MODIFIED="1413433806575" TEXT="TR1 (C++ Technical Report 1)"/>
+<node CREATED="1413433713232" ID="ID_380454370" MODIFIED="1413433806572" TEXT="ISO/IEC 14882:2011"/>
+<node CREATED="1413433732743" ID="ID_1259568485" MODIFIED="1413433806570" TEXT="C++ stand N3337,2012-01-16"/>
+</node>
+<node CREATED="1413433819405" ID="ID_1163558927" MODIFIED="1413433822594" TEXT="modification">
+<node CREATED="1413433823711" ID="ID_628991148" MODIFIED="1413433989468" TEXT="core language enhancements">
+<node CREATED="1413433973404" ID="ID_385698036" MODIFIED="1413450205248" TEXT="run-time performance enhancements (3)">
+<node CREATED="1413434505019" FOLDED="true" ID="ID_119469011" MODIFIED="1413450223151" TEXT="1. rvalue reference">
+<node CREATED="1413434638972" ID="ID_980994220" MODIFIED="1413435309890" TEXT="intention">
+<node CREATED="1413434522344" ID="ID_1417534194" MODIFIED="1413434646992" TEXT="move semantics">
+<node CREATED="1413434533864" ID="ID_1604951676" MODIFIED="1413434541822" TEXT="move constructor"/>
+<node CREATED="1413434542053" ID="ID_1127323961" MODIFIED="1413434565853" TEXT="move assignment operator"/>
+<node CREATED="1413434570907" ID="ID_1921444280" MODIFIED="1413434574773" TEXT="std::move"/>
+<node CREATED="1413434578400" ID="ID_1828061361" MODIFIED="1413434624453" TEXT="swap instead deep copy"/>
+<node CREATED="1413446981046" ID="ID_440483555" MODIFIED="1413446991511" TEXT="copy constructor/move constructor"/>
+</node>
+<node CREATED="1413434649136" ID="ID_162186736" MODIFIED="1413434971541" TEXT="perfect forwarding">
+<node CREATED="1413434694676" ID="ID_592540744" MODIFIED="1413434769543" TEXT="T results type decay and deep copy"/>
+<node CREATED="1413434777455" ID="ID_1868508207" MODIFIED="1413434823155" TEXT="T&amp; prevents type decay but accepts no tempory value (rvalue)"/>
+<node CREATED="1413434856286" ID="ID_1425252450" MODIFIED="1413435012847" TEXT="T const&amp; deep copy (obsolete/deprecated)"/>
+</node>
+</node>
+<node CREATED="1413435310366" ID="ID_1539364850" MODIFIED="1413435311295" TEXT="rule">
+<node CREATED="1413435112795" ID="ID_1603786957" MODIFIED="1413435141631" TEXT="named rvalue reference is lvalue, unnamed rvalue reference is rvalue too"/>
+<node CREATED="1413435074474" ID="ID_1622010802" MODIFIED="1413435185183" TEXT="function argument match rule">
+<node CREATED="1413435148366" ID="ID_966679753" MODIFIED="1413435166143" TEXT="rvalue: T&amp;&amp; &gt; T const &amp;"/>
+<node CREATED="1413435166544" ID="ID_1344467392" MODIFIED="1413435179661" TEXT="lvalue: T&amp; &gt; T const &amp;"/>
+</node>
+<node CREATED="1413435186010" ID="ID_1118164397" MODIFIED="1413435200055" TEXT="reference collapsing rule">
+<node CREATED="1413435200952" ID="ID_1145967151" MODIFIED="1413435214989" TEXT="T&amp; &amp; -&gt;T&amp;"/>
+<node CREATED="1413435215231" ID="ID_1938006195" MODIFIED="1413435222172" TEXT="T&amp; &amp;&amp; -&gt;T&amp;"/>
+<node CREATED="1413435222585" ID="ID_1168439922" MODIFIED="1413435232293" TEXT="T&amp;&amp; &amp; -&gt; T&amp;"/>
+<node CREATED="1413435232574" ID="ID_1114618043" MODIFIED="1413435240120" TEXT="T&amp;&amp; &amp;&amp; -&gt; T&amp;&amp;"/>
+</node>
+<node CREATED="1413435242012" ID="ID_1484791264" MODIFIED="1413435267361" TEXT="template parameter deduction rule ">
+<node CREATED="1413435268774" ID="ID_818813693" MODIFIED="1413435275453" TEXT="rvalue: T&amp;&amp;"/>
+<node CREATED="1413435275673" ID="ID_376762665" MODIFIED="1413435281951" TEXT="lvalue: T&amp;"/>
+</node>
+</node>
+<node CREATED="1413435315127" ID="ID_1255848585" MODIFIED="1413435362027" TEXT="assoc">
+<node CREATED="1413435363031" ID="ID_1556027633" MODIFIED="1413435400136" TEXT="variadic template"/>
+<node CREATED="1413435484554" ID="ID_270469369" MODIFIED="1413435505952" TEXT="&lt;list&gt; emplace_back"/>
+</node>
+<node CREATED="1413435581923" ID="ID_968944705" MODIFIED="1413435584103" TEXT="link">
+<node CREATED="1413435585014" ID="ID_649592469" MODIFIED="1413435602599" TEXT="http://en.cppreference.com/w/cpp/container/vector/emplace_back"/>
+<node CREATED="1413435628648" ID="ID_1984047438" MODIFIED="1413435629883" TEXT="http://en.wikipedia.org/wiki/Return_value_optimization"/>
+<node CREATED="1413435676702" ID="ID_766710915" MODIFIED="1413435677860" TEXT="^ Sutter, Alexandrescu &quot;C++ coding standards&quot; #15"/>
+</node>
+</node>
+<node CREATED="1413435684534" FOLDED="true" ID="ID_887923243" MODIFIED="1413450227482" TEXT="2. constexpr">
+<node CREATED="1413435849666" FOLDED="true" ID="ID_1476058831" MODIFIED="1413442924860" TEXT="intention">
+<node CREATED="1413435855615" ID="ID_1445411497" MODIFIED="1413435994389" TEXT="constant expressions yields same result an both compile-time and run-time,"/>
+<node CREATED="1413435995558" ID="ID_307741426" MODIFIED="1413436022581" TEXT=" which are opportunities for compilers"/>
+<node CREATED="1413436000538" ID="ID_117997222" MODIFIED="1413436066885" TEXT="compilers evaluate constant expressions at complie-time and hardcode results into programs"/>
+<node CREATED="1413442626766" ID="ID_1416300186" MODIFIED="1413442659841" TEXT="function call and object constructor not allowed to appear in constant expressions before C++11"/>
+<node CREATED="1413442755581" ID="ID_311300869" MODIFIED="1413442916611" TEXT="using constexpr modifier before function make compilers to understand/verify/evaluate a compile-time constant"/>
+</node>
+<node CREATED="1413442925175" FOLDED="true" ID="ID_37782885" MODIFIED="1413446019625" TEXT="rule">
+<node CREATED="1413442927620" ID="ID_1018321019" MODIFIED="1413442962301" TEXT="non-void return type function"/>
+<node CREATED="1413442981906" ID="ID_1790983128" MODIFIED="1413443043133" TEXT="function body cannot declare variables or define new types"/>
+<node CREATED="1413443100364" ID="ID_1412755258" MODIFIED="1413443101370" TEXT="the body may contain only declarations, null statements and a single return statement"/>
+<node CREATED="1413443145210" ID="ID_775978432" MODIFIED="1413443146190" TEXT=" There must exist argument values such that, after argument substitution, the expression in the return statement produces a constant expression."/>
+<node CREATED="1413443916172" ID="ID_1739638207" MODIFIED="1413443989352" TEXT="constexpr can modifies variable, function,member function, constructor, copy constructor"/>
+<node CREATED="1413444007624" ID="ID_1486292782" MODIFIED="1413446006894" TEXT="the result of constexpr functions depends on the arguments"/>
+</node>
+</node>
+<node CREATED="1413446024910" FOLDED="true" ID="ID_1977921487" MODIFIED="1413450237969" STYLE="fork" TEXT="3. POD definition modification">
+<node CREATED="1413446061731" FOLDED="true" ID="ID_679288685" MODIFIED="1413449729482" TEXT="intention">
+<node CREATED="1413446066824" ID="ID_249319916" MODIFIED="1413446147753" TEXT="before C++11, struct/class has no member functions is POD"/>
+<node CREATED="1413448161960" ID="ID_850269793" MODIFIED="1413448172343" TEXT="POD can be statically initialized"/>
+<node CREATED="1413448175899" ID="ID_1198301672" MODIFIED="1413448187599" TEXT="C++11 relaxed POD definition"/>
+<node CREATED="1413448222777" ID="ID_1781340214" MODIFIED="1413448258605" TEXT="A class/struct/union is considered POD if it is trivial, standard-layout, and all of its non-static data members and base classes are PODs."/>
+<node CREATED="1413448279158" ID="ID_828850052" MODIFIED="1413448282770" TEXT="trivial">
+<node CREATED="1413449021952" ID="ID_1225941906" MODIFIED="1413449022996" TEXT="A type that is trivial can be statically initialized. It also means that it is legal to copy data around via memcpy, rather than having to use a copy constructor. The lifetime of a trivial type begins when its storage is defined, not when a constructor completes."/>
+<node CREATED="1413449178894" ID="ID_1276490287" MODIFIED="1413449180141" TEXT="Constructors are trivial only if there are no virtual member functions of the class and no virtual base classes. Copy/move operations also require that all of the non- static data members be trivial."/>
+<node CREATED="1413449064885" ID="ID_361882385" MODIFIED="1413449068418" TEXT="definition">
+<node CREATED="1413449069837" ID="ID_1040419357" MODIFIED="1413449070828" TEXT="Has a trivial default constructor."/>
+<node CREATED="1413449099941" ID="ID_1055275567" MODIFIED="1413449100873" TEXT="Has trivial copy and move constructors"/>
+<node CREATED="1413449110918" ID="ID_609423781" MODIFIED="1413449111683" TEXT="Has trivial copy and move assignment operators"/>
+<node CREATED="1413449124720" ID="ID_250811780" MODIFIED="1413449125679" TEXT="Has a trivial destructor, which must not be virtual."/>
+</node>
+</node>
+<node CREATED="1413448283002" ID="ID_1177949268" MODIFIED="1413449621339" TEXT="standard-layout">
+<node CREATED="1413448337395" ID="ID_159983855" MODIFIED="1413448354482" TEXT="1. no virtual function"/>
+<node CREATED="1413448355240" ID="ID_104838330" MODIFIED="1413448368682" TEXT="2. no virtual base"/>
+<node CREATED="1413448369202" FOLDED="true" ID="ID_1205068282" MODIFIED="1413448466957" TEXT="3. all of non-static data member has the same access control(private,protected,public)">
+<node CREATED="1413448422601" ID="ID_1140819530" MODIFIED="1413448463869" TEXT="because different access sections layout depends on implementors"/>
+</node>
+<node CREATED="1413448666560" ID="ID_1115263620" MODIFIED="1413448672933" TEXT="4. All its non-static data members, including any in its base classes, are in the same one class in the hierarchy">
+<node CREATED="1413449626545" ID="ID_1219764608" MODIFIED="1413449627654" TEXT="either has no non-static data members in the most derived class and at most one base class with non-static data members, or has no base classes with non-static data members, and"/>
+</node>
+<node CREATED="1413448694999" ID="ID_1302513491" MODIFIED="1413448702125" TEXT="5. The above rules also apply to all the base classes and to all non-static data members in the class hierarchy"/>
+<node CREATED="1413448730751" ID="ID_1979518561" MODIFIED="1413448740903" TEXT="6. It has no base classes of the same type as the first defined non-static data member"/>
+</node>
+</node>
+<node CREATED="1413449733559" ID="ID_1527518813" MODIFIED="1413449741682" TEXT="statically initialized">
+<node CREATED="1413449747346" ID="ID_1136495623" MODIFIED="1413449786613" TEXT="struct A{int a,float b,double c} a={0,1.2f,3.4};"/>
+</node>
+</node>
+</node>
+<node CREATED="1413434004900" ID="ID_1503147548" MODIFIED="1413465653004" TEXT="build-time performance enhancements(1)">
+<node CREATED="1413449847515" FOLDED="true" ID="ID_492009189" MODIFIED="1413450243533" TEXT="4. extern template">
+<node CREATED="1413449969329" ID="ID_707587472" MODIFIED="1413449974789" TEXT="intention">
+<node CREATED="1413449975699" ID="ID_1387936990" MODIFIED="1413450079057" TEXT="In C++03, the compiler must instantiate a template whenever a fully specified template is encountered in a translation unit. If the template is instantiated with the same types in many translation units, this can dramatically increase compile times. There is no way to prevent this in C++03, so C++11 introduced extern template ."/>
+<node CREATED="1413450082676" ID="ID_770049935" MODIFIED="1413450129090" TEXT="extern template class A&lt;T1,T2&gt;;"/>
+</node>
+<node CREATED="1413450133397" ID="ID_524551597" MODIFIED="1413450148740" TEXT="in fact, extern template specification"/>
+</node>
+</node>
+<node CREATED="1413434015928" ID="ID_1299975749" MODIFIED="1413465654583" TEXT="usability enhancements(14))">
+<node CREATED="1413450192319" FOLDED="true" ID="ID_1834159356" MODIFIED="1413451395864" TEXT="5. initializer list">
+<node CREATED="1413450578812" ID="ID_736419070" MODIFIED="1413450580384" TEXT="intent">
+<node CREATED="1413450581263" ID="ID_904774246" MODIFIED="1413450745471" TEXT="like statically initialization of POD, use {...}  initialize an object,especially container,such as vector,list,map,set"/>
+<node CREATED="1413450766201" ID="ID_714128258" MODIFIED="1413450812007" TEXT="vector&lt;int&gt; array={1,2,3,4,5};"/>
+<node CREATED="1413450786129" ID="ID_1505400278" MODIFIED="1413450814532" TEXT="vector&lt;string&gt; vs={&quot;foo&quot;,&quot;bar&quot;,&quot;foobar&quot;};"/>
+</node>
+<node CREATED="1413450840436" ID="ID_227866664" MODIFIED="1413450870540" TEXT="std::initializer_list&lt;T&gt;">
+<node CREATED="1413451039557" ID="ID_506778386" MODIFIED="1413451058131" TEXT=" first-class C++11 standard library type"/>
+<node CREATED="1413451075451" ID="ID_833189122" MODIFIED="1413451076352" TEXT=" initially constructed statically by the C++11 compiler only through the use of the {} syntax."/>
+<node CREATED="1413451088210" ID="ID_1926793311" MODIFIED="1413451089267" TEXT="The list can be copied once constructed, though this is only a copy-by-reference."/>
+<node CREATED="1413451132458" ID="ID_824354251" MODIFIED="1413451133321" TEXT=" An initializer list is constant">
+<node CREATED="1413451143934" ID="ID_8615145" MODIFIED="1413451144920" TEXT=" its members cannot be changed"/>
+<node CREATED="1413451165028" ID="ID_479446419" MODIFIED="1413451166552" TEXT=" nor can the data in those members be changed."/>
+</node>
+</node>
+</node>
+<node CREATED="1413451179281" ID="ID_817024450" MODIFIED="1413452600310" TEXT="6. uniform initialization">
+<node CREATED="1413451493506" FOLDED="true" ID="ID_208202291" MODIFIED="1413452127158" TEXT="intent">
+<node CREATED="1413451497663" ID="ID_1702828697" MODIFIED="1413451552547" TEXT="traditional constructor syntax, can look like a function declaration"/>
+<node CREATED="1413451547558" ID="ID_237238674" MODIFIED="1413451548403" TEXT="C++11 provides a syntax that allows for fully uniform type initialization that works on any object."/>
+<node CREATED="1413451608442" ID="ID_1043977477" MODIFIED="1413451617930" TEXT="use {} instead of ()">
+<node CREATED="1413451619959" ID="ID_1637622875" MODIFIED="1413451665414" TEXT="std::pair&lt;int,int&gt; a{1,2};"/>
+<node CREATED="1413451651372" ID="ID_1434308267" MODIFIED="1413451667698" TEXT="std::pair&lt;int,string&gt; a{1,&quot;one&quot;};"/>
+<node CREATED="1413451667991" ID="ID_494381598" MODIFIED="1413451675476" TEXT="std::vector&lt;int&gt; vc{}"/>
+<node CREATED="1413451679659" ID="ID_845976959" MODIFIED="1413451688204" TEXT="std::vector&lt;int&gt; vc{4}"/>
+</node>
+<node CREATED="1413451701450" ID="ID_1122232916" MODIFIED="1413451775581" TEXT="initializer-list-constructor takes priority over other constructors"/>
+</node>
+<node CREATED="1413452127410" ID="ID_771349592" MODIFIED="1413452130669" TEXT="issue">
+<node CREATED="1413452131521" ID="ID_1819177699" MODIFIED="1413452182018" TEXT="vector&lt;int&gt; a{1,2} vs vector&lt;int&gt; a(1,2)"/>
+</node>
+</node>
+<node CREATED="1413452372757" ID="ID_1916096036" MODIFIED="1413452534997" TEXT="7. type inference(auto,decltype)"/>
+<node CREATED="1413452610075" ID="ID_637785202" MODIFIED="1413452627888" TEXT="8. range-based for loop">
+<node CREATED="1413452670363" ID="ID_1586761725" MODIFIED="1413452672306" TEXT="intent">
+<node CREATED="1413452673851" ID="ID_307350374" MODIFIED="1413452841798" TEXT="for (auto e:iterable_obj){} borrow from Java etc."/>
+<node CREATED="1413452816467" ID="ID_909014539" MODIFIED="1413452865717" TEXT="iterable_obj has begin(),end()"/>
+</node>
+</node>
+<node CREATED="1413452875435" FOLDED="true" ID="ID_1791371921" MODIFIED="1413465917821" TEXT="9. lambda function">
+<node CREATED="1413452886373" ID="ID_1120100215" MODIFIED="1413452887633" TEXT="intent">
+<node CREATED="1413452888372" ID="ID_923180652" MODIFIED="1413452912037" TEXT="anonymous functions, function literals"/>
+</node>
+<node CREATED="1413456212202" ID="ID_1881572591" MODIFIED="1413456251311" TEXT="[](int x,int y){return x+y;} //return decltype(x+y) "/>
+<node CREATED="1413465661738" ID="ID_1696582723" MODIFIED="1413465746528" TEXT="closure">
+<node CREATED="1413465664766" ID="ID_1199446293" MODIFIED="1413465801904" TEXT="[=] all upvalues pass by value"/>
+<node CREATED="1413465669348" ID="ID_639631115" MODIFIED="1413465791259" TEXT="[&amp;] all upvalue pass by reference"/>
+<node CREATED="1413465672667" ID="ID_565711783" MODIFIED="1413465898891" TEXT="[value] only &apos;value&apos; passed by value"/>
+<node CREATED="1413465731204" ID="ID_808719826" MODIFIED="1413465850157" TEXT="[&amp;ref] only &apos;ref&apos; passed by reference"/>
+<node CREATED="1413465899682" ID="ID_1778909808" MODIFIED="1413465904699" TEXT="[&amp;,value]"/>
+<node CREATED="1413465905502" ID="ID_11708347" MODIFIED="1413465912493" TEXT="[=,&amp;ref]"/>
+</node>
+</node>
+<node CREATED="1413456252525" ID="ID_738093092" MODIFIED="1413456276696" TEXT="10. trailing-return-type">
+<node CREATED="1413456328175" ID="ID_1555423200" MODIFIED="1413456393808" TEXT="auto fn(para_list)-&gt;decltype(expr){}"/>
+</node>
+<node CREATED="1413456695487" ID="ID_1392271846" MODIFIED="1413456708814" TEXT="11. object construction improvement">
+<node CREATED="1413457089427" ID="ID_1833161526" MODIFIED="1413457129738" TEXT="call peer constuctor in initialization list">
+<node CREATED="1413456709916" ID="ID_606011956" MODIFIED="1413457093623" TEXT="C++11 allows constructors to call other peer constructors (known as delegation)."/>
+</node>
+<node CREATED="1413457082446" ID="ID_688656537" MODIFIED="1413457306342" TEXT="use BaseClass::BaseClass;">
+<node CREATED="1413457307414" ID="ID_993851175" MODIFIED="1413457320682" TEXT="base class constructor inheritance"/>
+<node CREATED="1413457324157" ID="ID_1952621474" MODIFIED="1413457359473" TEXT="class constructors cannot be inherited from two classes that use constructors with the same signature."/>
+</node>
+<node CREATED="1413457384345" ID="ID_1357028525" MODIFIED="1413457420235" TEXT="initialize the non-static member in place of declaration"/>
+</node>
+<node CREATED="1413457567504" ID="ID_104157633" MODIFIED="1413457576892" TEXT="12. override final">
+<node CREATED="1413457591866" ID="ID_419629323" MODIFIED="1413457605030" TEXT="override ">
+<node CREATED="1413457640737" ID="ID_1752559069" MODIFIED="1413457641757" TEXT="The override special identifier means that the compiler will check the base class(es) to see if there is a virtual function with this exact signature. And if there is not, the compiler will indicate an error."/>
+</node>
+<node CREATED="1413457644391" ID="ID_1663265376" MODIFIED="1413457645816" TEXT="final">
+<node CREATED="1413457661433" ID="ID_595388979" MODIFIED="1413457662310" TEXT="C++11 also adds the ability to prevent inheriting from classes or simply preventing overriding methods in derived classes. This is done with the special identifier final."/>
+</node>
+</node>
+<node CREATED="1413457681807" ID="ID_966206076" MODIFIED="1413457688053" TEXT="13. nullptr">
+<node CREATED="1413457781982" ID="ID_1713970153" MODIFIED="1413457788349" TEXT="intention">
+<node CREATED="1413457789256" ID="ID_663737710" MODIFIED="1413457897358" TEXT="NULL (in fact 0) as function argument  cannot determine which function overload is applied"/>
+<node CREATED="1413457897667" ID="ID_1662039495" MODIFIED="1413457907315" TEXT="int foobar(int a);"/>
+<node CREATED="1413457907549" ID="ID_1505249540" MODIFIED="1413457916434" TEXT="int foobar(int * a);"/>
+<node CREATED="1413457919107" ID="ID_529240627" MODIFIED="1413457922267" TEXT="foobar(NULL);"/>
+</node>
+<node CREATED="1413458069082" ID="ID_56305170" MODIFIED="1413458075019" TEXT="nullptr_t, nullptr"/>
+</node>
+<node CREATED="1413458076244" ID="ID_1239107203" MODIFIED="1413458121980" TEXT="14. strongly typed enumeration/typesafe enum">
+<node CREATED="1413458134982" ID="ID_972761478" MODIFIED="1413458137430" TEXT="intention">
+<node CREATED="1413458138215" ID="ID_612147018" MODIFIED="1413458173739" TEXT="in c++03, enum is integer,not typesafe"/>
+</node>
+<node CREATED="1413458323452" ID="ID_935243440" MODIFIED="1413458358667" TEXT="enum class/struct EnumName[:integral_type]{}"/>
+<node CREATED="1413458362701" ID="ID_1994118412" MODIFIED="1413458393717" TEXT="enum class Color{Red,Blue,Green};"/>
+<node CREATED="1413458394177" ID="ID_1975069250" MODIFIED="1413458442279" TEXT="enum struct Weekday:unsigned int{Sun,Mon,Tue,Wed,Thur,Fri,Sat};"/>
+</node>
+<node CREATED="1413458500584" ID="ID_340469131" MODIFIED="1413458507675" TEXT="15. right angle brackets">
+<node CREATED="1413458508790" ID="ID_745730198" MODIFIED="1413458563855" TEXT="vector&lt;vector&lt;int&gt; &gt; a;//ok both c++03 and c++11"/>
+<node CREATED="1413458541258" ID="ID_82198268" MODIFIED="1413458580270" TEXT="vector&lt;vector&lt;int&gt;&gt; a;//ok in c++11,but err in c++03"/>
+</node>
+<node CREATED="1413458581088" ID="ID_1702792690" MODIFIED="1413458663475" TEXT="16. explicit type conversion operator">
+<node CREATED="1413458664903" ID="ID_268336063" MODIFIED="1413458704727" TEXT="use explicit modify conversion operator"/>
+<node CREATED="1413458708358" ID="ID_1263395072" MODIFIED="1413458736709" TEXT="class A{public: explicit operator bool(){return true;}};"/>
+</node>
+<node CREATED="1413458830329" ID="ID_1420160163" MODIFIED="1413458858962" TEXT="17. using(template alias/type alias)">
+<node CREATED="1413458861278" ID="ID_473700132" MODIFIED="1413458920868" TEXT="template &lt;class T&gt; using Name=ParitialSpecializationOfTemplate&lt;T,B,C&gt;;"/>
+<node CREATED="1413458921568" ID="ID_1947770865" MODIFIED="1413458956690" TEXT="using functionType=int(*)(int,int);"/>
+</node>
+<node CREATED="1413459081783" ID="ID_1924977674" MODIFIED="1413459091402" TEXT="18. unrestricted union">
+<node CREATED="1413459092348" ID="ID_297649617" MODIFIED="1413459119066" TEXT="intent">
+<node CREATED="1413459119900" ID="ID_1638203981" MODIFIED="1413459121540" TEXT="In C++03, there are restrictions on what types of objects can be members of a union. For example, unions cannot contain any objects that define a non-trivial constructor. C++11 lifts some of these restrictions.[3]"/>
+<node CREATED="1413459134738" ID="ID_381393518" MODIFIED="1413459135560" TEXT="Unions can now contain objects that have a non-trivial constructor."/>
+<node CREATED="1413459149442" ID="ID_1040826402" MODIFIED="1413459150510" TEXT="If so, the implicit default constructor of the union is deleted, forcing a manual definition."/>
+</node>
+<node CREATED="1413459166591" ID="ID_737965745" MODIFIED="1413459166591" TEXT=""/>
+</node>
+</node>
+<node CREATED="1413434024194" FOLDED="true" ID="ID_676828458" MODIFIED="1413463642629" TEXT="functionality improvements(10)">
+<node CREATED="1413459257348" ID="ID_1151897039" MODIFIED="1413459269836" TEXT="19. variadic template">
+<node CREATED="1413459395205" ID="ID_1074805923" MODIFIED="1413459732457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      template &lt;typename Result,typename Func,typename...Args&gt;
+    </p>
+    <p>
+      Result syncr(RWLock&amp; lock,Func f,Args&amp;&amp;... args){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SharedSynchronization
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;get(&amp;lock);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return f(forward&lt;Args&gt;(args)...);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1413459749036" FOLDED="true" ID="ID_385683251" MODIFIED="1413461002520" TEXT="20. new string literal">
+<node CREATED="1413459831843" ID="ID_911865325" MODIFIED="1413459842231" TEXT="intention">
+<node CREATED="1413459843217" ID="ID_1298727138" MODIFIED="1413459848260" TEXT="c++03">
+<node CREATED="1413459849193" ID="ID_426323791" MODIFIED="1413459865681" TEXT="&quot;const char *&quot;"/>
+<node CREATED="1413459856816" ID="ID_826812457" MODIFIED="1413459873567" TEXT="L&quot;const wchar_t *&quot;"/>
+</node>
+<node CREATED="1413460108570" ID="ID_660859131" MODIFIED="1413460110477" TEXT="c++11">
+<node CREATED="1413460117157" ID="ID_249155027" MODIFIED="1413460119937" TEXT="unicode">
+<node CREATED="1413460120889" ID="ID_1987472835" MODIFIED="1413460156355" TEXT="u8&quot;utf8 string: const char[]&quot;"/>
+<node CREATED="1413460165205" ID="ID_1091108319" MODIFIED="1413460194733" TEXT="u&quot;utf16 string: const char16_t[]&quot;">
+<node CREATED="1413460227648" ID="ID_198972593" MODIFIED="1413460257171" TEXT="\uxxxx : 16bit unicode code point"/>
+</node>
+<node CREATED="1413460195083" ID="ID_215039540" MODIFIED="1413460211539" TEXT="U&quot;utf32 string: const char32_t[]&quot;">
+<node CREATED="1413460258961" ID="ID_200295360" MODIFIED="1413460292122" TEXT="\Uxxxxxxxx: 32bit unicode code point"/>
+</node>
+</node>
+<node CREATED="1413460447906" ID="ID_1351647354" MODIFIED="1413460450568" TEXT="raw string">
+<node CREATED="1413460452367" ID="ID_1231678364" MODIFIED="1413460478887" TEXT="R&quot;delimiter(&quot;a-z&quot;)delimter&quot;"/>
+</node>
+<node CREATED="1413460640014" ID="ID_1186966208" MODIFIED="1413460646520" TEXT="user-defined literals"/>
+</node>
+</node>
+</node>
+<node CREATED="1413461002964" ID="ID_1378729853" MODIFIED="1413461006830" TEXT="21. multithread">
+<node CREATED="1413461007905" ID="ID_2173741" MODIFIED="1413461022540" TEXT="memory model"/>
+<node CREATED="1413461023072" ID="ID_1212990581" MODIFIED="1413461029381" TEXT="thread_local keyword"/>
+</node>
+<node CREATED="1413461279303" ID="ID_883114812" MODIFIED="1413461331072" TEXT="22. explicit defaulted and deleted member functions">
+<node CREATED="1413461332816" ID="ID_446421570" MODIFIED="1413461339935" TEXT="=default"/>
+<node CREATED="1413461340480" ID="ID_423814927" MODIFIED="1413461342136" TEXT="=delete"/>
+</node>
+<node CREATED="1413461377568" ID="ID_497093181" MODIFIED="1413461382293" TEXT="23. long long int"/>
+<node CREATED="1413461388569" ID="ID_650997339" MODIFIED="1413461678801" TEXT="24. static_assert">
+<node CREATED="1413461703852" ID="ID_532261208" MODIFIED="1413461742263" TEXT="#if  #error #endif // preprocess-time assertion in c++03"/>
+<node CREATED="1413461742493" ID="ID_201108170" MODIFIED="1413461760180" TEXT="assert(expr) // run-time assertion in c++03"/>
+<node CREATED="1413461670733" ID="ID_1622423763" MODIFIED="1413461701660" TEXT="static_assert (constant-expression, error-message);// compile-time assertion in c++11"/>
+</node>
+<node CREATED="1413461877229" ID="ID_397454235" MODIFIED="1413461880354" TEXT="25. Allow sizeof to work on members of classes without an explicit object"/>
+<node CREATED="1413461888048" ID="ID_548895553" MODIFIED="1413461993532" TEXT="26. alignof /alignas">
+<node CREATED="1413461999058" ID="ID_200503784" MODIFIED="1413462017767" TEXT="alignof (T/expr) is a operator"/>
+<node CREATED="1413462038404" ID="ID_666878938" MODIFIED="1413462061919" TEXT="alignas(T/expr) variable modifier">
+<node CREATED="1413462071268" ID="ID_18112582" MODIFIED="1413462072307" TEXT="alignas(float) unsigned char c[sizeof(float)]"/>
+</node>
+</node>
+<node CREATED="1413463246579" ID="ID_1349451336" MODIFIED="1413463388865" TEXT="27. auto gc">
+<node CREATED="1413463274641" ID="ID_339114644" MODIFIED="1413463275671" TEXT="Previous C++ standards provided for programmer-driven garbage collection via set_new_handler, but gave no definition of object reachability for the purpose of automatic garbage collection. C++11 defines conditions under which pointer values are &quot;safely derived&quot; from other values. An implementation may specify that it operates under &quot;strict pointer safety,&quot; in which case pointers that are not derived according to these rules can become invalid."/>
+</node>
+<node CREATED="1413463389105" ID="ID_970618107" MODIFIED="1413463394511" TEXT="28. attributes">
+<node CREATED="1413463395576" ID="ID_345994263" MODIFIED="1413463422488" TEXT="#pragma //C-style"/>
+<node CREATED="1413463423043" ID="ID_1547901000" MODIFIED="1413463447256" TEXT="__attribute__ // GUN extension"/>
+<node CREATED="1413463433994" ID="ID_1817823649" MODIFIED="1413463478758" TEXT="__declspec //MS"/>
+<node CREATED="1413463480256" ID="ID_302884381" MODIFIED="1413463511087" TEXT="int [[attr1]] i [[attr2, attr3]];">
+<node CREATED="1413463610776" ID="ID_1733159902" MODIFIED="1413463613236" TEXT="noreturn"/>
+<node CREATED="1413463613458" ID="ID_687290703" MODIFIED="1413463619360" TEXT="carries_dependency"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1413433833102" FOLDED="true" ID="ID_331440157" MODIFIED="1413464573328" TEXT="standard library">
+<node CREATED="1413464228055" ID="ID_1285385394" MODIFIED="1413464233774" TEXT="thread"/>
+<node CREATED="1413464246486" ID="ID_1385450208" MODIFIED="1413464247833" TEXT="tuple"/>
+<node CREATED="1413464303520" ID="ID_1362790943" MODIFIED="1413464307704" TEXT="hash table"/>
+<node CREATED="1413464333141" ID="ID_267147647" MODIFIED="1413464337870" TEXT="regex"/>
+<node CREATED="1413464339099" ID="ID_477497571" MODIFIED="1413464344421" TEXT="smart pointer"/>
+<node CREATED="1413464351888" ID="ID_1069661809" MODIFIED="1413464353063" TEXT="random"/>
+<node CREATED="1413464433327" ID="ID_1127684298" MODIFIED="1413464438125" TEXT="wrapper reference"/>
+<node CREATED="1413464461962" ID="ID_174168323" MODIFIED="1413464462832" TEXT="Polymorphic wrappers for function objects"/>
+<node CREATED="1413464472338" ID="ID_511557700" MODIFIED="1413464478046" TEXT="type traits"/>
+<node CREATED="1413464540656" ID="ID_1863417349" MODIFIED="1413464541712" TEXT="Uniform method for computing the return type of function objects"/>
+</node>
+<node CREATED="1413464573806" FOLDED="true" ID="ID_1785189610" MODIFIED="1413465111272" TEXT="Improved C compatibility">
+<node CREATED="1413464721303" ID="ID_217084032" MODIFIED="1413464722120" TEXT="Preprocessor">
+<node CREATED="1413464730024" ID="ID_1241617652" MODIFIED="1413464730951" TEXT="variadic macros"/>
+<node CREATED="1413464739491" ID="ID_96759127" MODIFIED="1413464740863" TEXT="concatenation of adjacent narrow/wide string literals"/>
+<node CREATED="1413464749047" ID="ID_959857066" MODIFIED="1413464749822" TEXT="_Pragma() - Equivalent of #pragma"/>
+</node>
+<node CREATED="1413464757770" ID="ID_1420667126" MODIFIED="1413464758580" TEXT="long long Integer type that is at least 64-bits long."/>
+<node CREATED="1413464769316" ID="ID_1749535477" MODIFIED="1413464770113" TEXT="__func__ - Macro evaluating to the name of the function it is in."/>
+<node CREATED="1413464782362" ID="ID_576127280" MODIFIED="1413464783283" TEXT="Headers:">
+<node CREATED="1413464840735" MODIFIED="1413464840735" TEXT="cstdbool (stdbool.h)"/>
+<node CREATED="1413464840737" MODIFIED="1413464840737" TEXT="cstdint (stdint.h)"/>
+<node CREATED="1413464840738" MODIFIED="1413464840738" TEXT="cinttypes (inttypes.h)"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1413433465116" ID="ID_1037637539" MODIFIED="1413433493246" POSITION="right" TEXT="C++14 (ISO 2014-08-18)">
+<node CREATED="1413465114360" ID="ID_1544347371" MODIFIED="1413465116842" TEXT="features">
+<node CREATED="1413466247033" FOLDED="true" ID="ID_881195555" MODIFIED="1413466260665" TEXT="core language">
+<node CREATED="1413465117702" ID="ID_347209169" MODIFIED="1413466255770" TEXT="Function return type deduction">
+<node CREATED="1413465136201" ID="ID_1015584811" MODIFIED="1413465137190" TEXT="auto DeduceReturnType();   // Return type to be determined."/>
+<node CREATED="1413465138644" ID="ID_167941437" MODIFIED="1413465149918" TEXT="c++11: trailing-return-type"/>
+</node>
+<node CREATED="1413465502706" ID="ID_557947473" MODIFIED="1413466255766" TEXT="Alternate type deduction on declaration"/>
+<node CREATED="1413465558776" ID="ID_887392328" MODIFIED="1413466255764" TEXT="Relaxed constexpr restrictions"/>
+<node CREATED="1413465599382" ID="ID_800796387" MODIFIED="1413466255762" TEXT="Variable templates"/>
+<node CREATED="1413466044307" ID="ID_1791089437" MODIFIED="1413466255757" TEXT="Aggregate member initialization"/>
+<node CREATED="1413466066733" ID="ID_319316079" MODIFIED="1413466255755" TEXT="Binary literals"/>
+<node CREATED="1413466084135" ID="ID_1716330371" MODIFIED="1413466255753" TEXT="Digit separators"/>
+<node CREATED="1413466103809" ID="ID_1400336895" MODIFIED="1413466255751" TEXT="Generic lambdas">
+<node CREATED="1413466113033" ID="ID_1370706218" MODIFIED="1413466113934" TEXT="auto lambda = [](auto x, auto y) {return x + y;};"/>
+</node>
+<node CREATED="1413466229377" ID="ID_484267718" MODIFIED="1413466255744" TEXT="Lambda captures expressions"/>
+</node>
+<node CREATED="1413466243388" FOLDED="true" ID="ID_210107886" MODIFIED="1413466379432" TEXT="New standard library features">
+<node CREATED="1413466274112" ID="ID_1751637056" MODIFIED="1413466275790" TEXT="Shared mutexes and locking"/>
+<node CREATED="1413466322050" ID="ID_1341327300" MODIFIED="1413466322911" TEXT="Heterogeneous lookup in associative containers"/>
+<node CREATED="1413466344075" ID="ID_457236996" MODIFIED="1413466344942" TEXT="Standard user-defined literals"/>
+<node CREATED="1413466360459" ID="ID_812498708" MODIFIED="1413466361354" TEXT="Tuple addressing via type"/>
+<node CREATED="1413466375014" ID="ID_1248922422" MODIFIED="1413466375880" TEXT="Smaller library features"/>
 </node>
 </node>
 </node>

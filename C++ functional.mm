@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1411733664734" ID="ID_1757263154" MODIFIED="1411733676053" TEXT="C++ functional">
-<node CREATED="1411733699050" ID="ID_573254060" MODIFIED="1411733847134" POSITION="right" TEXT="functor (struct X{ T1 operator()(T2,T3);})">
+<node CREATED="1411733699050" ID="ID_573254060" MODIFIED="1413033457268" POSITION="right" TEXT="functor (struct X{ T1 operator()(T2,T3);})">
 <node CREATED="1411733784230" ID="ID_524906427" MODIFIED="1411733789817" TEXT="predefined">
 <node CREATED="1411733867604" ID="ID_506234049" MODIFIED="1411733872702" TEXT="binary_function">
 <node CREATED="1411733884043" ID="ID_779110703" MODIFIED="1411733930390" TEXT="plus minus multiplies divides modulus"/>
