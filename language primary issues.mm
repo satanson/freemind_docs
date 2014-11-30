@@ -1,0 +1,23 @@
+<map version="1.0.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1417239549999" ID="ID_386981422" MODIFIED="1417239615992" TEXT="language primary issues">
+<node CREATED="1417239750041" ID="ID_1575926851" MODIFIED="1417254713222" POSITION="right" TEXT="design">
+<node CREATED="1417239641962" ID="ID_1289176619" MODIFIED="1417253621368" TEXT="I. OOP">
+<node CREATED="1417239775236" ID="ID_1054542099" MODIFIED="1417239793442" TEXT="{ SP, OOP } ? "/>
+</node>
+<node CREATED="1417239667586" ID="ID_529834744" MODIFIED="1417253620554" TEXT="II. Generic">
+<node CREATED="1417239796549" ID="ID_868774959" MODIFIED="1417239869629" TEXT="1. Type Parameters (Generic Polymorphism)"/>
+<node CREATED="1417239821298" ID="ID_1397871811" MODIFIED="1417240097637" TEXT="2. Bound Type Parameters (Concept-Controlled=&gt;C++ , Type Classes=&gt;Haskell, Bound=&gt;Java)"/>
+<node CREATED="1417240098175" ID="ID_1091546741" MODIFIED="1417240163917" TEXT="3. Type Invariance (Scala, C#)"/>
+</node>
+<node CREATED="1417239675928" ID="ID_815842124" MODIFIED="1417253790833" TEXT="III. Metaprogramming">
+<node CREATED="1417240171722" ID="ID_1149415919" MODIFIED="1417254643475" TEXT="1. Type Discrimination  (C++)"/>
+<node CREATED="1417240898328" ID="ID_1071572177" MODIFIED="1417254683930" TEXT="2. Type Generation/Introspection   Reflection (Java)"/>
+<node CREATED="1417241421048" ID="ID_377518873" MODIFIED="1417254706374" TEXT="3. Self-construction  Metaprogramming (Perl, Haskell, Scala)">
+<node CREATED="1417253795091" ID="ID_94135060" MODIFIED="1417253795091" TEXT=""/>
+</node>
+</node>
+</node>
+<node CREATED="1417239763072" ID="ID_1964614652" MODIFIED="1417253634957" POSITION="right" TEXT="implementation"/>
+</node>
+</map>
