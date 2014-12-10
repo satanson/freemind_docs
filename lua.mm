@@ -501,14 +501,14 @@
 <node CREATED="1397478589496" ID="ID_188928144" MODIFIED="1397478904505" TEXT="debug.gethook ([thread])"/>
 </node>
 </node>
-<node CREATED="1397479183553" FOLDED="true" ID="ID_776971251" MODIFIED="1397481663142" POSITION="right" TEXT="coroutine">
+<node CREATED="1397479183553" ID="ID_776971251" MODIFIED="1417970757235" POSITION="right" TEXT="coroutine">
 <node CREATED="1397479317042" ID="ID_681977892" MODIFIED="1397479387823" TEXT="difference: coroutine vs thread">
-<node CREATED="1397479388727" ID="ID_716677272" MODIFIED="1397479425762" TEXT="a program with coroutines is running only one of its corou- tines, and this running coroutine suspends its execution only when it explicitly requests to be suspended."/>
+<node CREATED="1397479388727" ID="ID_716677272" MODIFIED="1417970791075" TEXT="a program with coroutines is running only one of its coroutines, and this running coroutine suspends its execution only when it explicitly requests to be suspended."/>
 <node CREATED="1397479438646" ID="ID_503811245" MODIFIED="1397479439447" TEXT="a program with threads runs several threads in parallel."/>
 </node>
 <node CREATED="1397479578367" ID="ID_1933056601" MODIFIED="1397479579843" TEXT="collaborative multithreading"/>
 <node CREATED="1397479525366" ID="ID_1308201423" MODIFIED="1397479740235" TEXT="coroutine.create(f) -- only creates a new coroutine and returns a handle to it, it does not start the coroutine."/>
-<node CREATED="1397479525366" FOLDED="true" ID="ID_405319027" MODIFIED="1397480603463" TEXT="coroutine.wrap(f)">
+<node CREATED="1397479525366" ID="ID_405319027" MODIFIED="1417970841421" TEXT="coroutine.wrap(f)">
 <node CREATED="1397480438898" ID="ID_893737704" MODIFIED="1397480458026" TEXT="creates a coroutine and returns a function that, when called, resumes the coroutine."/>
 <node CREATED="1397480522570" ID="ID_1140968535" MODIFIED="1397480523338" TEXT="Any arguments passed to this function go as extra arguments to coroutine.resume."/>
 <node CREATED="1397480541827" ID="ID_1507738081" MODIFIED="1397480567160" TEXT="coroutine.wrap returns all the values returned by coroutine.resume, except the first one (boolean)."/>
@@ -533,7 +533,7 @@
 </node>
 <node CREATED="1397479525366" ID="ID_132985777" MODIFIED="1397481303320" TEXT="coroutine.yield(...)">
 <node CREATED="1397481306710" ID="ID_1201248058" MODIFIED="1397481365450" TEXT="args passed to yield is return values of resume"/>
-<node CREATED="1397481365743" ID="ID_1019100778" MODIFIED="1397481402549" TEXT="args except first one passed to resume is reuturn value of yield"/>
+<node CREATED="1397481365743" ID="ID_1019100778" MODIFIED="1417970926051" TEXT="args except first one passed to resume is return value of yield"/>
 </node>
 <node CREATED="1397479525366" ID="ID_770472158" MODIFIED="1397481551611" TEXT="coroutine.running(co) -- true for running, otherwise false"/>
 <node CREATED="1397479525366" ID="ID_944449630" MODIFIED="1397481566638" TEXT="corouine.status(co)">
