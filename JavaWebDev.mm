@@ -251,8 +251,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1419711392743" ID="ID_669938956" MODIFIED="1419711392743">
 <richcontent TYPE="NODE"><html>
@@ -429,8 +428,7 @@
     </table>
     <br class="Apple-interchange-newline" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1419713469734" FOLDED="true" ID="ID_963010115" MODIFIED="1419713477862" TEXT="">
@@ -450,8 +448,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -496,7 +493,7 @@
 </node>
 </node>
 <node CREATED="1419696886083" ID="ID_1406987938" MODIFIED="1419706895816" POSITION="right" TEXT="JSP 2 new features">
-<node CREATED="1419696894800" FOLDED="true" ID="ID_606469427" MODIFIED="1419706903377" TEXT="JSP definition (web.xml)">
+<node CREATED="1419696894800" ID="ID_606469427" MODIFIED="1419928727849" TEXT="JSP definition (web.xml)">
 <node CREATED="1419696917912" ID="ID_662430337" MODIFIED="1419696977235" TEXT="&lt;jsp-config/&gt;">
 <node CREATED="1419696955770" ID="ID_1698904462" MODIFIED="1419696981166" TEXT="&lt;jsp-property-group/&gt;">
 <node CREATED="1419696992695" ID="ID_1724670987" MODIFIED="1419697005114" TEXT="&lt;url-pattern/&gt;"/>
@@ -549,7 +546,7 @@
 <node CREATED="1419699816482" FOLDED="true" ID="ID_1753624925" MODIFIED="1419706899783" TEXT="SimpleTagSupport.doTag()">
 <node CREATED="1419699863516" ID="ID_1559624693" MODIFIED="1419699864528" TEXT="http://tomcat.jaxwiki.org/jspapi/javax/servlet/jsp/tagext/SimpleTagSupport.html#getJspContext()"/>
 </node>
-<node CREATED="1419699917434" FOLDED="true" ID="ID_95133137" MODIFIED="1419703783942" TEXT="Tag File">
+<node CREATED="1419699917434" FOLDED="true" ID="ID_95133137" MODIFIED="1419928752762" TEXT="Tag File">
 <node CREATED="1419703764756" ID="ID_1904915266" MODIFIED="1419703773902">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -614,11 +611,10 @@
       &lt;/table&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1419705320877" FOLDED="true" ID="ID_977413357" MODIFIED="1419706897648" TEXT="Tag variables">
+<node CREATED="1419705320877" FOLDED="true" ID="ID_977413357" MODIFIED="1419928754633" TEXT="Tag variables">
 <node CREATED="1419705337575" ID="ID_1092526844" MODIFIED="1419705352956" TEXT="SimpleTagSupport.getJspContext()">
 <node CREATED="1419705354463" ID="ID_1434805177" MODIFIED="1419705381057" TEXT="JspContext.setAttribute()"/>
 <node CREATED="1419705382162" ID="ID_1838233261" MODIFIED="1419705451525" TEXT="JspContext.getAttribute(var,)"/>
@@ -728,8 +724,7 @@
       &#160;&#160;&lt;/filter-mapping&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1419608726595" ID="ID_555519981" MODIFIED="1419611094683" TEXT="servlet(web.xml) servlet-mapping">
@@ -764,8 +759,7 @@
       &#160;&#160;&#160;&#160;&lt;/servlet-mapping&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1419609824570" ID="ID_1993577306" MODIFIED="1419609889973" TEXT="request.GetRequestDispatcher(path).{ include, forward } (request,response)"/>
