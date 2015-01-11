@@ -736,7 +736,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1367558334667" FOLDED="true" ID="ID_1905263699" MODIFIED="1374680659370" POSITION="right" TEXT="BOM (Browser Object Moddel)">
+<node CREATED="1367558334667" ID="ID_1905263699" MODIFIED="1420432472447" POSITION="right" TEXT="BOM (Browser Object Moddel)">
 <node CREATED="1367558364899" FOLDED="true" ID="ID_1925585374" MODIFIED="1367558534283" TEXT="location">
 <node CREATED="1367411247659" FOLDED="true" ID="ID_980710710" MODIFIED="1367558480219" TEXT="protocol://hostname:port/pathname#hash?search">
 <node CREATED="1367411404315" ID="ID_1558498903" MODIFIED="1367411408301" TEXT="protocol"/>
@@ -826,10 +826,10 @@
 <node CREATED="1367559038950" ID="ID_1817676792" MODIFIED="1367559038950" TEXT="go()"/>
 </node>
 </node>
-<node CREATED="1367393256100" ID="ID_1790286632" MODIFIED="1419656676012" POSITION="right" TEXT="HTML4">
-<node CREATED="1367393258412" FOLDED="true" ID="ID_1142549122" MODIFIED="1369555096531" TEXT="standard attributes">
+<node CREATED="1367393256100" ID="ID_1790286632" MODIFIED="1420438176599" POSITION="right" TEXT="HTML4">
+<node CREATED="1367393258412" FOLDED="true" ID="ID_1142549122" MODIFIED="1420432517878" TEXT="standard attributes">
 <node CREATED="1367393264708" ID="ID_1686799017" MODIFIED="1367406818626" TEXT="Core Attributes !&lt;base,head,html,meta,param,script,style,title&gt;">
-<node CREATED="1367393277861" FOLDED="true" ID="ID_286559349" MODIFIED="1367462930513" TEXT="style">
+<node CREATED="1367393277861" FOLDED="true" ID="ID_286559349" MODIFIED="1420432482759" TEXT="style">
 <node CREATED="1367393358101" ID="ID_223606586" MODIFIED="1367393361461" TEXT="inline-style"/>
 </node>
 <node CREATED="1367393304684" ID="ID_1990113268" MODIFIED="1367393306028" TEXT="class">
@@ -844,7 +844,7 @@
 </node>
 <node CREATED="1367393527037" ID="ID_1447672213" MODIFIED="1367462920885" TEXT="Language Attributes !&lt;base,br,frame,frameset,hr,iframe,param,script&gt; ">
 <node CREATED="1367393618581" ID="ID_366969773" MODIFIED="1367393620365" TEXT="dir"/>
-<node CREATED="1367393620628" FOLDED="true" ID="ID_537254686" MODIFIED="1367393754200" TEXT="lang">
+<node CREATED="1367393620628" FOLDED="true" ID="ID_537254686" MODIFIED="1420432509905" TEXT="lang">
 <node CREATED="1367393722909" ID="ID_1405038044" MODIFIED="1367393740940" TEXT="language code (ISO 639-1)">
 <node CREATED="1367393669933" ID="ID_336565448" MODIFIED="1367393744122" TEXT="en"/>
 <node CREATED="1367393673284" ID="ID_967488089" MODIFIED="1367393744120" TEXT="zh"/>
@@ -854,239 +854,12 @@
 <node CREATED="1367393629453" ID="ID_1551331722" MODIFIED="1367393636949" TEXT="XHTML"/>
 </node>
 </node>
-<node CREATED="1367393774500" FOLDED="true" ID="ID_1929459248" MODIFIED="1367558455519" TEXT="Keyboard Attributes">
+<node CREATED="1367393774500" FOLDED="true" ID="ID_1929459248" MODIFIED="1420432516411" TEXT="Keyboard Attributes">
 <node CREATED="1367393788653" ID="ID_892293067" MODIFIED="1367393793670" TEXT="accesskey"/>
 <node CREATED="1367393793916" ID="ID_600596482" MODIFIED="1367393796613" TEXT="tabindex"/>
 </node>
 </node>
-<node CREATED="1367393969964" FOLDED="true" ID="ID_882926377" MODIFIED="1390560257065" TEXT="DTD (Document Type Definition) &lt;!DOCTYPE&gt;">
-<node CREATED="1367394189221" ID="ID_851700663" MODIFIED="1390560250488" TEXT="HTML 4.01">
-<node CREATED="1367394213588" ID="ID_484603006" MODIFIED="1367394415110" TEXT="Strict">
-<node CREATED="1367394304476" ID="ID_1955149118" MODIFIED="1367394320977">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      " http://www.w3.org/TR/html4/strict.dtd"&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-<node CREATED="1367394428732" ID="ID_1686371160" MODIFIED="1367394431574" TEXT="css"/>
-</node>
-<node CREATED="1367394222325" ID="ID_1735905523" MODIFIED="1367394426600" TEXT="Transitional">
-<node CREATED="1367394359268" ID="ID_1477201725" MODIFIED="1367394376675" TEXT="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &#xa;&quot; http://www.w3.org/TR/html4/loose.dtd&quot;&gt;"/>
-<node CREATED="1367394444092" ID="ID_1048049873" MODIFIED="1367394448095" TEXT="{, css}"/>
-</node>
-<node CREATED="1367394230357" ID="ID_1549671545" MODIFIED="1367394465126" TEXT="Frameset">
-<node CREATED="1367394397093" ID="ID_1016983108" MODIFIED="1367394405459" TEXT="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Frameset//EN&quot; &#xa;&quot; http://www.w3.org/TR/html4/frameset.dtd&quot;&gt;"/>
-<node CREATED="1367394451013" ID="ID_1175797826" MODIFIED="1367394462133" TEXT="!body, frameset"/>
-</node>
-</node>
-<node CREATED="1367394480540" FOLDED="true" ID="ID_1199852721" MODIFIED="1367394599647" TEXT="XHTML 1.0">
-<node CREATED="1367394494604" ID="ID_72950741" MODIFIED="1367394507886" TEXT="Strict">
-<node CREATED="1367394523861" ID="ID_1360171644" MODIFIED="1367394540266" TEXT="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;  &#xa;&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;"/>
-</node>
-<node CREATED="1367394550748" ID="ID_1142414705" MODIFIED="1367394551501" TEXT="Transitional">
-<node CREATED="1367394558445" ID="ID_314229990" MODIFIED="1367394565187" TEXT="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &#xa;&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;"/>
-</node>
-<node CREATED="1367394576821" FOLDED="true" ID="ID_465988499" MODIFIED="1367394594049" TEXT="Frameset">
-<node CREATED="1367394582733" ID="ID_303743123" MODIFIED="1367394589792" TEXT="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Frameset//EN&quot; &#xa;&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd&quot;&gt;"/>
-</node>
-</node>
-<node CREATED="1367395598124" FOLDED="true" ID="ID_909370868" MODIFIED="1367395817512" TEXT="Internal DTD Declaration">
-<node CREATED="1367395264716" ID="ID_222513174" MODIFIED="1367395265877" TEXT="&lt;!DOCTYPE root-element [element-declarations]&gt;">
-<node CREATED="1367395356204" ID="ID_1858785488" MODIFIED="1367395608147" TEXT="define root element of document"/>
-</node>
-<node CREATED="1367395388700" ID="ID_88307914" MODIFIED="1367395612481" TEXT="!ELEMENT">
-<node CREATED="1367395391909" ID="ID_1680220619" MODIFIED="1367395400398" TEXT="define element of document"/>
-</node>
-<node CREATED="1367395660887" ID="ID_1509148063" MODIFIED="1367395668377">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3" color="rgb(0, 0, 0)" face="courier new">&lt;?xml version="1.0"?&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!DOCTYPE note [<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT note (to,from,heading,body)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT to (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT from (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT heading (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT body (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>]&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;note&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;to&gt;Tove&lt;/to&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;from&gt;Jani&lt;/from&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;heading&gt;Reminder&lt;/heading&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;body&gt;Don't forget me this weekend&lt;/body&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;/note&gt;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1367395342701" FOLDED="true" ID="ID_1204998207" MODIFIED="1367395818576" TEXT="External DTD Declaration">
-<node CREATED="1367395641301" ID="ID_1535604901" MODIFIED="1367395642414" TEXT="&lt;!DOCTYPE root-element SYSTEM &quot;filename&quot;&gt;"/>
-<node CREATED="1367395696820" ID="ID_806902518" MODIFIED="1367395702371">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3" color="rgb(0, 0, 0)" face="courier new">&lt;?xml version="1.0"?&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!DOCTYPE note SYSTEM "note.dtd"&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;note&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&#xa0;&#xa0;&lt;to&gt;Tove&lt;/to&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&#xa0; &lt;from&gt;Jani&lt;/from&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&#xa0;&#xa0;&lt;heading&gt;Reminder&lt;/heading&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&#xa0; &lt;body&gt;Don't forget me this weekend!&lt;/body&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;/note&gt;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-<node CREATED="1367395740740" FOLDED="true" ID="ID_318576111" MODIFIED="1367395747480" TEXT="note.dtd">
-<node CREATED="1367395716386" ID="ID_1940407986" MODIFIED="1367395725021">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3" color="rgb(0, 0, 0)" face="courier new">&lt;!ELEMENT note (to,from,heading,body)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT to (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT from (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT heading (#PCDATA)&gt;<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>&lt;!ELEMENT body (#PCDATA)&gt;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1367395841404" FOLDED="true" ID="ID_251815995" MODIFIED="1367399703715" TEXT="DTD">
-<node CREATED="1367395846865" ID="ID_222069538" MODIFIED="1367395846865" TEXT="Elements">
-<node CREATED="1367396739861" FOLDED="true" ID="ID_1665088318" MODIFIED="1367398404136" TEXT="!ELEMENT">
-<node CREATED="1367396765692" FOLDED="true" ID="ID_1948620659" MODIFIED="1367397573151" TEXT="&lt;!ELEMENT element-name category&gt;">
-<node CREATED="1367396982124" ID="ID_197462302" MODIFIED="1367396983447" TEXT="&lt;!ELEMENT element-name EMPTY&gt;">
-<node CREATED="1367397005413" ID="ID_785683401" MODIFIED="1367397006574" TEXT="&lt;!ELEMENT br EMPTY&gt;"/>
-<node CREATED="1367397031644" ID="ID_1058082793" MODIFIED="1367397032822" TEXT="&lt;!ELEMENT element-name ANY&gt;"/>
-</node>
-</node>
-<node CREATED="1367396774237" FOLDED="true" ID="ID_13507151" MODIFIED="1367397575096" TEXT="&lt;!ELEMENT element-name (element-content)&gt;">
-<node CREATED="1367397015676" ID="ID_337964459" MODIFIED="1367397017038" TEXT="&lt;!ELEMENT element-name (#PCDATA)&gt;"/>
-<node CREATED="1367397015676" ID="ID_1062014642" MODIFIED="1367397429799" TEXT="&lt;!ELEMENT element-name (#CDATA)&gt;"/>
-<node CREATED="1367397067260" ID="ID_1410212073" MODIFIED="1367397068374" TEXT="&lt;!ELEMENT element-name (child1)&gt;"/>
-<node CREATED="1367397076004" FOLDED="true" ID="ID_426379431" MODIFIED="1367397130015" TEXT="&lt;!ELEMENT element-name (child1,child2,...)&gt;">
-<node CREATED="1367397121860" ID="ID_491599021" MODIFIED="1367397123311" TEXT="When children are declared in a sequence separated by commas, the children must appear in the same sequence in the document."/>
-</node>
-<node CREATED="1367397160932" ID="ID_1785878145" MODIFIED="1367397340799" TEXT="one ">
-<node CREATED="1367397331028" ID="ID_1948374755" MODIFIED="1367397331028" TEXT="&lt;!ELEMENT element-name (child-name)&gt;"/>
-</node>
-<node CREATED="1367397196221" ID="ID_240230506" MODIFIED="1367397346111" TEXT="+ one or more">
-<node CREATED="1367397526813" ID="ID_1029163802" MODIFIED="1367397527856" TEXT="&lt;!ELEMENT element-name (child-name+)&gt;"/>
-</node>
-<node CREATED="1367397323140" ID="ID_1492287270" MODIFIED="1367397351384" TEXT="* zero or more">
-<node CREATED="1367397513413" ID="ID_1497694242" MODIFIED="1367397514591" TEXT="&lt;!ELEMENT element-name (child-name*)&gt;"/>
-</node>
-<node CREATED="1367397351957" ID="ID_386059441" MODIFIED="1367397362791" TEXT="? zero or one">
-<node CREATED="1367397496956" ID="ID_1937215864" MODIFIED="1367397498135" TEXT="&lt;!ELEMENT element-name (child-name?)&gt;"/>
-</node>
-<node CREATED="1367397363812" ID="ID_936324563" MODIFIED="1367397388439" TEXT="| alternative">
-<node CREATED="1367397542132" ID="ID_1204166575" MODIFIED="1367397543192" TEXT="&lt;!ELEMENT note (to,from,header,(message|body))&gt;"/>
-</node>
-<node CREATED="1367397433620" ID="ID_1520767460" MODIFIED="1367397474304" TEXT="(...|...)?*+">
-<node CREATED="1367397553188" ID="ID_256171307" MODIFIED="1367397554289" TEXT="&lt;!ELEMENT note (#PCDATA|to|from|header|message)*&gt;"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1367395846866" ID="ID_1336532337" MODIFIED="1367395846866" TEXT="Attributes">
-<node CREATED="1367397604908" FOLDED="true" ID="ID_1141258143" MODIFIED="1367398389395" TEXT="!ATTLIST">
-<node CREATED="1367397627260" ID="ID_265525261" MODIFIED="1367397628774" TEXT="&lt;!ATTLIST element-name attribute-name attribute-type default-value&gt;">
-<node CREATED="1367397655100" FOLDED="true" ID="ID_1174396615" MODIFIED="1367397910456" TEXT="attribute-type">
-<node CREATED="1367397669532" ID="ID_1975809702" MODIFIED="1367397670919" TEXT="CDATA"/>
-<node CREATED="1367397671372" ID="ID_123605805" MODIFIED="1367397680789" TEXT="(en1|en2|..)"/>
-<node CREATED="1367397691964" FOLDED="true" ID="ID_40421251" MODIFIED="1367397903263" TEXT="ID">
-<node CREATED="1367397710204" ID="ID_455463331" MODIFIED="1367397711438" TEXT="unique id"/>
-</node>
-<node CREATED="1367397722420" FOLDED="true" ID="ID_1002051360" MODIFIED="1367397904959" TEXT="IDREF">
-<node CREATED="1367397738660" ID="ID_207054807" MODIFIED="1367397739944" TEXT="id of another element"/>
-</node>
-<node CREATED="1367397748876" FOLDED="true" ID="ID_1615413806" MODIFIED="1367397905407" TEXT="IDREFS">
-<node CREATED="1367397764404" ID="ID_551784111" MODIFIED="1367397765807" TEXT="list of other ids"/>
-</node>
-<node CREATED="1367397776668" FOLDED="true" ID="ID_1340207618" MODIFIED="1367397905923" TEXT="NMTOKEN">
-<node CREATED="1367397791325" ID="ID_1774249851" MODIFIED="1367397792824" TEXT="valid XML name"/>
-</node>
-<node CREATED="1367397803492" FOLDED="true" ID="ID_75687254" MODIFIED="1367397906403" TEXT="NMTOKENS">
-<node CREATED="1367397811572" ID="ID_462840873" MODIFIED="1367397812716" TEXT=" list of valid XML names"/>
-</node>
-<node CREATED="1367397819948" FOLDED="true" ID="ID_399070387" MODIFIED="1367397907171" TEXT="ENTITY">
-<node CREATED="1367397831812" ID="ID_1033361711" MODIFIED="1367397832728" TEXT="entity"/>
-</node>
-<node CREATED="1367397841493" FOLDED="true" ID="ID_1003963384" MODIFIED="1367397907667" TEXT="ENTITIES">
-<node CREATED="1367397849876" ID="ID_1107763100" MODIFIED="1367397850888" TEXT="list of entities"/>
-</node>
-<node CREATED="1367397861621" FOLDED="true" ID="ID_1402483088" MODIFIED="1367397908639" TEXT="NOTATION">
-<node CREATED="1367397871268" ID="ID_801484367" MODIFIED="1367397872327" TEXT="name of a notation"/>
-</node>
-<node CREATED="1367397881156" FOLDED="true" ID="ID_1418926091" MODIFIED="1367397909039" TEXT="xml:">
-<node CREATED="1367397895965" ID="ID_817795831" MODIFIED="1367397898897" TEXT="predefined xml value"/>
-</node>
-</node>
-<node CREATED="1367397964069" FOLDED="true" ID="ID_1754998775" MODIFIED="1367398386144" TEXT="default-value">
-<node CREATED="1367397999208" ID="ID_1052614181" MODIFIED="1367397999208" TEXT="value">
-<node CREATED="1367397999209" ID="ID_1144800734" MODIFIED="1367397999209" TEXT="The default value of the attribute"/>
-</node>
-<node CREATED="1367397999210" ID="ID_1719603530" MODIFIED="1367397999210" TEXT="#REQUIRED">
-<node CREATED="1367397999211" ID="ID_1317321602" MODIFIED="1367397999211" TEXT="The attribute is required"/>
-</node>
-<node CREATED="1367397999212" ID="ID_435163699" MODIFIED="1367397999212" TEXT="#IMPLIED">
-<node CREATED="1367397999213" ID="ID_1580823453" MODIFIED="1367397999213" TEXT="The attribute is not required"/>
-</node>
-<node CREATED="1367397999214" ID="ID_60210460" MODIFIED="1367397999214" TEXT="#FIXED value">
-<node CREATED="1367397999215" ID="ID_1054182482" MODIFIED="1367397999215" TEXT="The attribute value is fixed"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1367395846867" ID="ID_63603967" MODIFIED="1367395846867" TEXT="Entities">
-<node CREATED="1367398395252" ID="ID_1457660523" MODIFIED="1367398407494" TEXT="!ENTITY">
-<node CREATED="1367398392156" ID="ID_511989490" MODIFIED="1367398436857" TEXT="&lt;!ENTITY entity-name &quot;entity-value&quot;&gt;">
-<node CREATED="1367398424316" ID="ID_1405518465" MODIFIED="1367398425190" TEXT="&lt;!ENTITY writer &quot;Donald Duck.&quot;&gt;">
-<node CREATED="1367398444868" ID="ID_1881668295" MODIFIED="1367398450886" TEXT="&amp;writer;"/>
-</node>
-<node CREATED="1367398431940" ID="ID_493180476" MODIFIED="1367398433022" TEXT="&lt;!ENTITY copyright &quot;Copyright W3Schools.&quot;&gt;">
-<node CREATED="1367398452228" ID="ID_1595160129" MODIFIED="1367398462703" TEXT="&amp;copyright;"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1367395846868" ID="ID_1408302246" MODIFIED="1367395846868" TEXT="PCDATA">
-<node CREATED="1367396685252" ID="ID_1653162031" MODIFIED="1367396686599" TEXT="parsed character data"/>
-</node>
-<node CREATED="1367395846869" ID="ID_1858882859" MODIFIED="1367395846869" TEXT="CDATA">
-<node CREATED="1367396616253" ID="ID_1985017855" MODIFIED="1367396617640" TEXT="character data"/>
-<node CREATED="1367399500116" ID="ID_1102378314" MODIFIED="1367399505695" TEXT="&lt;![CDATA[...]]&gt;"/>
-</node>
-</node>
-<node CREATED="1367398678669" FOLDED="true" ID="ID_1905065657" MODIFIED="1367398863339" TEXT="DTD validation">
-<node CREATED="1367398711980" FOLDED="true" ID="ID_857068465" MODIFIED="1367398858803" TEXT="IE">
-<node CREATED="1367398718160" ID="ID_1658740522" MODIFIED="1367398725320">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3" color="rgb(0, 0, 0)" face="courier new">var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>xmlDoc.async="false";<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>xmlDoc.validateOnParse="true";<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>xmlDoc.load("note_dtd_error.xml");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/><br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write("&lt;br /&gt;Error Code: ");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write(xmlDoc.parseError.errorCode);<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write("&lt;br /&gt;Error Reason: ");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write(xmlDoc.parseError.reason);</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-<node CREATED="1367398746379" ID="ID_1224753635" MODIFIED="1367398751217">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3" color="rgb(0, 0, 0)" face="courier new">var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>xmlDoc.async="false";<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>xmlDoc.validateOnParse="false";<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>xmlDoc.load("note_dtd_error.xml");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/><br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write("&lt;br /&gt;Error Code: ");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write(xmlDoc.parseError.errorCode);<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write("&lt;br /&gt;Error Reason: ");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write(xmlDoc.parseError.reason);<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write("&lt;br /&gt;Error Line: ");<br size="3" style="word-spacing: 0px; font-variant: normal; line-height: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal" align="auto"/>document.write(xmlDoc.parseError.line);</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1367398860964" ID="ID_399449416" MODIFIED="1367398862115" TEXT="parseError Object"/>
-</node>
-</node>
-<node CREATED="1367406856155" FOLDED="true" ID="ID_200638441" MODIFIED="1419921644916" TEXT="tags (&lt;tagname&gt; DOM Object)">
+<node CREATED="1367406856155" FOLDED="true" ID="ID_200638441" MODIFIED="1420432446751" TEXT="tags (&lt;tagname&gt; DOM Object)">
 <node CREATED="1367412068819" FOLDED="true" ID="ID_1043644644" MODIFIED="1367503870951" TEXT="&lt;head&gt; &lt;tittle&gt; &lt;base&gt; &lt;link&gt; &lt;style&gt; &lt;script&gt; &lt;noscript&gt; &lt;meta&gt;">
 <node CREATED="1367412186635" ID="ID_1572896566" MODIFIED="1367412192043" TEXT="&lt;head&gt;"/>
 <node CREATED="1367412176451" FOLDED="true" ID="ID_1433274345" MODIFIED="1367413825810" TEXT="&lt;meta&gt; Meta">
@@ -1626,9 +1399,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1367545319492" FOLDED="true" ID="ID_610552722" MODIFIED="1390573284717" POSITION="right" TEXT="HTML5">
+<node CREATED="1367545319492" ID="ID_610552722" MODIFIED="1420432424982" POSITION="right" TEXT="HTML5">
 <node CREATED="1367545339156" ID="ID_165261883" MODIFIED="1367545429592" TEXT="&lt;header&gt; &lt;nav&gt;"/>
-<node CREATED="1367545495339" ID="ID_1412928991" MODIFIED="1390541872179" TEXT="&lt;input&gt;">
+<node CREATED="1367545495339" FOLDED="true" ID="ID_1412928991" MODIFIED="1420432460434" TEXT="&lt;input&gt;">
 <node CREATED="1367545501852" ID="ID_506908508" MODIFIED="1367545513098" TEXT="week"/>
 <node CREATED="1367545521884" ID="ID_824627320" MODIFIED="1367545522893" TEXT="url"/>
 <node CREATED="1367545531212" ID="ID_366126364" MODIFIED="1367545532189" TEXT="time"/>
@@ -3015,7 +2788,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1366888959461" ID="ID_1738940744" MODIFIED="1419923200713" POSITION="right" TEXT="JavaScript">
+<node CREATED="1366888959461" ID="ID_1738940744" MODIFIED="1420595134762" POSITION="right" TEXT="JavaScript">
 <node CREATED="1366882341245" FOLDED="true" ID="ID_1452511357" MODIFIED="1419923718854" TEXT="synopsis">
 <node CREATED="1366882349813" ID="ID_1331479937" MODIFIED="1366882364332" TEXT="prototype-based scripting language">
 <node CREATED="1366882681197" ID="ID_1552723811" MODIFIED="1366883328659" TEXT="class-based language v.s. prototype-based language">
@@ -3051,7 +2824,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1367208336653" ID="ID_20809572" MODIFIED="1419923674438" TEXT="JavaScript Basic">
+<node CREATED="1367208336653" ID="ID_20809572" MODIFIED="1420805260588" TEXT="JavaScript Basic">
 <node CREATED="1366888967948" FOLDED="true" ID="ID_1017152262" MODIFIED="1419923707308" TEXT="Global Objects">
 <node CREATED="1366888978156" ID="ID_1537629049" MODIFIED="1367935569107" TEXT="General-purpose constructors">
 <node CREATED="1366889001756" ID="ID_1730335898" MODIFIED="1366889010427" TEXT="Array"/>
@@ -3579,7 +3352,7 @@ else&#xd;&#xd;
 <node CREATED="1366945470957" ID="ID_1115032375" MODIFIED="1366945474573" TEXT="yield"/>
 </node>
 </node>
-<node CREATED="1366945613957" ID="ID_634625379" MODIFIED="1391171299633" TEXT="{Value, Variable, Literal}">
+<node CREATED="1366945613957" ID="ID_634625379" MODIFIED="1420805260602" TEXT="{Value, Variable, Literal}">
 <node CREATED="1366945705366" ID="ID_1883771662" MODIFIED="1419923789585" TEXT="values">
 <node CREATED="1366945633054" FOLDED="true" ID="ID_238717885" MODIFIED="1390571564989" TEXT="&apos;number&apos;">
 <node CREATED="1366945641302" ID="ID_863954466" MODIFIED="1366945650933" TEXT="42, 3.1415926"/>
@@ -4890,7 +4663,7 @@ else&#xd;&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1366902461780" ID="ID_1417940235" MODIFIED="1419923209948" POSITION="right" TEXT=".html &lt;script&gt;">
+<node CREATED="1366902461780" FOLDED="true" ID="ID_1417940235" MODIFIED="1420432413904" POSITION="right" TEXT=".html &lt;script&gt;">
 <node CREATED="1366902469124" ID="ID_182437822" MODIFIED="1366902719506" TEXT="&lt;script&gt;...&lt;/script&gt;&lt;noscript&gt;alt&lt;/noscript&gt;">
 <node CREATED="1366902492324" ID="ID_1519174456" MODIFIED="1366902543139" TEXT="charset=&quot;utf8&quot;"/>
 <node CREATED="1366902544652" ID="ID_787670460" MODIFIED="1366902565194" TEXT="type=&quot;text/javascript&quot;"/>
