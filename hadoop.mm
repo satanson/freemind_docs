@@ -22,7 +22,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337579608816" ID="ID_43285480" MODIFIED="1421043571328" POSITION="right" TEXT="installation">
+<node CREATED="1337579608816" FOLDED="true" ID="ID_43285480" MODIFIED="1421735224534" POSITION="right" TEXT="installation">
 <node CREATED="1337579616954" ID="ID_1868279812" MODIFIED="1421044003202" TEXT="single Node setup">
 <node CREATED="1421044024750" ID="ID_471713622" MODIFIED="1421053397818" TEXT="standalone (on native Linux FS)">
 <node CREATED="1337579894837" ID="ID_562124024" LINK="http://hadoop.apache.org/common/docs/r1.0.3/single_node_setup.html" MODIFIED="1421044045647" TEXT="http://hadoop.apache.org/common/docs/r1.0.3/single_node_setup.html"/>
@@ -310,7 +310,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1344476441187" ID="ID_1003658750" MODIFIED="1397632149390" POSITION="right" TEXT="features">
+<node CREATED="1344476441187" FOLDED="true" ID="ID_1003658750" MODIFIED="1421735226520" POSITION="right" TEXT="features">
 <node CREATED="1343288574548" ID="ID_237526338" MODIFIED="1344476458452" TEXT="data-intensive"/>
 <node CREATED="1343288623011" ID="ID_1634852503" MODIFIED="1344476458454" TEXT="move-code-to-data"/>
 <node CREATED="1343374471823" ID="ID_691447953" MODIFIED="1344476458457" TEXT="scaling out instead of scaling up">
@@ -322,8 +322,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1344496220170" ID="ID_590118039" MODIFIED="1421045880637" POSITION="right" TEXT="hdfs">
+<node CREATED="1344496220170" ID="ID_590118039" MODIFIED="1421735264295" POSITION="right" TEXT="hdfs">
 <node CREATED="1344496390952" ID="ID_1458830962" MODIFIED="1344496468985" TEXT="single file size 100 TB "/>
+<node CREATED="1421735270931" ID="ID_1795393063" MODIFIED="1421735304213" TEXT="web UI: http://namenode:50070"/>
+<node CREATED="1421735291998" ID="ID_596567257" MODIFIED="1421735328521" TEXT="URL: hdfs://namenode:9000/"/>
 <node CREATED="1344513061492" ID="ID_1219158498" MODIFIED="1363679563345" TEXT="configuration">
 <node CREATED="1344498193950" ID="ID_1112186251" MODIFIED="1344498226078" TEXT="&lt;property&gt;&#xa;     &lt;name&gt;fs.default.name&lt;/name&gt;&#xa;     &lt;value&gt;hdfs://localhost:9000&lt;/value&gt;&#xa;&lt;/property&gt;"/>
 <node CREATED="1344498348172" ID="ID_58683308" MODIFIED="1344498367660" TEXT="&lt;property&gt;&#xa;         &lt;name&gt;dfs.replication&lt;/name&gt;&#xa;         &lt;value&gt;3&lt;/value&gt;&#xa;&lt;/property&gt;"/>
@@ -332,8 +334,8 @@
 <node CREATED="1344497158219" ID="ID_190425899" MODIFIED="1344497214946" TEXT="&lt;hdfs|file&gt;://host:port/path"/>
 <node CREATED="1363679578298" ID="ID_608138082" MODIFIED="1363679578298" TEXT=""/>
 </node>
-<node CREATED="1344496390972" FOLDED="true" ID="ID_1049510404" MODIFIED="1421046360018" TEXT="hdfs file system interface">
-<node CREATED="1344496649400" ID="ID_1843296199" MODIFIED="1344496657247" TEXT="file system shell">
+<node CREATED="1344496390972" FOLDED="true" ID="ID_1049510404" MODIFIED="1421735219436" TEXT="hdfs file system interface">
+<node CREATED="1344496649400" FOLDED="true" ID="ID_1843296199" MODIFIED="1421735215787" TEXT="file system shell">
 <node CREATED="1344496805190" ID="ID_442109750" MODIFIED="1344496805190" TEXT="hadoop fs -cmd &lt;args&gt;">
 <node CREATED="1344496832851" ID="ID_951110256" MODIFIED="1421045899555" TEXT="-cmd">
 <node CREATED="1344499225341" ID="ID_1597396784" MODIFIED="1344499258662" TEXT="-fs [local |file_system_URL]"/>
