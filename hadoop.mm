@@ -22,7 +22,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1337579608816" FOLDED="true" ID="ID_43285480" MODIFIED="1421735224534" POSITION="right" TEXT="installation">
+<node CREATED="1337579608816" ID="ID_43285480" MODIFIED="1421986006017" POSITION="right" TEXT="installation">
 <node CREATED="1337579616954" ID="ID_1868279812" MODIFIED="1421044003202" TEXT="single Node setup">
 <node CREATED="1421044024750" ID="ID_471713622" MODIFIED="1421053397818" TEXT="standalone (on native Linux FS)">
 <node CREATED="1337579894837" ID="ID_562124024" LINK="http://hadoop.apache.org/common/docs/r1.0.3/single_node_setup.html" MODIFIED="1421044045647" TEXT="http://hadoop.apache.org/common/docs/r1.0.3/single_node_setup.html"/>

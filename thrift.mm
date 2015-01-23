@@ -256,7 +256,7 @@
 </node>
 <node CREATED="1383097983295" ID="ID_1551914532" MODIFIED="1383097993109" POSITION="right" TEXT="thrift Types/IDL">
 <node CREATED="1382957201256" ID="ID_108374405" MODIFIED="1389711058445" TEXT="Types">
-<node CREATED="1382957204284" FOLDED="true" ID="ID_1502044980" MODIFIED="1389707592660" TEXT="Base Types">
+<node CREATED="1382957204284" FOLDED="true" ID="ID_1502044980" MODIFIED="1421894266901" TEXT="Base Types">
 <node CREATED="1382957304851" MODIFIED="1382957304851" TEXT="bool: A boolean value (true or false)"/>
 <node CREATED="1382957304852" MODIFIED="1382957304852" TEXT="byte: An 8-bit signed integer"/>
 <node CREATED="1382957304854" MODIFIED="1382957304854" TEXT="i16: A 16-bit signed integer"/>
@@ -265,7 +265,7 @@
 <node CREATED="1382957304859" MODIFIED="1382957304859" TEXT="double: A 64-bit floating point number"/>
 <node CREATED="1382957304860" MODIFIED="1382957304860" TEXT="string: A text string encoded using UTF-8 encoding"/>
 </node>
-<node CREATED="1382957306762" FOLDED="true" ID="ID_246980928" MODIFIED="1389707591332" TEXT="Special Types">
+<node CREATED="1382957306762" FOLDED="true" ID="ID_246980928" MODIFIED="1421894268554" TEXT="Special Types">
 <node CREATED="1382957327988" ID="ID_589795720" MODIFIED="1382957328976" TEXT="binary: a sequence of unencoded bytes"/>
 </node>
 <node CREATED="1382957386030" ID="ID_1183404209" MODIFIED="1382957387031" TEXT="Structs"/>
@@ -283,13 +283,418 @@
 <node CREATED="1382957557701" ID="ID_961307261" MODIFIED="1382957569144" TEXT="java.util.HashMap"/>
 </node>
 </node>
-<node CREATED="1382957632312" FOLDED="true" ID="ID_1948472854" MODIFIED="1389707578323" TEXT="Exceptions">
+<node CREATED="1382957632312" FOLDED="true" ID="ID_1948472854" MODIFIED="1421894263959" TEXT="Exceptions">
 <node CREATED="1382957666948" ID="ID_734351164" MODIFIED="1382957667839" TEXT="functionally equivalent to structs"/>
 <node CREATED="1382957675160" ID="ID_1019994545" MODIFIED="1382957675955" TEXT=" inherit from the native exception base class "/>
 </node>
 <node CREATED="1382957690999" FOLDED="true" ID="ID_1287747934" MODIFIED="1383100148960" TEXT="Services">
 <node CREATED="1382957715261" ID="ID_1013091474" MODIFIED="1382957717537" TEXT="interface"/>
 <node CREATED="1382957732616" ID="ID_140936873" MODIFIED="1382957733569" TEXT="The Thrift compiler generates fully functional client and server stubs that implement the interface."/>
+</node>
+<node CREATED="1421894963493" ID="ID_338574350" MODIFIED="1421894964410" TEXT="demo">
+<node CREATED="1421894965431" ID="ID_729985625" MODIFIED="1421894965431">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-variant: normal; line-height: normal; word-spacing: 0px; text-align: start; text-transform: none; color: rgb(0, 0, 0); font-weight: normal; letter-spacing: normal; white-space: pre-wrap; text-indent: 0px; font-style: normal">/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements. See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership. The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * &quot;License&quot;); you may not use this file except in compliance
+ * with the License. You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ *
+ * Contains some contributions under the Thrift Software License.
+ * Please see doc/old-thrift-license.txt in the Thrift distribution for
+ * details.
+ */
+
+namespace c_glib TTest
+namespace java thrift.test
+namespace cpp thrift.test
+namespace rb Thrift.Test
+namespace perl ThriftTest
+namespace csharp Thrift.Test
+namespace js ThriftTest
+namespace st ThriftTest
+namespace py ThriftTest
+namespace py.twisted ThriftTest
+namespace go thrifttest
+namespace php ThriftTest
+namespace delphi Thrift.Test
+namespace cocoa ThriftTest
+namespace lua ThriftTest
+
+// Presence of namespaces and sub-namespaces for which there is
+// no generator should compile with warnings only
+namespace noexist ThriftTest
+namespace cpp.noexist ThriftTest
+
+namespace * thrift.test
+
+/**
+ * Docstring!
+ */
+enum Numberz
+{
+  ONE = 1,
+  TWO,
+  THREE,
+  FIVE = 5,
+  SIX,
+  EIGHT = 8
+}
+
+const Numberz myNumberz = Numberz.ONE;
+// the following is expected to fail:
+// const Numberz urNumberz = ONE;
+
+typedef i64 UserId
+
+struct Bonk
+{
+  1: string message,
+  2: i32 type
+}
+
+typedef map&lt;string,Bonk&gt; MapType
+
+struct Bools {
+  1: bool im_true,
+  2: bool im_false,
+}
+
+struct Xtruct
+{
+  1:  string string_thing,
+  4:  byte   byte_thing,
+  9:  i32    i32_thing,
+  11: i64    i64_thing
+}
+
+struct Xtruct2
+{
+  1: byte   byte_thing,
+  2: Xtruct struct_thing,
+  3: i32    i32_thing
+}
+
+struct Xtruct3
+{
+  1:  string string_thing,
+  4:  i32    changed,
+  9:  i32    i32_thing,
+  11: i64    i64_thing
+}
+
+
+struct Insanity
+{
+  1: map&lt;Numberz, UserId&gt; userMap,
+  2: list&lt;Xtruct&gt; xtructs
+}
+
+struct CrazyNesting {
+  1: string string_field,
+  2: optional set&lt;Insanity&gt; set_field,
+  3: required list&lt; map&lt;set&lt;i32&gt;,map&lt;i32,set&lt;list&lt;map&lt;Insanity,string&gt;&gt;&gt;&gt;&gt;&gt; list_field,
+  4: binary binary_field
+}
+
+exception Xception {
+  1: i32 errorCode,
+  2: string message
+}
+
+exception Xception2 {
+  1: i32 errorCode,
+  2: Xtruct struct_thing
+}
+
+struct EmptyStruct {}
+
+struct OneField {
+  1: EmptyStruct field
+}
+
+service ThriftTest
+{
+  /**
+   * Prints &quot;testVoid()&quot; and returns nothing.
+   */
+  void         testVoid(),
+
+  /**
+   * Prints 'testString(&quot;%s&quot;)' with thing as '%s'
+   * @param string thing - the string to print
+   * @return string - returns the string 'thing'
+   */
+  string       testString(1: string thing),
+
+  /**
+   * Prints 'testByte(&quot;%d&quot;)' with thing as '%d'
+   * @param byte thing - the byte to print
+   * @return byte - returns the byte 'thing'
+   */
+  byte         testByte(1: byte thing),
+
+  /**
+   * Prints 'testI32(&quot;%d&quot;)' with thing as '%d'
+   * @param i32 thing - the i32 to print
+   * @return i32 - returns the i32 'thing'
+   */
+  i32          testI32(1: i32 thing),
+
+  /**
+   * Prints 'testI64(&quot;%d&quot;)' with thing as '%d'
+   * @param i64 thing - the i64 to print
+   * @return i64 - returns the i64 'thing'
+   */
+  i64          testI64(1: i64 thing),
+
+  /**
+   * Prints 'testDouble(&quot;%f&quot;)' with thing as '%f'
+   * @param double thing - the double to print
+   * @return double - returns the double 'thing'
+   */
+  double       testDouble(1: double thing),
+
+  /**
+   * Prints 'testBinary(&quot;%s&quot;)' where '%s' is a hex-formatted string of thing's data
+   * @param binary  thing - the binary data to print
+   * @return binary  - returns the binary 'thing'
+   */
+  binary       testBinary(1: binary thing),
+  
+  /**
+   * Prints 'testStruct(&quot;{%s}&quot;)' where thing has been formatted into a string of comma separated values
+   * @param Xtruct thing - the Xtruct to print
+   * @return Xtruct - returns the Xtruct 'thing'
+   */
+  Xtruct       testStruct(1: Xtruct thing),
+
+  /**
+   * Prints 'testNest(&quot;{%s}&quot;)' where thing has been formatted into a string of the nested struct
+   * @param Xtruct2 thing - the Xtruct2 to print
+   * @return Xtruct2 - returns the Xtruct2 'thing'
+   */
+  Xtruct2      testNest(1: Xtruct2 thing),
+
+  /**
+   * Prints 'testMap(&quot;{%s&quot;)' where thing has been formatted into a string of  'key =&gt; value' pairs
+   *  separated by commas and new lines
+   * @param map&lt;i32,i32&gt; thing - the map&lt;i32,i32&gt; to print
+   * @return map&lt;i32,i32&gt; - returns the map&lt;i32,i32&gt; 'thing'
+   */
+  map&lt;i32,i32&gt; testMap(1: map&lt;i32,i32&gt; thing),
+
+  /**
+   * Prints 'testStringMap(&quot;{%s}&quot;)' where thing has been formatted into a string of  'key =&gt; value' pairs
+   *  separated by commas and new lines
+   * @param map&lt;string,string&gt; thing - the map&lt;string,string&gt; to print
+   * @return map&lt;string,string&gt; - returns the map&lt;string,string&gt; 'thing'
+   */
+  map&lt;string,string&gt; testStringMap(1: map&lt;string,string&gt; thing),
+
+  /**
+   * Prints 'testSet(&quot;{%s}&quot;)' where thing has been formatted into a string of  values
+   *  separated by commas and new lines
+   * @param set&lt;i32&gt; thing - the set&lt;i32&gt; to print
+   * @return set&lt;i32&gt; - returns the set&lt;i32&gt; 'thing'
+   */
+  set&lt;i32&gt;     testSet(1: set&lt;i32&gt; thing),
+
+  /**
+   * Prints 'testList(&quot;{%s}&quot;)' where thing has been formatted into a string of  values
+   *  separated by commas and new lines
+   * @param list&lt;i32&gt; thing - the list&lt;i32&gt; to print
+   * @return list&lt;i32&gt; - returns the list&lt;i32&gt; 'thing'
+   */
+  list&lt;i32&gt;    testList(1: list&lt;i32&gt; thing),
+
+  /**
+   * Prints 'testEnum(&quot;%d&quot;)' where thing has been formatted into it's numeric value
+   * @param Numberz thing - the Numberz to print
+   * @return Numberz - returns the Numberz 'thing'
+   */
+  Numberz      testEnum(1: Numberz thing),
+
+  /**
+   * Prints 'testTypedef(&quot;%d&quot;)' with thing as '%d'
+   * @param UserId thing - the UserId to print
+   * @return UserId - returns the UserId 'thing'
+   */
+  UserId       testTypedef(1: UserId thing),
+
+  /**
+   * Prints 'testMapMap(&quot;%d&quot;)' with hello as '%d'
+   * @param i32 hello - the i32 to print
+   * @return map&lt;i32,map&lt;i32,i32&gt;&gt; - returns a dictionary with these values:
+   *   {-4 =&gt; {-4 =&gt; -4, -3 =&gt; -3, -2 =&gt; -2, -1 =&gt; -1, }, 4 =&gt; {1 =&gt; 1, 2 =&gt; 2, 3 =&gt; 3, 4 =&gt; 4, }, }
+   */
+  map&lt;i32,map&lt;i32,i32&gt;&gt; testMapMap(1: i32 hello),
+
+  /**
+   * So you think you've got this all worked, out eh?
+   *
+   * Creates a the returned map with these values and prints it out:
+   *   { 1 =&gt; { 2 =&gt; argument,
+   *            3 =&gt; argument,
+   *          },
+   *     2 =&gt; { 6 =&gt; &lt;empty Insanity struct&gt;, },
+   *   }
+   * @return map&lt;UserId, map&lt;Numberz,Insanity&gt;&gt; - a map with the above values
+   */
+  map&lt;UserId, map&lt;Numberz,Insanity&gt;&gt; testInsanity(1: Insanity argument),
+
+  /**
+   * Prints 'testMulti()'
+   * @param byte arg0 -
+   * @param i32 arg1 -
+   * @param i64 arg2 -
+   * @param map&lt;i16, string&gt; arg3 -
+   * @param Numberz arg4 -
+   * @param UserId arg5 -
+   * @return Xtruct - returns an Xtruct with string_thing = &quot;Hello2, byte_thing = arg0, i32_thing = arg1
+   *    and i64_thing = arg2
+   */
+  Xtruct testMulti(1: byte arg0, 2: i32 arg1, 3: i64 arg2, 4: map&lt;i16, string&gt; arg3, 5: Numberz arg4, 6: UserId arg5),
+
+  /**
+   * Print 'testException(%s)' with arg as '%s'
+   * @param string arg - a string indication what type of exception to throw
+   * if arg == &quot;Xception&quot; throw Xception with errorCode = 1001 and message = arg
+   * elsen if arg == &quot;TException&quot; throw TException
+   * else do not throw anything
+   */
+  void testException(1: string arg) throws(1: Xception err1),
+
+  /**
+   * Print 'testMultiException(%s, %s)' with arg0 as '%s' and arg1 as '%s'
+   * @param string arg - a string indication what type of exception to throw
+   * if arg0 == &quot;Xception&quot; throw Xception with errorCode = 1001 and message = &quot;This is an Xception&quot;
+   * elsen if arg0 == &quot;Xception2&quot; throw Xception2 with errorCode = 2002 and message = &quot;This is an Xception2&quot;
+   * else do not throw anything
+   * @return Xtruct - an Xtruct with string_thing = arg1
+   */
+  Xtruct testMultiException(1: string arg0, 2: string arg1) throws(1: Xception err1, 2: Xception2 err2)
+
+  /**
+   * Print 'testOneway(%d): Sleeping...' with secondsToSleep as '%d'
+   * sleep 'secondsToSleep'
+   * Print 'testOneway(%d): done sleeping!' with secondsToSleep as '%d'
+   * @param i32 secondsToSleep - the number of seconds to sleep
+   */
+  oneway void testOneway(1:i32 secondsToSleep)
+}
+
+service SecondService
+{
+  void blahBlah()
+  /**
+   * Prints 'testString(&quot;%s&quot;)' with thing as '%s'
+   * @param string thing - the string to print
+   * @return string - returns the string 'thing'
+   */
+  string       secondtestString(1: string thing),
+}
+
+struct VersioningTestV1 {
+       1: i32 begin_in_both,
+       3: string old_string,
+       12: i32 end_in_both
+}
+
+struct VersioningTestV2 {
+       1: i32 begin_in_both,
+
+       2: i32 newint,
+       3: byte newbyte,
+       4: i16 newshort,
+       5: i64 newlong,
+       6: double newdouble
+       7: Bonk newstruct,
+       8: list&lt;i32&gt; newlist,
+       9: set&lt;i32&gt; newset,
+       10: map&lt;i32, i32&gt; newmap,
+       11: string newstring,
+       12: i32 end_in_both
+}
+
+struct ListTypeVersioningV1 {
+       1: list&lt;i32&gt; myints;
+       2: string hello;
+}
+
+struct ListTypeVersioningV2 {
+       1: list&lt;string&gt; strings;
+       2: string hello;
+}
+
+struct GuessProtocolStruct {
+  7: map&lt;string,string&gt; map_field,
+}
+
+struct LargeDeltas {
+  1: Bools b1,
+  10: Bools b10,
+  100: Bools b100,
+  500: bool check_true,
+  1000: Bools b1000,
+  1500: bool check_false,
+  2000: VersioningTestV2 vertwo2000,
+  2500: set&lt;string&gt; a_set2500,
+  3000: VersioningTestV2 vertwo3000,
+  4000: list&lt;i32&gt; big_numbers
+}
+
+struct NestedListsI32x2 {
+  1: list&lt;list&lt;i32&gt;&gt; integerlist
+}
+struct NestedListsI32x3 {
+  1: list&lt;list&lt;list&lt;i32&gt;&gt;&gt; integerlist
+}
+struct NestedMixedx2 {
+  1: list&lt;set&lt;i32&gt;&gt; int_set_list
+  2: map&lt;i32,set&lt;string&gt;&gt; map_int_strset
+  3: list&lt;map&lt;i32,set&lt;string&gt;&gt;&gt; map_int_strset_list
+}
+struct ListBonks {
+  1: list&lt;Bonk&gt; bonk
+}
+struct NestedListsBonk {
+  1: list&lt;list&lt;list&lt;Bonk&gt;&gt;&gt; bonk
+}
+
+struct BoolTest {
+  1: optional bool b = true;
+  2: optional string s = &quot;true&quot;;
+}
+
+struct StructA {
+  1: required string s;
+}
+
+struct StructB {
+  1: optional StructA aa;
+  2: required StructA ab;
+}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1383101027617" ID="ID_1834375207" MODIFIED="1389710945018" TEXT="IDL">
