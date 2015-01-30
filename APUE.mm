@@ -1515,7 +1515,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1338994150146" ID="ID_194992328" MODIFIED="1398054252681" POSITION="right" TEXT="process control">
+<node CREATED="1338994150146" FOLDED="true" ID="ID_194992328" MODIFIED="1422365826430" POSITION="right" TEXT="process control">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1338994404974" ID="ID_1210400997" MODIFIED="1338994412479" TEXT="process">
 <node CREATED="1338994415115" ID="ID_421103117" MODIFIED="1338994419528" TEXT="0">
@@ -2041,7 +2041,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1339228099723" ID="ID_1935674997" MODIFIED="1421658817257" POSITION="right" TEXT="process relationship">
+<node CREATED="1339228099723" ID="ID_1935674997" MODIFIED="1422592191359" POSITION="right" TEXT="process relationship">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <node CREATED="1339236124624" ID="ID_620686278" MODIFIED="1421658940515" TEXT="login">
 <node CREATED="1339236135397" ID="ID_784036749" MODIFIED="1421658947646" STYLE="fork" TEXT="4.3+BSD terminal login">
@@ -2859,46 +2859,206 @@
 </node>
 </node>
 </node>
-<node CREATED="1340373429940" FOLDED="true" ID="ID_13458321" MODIFIED="1363158226857" POSITION="right" TEXT="terminal IO">
+<node CREATED="1340373429940" ID="ID_13458321" MODIFIED="1422365827814" POSITION="right" TEXT="terminal IO">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
-<node CREATED="1340373538185" FOLDED="true" ID="ID_27375457" MODIFIED="1340373645570" TEXT="style">
-<node CREATED="1340373557746" ID="ID_1799134504" MODIFIED="1340373578580" TEXT="UNIX Version7 style (BSD)"/>
-<node CREATED="1340373579051" ID="ID_249501767" MODIFIED="1340373635622" TEXT="System III style (SVR)"/>
-<node CREATED="1340373636138" ID="ID_1783306624" MODIFIED="1340373643795" TEXT="posix"/>
+<node CREATED="1340373538185" ID="ID_27375457" MODIFIED="1422365876738" TEXT="schism">
+<node CREATED="1340373557746" ID="ID_1799134504" MODIFIED="1422365848683" TEXT="UNIX Version7 style (4.3+BSD)">
+<node CREATED="1340374426589" ID="ID_813126494" MODIFIED="1341232301219" TEXT="cooked mode">
+<icon BUILTIN="full-1"/>
+<node CREATED="1340374441787" ID="ID_588621182" MODIFIED="1340374522747" TEXT="the input is collected into lines and the special characters are processed"/>
 </node>
-<node CREATED="1340373680767" ID="ID_897719233" MODIFIED="1340373878028" TEXT="two different modes for terminal I/O">
+<node CREATED="1340374465821" ID="ID_870988257" MODIFIED="1422365915963" TEXT="raw mode">
+<icon BUILTIN="full-2"/>
+<node CREATED="1340374485237" ID="ID_137397071" MODIFIED="1340374505099" TEXT="the input is not assembled into lines and there is no processing of special characters&#xa;"/>
+</node>
+<node CREATED="1340374538573" ID="ID_1855806981" MODIFIED="1341232311749" TEXT="cbreak mode">
+<icon BUILTIN="full-3"/>
+<node CREATED="1340374553159" ID="ID_531036575" MODIFIED="1340374565102" TEXT="the input is not assembled into lines, but some of the special characters are processed"/>
+</node>
+</node>
+<node CREATED="1340373579051" ID="ID_249501767" MODIFIED="1422365854075" TEXT="System III style (SVR4)"/>
+<node CREATED="1340373636138" ID="ID_1783306624" MODIFIED="1422366190032" TEXT="POSIX.1">
+<node CREATED="1422366196774" ID="ID_993130389" MODIFIED="1422366202972" TEXT="11 special characters">
+<node CREATED="1422366206482" ID="ID_1752447418" MODIFIED="1422366210086" TEXT="^D"/>
+<node CREATED="1422366210634" ID="ID_118519110" MODIFIED="1422366213521" TEXT="^Z"/>
+</node>
+</node>
+</node>
+<node CREATED="1340373680767" ID="ID_897719233" MODIFIED="1422366131111" TEXT="two different modes for terminal I/O">
 <node CREATED="1340373743575" ID="ID_1936039018" MODIFIED="1341232292749" TEXT="Canonical mode input processing(default).">
 <node CREATED="1340373773279" ID="ID_202381886" MODIFIED="1340373862313" TEXT="characters assembled into lines"/>
 </node>
 <node CREATED="1340373763933" ID="ID_1046987190" MODIFIED="1340373763933" TEXT="Noncanonical mode input processing."/>
 </node>
-<node CREATED="1340374411235" FOLDED="true" ID="ID_955371768" MODIFIED="1341232549369" TEXT="Version 7 and BSD-style terminal drivers support three different modes ">
-<node CREATED="1340374426589" ID="ID_1641693097" MODIFIED="1341232301219" TEXT="cooked mode">
-<icon BUILTIN="full-1"/>
-<node CREATED="1340374441787" ID="ID_407678431" MODIFIED="1340374522747" TEXT="the input is collected into lines and the special characters are processed"/>
-</node>
-<node CREATED="1340374465821" FOLDED="true" ID="ID_587876440" MODIFIED="1341232310859" TEXT="raw mode">
-<icon BUILTIN="full-2"/>
-<node CREATED="1340374485237" ID="ID_526140637" MODIFIED="1340374505099" TEXT="the input is not assembled into lines and there is no processing of special characters&#xa;"/>
-</node>
-<node CREATED="1340374538573" ID="ID_124262774" MODIFIED="1341232311749" TEXT="cbreak mode">
-<icon BUILTIN="full-3"/>
-<node CREATED="1340374553159" ID="ID_1282982046" MODIFIED="1340374565102" TEXT="the input is not assembled into lines, but some of the special characters are processed"/>
-</node>
-</node>
 <node CREATED="1341232550278" ID="ID_565332307" MODIFIED="1341232558529" TEXT="terminal device ">
 <node CREATED="1341232574987" ID="ID_1348033922" MODIFIED="1341232597510" TEXT="controlled by terminal driver">
-<node CREATED="1341232612828" ID="ID_829709604" MODIFIED="1341232619540" TEXT="input queue"/>
-<node CREATED="1341232619708" ID="ID_272771684" MODIFIED="1341232628010" TEXT="output queue"/>
+<node CREATED="1341232612828" ID="ID_829709604" MODIFIED="1341232619540" TEXT="input queue">
+<node CREATED="1341232676188" ID="ID_790842829" MODIFIED="1422366364825" TEXT="size of input queue (MAX_INPUT) may be finite, most unix system  echo  bell character when input queue fills"/>
+<node CREATED="1341232629458" ID="ID_1033288204" MODIFIED="1422366372654" TEXT="implied link between input queue and output queue if  echo enabled"/>
+<node CREATED="1341232813358" ID="ID_669992464" MODIFIED="1422366395500" TEXT="MAX_CANON is max number of bytes in a canonical  input line"/>
 </node>
-<node CREATED="1341232629458" ID="ID_1033288204" MODIFIED="1341232673540" TEXT="implied link between input queue and output queue if  echo enabled"/>
-<node CREATED="1341232676188" ID="ID_790842829" MODIFIED="1341232799870" TEXT="size of input queue (MAX_INPUT) may be finite, most unix system  echo  bell character when input queue fills"/>
-<node CREATED="1341232813358" ID="ID_669992464" MODIFIED="1341232888710" TEXT="MAX_CANON is max number of bytes in a canonical  input line"/>
+<node CREATED="1341232619708" ID="ID_272771684" MODIFIED="1341232628010" TEXT="output queue">
 <node CREATED="1341232910798" ID="ID_749253974" MODIFIED="1341232958130" TEXT="when output queue fills, write process goes to sleep"/>
+</node>
+</node>
 <node CREATED="1341232958528" ID="ID_1656139153" MODIFIED="1341233018570" TEXT="tcflush() flushes  either input queue or output queue"/>
 <node CREATED="1341233018988" ID="ID_1257483692" MODIFIED="1341233052170" TEXT="tcsetattr() set either input or output attributes"/>
 </node>
-<node CREATED="1341233128828" ID="ID_622295823" MODIFIED="1341233154180" TEXT="terminal line discipline"/>
+<node CREATED="1422369447724" ID="ID_1009207771" MODIFIED="1422369457949" TEXT="soft architecture">
+<node CREATED="1422369480650" ID="ID_1954209851" MODIFIED="1422369725860" TEXT="file sytem (read/write)"/>
+<node CREATED="1341233128828" ID="ID_622295823" MODIFIED="1422369459136" TEXT="terminal line discipline"/>
+<node CREATED="1422369460264" ID="ID_515691802" MODIFIED="1422369469689" TEXT="terminal device driver"/>
+<node CREATED="1422369469938" ID="ID_980859973" MODIFIED="1422369479473" TEXT="terminal device"/>
+</node>
+<node CREATED="1422369920683" ID="ID_1088456692" MODIFIED="1422369921702" TEXT=" #include &lt;termios.h&gt;">
+<node CREATED="1422369969751" ID="ID_1063015452" MODIFIED="1422373992299" TEXT="struct termios { ... }">
+<node CREATED="1422369960842" FOLDED="true" ID="ID_1930880743" MODIFIED="1422374153983" TEXT="tcflag_t  c_iflag     Input modes.">
+<node CREATED="1422373994347" ID="ID_236010964" MODIFIED="1422373994347" TEXT="IGNBRK Ignore BREAK condition on input."/>
+<node CREATED="1422373994347" ID="ID_1351380091" MODIFIED="1422374067225">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      BRKINT If IGNBRK is set, a BREAK is ignored.&#160;&#160;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1422374068817" ID="ID_1852365972" MODIFIED="1422374090770">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If it is not set but BRKINT&#160;&#160;is&#160;&#160;set,&#160;&#160;then&#160;&#160;a BREAK &#160;causes &#160;the &#160;input and output queues to be flushed, and if the terminal is the controlling terminal of a foreground process group, it will cause a SIGINT to be sent to &#160;this &#160;foreground &#160;process group. &#160;When neither IGNBRK nor BRKINT are set, a BREAK reads as a null byte ('\0'), except when PARMRK is set, in which case it reads as the sequence \377 \0 \0.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1422373994349" ID="ID_164562665" MODIFIED="1422373994349" TEXT="IGNPAR Ignore framing errors and parity errors."/>
+<node CREATED="1422373994350" ID="ID_1601408642" MODIFIED="1422374141209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PARMRK If&#160;&#160;IGNPAR&#160;&#160;is&#160;&#160;not set, prefix a character with a parity error or framing error with \377 \0. &#160;If neither IGNPAR nor PARMRK is set, read a character with a &#160;parity &#160;error or framing error as \0.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1422373994351" ID="ID_1623974611" MODIFIED="1422373994351" TEXT="INPCK  Enable input parity checking."/>
+<node CREATED="1422373994351" ID="ID_1952841495" MODIFIED="1422373994351" TEXT="ISTRIP Strip off eighth bit."/>
+<node CREATED="1422373994351" ID="ID_1078447419" MODIFIED="1422373994351" TEXT="INLCR  Translate NL to CR on input."/>
+<node CREATED="1422373994352" ID="ID_712581855" MODIFIED="1422373994352" TEXT="IGNCR  Ignore carriage return on input."/>
+<node CREATED="1422373994352" ID="ID_55787591" MODIFIED="1422373994352" TEXT="ICRNL  Translate carriage return to newline on input (unless IGNCR is set)."/>
+<node CREATED="1422373994353" ID="ID_1957143997" MODIFIED="1422373994353" TEXT="IUCLC  (not in POSIX) Map uppercase characters to lowercase on input."/>
+<node CREATED="1422373994353" ID="ID_1403188672" MODIFIED="1422373994353" TEXT="IXON   Enable XON/XOFF flow control on output."/>
+<node CREATED="1422373994353" ID="ID_726971474" MODIFIED="1422373994353" TEXT="IXANY  (XSI)  Typing  any  character  will restart stopped output.  (The default is to allow">
+<node CREATED="1422373994357" ID="ID_1518331494" MODIFIED="1422373994357" TEXT="just the START character to restart output.)"/>
+</node>
+<node CREATED="1422373994357" ID="ID_335645973" MODIFIED="1422373994357" TEXT="IXOFF  Enable XON/XOFF flow control on input."/>
+<node CREATED="1422373994358" ID="ID_1751567290" MODIFIED="1422373994358" TEXT="IMAXBEL">
+<node CREATED="1422373994358" MODIFIED="1422373994358" TEXT="(not in POSIX) Ring bell when input queue is full.  Linux  does  not  implement  this"/>
+<node CREATED="1422373994358" MODIFIED="1422373994358" TEXT="bit, and acts as if it is always set."/>
+</node>
+<node CREATED="1422373994359" ID="ID_1919110214" MODIFIED="1422373994359" TEXT="IUTF8 (since Linux 2.6.4)">
+<node CREATED="1422373994359" MODIFIED="1422373994359" TEXT="(not  in  POSIX) Input is UTF8; this allows character-erase to be correctly performed"/>
+<node CREATED="1422373994359" MODIFIED="1422373994359" TEXT="in cooked mode."/>
+</node>
+</node>
+<node CREATED="1422369960843" ID="ID_1759771084" MODIFIED="1422369992117" TEXT="tcflag_t  c_oflag     Output modes."/>
+<node CREATED="1422369960843" ID="ID_519079832" MODIFIED="1422369992116" TEXT="tcflag_t  c_cflag     Control modes."/>
+<node CREATED="1422369960844" ID="ID_951986446" MODIFIED="1422369992115" TEXT="tcflag_t  c_lflag     Local modes."/>
+<node CREATED="1422369960845" ID="ID_1821148741" MODIFIED="1422369992113" TEXT="cc_t      c_cc[NCCS]  Control characters."/>
+</node>
+<node CREATED="1422371522984" ID="ID_1021215311" MODIFIED="1422374713771" TEXT="12 functions">
+<node CREATED="1422373844531" ID="ID_434034208" MODIFIED="1422373844531" TEXT="">
+<node CREATED="1422374241052" ID="ID_854338789" MODIFIED="1422374246572" TEXT="tc{set,get}attr">
+<node CREATED="1422373845884" ID="ID_737854332" MODIFIED="1422374248257" TEXT="int tcgetattr(int fd, struct termios *termios_p);"/>
+<node CREATED="1422373845885" ID="ID_844991302" MODIFIED="1422374248256" TEXT="int tcsetattr(int fd, int optional_actions,const struct termios *termios_p);"/>
+</node>
+<node CREATED="1422374250004" ID="ID_174622649" MODIFIED="1422374280074" TEXT="cf{set,get}{i,o}speed">
+<node CREATED="1422373845888" ID="ID_1328285153" MODIFIED="1422374286966" TEXT="speed_t cfgetispeed(const struct termios *termios_p);"/>
+<node CREATED="1422373845888" ID="ID_1022445992" MODIFIED="1422374286972" TEXT="speed_t cfgetospeed(const struct termios *termios_p);"/>
+<node CREATED="1422373845889" ID="ID_1488533366" MODIFIED="1422374286974" TEXT="int cfsetispeed(struct termios *termios_p, speed_t speed);"/>
+<node CREATED="1422373845890" ID="ID_1226650491" MODIFIED="1422374286975" TEXT="int cfsetospeed(struct termios *termios_p, speed_t speed);"/>
+</node>
+<node CREATED="1422374292996" ID="ID_1376934518" MODIFIED="1422374308909" TEXT="tc{set,get}pgrp">
+<node CREATED="1422374334758" ID="ID_762933762" MODIFIED="1422374334758" TEXT="pid_t tcgetpgrp(int fd);"/>
+<node CREATED="1422374334758" ID="ID_190959823" MODIFIED="1422374334758" TEXT="int tcsetpgrp(int fd, pid_t pgrp);"/>
+</node>
+<node CREATED="1422374311041" ID="ID_308362588" MODIFIED="1422374367614" TEXT="tc{drain,flow,flush,sendbreak}">
+<node CREATED="1422373845886" ID="ID_1711733518" MODIFIED="1422373845886" TEXT="int tcsendbreak(int fd, int duration);"/>
+<node CREATED="1422373845886" ID="ID_17586983" MODIFIED="1422373845886" TEXT="int tcdrain(int fd);"/>
+<node CREATED="1422373845886" ID="ID_783101822" MODIFIED="1422373845886" TEXT="int tcflush(int fd, int queue_selector);"/>
+<node CREATED="1422373845887" ID="ID_1895797739" MODIFIED="1422373845887" TEXT="int tcflow(int fd, int action);"/>
+</node>
+<node CREATED="1422373845887" ID="ID_1581037644" MODIFIED="1422373845887" TEXT="void cfmakeraw(struct termios *termios_p);"/>
+<node CREATED="1422373845891" ID="ID_420726776" MODIFIED="1422373845891" TEXT="int cfsetspeed(struct termios *termios_p, speed_t speed);"/>
+</node>
+</node>
+<node CREATED="1422374780708" FOLDED="true" ID="ID_1916222992" MODIFIED="1422375066686" TEXT="special char">
+<node CREATED="1422374788031" ID="ID_732829462" MODIFIED="1422375059811">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Courier New">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Subscript Usage </font>
+    </p>
+    <p>
+      <font face="Courier New">Canonical Mode&#160;&#160;&#160;Non-Canonical Mode&#160;&#160;&#160;Description </font>
+    </p>
+    <p>
+      <font face="Courier New">VEOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EOF character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VEOL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EOL character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VERASE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ERASE character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VINTR&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VINTR&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;INTR character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VKILL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;KILL character. </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VMIN&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MIN value. </font>
+    </p>
+    <p>
+      <font face="Courier New">VQUIT&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VQUIT&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;QUIT character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VSTART&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VSTART&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;START character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VSTOP&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VSTOP&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;STOP character. </font>
+    </p>
+    <p>
+      <font face="Courier New">VSUSP&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VSUSP&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SUSP character. </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;VTIME&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;TIME value. </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1422375024855" ID="ID_81664025" MODIFIED="1422375024855" TEXT=""/>
+</node>
+</node>
+<node CREATED="1422373662758" ID="ID_5570755" MODIFIED="1422373773988" TEXT="/dev/pts/0">
+<node CREATED="1422373672913" ID="ID_1144417048" MODIFIED="1422373746186" TEXT="special char represent &lt;enter&gt; keystroke"/>
+<node CREATED="1422373779300" ID="ID_1470095783" MODIFIED="1422373794617" TEXT="how echo off"/>
+</node>
+<node CREATED="1422373663932" ID="ID_739031072" MODIFIED="1422373668024" TEXT="lsof -p"/>
 </node>
 </node>
 </map>
