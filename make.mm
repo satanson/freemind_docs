@@ -560,7 +560,7 @@ endif</pre>&#xd;&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1362448696540" ID="ID_1423638640" MODIFIED="1385713111059" POSITION="right" TEXT="function">
+<node CREATED="1362448696540" ID="ID_1423638640" MODIFIED="1423347741494" POSITION="right" TEXT="function">
 <node CREATED="1362448783932" FOLDED="true" ID="ID_1996234584" MODIFIED="1385713122384" TEXT="invocation">
 <node CREATED="1362448794236" ID="ID_381615336" MODIFIED="1362448818144" TEXT="$(&lt;func_name&gt; args...)"/>
 </node>
@@ -743,7 +743,7 @@ endif</pre>&#xd;&#xd;
 <node CREATED="1362457618438" ID="ID_304352145" MODIFIED="1371207647964" TEXT="&apos;automatic&apos;">
 <node CREATED="1362458421898" ID="ID_1364491689" MODIFIED="1362458423040" TEXT="Automatic Variables">
 <node CREATED="1362458453456" ID="ID_1110081454" MODIFIED="1362458975397" TEXT="$@">
-<node CREATED="1362458976315" FOLDED="true" ID="ID_1407011746" MODIFIED="1371207661333" TEXT="target">
+<node CREATED="1362458976315" ID="ID_1407011746" MODIFIED="1423347744146" TEXT="target">
 <node CREATED="1362458470438" ID="ID_1444494740" MODIFIED="1362458979874" TEXT="The file name of the target of the rule. If the target is an archive member, then &#x2018;$@&#x2019; is the name of the archive file. In a pattern rule that has multiple targets, &#x2018;$@&#x2019; is the name of whichever target caused the rule&apos;s recipe to be run."/>
 </node>
 </node>
@@ -777,13 +777,13 @@ endif</pre>&#xd;&#xd;
 <node CREATED="1362458791246" ID="ID_176999663" MODIFIED="1362459139897" TEXT="The names of all the order-only prerequisites, with spaces between them."/>
 </node>
 </node>
-<node CREATED="1362458834547" FOLDED="true" ID="ID_763487778" MODIFIED="1371207744033" TEXT="$*">
+<node CREATED="1362458834547" FOLDED="true" ID="ID_763487778" MODIFIED="1423347801530" TEXT="$*">
 <node CREATED="1362459147284" ID="ID_1490616289" MODIFIED="1371207738588" TEXT="stem of target">
 <node CREATED="1362458882398" ID="ID_1946979828" MODIFIED="1362459153611" TEXT="The stem with which an implicit rule matches (see How Patterns Match). If the target is dir/a.foo.b and the target pattern is a.%.b then the stem is dir/foo. The stem is useful for constructing names of related files. In a static pattern rule, the stem is part of the file name that matched the &#x2018;%&#x2019; in the target pattern.&#xa;&#xa;In an explicit rule, there is no stem; so &#x2018;$*&#x2019; cannot be determined in that way. Instead, if the target name ends with a recognized suffix (see Old-Fashioned Suffix Rules), &#x2018;$*&#x2019; is set to the target name minus the suffix. For example, if the target name is &#x2018;foo.c&#x2019;, then &#x2018;$*&#x2019; is set to &#x2018;foo&#x2019;, since &#x2018;.c&#x2019; is a suffix. GNU make does this bizarre thing only for compatibility with other implementations of make. You should generally avoid using &#x2018;$*&#x2019; except in implicit rules or static pattern rules. &#xa;&#xa;If the target name in an explicit rule does not end with a recognized suffix, &#x2018;$*&#x2019; is set to the empty string for that rule. "/>
 </node>
 </node>
-<node CREATED="1362459469779" FOLDED="true" ID="ID_1496761342" MODIFIED="1371207794515" TEXT="semi-obsolete and dir/notdir get a similar effect">
-<node CREATED="1362459516254" FOLDED="true" ID="ID_1759010877" MODIFIED="1371207792487" TEXT="$(dir names...)">
+<node CREATED="1362459469779" ID="ID_1496761342" MODIFIED="1423347763362" TEXT="semi-obsolete and dir/notdir get a similar effect">
+<node CREATED="1362459516254" ID="ID_1759010877" MODIFIED="1423347772469" TEXT="$(dir names...)">
 <node CREATED="1362459703155" ID="ID_519865279" MODIFIED="1362459727111" TEXT="$(@D)"/>
 <node CREATED="1362459729290" ID="ID_1434397460" MODIFIED="1362459735329" TEXT="$(%D)"/>
 <node CREATED="1362459748916" ID="ID_1939369684" MODIFIED="1362459767127" TEXT="$(&lt;D)"/>
