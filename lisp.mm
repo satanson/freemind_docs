@@ -1,46 +1,46 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1359821441013" ID="ID_121270593" MODIFIED="1397378443144" TEXT="lisp">
-<node CREATED="1359822330426" FOLDED="true" ID="ID_1191675295" MODIFIED="1425539490512" POSITION="right" TEXT="general-purpose Lisp dialects">
-<node CREATED="1359821446490" HGAP="47" ID="ID_192491919" MODIFIED="1421214904525" TEXT="commonlisp" VSHIFT="-35">
-<node CREATED="1359824794847" ID="ID_1517695671" MODIFIED="1359824795825" TEXT="MacLisp"/>
-<node CREATED="1359824805308" ID="ID_447239025" MODIFIED="1359824806797" TEXT="Lisp Machine Lisp"/>
-<node CREATED="1359824819366" ID="ID_1352198842" MODIFIED="1359824820177" TEXT="NIL"/>
-<node CREATED="1359824830595" ID="ID_1888738633" MODIFIED="1359824831469" TEXT="S-1 Lisp"/>
-<node CREATED="1359824838937" ID="ID_1340227176" MODIFIED="1359824842659" TEXT="Spice Lisp"/>
-<node CREATED="1359824843120" ID="ID_687400141" MODIFIED="1359824845663" TEXT="Scheme"/>
-<node CREATED="1359824875238" ID="ID_4529530" MODIFIED="1359824877763" TEXT="CLOS">
-<node CREATED="1359824870972" ID="ID_1554773622" MODIFIED="1359824880473" TEXT="Common Lisp Object System"/>
+<node CREATED="1359822330426" FOLDED="true" ID="ID_1191675295" MODIFIED="1426771486247" POSITION="right" TEXT="general-purpose Lisp dialects">
+<node CREATED="1359821446490" FOLDED="true" HGAP="47" ID="ID_192491919" MODIFIED="1426771478188" TEXT="commonlisp" VSHIFT="-35">
+<node CREATED="1359824794847" ID="ID_1173174033" MODIFIED="1359824795825" TEXT="MacLisp"/>
+<node CREATED="1359824805308" ID="ID_1148615935" MODIFIED="1359824806797" TEXT="Lisp Machine Lisp"/>
+<node CREATED="1359824819366" ID="ID_1949024881" MODIFIED="1359824820177" TEXT="NIL"/>
+<node CREATED="1359824830595" ID="ID_149517313" MODIFIED="1359824831469" TEXT="S-1 Lisp"/>
+<node CREATED="1359824838937" ID="ID_1509591484" MODIFIED="1359824842659" TEXT="Spice Lisp"/>
+<node CREATED="1359824843120" ID="ID_1221499608" MODIFIED="1359824845663" TEXT="Scheme"/>
+<node CREATED="1359824875238" ID="ID_1191423077" MODIFIED="1359824877763" TEXT="CLOS">
+<node CREATED="1359824870972" ID="ID_853270016" MODIFIED="1359824880473" TEXT="Common Lisp Object System"/>
 </node>
-<node CREATED="1359824952657" ID="ID_1147059361" MODIFIED="1359824953729" TEXT="has a large language standard including many built-in data types, functions, macros and other language elements, as well as an object system"/>
+<node CREATED="1359824952657" ID="ID_64051369" MODIFIED="1359824953729" TEXT="has a large language standard including many built-in data types, functions, macros and other language elements, as well as an object system"/>
 </node>
-<node CREATED="1359821448698" HGAP="64" ID="ID_1569207664" MODIFIED="1421214916602" TEXT="scheme" VSHIFT="27">
-<node CREATED="1359909842510" ID="ID_1120484487" MODIFIED="1359909846390" TEXT="statically scoped">
-<node CREATED="1359824913454" ID="ID_154734246" MODIFIED="1359909970400" TEXT="lexical scoping"/>
-<node CREATED="1359824914849" ID="ID_1023591618" MODIFIED="1359909974076" TEXT="lexical closure"/>
+<node CREATED="1359821448698" FOLDED="true" HGAP="64" ID="ID_1569207664" MODIFIED="1426771419420" TEXT="scheme" VSHIFT="27">
+<node CREATED="1359909842510" ID="ID_834476954" MODIFIED="1359909846390" TEXT="statically scoped">
+<node CREATED="1359824913454" ID="ID_56356794" MODIFIED="1359909970400" TEXT="lexical scoping"/>
+<node CREATED="1359824914849" ID="ID_1277824688" MODIFIED="1359909974076" TEXT="lexical closure"/>
 </node>
-<node CREATED="1359909851876" ID="ID_825902481" MODIFIED="1359909863874" TEXT="properly tail-recursive">
-<node CREATED="1359824975738" ID="ID_1496492541" MODIFIED="1359909980530" TEXT="tail-call optimization"/>
+<node CREATED="1359909851876" ID="ID_1439745575" MODIFIED="1359909863874" TEXT="properly tail-recursive">
+<node CREATED="1359824975738" ID="ID_389461876" MODIFIED="1359909980530" TEXT="tail-call optimization"/>
 </node>
-<node CREATED="1359909881150" ID="ID_747240627" MODIFIED="1359909882586" TEXT="by Guy Lewis Steele Jr. and Gerald Jay Sussman."/>
-<node CREATED="1359909930758" ID="ID_973090746" MODIFIED="1361888977369" TEXT="Revisedn Report on the Algorithmic Language Scheme">
-<node CREATED="1359909936086" ID="ID_893096562" MODIFIED="1359909942744" TEXT="r5rs"/>
-<node CREATED="1359909943183" ID="ID_435596441" MODIFIED="1359909946015" TEXT="r6rs"/>
-<node CREATED="1359909946261" ID="ID_1261341269" MODIFIED="1359909948551" TEXT="r7rs"/>
+<node CREATED="1359909881150" ID="ID_886388698" MODIFIED="1359909882586" TEXT="by Guy Lewis Steele Jr. and Gerald Jay Sussman."/>
+<node CREATED="1359909930758" FOLDED="true" ID="ID_1717415008" MODIFIED="1426771307389" TEXT="Revisedn Report on the Algorithmic Language Scheme">
+<node CREATED="1359909936086" ID="ID_1710460858" MODIFIED="1359909942744" TEXT="r5rs"/>
+<node CREATED="1359909943183" ID="ID_850416848" MODIFIED="1359909946015" TEXT="r6rs"/>
+<node CREATED="1359909946261" ID="ID_1552541842" MODIFIED="1359909948551" TEXT="r7rs"/>
 </node>
-<node CREATED="1359909961678" ID="ID_1740750090" MODIFIED="1359909963863" TEXT="Scheme Requests for Implementation"/>
-<node CREATED="1359824997112" ID="ID_714354976" MODIFIED="1359824998033" TEXT="full continuations"/>
-<node CREATED="1359825026332" ID="ID_1925916419" MODIFIED="1359825027508" TEXT="Scheme is a statically scoped and properly tail-recursive dialect of the Lisp programming language invented by Guy Lewis Steele Jr. and Gerald Jay Sussman."/>
-<node CREATED="1359825136423" ID="ID_1339927551" MODIFIED="1359825137422" TEXT="A wide variety of programming paradigms, including imperative, functional, and message passing styles, find convenient expression in Scheme. Scheme continues to evolve with a series of standards (Revisedn Report on the Algorithmic Language Scheme) and a series of Scheme Requests for Implementation."/>
-<node CREATED="1359824973453" ID="ID_395245363" MODIFIED="1359824974610" TEXT="is a more minimalist design, with a much smaller set of standard features but with certain implementation features"/>
-<node CREATED="1421215493150" ID="ID_425647407" MODIFIED="1421215497582" TEXT="Racket"/>
+<node CREATED="1359909961678" ID="ID_1000766194" MODIFIED="1359909963863" TEXT="Scheme Requests for Implementation"/>
+<node CREATED="1359824997112" ID="ID_1506551816" MODIFIED="1359824998033" TEXT="full continuations"/>
+<node CREATED="1359825026332" ID="ID_942580519" MODIFIED="1359825027508" TEXT="Scheme is a statically scoped and properly tail-recursive dialect of the Lisp programming language invented by Guy Lewis Steele Jr. and Gerald Jay Sussman."/>
+<node CREATED="1359825136423" ID="ID_1902598796" MODIFIED="1359825137422" TEXT="A wide variety of programming paradigms, including imperative, functional, and message passing styles, find convenient expression in Scheme. Scheme continues to evolve with a series of standards (Revisedn Report on the Algorithmic Language Scheme) and a series of Scheme Requests for Implementation."/>
+<node CREATED="1359824973453" ID="ID_618409383" MODIFIED="1359824974610" TEXT="is a more minimalist design, with a much smaller set of standard features but with certain implementation features"/>
+<node CREATED="1421215493150" ID="ID_919872060" MODIFIED="1421215497582" TEXT="Racket"/>
 </node>
-<node CREATED="1359825158012" ID="ID_361070915" MODIFIED="1388795205705" TEXT="Clojure">
+<node CREATED="1359825158012" FOLDED="true" ID="ID_361070915" MODIFIED="1426771422399" TEXT="Clojure">
 <node CREATED="1359825222925" ID="ID_334253776" MODIFIED="1359825224346" TEXT="targets the Java Virtual Machine"/>
 </node>
 </node>
-<node CREATED="1359825409158" ID="ID_497522646" MODIFIED="1421214930663" POSITION="right" TEXT="innovations">
-<node CREATED="1359825413676" ID="ID_736051707" MODIFIED="1359864621716" TEXT="first homoiconic programming language">
+<node CREATED="1359825409158" FOLDED="true" ID="ID_497522646" MODIFIED="1426771612010" POSITION="right" TEXT="innovations">
+<node CREATED="1359825413676" FOLDED="true" ID="ID_736051707" MODIFIED="1426771600475" TEXT="first homoiconic programming language">
 <node CREATED="1359825454663" ID="ID_1540651601" MODIFIED="1359825457153" TEXT="the primary representation of program code is the same type of list structure that is also used for the main data structures."/>
 <node CREATED="1359825484121" ID="ID_1289620114" MODIFIED="1359825485840" TEXT="As a result, Lisp functions can be manipulated, altered or even created within a Lisp program without extensive parsing or manipulation of binary machine code."/>
 <node CREATED="1359825526889" ID="ID_291224031" MODIFIED="1359825534874" TEXT="This is generally considered one of the primary advantages of the language with regard to its expressive power, and makes the language amenable to metacircular evaluation."/>
@@ -61,463 +61,13 @@
 </node>
 <node CREATED="1359825707340" ID="ID_1916961592" MODIFIED="1359825708340" TEXT="automatic garbage collection"/>
 </node>
-<node CREATED="1359863770445" FOLDED="true" ID="ID_1849250775" MODIFIED="1421215133864" POSITION="right" TEXT="culture">
-<node CREATED="1359857459336" FOLDED="true" ID="ID_62984359" MODIFIED="1421215132180" TEXT="history">
-<node CREATED="1359822377931" ID="ID_1208030037" MODIFIED="1388796716400" TEXT="originally specified (in 1958)">
+<node CREATED="1359863770445" FOLDED="true" ID="ID_1849250775" MODIFIED="1426771864565" POSITION="right" TEXT="culture">
+<node CREATED="1359857459336" FOLDED="true" ID="ID_62984359" MODIFIED="1426771791114" TEXT="history">
+<node CREATED="1359822377931" FOLDED="true" ID="ID_1208030037" MODIFIED="1426771698538" TEXT="originally specified (in 1958)">
 <node CREATED="1359822920155" ID="ID_1815958139" MODIFIED="1359822921345" TEXT="by John McCarthy"/>
 <node CREATED="1359822940406" ID="ID_1613853831" MODIFIED="1359857603166" TEXT="at MIT"/>
 <node CREATED="1359822963760" ID="ID_634471274" MODIFIED="1359857725404" TEXT="paper in Communications of the ACM in 1960">
-<node CREATED="1359822982386" ID="ID_1470629327" MODIFIED="1359822990207" TEXT="&quot;Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I&quot;">
-<node CREATED="1359942106066" FOLDED="true" ID="ID_18542955" MODIFIED="1383989286691" TEXT="&quot;LISt Processor&quot;">
-<node CREATED="1359942148895" ID="ID_509419948" MODIFIED="1359942165589" TEXT="IBM 704"/>
-<node CREATED="1359942171304" ID="ID_187113251" MODIFIED="1359942210353" TEXT="Artificial Intelligence Group at M.I.T."/>
-<node CREATED="1359942326407" ID="ID_1033448672" MODIFIED="1359943289970" TEXT="Advice Taker (Nov. 1958)">
-<node CREATED="1359942373387" ID="ID_354901669" MODIFIED="1359942416983" TEXT="declarative  sentences"/>
-<node CREATED="1359942394735" ID="ID_286085165" MODIFIED="1359942421226" TEXT="imperative sentences"/>
-<node CREATED="1359942551165" ID="ID_1487949916" MODIFIED="1359942565932" TEXT="&quot;common sense&quot;"/>
-</node>
-</node>
-<node CREATED="1359984523932" ID="ID_1121109229" MODIFIED="1383989287791" TEXT="partial function">
-<node CREATED="1359984634940" ID="ID_1968460503" MODIFIED="1359984692381" TEXT="function that is defined only on part of its domain."/>
-</node>
-<node CREATED="1359984912457" FOLDED="true" ID="ID_630015888" MODIFIED="1383989316371" TEXT="Conditional Expressions">
-<node CREATED="1359984935989" ID="ID_950762258" MODIFIED="1359985139564" TEXT="(p1 &#x2192; e1 , &#xb7; &#xb7; &#xb7; , pn &#x2192; en )">
-<node CREATED="1359985042920" ID="ID_255301907" MODIFIED="1359985044185" TEXT="(1 &lt; 2 &#x2192; 4, 1 &gt; 2 &#x2192; 3) = 4"/>
-<node CREATED="1359985053567" ID="ID_471394921" MODIFIED="1359985054801" TEXT="(2 &lt; 1 &#x2192; 4, 2 &gt; 1 &#x2192; 3, 2 &gt; 1 &#x2192; 2) = 3"/>
-<node CREATED="1359985065711" ID="ID_1691473647" MODIFIED="1359985066930" TEXT="(2 &lt; 1 &#x2192; 4, T &#x2192; 3) = 3"/>
-<node CREATED="1359985092707" ID="ID_1655399973" MODIFIED="1359985097529" TEXT="(2 &lt; 1 &#x2192; 0/0 , T &#x2192; 3) = 3"/>
-<node CREATED="1359985109407" ID="ID_1108318603" MODIFIED="1359985114978" TEXT="(2 &lt; 1 &#x2192; 3, T &#x2192; 0/0 ) is undefined"/>
-<node CREATED="1359985127417" ID="ID_220570318" MODIFIED="1359985128761" TEXT="(2 &lt; 1 &#x2192; 3, 4 &lt; 1 &#x2192; 4) is undefined"/>
-<node CREATED="1359986068734" ID="ID_957022016" MODIFIED="1359986070998" TEXT="p &#x2227; q = (p &#x2192; q, T &#x2192; F )"/>
-<node CREATED="1359986087493" ID="ID_285890927" MODIFIED="1359986088992" TEXT="p &#x2228; q = (p &#x2192; T, T &#x2192; q)"/>
-<node CREATED="1359986098249" ID="ID_1600211386" MODIFIED="1359986099359" TEXT="&#xac;p = (p &#x2192; F, T &#x2192; T )"/>
-</node>
-</node>
-<node CREATED="1359984573658" FOLDED="true" ID="ID_571263994" MODIFIED="1383989312044" TEXT="Propositional Expressions and Predicates">
-<node CREATED="1359984790293" ID="ID_238259609" MODIFIED="1359984811331" TEXT="Propositional Expressions">
-<node CREATED="1359984837615" ID="ID_1001010301" MODIFIED="1359984839287" TEXT="expression whose possible values are T (for truth) and F (for falsity)."/>
-<node CREATED="1359984863995" ID="ID_1413927855" MODIFIED="1359984865276" TEXT="propositional connectives &#x2227; (&#x201c;and&#x201d;), &#x2228; (&#x201c;or&#x201d;), and &#xac; (&#x201c;not&#x201d;)."/>
-</node>
-<node CREATED="1359984811774" ID="ID_986388194" MODIFIED="1359984815255" TEXT="Predicates">
-<node CREATED="1359984890047" ID="ID_1612840511" MODIFIED="1359984891297" TEXT="function whose range consists of the truth values T and F"/>
-</node>
-</node>
-<node CREATED="1359985238411" FOLDED="true" ID="ID_65804209" MODIFIED="1383987505650" TEXT="Recursive Function Definitions">
-<node CREATED="1359985278714" ID="ID_988933921" MODIFIED="1359985280276" TEXT="n! = (n = 0 &#x2192; 1, T &#x2192; n &#xb7; (n &#x2212; 1)!)"/>
-<node CREATED="1359985515948" ID="ID_81466988" MODIFIED="1359985517198" TEXT="Euclidean algorithm">
-<node CREATED="1359985474409" ID="ID_1637667203" MODIFIED="1359985475627" TEXT="gcd(m, n) = (m &gt; n &#x2192; gcd(n, m), rem(n, m) = 0 &#x2192; m, T &#x2192; gcd(rem(n, m), m))"/>
-</node>
-<node CREATED="1359985544668" ID="ID_120680332" MODIFIED="1359985546409" TEXT="Newtonian algorithm">
-<node CREATED="1359985572873" ID="ID_767214254" MODIFIED="1359985942533" TEXT="sqrt(a,x,&#x3b5;) = (|x^2 &#x2212; a| &lt; &#x3b5; &#x2192; x,T &#x2192; sqrt (a,1/2(x + a/x),&#x3b5;))"/>
-</node>
-</node>
-<node CREATED="1359987145331" FOLDED="true" ID="ID_1690486488" MODIFIED="1383987737181" TEXT="Functions and Forms">
-<node CREATED="1359987225437" ID="ID_1045003805" MODIFIED="1359987228887" TEXT="function">
-<node CREATED="1359987442605" ID="ID_1224592152" MODIFIED="1359987450969" TEXT="f(x,y)"/>
-</node>
-<node CREATED="1359987229048" ID="ID_493499993" MODIFIED="1359987231624" TEXT="form">
-<node CREATED="1359987433814" ID="ID_1838621661" MODIFIED="1359987440477" TEXT="x^2+y"/>
-</node>
-<node CREATED="1359987430000" ID="ID_917359988" MODIFIED="1359987500678" TEXT="A form can be converted into a function if we can determine the correspondence between the variables occurring in the form and the ordered list of arguments of the desired function.This is accomplished&#xa;by Church&#x2019;s &#x3bb;-notation.&#xa;"/>
-<node CREATED="1359987502072" ID="ID_1946377030" MODIFIED="1383987633014" TEXT="&#x3bb;-notation">
-<node CREATED="1359987615835" ID="ID_964087151" MODIFIED="1359987787169" TEXT="&#x3bb;((x1, &#xb7; &#xb7; &#xb7;, xn ), &#x3b5; )">
-<node CREATED="1359987763513" ID="ID_492117106" MODIFIED="1359987797668" TEXT="(x1, ..., xn)">
-<node CREATED="1359987799936" ID="ID_1736436539" MODIFIED="1359987810094" TEXT="ordered argument list"/>
-</node>
-<node CREATED="1359987812767" ID="ID_73749589" MODIFIED="1359987823556" TEXT="&#x3b5; ">
-<node CREATED="1359987942637" ID="ID_386866310" MODIFIED="1359987944917" TEXT="form"/>
-</node>
-</node>
-<node CREATED="1359987949930" ID="ID_747249689" MODIFIED="1359987975937" TEXT="&#x3bb;((x, y), y^2 + x)">
-<node CREATED="1359987990155" ID="ID_1911876519" MODIFIED="1359988017488" TEXT="&#x3bb;((x, y), y^2 + x)(3, 4) = 19"/>
-</node>
-<node CREATED="1359988668124" ID="ID_789676260" MODIFIED="1383987708225" TEXT="bound variables">
-<node CREATED="1359988699200" ID="ID_1359220085" MODIFIED="1359988714037" TEXT="lexical static"/>
-</node>
-<node CREATED="1359988674091" FOLDED="true" ID="ID_858859607" MODIFIED="1383987735291" TEXT="unbound variables">
-<node CREATED="1359988716321" ID="ID_747129320" MODIFIED="1383987683259" TEXT="dynamic static "/>
-<node CREATED="1359989259287" ID="ID_1127651421" MODIFIED="1359989262612" TEXT="closure"/>
-</node>
-</node>
-</node>
-<node CREATED="1359989645443" FOLDED="true" ID="ID_1318588913" MODIFIED="1383988696319" TEXT="Expressions for Recursive Functions">
-<node CREATED="1359990359840" ID="ID_1463717966" MODIFIED="1383987740309" TEXT="label(a, &#x3b5; )">
-<node CREATED="1359990381984" ID="ID_571958027" MODIFIED="1359990424790" TEXT="a within the expression stands for the expression as a whole"/>
-<node CREATED="1359990426496" ID="ID_407264739" MODIFIED="1359990504116" TEXT="&#x3b5; &#x3bb;-expression"/>
-<node CREATED="1359990555953" HGAP="22" ID="ID_1686521611" MODIFIED="1359990635640" TEXT="(define factorial (lambda (n) (cond ((&lt;= n 1) 1) (else (* n (factorial(- n 1))))))) " VSHIFT="5">
-<node CREATED="1359990832726" ID="ID_1838666997" MODIFIED="1359990838563" TEXT="scheme"/>
-</node>
-</node>
-</node>
-<node CREATED="1359991508607" FOLDED="true" ID="ID_973596951" MODIFIED="1383989278215" TEXT="Recursive Functions of Symbolic Expressions">
-<node CREATED="1359991537865" ID="ID_1460374680" MODIFIED="1383987875709" TEXT="S-expressions">
-<node CREATED="1359991545283" ID="ID_307664770" MODIFIED="1359991546455" TEXT="symbolic expressions"/>
-<node CREATED="1359991782060" ID="ID_1242650013" MODIFIED="1359991860281" TEXT="S-expressions are formed by using the special characters &quot;&#xb7;&quot; ,&quot;)&quot;, &quot;(&quot; and an infinite set of distinguishable atomic symbols. For atomic symbols, we shall use strings of capital Latin letters and digits with single imbedded blanks."/>
-<node CREATED="1359992259694" ID="ID_29199941" MODIFIED="1359992261693" TEXT="defined as follows:">
-<node CREATED="1359992266796" ID="ID_1236378750" MODIFIED="1359992289293" TEXT="1. Atomic symbols are S-expressions."/>
-<node CREATED="1359992371284" ID="ID_1604539446" MODIFIED="1359992372705" TEXT="2. If e1 and e2 are S-expressions, so is (e1&#xb7; e2)."/>
-</node>
-<node CREATED="1359991591974" ID="ID_1469817212" MODIFIED="1360062950366" TEXT="in term of">
-<node CREATED="1359991549994" ID="ID_1415677760" MODIFIED="1359991571353" TEXT="ordered pairs">
-<node CREATED="1359992462177" ID="ID_850192526" MODIFIED="1359992464176" TEXT="(m1 &#xb7; (m2 &#xb7; (&#xb7; &#xb7; &#xb7; (mn &#xb7; NIL) &#xb7; &#xb7; &#xb7;)))">
-<node CREATED="1359992823598" ID="ID_957135372" MODIFIED="1359992832781" TEXT="NIL is an atomic symbol used to terminate lists."/>
-</node>
-</node>
-<node CREATED="1359991571780" ID="ID_591334482" MODIFIED="1359991588723" TEXT="lists">
-<node CREATED="1359992435977" ID="ID_1922813073" MODIFIED="1359992445370" TEXT="(m1, m2 , &#xb7; &#xb7; &#xb7; , mn)"/>
-<node CREATED="1359992883892" ID="ID_40902192" MODIFIED="1359992920223" TEXT="list notations are abbreviations for  S-expressions.">
-<node CREATED="1359992944518" ID="ID_183419999" MODIFIED="1359993120450" TEXT="(m) stands for (m &#xb7;NIL)."/>
-<node CREATED="1359993106392" ID="ID_1446370877" MODIFIED="1359993118562" TEXT="(m1 , &#xb7; &#xb7; &#xb7; , mn ) stands for (m1 &#xb7; (&#xb7; &#xb7; &#xb7; (mn &#xb7; NIL) &#xb7; &#xb7; &#xb7;))."/>
-<node CREATED="1359993121313" ID="ID_614223036" MODIFIED="1359993158974" TEXT="(m1 , &#xb7; &#xb7; &#xb7; , mn &#xb7; x) stands for (m1 &#xb7; (&#xb7; &#xb7; &#xb7; (mn &#xb7; x) &#xb7; &#xb7; &#xb7;))."/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1359993221489" FOLDED="true" ID="ID_1860477268" MODIFIED="1383989276138" TEXT="S-functions/M-expressions">
-<node CREATED="1359995396924" FOLDED="true" ID="ID_1083737697" MODIFIED="1383989020459" TEXT="M-expressions">
-<node CREATED="1359994521068" ID="ID_807894446" MODIFIED="1359995409148" TEXT="meta-expressions"/>
-<node CREATED="1359994355013" ID="ID_1363792072" MODIFIED="1359995404328" TEXT="use sequences of lower-case letters for function names and variables ranging over the set of S-expressions. We also use brackets and semicolons, instead of parentheses and commas, for denoting the application of functions to their arguments.any S-expression that occur stand for themselves.">
-<node CREATED="1359994469471" ID="ID_233552643" MODIFIED="1359994470814" TEXT="car[x]"/>
-<node CREATED="1359994482661" ID="ID_945725529" MODIFIED="1359994484160" TEXT="car[cons[(A &#xb7; B); x]]"/>
-</node>
-</node>
-<node CREATED="1359995372167" ID="ID_1633589716" MODIFIED="1383989023136" TEXT="S-functions">
-<node CREATED="1359994283869" ID="ID_1771270703" MODIFIED="1359995384758" TEXT="functions of S-expressions"/>
-<node CREATED="1359994591104" FOLDED="true" ID="ID_23936075" MODIFIED="1383989037327" TEXT="five elementary S-functions">
-<node CREATED="1359994596073" ID="ID_773187045" MODIFIED="1383988296034" TEXT="atom">
-<icon BUILTIN="full-1"/>
-<node CREATED="1359994625986" ID="ID_1161541973" MODIFIED="1359994665472" TEXT="atom[x] has the value of T or F according to whether x is an atomic symbol"/>
-<node CREATED="1359994687403" ID="ID_1283445369" MODIFIED="1359994688591" TEXT="atom [X] = T"/>
-<node CREATED="1359994688987" ID="ID_1783998476" MODIFIED="1359994699628" TEXT="atom [(X &#xb7; A)] = F"/>
-</node>
-<node CREATED="1359994724017" FOLDED="true" ID="ID_485449113" MODIFIED="1383989031712" TEXT="eq">
-<icon BUILTIN="full-2"/>
-<node CREATED="1359994770793" ID="ID_318367406" MODIFIED="1359994772340" TEXT="eq [x;y] is defined if and only if both x and y are atomic. eq [x; y] = T if x and y are the same symbol, and eq [x; y] = F otherwise."/>
-<node CREATED="1359994785309" ID="ID_822047686" MODIFIED="1359994812705" TEXT="eq [X; X] = T"/>
-<node CREATED="1359994828466" ID="ID_654670388" MODIFIED="1359994829529" TEXT="eq [X; A] = F"/>
-<node CREATED="1359994839285" ID="ID_511459676" MODIFIED="1359994840395" TEXT="eq [X; (X &#xb7; A)] is undefined."/>
-</node>
-<node CREATED="1359994852350" FOLDED="true" ID="ID_1100964552" MODIFIED="1383989035928" TEXT="car">
-<icon BUILTIN="full-3"/>
-<node CREATED="1359994873371" ID="ID_1249729322" MODIFIED="1359994923020" TEXT="car[x] is defined if and only if x is not atomic. car [(e1 &#xb7; e2)] = e1 ."/>
-<node CREATED="1359994924680" ID="ID_212632654" MODIFIED="1359994925774" TEXT="car [X] is undefined."/>
-<node CREATED="1359994911693" ID="ID_822955983" MODIFIED="1359994913395" TEXT="car [(X &#xb7; A)] = X"/>
-<node CREATED="1359994935561" ID="ID_1136121048" MODIFIED="1359994936655" TEXT="car [((X &#xb7; A) &#xb7; Y )] = (X &#xb7; A)"/>
-</node>
-<node CREATED="1359994949421" FOLDED="true" ID="ID_1391278597" MODIFIED="1383988378244" TEXT="cdr">
-<icon BUILTIN="full-4"/>
-<node CREATED="1359994977681" ID="ID_1776521967" MODIFIED="1359994992581" TEXT="cdr [x] is also defined when x is not atomic. We have cdr [(e1 &#xb7; e2)] =e2 ."/>
-<node CREATED="1359994996549" ID="ID_1709270505" MODIFIED="1359995005053" TEXT="cdr[X] is undefined"/>
-<node CREATED="1359995005355" ID="ID_1407072471" MODIFIED="1359995052906" TEXT="cdr [(X &#xb7; A)] = A"/>
-<node CREATED="1359995072303" ID="ID_1922213771" MODIFIED="1359995073709" TEXT="cdr [((X &#xb7; A) &#xb7; Y )] = Y"/>
-</node>
-<node CREATED="1359995102606" FOLDED="true" ID="ID_1447301361" MODIFIED="1383988432609" TEXT="cons">
-<icon BUILTIN="full-5"/>
-<node CREATED="1359995109244" ID="ID_913815582" MODIFIED="1359995138074" TEXT="cons [x; y] is defined for any x and y. We have cons [e1 ; e ] = (e1 &#xb7; e2 )."/>
-<node CREATED="1359995157502" ID="ID_1267733651" MODIFIED="1359995158830" TEXT="cons [X; A] = (X A)"/>
-<node CREATED="1359995172455" ID="ID_37021039" MODIFIED="1359995173502" TEXT="cons [(X &#xb7; A); Y ] = ((X &#xb7; A)Y )"/>
-<node CREATED="1359995210730" ID="ID_161706711" MODIFIED="1359995211980" TEXT="car [cons [x; y]] = x"/>
-<node CREATED="1359995222952" ID="ID_225586446" MODIFIED="1359995223937" TEXT="cdr [cons [x; y]] = y"/>
-<node CREATED="1359995237608" ID="ID_1157475295" MODIFIED="1359995238796" TEXT="cons [car [x]; cdr [x]] = x, provided that x is not atomic."/>
-</node>
-</node>
-<node CREATED="1359995473150" FOLDED="true" ID="ID_1406404075" MODIFIED="1383989130064" TEXT="recursive S-functions">
-<node CREATED="1359995530246" ID="ID_582146037" MODIFIED="1359995531683" TEXT="form new functions of S-expressions by conditional expressions and recursive definition."/>
-<node CREATED="1359995597615" FOLDED="true" ID="ID_1519124967" MODIFIED="1383988497825" TEXT="ff [x]">
-<node CREATED="1359995642309" ID="ID_1253619118" MODIFIED="1359995643637" TEXT="The value of ff[x] is the first atomic symbol of the S-expression x with the parentheses ignored."/>
-<node CREATED="1359995654032" ID="ID_149795631" MODIFIED="1359995655392" TEXT="ff[((A &#xb7; B) &#xb7; C )] = A"/>
-<node CREATED="1359995670249" ID="ID_978676895" MODIFIED="1359995671577" TEXT="ff[x] = [atom[x] &#x2192; x; T &#x2192; ff[car[x]]]"/>
-<node CREATED="1359999640047" ID="ID_515124503" MODIFIED="1359999641459" TEXT="(defun ff(x) (cond ((atom x) x) ((ff (car x)))))">
-<node CREATED="1359999649654" ID="ID_119679050" MODIFIED="1359999653754" TEXT="clisp"/>
-</node>
-</node>
-<node CREATED="1359995725574" FOLDED="true" ID="ID_861925897" MODIFIED="1383988501825" TEXT="subst [x; y; z]">
-<node CREATED="1359995741744" ID="ID_964458367" MODIFIED="1359995768437" TEXT="This function gives the result of substituting the S-expression x for all occurrences of the atomic symbol y in the S-expression z."/>
-<node CREATED="1359995770175" ID="ID_243053487" MODIFIED="1359996277744">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      subst[x;y;z]=[atom[z] &#x2192; [ eq[z;y] &#x2192; x; T&#x2192; z ];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;T&#x2192; cons[subst[x;y;car[z]];subst[x;y;cdr[z]]]&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-<node CREATED="1360002415055" ID="ID_884626834" MODIFIED="1360002416742" TEXT="(defun subst(x y z)(cond ((atom z)(cond ((= z y) x) ((z)))) ((cons (subst x y (cdr z)) (subst x y (cdr z)))))) "/>
-</node>
-<node CREATED="1360031196653" FOLDED="true" ID="ID_1651078435" MODIFIED="1360044236790" TEXT="equal [x; y]">
-<node CREATED="1360031254552" ID="ID_1757058628" MODIFIED="1360031255989" TEXT="This is a predicate that has the value T if x and y are the same S-expression, and has the value F otherwise."/>
-<node CREATED="1360034499321" ID="ID_1944164628" MODIFIED="1360034536658">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun equal0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (cond ((and (atom x) (atom y) (eq x y)) T )&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((and (not (atom x)) (not (atom y)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(and (equal0 (car x) (car y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(equal0 (cdr x) (cdr y))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(NIL)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1360036129513" FOLDED="true" ID="ID_1511743971" MODIFIED="1360045885437" TEXT="null [x]">
-<node CREATED="1360044371461" ID="ID_161531517" MODIFIED="1360044407866" TEXT="null is true if its argument is () &quot;NIL&quot;"/>
-<node CREATED="1360036137367" ID="ID_1306981855" MODIFIED="1360036287204" TEXT="[atom[x] &#x2227;eq[x;NIL] &#x2192;T;T&#x2192;F]"/>
-<node CREATED="1360044430999" ID="ID_1677556935" MODIFIED="1360044626096" TEXT="(defun null0(x) (and (atom x) (eq x NIL)))"/>
-</node>
-<node CREATED="1360044686871" FOLDED="true" ID="ID_1651247929" MODIFIED="1360045890988" TEXT="c[ad]+r [x]">
-<node CREATED="1360044799572" ID="ID_238810952" MODIFIED="1360044806218" TEXT="car[x]"/>
-<node CREATED="1360044806521" ID="ID_1063921574" MODIFIED="1360044819143" TEXT="caar[x]=car[car[x]]"/>
-<node CREATED="1360044820778" ID="ID_1834750914" MODIFIED="1360044846874" TEXT="caaar[x]=car[car[car[x[car[x]]]]"/>
-<node CREATED="1360044881834" ID="ID_316281759" MODIFIED="1360044891357" TEXT="cadr[x]=car[cdr[x]]"/>
-<node CREATED="1360044909987" ID="ID_2532886" MODIFIED="1360044929797" TEXT="caddr[x]=car[cdr[cdr[x]]]"/>
-<node CREATED="1360044992198" ID="ID_1875975839" MODIFIED="1360045007842" TEXT="cdddr[x]=cdr[cdr[cdr[x]]]"/>
-</node>
-<node CREATED="1360045049246" FOLDED="true" ID="ID_1383237398" MODIFIED="1360076432021" TEXT="append [x;y]">
-<node CREATED="1360045133863" ID="ID_594318396" MODIFIED="1360045357994" TEXT="append [x; y] = [null[x] &#x2192; y; T &#x2192; cons [car [x]; append [cdr [x]; y]]]"/>
-<node CREATED="1360045769239" ID="ID_255254631" MODIFIED="1360045782908">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun append0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((null x) y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((cons (car x) (append0 (cdr x) x)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1360045805859" FOLDED="true" ID="ID_72405601" MODIFIED="1360076432864" TEXT="among [x; y]">
-<node CREATED="1360045833167" ID="ID_1199626893" MODIFIED="1360045834488" TEXT="This predicate is true if the S-expression x occurs among the elements of the list y."/>
-<node CREATED="1360045865891" ID="ID_474870948" MODIFIED="1360046175982" TEXT="among[x; y] = &#xac;null[y] &#x2227; [equal[x; car[y]] &#x2228; among[x; cdr[y]]]"/>
-<node CREATED="1360047142926" ID="ID_1538443570" MODIFIED="1360047148628" TEXT="(defun among0(x y) (or (and (not (null y)) (equal x (car y))) (among0 x (cdr y))))"/>
-</node>
-<node CREATED="1360047347962" FOLDED="true" ID="ID_1521562499" MODIFIED="1360076435079" TEXT="pair [x; y]">
-<node CREATED="1360047378467" ID="ID_1854264485" MODIFIED="1360047394088" TEXT="pair [x;y]. This function gives the list of pairs of corresponding elements of the lists x and y."/>
-<node CREATED="1360047438900" ID="ID_291736353" MODIFIED="1360051145521" TEXT="pair [x; y] = [ &#xac;null[x]&#x2227;&#xac;null[y] &#x2192; cons [cons [car [x]; car[y]]; pair [cdr[x];cdr[y]]]"/>
-<node CREATED="1360064681496" ID="ID_1139115980" MODIFIED="1360064734241" TEXT="(defun pair(x y)&#xa;           (cond ((and (not (null x)) (not (null y))) &#xa;                               (cons (list (car x) (car y)) (pair (cdr x) (cdr y))))))"/>
-</node>
-<node CREATED="1360065077783" ID="ID_1131762326" MODIFIED="1360080136926" TEXT="assoc [x;y]">
-<node CREATED="1360065278025" ID="ID_1328009257" MODIFIED="1360065307082" TEXT="If y is a list of the form ((u1 , v1 ), &#xb7; &#xb7; &#xb7; , (un , vn )) and x is one of the u&#x2019;s, then assoc [x; y] is the corresponding v."/>
-<node CREATED="1360065309287" ID="ID_513159992" MODIFIED="1360065862705" TEXT="assoc [x; y] = [&#xac;atom [y]&#x2192;[eq[x; car[y]] &#x2192; cdar[y]; assoc [x;cdr[y]]]]"/>
-<node CREATED="1360075572583" ID="ID_129966397" MODIFIED="1360075619237">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun assoc0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((not (atom y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((eq x (caar y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cadar y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((assoc0 x (cdr y))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(NIL)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1360076439234" FOLDED="true" ID="ID_31714590" MODIFIED="1360078496939" TEXT="sublis[x; y]">
-<node CREATED="1360076467197" ID="ID_518914136" MODIFIED="1360076469243" TEXT="Here x is assumed to have the form of a list of pairs ((u 1 , v 1 ), &#xb7; &#xb7; &#xb7; , (u n , v n )), where the u&#x2019;s are atomic, and y may be any S-expression. The value of sublis[x; y] is the result of substituting each v for the correspond-ing u in y."/>
-<node CREATED="1360076480730" ID="ID_1669722619" MODIFIED="1360076482012" TEXT="sub2[x; z] = [null[x] &#x2192; z; eq[caar[x]; z] &#x2192; cadar[x]; T &#x2192; sub2[cdr[x]; z]]"/>
-<node CREATED="1360076888061" ID="ID_1833155743" MODIFIED="1360076903835">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun sub2(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((null x) y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((eq (caar x) y) (cadar x))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((sub2 (cdr x) y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-<node CREATED="1360076885292" ID="ID_1294181827" MODIFIED="1360076886792" TEXT="sublis[x; y] = [atom[y] &#x2192; sub2[x; y]; T &#x2192; cons[sublis[x; car[y]]; sublis[x; cdr[y]]]"/>
-<node CREATED="1360076906758" ID="ID_1494684786" MODIFIED="1360078495239">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun sublis0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((and (not (null y)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cons (sub2 x (car y)) (sublis0 x (cdr y))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1360078703521" FOLDED="true" ID="ID_971739847" MODIFIED="1383989233028" TEXT="M-expressions(&#x3b5;) 2 S-expressions(&#x3b5;*)">
-<node CREATED="1360078816278" ID="ID_1018519782" MODIFIED="1383989095684" TEXT="1. If &#x3b5; is an S-expression &#x3b5;* is (QUOTE, &#x3b5;).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
-</node>
-<node CREATED="1360078866494" ID="ID_1799833872" MODIFIED="1383989095677" TEXT="2. Variables and function names that were represented by strings of lower-case letters are translated to the corresponding strings of the corresponding uppercase letters. Thus car* is CAR, and subst* is SUBST.">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
-</node>
-<node CREATED="1360078897944" ID="ID_1933960699" MODIFIED="1383989095669" TEXT="3. A form f [e1 ; &#xb7; &#xb7; &#xb7; ; en ] is translated to (f&#x2217; , e1&#x2217; &#xb7; &#xb7; &#xb7; , e2&#x2217;). Thus cons [car [x]; cdr [x]]&#x2217; is (CONS, (CAR, X), (CDR, X)).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
-</node>
-<node CREATED="1360078954673" ID="ID_1043515356" MODIFIED="1383989219060" TEXT="4. {[p1 &#x2192; e1 ; &#xb7; &#xb7; &#xb7; ; pn &#x2192; en ]}&#x2217; is (COND, (p1*&#x2217;, e1* ), &#xb7; &#xb7; &#xb7; , (pn* &#xb7; en*)).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
-</node>
-<node CREATED="1360079023275" ID="ID_1995412666" MODIFIED="1383989095668" TEXT="5. {&#x3bb;[[x1 ; &#xb7; &#xb7; &#xb7; ; xn ]; &#x3b5; ]}&#x2217; is (LAMBDA, (x1* , &#xb7; &#xb7; &#xb7; , xn* ), &#x3b5;&#x2217; ).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
-</node>
-<node CREATED="1360079113508" ID="ID_35398829" MODIFIED="1383989095664" TEXT="6. {label[a; &#x3b5;]}&#x2217; is (LABEL, a&#x2217; , &#x3b5;&#x2217; ).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1360082287799" ID="ID_147059226" MODIFIED="1383989234619" TEXT="Functions with Functions as Arguments">
-<node CREATED="1360079627994" FOLDED="true" ID="ID_1392605047" MODIFIED="1383989262110" TEXT="The Universal S-Function apply">
-<node CREATED="1360079657345" ID="ID_698444892" MODIFIED="1360079727641" TEXT="There is an S-function apply with the property that if f is an S-expression for an S-function f&apos; and args is a list of arguments of the form (arg1 , &#xb7; &#xb7; &#xb7; , argn ), where arg1 , &#xb7; &#xb7; &#xb7; , argn are arbitrary S-expressions, then apply[f ; args] and f&apos; [arg1 ; &#xb7; &#xb7; &#xb7; ; argn ] are defined for the same values of arg1 , &#xb7; &#xb7; &#xb7; , argn , and are equal when defined. ">
-<node CREATED="1360079770586" ID="ID_1618662598" MODIFIED="1360079789869" TEXT="(apply #&apos;sublis0 &apos;(((a 0) (b 1)) (a a b a b)))"/>
-</node>
-<node CREATED="1360079729487" ID="ID_9085845" MODIFIED="1360079768021" TEXT="S-function apply is defined by">
-<node CREATED="1360079792667" ID="ID_204616877" MODIFIED="1360079832917" TEXT="apply[f ; args] = eval[cons[f ; appq[args]]; NIL]">
-<node CREATED="1360079887695" ID="ID_200201683" MODIFIED="1360079916487" TEXT="appq[m] = [null[m] &#x2192; NIL; T &#x2192; cons[list[QUOTE; car[m]]; appq[cdr[m]]]]"/>
-</node>
-</node>
-</node>
-<node CREATED="1360080019336" FOLDED="true" ID="ID_1553076138" MODIFIED="1383989259960" TEXT="eval">
-<node CREATED="1360080028298" ID="ID_98935682" MODIFIED="1360080931825">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      eval[e; a] = [&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atom [e] &#x2192; assoc [e; a];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atom [car [e]] &#x2192; [&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; QUOTE] &#x2192; cadr [e];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; ATOM] &#x2192; atom [eval [cadr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; EQ] &#x2192; [eval [cadr [e]; a] = eval [caddr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; COND] &#x2192; evcon [cdr [e]; a];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CAR] &#x2192; car [eval [cadr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CDR] &#x2192; cdr [eval [cadr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CONS] &#x2192; cons [eval [cadr [e]; a]; eval [caddr [e];a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;T &#x2192; eval [cons [assoc [car [e]; a]; evlis [cdr [e]; a]]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;eq [caar [e]; LABEL] &#x2192; eval [cons [caddar [e]; cdr [e]];cons [list [cadar [e]; car [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;eq [caar [e]; LAMBDA] &#x2192; eval [caddar [e];append [pair [cadar [e]; evlis [cdr [e]; a]; a]]]&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html></richcontent>
-<node CREATED="1360080950636" ID="ID_1044414308" MODIFIED="1360080963528" TEXT="evlis[m; a] = [null[m] &#x2192; NIL; T &#x2192; cons[eval[car[m]; a]; evlis[cdr[m]; a]]]"/>
-<node CREATED="1360080933874" ID="ID_1899923668" MODIFIED="1360080949071" TEXT="evcon[c; a] = [eval[caar[c]; a] &#x2192; eval[cadar[c]; a]; T &#x2192; evcon[cdr[c]; a]] and"/>
-</node>
-</node>
-<node CREATED="1360082339100" ID="ID_5145955" MODIFIED="1360082342019" TEXT="map"/>
-<node CREATED="1360082361899" ID="ID_1450376683" MODIFIED="1360082363321" TEXT="reduce"/>
-</node>
-</node>
-</node>
-<node CREATED="1360082411437" ID="ID_320510377" MODIFIED="1360082413373" TEXT="The LISP Programming System"/>
-</node>
+<node CREATED="1359822982386" ID="ID_1470629327" MODIFIED="1359822990207" TEXT="&quot;Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I&quot;"/>
 <node CREATED="1359823000961" ID="ID_974518758" MODIFIED="1359823002031" TEXT="&quot;Part II&quot; was never published"/>
 </node>
 <node CREATED="1359822966672" ID="ID_621797199" MODIFIED="1359823074377" TEXT="&quot;Turing-complete&quot;">
@@ -549,7 +99,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359823395247" ID="ID_1674882128" MODIFIED="1388795407194" TEXT="first implemented">
+<node CREATED="1359823395247" FOLDED="true" ID="ID_1674882128" MODIFIED="1426771745826" TEXT="first implemented">
 <node CREATED="1359823398778" ID="ID_766304298" MODIFIED="1359823417931" TEXT="by Steve Russell"/>
 <node CREATED="1359823427999" ID="ID_275652144" MODIFIED="1359858238740" TEXT="at IBM 704"/>
 <node CREATED="1359857878282" ID="ID_122040635" MODIFIED="1383987075879" TEXT="&quot;eval&quot;">
@@ -562,19 +112,19 @@
 <node CREATED="1359823694627" ID="ID_1310263914" MODIFIED="1359858213147" TEXT="return the first item in a list."/>
 </node>
 </node>
-<node CREATED="1359823609475" ID="ID_934196779" MODIFIED="1359898271729" TEXT="&quot;cdr&quot;">
+<node CREATED="1359823609475" FOLDED="true" ID="ID_934196779" MODIFIED="1426771731529" TEXT="&quot;cdr&quot;">
 <node CREATED="1359823612321" ID="ID_1359709926" MODIFIED="1359823613420" TEXT="Contents of the Decrement part of Register number">
 <node CREATED="1359823721223" ID="ID_1787369111" MODIFIED="1359858210580" TEXT="return the rest of the list."/>
 </node>
 </node>
-<node CREATED="1359823542123" FOLDED="true" ID="ID_1702501806" MODIFIED="1359858331844" TEXT="Two assembly language macros for the IBM 704 became the primitive operations for decomposing lists:&quot;car&quot; &quot;cdr&quot;">
+<node CREATED="1359823542123" ID="ID_1702501806" MODIFIED="1426771737469" TEXT="Two assembly language macros for the IBM 704 became the primitive operations for decomposing lists:&quot;car&quot; &quot;cdr&quot;">
 <node CREATED="1359823721223" ID="ID_311956324" MODIFIED="1359823725449" TEXT="return the first item in a list and the rest of the list respectively."/>
 </node>
 <node CREATED="1359823632762" ID="ID_1377546669" MODIFIED="1383987135859" TEXT="&quot;Register&quot; is used here to mean &quot;Memory Register&quot;">
 <node CREATED="1359823644817" ID="ID_1635050758" MODIFIED="1359823646531" TEXT="nowadays called &quot;Memory Location&quot;."/>
 </node>
 </node>
-<node CREATED="1359823751520" FOLDED="true" ID="ID_977680480" MODIFIED="1359858583857" TEXT="The first complete Lisp compiler, written in Lisp, was implemented (in 1962)">
+<node CREATED="1359823751520" FOLDED="true" ID="ID_977680480" MODIFIED="1426771756774" TEXT="The first complete Lisp compiler, written in Lisp, was implemented (in 1962)">
 <node CREATED="1359823776270" ID="ID_687576707" MODIFIED="1359858428711" TEXT="by Tim Hart and Mike Levin">
 <node CREATED="1359823873810" ID="ID_1034537274" MODIFIED="1359823878704" TEXT="The language used in Hart and Levin&apos;s memo is much closer to modern Lisp style than McCarthy&apos;s earlier code."/>
 </node>
@@ -583,7 +133,7 @@
 <node CREATED="1359823863300" ID="ID_166977891" MODIFIED="1359823864656" TEXT="This compiler introduced the Lisp model of incremental compilation, in which compiled and interpreted functions can intermix freely."/>
 </node>
 </node>
-<node CREATED="1359823964307" FOLDED="true" ID="ID_1362989129" MODIFIED="1359859975859" TEXT="garbage collection routines (in 1970s)">
+<node CREATED="1359823964307" ID="ID_1362989129" MODIFIED="1426771758301" TEXT="garbage collection routines (in 1970s)">
 <node CREATED="1359824008976" ID="ID_174479571" MODIFIED="1359859078229" TEXT="by then-MIT graduate student Daniel Edwards">
 <node CREATED="1359824041043" ID="ID_453232739" MODIFIED="1359824042824" TEXT="made it practical to run Lisp on general-purpose computing systems, but efficiency was still a problem.">
 <node CREATED="1359824074658" ID="ID_116388855" MODIFIED="1359824076137" TEXT="This led to the creation of Lisp machines: dedicated hardware for running Lisp environments and programs. Advances in both computer hardware and compiler technology soon made Lisp machines obsolete."/>
@@ -593,14 +143,14 @@
 <node CREATED="1359823981588" ID="ID_1310175727" MODIFIED="1359824004163" TEXT="minimal machine"/>
 </node>
 </node>
-<node CREATED="1359824090667" FOLDED="true" ID="ID_194181283" MODIFIED="1359859976717" TEXT="During the 1980s and 1990s">
+<node CREATED="1359824090667" FOLDED="true" ID="ID_194181283" MODIFIED="1426771769213" TEXT="During the 1980s and 1990s">
 <node CREATED="1359824144183" ID="ID_1131293743" MODIFIED="1359824145632" TEXT="Common Lisp">
 <node CREATED="1359824163253" ID="ID_1402223359" MODIFIED="1359859191163" TEXT="In 1994, ANSI published the Common Lisp standard">
 <node CREATED="1359859194498" ID="ID_1008690268" MODIFIED="1359859194498" TEXT="&quot;ANSI X3.226-1994 Information Technology Programming Language Common Lisp.&quot;"/>
 </node>
 </node>
 </node>
-<node CREATED="1359822407020" FOLDED="true" ID="ID_1631632700" MODIFIED="1359859383850" TEXT="second-oldest high-level programming language in widespread use today;">
+<node CREATED="1359822407020" FOLDED="true" ID="ID_1631632700" MODIFIED="1426771776686" TEXT="second-oldest high-level programming language in widespread use today;">
 <node CREATED="1359822423644" ID="ID_1262611810" MODIFIED="1359822424710" TEXT="only Fortran is older (by one year)."/>
 </node>
 <node CREATED="1359822490828" ID="ID_1783131972" MODIFIED="1359913081252" TEXT="lambda (&#x3bb;) calculus">
@@ -616,9 +166,9 @@
 <node CREATED="1359822601397" ID="ID_1375616915" MODIFIED="1359822602331" TEXT="self-hosting compiler"/>
 </node>
 </node>
-<node CREATED="1359822628844" ID="ID_550141649" MODIFIED="1397378447504" TEXT="&quot;LISt Processing&quot;">
+<node CREATED="1359822628844" ID="ID_550141649" MODIFIED="1426771858281" TEXT="&quot;LISt Processing&quot;">
 <node CREATED="1359822644256" ID="ID_377287838" MODIFIED="1359822645219" TEXT="Linked lists are one of Lisp language&apos;s major data structures"/>
-<node CREATED="1359822666301" ID="ID_1988455559" MODIFIED="1359822670633" TEXT="Lisp source code is itself made up of lists.">
+<node CREATED="1359822666301" FOLDED="true" ID="ID_1988455559" MODIFIED="1426771840649" TEXT="Lisp source code is itself made up of lists.">
 <node CREATED="1359822718501" ID="ID_197306162" MODIFIED="1359822719787" TEXT="As a result, Lisp programs can manipulate source code as a data structure">
 <node CREATED="1359822700881" ID="ID_1456688762" MODIFIED="1359822727252" TEXT="giving rise to the macro systems that allow programmers to create new syntax or even new domain-specific languages embedded in Lisp."/>
 </node>
@@ -633,20 +183,20 @@
 <node CREATED="1359822830986" ID="ID_103982564" MODIFIED="1359822832692" TEXT="gives Lisp its instantly recognizable syntax."/>
 </node>
 </node>
-<node CREATED="1359822982386" FOLDED="true" ID="ID_610220906" MODIFIED="1425539636875" POSITION="right" TEXT="&quot;Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I&quot;">
-<node CREATED="1359942106066" ID="ID_1664220540" MODIFIED="1421215138560" TEXT="&quot;LISt Processor&quot;">
+<node CREATED="1359822982386" FOLDED="true" ID="ID_610220906" MODIFIED="1426772599101" POSITION="right" TEXT="&quot;Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I&quot;">
+<node CREATED="1359942106066" FOLDED="true" ID="ID_1664220540" MODIFIED="1426771909000" TEXT="&quot;LISt Processor&quot;">
 <node CREATED="1359942148895" ID="ID_1061603346" MODIFIED="1359942165589" TEXT="IBM 704"/>
 <node CREATED="1359942171304" ID="ID_1671675021" MODIFIED="1359942210353" TEXT="Artificial Intelligence Group at M.I.T."/>
-<node CREATED="1359942326407" ID="ID_1831216444" MODIFIED="1359943289970" TEXT="Advice Taker (Nov. 1958)">
+<node CREATED="1359942326407" ID="ID_1831216444" MODIFIED="1426771882094" TEXT="Advice Taker (Nov. 1958)">
 <node CREATED="1359942373387" ID="ID_714635091" MODIFIED="1359942416983" TEXT="declarative  sentences"/>
 <node CREATED="1359942394735" ID="ID_1564609067" MODIFIED="1359942421226" TEXT="imperative sentences"/>
 <node CREATED="1359942551165" ID="ID_391455704" MODIFIED="1359942565932" TEXT="&quot;common sense&quot;"/>
 </node>
 </node>
-<node CREATED="1359984523932" FOLDED="true" ID="ID_861077147" MODIFIED="1421215162902" TEXT="partial function">
+<node CREATED="1359984523932" FOLDED="true" ID="ID_861077147" MODIFIED="1426771913409" TEXT="partial function">
 <node CREATED="1359984634940" ID="ID_1161140212" MODIFIED="1359984692381" TEXT="function that is defined only on part of its domain."/>
 </node>
-<node CREATED="1359984912457" ID="ID_596693558" MODIFIED="1421215169674" TEXT="Conditional Expressions">
+<node CREATED="1359984912457" FOLDED="true" ID="ID_596693558" MODIFIED="1426771989424" TEXT="Conditional Expressions">
 <node CREATED="1359984935989" ID="ID_122576740" MODIFIED="1359985139564" TEXT="(p1 &#x2192; e1 , &#xb7; &#xb7; &#xb7; , pn &#x2192; en )">
 <node CREATED="1359985042920" ID="ID_1148199700" MODIFIED="1359985044185" TEXT="(1 &lt; 2 &#x2192; 4, 1 &gt; 2 &#x2192; 3) = 4"/>
 <node CREATED="1359985053567" ID="ID_187403284" MODIFIED="1359985054801" TEXT="(2 &lt; 1 &#x2192; 4, 2 &gt; 1 &#x2192; 3, 2 &gt; 1 &#x2192; 2) = 3"/>
@@ -661,7 +211,7 @@
 <node CREATED="1359986098249" ID="ID_1116682538" MODIFIED="1359986099359" TEXT="&#xac;p = (p &#x2192; F, T &#x2192; T )"/>
 </node>
 </node>
-<node CREATED="1359984573658" ID="ID_1081424894" MODIFIED="1421215231626" TEXT="Propositional Expressions and Predicates">
+<node CREATED="1359984573658" FOLDED="true" ID="ID_1081424894" MODIFIED="1426771987340" TEXT="Propositional Expressions and Predicates">
 <node CREATED="1359984790293" ID="ID_789097681" MODIFIED="1359984811331" TEXT="Propositional Expressions">
 <node CREATED="1359984837615" ID="ID_1811736484" MODIFIED="1359984839287" TEXT="expression whose possible values are T (for truth) and F (for falsity)."/>
 <node CREATED="1359984863995" ID="ID_1126497017" MODIFIED="1359984865276" TEXT="propositional connectives &#x2227; (&#x201c;and&#x201d;), &#x2228; (&#x201c;or&#x201d;), and &#xac; (&#x201c;not&#x201d;)."/>
@@ -670,7 +220,7 @@
 <node CREATED="1359984890047" ID="ID_834790431" MODIFIED="1359984891297" TEXT="function whose range consists of the truth values T and F"/>
 </node>
 </node>
-<node CREATED="1359985238411" ID="ID_101609202" MODIFIED="1421215359486" TEXT="Recursive Function Definitions">
+<node CREATED="1359985238411" ID="ID_101609202" MODIFIED="1426772011641" TEXT="Recursive Function Definitions">
 <node CREATED="1359985278714" ID="ID_606704904" MODIFIED="1359985280276" TEXT="n! = (n = 0 &#x2192; 1, T &#x2192; n &#xb7; (n &#x2212; 1)!)"/>
 <node CREATED="1359985515948" ID="ID_31312050" MODIFIED="1359985517198" TEXT="Euclidean algorithm">
 <node CREATED="1359985474409" ID="ID_45238242" MODIFIED="1359985475627" TEXT="gcd(m, n) = (m &gt; n &#x2192; gcd(n, m), rem(n, m) = 0 &#x2192; m, T &#x2192; gcd(rem(n, m), m))"/>
@@ -687,7 +237,7 @@
 <node CREATED="1359987433814" ID="ID_1588720264" MODIFIED="1359987440477" TEXT="x^2+y"/>
 </node>
 <node CREATED="1359987430000" ID="ID_978128866" MODIFIED="1359987500678" TEXT="A form can be converted into a function if we can determine the correspondence between the variables occurring in the form and the ordered list of arguments of the desired function.This is accomplished&#xa;by Church&#x2019;s &#x3bb;-notation.&#xa;"/>
-<node CREATED="1359987502072" ID="ID_1689007692" MODIFIED="1383987633014" TEXT="&#x3bb;-notation">
+<node CREATED="1359987502072" ID="ID_1689007692" MODIFIED="1426772167766" TEXT="&#x3bb;-notation">
 <node CREATED="1359987615835" ID="ID_162806004" MODIFIED="1359987787169" TEXT="&#x3bb;((x1, &#xb7; &#xb7; &#xb7;, xn ), &#x3b5; )">
 <node CREATED="1359987763513" ID="ID_141801575" MODIFIED="1359987797668" TEXT="(x1, ..., xn)">
 <node CREATED="1359987799936" ID="ID_31033293" MODIFIED="1359987810094" TEXT="ordered argument list"/>
@@ -741,7 +291,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359993221489" FOLDED="true" ID="ID_1694438666" MODIFIED="1425539628728" TEXT="S-functions/M-expressions">
+<node CREATED="1359993221489" FOLDED="true" ID="ID_1694438666" MODIFIED="1426772593371" TEXT="S-functions/M-expressions">
 <node CREATED="1359995396924" ID="ID_1740833419" MODIFIED="1421215402707" TEXT="M-expressions">
 <node CREATED="1359994521068" ID="ID_1727587271" MODIFIED="1359995409148" TEXT="meta-expressions"/>
 <node CREATED="1359994355013" ID="ID_341708541" MODIFIED="1359995404328" TEXT="use sequences of lower-case letters for function names and variables ranging over the set of S-expressions. We also use brackets and semicolons, instead of parentheses and commas, for denoting the application of functions to their arguments.any S-expression that occur stand for themselves.">
@@ -749,9 +299,9 @@
 <node CREATED="1359994482661" ID="ID_1842342579" MODIFIED="1359994484160" TEXT="car[cons[(A &#xb7; B); x]]"/>
 </node>
 </node>
-<node CREATED="1359995372167" ID="ID_1108481965" MODIFIED="1425539514135" TEXT="S-functions">
+<node CREATED="1359995372167" FOLDED="true" ID="ID_1108481965" MODIFIED="1426772591608" TEXT="S-functions">
 <node CREATED="1359994283869" ID="ID_1999711787" MODIFIED="1359995384758" TEXT="functions of S-expressions"/>
-<node CREATED="1359994591104" ID="ID_375948518" MODIFIED="1421215426986" TEXT="five elementary S-functions">
+<node CREATED="1359994591104" FOLDED="true" ID="ID_375948518" MODIFIED="1426772430847" TEXT="five elementary S-functions">
 <node CREATED="1359994596073" ID="ID_1523663444" MODIFIED="1383988296034" TEXT="atom">
 <icon BUILTIN="full-1"/>
 <node CREATED="1359994625986" ID="ID_905913355" MODIFIED="1359994665472" TEXT="atom[x] has the value of T or F according to whether x is an atomic symbol"/>
@@ -765,14 +315,14 @@
 <node CREATED="1359994828466" ID="ID_21357253" MODIFIED="1359994829529" TEXT="eq [X; A] = F"/>
 <node CREATED="1359994839285" ID="ID_193433203" MODIFIED="1359994840395" TEXT="eq [X; (X &#xb7; A)] is undefined."/>
 </node>
-<node CREATED="1359994852350" FOLDED="true" ID="ID_707470218" MODIFIED="1388811367255" TEXT="car">
+<node CREATED="1359994852350" ID="ID_707470218" MODIFIED="1426772414582" TEXT="car">
 <icon BUILTIN="full-3"/>
 <node CREATED="1359994873371" ID="ID_157886591" MODIFIED="1359994923020" TEXT="car[x] is defined if and only if x is not atomic. car [(e1 &#xb7; e2)] = e1 ."/>
 <node CREATED="1359994924680" ID="ID_608841179" MODIFIED="1359994925774" TEXT="car [X] is undefined."/>
 <node CREATED="1359994911693" ID="ID_1132311371" MODIFIED="1359994913395" TEXT="car [(X &#xb7; A)] = X"/>
 <node CREATED="1359994935561" ID="ID_840019156" MODIFIED="1359994936655" TEXT="car [((X &#xb7; A) &#xb7; Y )] = (X &#xb7; A)"/>
 </node>
-<node CREATED="1359994949421" FOLDED="true" ID="ID_1346828371" MODIFIED="1388811370781" TEXT="cdr">
+<node CREATED="1359994949421" ID="ID_1346828371" MODIFIED="1426772425775" TEXT="cdr">
 <icon BUILTIN="full-4"/>
 <node CREATED="1359994977681" ID="ID_831132773" MODIFIED="1359994992581" TEXT="cdr [x] is also defined when x is not atomic. We have cdr [(e1 &#xb7; e2)] =e2 ."/>
 <node CREATED="1359994996549" ID="ID_1809987371" MODIFIED="1359995005053" TEXT="cdr[X] is undefined"/>
@@ -789,9 +339,9 @@
 <node CREATED="1359995237608" ID="ID_1845466120" MODIFIED="1359995238796" TEXT="cons [car [x]; cdr [x]] = x, provided that x is not atomic."/>
 </node>
 </node>
-<node CREATED="1359995473150" FOLDED="true" ID="ID_1780997375" MODIFIED="1388822269382" TEXT="recursive S-functions">
+<node CREATED="1359995473150" ID="ID_1780997375" MODIFIED="1426772431894" TEXT="recursive S-functions">
 <node CREATED="1359995530246" ID="ID_1763570149" MODIFIED="1359995531683" TEXT="form new functions of S-expressions by conditional expressions and recursive definition."/>
-<node CREATED="1359995597615" FOLDED="true" ID="ID_512661049" MODIFIED="1383988497825" TEXT="ff [x]">
+<node CREATED="1359995597615" ID="ID_512661049" MODIFIED="1426772447430" TEXT="ff [x]">
 <node CREATED="1359995642309" ID="ID_458133531" MODIFIED="1359995643637" TEXT="The value of ff[x] is the first atomic symbol of the S-expression x with the parentheses ignored."/>
 <node CREATED="1359995654032" ID="ID_1765755684" MODIFIED="1359995655392" TEXT="ff[((A &#xb7; B) &#xb7; C )] = A"/>
 <node CREATED="1359995670249" ID="ID_242640287" MODIFIED="1359995671577" TEXT="ff[x] = [atom[x] &#x2192; x; T &#x2192; ff[car[x]]]"/>
@@ -996,7 +546,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360078703521" FOLDED="true" ID="ID_1940938134" MODIFIED="1421215421729" TEXT="M-expressions(&#x3b5;) 2 S-expressions(&#x3b5;*)">
+<node CREATED="1360078703521" ID="ID_1940938134" MODIFIED="1426772500803" TEXT="M-expressions(&#x3b5;) 2 S-expressions(&#x3b5;*)">
 <node CREATED="1360078816278" ID="ID_219273084" MODIFIED="1383989095684" TEXT="1. If &#x3b5; is an S-expression &#x3b5;* is (QUOTE, &#x3b5;).">
 <font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
 </node>
@@ -1016,7 +566,7 @@
 <font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1360082287799" FOLDED="true" ID="ID_811104006" MODIFIED="1421215420325" TEXT="Functions with Functions as Arguments">
+<node CREATED="1360082287799" ID="ID_811104006" MODIFIED="1426772571429" TEXT="Functions with Functions as Arguments">
 <node CREATED="1360079627994" ID="ID_1925937725" MODIFIED="1421215415159" TEXT="The Universal S-Function apply">
 <node CREATED="1360079657345" ID="ID_1030238103" MODIFIED="1360079727641" TEXT="There is an S-function apply with the property that if f is an S-expression for an S-function f&apos; and args is a list of arguments of the form (arg1 , &#xb7; &#xb7; &#xb7; , argn ), where arg1 , &#xb7; &#xb7; &#xb7; , argn are arbitrary S-expressions, then apply[f ; args] and f&apos; [arg1 ; &#xb7; &#xb7; &#xb7; ; argn ] are defined for the same values of arg1 , &#xb7; &#xb7; &#xb7; , argn , and are equal when defined. ">
 <node CREATED="1360079770586" ID="ID_1136599591" MODIFIED="1360079789869" TEXT="(apply #&apos;sublis0 &apos;(((a 0) (b 1)) (a a b a b)))"/>
@@ -1027,7 +577,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1360080019336" ID="ID_163853769" MODIFIED="1421215416782" TEXT="eval">
+<node CREATED="1360080019336" FOLDED="true" ID="ID_163853769" MODIFIED="1426772573392" TEXT="eval">
 <node CREATED="1360080028298" ID="ID_1174693705" MODIFIED="1360080931825">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
@@ -1086,7 +636,7 @@
 </node>
 <node CREATED="1360082411437" ID="ID_583213007" MODIFIED="1360082413373" TEXT="The LISP Programming System"/>
 </node>
-<node CREATED="1388794055523" FOLDED="true" ID="ID_1600847080" MODIFIED="1425793864539" POSITION="right" TEXT="PLT(scheme)/Racket">
+<node CREATED="1388794055523" FOLDED="true" ID="ID_1600847080" MODIFIED="1426771219334" POSITION="right" TEXT="PLT(scheme)/Racket">
 <node CREATED="1388794343432" ID="ID_390841354" MODIFIED="1393255550514" TEXT="function">
 <node CREATED="1388794367255" ID="ID_980676057" MODIFIED="1388794390878" TEXT="(define (func arg1 arg2 ... argn) (expr))"/>
 <node CREATED="1393258073797" ID="ID_1997928705" MODIFIED="1393258180203" TEXT="lambda expr:(lambda &lt;formals&gt; &lt;body&gt;)">
@@ -1097,15 +647,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1388794348568" ID="ID_178944444" MODIFIED="1388825611760" TEXT="variable"/>
-<node CREATED="1393643913457" FOLDED="true" ID="ID_517449123" MODIFIED="1425749759414" TEXT="binding {define|set!|let}">
+<node CREATED="1393643913457" ID="ID_517449123" MODIFIED="1426771136903" TEXT="binding {define|set!|let}">
 <node CREATED="1393643995958" ID="ID_882206626" MODIFIED="1393644060716" TEXT="define (decl )">
 <node CREATED="1388794402517" ID="ID_299443090" MODIFIED="1393643999898" TEXT="(define var (expr));declaration: var a int=4//go"/>
 </node>
 <node CREATED="1393644065027" ID="ID_527121096" MODIFIED="1393644073250" TEXT="set! (assign)">
 <node CREATED="1388824827107" ID="ID_1639524614" MODIFIED="1393644074630" TEXT="(set! var (expr));assignment: a=5//go"/>
 </node>
-<node CREATED="1388826151172" FOLDED="true" ID="ID_1753424879" MODIFIED="1393644085520" TEXT="let (local)">
+<node CREATED="1388826151172" FOLDED="true" ID="ID_1753424879" MODIFIED="1426771144678" TEXT="let (local)">
 <node CREATED="1388824852084" ID="ID_1316097330" MODIFIED="1388826153928" TEXT="(let ((var value)) var);local: a:=4"/>
 <node CREATED="1388826225444" ID="ID_1507541462" MODIFIED="1388826336853" TEXT="(let{,*,rec} ((var init-expr)...) (expr))"/>
 <node CREATED="1388826210357" ID="ID_1671556153" MODIFIED="1388826361488" TEXT="if binding is two step, first is init, second is assignment"/>
@@ -1114,12 +663,12 @@
 <node CREATED="1388826160913" ID="ID_974728304" MODIFIED="1388826498363" TEXT="letrec:bind when init can be computed"/>
 </node>
 </node>
-<node CREATED="1393643866134" ID="ID_362792123" MODIFIED="1425539340186" TEXT="data {list|vector|struct}">
+<node CREATED="1393643866134" FOLDED="true" ID="ID_362792123" MODIFIED="1426771195049" TEXT="data {list|vector|struct}">
 <node CREATED="1388794356725" ID="ID_1840167971" MODIFIED="1393255394689" TEXT="struct">
 <node CREATED="1388838149528" ID="ID_54517549" MODIFIED="1388838163110" TEXT="construct struct using closures"/>
 </node>
-<node CREATED="1388799167667" ID="ID_838895970" MODIFIED="1425539341703" TEXT="list(linked)">
-<node CREATED="1388799169756" ID="ID_1695709453" MODIFIED="1388799178089" TEXT="cons">
+<node CREATED="1388799167667" FOLDED="true" ID="ID_838895970" MODIFIED="1426771186742" TEXT="list(linked)">
+<node CREATED="1388799169756" ID="ID_1695709453" MODIFIED="1426771154766" TEXT="cons">
 <node CREATED="1388799290337" ID="ID_1244684245" MODIFIED="1388799340062" TEXT="(cons 1 (cons 2 (cons 3 (cons 4 empty))))"/>
 </node>
 <node CREATED="1388799384598" ID="ID_1485079120" MODIFIED="1388804124853" TEXT="list">
@@ -1144,7 +693,7 @@
 <node CREATED="1425539649403" ID="ID_168859989" MODIFIED="1425539690245" TEXT="atom not exist, but {number,symbol,string,pair,null}? etc. instead"/>
 </node>
 </node>
-<node CREATED="1388837797890" FOLDED="true" ID="ID_1882810839" MODIFIED="1393643860076" TEXT="vector(sequential)">
+<node CREATED="1388837797890" ID="ID_1882810839" MODIFIED="1426771188124" TEXT="vector(sequential)">
 <node CREATED="1388837868659" ID="ID_1720976883" MODIFIED="1388837910357" TEXT="literal:  &apos;#(1 &apos;(1 3) &apos;string)"/>
 <node CREATED="1388837941575" ID="ID_439619727" MODIFIED="1388837987321" TEXT="(make-vector k)"/>
 <node CREATED="1388838009352" ID="ID_466315671" MODIFIED="1388838022578" TEXT="(vector obj...)"/>
@@ -1157,18 +706,18 @@
 <node CREATED="1388838113171" ID="ID_1696086579" MODIFIED="1388838132351" TEXT="(vector-fill! v obj)"/>
 </node>
 </node>
-<node CREATED="1388824815393" FOLDED="true" ID="ID_1329134336" MODIFIED="1393643854382" TEXT="cond">
+<node CREATED="1388824815393" FOLDED="true" ID="ID_1329134336" MODIFIED="1426771209397" TEXT="cond">
 <node CREATED="1388794798256" ID="ID_205934389" MODIFIED="1388825228154" TEXT="(cond ((bool-expr) (expr)) ((bool-expr) (expr))...(else (expr) ))"/>
 <node CREATED="1393643781615" ID="ID_976800980" MODIFIED="1393643782567" TEXT="case"/>
 <node CREATED="1393643782823" ID="ID_916389073" MODIFIED="1393643783573" TEXT="if"/>
 </node>
-<node CREATED="1388825021533" FOLDED="true" ID="ID_564441274" MODIFIED="1393643855614" TEXT="loop">
+<node CREATED="1388825021533" FOLDED="true" ID="ID_564441274" MODIFIED="1426771212809" TEXT="loop">
 <node CREATED="1388825232918" ID="ID_1174490374" MODIFIED="1388825703060" TEXT="(do (  (sum 0 (+ sum i))      (i 1 (+ i 1)))   ((&gt; i 100) sum)&apos;())"/>
 <node CREATED="1388825778196" ID="ID_447485133" MODIFIED="1388825779331" TEXT="do ((&lt;variable1&gt; &lt;init1&gt; &lt;step1&gt;)       ...)    (&lt;test&gt; &lt;expression&gt; ...)  &lt;command&gt; ...)"/>
 </node>
 <node CREATED="1393643848062" ID="ID_1897867985" MODIFIED="1393643851043" TEXT="begin"/>
 <node CREATED="1388826883506" ID="ID_1680711256" MODIFIED="1388826888213" TEXT="I/O"/>
-<node CREATED="1359911170902" FOLDED="true" ID="ID_1960405771" MODIFIED="1421215560860" TEXT="Racket">
+<node CREATED="1359911170902" ID="ID_1960405771" MODIFIED="1426771214826" TEXT="Racket">
 <node CREATED="1361889406379" ID="ID_1985823693" MODIFIED="1361889425067" TEXT="(circle radius)"/>
 <node CREATED="1361889436959" ID="ID_1889771983" MODIFIED="1361889492258" TEXT="(rectangle length width)"/>
 <node CREATED="1361890521168" ID="ID_1251573246" MODIFIED="1361890785002" TEXT="(filled-rectangle length width)"/>
@@ -1190,9 +739,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1359825787601" ID="ID_1133896358" MODIFIED="1425794458740" POSITION="right" TEXT="Syntax and semantics">
+<node CREATED="1359825787601" FOLDED="true" ID="ID_1133896358" MODIFIED="1426771225727" POSITION="right" TEXT="Syntax and semantics">
 <font NAME="Arial" SIZE="12"/>
-<node CREATED="1359825798054" ID="ID_541599215" MODIFIED="1425539211039" TEXT="S-expression">
+<node CREATED="1359825798054" FOLDED="true" ID="ID_541599215" MODIFIED="1426770932359" TEXT="S-expression">
 <node CREATED="1359864697292" ID="ID_552874396" MODIFIED="1359864700762" TEXT="Symbolic expressions ">
 <node CREATED="1359825906527" ID="ID_1026048602" MODIFIED="1383989415301" TEXT="&quot;sexpr&quot;">
 <node CREATED="1359825953083" ID="ID_317555771" MODIFIED="1359825955405" TEXT="M-expressions">
@@ -1224,7 +773,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359827064824" ID="ID_100004440" MODIFIED="1421215049281" TEXT="Atom">
+<node CREATED="1359827064824" FOLDED="true" ID="ID_100004440" MODIFIED="1426770929707" TEXT="Atom">
 <node CREATED="1359827085108" ID="ID_1462879871" MODIFIED="1359827086345" TEXT="number"/>
 <node CREATED="1359827086885" ID="ID_1493224519" MODIFIED="1388795790618" TEXT="symbol">
 <node CREATED="1359886715616" ID="ID_914985043" MODIFIED="1359886720613" TEXT="unquoted">
@@ -1234,7 +783,7 @@
 </node>
 <node CREATED="1359873427088" ID="ID_165353477" MODIFIED="1425749776189" TEXT="quoted">
 <node CREATED="1359886727466" ID="ID_960241935" MODIFIED="1359886729697" TEXT="string"/>
-<node CREATED="1359886753287" ID="ID_1868800715" MODIFIED="1359886837110" TEXT="quote &apos;">
+<node CREATED="1359886753287" ID="ID_1868800715" MODIFIED="1426770920608" TEXT="quote &apos;">
 <node CREATED="1359886809040" ID="ID_263817086" MODIFIED="1359886809040">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
@@ -1262,7 +811,7 @@
 </node>
 <node CREATED="1359827152913" ID="ID_886978606" MODIFIED="1359827154026" TEXT="immutable and unique"/>
 </node>
-<node CREATED="1359827266708" ID="ID_335595156" MODIFIED="1425794466147" TEXT="Cons and List">
+<node CREATED="1359827266708" ID="ID_335595156" MODIFIED="1426770933709" TEXT="Cons and List">
 <node CREATED="1359887386062" ID="ID_1256793233" MODIFIED="1388795330902" TEXT="Cons">
 <node CREATED="1359827316514" ID="ID_1242409360" MODIFIED="1359887409391" TEXT="Each cell of this list is called a cons (in Scheme, a pair)"/>
 <node CREATED="1359827334887" ID="ID_1576063831" MODIFIED="1359887409389" TEXT="is composed of two pointers, called the car and cdr.">
@@ -1310,7 +859,7 @@
 <node CREATED="1359827828641" ID="ID_660340834" MODIFIED="1359827829880" TEXT="(list 1 2 &apos;a 3)"/>
 </node>
 </node>
-<node CREATED="1359898829477" FOLDED="true" ID="ID_324163621" MODIFIED="1425539259499" TEXT="&quot;setf&quot; (clisp)">
+<node CREATED="1359898829477" FOLDED="true" ID="ID_324163621" MODIFIED="1426770965182" TEXT="&quot;setf&quot; (clisp)">
 <node CREATED="1359899270715" ID="ID_379836652" MODIFIED="1388796267790" TEXT="define variable">
 <node CREATED="1359899031568" ID="ID_1265409530" MODIFIED="1359899221368">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
@@ -1350,7 +899,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359898865519" ID="ID_1702127685" MODIFIED="1425539251564" TEXT="&quot;define&quot; (scheme)">
+<node CREATED="1359898865519" FOLDED="true" ID="ID_1702127685" MODIFIED="1426770968859" TEXT="&quot;define&quot; (scheme)">
 <node CREATED="1359899285897" ID="ID_1579102505" MODIFIED="1388796357921" TEXT="define variable">
 <node CREATED="1359899068299" ID="ID_1602109932" MODIFIED="1359899234170">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
@@ -1445,7 +994,7 @@
 <node CREATED="1359897005640" ID="ID_1647408092" MODIFIED="1359903331408" TEXT="&quot;quote&quot; (&apos;)">
 <node CREATED="1359897034179" ID="ID_399564644" MODIFIED="1359897317590" TEXT="prevents the quoted arguments from being evaluated, literal constant."/>
 </node>
-<node CREATED="1359897043601" FOLDED="true" ID="ID_223149328" MODIFIED="1425793847931" TEXT="&quot;quasiquote&quot; (`)">
+<node CREATED="1359897043601" FOLDED="true" ID="ID_223149328" MODIFIED="1426770978439" TEXT="&quot;quasiquote&quot; (`)">
 <node CREATED="1359897350828" ID="ID_1675101217" MODIFIED="1359897712753" TEXT="similar to quote, except for comma and comma-at interpolations."/>
 <node CREATED="1359897714905" ID="ID_149269192" MODIFIED="1388796514897" TEXT="comma(,) interpolations (list fold)">
 <node CREATED="1359897939855" ID="ID_1732669666" MODIFIED="1359898651208">
@@ -1530,14 +1079,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1359902053665" ID="ID_520162077" MODIFIED="1388796544580" TEXT="&quot;unquote&quot;">
+<node CREATED="1359902053665" ID="ID_520162077" MODIFIED="1426770976364" TEXT="&quot;unquote&quot;">
 <node CREATED="1359902059536" ID="ID_537864602" MODIFIED="1359902078957" TEXT="comma(,) interpolations (list fold)"/>
 </node>
 <node CREATED="1359902081864" ID="ID_1801891708" MODIFIED="1388796547785" TEXT="&quot;unquote-splicing&quot;">
 <node CREATED="1359902117711" ID="ID_791989354" MODIFIED="1359902121799" TEXT="comma-at(,@) interpolations (list unfold)"/>
 </node>
 </node>
-<node CREATED="1359828387728" ID="ID_557427271" MODIFIED="1388796571178" TEXT="Self-evaluating forms and quoting">
+<node CREATED="1359828387728" FOLDED="true" ID="ID_557427271" MODIFIED="1426771020283" TEXT="Self-evaluating forms and quoting">
 <node CREATED="1359903264955" ID="ID_1971019727" MODIFIED="1359903275728" TEXT="Self-evaluating forms">
 <node CREATED="1359904010836" ID="ID_627802894" MODIFIED="1359904012093" TEXT="unquoted expressions are recursively evaluated before the enclosing expression is evaluated."/>
 </node>
@@ -1565,7 +1114,7 @@
 <node CREATED="1359826708096" ID="ID_455222428" MODIFIED="1359898096151" TEXT="Arithmetic operators in Lisp are variadic (or n-ary)">
 <node CREATED="1359826711291" ID="ID_1491220942" MODIFIED="1359826719485" TEXT="able to take any number of arguments."/>
 </node>
-<node CREATED="1359826742536" ID="ID_1646038562" MODIFIED="1359898101626" TEXT="&quot;Special operators&quot;">
+<node CREATED="1359826742536" FOLDED="true" ID="ID_1646038562" MODIFIED="1426771078930" TEXT="&quot;Special operators&quot;">
 <node CREATED="1359826753185" ID="ID_112313786" MODIFIED="1359826754201" TEXT="&quot;special forms&quot;">
 <node CREATED="1359826763687" ID="ID_1340550972" MODIFIED="1359826764588" TEXT="provide Lisp&apos;s control structure">
 <node CREATED="1359826822752" ID="ID_1445679598" MODIFIED="1359826828901">
@@ -1603,8 +1152,8 @@
 </node>
 <node CREATED="1359828921775" ID="ID_1047794230" MODIFIED="1359828923086" TEXT="List structure of program code; exploitation by macros and compilers"/>
 <node CREATED="1359904207559" ID="ID_920079549" MODIFIED="1388796612918" TEXT="Lisp command line">
-<node CREATED="1359904220261" ID="ID_773827130" MODIFIED="1359904254848" TEXT="&quot;read&#x2013;eval&#x2013;print loop&quot;">
-<node CREATED="1359904265730" FOLDED="true" ID="ID_1466289930" MODIFIED="1425539306316" TEXT="REPL">
+<node CREATED="1359904220261" ID="ID_773827130" MODIFIED="1426771087602" TEXT="&quot;read&#x2013;eval&#x2013;print loop&quot;">
+<node CREATED="1359904265730" FOLDED="true" ID="ID_1466289930" MODIFIED="1426771090698" TEXT="REPL">
 <node CREATED="1359904271359" ID="ID_1074581642" MODIFIED="1359905089384" TEXT="(loop (print (eval (read))))">
 <node CREATED="1359905095235" ID="ID_304893326" MODIFIED="1359905097440" TEXT="loop"/>
 <node CREATED="1359905097685" ID="ID_104872618" MODIFIED="1359905099115" TEXT="print"/>
@@ -1614,9 +1163,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1359829261408" ID="ID_270735294" MODIFIED="1421341750218" TEXT="Control structures">
-<node CREATED="1359907821146" ID="ID_1901923692" MODIFIED="1359948773013" TEXT="branch">
-<node CREATED="1359829264724" ID="ID_795298287" MODIFIED="1359949192903" TEXT="&quot;cond&quot;">
+<node CREATED="1359829261408" FOLDED="true" ID="ID_270735294" MODIFIED="1426771101626" TEXT="Control structures">
+<node CREATED="1359907821146" ID="ID_1901923692" MODIFIED="1426771092872" TEXT="branch">
+<node CREATED="1359829264724" FOLDED="true" ID="ID_795298287" MODIFIED="1426771098002" TEXT="&quot;cond&quot;">
 <node CREATED="1359908418576" ID="ID_332759837" MODIFIED="1359908457547">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
@@ -1698,7 +1247,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1425793866599" ID="ID_1818894155" MODIFIED="1425793877001" POSITION="right" TEXT="R5RS">
+<node CREATED="1425793866599" FOLDED="true" ID="ID_1818894155" MODIFIED="1426771230718" POSITION="right" TEXT="R5RS">
 <node CREATED="1425798501490" FOLDED="true" ID="ID_635404488" MODIFIED="1425802017523" TEXT="data">
 <node CREATED="1425799205623" ID="ID_217204408" MODIFIED="1425800980029" TEXT="type">
 <node CREATED="1425798935472" ID="ID_786853117" MODIFIED="1425799209974" TEXT="boolean #f #t">
