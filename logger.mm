@@ -115,7 +115,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1419776341733" FOLDED="true" ID="ID_1382729587" MODIFIED="1419777886248" TEXT="org.apache.log4j.Level ">
+<node CREATED="1419776341733" ID="ID_1382729587" MODIFIED="1429168723785" TEXT="org.apache.log4j.Level ">
 <node CREATED="1419776356296" ID="ID_1283136719" MODIFIED="1419776437725" TEXT="ALL/OFF"/>
 <node CREATED="1419776357843" ID="ID_1744331994" MODIFIED="1419776360734" TEXT="TRACE"/>
 <node CREATED="1419776361057" ID="ID_1083072125" MODIFIED="1419776364857" TEXT="DEBUG"/>
@@ -294,8 +294,7 @@
       &#160;&#160;&lt;/Loggers&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1419838201503" FOLDED="true" ID="ID_749178599" MODIFIED="1419841319507" TEXT="&lt;appenders&gt;">

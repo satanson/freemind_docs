@@ -636,7 +636,7 @@
 </node>
 <node CREATED="1360082411437" ID="ID_583213007" MODIFIED="1360082413373" TEXT="The LISP Programming System"/>
 </node>
-<node CREATED="1388794055523" FOLDED="true" ID="ID_1600847080" MODIFIED="1426771219334" POSITION="right" TEXT="PLT(scheme)/Racket">
+<node CREATED="1388794055523" FOLDED="true" ID="ID_1600847080" MODIFIED="1428851224615" POSITION="right" TEXT="PLT(scheme)/Racket">
 <node CREATED="1388794343432" ID="ID_390841354" MODIFIED="1393255550514" TEXT="function">
 <node CREATED="1388794367255" ID="ID_980676057" MODIFIED="1388794390878" TEXT="(define (func arg1 arg2 ... argn) (expr))"/>
 <node CREATED="1393258073797" ID="ID_1997928705" MODIFIED="1393258180203" TEXT="lambda expr:(lambda &lt;formals&gt; &lt;body&gt;)">
@@ -739,9 +739,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1359825787601" FOLDED="true" ID="ID_1133896358" MODIFIED="1426771225727" POSITION="right" TEXT="Syntax and semantics">
+<node CREATED="1359825787601" ID="ID_1133896358" MODIFIED="1428854235204" POSITION="right" TEXT="Syntax and semantics">
 <font NAME="Arial" SIZE="12"/>
-<node CREATED="1359825798054" FOLDED="true" ID="ID_541599215" MODIFIED="1426770932359" TEXT="S-expression">
+<node CREATED="1359825798054" FOLDED="true" ID="ID_541599215" MODIFIED="1428854249689" TEXT="S-expression">
 <node CREATED="1359864697292" ID="ID_552874396" MODIFIED="1359864700762" TEXT="Symbolic expressions ">
 <node CREATED="1359825906527" ID="ID_1026048602" MODIFIED="1383989415301" TEXT="&quot;sexpr&quot;">
 <node CREATED="1359825953083" ID="ID_317555771" MODIFIED="1359825955405" TEXT="M-expressions">
@@ -773,7 +773,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359827064824" FOLDED="true" ID="ID_100004440" MODIFIED="1426770929707" TEXT="Atom">
+<node CREATED="1359827064824" FOLDED="true" ID="ID_100004440" MODIFIED="1428851248302" TEXT="Atom">
 <node CREATED="1359827085108" ID="ID_1462879871" MODIFIED="1359827086345" TEXT="number"/>
 <node CREATED="1359827086885" ID="ID_1493224519" MODIFIED="1388795790618" TEXT="symbol">
 <node CREATED="1359886715616" ID="ID_914985043" MODIFIED="1359886720613" TEXT="unquoted">
@@ -811,7 +811,7 @@
 </node>
 <node CREATED="1359827152913" ID="ID_886978606" MODIFIED="1359827154026" TEXT="immutable and unique"/>
 </node>
-<node CREATED="1359827266708" ID="ID_335595156" MODIFIED="1426770933709" TEXT="Cons and List">
+<node CREATED="1359827266708" FOLDED="true" ID="ID_335595156" MODIFIED="1428851254946" TEXT="Cons and List">
 <node CREATED="1359887386062" ID="ID_1256793233" MODIFIED="1388795330902" TEXT="Cons">
 <node CREATED="1359827316514" ID="ID_1242409360" MODIFIED="1359887409391" TEXT="Each cell of this list is called a cons (in Scheme, a pair)"/>
 <node CREATED="1359827334887" ID="ID_1576063831" MODIFIED="1359887409389" TEXT="is composed of two pointers, called the car and cdr.">
@@ -1114,7 +1114,7 @@
 <node CREATED="1359826708096" ID="ID_455222428" MODIFIED="1359898096151" TEXT="Arithmetic operators in Lisp are variadic (or n-ary)">
 <node CREATED="1359826711291" ID="ID_1491220942" MODIFIED="1359826719485" TEXT="able to take any number of arguments."/>
 </node>
-<node CREATED="1359826742536" FOLDED="true" ID="ID_1646038562" MODIFIED="1426771078930" TEXT="&quot;Special operators&quot;">
+<node CREATED="1359826742536" FOLDED="true" ID="ID_1646038562" MODIFIED="1428854262652" TEXT="&quot;Special operators&quot;">
 <node CREATED="1359826753185" ID="ID_112313786" MODIFIED="1359826754201" TEXT="&quot;special forms&quot;">
 <node CREATED="1359826763687" ID="ID_1340550972" MODIFIED="1359826764588" TEXT="provide Lisp&apos;s control structure">
 <node CREATED="1359826822752" ID="ID_1445679598" MODIFIED="1359826828901">
@@ -1163,7 +1163,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1359829261408" FOLDED="true" ID="ID_270735294" MODIFIED="1426771101626" TEXT="Control structures">
+<node CREATED="1359829261408" FOLDED="true" ID="ID_270735294" MODIFIED="1428854258901" TEXT="Control structures">
 <node CREATED="1359907821146" ID="ID_1901923692" MODIFIED="1426771092872" TEXT="branch">
 <node CREATED="1359829264724" FOLDED="true" ID="ID_795298287" MODIFIED="1426771098002" TEXT="&quot;cond&quot;">
 <node CREATED="1359908418576" ID="ID_332759837" MODIFIED="1359908457547">
@@ -1441,6 +1441,230 @@
 <node CREATED="1425797151454" ID="ID_1378048035" MODIFIED="1425798408102" TEXT="do"/>
 <node CREATED="1425797985593" ID="ID_823113877" MODIFIED="1425798408104" TEXT="begin"/>
 <node CREATED="1425797044252" ID="ID_137791588" MODIFIED="1425798369496" TEXT="eval"/>
+</node>
+</node>
+<node CREATED="1428853738697" ID="ID_1642075337" MODIFIED="1428858357538" POSITION="right" TEXT="clisp">
+<node CREATED="1428940312189" ID="ID_968221431" MODIFIED="1428940314701" TEXT="data">
+<node CREATED="1428940315701" ID="ID_1923638940" MODIFIED="1428940318324" TEXT="boolean">
+<node CREATED="1428854134561" ID="ID_955084651" MODIFIED="1428940322434" TEXT="T/nil  ; #t/#f "/>
+</node>
+<node CREATED="1428940324496" ID="ID_225200071" MODIFIED="1428940328379" TEXT="symbol">
+<node CREATED="1428854439306" ID="ID_45404396" MODIFIED="1428940431079" TEXT="&apos;symbol ; &apos;symbol">
+<node CREATED="1428854456675" FOLDED="true" ID="ID_1058860824" MODIFIED="1428940466064" TEXT="symbol-value">
+<node CREATED="1428854725352" ID="ID_1810670263" MODIFIED="1428854818580">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (defun double(x) (* 2 x))
+    </p>
+    <p>
+      (setq double 2)
+    </p>
+    <p>
+      (symbol-value 'double)
+    </p>
+    <p>
+      (symbol-function 'double)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1428854473484" ID="ID_1441969390" MODIFIED="1428854869374" STYLE="fork" TEXT="symbol-function"/>
+<node CREATED="1428854826485" ID="ID_764805516" MODIFIED="1428855091145" TEXT="(setf (symbol-function &apos;double) #(lambda(x) (* 2 x)))">
+<node CREATED="1428854922166" ID="ID_1682925479" MODIFIED="1428854951652" TEXT="(define double (lambda(x) (* 2 x))) ;scheme"/>
+</node>
+</node>
+<node CREATED="1428855430652" ID="ID_152686653" MODIFIED="1428940335438" TEXT="&apos;/quote ; &apos;/quote"/>
+</node>
+<node CREATED="1428940349389" ID="ID_194666523" MODIFIED="1428940350243" TEXT="list">
+<node CREATED="1428857074887" ID="ID_803637755" MODIFIED="1428940368279" TEXT="&apos;(x . (y . (z . nil))) ; &apos;(x . (y . (z . &apos;()))  "/>
+<node CREATED="1428855951530" ID="ID_1061486064" MODIFIED="1428940377061" TEXT="&apos;(), null, consp ; nil, null?,pair?"/>
+<node CREATED="1428855694201" ID="ID_1205482990" MODIFIED="1428940381492" TEXT="mapcar ; map">
+<node CREATED="1428855714629" ID="ID_1504761177" MODIFIED="1428855756199" TEXT="(mapcar #&apos;+ &apos;(1 2 3) &apos;(4 5 6))">
+<node CREATED="1428855768675" ID="ID_131578784" MODIFIED="1428855852639" TEXT="(map + &apos;(1 2 3) &apos;(4 5 6)) ; scheme"/>
+</node>
+<node CREATED="1428855784898" ID="ID_737128009" MODIFIED="1428855807521" TEXT="(mapcar #&apos;(lambda(x)(+ 10 x)) &apos;(1 2 3 4))">
+<node CREATED="1428855855749" ID="ID_156022413" MODIFIED="1428855873845" TEXT="(map (lambda(x)(+ 10 x)) &apos;(1 2 3 4))"/>
+</node>
+</node>
+<node CREATED="1428855705349" FOLDED="true" ID="ID_597720926" MODIFIED="1428940385812" TEXT="sort ; sort">
+<node CREATED="1428855878455" ID="ID_246286176" MODIFIED="1428855909211" TEXT="(sort &apos;(1 4 3 5 2 9 8 6 7) #&apos;&lt;)">
+<node CREATED="1428855914581" ID="ID_1355991724" MODIFIED="1428855914581" TEXT=""/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1428940214712" ID="ID_1612267746" MODIFIED="1428940307098" TEXT="bindings">
+<node CREATED="1428940419622" ID="ID_1933365420" MODIFIED="1428940426177" TEXT="variable">
+<node CREATED="1428854281571" FOLDED="true" ID="ID_899731783" MODIFIED="1428940423211" TEXT="setq  ; define">
+<node CREATED="1428854298838" ID="ID_1463218092" MODIFIED="1428854310723" TEXT="(setq double 2)">
+<node CREATED="1428854311761" ID="ID_1556386905" MODIFIED="1428854956274" TEXT="(define double 2) ;scheme"/>
+</node>
+</node>
+<node CREATED="1428855093989" ID="ID_621257130" MODIFIED="1428940423209" TEXT="setf ; define"/>
+</node>
+<node CREATED="1428940266348" ID="ID_1926174655" MODIFIED="1428940411170" TEXT="function">
+<node CREATED="1428855442892" FOLDED="true" ID="ID_764600550" MODIFIED="1428940406827" TEXT="apply/funcall ; apply">
+<node CREATED="1428855508029" ID="ID_814487492" MODIFIED="1428855575267">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Break 15 [16]&gt; (double 10)
+    </p>
+    <p>
+      20
+    </p>
+    <p>
+      Break 15 [16]&gt; (setf dbl0 #'double)
+    </p>
+    <p>
+      #&lt;FUNCTION DOUBLE (X) (DECLARE (SYSTEM::IN-DEFUN DOUBLE))
+    </p>
+    <p>
+      &#160;&#160;(BLOCK DOUBLE (* X 2))&gt;
+    </p>
+    <p>
+      Break 15 [16]&gt; (setq dbl1 #'double)
+    </p>
+    <p>
+      #&lt;FUNCTION DOUBLE (X) (DECLARE (SYSTEM::IN-DEFUN DOUBLE))
+    </p>
+    <p>
+      &#160;&#160;(BLOCK DOUBLE (* X 2))&gt;
+    </p>
+    <p>
+      Break 15 [16]&gt; (apply dbl0 '(10))
+    </p>
+    <p>
+      20
+    </p>
+    <p>
+      Break 15 [16]&gt; (apply dbl1 '(10))
+    </p>
+    <p>
+      20
+    </p>
+    <p>
+      Break 15 [16]&gt; (func
+    </p>
+    <p>
+      funcall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;function-keywords
+    </p>
+    <p>
+      funcallable-standard-instance-access&#160;&#160;function-lambda-expression
+    </p>
+    <p>
+      function&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;functionp
+    </p>
+    <p>
+      Break 15 [16]&gt; (funcall dbl0 10)
+    </p>
+    <p>
+      20
+    </p>
+    <p>
+      Break 15 [16]&gt; (funcall dbl1 10)
+    </p>
+    <p>
+      20
+    </p>
+    <p>
+      Break 15 [16]&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1428855569468" ID="ID_1293097420" MODIFIED="1428855569468" TEXT=""/>
+</node>
+<node CREATED="1428858610274" FOLDED="true" ID="ID_1746372676" MODIFIED="1428940406825" TEXT="let/labels ; let/named let">
+<node CREATED="1428858666527" ID="ID_539147120" MODIFIED="1428859416382" TEXT="(labels ((inc(x) (+1 x)) (inc 3))"/>
+<node CREATED="1428859206349" FOLDED="true" ID="ID_1723802063" MODIFIED="1428859413048">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (labels ((factorial (n)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (= n 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* n (factorial (- n 1)))))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(factorial 4))
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1428859210325" ID="ID_398617738" MODIFIED="1428859229259">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ;scheme
+    </p>
+    <p>
+      (let factorial ((n 4))
+    </p>
+    <p>
+      &#160;&#160;(if (= n 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;(* n (factorial (- n 1)))))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1428853747801" FOLDED="true" ID="ID_553392570" MODIFIED="1428940415261" TEXT="defun  ; define">
+<node CREATED="1428853851191" ID="ID_389028584" MODIFIED="1428853851191" TEXT="(defun double (x) (* x 2))">
+<node CREATED="1428853857237" ID="ID_433712991" MODIFIED="1428854960407" TEXT="(define (double x) (* x 2)) ;scheme"/>
+</node>
+<node CREATED="1428853992114" ID="ID_1957897794" MODIFIED="1428854012942" TEXT="#&apos;">
+<node CREATED="1428854014135" ID="ID_1646302402" MODIFIED="1428854014135" TEXT="sharp-quote operator"/>
+<node CREATED="1428854160232" ID="ID_229791687" MODIFIED="1428854187985" TEXT="retrieve function object from symbol"/>
+<node CREATED="1428854015836" ID="ID_1316724998" MODIFIED="1428854022192" TEXT="(#&apos; double)"/>
+<node CREATED="1428854127902" ID="ID_1328794326" MODIFIED="1428854127902" TEXT="(eq #&apos;double (car (list #&apos;double )))"/>
+</node>
+</node>
+<node CREATED="1428854272698" ID="ID_1551420495" MODIFIED="1428940415259" TEXT="lambda ; lambda"/>
+<node CREATED="1428860064487" FOLDED="true" ID="ID_178313955" MODIFIED="1428940486850" TEXT="tail-recursive; proper tail recursive">
+<node CREATED="1428860086270" ID="ID_174309081" MODIFIED="1428860117177" TEXT="(proclaim &apos;(optimized speed))"/>
+<node CREATED="1428860126634" ID="ID_1075004445" MODIFIED="1428860136611" TEXT="(optimized (speed 3))"/>
+</node>
+<node CREATED="1428940488088" ID="ID_1766673953" MODIFIED="1428940554654" TEXT="multiple-value-bind , values ; multiple return value">
+<node CREATED="1428940557764" ID="ID_79123639" MODIFIED="1428940575870" TEXT="values ; return multiple values"/>
+<node CREATED="1428940576494" ID="ID_1746644054" MODIFIED="1428940614349" TEXT="multiple-value-bind ; bind multiple values returned by functions"/>
+</node>
+</node>
+</node>
+<node CREATED="1428940390665" ID="ID_1520601318" MODIFIED="1428940392941" TEXT="control">
+<node CREATED="1428856447372" FOLDED="true" ID="ID_1292953119" MODIFIED="1428857073758" TEXT="case ; case">
+<node CREATED="1428856455858" ID="ID_541831140" MODIFIED="1428856572551" TEXT="(case 1 (1 2) (2 4) (T 0))">
+<node CREATED="1428856575839" ID="ID_997943169" MODIFIED="1428856611544" TEXT="(case ((1) 2)) ((2) 4)) (else 0)) ; scheme"/>
+</node>
+</node>
+</node>
+<node CREATED="1428859863387" ID="ID_1781163725" MODIFIED="1428860320084" TEXT="compile, compile-file, compiled-function-p">
+<node CREATED="1428860321331" ID="ID_1942507871" MODIFIED="1428860346815" TEXT="(proclaim &apos;(inline func))"/>
 </node>
 </node>
 </node>
