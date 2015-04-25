@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1409052649174" ID="ID_1987233628" MODIFIED="1415431153238" TEXT="scala">
-<node CREATED="1409053185709" FOLDED="true" ID="ID_1680169307" MODIFIED="1417111192589" POSITION="right" TEXT="wiki">
+<node CREATED="1409053185709" FOLDED="true" ID="ID_1680169307" MODIFIED="1429721623260" POSITION="right" TEXT="wiki">
 <node CREATED="1409052820382" ID="ID_1291848072" MODIFIED="1409053189340" TEXT="object-functional"/>
 <node CREATED="1409052841210" ID="ID_1634213442" MODIFIED="1409053189337" TEXT="functional programming">
 <node CREATED="1409052850454" ID="ID_1681858451" MODIFIED="1409052851692" TEXT="currying"/>
@@ -13,7 +13,7 @@
 </node>
 <node CREATED="1409052918170" ID="ID_722604455" MODIFIED="1409053189326" TEXT="concise and thus smaller in size than most general purpose programming languages"/>
 </node>
-<node CREATED="1409053191935" FOLDED="true" ID="ID_1052314810" MODIFIED="1417261099134" POSITION="right" TEXT="overview">
+<node CREATED="1409053191935" FOLDED="true" ID="ID_1052314810" MODIFIED="1429721636697" POSITION="right" TEXT="overview">
 <node CREATED="1409053513274" ID="ID_1297980924" MODIFIED="1409053514851" TEXT="scala">
 <node CREATED="1409053527597" ID="ID_756941429" MODIFIED="1409053528302" TEXT="Scala fuses object-oriented and functional programming in a statically typed programming language. It is aimed at the construction of components and component systems."/>
 </node>
@@ -633,7 +633,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1417189783992" FOLDED="true" ID="ID_1235766344" MODIFIED="1428670944634" POSITION="right" TEXT="functional">
+<node CREATED="1417189783992" FOLDED="true" ID="ID_1235766344" MODIFIED="1429721619434" POSITION="right" TEXT="functional">
 <node CREATED="1417186627502" ID="ID_462155348" MODIFIED="1428654185749" TEXT="function literals">
 <node CREATED="1417186793314" ID="ID_293061068" MODIFIED="1428661655942" TEXT="nested functions">
 <node CREATED="1417189641275" MODIFIED="1417189641275">
@@ -744,8 +744,8 @@
 <node CREATED="1417199180185" ID="ID_67598249" MODIFIED="1417199277516" TEXT="anonymous func: parenthesize param-list "/>
 </node>
 </node>
-<node CREATED="1417429688026" FOLDED="true" ID="ID_422723963" MODIFIED="1428654178079" TEXT="Algebraic Datetypes &amp; Pattern Matching">
-<node CREATED="1417429791713" ID="ID_528665913" MODIFIED="1417625970486" TEXT="case class/object  match{case=&gt;}">
+<node CREATED="1417429688026" ID="ID_422723963" MODIFIED="1429721341415" TEXT="Algebraic Datetypes &amp; Pattern Matching">
+<node CREATED="1417429791713" FOLDED="true" ID="ID_528665913" MODIFIED="1429721609800" TEXT="case class/object  match{case=&gt;}">
 <node CREATED="1417434324857" ID="ID_1477689022" MODIFIED="1417434324857">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -815,7 +815,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1417173652831" FOLDED="true" ID="ID_1470577340" MODIFIED="1417176546199" TEXT="eq equals  ==">
+<node CREATED="1417173652831" ID="ID_1470577340" MODIFIED="1429721648563" TEXT="eq equals  ==">
 <node CREATED="1417173677314" FOLDED="true" ID="ID_1713582867" MODIFIED="1417173715325" TEXT="Java">
 <node CREATED="1417173688483" MODIFIED="1417173688483">
 <richcontent TYPE="NODE"><html>
@@ -863,7 +863,7 @@
 <node CREATED="1409472677638" ID="ID_851390130" MODIFIED="1409472687071" TEXT="Array.apply(&quot;sun&quot;,...)"/>
 </node>
 </node>
-<node CREATED="1409472145056" FOLDED="true" ID="ID_1559914646" MODIFIED="1417337499034" TEXT="List[T] -- mutable">
+<node CREATED="1409472145056" ID="ID_1559914646" MODIFIED="1429721670725" TEXT="List[T] -- mutable">
 <node CREATED="1409475923928" FOLDED="true" ID="ID_151495946" MODIFIED="1409477277437" TEXT=":::  -- ++ in haskell">
 <node CREATED="1409477266657" ID="ID_1475658670" MODIFIED="1409477273648">
 <richcontent TYPE="NODE"><html>
