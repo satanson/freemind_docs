@@ -42,7 +42,7 @@
 <node CREATED="1423123598652" ID="ID_995486571" MODIFIED="1423123600069" TEXT="mix"/>
 </node>
 </node>
-<node CREATED="1423125004700" ID="ID_64325606" MODIFIED="1423125012609" POSITION="right" TEXT="data type">
+<node CREATED="1423125004700" FOLDED="true" ID="ID_64325606" MODIFIED="1429836791990" POSITION="right" TEXT="data type">
 <node CREATED="1423124994550" ID="ID_80429937" MODIFIED="1423125006179" TEXT="scalar">
 <node CREATED="1423125000065" ID="ID_1417342547" MODIFIED="1423125002096" TEXT="float">
 <node CREATED="1423123643043" ID="ID_1889523331" MODIFIED="1423125003036" TEXT="precision specifiers">
@@ -55,9 +55,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1423125013371" ID="ID_1469658717" MODIFIED="1423145415924" TEXT="vector">
+<node CREATED="1423125013371" ID="ID_1469658717" MODIFIED="1423125016289" TEXT="vector">
 <node CREATED="1423125017190" ID="ID_1053643598" MODIFIED="1423125123908" TEXT="up to quadruple tuple"/>
-<node CREATED="1423125124690" FOLDED="true" ID="ID_530761939" MODIFIED="1423141905283" TEXT="{b,i,}vec{2,3,4}">
+<node CREATED="1423125124690" ID="ID_530761939" MODIFIED="1423125146779" TEXT="{b,i,}vec{2,3,4}">
 <node CREATED="1423125148043" ID="ID_86969832" MODIFIED="1423125187943" TEXT="bvec2: 2-dimension boolean vector "/>
 <node CREATED="1423125188395" ID="ID_970817206" MODIFIED="1423125204386" TEXT="ivec3: 3-dimension integer vector"/>
 <node CREATED="1423125204645" ID="ID_1264782656" MODIFIED="1423125220763" TEXT="vect4: 4-dimension float vector"/>
@@ -122,147 +122,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1423145416803" ID="ID_1137469406" MODIFIED="1423145656247" TEXT="matrix">
-<node CREATED="1423145419309" ID="ID_978705530" MODIFIED="1423146251793" TEXT="mat{2,3,4}">
-<node CREATED="1423145448156" ID="ID_1962562609" MODIFIED="1423145615058">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="padding-left: 0; background-repeat: repeat; border-bottom-width: 0px; line-height: 18px; text-align: start; word-spacing: 0px; border-right-style: none; color: rgb(255, 255, 255); background-position: 0px 0px; vertical-align: baseline; background-attachment: scroll; letter-spacing: normal; border-left-style: none; font-variant: normal; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0; text-indent: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; text-transform: none; background-image: null; padding-top: 0; border-bottom-style: none; margin-bottom: 0; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; font-style: normal; padding-right: 0"><code style="padding-left: 0px; border-bottom-width: 0px; background-repeat: repeat; border-right-style: none; background-position: 0px 0px; color: rgb(255, 255, 255); vertical-align: baseline; background-attachment: scroll; border-left-style: none; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; background-image: null; padding-top: 0px; border-bottom-style: none; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; padding-right: 0px" class="lang-glsl"><font face="Source Code Pro, monospace" size="12px" color="#000000">//Create a a 2x2 identity matrix.  Note matrix
-//constructors are in column major order.
-mat2 I = mat2(1.0, 0.0,
-              0.0, 1.0);
-
-//Equivalently,
-mat2 I = mat2(1.0);
-
-//Matrices can also be constructed by
-//giving columns:
-vec3 a = vec3(0, 1, 0);
-vec3 b = vec3(2, 0, 0);
-vec3 c = vec3(0, 0, 4);
-mat3 J = mat3(a, b, c);
-
-//Now:
-//J = mat3(0, 2, 0,
-//         1, 0, 0,
-//         0, 0, 4);</font></code></pre>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1423145493813" ID="ID_1178789121" MODIFIED="1423145587501" TEXT="column vectors">
-<node CREATED="1423145505265" ID="ID_1195159486" MODIFIED="1423145601497">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="padding-left: 0; background-repeat: repeat; border-bottom-width: 0px; line-height: 18px; text-align: start; word-spacing: 0px; border-right-style: none; color: rgb(255, 255, 255); background-position: 0px 0px; vertical-align: baseline; background-attachment: scroll; letter-spacing: normal; border-left-style: none; font-variant: normal; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0; text-indent: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; text-transform: none; background-image: null; padding-top: 0; border-bottom-style: none; margin-bottom: 0; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; font-style: normal; padding-right: 0"><code style="padding-left: 0px; border-bottom-width: 0px; background-repeat: repeat; border-right-style: none; background-position: 0px 0px; color: rgb(255, 255, 255); vertical-align: baseline; background-attachment: scroll; border-left-style: none; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; background-image: null; padding-top: 0px; border-bottom-style: none; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; padding-right: 0px" class="lang-glsl"><font face="Source Code Pro, monospace" size="12px" color="#000000">mat3 m = mat3(1.1, 2.1, 3.1,
-              1.2, 2.2, 3.2,
-              1.3, 2.3, 3.3);
-
-//Read out first column of m
-vec3 a = m[0];
-
-//Now: a = vec3(1.3, 2.3, 3.3);</font></code></pre>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1423145533577" ID="ID_1253605006" MODIFIED="1423145703376" TEXT="operation">
-<node COLOR="#006699" CREATED="1423145539113" ID="ID_320360701" MODIFIED="1423145583248">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="padding-left: 0; background-repeat: repeat; border-bottom-width: 0px; line-height: 18px; text-align: start; word-spacing: 0px; border-right-style: none; color: rgb(255, 255, 255); background-position: 0px 0px; vertical-align: baseline; background-attachment: scroll; letter-spacing: normal; border-left-style: none; font-variant: normal; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0; text-indent: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; text-transform: none; background-image: null; padding-top: 0; border-bottom-style: none; margin-bottom: 0; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; font-style: normal; padding-right: 0"><code style="padding-left: 0px; border-bottom-width: 0px; background-repeat: repeat; border-right-style: none; background-position: 0px 0px; color: rgb(255, 255, 255); vertical-align: baseline; background-attachment: scroll; border-left-style: none; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; background-image: null; padding-top: 0px; border-bottom-style: none; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; padding-right: 0px" class="lang-glsl"><font face="Source Code Pro, monospace" size="12px" color="#000000">mat2 m = mat2(1, 2,
-              3, 4);
-mat2 w = mat2(7, 8,
-              9, 10);
-
-//Component wise addition
-mat2 h = m + w;
-
-//Now: h = mat2(8,  10,
-//              12, 14)
-
-//Scalar multiplication
-mat2 j = 2.0 * m;
-//Now: j = mat2(2, 4,
-//              6, 8)</font></code></pre>
-  </body>
-</html>
-</richcontent>
-<font NAME="Arial" SIZE="10"/>
-</node>
-<node CREATED="1423145704672" ID="ID_966598821" MODIFIED="1423145712602">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="padding-left: 0; background-repeat: repeat; border-bottom-width: 0px; line-height: 18px; text-align: start; word-spacing: 0px; border-right-style: none; color: rgb(255, 255, 255); background-position: 0px 0px; vertical-align: baseline; background-attachment: scroll; letter-spacing: normal; border-left-style: none; font-variant: normal; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0; text-indent: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; text-transform: none; background-image: null; padding-top: 0; border-bottom-style: none; margin-bottom: 0; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; font-style: normal; padding-right: 0"><code style="padding-left: 0px; border-bottom-width: 0px; background-repeat: repeat; border-right-style: none; background-position: 0px 0px; color: rgb(255, 255, 255); vertical-align: baseline; background-attachment: scroll; border-left-style: none; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; background-image: null; padding-top: 0px; border-bottom-style: none; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; padding-right: 0px" class="lang-glsl"><font face="Source Code Pro, monospace" size="12px" color="#000000">mat2 m = mat2(1, 2,
-              3, 4);
-
-vec2 v = m * vec2(1, 2);  //v = vec2(5, 8)
-
-//Switching order of arguments is equivalent
-//to transposing:
-vec2 u = vec2(1, 2) * m;  //u = vec2(7, 10)</font></code></pre>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1423145659187" ID="ID_495235298" MODIFIED="1423145663877" TEXT="component-wise">
-<node CREATED="1423145677709" ID="ID_70370203" MODIFIED="1423145686062">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="padding-left: 0; background-repeat: repeat; border-bottom-width: 0px; line-height: 18px; text-align: start; word-spacing: 0px; border-right-style: none; color: rgb(255, 255, 255); background-position: 0px 0px; vertical-align: baseline; background-attachment: scroll; letter-spacing: normal; border-left-style: none; font-variant: normal; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0; text-indent: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; text-transform: none; background-image: null; padding-top: 0; border-bottom-style: none; margin-bottom: 0; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; font-style: normal; padding-right: 0"><code style="padding-left: 0px; border-bottom-width: 0px; background-repeat: repeat; border-right-style: none; background-position: 0px 0px; color: rgb(255, 255, 255); vertical-align: baseline; background-attachment: scroll; border-left-style: none; font-family: Source Code Pro, monospace; border-left-width: 0px; padding-bottom: 0px; border-top-width: 0px; border-right-width: 0px; font-size: 12px; font-weight: 200; background-image: null; padding-top: 0px; border-bottom-style: none; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; border-top-style: none; margin-right: 0px; padding-right: 0px" class="lang-glsl"><font face="Source Code Pro, monospace" size="12px" color="#000000">mat2 m = mat2(1, 2,
-              3, 4);
-mat2 w = mat2(7, 8,
-              9, 10);
-
-mat2 q = matrixCompMult(m, w);
-
-//q = mat2( 7, 16,
-//         27, 40)</font></code></pre>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1423141908512" FOLDED="true" ID="ID_963910383" MODIFIED="1423142810950" TEXT="logical &amp; rational operation">
-<node CREATED="1423141953419" ID="ID_46152047" MODIFIED="1423141955999" TEXT="scalar">
-<node CREATED="1423141956955" ID="ID_1944576491" MODIFIED="1423141961156" TEXT="!"/>
-<node CREATED="1423141961570" ID="ID_1370217210" MODIFIED="1423141962902" TEXT="&amp;&amp;"/>
-<node CREATED="1423141963112" ID="ID_978657189" MODIFIED="1423141964406" TEXT="||"/>
-<node CREATED="1423141964701" ID="ID_121931094" MODIFIED="1423141966208" TEXT="^^"/>
-<node CREATED="1423142154151" ID="ID_230890261" MODIFIED="1423142176554" TEXT="&lt; &gt; &lt;= &gt;="/>
-<node CREATED="1423142272960" ID="ID_1263732839" MODIFIED="1423142275232" TEXT="== !="/>
-</node>
-<node CREATED="1423141969216" ID="ID_1106710010" MODIFIED="1423141971894" TEXT="vector">
-<node CREATED="1423141987763" ID="ID_1253564216" MODIFIED="1423142125360" TEXT="not"/>
-<node CREATED="1423142196348" ID="ID_1629784879" MODIFIED="1423142260205" TEXT="lessThan greaterThan  lessThanEqual greaterThanEqual"/>
-<node CREATED="1423142277772" ID="ID_57528106" MODIFIED="1423142297896" TEXT="equal notEqual"/>
-<node CREATED="1423142314648" ID="ID_622275220" MODIFIED="1423142319563" TEXT="any all"/>
-</node>
-</node>
-</node>
-<node CREATED="1423142813232" ID="ID_324294044" MODIFIED="1423142833478" POSITION="right" TEXT="flow control">
-<node CREATED="1423142835549" ID="ID_5765410" MODIFIED="1423143189773" TEXT="if else  // c lang"/>
-<node CREATED="1423142839637" ID="ID_806816198" MODIFIED="1423143204479" TEXT="for // c lang"/>
-<node CREATED="1423143192807" ID="ID_1707918406" MODIFIED="1423143198132" TEXT="while  //c lang"/>
 </node>
 <node CREATED="1423123741261" ID="ID_1043620038" MODIFIED="1423123746457" POSITION="right" TEXT="const"/>
 <node CREATED="1423123760411" ID="ID_1609247497" MODIFIED="1423123761997" POSITION="right" TEXT="inout">
