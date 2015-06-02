@@ -1,6 +1,6 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1389801469261" ID="ID_325617831" MODIFIED="1395548073118" TEXT="haskell">
+<node CREATED="1389801469261" ID="ID_325617831" MODIFIED="1430957901604" TEXT="haskell">
 <node CREATED="1413213863687" ID="ID_1771066476" MODIFIED="1414395840252" POSITION="right" TEXT="utilities(GHC, Glasgow Haskell Compiler)">
 <node CREATED="1413213895673" ID="ID_1548104498" MODIFIED="1413214026321" TEXT="ghc -- compiler"/>
 <node CREATED="1389803995001" ID="ID_851180267" MODIFIED="1413433306459" TEXT="ghci -- ghci interactive">
@@ -430,7 +430,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1395154722016" FOLDED="true" ID="ID_1573526149" MODIFIED="1414570956449" POSITION="right" TEXT="type">
+<node CREATED="1395154722016" ID="ID_1573526149" MODIFIED="1430957904993" POSITION="right" TEXT="type">
 <node CREATED="1395154725179" ID="ID_1124910611" MODIFIED="1409929302908" TEXT="concept">
 <node CREATED="1395154735154" ID="ID_830179845" MODIFIED="1395154779720" TEXT="static type checking"/>
 <node CREATED="1395154783885" ID="ID_612410134" MODIFIED="1395154788117" TEXT="type inference"/>
@@ -526,7 +526,7 @@
 <node CREATED="1395497018373" ID="ID_1013815730" MODIFIED="1395497187195" TEXT="newtype MyType=MyType1 Int|MyType Float --wrong!!! multi-constructor unsupported "/>
 <node CREATED="1395497195553" ID="ID_124526029" MODIFIED="1395497415686" TEXT="newtype MyType=MyType1 Int Int --wrong!!! newtypes&apos; constructor take only one parameters"/>
 </node>
-<node CREATED="1395495196019" FOLDED="true" ID="ID_67262775" MODIFIED="1413256461652" STYLE="fork" TEXT="data --algebraic datatypes(struct in *) data TypeConstructor  = ValueConstructor ">
+<node CREATED="1395495196019" ID="ID_67262775" MODIFIED="1430957905024" STYLE="fork" TEXT="data --algebraic datatypes(struct in *) data TypeConstructor  = ValueConstructor ">
 <node CREATED="1395495270529" ID="ID_713162199" MODIFIED="1395543727535" TEXT="concept">
 <node CREATED="1395495236999" ID="ID_1243514317" MODIFIED="1395498756389" TEXT="similar to struct in other langs"/>
 <node CREATED="1395495277319" ID="ID_580483247" MODIFIED="1395501895084" TEXT="multi-constructor"/>
@@ -553,7 +553,7 @@
 </node>
 <node CREATED="1395495262959" ID="ID_1201577398" MODIFIED="1395498870539" TEXT="data Point a=Point1d a |Point2d a a|Point3d a a a -- multi-constructor"/>
 <node CREATED="1395499069828" ID="ID_724814220" MODIFIED="1395499225460" TEXT="data BinTree a=Leaf a|Branch (BinTree a)  a (BinTree a) -- recursive definition"/>
-<node CREATED="1395499597904" ID="ID_1016746437" MODIFIED="1395499668176" TEXT="data Unit=Unit --similar to symbols in schema and atom in erlang"/>
+<node CREATED="1395499597904" ID="ID_1016746437" MODIFIED="1430957923963" TEXT="data Unit=Unit --similar to symbols in scheme and atom in erlang"/>
 <node CREATED="1395499717895" ID="ID_1060483088" MODIFIED="1395499846367" TEXT="data Color=Red|Green|Blue|Yellow|...|Rgb (Int Int Int) --similar to enum in c++,c and java"/>
 <node CREATED="1395501917962" ID="ID_1787098000" MODIFIED="1397955321652" TEXT="labelled fields">
 <node CREATED="1395501930662" ID="ID_157413878" MODIFIED="1395502661786" TEXT="definition">
