@@ -1,9 +1,9 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1362448669746" ID="ID_1994088080" MODIFIED="1365491640734" TEXT="make">
-<node CREATED="1362448682869" FOLDED="true" ID="ID_657714606" MODIFIED="1397319095015" POSITION="right" TEXT="variable(macro)">
+<node CREATED="1362448669746" ID="ID_1994088080" MODIFIED="1456402132005" TEXT="make">
+<node CREATED="1362448682869" ID="ID_657714606" MODIFIED="1445786817674" POSITION="right" TEXT="variable(macro)">
 <node CREATED="1362463690835" ID="ID_930782766" MODIFIED="1372647633929" TEXT="intros">
-<node CREATED="1362469428983" FOLDED="true" ID="ID_792856957" MODIFIED="1372647667218" TEXT="lhs">
+<node CREATED="1362469428983" ID="ID_792856957" MODIFIED="1445786823786" TEXT="lhs">
 <node CREATED="1362463161825" ID="ID_127806118" MODIFIED="1371201623826" TEXT="not containing &apos;:&apos;,&apos;#&apos;,&apos;=&apos;,leading or trailing ws">
 <icon BUILTIN="full-1"/>
 <node CREATED="1362448701493" ID="ID_1209227595" MODIFIED="1362463197473" TEXT="A variable name may be any sequence of characters not containing &#x2018;:&#x2019;, &#x2018;#&#x2019;, &#x2018;=&#x2019;, or leading or trailing whitespace. "/>
@@ -39,7 +39,7 @@
 </node>
 </node>
 <node CREATED="1362469800140" ID="ID_411900389" MODIFIED="1362469801968" TEXT="rhs">
-<node CREATED="1362465870255" FOLDED="true" ID="ID_729986271" MODIFIED="1372647655625" TEXT="leading space">
+<node CREATED="1362465870255" ID="ID_729986271" MODIFIED="1445786833808" TEXT="leading space">
 <icon BUILTIN="full-1"/>
 <node CREATED="1362465936961" ID="ID_275751512" MODIFIED="1362465939459" TEXT="ignored"/>
 </node>
@@ -108,7 +108,7 @@
 <node CREATED="1362468070313" ID="ID_1418983099" MODIFIED="1362468071517" TEXT="The only restriction on this sort of use of nested variable references is that they cannot specify part of the name of a function to be called. This is because the test for a recognized function name is done before the expansion of nested references."/>
 <node CREATED="1362468097028" ID="ID_41295951" MODIFIED="1362468103567" TEXT="You can also use computed variable names in the left-hand side of a variable assignment, or in a define directive."/>
 </node>
-<node CREATED="1362535075508" FOLDED="true" ID="ID_1419310372" MODIFIED="1385713139137" TEXT="define variable in makefile">
+<node CREATED="1362535075508" ID="ID_1419310372" MODIFIED="1445786942218" TEXT="define variable in makefile">
 <font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="12"/>
 <node CREATED="1362473263904" ID="ID_730195096" MODIFIED="1372647719610" TEXT="setting variables">
 <node CREATED="1362473271751" ID="ID_1112936530" MODIFIED="1362473274382" TEXT="=">
@@ -144,7 +144,7 @@ endif</pre>&#xd;&#xd;
 <node CREATED="1362473958063" ID="ID_708415945" MODIFIED="1362474008406" TEXT="if orginal one is recursively expanded variable,redefined one is recursively expanded variable too"/>
 </node>
 </node>
-<node CREATED="1362534385308" ID="ID_1081061885" MODIFIED="1371206963807" TEXT="Defining Multi-Line Variables">
+<node CREATED="1362534385308" ID="ID_1081061885" MODIFIED="1445787001699" TEXT="Defining Multi-Line Variables">
 <node CREATED="1362534570698" ID="ID_926648898" MODIFIED="1371206964993" TEXT="recursively">
 <node CREATED="1362534393037" ID="ID_1913078537" MODIFIED="1362534577384">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
@@ -171,7 +171,7 @@ endif</pre>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1362534579613" ID="ID_930630629" MODIFIED="1371206974571" TEXT="simply">
+<node CREATED="1362534579613" FOLDED="true" ID="ID_930630629" MODIFIED="1445787011097" TEXT="simply">
 <node CREATED="1362534393037" ID="ID_1173847080" MODIFIED="1362534593803">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
@@ -250,7 +250,7 @@ endif</pre>&#xd;&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1362535088721" FOLDED="true" ID="ID_1083554523" MODIFIED="1371207155932" TEXT="undefine">
+<node CREATED="1362535088721" FOLDED="true" ID="ID_1083554523" MODIFIED="1445786998377" TEXT="undefine">
 <node CREATED="1362535095687" ID="ID_1083570050" MODIFIED="1362535108715" TEXT="[override] undefine variable-name"/>
 <node CREATED="1371207135940" ID="ID_1955996256" MODIFIED="1371207147009" TEXT="unset in shell"/>
 <node CREATED="1371207138583" ID="ID_1116667162" MODIFIED="1371207154419" TEXT="del perl,python"/>
@@ -427,7 +427,7 @@ endif</pre>&#xd;&#xd;
 </node>
 <node CREATED="1362538451897" ID="ID_1382977092" MODIFIED="1362538481418" POSITION="right" TEXT="sub_make(recursive uses of make)"/>
 <node CREATED="1362643672366" ID="ID_627912242" MODIFIED="1385712863958" POSITION="right" TEXT="string">
-<node CREATED="1362647368640" FOLDED="true" ID="ID_1688388412" MODIFIED="1372649223001" TEXT="single-line">
+<node CREATED="1362647368640" ID="ID_1688388412" MODIFIED="1445786812573" TEXT="single-line">
 <node CREATED="1362643681774" ID="ID_397127701" MODIFIED="1372647753225" TEXT="unquoted">
 <node CREATED="1362644408520" ID="ID_615037445" MODIFIED="1362645828228" TEXT="ignore leading space">
 <icon BUILTIN="full-1"/>
@@ -503,7 +503,7 @@ endif</pre>&#xd;&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1362649613729" FOLDED="true" ID="ID_836152952" MODIFIED="1397319089330" POSITION="right" TEXT="rule">
+<node CREATED="1362649613729" ID="ID_836152952" MODIFIED="1445786803950" POSITION="right" TEXT="rule">
 <node CREATED="1362650109769" ID="ID_1163176003" MODIFIED="1362650159951" TEXT="form">
 <node CREATED="1362650127518" ID="ID_1756640216" MODIFIED="1362650127518">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;

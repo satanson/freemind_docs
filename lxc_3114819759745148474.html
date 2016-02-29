@@ -1,0 +1,316 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>getopt(argc, argv, optstring)</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>getopt(argc, argv, optstring)
+<ul><li>optstring
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+err handling
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>siliently /[+-]?[:]/
+<ul><li>err
+<ul><li>argument-required option missing argument err
+<ul><li>return ':' optopt= option char
+
+</li>
+
+</ul>
+</li>
+<li>unrecognized option err
+<ul><li>return '?' optopt char
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>insliently /[+-]?[^:]/
+<ul><li>err
+<ul><li>argument-required option missing argument err
+<ul><li>return '?' optopt= option char
+
+</li>
+
+</ul>
+</li>
+<li>unrecognized option err
+<ul><li>return '?' optopt char
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>opterr
+<ul><li>= 0
+<ul><li>not print err msg
+
+</li>
+
+</ul>
+</li>
+<li>= 1
+<ul><li>print err msg &gt; stderr
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+options
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li>argument-required option
+<ul><li>a:
+
+</li>
+<li>-afoobar
+
+</li>
+<li>-a foobar
+
+</li>
+
+</ul>
+</li>
+<li>argument-optional option
+<ul><li>a::
+
+</li>
+<li>-afoobar
+
+</li>
+<li>-a
+
+</li>
+
+</ul>
+</li>
+<li>option without argument
+<ul><li>a
+
+</li>
+<li>-a
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+mode /[^+-]/ /^[+]/ /^[-]/ 
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li>/^[^+-]/
+<ul><li>permute argv
+
+</li>
+<li>non-option argv-elements at the end
+
+</li>
+
+</ul>
+</li>
+<li>/^[+]/ 
+<ul><li>stop as soon as non-option argv-element is encountered
+
+</li>
+<li>export POSIXLY_CORRECT
+
+</li>
+
+</ul>
+</li>
+<li>/^[-]/
+<ul><li>each argv-element is processed
+
+</li>
+<li>non-option argv-elements proccessed as of an option with character code 1
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>"W:foobar" gnu ext
+<ul><li>-Wfoobar
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>extern variables
+<ul><li>optind
+<ul><li>index of next argv-element
+
+</li>
+
+</ul>
+</li>
+<li>opterr
+<ul><li>dis/en-able errmsg output in insile
+
+</li>
+
+</ul>
+</li>
+<li>optarg
+
+</li>
+<li>optopt
+
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>

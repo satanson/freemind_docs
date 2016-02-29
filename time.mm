@@ -1,152 +1,152 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1371276071613" ID="ID_511017672" MODIFIED="1371276075466" TEXT="time">
-<node CREATED="1371278276301" FOLDED="true" ID="ID_1276474898" MODIFIED="1379260571299" POSITION="right" TEXT="#include &lt;sys/times.h&gt;">
+<node CREATED="1371278276301" ID="ID_1276474898" MODIFIED="1441515711989" POSITION="right" TEXT="#include &lt;sys/times.h&gt;">
 <node CREATED="1371278320184" ID="ID_236490201" MODIFIED="1371278320184" TEXT="clock_t times(struct tms *buf);"/>
 <node CREATED="1371278327260" ID="ID_1650602653" MODIFIED="1371278340655">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      struct tms {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_utime;&#xa0;&#xa0;/* user time */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_stime;&#xa0;&#xa0;/* system time */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_cutime; /* user time of children */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_cstime; /* system time of children */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct tms {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_utime;&#xa0;&#xa0;/* user time */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_stime;&#xa0;&#xa0;/* system time */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_cutime; /* user time of children */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;clock_t tms_cstime; /* system time of children */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1371279048884" ID="ID_831318999" MODIFIED="1371279860251" POSITION="right" TEXT="#include &lt;sys/time.h&gt;">
 <node CREATED="1371278586827" ID="ID_937626914" MODIFIED="1371279054628">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      struct timeval {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;tv_sec;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* seconds */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;suseconds_t tv_usec;&#xa0;&#xa0;&#xa0;&#xa0;/* microseconds */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct timeval {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;tv_sec;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* seconds */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;suseconds_t tv_usec;&#xa0;&#xa0;&#xa0;&#xa0;/* microseconds */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1371279090027" ID="ID_125140502" MODIFIED="1371279095255">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      struct timezone {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tz_minuteswest;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* minutes west of Greenwich */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tz_dsttime;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* type of DST correction */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct timezone {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tz_minuteswest;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* minutes west of Greenwich */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tz_dsttime;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* type of DST correction */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
 <node CREATED="1371279383548" ID="ID_780243229" MODIFIED="1371279384689" TEXT="getitimer"/>
 </node>
-<node CREATED="1371278372363" ID="ID_1605946743" MODIFIED="1371279862903" POSITION="right" TEXT="#include &lt;time.h&gt;">
+<node CREATED="1371278372363" FOLDED="true" ID="ID_1605946743" MODIFIED="1441516137640" POSITION="right" TEXT="#include &lt;time.h&gt;">
 <node CREATED="1371278871860" ID="ID_831682332" MODIFIED="1371278920282">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      struct timespec{&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;tv_sec;&#xa0;&#xa0;&#xa0;&#xa0;/*Seconds.*/&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;long&#xa0;&#xa0;&#xa0;&#xa0;tv_nsec;&#xa0;&#xa0;&#xa0;/*Nanoseconds.*/&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      }&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct timespec{&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;time_t&#xa0;&#xa0;tv_sec;&#xa0;&#xa0;&#xa0;&#xa0;/*Seconds.*/&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;long&#xa0;&#xa0;&#xa0;&#xa0;tv_nsec;&#xa0;&#xa0;&#xa0;/*Nanoseconds.*/&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      }&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
-<node CREATED="1371279973260" ID="ID_1682136980" MODIFIED="1371282495271" TEXT="time_t">
+<node CREATED="1371279973260" ID="ID_1682136980" MODIFIED="1441515869177" TEXT="time_t">
 <node CREATED="1371280000027" ID="ID_792161842" MODIFIED="1371280019929" TEXT="the  time  since  the  Epoch (00:00:00 UTC, January 1, 1970)"/>
 </node>
 <node CREATED="1371278503620" ID="ID_1421447408" MODIFIED="1371280186882">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      struct tm {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_sec;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* seconds */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_min;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* minutes */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_hour;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* hours */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_mday;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* day of the month */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_mon;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* month */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_year;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* year */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_wday;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* day of the week */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_yday;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* day in the year */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_isdst;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* daylight saving time */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#xd;&#xd;
+  <head>&#xd;&#xd;
+    &#xd;&#xd;
+  </head>&#xd;&#xd;
+  <body>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      struct tm {&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_sec;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* seconds */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_min;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* minutes */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_hour;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* hours */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_mday;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* day of the month */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_mon;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* month */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_year;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* year */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_wday;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* day of the week */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_yday;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* day in the year */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int tm_isdst;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* daylight saving time */&#xd;&#xd;
+    </p>&#xd;&#xd;
+    <p>&#xd;&#xd;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;&#xd;
+    </p>&#xd;&#xd;
+  </body>&#xd;&#xd;
 </html></richcontent>
 </node>
-<node CREATED="1371282612260" ID="ID_1461303551" MODIFIED="1386122200378" TEXT="time_t time(time_t *t);">
+<node CREATED="1371282612260" ID="ID_1461303551" MODIFIED="1441515878087" TEXT="time_t time(time_t *t);">
 <node CREATED="1371282671299" ID="ID_524729328" MODIFIED="1371282736386" TEXT="return time since the Epoch(OK),-1(error)"/>
 </node>
-<node CREATED="1371282496963" ID="ID_1907271136" MODIFIED="1386122279829" TEXT="time_t 2 tm">
+<node CREATED="1371282496963" ID="ID_1907271136" MODIFIED="1441515889040" TEXT="time_t 2 tm">
 <node CREATED="1371282742139" ID="ID_1366079016" MODIFIED="1371282754098" TEXT="gmtime">
 <node CREATED="1371282832870" ID="ID_975869215" MODIFIED="1371282893662" TEXT="struct tm *gmtime(const time_t *timep);"/>
 </node>
@@ -266,6 +266,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1371278869396" ID="ID_1476759976" MODIFIED="1371278869396" POSITION="right" TEXT=""/>
+<node CREATED="1371278869396" ID="ID_1476759976" MODIFIED="1441516236392" POSITION="right" TEXT="3 kinds time measure of distinct precision">
+<node CREATED="1441516239565" ID="ID_338303962" MODIFIED="1441516267365" TEXT="second:  time_t">
+<node CREATED="1441516331068" ID="ID_397298995" MODIFIED="1441516333276" TEXT="time"/>
+<node CREATED="1441516369041" ID="ID_1138022204" MODIFIED="1441516370863" TEXT="sleep"/>
+</node>
+<node CREATED="1441516245722" ID="ID_1563730344" MODIFIED="1441516310428" TEXT="microsecond: timeval">
+<node CREATED="1441516336937" ID="ID_490160660" MODIFIED="1441516339389" TEXT="gettimeofday"/>
+<node CREATED="1441516344008" ID="ID_1307088656" MODIFIED="1441516376356" TEXT="usleep"/>
+</node>
+<node CREATED="1441516311544" ID="ID_1241665407" MODIFIED="1441516318678" TEXT="nanosecond: timespec">
+<node CREATED="1441516348226" ID="ID_224937902" MODIFIED="1441516366989" TEXT="[sys_]clock_gettime"/>
+<node CREATED="1441516377200" ID="ID_717721797" MODIFIED="1441516381067" TEXT="nanosleep"/>
+</node>
+</node>
 </node>
 </map>

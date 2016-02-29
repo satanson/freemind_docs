@@ -1,0 +1,1877 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>ARM</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>ARM
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+hist
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>MOS Technology 6502
+
+</li>
+<li>1978. Acorn Computers, Ltd
+<ul><li>Cambridge, UK
+
+</li>
+<li>Hermann Hauser &amp; Chris Curry
+<ul><li>Consultancy group
+
+</li>
+<li>contract from Ace Coin Equipment to develop a microprocessor-based fruit machine
+
+</li>
+<li>MOS Technology 6502 processor
+<ul><li>1974
+
+</li>
+<li>8-bit microprocessor
+
+</li>
+<li>by far the cheapest microprocessor
+
+</li>
+<li>easy to program
+
+</li>
+<li>low interrupt latency
+<ul><li>good at handling interrupt-driven events
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_1_1" class="foldclosed" onClick="show_folder('1_1_1')" style="POSITION: absolute">+</span> <span id="hide1_1_1" class="foldopened" onClick="hide_folder('1_1_1')">-</span>
+6502 has 3510 transistors
+<ul id="fold1_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Intel 8086, 6500
+
+</li>
+<li>Zilog Z80, 8500
+
+</li>
+<li>Motorala 6800, 4100
+
+</li>
+
+</ul>
+</li>
+<li>had comparatively few registers, requiring frequent RAM
+
+</li>
+<li>Apple II series, Atari 2600, Commodore VIC-20
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>1979/3~1983. Acorn System 1~5
+<ul><li>System I
+<ul><li>Sophie Wilson
+
+</li>
+<li>$96.43
+
+</li>
+
+</ul>
+</li>
+<li>based on the 6502
+
+</li>
+
+</ul>
+</li>
+<li>1980. Acorn Atom
+<ul><li>use 6502
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_1_2" class="foldclosed" onClick="show_folder('1_1_2')" style="POSITION: absolute">+</span> <span id="hide1_1_2" class="foldopened" onClick="hide_folder('1_1_2')">-</span>
+1981. Acron Proton /BBC Micro
+<ul id="fold1_1_2" style="POSITION: relative; VISIBILITY: visible;"><li>successor of Acorn Atom
+
+</li>
+<li>A improved 6502-based computers with more expansion capabilities
+
+</li>
+<li>internal discussions debated on which market to pursue.
+<ul><li>others
+<ul><li>professional target, namely laboratories.
+
+</li>
+
+</ul>
+</li>
+<li>Curry
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">consumer market</span>
+
+</li>
+
+</ul>
+</li>
+<li>Hauser suggests
+<ul><li><p>Hauser suggested a &nbsp;compromise, an improved 6502-based machine with more expansion capabilities: the Proton.
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">British Broadcasting Corporation, the BBC</span>
+<ul><li><p><span style="font-family: SansSerif, sans-serif; ">took an interest in the microcomputer &nbsp;market and began the BBC Computer Literacy Project.</span>
+<p>Television episodes on microelectronics and &nbsp;the predicted impact of computers in industry were designed to be made available to students, who &nbsp;had no time to design their own computer system. The BBC wanted a computer to go with their &nbsp;television series and started to look for candidate systems.
+<p>requirements
+<ul><li><span style="font-family: SansSerif, sans-serif; ">graphics capabilities</span>
+
+</li>
+<li>sound and music
+
+</li>
+<li> teletext
+
+</li>
+<li>external I/O
+
+</li>
+<li>networking
+
+</li>
+
+</ul><p>Several companies &nbsp;competed for the contract, and the Proton project was an ideal candidate. The only problem was &nbsp;the Proton didn&#8217;t actually exist. It was only in the design stage; it wasn&#8217;t prototyped. Acorn had little time, only 4 days, and spent those 4 days working night and day, prototyping the design, and 
+<br>
+getting the Proton ready to show to the BBC Finally, only hours before the meeting with the 
+<br>
+BBC, the Proton was ready. All the hard work done during that week paid off; not only was the 
+<br>
+Proton the only machine to meet the BBC&#8217;s specii &nbsp;cations, it also exceeded them. Acorn was 
+<br>
+awarded the contact, and the project&#8217;s name was changed. The BBC Micro was born.
+<p>The BBC Micro sold so well that Acorn&#8217;s proi &nbsp;ts rose from a little more than $4,800 (&#163;3000) to &nbsp;more than $13.6 million (&#163;8.5 million) in July 1983. Acorn anticipated the total sales of the BBC &nbsp;Micro to be approximately 12,000 units, but after 12 years, more than 1.5 million units were sold. &nbsp;By 1984, Acorn claimed sales of 85 percent of the computers in British schools, with deliveries of &nbsp;40,000 units a month. The BBC Micro was extremely well designed for its use; a robust keyboard &nbsp;that could withstand anything children could throw at it (literally), a carefully designed interface, &nbsp;and the right machine at exactly the right time.
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_1_3" class="foldclosed" onClick="show_folder('1_1_3')" style="POSITION: absolute">+</span> <span id="hide1_1_3" class="foldopened" onClick="hide_folder('1_1_3')">-</span>
+1983/9~1985/4/26 ARM1
+<ul id="fold1_1_3" style="POSITION: relative; VISIBILITY: visible;"><li><p>Acorn RISC Machine 
+<p>Sophie Wilson
+<ul><li>designing the instruction set
+
+</li>
+
+</ul><p>Steve &nbsp;Furber
+<ul><li>doing the hardware design using BBC Micros to model and develop the chip,
+
+</li>
+
+</ul><p>worked perfectly &nbsp;the i &nbsp;rst time, which was rather exceptional for a processor that was basically designed by hand.
+<p>6502 is aging
+<ul><li><p>Graphics systems were emerging, and it was clear &nbsp;that the 6502 couldn&#8217;t keep up in the graphics i &nbsp;eld. 
+<p>The Motorola 68000 was a 16/32-bit &nbsp;microprocessor that was used in many family and business computers, but slow interrupt response &nbsp;times meant that it couldn&#8217;t keep up with a communication protocol that the 6502 had no problem &nbsp;running.. 
+<p>Numerous processors were studied and excluded. One by one, the processors on the &nbsp;market were studied, analyzed, and rejected. Finally, the list ran out, and Acorn was left with no &nbsp;choice; if it wanted to do things its way, it had to make its own processor.
+</li>
+</ul><p>4000 transistors
+<p>32-bit processor.
+<p>The primary application of the ARM1 was to be a coprocessor on BBC Micros
+</li>
+</ul>
+</li>
+<li>ARM2
+<ul><li>sold as specialized coprocessors
+
+</li>
+
+</ul>
+</li>
+<li>1987. Acorn &nbsp;Archimedes.
+<ul><li>the first ARM-based computer
+
+</li>
+
+</ul>
+</li>
+<li>1990/11. ARM Holdings plc (ARM)
+<ul><li><p>found by
+<ul><li>VLSI
+
+</li>
+<li>ACATG
+<ul><li>Apple Computer's Advanced Technology Group
+<ul><li>Newton Project
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Acorn
+
+</li>
+
+</ul><p>Although ARM processors are one of the best sellers &nbsp;worldwide, ARM doesn&#8217;t actually make its own chips; it licenses its intellectual property to other &nbsp;companies.
+<p>ARM&#8217;s original mission wasn&#8217;t to create a processor but to create an architecture. The subtle &nbsp;difference is that the strategy was not to deliver a CPU with written specii &nbsp;cations to a client &nbsp;but more to become a partner, providing a solution to clients who would build their own chips &nbsp;incorporating that solution.
+<p>approach
+<ul><li>Intel
+
+</li>
+<li>Nvidia
+<ul><li>Tegra
+
+</li>
+
+</ul>
+</li>
+<li>STMicroelectronics
+
+</li>
+<li>Texas Instruments
+
+</li>
+<li>Samsung
+<ul><li>Exynos
+
+</li>
+
+</ul>
+</li>
+<li>Freescale&#8217;s i.MX6
+
+</li>
+<li>Apple A4
+
+</li>
+
+</ul><p>ARM licenced in two formats
+<ul><li>synthesizable
+<ul><li><p> ARM IP is &nbsp;delivered electronically and can be integrated into an ASIC chip using different parameters: cache &nbsp;size, optimizations, or debug options. There is more work to be done, but it also enables greater &nbsp;creativity and differentiation.
+</li>
+</ul>
+</li>
+<li>hard macro
+<ul><li><p> In hard macro format the cell is provided, &nbsp;and external components can be added around the existing cell. 
+</li>
+</ul>
+</li>
+
+</ul></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+naming
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li>architecture -- a design
+<ul><li>ARMv{x}-{AMR}
+<ul><li>ARMv6
+
+</li>
+<li>ARMv8-A
+
+</li>
+
+</ul>
+</li>
+<li> Architecture Reference Manual
+
+</li>
+
+</ul>
+</li>
+<li>processor -- a device
+<ul><li><span id="show1_2_1" class="foldclosed" onClick="show_folder('1_2_1')" style="POSITION: absolute">+</span> <span id="hide1_2_1" class="foldopened" onClick="hide_folder('1_2_1')">-</span>
+ARM{x}{labels} /ARM{x}{y}{z}{labels} -- Classic ARM cores
+<ul id="fold1_2_1" style="POSITION: relative; VISIBILITY: visible;"><li><p>The second and third numbers (y and z) correspond to &nbsp;the cache/MMU/MPU information and cache size, respectively.
+<p>x
+<ul><li>7
+<ul><li>ARM7 core version
+
+</li>
+
+</ul>
+</li>
+<li>9
+<ul><li>ARM9 core version
+
+</li>
+
+</ul>
+</li>
+<li>10
+<ul><li>ARM7 core version
+
+</li>
+
+</ul>
+</li>
+<li>11
+<ul><li>ARM7 core version
+
+</li>
+
+</ul>
+</li>
+
+</ul><p><span id="show1_2_1_1" class="foldclosed" onClick="show_folder('1_2_1_1')" style="POSITION: absolute">+</span> <span id="hide1_2_1_1" class="foldopened" onClick="hide_folder('1_2_1_1')">-</span>
+y
+<ul id="fold1_2_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>1
+<ul><li>Cache, write buffer and MMU
+
+</li>
+
+</ul>
+</li>
+<li>2
+<ul><li>Cache, write buffer and MMU, Process ID &nbsp;support
+
+</li>
+
+</ul>
+</li>
+<li>3
+<ul><li>Physically mapped cache and MMU
+
+</li>
+
+</ul>
+</li>
+<li>4
+<ul><li>Cache, write buffer and MPU
+
+</li>
+
+</ul>
+</li>
+<li>5
+<ul><li>Cache, write buffer and MPU, error correcting &nbsp;memory
+
+</li>
+
+</ul>
+</li>
+<li>6
+<ul><li>No cache, write buffer
+
+</li>
+
+</ul>
+</li>
+<li>7
+<ul><li>AXI bus, physically mapped cache and MMU
+
+</li>
+
+</ul>
+</li>
+
+</ul><p>z
+<ul><li>0
+<ul><li>Standard cache size
+
+</li>
+
+</ul>
+</li>
+<li>2
+<ul><li>Reduced cache
+
+</li>
+
+</ul>
+</li>
+<li>4
+<ul><li>Tightly Coupled Memory
+
+</li>
+
+</ul>
+</li>
+<li>6
+<ul><li>As for ARM966
+
+</li>
+
+</ul>
+</li>
+
+</ul><p><span id="show1_2_1_2" class="foldclosed" onClick="show_folder('1_2_1_2')" style="POSITION: absolute">+</span> <span id="hide1_2_1_2" class="foldopened" onClick="hide_folder('1_2_1_2')">-</span>
+label
+<ul id="fold1_2_1_2" style="POSITION: relative; VISIBILITY: visible;"><li>D
+<ul><li>Supports debugging via the JTAG interface. Automatic for ARMv5 and above.
+
+</li>
+
+</ul>
+</li>
+<li>E
+<ul><li>Supports Enhanced DSP instructions. Automatic for ARMv6 and above.
+
+</li>
+
+</ul>
+</li>
+<li>F
+<ul><li>Supports hardware &#64258;oating point via the VFP coprocessor.
+
+</li>
+
+</ul>
+</li>
+<li>I
+<ul><li>Supports hardware breakpoints and watchpoints. Automatic for ARMv5 and above.
+
+</li>
+
+</ul>
+</li>
+<li>J
+<ul><li>Supports the Jazelle Java acceleration technology.
+
+</li>
+
+</ul>
+</li>
+<li>M
+<ul><li>Supports long multiply instructions. Automatic for ARMv5 and above.
+
+</li>
+
+</ul>
+</li>
+<li>T
+<ul><li>Supports Thumb instruction set. Automatic for ARMv5 and above.
+
+</li>
+
+</ul>
+</li>
+<li>-S
+<ul><li>This processor uses a synthesizable hardware design.
+
+</li>
+
+</ul>
+</li>
+
+</ul></li>
+</ul>
+</li>
+<li>Cortex-{x}{y} &nbsp;-- since 2004
+<ul><li>Cortex-A
+<ul><li>Application
+
+</li>
+
+</ul>
+</li>
+<li>Cortex-R
+<ul><li>Real-time
+
+</li>
+
+</ul>
+</li>
+<li>Cortex-M
+<ul><li>Micro-controller
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Technical Reference Manual
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>assembly
+<ul><li>ISA
+<ul><li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+LDR/STR
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li>load and store
+
+</li>
+<li>processor can't directly modify memory cell
+<ul><li>load from memory to register
+
+</li>
+<li>modify content of register
+
+</li>
+<li>store from register to memory
+
+</li>
+
+</ul>
+</li>
+<li>BHWD
+<ul><li>D double word 64bit
+
+</li>
+<li>W word 32bit
+
+</li>
+<li>H half word 16bit
+
+</li>
+<li>B byte 8bit
+
+</li>
+<li>register 32bit
+
+</li>
+
+</ul>
+</li>
+<li>LDR
+<ul><li><span id="show1_3_1" class="foldclosed" onClick="show_folder('1_3_1')" style="POSITION: absolute">+</span> <span id="hide1_3_1" class="foldopened" onClick="hide_folder('1_3_1')">-</span>
+data loaded has less than 32 bits
+<ul id="fold1_3_1" style="POSITION: relative; VISIBILITY: visible;"><li>unsigned extend
+<ul><li>B
+
+</li>
+<li>H
+
+</li>
+
+</ul>
+</li>
+<li>signed extend
+<ul><li>SB
+
+</li>
+<li>SH
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>otherwise
+<ul><li>W default
+
+</li>
+<li>D
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>STR
+<ul><li>B
+
+</li>
+<li>H
+
+</li>
+<li>D
+
+</li>
+<li>W default
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+MOV/MVN/MOVW/MOVT/NEG &nbsp;
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;"><li>MVN
+<ul><li>Move Negative
+
+</li>
+
+</ul>
+</li>
+<li>MOVW
+<ul><li>Move Wide
+
+</li>
+
+</ul>
+</li>
+<li>MOVT
+<ul><li>Move Top
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_5" class="foldclosed" onClick="show_folder('1_5')" style="POSITION: absolute">+</span> <span id="hide1_5" class="foldopened" onClick="hide_folder('1_5')">-</span>
+CMP/CMN/TST/TEQ
+<ul id="fold1_5" style="POSITION: relative; VISIBILITY: visible;"><li>CMP ~ SUB
+
+</li>
+<li>CMN ~ ADD
+<ul><li>Compare Negative
+
+</li>
+
+</ul>
+</li>
+<li>TST ~ AND
+
+</li>
+<li>TEQ ~ EOR
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6" class="foldclosed" onClick="show_folder('1_6')" style="POSITION: absolute">+</span> <span id="hide1_6" class="foldopened" onClick="hide_folder('1_6')">-</span>
+AND/EOR/ORR/BIC/CLZ
+<ul id="fold1_6" style="POSITION: relative; VISIBILITY: visible;"><li>AND &amp;
+
+</li>
+<li>ORR |
+
+</li>
+<li>EOR ^
+
+</li>
+<li><span id="show1_6_1" class="foldclosed" onClick="show_folder('1_6_1')" style="POSITION: absolute">+</span> <span id="hide1_6_1" class="foldopened" onClick="hide_folder('1_6_1')">-</span>
+BIC
+<ul id="fold1_6_1" style="POSITION: relative; VISIBILITY: visible;"><li>Bit Clear
+
+</li>
+<li>BIC Rd, Rn, Operand2
+<ul><li>Rd := Rn &amp; (! Operand2)
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>CLZ
+<ul><li>Count Leading Zeros
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>B/BL/BX/BLX
+
+</li>
+<li>LSL/LSR/ASR/ROR/RRX
+
+</li>
+<li>MCR/MRC
+
+</li>
+<li><span id="show1_7" class="foldclosed" onClick="show_folder('1_7')" style="POSITION: absolute">+</span> <span id="hide1_7" class="foldopened" onClick="hide_folder('1_7')">-</span>
+STM/LDM/PUSH/POP
+<ul id="fold1_7" style="POSITION: relative; VISIBILITY: visible;"><li>STM/LDM{IA, IB, DA, DB}
+<ul><li>IA
+<ul><li>Increment After
+
+</li>
+
+</ul>
+</li>
+<li>IB
+<ul><li>Increment Before
+
+</li>
+
+</ul>
+</li>
+<li>DA
+<ul><li>Decrement After
+
+</li>
+
+</ul>
+</li>
+<li>DB
+<ul><li>Decrement Before
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>STM/LDM{IA|IB|DA|DB} Rn{!}, &lt;reglist&gt;
+<ul><li>Rn{!}
+<ul><li>if Rn followed by !, then Rn is altered, otherwise Rn is unaltered
+
+</li>
+
+</ul>
+</li>
+<li>&lt;reglist&gt;
+
+</li>
+
+</ul>
+</li>
+<li>PUSH &lt;reglist&gt;
+<ul><li>Canonical form of STMDB SP!, &lt;reglist&gt;
+
+</li>
+
+</ul>
+</li>
+<li>POP &lt;reglist&gt;
+<ul><li>Canonical form of LDM SP!, &lt;reglist&gt;
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>assembly
+<ul><li>label: &nbsp;&nbsp;&nbsp;&nbsp;instruction &nbsp;&nbsp;&nbsp;&nbsp;;comment
+
+</li>
+<li><span id="show1_8" class="foldclosed" onClick="show_folder('1_8')" style="POSITION: absolute">+</span> <span id="hide1_8" class="foldopened" onClick="hide_folder('1_8')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">&lt;op&gt;{cond}{flags} Rd, Rn, Operand2</span>
+<ul id="fold1_8" style="POSITION: relative; VISIBILITY: visible;"><li>Condition Codes
+<ul><li>CPSR
+<ul><li>Current Program Status Register, 32-bit
+
+</li>
+<li>N (31), Negative
+
+</li>
+<li>Z (30), &nbsp;Zero
+
+</li>
+<li>C (29), Carry
+
+</li>
+<li>V (28), Overflow
+
+</li>
+<li>32-bit number extended to 34-bit signed number
+<ul><li>C indicates &nbsp;carry of the 31st bit
+
+</li>
+<li>N indicates the 32nd bit
+
+</li>
+<li>V = the 32nd bit &#8853;&nbsp;the 33rd bit
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>AL
+<ul><li><span id="show1_8_1" class="foldclosed" onClick="show_folder('1_8_1')" style="POSITION: absolute">+</span> <span id="hide1_8_1" class="foldopened" onClick="hide_folder('1_8_1')">-</span>
+Always, default condition code
+<ul id="fold1_8_1" style="POSITION: relative; VISIBILITY: visible;"><li>ADDAL same as ADD
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>NV
+<ul><li>Never, never used
+
+</li>
+
+</ul>
+</li>
+<li>EQ/NE
+<ul><li>Equal/NotEqual, Z
+
+</li>
+
+</ul>
+</li>
+<li>VS/VC
+<ul><li>Overflow Set/Clear, V
+
+</li>
+
+</ul>
+</li>
+<li>MI/PL
+<ul><li>Minus/Plus, N
+
+</li>
+
+</ul>
+</li>
+<li>CS/CC
+<ul><li>Carry Set/Clear, C
+
+</li>
+
+</ul>
+</li>
+<li>HI/LS
+<ul><li>Higher / Lower or Same, C &amp;&amp; !Z
+
+</li>
+
+</ul>
+</li>
+<li>GE/LT
+<ul><li>Greater than or Equal / Less Than, N==V
+
+</li>
+
+</ul>
+</li>
+<li>GT/LE
+<ul><li>Greater Than / Less than or Equal, N==V &amp;&amp; !Z
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Updating Condition Flags
+<ul><li>S
+<ul><li>ADDS
+<ul><li>ADDS r0, r1, r2
+
+</li>
+
+</ul>
+</li>
+<li>MOVS
+<ul><li>MOVS r0, r1, LSL #1
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>set condition codes of CPSR
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>addressing mode
+<ul><li>immediate value
+<ul><li>#42
+
+</li>
+<li>MOV r0, #42
+
+</li>
+
+</ul>
+</li>
+<li>register
+<ul><li>MOV r0, r1
+
+</li>
+
+</ul>
+</li>
+<li>memory
+<ul><li>[register]
+
+</li>
+<li>LDR r0, [r1]
+<ul><li>EA = r1
+
+</li>
+
+</ul>
+</li>
+<li>LDR r0, [r1, #4]
+<ul><li>EA = r1 + 4
+
+</li>
+
+</ul>
+</li>
+<li>LDR r0, [r1, r2]
+<ul><li>EA = r1 + r2
+
+</li>
+
+</ul>
+</li>
+<li>LDR r0, [r1, r2, lsl #1]
+<ul><li>EA = r1 + r2 * 2
+
+</li>
+
+</ul>
+</li>
+<li>LDR r0, [r1], #4
+<ul><li>EA = r1; r1 = r1 + 4
+
+</li>
+
+</ul>
+</li>
+<li>LDE r0, [r1, #4]!
+<ul><li>r1 = r1 + 4; EA = r1
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9" class="foldclosed" onClick="show_folder('1_9')" style="POSITION: absolute">+</span> <span id="hide1_9" class="foldopened" onClick="hide_folder('1_9')">-</span>
+arch
+<ul id="fold1_9" style="POSITION: relative; VISIBILITY: visible;"><li>registers r0~r15
+<ul><li>r0~r3
+<ul><li>caller-saved
+
+</li>
+<li>argument pass
+
+</li>
+
+</ul>
+</li>
+<li>r4~r11
+<ul><li>callee-saved
+
+</li>
+
+</ul>
+</li>
+<li>r12 IP
+<ul><li>interprocess scratch register
+
+</li>
+
+</ul>
+</li>
+<li>r13 SP
+
+</li>
+<li>r14 LR
+<ul><li>link register
+
+</li>
+<li>continuation
+
+</li>
+<li>address of the next instruction when return from invocation of subroutines
+
+</li>
+<li>BL/BX &nbsp;&nbsp;-- instructions
+<ul><li>BL
+<ul><li>save continuation into r14, and invoke subroutine.
+
+</li>
+<li>CALL in x86
+
+</li>
+
+</ul>
+</li>
+<li>BX
+<ul><li>restore continuation from r15 to r14
+
+</li>
+<li>RET in x 86
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>r15 PC
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_1" class="foldclosed" onClick="show_folder('1_9_1')" style="POSITION: absolute">+</span> <span id="hide1_9_1" class="foldopened" onClick="hide_folder('1_9_1')">-</span>
+program status register PSR
+<ul id="fold1_9_1" style="POSITION: relative; VISIBILITY: visible;"><li><span id="show1_9_1_1" class="foldclosed" onClick="show_folder('1_9_1_1')" style="POSITION: absolute">+</span> <span id="hide1_9_1_1" class="foldopened" onClick="hide_folder('1_9_1_1')">-</span>
+CPSR Current PSR
+<ul id="fold1_9_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Current process mode
+
+</li>
+<li>Interrupt disable flags
+
+</li>
+<li>Current process state
+<ul><li>ARM
+
+</li>
+<li>Thumb
+
+</li>
+<li>Jazalle
+
+</li>
+<li>etc.
+
+</li>
+
+</ul>
+</li>
+<li>Data memory endianness
+<ul><li>for ARMv6 and later
+
+</li>
+
+</ul>
+</li>
+<li>Condition flags
+<ul><li>NZCV
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>SPSR Saved PSR
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_2" class="foldclosed" onClick="show_folder('1_9_2')" style="POSITION: absolute">+</span> <span id="hide1_9_2" class="foldopened" onClick="hide_folder('1_9_2')">-</span>
+Calculation Unit
+<ul id="fold1_9_2" style="POSITION: relative; VISIBILITY: visible;"><li>register bank
+
+</li>
+<li>ALU
+
+</li>
+<li>barrel shifter
+<ul><li>MOV r0, r1, lsl #1
+
+</li>
+
+</ul>
+</li>
+<li>CPSR
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_3" class="foldclosed" onClick="show_folder('1_9_3')" style="POSITION: absolute">+</span> <span id="hide1_9_3" class="foldopened" onClick="hide_folder('1_9_3')">-</span>
+pipeline
+<ul id="fold1_9_3" style="POSITION: relative; VISIBILITY: visible;"><li>stall
+<ul><li>branch instruction
+<ul><li>branch prediction
+
+</li>
+<li>speculative execution
+
+</li>
+
+</ul>
+</li>
+<li>write/read dependent
+<ul><li>instruction scheduling
+<ul><li>rearrange instructions
+
+</li>
+<li>soft support
+<ul><li>compile with pipeline optimization
+
+</li>
+
+</ul>
+</li>
+<li>hard support
+<ul><li>CPU can rearrange instructions
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_4" class="foldclosed" onClick="show_folder('1_9_4')" style="POSITION: absolute">+</span> <span id="hide1_9_4" class="foldopened" onClick="hide_folder('1_9_4')">-</span>
+Tightly Coupled Memory TCM
+<ul id="fold1_9_4" style="POSITION: relative; VISIBILITY: visible;"><li>TCM exists in parallel to the L1 cache
+
+</li>
+<li>extremely fast (typically one or two cycles' access time)
+
+</li>
+<li>not cacheable
+
+</li>
+<li>internal RAM, mapping into physical address space
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_5" class="foldclosed" onClick="show_folder('1_9_5')" style="POSITION: absolute">+</span> <span id="hide1_9_5" class="foldopened" onClick="hide_folder('1_9_5')">-</span>
+Coprocessors CP0~CP15
+<ul id="fold1_9_5" style="POSITION: relative; VISIBILITY: visible;"><li><p>CP15
+<ul><li>system configuring
+<ul><li>data cache
+
+</li>
+<li>TCM
+
+</li>
+<li>MMU/MPU
+
+</li>
+<li>system performance monitoring
+
+</li>
+
+</ul>
+</li>
+<li>MRC/MCR instructions
+
+</li>
+<li>accessed only in privileged modes
+
+</li>
+<li>processor-specific registers
+
+</li>
+
+</ul><p>CP14
+<ul><li>debug
+
+</li>
+<li>provider status information about
+<ul><li>debug system
+
+</li>
+<li>configuration of certain aspects of the debug system
+
+</li>
+<li>vector catching
+
+</li>
+<li>breakpoint/watchpoint configuration
+
+</li>
+
+</ul>
+</li>
+
+</ul><p>CP11
+<ul><li>VFP
+
+</li>
+
+</ul><p>CP10
+<ul><li>NEON
+
+</li>
+
+</ul><p>unknow instructions
+<p>undefined instruction exception
+<p>soft CP
+<p>Cortex processor has removed older CP structures, coprocessor instructions became valid ARM instructions
+</li>
+</ul>
+</li>
+<li><span id="show1_9_6" class="foldclosed" onClick="show_folder('1_9_6')" style="POSITION: absolute">+</span> <span id="hide1_9_6" class="foldopened" onClick="hide_folder('1_9_6')">-</span>
+Exception
+<ul id="fold1_9_6" style="POSITION: relative; VISIBILITY: visible;"><li>Interrupt in x86
+
+</li>
+<li><span id="show1_9_6_1" class="foldclosed" onClick="show_folder('1_9_6_1')" style="POSITION: absolute">+</span> <span id="hide1_9_6_1" class="foldopened" onClick="hide_folder('1_9_6_1')">-</span>
+categories
+<ul id="fold1_9_6_1" style="POSITION: relative; VISIBILITY: visible;"><li>Reset
+<ul><li>Supervisor mode
+
+</li>
+<li>highest priority
+
+</li>
+
+</ul>
+</li>
+<li>Data Abort
+<ul><li>Abort mode
+
+</li>
+<li>IRQ disabled
+
+</li>
+<li>FIQ unchanged
+
+</li>
+<li>r14 contains address of the aborted instructions + 8
+
+</li>
+<li>segmentation fault in Linux
+
+</li>
+
+</ul>
+</li>
+<li>IRQ
+<ul><li>peripheral device communicates with CPU
+
+</li>
+<li>IRQ mode
+
+</li>
+
+</ul>
+</li>
+<li>FIQ
+<ul><li>take priority preceding IRQ
+
+</li>
+<li>FIQ mode
+
+</li>
+<li>disable both IRQ/FIQ
+<ul><li>make the code uninterruptable (except by a data abort or reset event)
+
+</li>
+
+</ul>
+</li>
+<li>FIQ is located at the end of vector table, so it is possible to start the routine right there
+
+</li>
+<li>extremely fast
+
+</li>
+<li>for real-time routines that need to be handled quickly
+
+</li>
+
+</ul>
+</li>
+<li>Prefetch Abort
+<ul><li><p>The Prefetch Abort exception occurs when the processor attempts to execute code at an invalid &nbsp;memory address. This could happen for several reasons: The memory location might be protected &nbsp;and memory management has specii &nbsp;cally denied access to this memory, or maybe the memory itself &nbsp;is not mapped (if no peripherals are available at that address).
+</li>
+</ul>
+</li>
+<li>SVC
+<ul><li>syscall in x86
+
+</li>
+<li>Supervisor Call
+
+</li>
+<li>SVC 
+<ul><li><p>A &nbsp;non-privileged application can request a privileged operation or access to specii &nbsp;c system resources. 
+<p>An SVC has a number embeded inside
+<p>SVC handler can get the number through one of two metheds
+<ul><li>Most processors embed the SVC number inside the instructions
+
+</li>
+<li>some Cortex-M processors will push the SVC number to the stack
+
+</li>
+
+</ul></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li>Undefined Instruction
+<ul><li>soft coprocessor
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>handling
+<ul><li>SPSR_&lt;mode&gt;
+
+</li>
+<li>LR_&lt;mode&gt;
+
+</li>
+<li>Vector Table
+<ul><li>demo
+<ul><li>00000000 &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =Reset
+
+</li>
+<li>00000004 &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =Undef
+
+</li>
+<li>00000008 &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =SVC
+
+</li>
+<li>0000000C &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =PrefAbort
+
+</li>
+<li>00000010 &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =DataAbort
+
+</li>
+<li>00000014 &nbsp;&nbsp;NOP
+
+</li>
+<li>00000018 &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =IRQ
+
+</li>
+<li>0000001C &nbsp;&nbsp;LDR &nbsp;&nbsp;PC, =FIQ
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>save CPSR and PC into SPSR_&lt;mode&gt; LR_&lt;mode&gt; when entering
+
+</li>
+<li>restore CPSR and PC from SPSR_&lt;mode&gt; LR_&lt;mode&gt; when leaving
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_7" class="foldclosed" onClick="show_folder('1_9_7')" style="POSITION: absolute">+</span> <span id="hide1_9_7" class="foldopened" onClick="hide_folder('1_9_7')">-</span>
+Memory Management
+<ul id="fold1_9_7" style="POSITION: relative; VISIBILITY: visible;"><li>TLB
+
+</li>
+<li>memory zone
+<ul><li>section 1M
+
+</li>
+<li>large page 64K
+
+</li>
+<li>page 4K
+
+</li>
+<li>tiny page 1K
+
+</li>
+
+</ul>
+</li>
+<li>first-level table
+
+</li>
+<li>second-level table
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_8" class="foldclosed" onClick="show_folder('1_9_8')" style="POSITION: absolute">+</span> <span id="hide1_9_8" class="foldopened" onClick="hide_folder('1_9_8')">-</span>
+technologies
+<ul id="fold1_9_8" style="POSITION: relative; VISIBILITY: visible;"><li>JTAG Debug (D)
+<ul><li>Joint Test Action Group 1985
+
+</li>
+
+</ul>
+</li>
+<li>Enhanced DSP (E)
+<ul><li>SIMD
+
+</li>
+<li>music/image
+
+</li>
+
+</ul>
+</li>
+<li>Vector Floating Point (F)
+<ul><li>automatic control system
+
+</li>
+
+</ul>
+</li>
+<li>EmbeddedICE (I)
+<ul><li>debug
+
+</li>
+<li>breakpoint/watchpoint
+
+</li>
+
+</ul>
+</li>
+<li>Jazelle (J)
+<ul><li>Jazelle DBX (Direct Bytecode eXecution)
+
+</li>
+
+</ul>
+</li>
+<li>Long Multiply (M)
+<ul><li>8-bit Booth Algorithm
+
+</li>
+<li>early termination method
+
+</li>
+<li>64-bit multiplication from two 32-bit operands
+
+</li>
+
+</ul>
+</li>
+<li>Thumb (T)
+<ul><li>Thumb 16bit instructions
+
+</li>
+<li>Thumb-2 32bit instructions
+
+</li>
+
+</ul>
+</li>
+<li>Synthesizable (-S)
+<ul><li>in source code form
+
+</li>
+<li>can be flashed onto an FPGA component
+
+</li>
+
+</ul>
+</li>
+<li>TrustZone
+<ul><li>security
+
+</li>
+
+</ul>
+</li>
+<li>NEON
+<ul><li>wide SIMD
+
+</li>
+
+</ul>
+</li>
+<li>&nbsp;
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>code
+<ul><li>cross-compilation
+<ul><li>Sourcery CodeBench Lite
+
+</li>
+<li>GNU Tools for ARM Embedded Processors Version: 5.0
+<ul><li><p>$ cd $install_dir &amp;&amp; tar xjf gcc-arm-none-eabi-*-yyyymmdd-linux.tar.bz2
+<p>For 64 bit system, 32 bit libc and libncurses are required to run the tools. In addition, if you want to use gdb python build (arm-none-eabi-gdb-py), you'd install 32 bit python2.7. Please refer https://answers.launchpad.net/gcc-arm-embedded/+faq/2601
+<p>bare metal
+<p><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">gen boot.bin</span>
+<ul><li>gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -O binary boot.elf boot.bin
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">boot.elf</span>
+<ul><li>gcc-arm-none-eabi/bin/arm-none-eabi-ld -T boot.ld startup.o &nbsp;entry.o -o boot.elf
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">startup.o</span>
+<ul><li>gcc-arm-none-eabi/bin/arm-none-eabi-as -mcpu=arm926ej-s startup.s &nbsp;-o startup.o
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">startup.s</span>
+<ul><li>&#xa;    <p>&#xa;      .section INTERRUPT_VECTOR, &quot;x&quot;&#xa;    </p>&#xa;    <p>&#xa;      .global _Reset&#xa;    </p>&#xa;    <p>&#xa;      _Reset:&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B Reset_Handler /* Reset */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* Undefined */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* SWI */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* Prefetch Abort */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* Data Abort */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* reserved */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* IRQ */&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B . /* FIQ */&#xa;    </p>&#xa;    <p>&#xa;      Reset_Handler:&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;LDR sp, =stack_top&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;BL entry&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;B .&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">entry.o</span>
+<ul><li>gcc-arm-none-eabi/bin/arm-none-eabi-gcc -c -mcpu=arm926ej-s entry.c &nbsp;-o entry.o
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">entry.c</span>
+<ul><li>&#xa;    <p>&#xa;      int entry() {&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;return 0;&#xa;    </p>&#xa;    <p>&#xa;      }&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">boot.ld</span>
+<ul><li>&#xa;    <p>&#xa;      ENTRY(_Reset)&#xa;    </p>&#xa;    <p>&#xa;      SECTIONS&#xa;    </p>&#xa;    <p>&#xa;      {&#xa;    </p>&#xa;    <p>&#xa;      &#160;. = 0x0;&#xa;    </p>&#xa;    <p>&#xa;      &#160;.text : {&#xa;    </p>&#xa;    <p>&#xa;      &#160;startup.o (INTERRUPT_VECTOR)&#xa;    </p>&#xa;    <p>&#xa;      &#160;*(.text)&#xa;    </p>&#xa;    <p>&#xa;      &#160;}&#xa;    </p>&#xa;    <p>&#xa;      &#160;.data : { *(.data) }&#xa;    </p>&#xa;    <p>&#xa;      &#160;.bss : { *(.bss COMMON) }&#xa;    </p>&#xa;    <p>&#xa;      &#160;. = ALIGN(8);&#xa;    </p>&#xa;    <p>&#xa;      &#160;. = . + 0x1000; /* 4kB of stack memory */&#xa;    </p>&#xa;    <p>&#xa;      &#160;stack_top = .;&#xa;    </p>&#xa;    <p>&#xa;      }&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul><p>gcc-arm-none-eabi/bin/arm-none-eabi-objdump &nbsp;-d boot.elf
+<p>readelf -A boot.elf
+</li>
+</ul>
+</li>
+<li>eabi
+<ul><li>Embedded Application Binary Interface
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>target
+<ul><li><span id="show1_10" class="foldclosed" onClick="show_folder('1_10')" style="POSITION: absolute">+</span> <span id="hide1_10" class="foldopened" onClick="hide_folder('1_10')">-</span>
+qemu
+<ul id="fold1_10" style="POSITION: relative; VISIBILITY: visible;"><li>Versatile board
+
+</li>
+<li>Versatile Express board
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">qemu install</span>
+<ul><li><span id="show1_10_1" class="foldclosed" onClick="show_folder('1_10_1')" style="POSITION: absolute">+</span> <span id="hide1_10_1" class="foldopened" onClick="hide_folder('1_10_1')">-</span>
+./configure --target-list=arm-softmmu --audio-drv-list=
+<ul id="fold1_10_1" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">libtool</span>
+<ul><li>sudo yum install libtool
+
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">glib-2.28</span>
+<ul><li><p>./configure
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">gettext</span>
+<ul><li><p>yum install gettext
+<p> The gettext program translates a natural language message into the user&#8217;s language, by looking up the translation in a message catalog.
+</li>
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">gthread-2.0</span>
+<ul><li>pkg-config --atleast-version=2.22 gthread-2.0
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; "> /usr/local/lib/pkgconfig/glib-2.0.pc</span>
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; "> export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">gmodule-2.0</span>
+
+</li>
+
+</ul><p><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">NOTICE</span>
+<ul><li>glib-2.28 exists but no glib-2.0.pc exists, so
+<ul><li>rpm -qa "*glib*"
+<ul><li>glib2-2.28.8-4.el6.i686
+
+</li>
+
+</ul>
+</li>
+<li>wget https://download.gnome.org/sources/glib/2.28/glib-2.28.8.tar.bz2
+
+</li>
+<li>./configure &amp;&amp; make &amp;&amp; make install &amp;&amp; ldconfig
+
+</li>
+<li><span id="show1_10_1_1" class="foldclosed" onClick="show_folder('1_10_1_1')" style="POSITION: absolute">+</span> <span id="hide1_10_1_1" class="foldopened" onClick="hide_folder('1_10_1_1')">-</span>
+pkg-config --modversion glib-2.0
+<ul id="fold1_10_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>2.28.8
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul><p>GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on. It works on many UNIX-like platforms, Windows, OS/2 and BeOS. GLib is released under the GNU Library General Public License (GNU LGPL). The general policy of GLib is that all functions are invisibly threadsafe with the exception of data structure manipulation functions, where, if you have two threads manipulating the same data structure, they must use a lock to synchronize their operation.
+<p>https://download.gnome.org/sources/glib/2.22/
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Hello World</span>
+<ul><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">hw.bin</span>
+<ul><li>../mkboot.sh hw_entry.c hw_startup.s hw.ld
+<ul><li><span id="show1_10_2" class="foldclosed" onClick="show_folder('1_10_2')" style="POSITION: absolute">+</span> <span id="hide1_10_2" class="foldopened" onClick="hide_folder('1_10_2')">-</span>
+<span style="font-family: SansSerif, sans-serif; font-weight: bold; ">hw_entry.c</span>
+<ul id="fold1_10_2" style="POSITION: relative; VISIBILITY: visible;"><li>&#xa;    <p>&#xa;      volatile unsigned char *const UART0_PTR = (unsigned char*)0x101f1000;&#xa;    </p>&#xa;    <p>&#xa;      void print_uart0(const char *string)&#xa;    </p>&#xa;    <p>&#xa;      {&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;while (*string != '\0') {&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*UART0_PTR = *string;&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;++string;&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;}&#xa;    </p>&#xa;    <p>&#xa;      }&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      int entry(void)&#xa;    </p>&#xa;    <p>&#xa;      {&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;print_uart0(&quot;Hello, World!\n&quot;);&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;return 0;&#xa;    </p>&#xa;    <p>&#xa;      }&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+<li><span id="show1_10_3" class="foldclosed" onClick="show_folder('1_10_3')" style="POSITION: absolute">+</span> <span id="hide1_10_3" class="foldopened" onClick="hide_folder('1_10_3')">-</span>
+<span style="font-family: SansSerif, sans-serif; font-weight: bold; ">hw_startup.s</span>
+<ul id="fold1_10_3" style="POSITION: relative; VISIBILITY: visible;"><li>&#xa;    <p>&#xa;      .global _MyApp&#xa;    </p>&#xa;    <p>&#xa;      _MyApp:&#xa;    </p>&#xa;    <p>&#xa;      &#160;LDR sp, =stack_top&#xa;    </p>&#xa;    <p>&#xa;      &#160;BL entry&#xa;    </p>&#xa;    <p>&#xa;      &#160;B .&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+<li><span id="show1_10_4" class="foldclosed" onClick="show_folder('1_10_4')" style="POSITION: absolute">+</span> <span id="hide1_10_4" class="foldopened" onClick="hide_folder('1_10_4')">-</span>
+<span style="font-family: SansSerif, sans-serif; font-weight: bold; ">hw.ld</span>
+<ul id="fold1_10_4" style="POSITION: relative; VISIBILITY: visible;"><li>&#xa;    <p>&#xa;      ENTRY(_MyApp)&#xa;    </p>&#xa;    <p>&#xa;      SECTIONS&#xa;    </p>&#xa;    <p>&#xa;      {&#xa;    </p>&#xa;    <p>&#xa;      &#160;. = 0x10000;&#xa;    </p>&#xa;    <p>&#xa;      &#160;.startup . : { hw_startup.o(.text) }&#xa;    </p>&#xa;    <p>&#xa;      &#160;.text : { *(.text) }&#xa;    </p>&#xa;    <p>&#xa;      &#160;.data : { *(.data) }&#xa;    </p>&#xa;    <p>&#xa;      &#160;.bss : { *(.bss COMMON) }&#xa;    </p>&#xa;    <p>&#xa;      &#160;. = ALIGN(8);&#xa;    </p>&#xa;    <p>&#xa;      &#160;. = . + 0x1000; /* 4kB of stack memory */&#xa;    </p>&#xa;    <p>&#xa;      &#160;stack_top = .;&#xa;    </p>&#xa;    <p>&#xa;      }&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+<li><span id="show1_10_5" class="foldclosed" onClick="show_folder('1_10_5')" style="POSITION: absolute">+</span> <span id="hide1_10_5" class="foldopened" onClick="hide_folder('1_10_5')">-</span>
+<span style="font-family: SansSerif, sans-serif; font-weight: bold; ">mkboot.sh</span>
+<ul id="fold1_10_5" style="POSITION: relative; VISIBILITY: visible;"><li>&#xa;    <p>&#xa;      #!/bin/bash&#xa;    </p>&#xa;    <p>&#xa;      cfiles=`perl -e &quot;print join ' ', grep /.c$/, qw/$*/&quot;`&#xa;    </p>&#xa;    <p>&#xa;      sfiles=`perl -e &quot;print join ' ', grep /.s$/, qw/$*/&quot;`&#xa;    </p>&#xa;    <p>&#xa;      ldfile=`perl -e &quot;print join ' ', grep /.ld$/, qw/$*/&quot;`&#xa;    </p>&#xa;    <p>&#xa;      ofiles=`perl -e &quot;@_=qw/$cfiles $sfiles/;print join ' ', map {s/\.[cs]/.o/g;\\\$_} @_&quot;`&#xa;    </p>&#xa;    <p>&#xa;      bin=`perl -e &quot;print \\\$1 if '$ldfile' =~ /^(.*)\.ld$/&quot;`&#xa;    </p>&#xa;    <p>&#xa;      echo &quot;C files: $cfiles&quot;&#xa;    </p>&#xa;    <p>&#xa;      echo &quot;Assembly files: $sfiles&quot;&#xa;    </p>&#xa;    <p>&#xa;      echo &quot;Object file: $ofiles&quot;&#xa;    </p>&#xa;    <p>&#xa;      echo &quot;Loader file: $ldfile&quot;&#xa;    </p>&#xa;    <p>&#xa;      echo &quot;Bin file: $bin&quot;&#xa;    </p>&#xa;    <p>&#xa;      for c in $cfiles;do arm-none-eabi-gcc -c -mcpu=arm926ej-s $c&#160;&#160;-o ${c%%.c}.o;done&#xa;    </p>&#xa;    <p>&#xa;      for s in $sfiles;do arm-none-eabi-as -mcpu=arm926ej-s $s&#160;&#160;-o ${s%%.s}.o;done&#xa;    </p>&#xa;    <p>&#xa;      &#xa;    </p>&#xa;    <p>&#xa;      if [ -n &quot;$bin&quot; ];then&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;arm-none-eabi-ld -T $ldfile $ofiles -o $bin.elf&#xa;    </p>&#xa;    <p>&#xa;      &#160;&#160;&#160;&#160;arm-none-eabi-objcopy -O binary $bin.elf $bin.bin&#xa;    </p>&#xa;    <p>&#xa;      fi&#xa;    </p>&#xa;  
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>qemu-system-arm -M versatilepb -nographic -kernel hw.bin
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>PC
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>&nbsp;
+
+</li>
+<li>&nbsp;
+
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>
