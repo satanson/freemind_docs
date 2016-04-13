@@ -1441,7 +1441,7 @@
 </node>
 <node CREATED="1445881472816" ID="ID_828836031" MODIFIED="1445881477547" TEXT="Thus, if you change an option to $(CC) all affected files will be re-compiled."/>
 </node>
-<node CREATED="1445881493721" FOLDED="true" ID="ID_612443045" MODIFIED="1445882853986" TEXT="Special Rules">
+<node CREATED="1445881493721" FOLDED="true" ID="ID_612443045" MODIFIED="1458388697550" TEXT="Special Rules">
 <node CREATED="1445881568333" ID="ID_526037683" MODIFIED="1445881568993" TEXT="$(src)">
 <node CREATED="1445881590817" ID="ID_1143100406" MODIFIED="1445881599676" TEXT="$(src) is a relative path which points to the directory where the Makefile is located. Always use $(src) when referring to files located in the src tree."/>
 </node>
@@ -1472,7 +1472,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1445881889884" FOLDED="true" ID="ID_1013016713" MODIFIED="1445882447839" TEXT="$(CC) support functions">
+<node CREATED="1445881889884" FOLDED="true" ID="ID_1013016713" MODIFIED="1458388697548" TEXT="$(CC) support functions">
 <node CREATED="1445881877534" ID="ID_992606852" MODIFIED="1445881892414" TEXT="as-option">
 <node CREATED="1445881909767" ID="ID_478574301" MODIFIED="1445881910852" TEXT="as-option is used to check if $(CC) -- when used to compile &#x9;assembler (*.S) files -- supports the given option. An optional &#x9;second option may be specified if the first option is not supported."/>
 <node CREATED="1445881919515" ID="ID_622623561" MODIFIED="1445881924293">
@@ -1895,8 +1895,8 @@
 <node CREATED="1445753933335" ID="ID_1010947758" MODIFIED="1445753955877" TEXT="/usr/src/linux-&lt;version&gt;-up #Documentation/kbuild/modules"/>
 </node>
 </node>
-<node CREATED="1445958730631" FOLDED="true" ID="ID_229928420" MODIFIED="1445958946193" TEXT="utilities">
-<node CREATED="1445958891836" FOLDED="true" ID="ID_1565396012" MODIFIED="1445958943433" TEXT="demo">
+<node CREATED="1445958730631" FOLDED="true" ID="ID_229928420" MODIFIED="1458388693489" TEXT="utilities">
+<node CREATED="1445958891836" FOLDED="true" ID="ID_1565396012" MODIFIED="1458388693488" TEXT="demo">
 <node CREATED="1445958934014" ID="ID_1334203406" MODIFIED="1445958941016">
 <richcontent TYPE="NODE"><html>
   <head>

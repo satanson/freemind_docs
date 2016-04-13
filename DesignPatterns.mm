@@ -1,14 +1,14 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1345904784613" ID="ID_503277245" MODIFIED="1363943906806" TEXT="defignPatterns">
-<node CREATED="1345905754167" FOLDED="true" ID="ID_1699833338" MODIFIED="1364004393853" POSITION="right" TEXT="defign Principles">
+<node CREATED="1345905754167" FOLDED="true" ID="ID_1699833338" MODIFIED="1457434008091" POSITION="right" TEXT="design Principles">
 <node CREATED="1345905795893" ID="ID_265559520" MODIFIED="1345912342341" TEXT="Identify the aspects of your application that vary and separate them from what stays the same. ">
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1345905869931" ID="ID_901702046" MODIFIED="1345905926990" TEXT="Program to an interface, not an  implementation.">
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1345905894856" FOLDED="true" ID="ID_1901132481" MODIFIED="1345905978254">
+<node CREATED="1345905894856" ID="ID_1901132481" MODIFIED="1457433759540">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -20,17 +20,17 @@
   </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
-<node CREATED="1345905968737" FOLDED="true" ID="ID_429758819" MODIFIED="1345905977444" TEXT="i.e.">
+<node CREATED="1345905968737" ID="ID_429758819" MODIFIED="1457433761313" TEXT="i.e.">
 <node CREATED="1345905959828" ID="ID_1071230367" MODIFIED="1345905975417" TEXT="HAS-A can be better than IS-A."/>
 </node>
 </node>
-<node CREATED="1345908826863" ID="ID_898843654" MODIFIED="1363943906806" TEXT="Strive for loosely coupled defigns  between objects that interact.">
+<node CREATED="1345908826863" ID="ID_898843654" MODIFIED="1457433799217" TEXT="Strive for loosely coupled designs  between objects that interact.">
 <icon BUILTIN="full-4"/>
 </node>
 <node CREATED="1345912284232" ID="ID_1378612622" MODIFIED="1345912324490" TEXT="Classes should be open for extension, but closed for modification.">
 <icon BUILTIN="full-5"/>
 </node>
-<node CREATED="1345918783257" ID="ID_1813861265" MODIFIED="1345918788986" TEXT="Depend upon abstractions.  Do not  depend upon concrete classes. ">
+<node CREATED="1345918783257" FOLDED="true" ID="ID_1813861265" MODIFIED="1457433996829" TEXT="Depend upon abstractions.  Do not  depend upon concrete classes. ">
 <icon BUILTIN="full-6"/>
 <node CREATED="1345918799766" ID="ID_329020476" MODIFIED="1345918803611" TEXT="i.e.">
 <node CREATED="1345919304455" ID="ID_985085158" MODIFIED="1345919319341" TEXT="Dependency Inversion Principle">
@@ -42,10 +42,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1345906027786" ID="ID_906058490" MODIFIED="1389081408489" POSITION="right" TEXT="23 patterns">
-<node CREATED="1363943045715" ID="ID_514184664" MODIFIED="1383059126527" TEXT="Creational Patterns(5)">
+<node CREATED="1345906027786" ID="ID_906058490" MODIFIED="1457434009363" POSITION="right" TEXT="23 patterns">
+<node CREATED="1363943045715" ID="ID_514184664" MODIFIED="1457444845770" TEXT="Creational Patterns(5)">
 <icon BUILTIN="full-1"/>
-<node CREATED="1345916305787" ID="ID_1130723467" MODIFIED="1366884170633">
+<node CREATED="1345916305787" FOLDED="true" ID="ID_1130723467" MODIFIED="1457444950929">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -57,7 +57,7 @@
   </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
-<node CREATED="1345920027103" ID="ID_1287443604" MODIFIED="1363943215607" TEXT="distinguish">
+<node CREATED="1345920027103" ID="ID_1287443604" MODIFIED="1457438466568" TEXT="distinguish">
 <arrowlink DESTINATION="ID_284869340" ENDARROW="Default" ENDINCLINATION="29;0;" ID="Arrow_ID_1003133691" STARTARROW="None" STARTINCLINATION="29;0;"/>
 <node CREATED="1345920124663" ID="ID_1991867526" MODIFIED="1345920153010" TEXT="composition"/>
 <node CREATED="1345920132814" ID="ID_606024518" MODIFIED="1345920491134" TEXT="creating entire families of products. "/>
@@ -83,7 +83,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943083665" FOLDED="true" ID="ID_1406048282" MODIFIED="1366884195988">
+<node CREATED="1363943083665" ID="ID_1406048282" MODIFIED="1457444938653">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -103,7 +103,7 @@
 <node CREATED="1364001929575" ID="ID_685437759" MODIFIED="1364001931022" TEXT="A reader for the RTF (Rich Text Format) document exchange format should be  able to convert RTF to many text formats."/>
 </node>
 </node>
-<node CREATED="1345918274493" ID="ID_580422639" MODIFIED="1366884175202">
+<node CREATED="1345918274493" FOLDED="true" ID="ID_580422639" MODIFIED="1457444872398">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -135,17 +135,18 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1345920023155" ID="ID_284869340" MODIFIED="1363943213021" TEXT="distinguish">
+<node CREATED="1345920023155" ID="ID_284869340" MODIFIED="1457438541010" TEXT="distinguish">
 <node CREATED="1345920120078" ID="ID_1561118525" MODIFIED="1345920144359" TEXT="inheritancy"/>
 <node CREATED="1345920130405" ID="ID_222178729" MODIFIED="1345920486094" TEXT="only creating one product."/>
 </node>
-<node CREATED="1363999859630" ID="ID_927413200" MODIFIED="1363999978621" TEXT="demos">
+<node CREATED="1363999859630" ID="ID_927413200" MODIFIED="1457439149065" TEXT="demos">
 <node CREATED="1364000032190" ID="ID_1441471776" MODIFIED="1364000074811" TEXT="MFC Application&amp;Document&amp;View">
 <node CREATED="1363999979891" ID="ID_1792226017" MODIFIED="1364000076108" TEXT="Application &amp; Application-specific Document"/>
 </node>
+<node CREATED="1457438969719" ID="ID_73169078" MODIFIED="1457439118494" TEXT="Zk/Bns/TrivialDiscoverer"/>
 </node>
 </node>
-<node CREATED="1363943104500" FOLDED="true" ID="ID_626762040" MODIFIED="1364090438423">
+<node CREATED="1363943104500" FOLDED="true" ID="ID_626762040" MODIFIED="1457444870334">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -171,11 +172,12 @@
 <node CREATED="1364004200355" ID="ID_1366940245" MODIFIED="1364004316411" TEXT="creates a new object by asking a prototype to clone itself"/>
 </node>
 </node>
-<node CREATED="1364004318568" ID="ID_1492908769" MODIFIED="1364004326056" TEXT="demos">
+<node CREATED="1364004318568" ID="ID_1492908769" MODIFIED="1457438279239" TEXT="demos">
 <node CREATED="1364004327819" ID="ID_1639587483" MODIFIED="1364004354930" TEXT="music score, a platte of music notation"/>
+<node CREATED="1457438293751" ID="ID_1170334073" MODIFIED="1457438365957" TEXT="dynamically-typed language/root object deep copy"/>
 </node>
 </node>
-<node CREATED="1345920894955" FOLDED="true" ID="ID_423783524" MODIFIED="1366884146248">
+<node CREATED="1345920894955" FOLDED="true" ID="ID_423783524" MODIFIED="1457444855593">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -187,10 +189,10 @@
   </body>&#xd;&#xd;
 </html></richcontent>
 <icon BUILTIN="full-5"/>
-<node CREATED="1345920927386" ID="ID_566101823" MODIFIED="1363943906821" TEXT="def">
-<node CREATED="1345920952581" ID="ID_1065768016" MODIFIED="1363943906821" TEXT="ensures a class has only one  instance, and providef a global point of access to it."/>
+<node CREATED="1345920927386" ID="ID_566101823" MODIFIED="1457434266168" TEXT="def">
+<node CREATED="1345920952581" ID="ID_1065768016" MODIFIED="1457434192911" TEXT="ensures a class has only one  instance, and provide a global point of access to it."/>
 </node>
-<node BACKGROUND_COLOR="#ff0000" CREATED="1345921113860" ID="ID_1589489715" MODIFIED="1345921156120" TEXT="note">
+<node BACKGROUND_COLOR="#ff0000" CREATED="1345921113860" FOLDED="true" ID="ID_1589489715" MODIFIED="1457444843446" TEXT="note">
 <font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1345921166409" ID="ID_1861656793" MODIFIED="1345921181081" TEXT="thread security">
@@ -208,7 +210,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345921438669" ID="ID_969590406" MODIFIED="1345921441409" TEXT="demo">
+<node CREATED="1345921438669" FOLDED="true" ID="ID_969590406" MODIFIED="1457439036673" TEXT="demo">
 <node CREATED="1345921443735" ID="ID_152799725" MODIFIED="1345921482519">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
@@ -266,12 +268,14 @@
   </body>&#xd;&#xd;
 </html></richcontent>
 </node>
+<node CREATED="1457438031875" ID="ID_97464076" MODIFIED="1457438032690" TEXT="java.lang.Runtime"/>
+<node CREATED="1457439032112" ID="ID_842180458" MODIFIED="1457439034688" TEXT="Class"/>
 </node>
 </node>
 </node>
-<node CREATED="1363943253933" FOLDED="true" ID="ID_406021788" MODIFIED="1389081411842" TEXT="Structural Patterns(7)">
+<node CREATED="1363943253933" ID="ID_406021788" MODIFIED="1457444952599" TEXT="Structural Patterns(7)">
 <icon BUILTIN="full-2"/>
-<node CREATED="1363943315306" FOLDED="true" ID="ID_1798190064" MODIFIED="1366883926824">
+<node CREATED="1363943315306" ID="ID_1798190064" MODIFIED="1457444955724">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -284,7 +288,7 @@
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1364004574731" ID="ID_404816197" MODIFIED="1364004577197" TEXT="def">
-<node CREATED="1364004578259" ID="ID_932642265" MODIFIED="1364004579694" TEXT="Convert the interface of a class intoanother interface clients expect.  Adapter lets classes work together that couldn&apos;t otherwise because of  incompatible interfaces."/>
+<node CREATED="1364004578259" ID="ID_932642265" MODIFIED="1457445004193" TEXT="Convert the interface of a class into another interface clients expect.  Adapter lets classes work together that couldn&apos;t otherwise because of  incompatible interfaces."/>
 </node>
 <node CREATED="1364004582691" ID="ID_1531285488" MODIFIED="1364004588694" TEXT="wrapper"/>
 <node CREATED="1364005119701" ID="ID_1971536018" MODIFIED="1364005124574" TEXT="demos">
@@ -292,7 +296,7 @@
 <node CREATED="1364005169139" ID="ID_1107825744" MODIFIED="1364005217720" TEXT="java.io.OutputStreamWriter &amp; java.io.OutputStream"/>
 </node>
 </node>
-<node CREATED="1363943330384" FOLDED="true" ID="ID_1042292249" MODIFIED="1366884247880">
+<node CREATED="1363943330384" ID="ID_1042292249" MODIFIED="1457445010999">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -325,7 +329,7 @@
 <node CREATED="1364007900837" ID="ID_637397165" MODIFIED="1364007944949" TEXT="hierarchy-designing"/>
 </node>
 </node>
-<node CREATED="1363943347578" FOLDED="true" ID="ID_1421752992" MODIFIED="1364090475355">
+<node CREATED="1363943347578" ID="ID_1421752992" MODIFIED="1457445094273">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -341,7 +345,7 @@
 <node CREATED="1363944677773" ID="ID_488791562" MODIFIED="1363944679600" TEXT="allows you to  compose objects into tree structures to  represent part-whole hierarchies. Composite  lets clients treat individual objects and  compositions of objects uniformly."/>
 </node>
 <node CREATED="1363944750180" ID="ID_1096554423" MODIFIED="1363944751633" TEXT="recursive composition"/>
-<node CREATED="1363944752372" ID="ID_1723092525" MODIFIED="1363944755385" TEXT="demos">
+<node CREATED="1363944752372" FOLDED="true" ID="ID_1723092525" MODIFIED="1457445130156" TEXT="demos">
 <node CREATED="1363944765780" ID="ID_1570654618" MODIFIED="1363969612083" TEXT="Java GUI(javax.swing)">
 <node CREATED="1363971791719" ID="ID_746388952" MODIFIED="1363971798177" TEXT="JFrame">
 <node CREATED="1363971800174" ID="ID_675176497" MODIFIED="1363971812385" TEXT="JRootPane">
@@ -367,7 +371,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1345911809484" FOLDED="true" ID="ID_1069352130" MODIFIED="1366884218228">
+<node CREATED="1345911809484" ID="ID_1069352130" MODIFIED="1457445137090">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -403,7 +407,7 @@
 <node CREATED="1345912910516" ID="ID_92565512" MODIFIED="1345912919178" TEXT="Java IO API"/>
 </node>
 </node>
-<node CREATED="1363943356010" FOLDED="true" ID="ID_1519691396" MODIFIED="1366884216468">
+<node CREATED="1363943356010" ID="ID_1519691396" MODIFIED="1457445148930">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -416,18 +420,18 @@
 </html></richcontent>
 <icon BUILTIN="full-5"/>
 <node CREATED="1364009054915" ID="ID_1480883468" MODIFIED="1364009085503" TEXT="def">
-<node CREATED="1364009124139" ID="ID_1644774699" MODIFIED="1364009125654" TEXT="Provide a unified interface to a set of interfaces in a subsystem. Facade  defines a higher-level interface thatmakes the subsystem easier to use. "/>
+<node CREATED="1364009124139" ID="ID_1644774699" MODIFIED="1457445200466" TEXT="Provide a unified interface to a set of interfaces in a subsystem. Facade  defines a higher-level interface that makes the subsystem easier to use. "/>
 </node>
 <node CREATED="1364009055844" ID="ID_660375483" MODIFIED="1364009062313" TEXT="facade  [f&#x259;&#x2c8;s&#x251;:d]">
 <node CREATED="1364009081446" ID="ID_476022083" MODIFIED="1364009082596" TEXT="the front of a building, especially a large and important one"/>
 </node>
-<node CREATED="1364010231469" ID="ID_1729100512" MODIFIED="1364010232756" TEXT="shields clients from subsystem components, thereby reducing the  number of objects that clients dealwith and making the subsystem  easier to use. "/>
+<node CREATED="1364010231469" ID="ID_1729100512" MODIFIED="1457445221338" TEXT="shields clients from subsystem components, thereby reducing the  number of objects that clients deal with and making the subsystem  easier to use. "/>
 <node CREATED="1364010288437" ID="ID_918179726" MODIFIED="1364010289460" TEXT="It promotes weak coupling betweenthe subsystem and its clients.  Often the components in a subsystem are strongly coupled. Weak  coupling lets you vary the components of the subsystem without  affecting its clients."/>
 <node CREATED="1364010289715" ID="ID_1670721908" MODIFIED="1364010293496" TEXT="demos">
 <node CREATED="1364010294473" ID="ID_1974264745" MODIFIED="1364010383506" TEXT="Compiler &amp;(Scanner&amp;Parser&amp;ProgramNodeBuilder&amp;CodeGenerator)"/>
 </node>
 </node>
-<node CREATED="1363943396042" FOLDED="true" ID="ID_73209917" MODIFIED="1366884205836">
+<node CREATED="1363943396042" FOLDED="true" ID="ID_73209917" MODIFIED="1457450697070">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -457,7 +461,7 @@
 <node CREATED="1364011946271" ID="ID_118340970" MODIFIED="1364011992388" TEXT="Glyph(flyweight) &amp;typesetting"/>
 </node>
 </node>
-<node CREATED="1363943403749" FOLDED="true" ID="ID_990382327" MODIFIED="1366883967560">
+<node CREATED="1363943403749" ID="ID_990382327" MODIFIED="1457450408415">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -492,9 +496,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943497418" ID="ID_1516895740" MODIFIED="1374681039406" TEXT="Behavioral Patterns(11)">
+<node CREATED="1363943497418" ID="ID_1516895740" MODIFIED="1457450760997" TEXT="Behavioral Patterns(11)">
 <icon BUILTIN="full-3"/>
-<node CREATED="1363943516685" ID="ID_31605362" MODIFIED="1389081413817">
+<node CREATED="1363943516685" FOLDED="true" ID="ID_31605362" MODIFIED="1457450403176">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -513,7 +517,7 @@
 <node CREATED="1364012667990" ID="ID_559830759" MODIFIED="1364013358311" TEXT="MFC Message Routing"/>
 </node>
 </node>
-<node CREATED="1363943575002" FOLDED="true" ID="ID_452331672" MODIFIED="1378794372686">
+<node CREATED="1363943575002" FOLDED="true" ID="ID_452331672" MODIFIED="1457450401986">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -544,7 +548,7 @@
 </node>
 <node CREATED="1364014165371" ID="ID_958639625" MODIFIED="1364014170494" TEXT="demos"/>
 </node>
-<node CREATED="1363943579410" FOLDED="true" ID="ID_1606226797" MODIFIED="1378794375354">
+<node CREATED="1363943579410" ID="ID_1606226797" MODIFIED="1457450400769">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -563,7 +567,7 @@
 <node CREATED="1364014887635" ID="ID_1759751774" MODIFIED="1364014890487" TEXT="regexp"/>
 </node>
 </node>
-<node CREATED="1363829696672" FOLDED="true" ID="ID_1358410102" MODIFIED="1366884022255">
+<node CREATED="1363829696672" ID="ID_1358410102" MODIFIED="1457450392480">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -582,7 +586,7 @@
 <node CREATED="1363829922255" ID="ID_1830100752" MODIFIED="1363829948511" TEXT="Java Collection Framework"/>
 </node>
 </node>
-<node CREATED="1363943588890" FOLDED="true" ID="ID_1982787346" MODIFIED="1378794466092">
+<node CREATED="1363943588890" FOLDED="true" ID="ID_1982787346" MODIFIED="1457450361448">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -626,7 +630,7 @@
 <node CREATED="1364015591629" ID="ID_1128803673" MODIFIED="1364015721467" TEXT="Dialog contains control component (Button&amp;ListBox&amp;TextField)"/>
 </node>
 </node>
-<node CREATED="1363943620809" FOLDED="true" ID="ID_433246096" MODIFIED="1378794481193">
+<node CREATED="1363943620809" FOLDED="true" ID="ID_433246096" MODIFIED="1457450289719">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -653,7 +657,7 @@
 <node CREATED="1364030672056" ID="ID_801020410" MODIFIED="1364030673343" TEXT="a snapshot of (some portion of) an object&apos;sstate must be saved so that it can be  restored to that state later, and"/>
 <node CREATED="1364030686893" ID="ID_325251799" MODIFIED="1364030688132" TEXT="a direct interface to obtaining the state would expose implementation details  and break the object&apos;s encapsulation."/>
 </node>
-<node CREATED="1364030748266" FOLDED="true" ID="ID_1285164614" MODIFIED="1364032127146" TEXT="Participants">
+<node CREATED="1364030748266" ID="ID_1285164614" MODIFIED="1457449701851" TEXT="Participants">
 <node CREATED="1364030777664" ID="ID_1267342086" MODIFIED="1364030778891" TEXT="Memento">
 <node CREATED="1364030767036" ID="ID_887445567" MODIFIED="1364030779914" TEXT="stores internal state of the Originator object. The memento may store as  much or as little of the originator&apos;sinternal state asnecessary at its  originator&apos;s discretion. "/>
 <node CREATED="1364030827923" ID="ID_15319476" MODIFIED="1364030829074" TEXT="protects against access by objects other than the originator. Mementos  have effectively two interfaces. Caretaker sees a narrowinterface to the  Memento&#x2014;it can only pass the memento to other objects. Originator, in  contrast, sees a wideinterface, one that lets it access all the data  necessary to restore itself to its previous state. Ideally, only the  originator that produced the memento would be permitted to access the  memento&apos;s internal state."/>
@@ -667,11 +671,11 @@
 <node CREATED="1364030949940" ID="ID_398791835" MODIFIED="1364030951381" TEXT="never operates on or examines the contents of a memento."/>
 </node>
 </node>
-<node CREATED="1364032127858" FOLDED="true" ID="ID_1056415293" MODIFIED="1364032169587" TEXT="demos">
+<node CREATED="1364032127858" ID="ID_1056415293" MODIFIED="1457449659403" TEXT="demos">
 <node CREATED="1364032131328" ID="ID_689341150" MODIFIED="1364032164515" TEXT="undone, store &amp;restore state in history stack"/>
 </node>
 </node>
-<node CREATED="1363943630497" FOLDED="true" ID="ID_98182576" MODIFIED="1366884033404">
+<node CREATED="1363943630497" FOLDED="true" ID="ID_98182576" MODIFIED="1457449624717">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -709,7 +713,7 @@
 <node CREATED="1345911616202" ID="ID_639201028" MODIFIED="1345911946649" TEXT="Java API: Observable&amp;Observer"/>
 </node>
 </node>
-<node CREATED="1363943641994" FOLDED="true" ID="ID_226284299" MODIFIED="1378794731450">
+<node CREATED="1363943641994" FOLDED="true" ID="ID_226284299" MODIFIED="1457449618737">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -724,11 +728,11 @@
 <node CREATED="1364032173644" ID="ID_1637918447" MODIFIED="1366884038999" TEXT="def">
 <node CREATED="1364032191894" ID="ID_1295512153" MODIFIED="1364032193044" TEXT="Allow an object to alter its behavior when its internal state changes. The  object will appear to change its class. "/>
 </node>
-<node CREATED="1364032221188" FOLDED="true" ID="ID_1909506717" MODIFIED="1364032321855" TEXT="Applicability">
+<node CREATED="1364032221188" ID="ID_1909506717" MODIFIED="1457446118321" TEXT="Applicability">
 <node CREATED="1364032223269" ID="ID_43812581" MODIFIED="1364032237819" TEXT="An object&apos;s behavior depends on its state, and it must change its behavior at  run-time depending on that state."/>
 <node CREATED="1364032281611" ID="ID_586834582" MODIFIED="1364032282686" TEXT="Operations have large, multipart conditional statements that depend on the  object&apos;s state. This state is usually represented by one or more enumerated  constants. Often, several operations will contain this same conditional structure.  The State pattern puts each branch of the conditional in a separate class. This  lets you treat the object&apos;s state as an object in its own right that can vary  independently from other objects."/>
 </node>
-<node CREATED="1364032319704" FOLDED="true" ID="ID_65149972" MODIFIED="1378794729873" TEXT="Participants">
+<node CREATED="1364032319704" ID="ID_65149972" MODIFIED="1457449504455" TEXT="Participants">
 <node CREATED="1364032324553" ID="ID_1812114090" MODIFIED="1364032327527" TEXT="Context">
 <node CREATED="1364032349315" ID="ID_1660775696" MODIFIED="1364032350349" TEXT="defines the interface of interest to clients."/>
 <node CREATED="1364032359244" ID="ID_1273189065" MODIFIED="1364032360212" TEXT="maintains an instance of a ConcreteState subclass that defines the  current state."/>
@@ -744,7 +748,7 @@
 <node CREATED="1364032449171" ID="ID_948738124" MODIFIED="1364032460971" TEXT="TCP connection state"/>
 </node>
 </node>
-<node CREATED="1363943645570" FOLDED="true" ID="ID_1078264347" MODIFIED="1378794669314">
+<node CREATED="1363943645570" FOLDED="true" ID="ID_1078264347" MODIFIED="1457449615849">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -786,7 +790,7 @@
 <node CREATED="1345906750323" ID="ID_776265767" MODIFIED="1364004480257" TEXT="standard algorithm provided by C++ STL or  Java Collection Framework"/>
 </node>
 </node>
-<node CREATED="1363943655978" FOLDED="true" ID="ID_1045199387" MODIFIED="1378794545356">
+<node CREATED="1363943655978" FOLDED="true" ID="ID_1045199387" MODIFIED="1457449617144">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -810,7 +814,7 @@
 </node>
 <node CREATED="1364032984390" ID="ID_264913149" MODIFIED="1364032989175" TEXT="demos">
 <node CREATED="1364032990277" ID="ID_839529289" MODIFIED="1364033004710" TEXT="MFC framework,android framework"/>
-<node CREATED="1364176391396" FOLDED="true" ID="ID_610718642" MODIFIED="1366883894780" TEXT="so many Java Class">
+<node CREATED="1364176391396" ID="ID_610718642" MODIFIED="1457446029567" TEXT="so many Java Class">
 <node CREATED="1364176401593" ID="ID_702070543" MODIFIED="1364176411310" TEXT="AbstractList">
 <node CREATED="1364176414278" ID="ID_1939287213" MODIFIED="1364176442253" TEXT="LinkedList"/>
 <node CREATED="1364176442752" ID="ID_1424040434" MODIFIED="1364176448142" TEXT="ArrayList"/>
@@ -823,7 +827,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943667270" FOLDED="true" ID="ID_1121737591" MODIFIED="1378794665601">
+<node CREATED="1363943667270" FOLDED="true" ID="ID_1121737591" MODIFIED="1457449623079">
 <richcontent TYPE="NODE"><html>&#xd;&#xd;
   <head>&#xd;&#xd;
     &#xd;&#xd;
@@ -839,7 +843,7 @@
 <node CREATED="1364032968930" ID="ID_308029579" MODIFIED="1364032971316" TEXT="def">
 <node CREATED="1364032972335" ID="ID_633586574" MODIFIED="1364032973971" TEXT="Represent an operation to be performed on the elements of an object  structure. Visitor lets you define a new operation without changing the  classes of the elements on which it operates. "/>
 </node>
-<node CREATED="1364033282007" ID="ID_1767127462" MODIFIED="1364033286037" TEXT="Applicability">
+<node CREATED="1364033282007" FOLDED="true" ID="ID_1767127462" MODIFIED="1457449342061" TEXT="Applicability">
 <node CREATED="1364033314322" ID="ID_1157697365" MODIFIED="1366883576735" TEXT="an object structure contains many classes of objects with differing interfaces,  and you want to perform operations on these objects that depend on their  concrete classes."/>
 <node CREATED="1364033341690" ID="ID_1233893227" MODIFIED="1364033342809" TEXT="many distinct and unrelated operations need to be performed on objects in an  object structure, and you want to avoid &quot;polluting&quot; their classes with these  operations. Visitor lets you keep related operations together by defining them in  one class. When the object structure is shared by many applications, use Visitor  to put operations in just those applications that need them. "/>
 <node CREATED="1364033372817" ID="ID_535107709" MODIFIED="1364033373924" TEXT="the classes defining the object structure rarely change, but you often want to  define new operations over the structure.Changing the object structure classes  requires redefining the interface to all visitors, which is potentially costly. If the  object structure classes change often, then it&apos;s probably better to define the  operations in those classes. "/>
@@ -870,8 +874,8 @@
 </node>
 </node>
 <node CREATED="1363863568989" ID="ID_317060577" MODIFIED="1363963627277" POSITION="right" TEXT="OMT">
-<node CREATED="1363863579265" FOLDED="true" ID="ID_1490072213" MODIFIED="1363969562506" TEXT="Object Modeling Technique">
-<node CREATED="1363863642177" FOLDED="true" ID="ID_1526324249" MODIFIED="1363942546055" TEXT="biblio">
+<node CREATED="1363863579265" ID="ID_1490072213" MODIFIED="1457434025238" TEXT="Object Modeling Technique">
+<node CREATED="1363863642177" FOLDED="true" ID="ID_1526324249" MODIFIED="1457434029981" TEXT="biblio">
 <node CREATED="1363863746047" FOLDED="true" ID="ID_178034188" MODIFIED="1363943906821" TEXT="Object-Oriented Modeling and defign">
 <node CREATED="1363863771826" ID="ID_168219440" MODIFIED="1363863779410" TEXT="author">
 <node CREATED="1363863934199" ID="ID_673059305" MODIFIED="1363863969918" TEXT="James Rumbaugh">
@@ -889,11 +893,11 @@
 <node CREATED="1363864138188" ID="ID_1952889601" MODIFIED="1363969538232" TEXT="methodology">
 <node CREATED="1363864151581" ID="ID_80180024" MODIFIED="1363864177401" TEXT="object model">
 <node CREATED="1363864179310" ID="ID_1231055145" MODIFIED="1363864203196" TEXT="static ,structural,&quot;data&quot; aspects of a system"/>
-<node CREATED="1363864789580" FOLDED="true" ID="ID_1299101067" MODIFIED="1363869654287" TEXT="Object Diagram">
+<node CREATED="1363864789580" FOLDED="true" ID="ID_1299101067" MODIFIED="1457448971727" TEXT="Object Diagram">
 <node CREATED="1363864885529" ID="ID_1969689260" MODIFIED="1363864892348" TEXT="class diagram"/>
 <node CREATED="1363864895429" ID="ID_1415889677" MODIFIED="1363864902748" TEXT="instance diagram"/>
 </node>
-<node CREATED="1363868291731" FOLDED="true" ID="ID_1312671927" MODIFIED="1363869655671" TEXT="Association">
+<node CREATED="1363868291731" FOLDED="true" ID="ID_1312671927" MODIFIED="1457449298135" TEXT="Association">
 <node CREATED="1363868308267" ID="ID_1299501517" MODIFIED="1363868331355" TEXT="binary">
 <node CREATED="1363868355138" ID="ID_1072410898" MODIFIED="1363868435979" TEXT="one-to-one">
 <node CREATED="1363868525842" ID="ID_277854481" MODIFIED="1363868527806" TEXT="line"/>
@@ -923,7 +927,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363868995978" FOLDED="true" ID="ID_1186357418" MODIFIED="1363969555954" TEXT="Aggregation">
+<node CREATED="1363868995978" FOLDED="true" ID="ID_1186357418" MODIFIED="1457448977488" TEXT="Aggregation">
 <node CREATED="1363869026594" ID="ID_1229801727" MODIFIED="1363869084110" TEXT="&quot;part-whole&quot; , &quot;a-part-of&quot;">
 <node CREATED="1363869104770" ID="ID_197440623" MODIFIED="1363869180719" TEXT="Aggregation is the &quot;part-whole&quot; or &quot;a-part-of&quot; relationship in which objects representing the components of something are associated with an object representing the entire assembly."/>
 </node>

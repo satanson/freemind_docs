@@ -1,8 +1,8 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1364545764136" ID="ID_769165188" MODIFIED="1445960468175" TEXT="sysadmin">
-<node CREATED="1364545773191" FOLDED="true" ID="ID_824780655" MODIFIED="1364638981393" POSITION="right" TEXT="Security-Enhanced Linux(SELinux) &quot;Redhat&quot;">
-<node CREATED="1364545858468" FOLDED="true" ID="ID_422086666" MODIFIED="1364546377389" TEXT="SELinux Mode">
+<node CREATED="1364545773191" FOLDED="true" ID="ID_824780655" MODIFIED="1458063363430" POSITION="right" TEXT="Security-Enhanced Linux(SELinux) &quot;Redhat&quot;">
+<node CREATED="1364545858468" ID="ID_422086666" MODIFIED="1458061151555" TEXT="SELinux Mode">
 <node CREATED="1364545883560" ID="ID_1470322699" MODIFIED="1364545890333" TEXT="Enforcing(default)">
 <node CREATED="1364545907748" ID="ID_753258065" MODIFIED="1364545909263" TEXT="Enable and enforce the SELinux security mechanism on the system, logging any actions denied because of it."/>
 </node>

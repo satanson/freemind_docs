@@ -1,7 +1,7 @@
 <map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1446824093616" ID="ID_603334491" MODIFIED="1446824099098" TEXT="lxc">
-<node CREATED="1446824116479" FOLDED="true" ID="ID_296904359" MODIFIED="1446827462654" POSITION="right" TEXT="getopt(argc, argv, optstring) #include&lt;unistd.h&gt;">
+<node CREATED="1446824116479" ID="ID_296904359" MODIFIED="1456990564891" POSITION="right" TEXT="getopt(argc, argv, optstring) #include&lt;unistd.h&gt;">
 <node CREATED="1446826761902" ID="ID_1014847036" MODIFIED="1446826765140" TEXT="optstring">
 <node CREATED="1446825189697" ID="ID_952442238" MODIFIED="1446827121314" TEXT="err handling">
 <node CREATED="1446824802573" ID="ID_1352476249" MODIFIED="1446827167336" TEXT="silient /[+-]?[:]/">

@@ -366,9 +366,9 @@
 </node>
 </node>
 <node CREATED="1407897610135" ID="ID_759449476" MODIFIED="1456410866829" POSITION="right" TEXT="notation : &amp; $ @ call !">
-<node CREATED="1407897619308" FOLDED="true" ID="ID_1948846215" MODIFIED="1456543684772" TEXT=":cmd -- vim command">
+<node CREATED="1407897619308" ID="ID_1948846215" MODIFIED="1456754833541" TEXT=":cmd -- vim command">
 <node CREATED="1407896484738" ID="ID_965568005" MODIFIED="1456454640321" TEXT="map">
-<node CREATED="1407921345548" ID="ID_629234864" MODIFIED="1456243849142" TEXT=":[noivclsx]{map,noremap,unmap,mapclear}">
+<node CREATED="1407921345548" FOLDED="true" ID="ID_629234864" MODIFIED="1456890681876" TEXT=":[noivclsx]{map,noremap,unmap,mapclear}">
 <node CREATED="1407920892369" ID="ID_1691651270" MODIFIED="1456305503407" TEXT=":map &lt;F2&gt; a&lt;C-R&gt;=strftime(&quot;%c&quot;)&lt;CR&gt;&lt;Esc&gt;">
 <node CREATED="1407920900273" ID="ID_1966662372" MODIFIED="1407921092462" TEXT="&lt;C-R&gt;{0-9a-z&quot;%#*+/:.-=} insert content of the register">
 <node CREATED="1407921097541" ID="ID_1122453733" MODIFIED="1407921123342" TEXT="&quot; last delete or yank"/>
