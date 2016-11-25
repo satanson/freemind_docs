@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1417705975504" ID="ID_1187244787" MODIFIED="1417706001368" TEXT="Simula_Smalltalk">
 <node CREATED="1417706003283" ID="ID_810770112" MODIFIED="1417706033784" POSITION="right" TEXT="Concepts in programming lang"/>
@@ -49,7 +49,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1417876555846" FOLDED="true" ID="ID_448861788" MODIFIED="1419082075779" POSITION="right" TEXT="Smalltalk basic">
+<node CREATED="1417876555846" ID="ID_448861788" MODIFIED="1462712351312" POSITION="right" TEXT="Smalltalk basic">
 <node CREATED="1417929756715" FOLDED="true" ID="ID_1352033448" MODIFIED="1419081803625" TEXT="literals">
 <node CREATED="1417876566202" ID="ID_1051136594" MODIFIED="1417929764954" TEXT="&quot;this is a comment&quot;"/>
 <node CREATED="1417876633215" ID="ID_896686784" MODIFIED="1417929764951" TEXT="&apos;this is a string&apos;"/>
@@ -123,40 +123,40 @@
       Object subclass:Employee [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;|name age email|
+      &#xa0;&#xa0;&#xa0;&#xa0;|name age email|
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setName: n [ name:=n]
+      &#xa0;&#xa0;&#xa0;&#xa0;setName: n [ name:=n]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;getName [^name]
+      &#xa0;&#xa0;&#xa0;&#xa0;getName [^name]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setAge: a [ age:=a]
+      &#xa0;&#xa0;&#xa0;&#xa0;setAge: a [ age:=a]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;getAge [^age]
+      &#xa0;&#xa0;&#xa0;&#xa0;getAge [^age]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setEmail:e [ email:=e]
+      &#xa0;&#xa0;&#xa0;&#xa0;setEmail:e [ email:=e]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;getEmail [^email]
+      &#xa0;&#xa0;&#xa0;&#xa0;getEmail [^email]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;printString [
+      &#xa0;&#xa0;&#xa0;&#xa0;printString [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;^'Employee: name=',name,
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;^'Employee: name=',name,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'; age=',age printString,
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;'; age=',age printString,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;'; email=',email
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;'; email=',email
     </p>
     <p>
-      &#160;&#160;&#160;&#160;]
+      &#xa0;&#xa0;&#xa0;&#xa0;]
     </p>
     <p>
       
@@ -177,10 +177,10 @@
       emp1 setName:'ranpanf';
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;setAge:26;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;setAge:26;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;setEmail:'ranpanf@gmail.com'.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;setEmail:'ranpanf@gmail.com'.
     </p>
     <p>
       Transcript show: emp1 printString ;cr.
@@ -235,37 +235,37 @@
   </head>
   <body>
     <p>
-      &quot;header: SuperClass subclass: Subclass&quot;
+      "header: SuperClass subclass: Subclass"
     </p>
     <p>
       Object subclass: Pet
     </p>
     <p>
-      &quot;body: includes class/instance variables/methods comment&quot;
+      "body: includes class/instance variables/methods comment"
     </p>
     <p>
       [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;|name keeper| &quot;instance variables&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;|name keeper| "instance variables"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;petnum:=0. &quot;class variables&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;petnum:=0. "class variables"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Pet &gt;&gt;new [^ self subclassResponsibility]
+      &#xa0;&#xa0;&#xa0;&#xa0;Pet &gt;&gt;new [^ self subclassResponsibility]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setName:newName [name:=newName] &quot;instance method&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;setName:newName [name:=newName] "instance method"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;getName [^name]&#160;&#160;&quot;instance method,too&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;getName [^name]&#xa0;&#xa0;"instance method,too"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setKeeper:owner [keeper:=owner]
+      &#xa0;&#xa0;&#xa0;&#xa0;setKeeper:owner [keeper:=owner]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;getKeeper[^keeper]
+      &#xa0;&#xa0;&#xa0;&#xa0;getKeeper[^keeper]
     </p>
     <p>
       ]
@@ -274,61 +274,61 @@
       Pet subclass: Kitty [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;comment: 'class for little cats'&gt; &quot;comment&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;comment: 'class for little cats'&gt; "comment"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;kittynum:=0.
+      &#xa0;&#xa0;&#xa0;&#xa0;kittynum:=0.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;say[^'the little kitty ',name,' keeped by ',keeper,' say: &quot;','Meow~~~&quot;']
+      &#xa0;&#xa0;&#xa0;&#xa0;say[^'the little kitty ',name,' keeped by ',keeper,' say: "','Meow~~~"']
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;modify default new&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"modify default new"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Kitty class &gt;&gt;new[
+      &#xa0;&#xa0;&#xa0;&#xa0;Kitty class &gt;&gt;new[
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|this|
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;|this|
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this:=super new.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this:=super new.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;kittynum:=kittynum+1.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;kittynum:=kittynum+1.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^this.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;^this.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;]
+      &#xa0;&#xa0;&#xa0;&#xa0;]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Kitty class &gt;&gt;newNamed:newName keepedBy:owner [
+      &#xa0;&#xa0;&#xa0;&#xa0;Kitty class &gt;&gt;newNamed:newName keepedBy:owner [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;category: 'this is a class method'&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;category: 'this is a class method'&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|this|
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;|this|
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this:=Kitty new.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this:=Kitty new.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this setName:newName;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this setName:newName;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;setKeeper:owner.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;setKeeper:owner.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^this
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;^this
     </p>
     <p>
-      &#160;&#160;&#160;&#160;]
+      &#xa0;&#xa0;&#xa0;&#xa0;]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Kitty class &gt;&gt;getKittyNum [^kittynum]
+      &#xa0;&#xa0;&#xa0;&#xa0;Kitty class &gt;&gt;getKittyNum [^kittynum]
     </p>
     <p>
       ]
@@ -337,16 +337,16 @@
       Pet subclass: Puppy []
     </p>
     <p>
-      &quot;instance extend&quot;
+      "instance extend"
     </p>
     <p>
       Puppy extend [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;comment: 'class for little dogs'&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;comment: 'class for little dogs'&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;say[^'the little puppy ',name,' keeped by ',keeper,' say: &quot;','Woof~~~&quot;']
+      &#xa0;&#xa0;&#xa0;&#xa0;say[^'the little puppy ',name,' keeped by ',keeper,' say: "','Woof~~~"']
     </p>
     <p>
       ]
@@ -355,55 +355,55 @@
       
     </p>
     <p>
-      &quot;class extend,just like companion Object in Scala&quot;
+      "class extend,just like companion Object in Scala"
     </p>
     <p>
       Puppy class extend [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;puppynum:=0.
+      &#xa0;&#xa0;&#xa0;&#xa0;puppynum:=0.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;new [
+      &#xa0;&#xa0;&#xa0;&#xa0;new [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|this|
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;|this|
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this:=super new.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this:=super new.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;puppynum:= puppynum + 1.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;puppynum:= puppynum + 1.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^this
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;^this
     </p>
     <p>
-      &#160;&#160;&#160;&#160;]
+      &#xa0;&#xa0;&#xa0;&#xa0;]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;newNamed:newName keepedBy:owner [
+      &#xa0;&#xa0;&#xa0;&#xa0;newNamed:newName keepedBy:owner [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|this|
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;|this|
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this:=Puppy new.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this:=Puppy new.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this setName:newName;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this setName:newName;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;setKeeper:owner.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;setKeeper:owner.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^this
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;^this
     </p>
     <p>
-      &#160;&#160;&#160;&#160;]
+      &#xa0;&#xa0;&#xa0;&#xa0;]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;getPuppyNum [^puppynum]
+      &#xa0;&#xa0;&#xa0;&#xa0;getPuppyNum [^puppynum]
     </p>
     <p>
       ]
@@ -421,7 +421,7 @@
       cat setName:'Mary';
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setKeeper:'Tom'.
+      &#xa0;&#xa0;&#xa0;&#xa0;setKeeper:'Tom'.
     </p>
     <p>
       dog := Puppy new.
@@ -430,7 +430,7 @@
       dog setName:'John';
     </p>
     <p>
-      &#160;&#160;&#160;&#160;setKeeper:'Dennis'.
+      &#xa0;&#xa0;&#xa0;&#xa0;setKeeper:'Dennis'.
     </p>
     <p>
       cat1 := Kitty newNamed:'Lily' keepedBy:'Knuth'.
@@ -457,7 +457,7 @@
       Transcript show:(Puppy getPuppyNum) printString;cr.
     </p>
     <p>
-      Transcript show:(cat class getKittyNum) printString;cr. &quot;ditto&quot;
+      Transcript show:(cat class getKittyNum) printString;cr. "ditto"
     </p>
   </body>
 </html></richcontent>
@@ -485,28 +485,28 @@
       begin
     </p>
     <p>
-      &#160;&#160;&#160;&#160;integer a,b;
+      &#xa0;&#xa0;&#xa0;&#xa0;integer a,b;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;! integer a;
+      &#xa0;&#xa0;&#xa0;&#xa0;! integer a;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;! integer b;
+      &#xa0;&#xa0;&#xa0;&#xa0;! integer b;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;! integer a=0;!initialization is illegal;
+      &#xa0;&#xa0;&#xa0;&#xa0;! integer a=0;!initialization is illegal;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;a:=0;
+      &#xa0;&#xa0;&#xa0;&#xa0;a:=0;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;b:=a;
+      &#xa0;&#xa0;&#xa0;&#xa0;b:=a;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;OutInt(b,10);
+      &#xa0;&#xa0;&#xa0;&#xa0;OutInt(b,10);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;OutImage;
+      &#xa0;&#xa0;&#xa0;&#xa0;OutImage;
     </p>
     <p>
       end
@@ -529,7 +529,7 @@
        character    The ISO NULL character, which is 'invisible'.
        Boolean      False
        text         NoText, the empty text, referring to an empty string.
-                    Equivalent to &quot;&quot;.</pre>
+                    Equivalent to "".</pre>
   </body>
 </html></richcontent>
 </node>
@@ -545,19 +545,19 @@
       begin
     </p>
     <p>
-      &#160;&#160;&#160;&#160;real PI=3.1415926;
+      &#xa0;&#xa0;&#xa0;&#xa0;real PI=3.1415926;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;text a=&quot;foobar&quot;;
+      &#xa0;&#xa0;&#xa0;&#xa0;text a="foobar";
     </p>
     <p>
-      &#160;&#160;&#160;&#160;integer n=10;
+      &#xa0;&#xa0;&#xa0;&#xa0;integer n=10;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;character c='c';
+      &#xa0;&#xa0;&#xa0;&#xa0;character c='c';
     </p>
     <p>
-      &#160;&#160;&#160;&#160;boolean b=false;
+      &#xa0;&#xa0;&#xa0;&#xa0;boolean b=false;
     </p>
     <p>
       end
@@ -642,37 +642,37 @@
       begin
     </p>
     <p>
-      &#160;&#160;&#160;&#160;Text a,b,c;
+      &#xa0;&#xa0;&#xa0;&#xa0;Text a,b,c;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;a:-&quot;foobar&quot;;! a ref to a immutalbe string;
+      &#xa0;&#xa0;&#xa0;&#xa0;a:-"foobar";! a ref to a immutalbe string;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;b:-blanks(10);! a ref to a mutable string;
+      &#xa0;&#xa0;&#xa0;&#xa0;b:-blanks(10);! a ref to a mutable string;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;c:-&quot;barfoo&quot;;
+      &#xa0;&#xa0;&#xa0;&#xa0;c:-"barfoo";
     </p>
     <p>
-      &#160;&#160;&#160;&#160;!a:=b; !(deep assign) illegal assignment, you can't modify const string;
+      &#xa0;&#xa0;&#xa0;&#xa0;!a:=b; !(deep assign) illegal assignment, you can't modify const string;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;!a:-b; !(shallow assign) legal,you can modify ref;
+      &#xa0;&#xa0;&#xa0;&#xa0;!a:-b; !(shallow assign) legal,you can modify ref;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;b:=a; ! legal, you can modify non-const string;
+      &#xa0;&#xa0;&#xa0;&#xa0;b:=a; ! legal, you can modify non-const string;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;OutText(a);
+      &#xa0;&#xa0;&#xa0;&#xa0;OutText(a);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;OutText(b);
+      &#xa0;&#xa0;&#xa0;&#xa0;OutText(b);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;OutText(c);
+      &#xa0;&#xa0;&#xa0;&#xa0;OutText(c);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;OutImage;
+      &#xa0;&#xa0;&#xa0;&#xa0;OutImage;
     </p>
     <p>
       end;

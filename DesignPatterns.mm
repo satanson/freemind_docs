@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1345904784613" ID="ID_503277245" MODIFIED="1363943906806" TEXT="defignPatterns">
 <node CREATED="1345905754167" FOLDED="true" ID="ID_1699833338" MODIFIED="1457434008091" POSITION="right" TEXT="design Principles">
@@ -9,15 +9,15 @@
 <icon BUILTIN="full-2"/>
 </node>
 <node CREATED="1345905894856" ID="ID_1901132481" MODIFIED="1457433759540">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Favor <b>composition</b>&#xa0;over <b>inheritance</b>.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      Favor <b>composition</b>&#xa0;over <b>inheritance</b>.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1345905968737" ID="ID_429758819" MODIFIED="1457433761313" TEXT="i.e.">
@@ -42,19 +42,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1345906027786" ID="ID_906058490" MODIFIED="1457434009363" POSITION="right" TEXT="23 patterns">
+<node CREATED="1345906027786" ID="ID_906058490" MODIFIED="1471863858987" POSITION="right" TEXT="23 patterns">
 <node CREATED="1363943045715" ID="ID_514184664" MODIFIED="1457444845770" TEXT="Creational Patterns(5)">
 <icon BUILTIN="full-1"/>
 <node CREATED="1345916305787" FOLDED="true" ID="ID_1130723467" MODIFIED="1457444950929">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>abstract factory</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>abstract factory</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1345920027103" ID="ID_1287443604" MODIFIED="1457438466568" TEXT="distinguish">
@@ -64,35 +64,35 @@
 </node>
 <node CREATED="1345919667201" ID="ID_316830763" MODIFIED="1363943906806" TEXT="def">
 <node CREATED="1345919672616" ID="ID_1480003529" MODIFIED="1363943906806">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      providef an interface for creating families of&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      related or dependent objects without specif-&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      ying their concrete classes.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      providef an interface for creating families of&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      related or dependent objects without specif-&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      ying their concrete classes.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1363943083665" ID="ID_1406048282" MODIFIED="1457444938653">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>builder</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>builder</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1364001376045" ID="ID_1741122870" MODIFIED="1364001378848" TEXT="def">
@@ -104,38 +104,39 @@
 </node>
 </node>
 <node CREATED="1345918274493" FOLDED="true" ID="ID_580422639" MODIFIED="1457444872398">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>factory</b>&#xa0;<b>method</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>factory</b>&#xa0;<b>method</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1345918345691" ID="ID_265143785" MODIFIED="1363943906821" TEXT="def">
 <node CREATED="1345918353205" ID="ID_1698648450" MODIFIED="1345918423212">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      defines an interface for creating an object, but lets sub-&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      classes decide which class to instantiate.&#xa0;&#xa0;Factory Meth-&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      od lets a class defer instantiation to subclasses.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      defines an interface for creating an object, but lets sub-&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      classes decide which class to instantiate.&#xa0;&#xa0;Factory Meth-&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      od lets a class defer instantiation to subclasses.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1345920023155" ID="ID_284869340" MODIFIED="1457438541010" TEXT="distinguish">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_284869340" ENDARROW="Default" ENDINCLINATION="29;0;" ID="Arrow_ID_1003133691" SOURCE="ID_1287443604" STARTARROW="None" STARTINCLINATION="29;0;"/>
 <node CREATED="1345920120078" ID="ID_1561118525" MODIFIED="1345920144359" TEXT="inheritancy"/>
 <node CREATED="1345920130405" ID="ID_222178729" MODIFIED="1345920486094" TEXT="only creating one product."/>
 </node>
@@ -147,15 +148,15 @@
 </node>
 </node>
 <node CREATED="1363943104500" FOLDED="true" ID="ID_626762040" MODIFIED="1457444870334">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>prototype</b>&#xa0;Pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>prototype</b>&#xa0;Pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1364002002755" ID="ID_723440772" MODIFIED="1364003515218" TEXT="def">
@@ -178,15 +179,15 @@
 </node>
 </node>
 <node CREATED="1345920894955" FOLDED="true" ID="ID_423783524" MODIFIED="1457444855593">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>singleton</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>singleton</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-5"/>
 <node CREATED="1345920927386" ID="ID_566101823" MODIFIED="1457434266168" TEXT="def">
@@ -197,75 +198,75 @@
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1345921166409" ID="ID_1861656793" MODIFIED="1345921181081" TEXT="thread security">
 <node CREATED="1345921199318" ID="ID_1886910999" MODIFIED="1345921416072">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      keyword <b>synchronized&amp;volatile</b>&#xa0;in java&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      keyword <b>synchronized&amp;volatile</b>&#xa0;in java&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1345921438669" FOLDED="true" ID="ID_969590406" MODIFIED="1457439036673" TEXT="demo">
 <node CREATED="1345921443735" ID="ID_152799725" MODIFIED="1345921482519">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      public class Singleton {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;private <b>volatile</b>&#xa0;static Singleton uniqueInstance;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;private Singleton() {}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;public static Singleton getInstance() {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (uniqueInstance == null) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b>synchronized</b>&#xa0; (Singleton.class) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (uniqueInstance == null) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uniqueInstance = new Singleton();&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return uniqueInstance;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      public class Singleton {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;private <b>volatile</b>&#xa0;static Singleton uniqueInstance;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;private Singleton() {}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;public static Singleton getInstance() {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (uniqueInstance == null) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b>synchronized</b>&#xa0; (Singleton.class) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (uniqueInstance == null) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uniqueInstance = new Singleton();&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return uniqueInstance;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1457438031875" ID="ID_97464076" MODIFIED="1457438032690" TEXT="java.lang.Runtime"/>
@@ -276,15 +277,15 @@
 <node CREATED="1363943253933" ID="ID_406021788" MODIFIED="1457444952599" TEXT="Structural Patterns(7)">
 <icon BUILTIN="full-2"/>
 <node CREATED="1363943315306" ID="ID_1798190064" MODIFIED="1457444955724">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>adapter </b>pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>adapter </b>pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1364004574731" ID="ID_404816197" MODIFIED="1364004577197" TEXT="def">
@@ -297,15 +298,15 @@
 </node>
 </node>
 <node CREATED="1363943330384" ID="ID_1042292249" MODIFIED="1457445010999">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>bridge</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>bridge</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1364006668067" ID="ID_80946344" MODIFIED="1364007864578" TEXT="def">
@@ -313,15 +314,15 @@
 </node>
 <node CREATED="1364006989435" ID="ID_430301513" MODIFIED="1364007101423" TEXT="brigde(abstraction&amp;implementor)">
 <node CREATED="1364007800677" ID="ID_1036602952" MODIFIED="1364007854609">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>Abstraction</b>&#xa0;defines high-level operations based on <b>reduced</b>, <b>complete</b>&#xa0;and <b>primitive</b>&#xa0;operations provided by <b>Implementor</b>&#xa0; and implemeted &#xa0;<b>platform-depentdently</b>.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>Abstraction</b>&#xa0;defines high-level operations based on <b>reduced</b>, <b>complete</b>&#xa0;and <b>primitive</b>&#xa0;operations provided by <b>Implementor</b>&#xa0; and implemeted &#xa0;<b>platform-depentdently</b>.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -330,15 +331,15 @@
 </node>
 </node>
 <node CREATED="1363943347578" ID="ID_1421752992" MODIFIED="1457445094273">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>composite</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>composite</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1363944666332" ID="ID_340271977" MODIFIED="1363944762998" TEXT="def">
@@ -350,6 +351,7 @@
 <node CREATED="1363971791719" ID="ID_746388952" MODIFIED="1363971798177" TEXT="JFrame">
 <node CREATED="1363971800174" ID="ID_675176497" MODIFIED="1363971812385" TEXT="JRootPane">
 <node CREATED="1363971935662" ID="ID_1159674609" MODIFIED="1363972321231" TEXT="JLayedPane">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1159674609" ENDARROW="Default" ENDINCLINATION="357;0;" ID="Arrow_ID_607202847" SOURCE="ID_472160108" STARTARROW="None" STARTINCLINATION="357;0;"/>
 <node CREATED="1363971992106" HGAP="13" ID="ID_470300928" MODIFIED="1363972343112" TEXT="MenuBar/JMenuBar" VSHIFT="-70"/>
 <node CREATED="1363972009941" HGAP="17" ID="ID_1723027214" MODIFIED="1363972335132" TEXT="ContentPane" VSHIFT="65">
 <node CREATED="1363972028702" ID="ID_472160108" MODIFIED="1363972321231" TEXT="Component/JComponet">
@@ -372,34 +374,34 @@
 </node>
 </node>
 <node CREATED="1345911809484" ID="ID_1069352130" MODIFIED="1457445137090">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>decorator</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>decorator</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1345912824610" ID="ID_1942836418" MODIFIED="1363943906821" TEXT="def">
 <node CREATED="1345912830083" ID="ID_1033785953" MODIFIED="1345912881256">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      attaches additional responsibilities to an object&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      dynamically.&#xa0;Decorators provide a fexible alter-&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      native to subclassing for extending functionality.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      attaches additional responsibilities to an object&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      dynamically.&#xa0;Decorators provide a fexible alter-&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      native to subclassing for extending functionality.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -408,15 +410,15 @@
 </node>
 </node>
 <node CREATED="1363943356010" ID="ID_1519691396" MODIFIED="1457445148930">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>facade</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>facade</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-5"/>
 <node CREATED="1364009054915" ID="ID_1480883468" MODIFIED="1364009085503" TEXT="def">
@@ -432,15 +434,15 @@
 </node>
 </node>
 <node CREATED="1363943396042" FOLDED="true" ID="ID_73209917" MODIFIED="1457450697070">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>flyweight</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>flyweight</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-6"/>
 <node CREATED="1364010613066" ID="ID_1881418186" MODIFIED="1364010615464" TEXT="def">
@@ -462,15 +464,15 @@
 </node>
 </node>
 <node CREATED="1363943403749" ID="ID_990382327" MODIFIED="1457450408415">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>proxy</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>proxy</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-7"/>
 <node CREATED="1364008405908" ID="ID_1776888086" MODIFIED="1364008411049" TEXT="def">
@@ -499,15 +501,15 @@
 <node CREATED="1363943497418" ID="ID_1516895740" MODIFIED="1457450760997" TEXT="Behavioral Patterns(11)">
 <icon BUILTIN="full-3"/>
 <node CREATED="1363943516685" FOLDED="true" ID="ID_31605362" MODIFIED="1457450403176">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>chain of responsibility</b>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>chain of responsibility</b>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <node CREATED="1364012146428" ID="ID_1332849401" MODIFIED="1364012147531" TEXT="def">
@@ -518,15 +520,15 @@
 </node>
 </node>
 <node CREATED="1363943575002" FOLDED="true" ID="ID_452331672" MODIFIED="1457450401986">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>command</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>command</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 <node CREATED="1364013430251" ID="ID_993515177" MODIFIED="1364348547070" TEXT="def">
@@ -535,29 +537,29 @@
 <node CREATED="1364013494664" ID="ID_1380847260" MODIFIED="1364013495689" TEXT="Action, Transaction"/>
 <node CREATED="1364014224064" ID="ID_1473663372" MODIFIED="1364014225326" TEXT="Command decouples the object that invokes the operation from the one that  knows how to perform it. "/>
 <node CREATED="1364014520829" ID="ID_1513794804" MODIFIED="1364014921185">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      isolates <b>Invoker</b>(issues request) and <b>Receiver</b>(tokes actions on request) by providing a <b>Command</b>&#xa0;object as a <b>mediator</b>&#xa0; between Invoker and&#xa0;&#xa0;Receiver.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      isolates <b>Invoker</b>(issues request) and <b>Receiver</b>(tokes actions on request) by providing a <b>Command</b>&#xa0;object as a <b>mediator</b>&#xa0; between Invoker and&#xa0;&#xa0;Receiver.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1364014165371" ID="ID_958639625" MODIFIED="1364014170494" TEXT="demos"/>
 </node>
 <node CREATED="1363943579410" ID="ID_1606226797" MODIFIED="1457450400769">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>interpreter</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>interpreter</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-3"/>
 <node CREATED="1364014152970" ID="ID_917567188" MODIFIED="1364014157725" TEXT="def">
@@ -568,15 +570,15 @@
 </node>
 </node>
 <node CREATED="1363829696672" ID="ID_1358410102" MODIFIED="1457450392480">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>iterator</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>iterator</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-4"/>
 <node CREATED="1363829729875" ID="ID_1175893182" MODIFIED="1363829899169" TEXT="def">
@@ -587,30 +589,30 @@
 </node>
 </node>
 <node CREATED="1363943588890" FOLDED="true" ID="ID_1982787346" MODIFIED="1457450361448">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>mediator</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>mediator</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-5"/>
 <node CREATED="1364014962837" ID="ID_362624569" MODIFIED="1364014967310" TEXT="def">
 <node CREATED="1364014968318" ID="ID_564204046" MODIFIED="1364014969578" TEXT="Define an object that encapsulates how a set of objects interact. Mediator  promotes loose coupling by keeping objects from referring to each other  explicitly, and it lets you vary their interaction independently. "/>
 </node>
 <node CREATED="1364015238235" ID="ID_323385255" MODIFIED="1364015268749">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>Colleagues</b>&#xa0;send and receive requests from a <b>Mediator</b>&#xa0; object. The <b>mediator</b>&#xa0;&#xa0;implements the cooperative behaviorby routing requests between the &#xa0;appropriate colleague(s).&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>Colleagues</b>&#xa0;send and receive requests from a <b>Mediator</b>&#xa0; object. The <b>mediator</b>&#xa0;&#xa0;implements the cooperative behaviorby routing requests between the &#xa0;appropriate colleague(s).&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1364015302443" ID="ID_1532881759" MODIFIED="1364015305319" TEXT="decouples colleagues"/>
@@ -631,15 +633,15 @@
 </node>
 </node>
 <node CREATED="1363943620809" FOLDED="true" ID="ID_433246096" MODIFIED="1457450289719">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>memento</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>memento</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-6"/>
 <node CREATED="1364015740593" ID="ID_1681909460" MODIFIED="1364015742847" TEXT="def">
@@ -676,34 +678,34 @@
 </node>
 </node>
 <node CREATED="1363943630497" FOLDED="true" ID="ID_98182576" MODIFIED="1457449624717">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>observer</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>observer</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-7"/>
 <node CREATED="1345908525096" ID="ID_1188592699" MODIFIED="1363943906821" TEXT="def">
 <node CREATED="1345908531790" ID="ID_323452116" MODIFIED="1345908572224">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      defines a one-to-many dependency between objects&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      so that when one object changes state, all of its dep-&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      endents are notified and updated automatically.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      defines a one-to-many dependency between objects&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      so that when one object changes state, all of its dep-&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      endents are notified and updated automatically.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -714,15 +716,15 @@
 </node>
 </node>
 <node CREATED="1363943641994" FOLDED="true" ID="ID_226284299" MODIFIED="1457449618737">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>state</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>state</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-8"/>
 <node CREATED="1364032173644" ID="ID_1637918447" MODIFIED="1366884038999" TEXT="def">
@@ -749,28 +751,28 @@
 </node>
 </node>
 <node CREATED="1363943645570" FOLDED="true" ID="ID_1078264347" MODIFIED="1457449615849">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>strategy</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>strategy</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-9"/>
 <node CREATED="1345906414564" ID="ID_530518647" MODIFIED="1363943906821" TEXT="def">
 <node CREATED="1345906126837" ID="ID_1112488352" MODIFIED="1363827495721">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      defines a family of algorithms, encapsulates each one,and makes them interchangeable.&#xa0;Strategy lets the algorithm vary independently from clients that use it.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      defines a family of algorithms, encapsulates each one,and makes them interchangeable.&#xa0;Strategy lets the algorithm vary independently from clients that use it.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366884095701" ID="ID_428973993" MODIFIED="1366884098685" TEXT="separate strategy&#xa0;from mechanism">
@@ -791,15 +793,15 @@
 </node>
 </node>
 <node CREATED="1363943655978" FOLDED="true" ID="ID_1045199387" MODIFIED="1457449617144">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>template method</b>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>template method</b>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-0"/>
@@ -828,15 +830,15 @@
 </node>
 </node>
 <node CREATED="1363943667270" FOLDED="true" ID="ID_1121737591" MODIFIED="1457449623079">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b>visitor</b>&#xa0;pattern&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b>visitor</b>&#xa0;pattern&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 <icon BUILTIN="full-1"/>

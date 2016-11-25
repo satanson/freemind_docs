@@ -1,8 +1,8 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1445180418661" ID="ID_1487251900" MODIFIED="1456336822583" TEXT="Linux Kernel Hacks">
-<node CREATED="1446054124002" ID="ID_307835565" MODIFIED="1455723091330" POSITION="right" TEXT="&#x5185;&#x6838;&#x5165;&#x95e8;#1~#6">
-<node CREATED="1445180639062" FOLDED="true" ID="ID_865001578" MODIFIED="1446054133974" TEXT="Hack#1 &#x83b7;&#x53d6;Linux&#x5185;&#x6838;">
+<node CREATED="1446054124002" ID="ID_307835565" MODIFIED="1462154759857" POSITION="right" TEXT="&#x5185;&#x6838;&#x5165;&#x95e8;#1~#6">
+<node CREATED="1445180639062" FOLDED="true" ID="ID_865001578" MODIFIED="1462154773117" TEXT="Hack#1 &#x83b7;&#x53d6;Linux&#x5185;&#x6838;">
 <node CREATED="1445180653099" ID="ID_1304155466" MODIFIED="1445180665182" TEXT="Linux&#x5185;&#x6838;&#x5b58;&#x5728;&#x591a;&#x79cd;&#x884d;&#x751f;&#x7248;&#x672c;"/>
 <node CREATED="1445180691035" ID="ID_314483677" MODIFIED="1445180697989" TEXT="Linux&#x5185;&#x6838;&#x7684;&#x5f00;&#x53d1;&#x6a21;&#x5f0f;">
 <node CREATED="1445180731933" ID="ID_772026199" MODIFIED="1445180741584" TEXT="&#x591a;&#x5f00;&#x53d1;&#x8005;&#xff0c;&#x5206;&#x6563;&#x578b;"/>
@@ -182,7 +182,7 @@
       perl merge.pl config-nodebug-merged config-generic-merged &gt; temp-generic
     </p>
     <p>
-      perl merge.pl config-x86_64-generic-merged temp-generic&#160;&#160;&gt; temp-x86_64-generic
+      perl merge.pl config-x86_64-generic-merged temp-generic&#xa0;&#xa0;&gt; temp-x86_64-generic
     </p>
     <p>
       perl merge.pl config-x86_64-nodebug-merged temp-x86_64-generic x86_64 &gt; kernel-2.6.32-x86_64.config
@@ -191,13 +191,13 @@
       perl merge.pl config-debug-merged config-generic-merged &gt; temp-debug-generic
     </p>
     <p>
-      perl merge.pl config-x86_64-generic-merged temp-debug-generic&#160;&#160;&gt; temp-x86_64-debug-generic
+      perl merge.pl config-x86_64-generic-merged temp-debug-generic&#xa0;&#xa0;&gt; temp-x86_64-debug-generic
     </p>
     <p>
       perl merge.pl config-x86_64-debug-merged temp-x86_64-debug-generic x86_64 &gt; kernel-2.6.32-x86_64-debug.config
     </p>
     <p>
-      perl merge.pl config-x86-generic-merged temp-generic&#160;&#160;&gt; temp-x86-generic
+      perl merge.pl config-x86-generic-merged temp-generic&#xa0;&#xa0;&gt; temp-x86-generic
     </p>
     <p>
       perl merge.pl config-i686-merged temp-x86-generic &gt; temp-i686-final
@@ -206,7 +206,7 @@
       perl merge.pl config-i686-nodebug-merged temp-i686-final i386 &gt; kernel-2.6.32-i686.config
     </p>
     <p>
-      perl merge.pl config-x86-generic-merged temp-debug-generic&#160;&#160;&gt; temp-x86-debug-generic
+      perl merge.pl config-x86-generic-merged temp-debug-generic&#xa0;&#xa0;&gt; temp-x86-debug-generic
     </p>
     <p>
       perl merge.pl config-i686-merged temp-x86-debug-generic &gt; temp-i686-debug-final
@@ -221,7 +221,7 @@
       perl merge.pl config-s390x-merged temp-s390x-generic s390 &gt; kernel-2.6.32-s390x.config
     </p>
     <p>
-      perl merge.pl config-s390x-merged temp-debug-generic&#160;&#160;&gt; temp-s390x-debug-generic
+      perl merge.pl config-s390x-merged temp-debug-generic&#xa0;&#xa0;&gt; temp-s390x-debug-generic
     </p>
     <p>
       perl merge.pl config-s390x-debug-merged temp-s390x-debug-generic s390 &gt; kernel-2.6.32-s390x-debug.config
@@ -230,7 +230,7 @@
       perl merge.pl config-s390x-kdump-merged kernel-2.6.32-s390x.config s390 &gt; kernel-2.6.32-s390x-kdump.config
     </p>
     <p>
-      perl merge.pl config-powerpc-generic-merged temp-generic&#160;&#160;&gt; temp-powerpc-generic
+      perl merge.pl config-powerpc-generic-merged temp-generic&#xa0;&#xa0;&gt; temp-powerpc-generic
     </p>
     <p>
       perl merge.pl config-powerpc64-merged temp-powerpc-generic powerpc &gt; kernel-2.6.32-ppc64.config
@@ -239,7 +239,7 @@
       perl merge.pl config-powerpc64-kdump-merged kernel-2.6.32-ppc64.config powerpc &gt; kernel-2.6.32-ppc64-kdump.config
     </p>
     <p>
-      perl merge.pl config-powerpc-generic-merged temp-debug-generic&#160;&#160;&gt; temp-powerpc-debug-generic
+      perl merge.pl config-powerpc-generic-merged temp-debug-generic&#xa0;&#xa0;&gt; temp-powerpc-debug-generic
     </p>
     <p>
       perl merge.pl config-powerpc64-merged temp-powerpc-debug-generic powerpc &gt; temp-powerpc64-debug-generic
@@ -503,7 +503,7 @@
       ### If this takes a long time, you might wish to run rngd in the background to
     </p>
     <p>
-      ### keep the supply of entropy topped up.&#160;&#160;It needs to be run as root, and
+      ### keep the supply of entropy topped up.&#xa0;&#xa0;It needs to be run as root, and
     </p>
     <p>
       ### should use a hardware random number generator if one is available, eg:
@@ -512,7 +512,7 @@
       ###
     </p>
     <p>
-      ###&#160;&#160;&#160;&#160;&#160;rngd -r /dev/hwrandom
+      ###&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;rngd -r /dev/hwrandom
     </p>
     <p>
       ###
@@ -524,7 +524,7 @@
       ###
     </p>
     <p>
-      ###&#160;&#160;&#160;&#160;&#160;rngd -r /dev/urandom
+      ###&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;rngd -r /dev/urandom
     </p>
     <p>
       ###
@@ -572,16 +572,16 @@
       gpg: ./trustdb.gpg: trustdb created
     </p>
     <p>
-      gpg: key CD09BEDA: public key &quot;Red Hat Enterprise Linux Driver Update Program &lt;secalert@redhat.com&gt;&quot; imported
+      gpg: key CD09BEDA: public key "Red Hat Enterprise Linux Driver Update Program &lt;secalert@redhat.com&gt;" imported
     </p>
     <p>
-      gpg: key A3EA1F65: public key &quot;Red Hat Enterprise Linux Driver Update Program (key 4) &lt;secalert@redhat.com&gt;&quot; imported
+      gpg: key A3EA1F65: public key "Red Hat Enterprise Linux Driver Update Program (key 4) &lt;secalert@redhat.com&gt;" imported
     </p>
     <p>
       gpg: Total number processed: 2
     </p>
     <p>
-      gpg:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;imported: 2
+      gpg:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;imported: 2
     </p>
     <p>
       + gpg --homedir . --export --keyring ./kernel.pub CentOS
@@ -609,7 +609,7 @@
 </node>
 <node CREATED="1445184473029" ID="ID_316102032" MODIFIED="1445184500234" TEXT="Documentation/development-process/*"/>
 </node>
-<node CREATED="1445355209323" ID="ID_288815093" MODIFIED="1455723101791" TEXT="Hack#2 &#x7f16;&#x8bd1;&#x5185;&#x6838;">
+<node CREATED="1445355209323" FOLDED="true" ID="ID_288815093" MODIFIED="1462154788575" TEXT="Hack#2 &#x7f16;&#x8bd1;&#x5185;&#x6838;">
 <node CREATED="1445355356933" ID="ID_1244067501" MODIFIED="1445356394523" TEXT="1. &#x7f16;&#x8bd1;&#x5185;&#x6838;&#x4e4b;&#x524d;, &#x9700;&#x8981;&#x5148;&#x884c;&#x5b89;&#x88c5;&#x7684;&#x5fc5;&#x9009;&#x5305;">
 <node CREATED="1445355456577" ID="ID_791101876" MODIFIED="1445355472694" TEXT="Fedora 14">
 <node CREATED="1445355494532" ID="ID_1176324982" MODIFIED="1445355506888" TEXT="ncurses-devel"/>
@@ -766,7 +766,7 @@
 </node>
 <node CREATED="1445447384135" ID="ID_178908036" MODIFIED="1445447394029" TEXT="Documentation/kbuild/*"/>
 </node>
-<node CREATED="1445530503384" ID="ID_1386371382" MODIFIED="1455723095419" TEXT="Hack#3 &#x7f16;&#x8bd1;&#x5185;&#x6838;&#x6a21;&#x5757;">
+<node CREATED="1445530503384" FOLDED="true" ID="ID_1386371382" MODIFIED="1462194291349" TEXT="Hack#3 &#x7f16;&#x8bd1;&#x5185;&#x6838;&#x6a21;&#x5757;">
 <node CREATED="1445530512869" ID="ID_1657441171" MODIFIED="1456336746359" TEXT="&#x5185;&#x6838;&#x5206;&#x7c7b;">
 <node CREATED="1445530693822" ID="ID_879070706" MODIFIED="1445530694523" TEXT="nanokernel"/>
 <node CREATED="1445530707877" ID="ID_1632123888" MODIFIED="1445530708673" TEXT="picokernel"/>
@@ -777,7 +777,7 @@
 </node>
 <node CREATED="1445530648120" ID="ID_832329614" MODIFIED="1445530648797" TEXT="monolithic kernel"/>
 </node>
-<node CREATED="1445530539026" ID="ID_1319231022" MODIFIED="1456336733170" TEXT="Documentation/kbuild/modules">
+<node CREATED="1445530539026" FOLDED="true" ID="ID_1319231022" MODIFIED="1462154762969" TEXT="Documentation/kbuild/modules">
 <node CREATED="1445570536161" ID="ID_666946473" MODIFIED="1445570558817" TEXT="make -C &lt;path-to-kernel&gt; M=`pwd`"/>
 <node CREATED="1445570568625" ID="ID_1192597514" MODIFIED="1445570569591" TEXT="make -C /lib/modules/`uname -r`/build M=`pwd`"/>
 <node CREATED="1445570584072" ID="ID_1757378337" MODIFIED="1445570585135" TEXT="make -C &lt;path-to-kernel&gt; M=`pwd` modules_install"/>
@@ -814,7 +814,7 @@
       # kbuild part of makefile
     </p>
     <p>
-      obj-m&#160;&#160;:= 8123.o
+      obj-m&#xa0;&#xa0;:= 8123.o
     </p>
     <p>
       8123-y := 8123_if.o 8123_pci.o 8123_bin.o
@@ -850,7 +850,7 @@
       genbin:
     </p>
     <p>
-      echo &quot;X&quot; &gt; 8123_bin.o_shipped
+      echo "X" &gt; 8123_bin.o_shipped
     </p>
     <p>
       
@@ -872,7 +872,7 @@
   </head>
   <body>
     <p>
-      obj-m&#160;&#160;:= 8123.o
+      obj-m&#xa0;&#xa0;:= 8123.o
     </p>
     <p>
       8123-y := 8123_if.o 8123_pci.o 8123_bin.o
@@ -907,7 +907,7 @@
       genbin:
     </p>
     <p>
-      echo &quot;X&quot; &gt; 8123_bin.o_shipped
+      echo "X" &gt; 8123_bin.o_shipped
     </p>
   </body>
 </html></richcontent>
@@ -923,7 +923,7 @@
   </head>
   <body>
     <p>
-      obj-m&#160;&#160;:= 8123.o
+      obj-m&#xa0;&#xa0;:= 8123.o
     </p>
     <p>
       8123-y := 8123_if.o 8123_pci.o 8123_bin.o
@@ -973,7 +973,7 @@
       genbin:
     </p>
     <p>
-      echo &quot;X&quot; &gt; 8123_bin.o_shipped
+      echo "X" &gt; 8123_bin.o_shipped
     </p>
     <p>
       
@@ -1020,7 +1020,7 @@
   </head>
   <body>
     <p>
-      obj-m&#160;&#160;:= 8123.o
+      obj-m&#xa0;&#xa0;:= 8123.o
     </p>
     <p>
       
@@ -1044,7 +1044,7 @@
   </head>
   <body>
     <p>
-      obj-m&#160;&#160;:= 8123.o
+      obj-m&#xa0;&#xa0;:= 8123.o
     </p>
     <p>
       
@@ -1075,10 +1075,10 @@
       +- src/complex_main.c
     </p>
     <p>
-      |&#160;&#160;&#160;+- hal/hardwareif.c
+      |&#xa0;&#xa0;&#xa0;+- hal/hardwareif.c
     </p>
     <p>
-      |&#160;&#160;&#160;+- hal/include/hardwareif.h
+      |&#xa0;&#xa0;&#xa0;+- hal/include/hardwareif.h
     </p>
     <p>
       +- include/complex.h
@@ -1205,10 +1205,10 @@
       INSTALL_MOD_STRIP, if defined, will cause modules to be
     </p>
     <p>
-      stripped after they are installed.&#160;&#160;If INSTALL_MOD_STRIP is '1', then
+      stripped after they are installed.&#xa0;&#xa0;If INSTALL_MOD_STRIP is '1', then
     </p>
     <p>
-      the default option --strip-debug will be used.&#160;&#160;Otherwise,
+      the default option --strip-debug will be used.&#xa0;&#xa0;Otherwise,
     </p>
     <p>
       INSTALL_MOD_STRIP will used as the options to the strip command.
@@ -1335,13 +1335,13 @@
       #fs/ext2/Makefile
     </p>
     <p>
-      obj-$(CONFIG_EXT2_FS)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+= ext2.o
+      obj-$(CONFIG_EXT2_FS)&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;+= ext2.o
     </p>
     <p>
-      ext2-y&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:= balloc.o bitmap.o
+      ext2-y&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;:= balloc.o bitmap.o
     </p>
     <p>
-      ext2-$(CONFIG_EXT2_FS_XATTR) += xattr.o&#160;
+      ext2-$(CONFIG_EXT2_FS_XATTR) += xattr.o&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -1417,16 +1417,16 @@
       # drivers/scsi/Makefile
     </p>
     <p>
-      CFLAGS_aha152x.o =&#160;&#160;&#160;-DAHA152X_STAT -DAUTOCONF
+      CFLAGS_aha152x.o =&#xa0;&#xa0;&#xa0;-DAHA152X_STAT -DAUTOCONF
     </p>
     <p>
-      CFLAGS_gdth.o&#160;&#160;&#160;&#160;= # -DDEBUG_GDTH=2 -D__SERIAL__ -D__COM2__ \
+      CFLAGS_gdth.o&#xa0;&#xa0;&#xa0;&#xa0;= # -DDEBUG_GDTH=2 -D__SERIAL__ -D__COM2__ \
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;-DGDTH_STATISTICS
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;-DGDTH_STATISTICS
     </p>
     <p>
-      CFLAGS_seagate.o =&#160;&#160;&#160;-DARBITRATE -DPARITY -DSEAGATE_USE_ASM
+      CFLAGS_seagate.o =&#xa0;&#xa0;&#xa0;-DARBITRATE -DPARITY -DSEAGATE_USE_ASM
     </p>
   </body>
 </html></richcontent>
@@ -1441,7 +1441,7 @@
 </node>
 <node CREATED="1445881472816" ID="ID_828836031" MODIFIED="1445881477547" TEXT="Thus, if you change an option to $(CC) all affected files will be re-compiled."/>
 </node>
-<node CREATED="1445881493721" FOLDED="true" ID="ID_612443045" MODIFIED="1458388697550" TEXT="Special Rules">
+<node CREATED="1445881493721" FOLDED="true" ID="ID_612443045" MODIFIED="1462194291343" TEXT="Special Rules">
 <node CREATED="1445881568333" ID="ID_526037683" MODIFIED="1445881568993" TEXT="$(src)">
 <node CREATED="1445881590817" ID="ID_1143100406" MODIFIED="1445881599676" TEXT="$(src) is a relative path which points to the directory where the Makefile is located. Always use $(src) when referring to files located in the src tree."/>
 </node>
@@ -1472,7 +1472,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1445881889884" FOLDED="true" ID="ID_1013016713" MODIFIED="1458388697548" TEXT="$(CC) support functions">
+<node CREATED="1445881889884" FOLDED="true" ID="ID_1013016713" MODIFIED="1462194291342" TEXT="$(CC) support functions">
 <node CREATED="1445881877534" ID="ID_992606852" MODIFIED="1445881892414" TEXT="as-option">
 <node CREATED="1445881909767" ID="ID_478574301" MODIFIED="1445881910852" TEXT="as-option is used to check if $(CC) -- when used to compile &#x9;assembler (*.S) files -- supports the given option. An optional &#x9;second option may be specified if the first option is not supported."/>
 <node CREATED="1445881919515" ID="ID_622623561" MODIFIED="1445881924293">
@@ -1653,7 +1653,7 @@
       if [ $(call cc-version) -ge 0300 ] ; then \
     </p>
     <p>
-      echo &quot;-mregparm=3&quot;; fi ;)
+      echo "-mregparm=3"; fi ;)
     </p>
     <p>
       
@@ -1744,7 +1744,7 @@
       #arch/powerpc/Makefile
     </p>
     <p>
-      $(Q)if test &quot;$(call cc-fullversion)&quot; = &quot;040200&quot; ; then \
+      $(Q)if test "$(call cc-fullversion)" = "040200" ; then \
     </p>
     <p>
       echo -n '*** GCC-4.2.0 cannot compile the 64-bit powerpc ' ; \
@@ -1824,10 +1824,10 @@
       ifneq ($(SUBARCH),$(ARCH))
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ifeq ($(CROSS_COMPILE),)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ifeq ($(CROSS_COMPILE),)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CROSS_COMPILE := $(call cc-cross-prefix, m68k-linux-gnu-)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;CROSS_COMPILE := $(call cc-cross-prefix, m68k-linux-gnu-)
     </p>
     <p>
       endif
@@ -1922,7 +1922,7 @@
       module_param(sec, int, S_IRUGO|S_IWUSR);
     </p>
     <p>
-      MODULE_PARM_DESC(sec, &quot;Set the interval.&quot;);
+      MODULE_PARM_DESC(sec, "Set the interval.");
     </p>
     <p>
       
@@ -1946,10 +1946,10 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;printk(KERN_INFO, &quot;mymod: timer\n&quot;);
+      &#xa0;&#xa0;&#xa0;&#xa0;printk(KERN_INFO, "mymod: timer\n");
     </p>
     <p>
-      &#160;&#160;&#160;&#160;mod_timer(&amp;timer, jiffies + sec * HZ);
+      &#xa0;&#xa0;&#xa0;&#xa0;mod_timer(&amp;timer, jiffies + sec * HZ);
     </p>
     <p>
       }
@@ -1964,28 +1964,28 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;printk(KERN_INFO &quot;mymod: init\n&quot;);
+      &#xa0;&#xa0;&#xa0;&#xa0;printk(KERN_INFO "mymod: init\n");
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (sec &lt;= 0){
+      &#xa0;&#xa0;&#xa0;&#xa0;if (sec &lt;= 0){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;printk(KERN_INFO &quot;Invalid interval sec=%d\n&quot;,sec);
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;printk(KERN_INFO "Invalid interval sec=%d\n",sec);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return -EINVAL;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return -EINVAL;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;mod_timer(&amp;timer, jiffies + sec * HZ);
+      &#xa0;&#xa0;&#xa0;&#xa0;mod_timer(&amp;timer, jiffies + sec * HZ);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return 0;
+      &#xa0;&#xa0;&#xa0;&#xa0;return 0;
     </p>
     <p>
       }
@@ -2000,10 +2000,10 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;del_timer(&amp;timer);
+      &#xa0;&#xa0;&#xa0;&#xa0;del_timer(&amp;timer);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;printk(KERN_INFO &quot;mymod: exit\n&quot;);
+      &#xa0;&#xa0;&#xa0;&#xa0;printk(KERN_INFO "mymod: exit\n");
     </p>
     <p>
       }
@@ -2021,13 +2021,13 @@
       
     </p>
     <p>
-      MODULE_AUTHOR(&quot;Hiroshi Shimamoto&quot;);
+      MODULE_AUTHOR("Hiroshi Shimamoto");
     </p>
     <p>
-      MODULE_LICENSE(&quot;GPL&quot;);
+      MODULE_LICENSE("GPL");
     </p>
     <p>
-      MODULE_DESCRIPTION(&quot;My module&quot;);
+      MODULE_DESCRIPTION("My module");
     </p>
   </body>
 </html></richcontent>
@@ -2043,7 +2043,7 @@
 </node>
 <node CREATED="1445958946751" ID="ID_72092873" MODIFIED="1445958985797" TEXT="jiffies/jiffy  &#x7cfb;&#x7edf;&#x81ea;&#x542f;&#x52a8;&#x4e4b;&#x540e;&#x7684;&#x8282;&#x62cd;&#x6570;&#xff0c;&#x65f6;&#x95f4;&#x4e2d;&#x65ad;&#x7684;&#x6570;&#x76ee;"/>
 </node>
-<node CREATED="1446048969443" FOLDED="true" ID="ID_1835562901" MODIFIED="1455723092737" TEXT="Hack#4 git">
+<node CREATED="1446048969443" ID="ID_1835562901" MODIFIED="1462154793915" TEXT="Hack#4 git">
 <node CREATED="1446049030200" ID="ID_705297893" MODIFIED="1446049040153" TEXT="OSS (open source software)"/>
 <node CREATED="1446049040416" ID="ID_437682312" MODIFIED="1446049049942" TEXT="scm(source code management)"/>
 <node CREATED="1446049050970" ID="ID_392445217" MODIFIED="1446049063546" TEXT="2005&#x4ee5;&#x524d; BitKeeper"/>
@@ -2119,7 +2119,7 @@
 </node>
 </node>
 <node CREATED="1446054145504" ID="ID_672908447" MODIFIED="1446054159825" POSITION="right" TEXT="&#x8d44;&#x6e90;&#x7ba1;&#x7406;#7~#16">
-<node CREATED="1446054165287" FOLDED="true" ID="ID_23959652" MODIFIED="1456336839539" TEXT="Hack#7 cgroup&#xff0c;namespace&#xff0c;Linux&#x5bb9;&#x5668;">
+<node CREATED="1446054165287" FOLDED="true" ID="ID_23959652" MODIFIED="1462194286051" TEXT="Hack#7 cgroup&#xff0c;namespace&#xff0c;Linux&#x5bb9;&#x5668;">
 <node CREATED="1446054377694" FOLDED="true" ID="ID_1915093040" MODIFIED="1446257299781" TEXT="cgroup (control group)">
 <node CREATED="1446132176170" ID="ID_1097385227" MODIFIED="1446132877844" TEXT="/proc/cgroups"/>
 <node CREATED="1446132837109" ID="ID_371008137" MODIFIED="1446132839171" TEXT="yum install libcgroup"/>
@@ -2136,28 +2136,28 @@
       mount {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpuset&#160;&#160;= /cgroup/cpuset;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpuset&#xa0;&#xa0;= /cgroup/cpuset;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpu&#160;&#160;&#160;&#160;&#160;= /cgroup/cpu;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpu&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;= /cgroup/cpu;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpuacct = /cgroup/cpuacct;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpuacct = /cgroup/cpuacct;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;memory&#160;&#160;= /cgroup/memory;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;memory&#xa0;&#xa0;= /cgroup/memory;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;devices = /cgroup/devices;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;devices = /cgroup/devices;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;freezer = /cgroup/freezer;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;freezer = /cgroup/freezer;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;net_cls = /cgroup/net_cls;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;net_cls = /cgroup/net_cls;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;blkio&#160;&#160;&#160;= /cgroup/blkio;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;blkio&#xa0;&#xa0;&#xa0;= /cgroup/blkio;
     </p>
     <p>
       }
@@ -2179,22 +2179,22 @@
       group &lt;name&gt; {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;[&lt;permissions&gt;]
+      &#xa0;&#xa0;&#xa0;&#xa0;[&lt;permissions&gt;]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;controller&gt; {
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;controller&gt; {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;param name&gt; = &lt;param value&gt;;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;param name&gt; = &lt;param value&gt;;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#8230;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#x2026;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#8230;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#x2026;
     </p>
     <p>
       }
@@ -2208,64 +2208,13 @@
   </head>
   <body>
     <p>
-      mount {&#160;&#160;## &#23450;&#20041;&#38656;&#35201;&#21019;&#24314;&#30340;cgroup&#23376;&#31995;&#32479;&#21450;&#20854;&#25346;&#36733;&#28857;&#65292;&#36825;&#37324;&#21019;&#24314;cpu&#19982;cpuacct&#65288;&#32479;&#35745;&#65289;&#20004;&#20010;cgroup&#23376;&#31995;&#32479;
+      mount {&#xa0;&#xa0;## &#x5b9a;&#x4e49;&#x9700;&#x8981;&#x521b;&#x5efa;&#x7684;cgroup&#x5b50;&#x7cfb;&#x7edf;&#x53ca;&#x5176;&#x6302;&#x8f7d;&#x70b9;&#xff0c;&#x8fd9;&#x91cc;&#x521b;&#x5efa;cpu&#x4e0e;cpuacct&#xff08;&#x7edf;&#x8ba1;&#xff09;&#x4e24;&#x4e2a;cgroup&#x5b50;&#x7cfb;&#x7edf;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;cpu = /mnt/cgroups/cpu;
+      &#xa0;&#xa0;&#xa0;&#xa0;cpu = /mnt/cgroups/cpu;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;cpuacct = /mnt/cgroups/cpu;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      group daemons/www { ## &#23450;&#20041;daemons/www(web&#26381;&#21153;&#22120;&#36827;&#31243;)&#32452;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;perm {&#160;&#160;&#160;&#160;&#160;&#160;## &#23450;&#20041;&#36825;&#20010;&#32452;&#30340;&#26435;&#38480;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;task {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uid = root;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gid = webmaster;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;admin {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uid = root;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gid = root;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;cpu {&#160;&#160;&#160;&#160;&#160;&#160;## &#23450;&#20041;cpu&#23376;&#31995;&#32479;&#30340;&#23646;&#24615;&#21450;&#20854;&#20540;&#65292;&#21363;&#23646;&#20110;&#35789;&#32452;&#30340;&#20219;&#21153;&#30340;&#26435;&#37325;&#20026;1000
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpu.shares = 1000;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;cpuacct = /mnt/cgroups/cpu;
     </p>
     <p>
       }
@@ -2274,46 +2223,97 @@
       
     </p>
     <p>
-      group daemons/ftp { ## &#23450;&#20041;daemons/ftp(ftp&#36827;&#31243;)&#32452;
+      group daemons/www { ## &#x5b9a;&#x4e49;daemons/www(web&#x670d;&#x52a1;&#x5668;&#x8fdb;&#x7a0b;)&#x7ec4;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;perm {
+      &#xa0;&#xa0;&#xa0;&#xa0;perm {&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;## &#x5b9a;&#x4e49;&#x8fd9;&#x4e2a;&#x7ec4;&#x7684;&#x6743;&#x9650;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;task {
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;task {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uid = root;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uid = root;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gid = ftpmaster;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gid = webmaster;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;admin {
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;admin {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uid = root;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uid = root;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gid = root;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gid = root;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;cpu {&#160;&#160;## &#23450;&#20041;&#35789;&#32452;&#30340;&#20219;&#21153;&#30340;&#26435;&#37325;&#20026;500
+      
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpu.shares = 500;
+      &#xa0;&#xa0;&#xa0;&#xa0;cpu {&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;## &#x5b9a;&#x4e49;cpu&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x5c5e;&#x6027;&#x53ca;&#x5176;&#x503c;&#xff0c;&#x5373;&#x5c5e;&#x4e8e;&#x8bcd;&#x7ec4;&#x7684;&#x4efb;&#x52a1;&#x7684;&#x6743;&#x91cd;&#x4e3a;1000
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpu.shares = 1000;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      group daemons/ftp { ## &#x5b9a;&#x4e49;daemons/ftp(ftp&#x8fdb;&#x7a0b;)&#x7ec4;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;perm {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;task {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uid = root;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gid = ftpmaster;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;admin {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;uid = root;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gid = root;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;cpu {&#xa0;&#xa0;## &#x5b9a;&#x4e49;&#x8bcd;&#x7ec4;&#x7684;&#x4efb;&#x52a1;&#x7684;&#x6743;&#x91cd;&#x4e3a;500
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpu.shares = 500;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -2484,7 +2484,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1446137951103" FOLDED="true" ID="ID_122579990" MODIFIED="1456336839539" TEXT="namespace (clone)">
+<node CREATED="1446137951103" FOLDED="true" ID="ID_122579990" MODIFIED="1462194286049" TEXT="namespace (clone)">
 <node CREATED="1446138389014" ID="ID_817230475" MODIFIED="1446138416000" TEXT=" int clone(int (*fn)(void *), void *child_stack, int flags, void *arg, ... /* pid_t *ptid, struct user_desc *tls, pid_t *ctid */ ); "/>
 <node CREATED="1446138420362" ID="ID_789801115" MODIFIED="1456336837350" TEXT="flags">
 <node CREATED="1446138877232" MODIFIED="1446138877232" TEXT="CLONE_CHILD_CLEARTID"/>
@@ -2498,7 +2498,7 @@
 <node CREATED="1446138877236" MODIFIED="1446138877236" TEXT="CLONE_NEWNET"/>
 <node CREATED="1446138877237" MODIFIED="1446138877237" TEXT="CLONE_NEWNS"/>
 <node CREATED="1446138877237" MODIFIED="1446138877237" TEXT="CLONE_NEWPID"/>
-<node CREATED="1446138877238" MODIFIED="1446138877238" TEXT="CLONE_NEWUTS"/>
+<node CREATED="1446138877238" ID="ID_224806663" MODIFIED="1446138877238" TEXT="CLONE_NEWUTS"/>
 <node CREATED="1446138877238" MODIFIED="1446138877238" TEXT="CLONE_PARENT"/>
 <node CREATED="1446138877239" MODIFIED="1446138877239" TEXT="CLONE_PARENT_SETTID"/>
 <node CREATED="1446138877239" MODIFIED="1446138877239" TEXT="CLONE_PID"/>

@@ -1,8 +1,8 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1389058122036" ID="ID_536585285" MODIFIED="1389058139496" TEXT="Communication">
 <node CREATED="1389058383928" ID="ID_776990538" MODIFIED="1389058385344" POSITION="right" TEXT="GCS"/>
-<node CREATED="1389060091389" ID="ID_76127735" MODIFIED="1389080627690" POSITION="right" TEXT="mq">
+<node CREATED="1389060091389" ID="ID_76127735" MODIFIED="1473668933624" POSITION="right" TEXT="mq">
 <node CREATED="1389058182963" ID="ID_13254285" MODIFIED="1389060099200" TEXT="message queue/mailboxes">
 <node CREATED="1389058208743" ID="ID_1672410675" MODIFIED="1389058210412" TEXT="ipc"/>
 </node>

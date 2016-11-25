@@ -1,7 +1,7 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1446824093616" ID="ID_603334491" MODIFIED="1446824099098" TEXT="lxc">
-<node CREATED="1446824116479" ID="ID_296904359" MODIFIED="1456990564891" POSITION="right" TEXT="getopt(argc, argv, optstring) #include&lt;unistd.h&gt;">
+<node CREATED="1446824116479" FOLDED="true" ID="ID_296904359" MODIFIED="1465976753627" POSITION="right" TEXT="getopt(argc, argv, optstring) #include&lt;unistd.h&gt;">
 <node CREATED="1446826761902" ID="ID_1014847036" MODIFIED="1446826765140" TEXT="optstring">
 <node CREATED="1446825189697" ID="ID_952442238" MODIFIED="1446827121314" TEXT="err handling">
 <node CREATED="1446824802573" ID="ID_1352476249" MODIFIED="1446827167336" TEXT="silient /[+-]?[:]/">
@@ -82,7 +82,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1446824790638" ID="ID_1880316885" MODIFIED="1446859319485" POSITION="right" TEXT="getopt_long(argc, argc, optstring, longopts, longindex) #include&lt;getopt.h&gt;">
+<node CREATED="1446824790638" FOLDED="true" ID="ID_1880316885" MODIFIED="1465976748273" POSITION="right" TEXT="getopt_long(argc, argc, optstring, longopts, longindex) #include&lt;getopt.h&gt;">
 <node CREATED="1446829075913" ID="ID_1619129246" MODIFIED="1446829158378" TEXT="struct option longopts[]">
 <node CREATED="1446829138345" ID="ID_821190410" MODIFIED="1446829145308">
 <richcontent TYPE="NODE"><html>
@@ -91,22 +91,22 @@
   </head>
   <body>
     <p>
-      &#160;struct option longopts[] = {
+      &#xa0;struct option longopts[] = {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{&quot;size&quot;, 1, 0, 's'},
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{"size", 1, 0, 's'},
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{&quot;from&quot;, 1, &amp;from, 'i'},
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{"from", 1, &amp;from, 'i'},
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{&quot;to&quot;, 1, &amp;to, 'o'},
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{"to", 1, &amp;to, 'o'},
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{0, 0, 0, 0}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{0, 0, 0, 0}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;};
+      &#xa0;&#xa0;&#xa0;&#xa0;};
     </p>
   </body>
 </html></richcontent>
@@ -122,19 +122,19 @@
       struct option {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const char *name;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;const char *name;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;has_arg;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;has_arg;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*flag;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;*flag;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;val;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;val;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};
     </p>
   </body>
 </html></richcontent>

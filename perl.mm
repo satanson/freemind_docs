@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355236104335" ID="ID_1153208252" MODIFIED="1456463989568" TEXT="perl">
 <node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1448871963655" POSITION="right" TEXT="$@%&amp;*\">
@@ -149,33 +149,33 @@
 <node CREATED="1365592881973" ID="ID_535480422" MODIFIED="1365592914044" TEXT="@arr=(2012,1,1)"/>
 <node CREATED="1365594933808" ID="ID_459537922" MODIFIED="1366263679136" TEXT="@array=%hash"/>
 <node CREATED="1365594823199" ID="ID_1704256447" MODIFIED="1365595004289">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3">@sauces = &lt;&lt;End_Lines =~ m/(\S.*\S)/g; </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p style="text-align: left">&#xd;&#xd;
-      <font size="3">normal tomato </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p style="text-align: left">&#xd;&#xd;
-      <font size="3">spicy tomato </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p style="text-align: left">&#xd;&#xd;
-      <font size="3">green chile </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p style="text-align: left">&#xd;&#xd;
-      <font size="3">pesto </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p style="text-align: left">&#xd;&#xd;
-      <font size="3">white wine </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font size="3">End_Lines </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <font size="3">@sauces = &lt;&lt;End_Lines =~ m/(\S.*\S)/g; </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p style="text-align: left">&#13;&#13;
+      <font size="3">normal tomato </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p style="text-align: left">&#13;&#13;
+      <font size="3">spicy tomato </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p style="text-align: left">&#13;&#13;
+      <font size="3">green chile </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p style="text-align: left">&#13;&#13;
+      <font size="3">pesto </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p style="text-align: left">&#13;&#13;
+      <font size="3">white wine </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font size="3">End_Lines </font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -285,55 +285,55 @@
 </node>
 <node CREATED="1365648586077" FOLDED="true" ID="ID_249660082" MODIFIED="1365649032258" TEXT="A slice of an empty list is still an empty list.">
 <node CREATED="1365648901989" ID="ID_1858291924" MODIFIED="1365648911458">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">@a</font>&#xa0;= <font color="rgb(0, 0, 0)">()</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @a has no elements</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">@b</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">@a</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @b has no elements</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">@c</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">2</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">3</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @c has no elements</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">@a</font>&#xa0;= <font color="rgb(0, 0, 0)">()</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @a has no elements</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">@b</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">@a</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @b has no elements</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">@c</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">2</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">3</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @c has no elements</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1365648924689" ID="ID_138036372" MODIFIED="1365648933386">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">@a</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @a has two elements</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">@b</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/undef.html"><b>undef</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">2</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0; <font color="rgb(34, 139, 34)"># @b has three elements</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">@a</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0;<font color="rgb(34, 139, 34)"># @a has two elements</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">@b</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/undef.html"><b>undef</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">1</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">2</font>]<font color="rgb(0, 0, 0)">;</font>&#xa0; <font color="rgb(34, 139, 34)"># @b has three elements</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1365648941320" ID="ID_1596191815" MODIFIED="1365648958729" TEXT="makes it easy to write loops that terminate when a null list is returned:">
 <node CREATED="1365648969509" ID="ID_855998204" MODIFIED="1365649030901">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      while <font color="rgb(0, 0, 0)">(</font>&#xa0;<font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">$home</font><font color="rgb(0, 0, 0)">,</font>&#xa0;<font color="rgb(0, 104, 139)">$user</font><font color="rgb(0, 0, 0)">)</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/getpwent.html"><b>getpwent</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">7</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">)</font>&#xa0;<font color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/printf.html"><b>printf</b></a></font>&#xa0;<font color="rgb(205, 85, 85)">"%-8s %s\n"</font><font color="rgb(0, 0, 0)">,</font>&#xa0;<font color="rgb(0, 104, 139)">$user</font><font color="rgb(0, 0, 0)">,</font>&#xa0; <font color="rgb(0, 104, 139)">$home</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">}</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      while <font color="rgb(0, 0, 0)">(</font>&#xa0;<font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">$home</font><font color="rgb(0, 0, 0)">,</font>&#xa0;<font color="rgb(0, 104, 139)">$user</font><font color="rgb(0, 0, 0)">)</font>&#xa0;= <font color="rgb(0, 0, 0)">(</font><font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/getpwent.html"><b>getpwent</b></a></font><font color="rgb(0, 0, 0)">)</font>[<font color="rgb(180, 82, 205)">7</font><font color="rgb(0, 0, 0)">,</font><font color="rgb(180, 82, 205)">0</font>]<font color="rgb(0, 0, 0)">)</font>&#xa0;<font color="rgb(0, 0, 0)">{</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(102, 102, 102)"><a class="l_k" style="font-weight: bold; color: rgb(102, 102, 102)" href="functions/printf.html"><b>printf</b></a></font>&#xa0;<font color="rgb(205, 85, 85)">"%-8s %s\n"</font><font color="rgb(0, 0, 0)">,</font>&#xa0;<font color="rgb(0, 104, 139)">$user</font><font color="rgb(0, 0, 0)">,</font>&#xa0; <font color="rgb(0, 104, 139)">$home</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">}</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -354,57 +354,57 @@
 </node>
 </node>
 <node CREATED="1366040823819" ID="ID_159220703" MODIFIED="1366041119866">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      #!/usr/bin/perl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $#foo=2;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $#bar=2;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      @foobar=(@foo,@bar);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "@foobar\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      @foobar1=map {local$_;$_+1} @foobar;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "@foobar1\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (@foo[0,1,2],@bar[0,1,2])=(1..6);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "\@foo=@foo \n"; #output: @foo=1 2 3&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "\@bar=@bar \n"; #output: @bar=4 5 6&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (@foo,@bar)=(1..6);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "\@foo=@foo \n"; #output: @foo=1 2 3 4 5 6&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "\@bar=@bar \n"; #output: @bar&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      #!/usr/bin/perl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $#foo=2;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $#bar=2;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      @foobar=(@foo,@bar);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "@foobar\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      @foobar1=map {local$_;$_+1} @foobar;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "@foobar1\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (@foo[0,1,2],@bar[0,1,2])=(1..6);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "\@foo=@foo \n"; #output: @foo=1 2 3&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "\@bar=@bar \n"; #output: @bar=4 5 6&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (@foo,@bar)=(1..6);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "\@foo=@foo \n"; #output: @foo=1 2 3 4 5 6&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "\@bar=@bar \n"; #output: @bar&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -514,24 +514,24 @@
 <node CREATED="1355468016171" ID="ID_520068407" MODIFIED="1388255946691" TEXT="each %hash;">
 <node CREATED="1355468416594" ID="ID_177268595" MODIFIED="1355468501651" TEXT="iterate %hash item one-by-one,at last return undef, next invocation restart a new iteration."/>
 <node CREATED="1365646914811" ID="ID_1121436790" MODIFIED="1365647321178">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;while (($key, $value) = each %hash) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print $key, "\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;delete $hash{$key};&#xa0;&#xa0;&#xa0;# This is safe&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;while (($key, $value) = each %hash) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print $key, "\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;delete $hash{$key};&#xa0;&#xa0;&#xa0;# This is safe&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -571,34 +571,35 @@
 <node CREATED="1355668845297" ID="ID_822418034" MODIFIED="1355668888719" TEXT="use package_name qw(name1 name2 ...)"/>
 </node>
 <node CREATED="1355404980847" ID="ID_757029402" MODIFIED="1397136954689" TEXT="definition">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_757029402" ENDARROW="Default" ENDINCLINATION="254;0;" ID="Arrow_ID_1040687379" SOURCE="ID_1253798183" STARTARROW="None" STARTINCLINATION="254;0;"/>
 <node CREATED="1355404987689" ID="ID_909827149" MODIFIED="1355406458274">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      sub max_between_two{&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ($_[0]&gt;$_[1]){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$_[0];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}else {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return $_[1];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      sub max_between_two{&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ($_[0]&gt;$_[1]){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$_[0];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}else {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return $_[1];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1355405816429" ID="ID_855430717" MODIFIED="1355405865990" TEXT="keyword &quot;sub&quot;."/>
@@ -635,15 +636,15 @@
 <node CREATED="1355406254371" ID="ID_434544639" MODIFIED="1366037800125" TEXT="(sh) $@ or $*"/>
 <node CREATED="1355406283311" ID="ID_999501241" MODIFIED="1366037805477" TEXT="(pl) @_">
 <node CREATED="1355411561082" ID="ID_409624689" MODIFIED="1355411561082">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p style="margin-bottom: 0in; text-indent: -0.15in; margin-left: 0.15in" class="western">&#xd;&#xd;
-      <font size="4">$_ has nothing to do with @_.</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p style="margin-bottom: 0in; text-indent: -0.15in; margin-left: 0.15in" class="western">&#13;&#13;
+      <font size="4">$_ has nothing to do with @_.</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1005,54 +1006,54 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1366261368999" ID="ID_1620892435" MODIFIED="1366261467502" TEXT="{BLOCK} &gt; $@%&amp;* &gt; -&gt;&quot;[]/{}/()&quot;,[n]/[KEY]/(args)"/>
 <node CREATED="1366261512639" ID="ID_1336881346" MODIFIED="1366261775319">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $r = [&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;SUN=&gt;["sun.", "Sunday", 0],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;MON=&gt;["mon.", "Monday",1],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;TUE=&gt;["tue.", "Tuesday",2],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;WED=&gt;["wed.", "Wednesday",3],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;THU=&gt;["thu.", "Thursday",4],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;FRI=&gt;["fri.", "Friday", 5],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;SAT=&gt;["sat.", "Saturday",6],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;},&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"foobar",&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;["prime",2,3,5,7,11,13,17],&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sub{print join(":",@_),"\n"}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      ];&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      $r = [&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;SUN=&gt;["sun.", "Sunday", 0],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;MON=&gt;["mon.", "Monday",1],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;TUE=&gt;["tue.", "Tuesday",2],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;WED=&gt;["wed.", "Wednesday",3],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;THU=&gt;["thu.", "Thursday",4],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;FRI=&gt;["fri.", "Friday", 5],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;SAT=&gt;["sat.", "Saturday",6],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;},&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"foobar",&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;["prime",2,3,5,7,11,13,17],&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sub{print join(":",@_),"\n"}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      ];&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1366261787351" FOLDED="true" ID="ID_83591233" MODIFIED="1397141816205" TEXT="$r-&gt;[3](1,4,7)">
 <node CREATED="1366261838311" ID="ID_209980447" MODIFIED="1366261843885" TEXT="1:4:7"/>
@@ -1090,24 +1091,24 @@
 <node CREATED="1366262758263" ID="ID_1074525289" MODIFIED="1366263679135" TEXT="$array[0]{&apos;foo&apos;}-&gt;[3]"/>
 </node>
 <node CREATED="1366257556526" ID="ID_1233680342" MODIFIED="1366263679132">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $array= (&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{ 'foo'=&gt;[0,1,2,3,4], 'bar'=&gt;[5,6,7,8] },&#xa0;&#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;);&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      $array= (&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{ 'foo'=&gt;[0,1,2,3,4], 'bar'=&gt;[5,6,7,8] },&#xa0;&#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;);&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1120,24 +1121,24 @@
 </node>
 <node CREATED="1366262618839" ID="ID_913877929" MODIFIED="1366262618839" TEXT=""/>
 <node CREATED="1366257556526" ID="ID_510722872" MODIFIED="1366263679129">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $array= [&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{ 'foo'=&gt;[0,1,2,3,4], 'bar'=&gt;[5,6,7,8] },&#xa0;&#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;];&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      $array= [&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{ 'foo'=&gt;[0,1,2,3,4], 'bar'=&gt;[5,6,7,8] },&#xa0;&#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;];&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1160,9 +1161,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1355459629280" ID="ID_1638982163" MODIFIED="1453780108808" POSITION="right" TEXT="regexp">
+<node CREATED="1355459629280" ID="ID_1638982163" MODIFIED="1465976605681" POSITION="right" TEXT="regexp">
 <node CREATED="1357887903900" ID="ID_1415057125" MODIFIED="1407895210734" TEXT="matacharacters">
-<node CREATED="1357889223324" FOLDED="true" ID="ID_1684107037" MODIFIED="1420645695298" TEXT="character classes">
+<node CREATED="1357889223324" ID="ID_1684107037" MODIFIED="1473863739359" TEXT="character classes">
 <node CREATED="1357891285052" ID="ID_514960743" MODIFIED="1357891297029" TEXT="\s \S"/>
 <node CREATED="1357891297410" ID="ID_1125716448" MODIFIED="1357891308968" TEXT="\d \D"/>
 <node CREATED="1357891309413" ID="ID_1532515818" MODIFIED="1357891312426" TEXT="\w \W"/>
@@ -1181,7 +1182,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1357951269553" FOLDED="true" ID="ID_327013764" MODIFIED="1366767651980" TEXT="\p{name}">
+<node CREATED="1357951269553" ID="ID_327013764" MODIFIED="1473863747274" TEXT="\p{name}">
 <node CREATED="1357951336015" ID="ID_896321068" MODIFIED="1357951343593" TEXT="\p{IsUpper}">
 <node CREATED="1357951367907" ID="ID_1136220719" MODIFIED="1357951382297" TEXT="&apos;is&apos; is optional "/>
 </node>
@@ -1317,18 +1318,18 @@
 </node>
 <node CREATED="1357956796971" ID="ID_38342643" MODIFIED="1359811524803" TEXT="[:^name:] negative"/>
 <node CREATED="1357956717457" ID="ID_18089258" MODIFIED="1357956760221">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a="alpha , alnum , ascii , cntrl , digit , graph , lower , print, punct , space , upper , xdigit"&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      perl -e"@a=\"$a\"=~/\\w+/g;for \$t (@a) {print \"\$t\\n\";}"&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      a="alpha , alnum , ascii , cntrl , digit , graph , lower , print, punct , space , upper , xdigit"&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      perl -e"@a=\"$a\"=~/\\w+/g;for \$t (@a) {print \"\$t\\n\";}"&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1489,39 +1490,39 @@
 </node>
 <node CREATED="1357999894295" FOLDED="true" ID="ID_1220870875" MODIFIED="1358004095446" TEXT="(?(?{block})...|...)">
 <node CREATED="1358003857936" ID="ID_626827950" MODIFIED="1358004028420">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      #!/usr/bin/perl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      while (&lt;&gt;){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;print "$`#$&amp;#$'" if /(?{local $c=0;})&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(a&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(?{local $c+=1;})&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)*&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(?(?{$c})b+|c+)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/x;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      #!/usr/bin/perl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      while (&lt;&gt;){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;print "$`#$&amp;#$'" if /(?{local $c=0;})&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(a&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(?{local $c+=1;})&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)*&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(?(?{$c})b+|c+)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/x;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1358004030878" ID="ID_578872578" MODIFIED="1358004080862" TEXT="=">
 <node CREATED="1358004075329" ID="ID_902335461" MODIFIED="1358004091168" TEXT=" /a+b+|c+/"/>
@@ -1542,62 +1543,62 @@
 <node CREATED="1358006259260" FOLDED="true" ID="ID_272473735" MODIFIED="1420646597763" TEXT="(??{code})">
 <node CREATED="1358006269548" ID="ID_917656004" MODIFIED="1358014356339" TEXT="code pattern expression">
 <node CREATED="1358006392321" ID="ID_863175506" MODIFIED="1358007676414">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ cat eval_group.pl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      #!/usr/bin/perl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $regex="foobar";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      while (&lt;&gt;) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;chop;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;print "$`&lt;$&amp;&gt;$'\n" if /(??{$regex})/;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;$regex=$';&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ cat eval_group.pl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      #!/usr/bin/perl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $regex="foobar";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      while (&lt;&gt;) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;chop;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;print "$`&lt;$&amp;&gt;$'\n" if /(??{$regex})/;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;$regex=$';&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1358007636135" ID="ID_1277668989" MODIFIED="1358007644347">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ ./eval_group.pl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      foobar((?:(\d)(?1)\g{-1})|\d)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;foobar&gt;((?:(\d)(?1)\g{-1})|\d)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      121a*&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;121&gt;a*&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ ./eval_group.pl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      foobar((?:(\d)(?1)\g{-1})|\d)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;foobar&gt;((?:(\d)(?1)\g{-1})|\d)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      121a*&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;121&gt;a*&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1625,7 +1626,7 @@
 <node CREATED="1357971340668" ID="ID_548693763" MODIFIED="1357971421466" TEXT="as less as possible"/>
 </node>
 </node>
-<node CREATED="1357973395476" FOLDED="true" ID="ID_96377135" MODIFIED="1420646495412" TEXT="(?(DEFINE)(?&lt;name&gt;pattern)...)  (5.10)">
+<node CREATED="1357973395476" ID="ID_96377135" MODIFIED="1474446494007" TEXT="(?(DEFINE)(?&lt;name&gt;pattern)...)  (5.10)">
 <node CREATED="1357973388209" ID="ID_1712746288" MODIFIED="1357973418593" TEXT="named patterns"/>
 <node CREATED="1357973553426" ID="ID_981289113" MODIFIED="1357973578182" TEXT="referenced by">
 <node CREATED="1357973579195" ID="ID_685269154" MODIFIED="1357973585581" TEXT="(?&amp;name)"/>
@@ -1638,44 +1639,44 @@
 <node CREATED="1357977193346" ID="ID_1357847462" MODIFIED="1420646286775" TEXT="recursive pattern">
 <node CREATED="1357977209570" ID="ID_663354819" MODIFIED="1358004931918" TEXT="(?n)">
 <node CREATED="1357977305287" ID="ID_1392931935" MODIFIED="1420646435423">
-<richcontent TYPE="NODE"><html>&#xd;  <head>&#xd;    &#xd;  </head>&#xd;  <body>&#xd;    <p>&#xd;      <font size="3">[~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '^(\w|(\w)\g{-1}|(?:(\w)(?1)\g{-1}))$' </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">aabba </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">aa </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">aaaabaaaa </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">abba </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">DO </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">'aa' </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">'aaaabaaaa' </font>&#xd;    </p>&#xd;    <p>&#xd;      <font size="3">'abba' </font>&#xd;    </p>&#xd;  </body>&#xd;</html>&#xd;</richcontent>
+<richcontent TYPE="NODE"><html>&#13;  <head>&#13;    &#13;  </head>&#13;  <body>&#13;    <p>&#13;      <font size="3">[~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '^(\w|(\w)\g{-1}|(?:(\w)(?1)\g{-1}))$' </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">aabba </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">aa </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">aaaabaaaa </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">abba </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">DO </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">'aa' </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">'aaaabaaaa' </font>&#13;    </p>&#13;    <p>&#13;      <font size="3">'abba' </font>&#13;    </p>&#13;  </body>&#13;</html>&#13;</richcontent>
 </node>
 </node>
 <node CREATED="1357977432330" ID="ID_1043813511" MODIFIED="1358008257384" TEXT="(?-n)">
 <node CREATED="1357977462699" ID="ID_374687604" MODIFIED="1357977551234">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '^(\w|(\w)\g{-1}|(?:(\w)(?-3)\g{-1}))$'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aabba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aaaabaaaa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      abba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      DO&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aaaabaaaa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'abba'&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '^(\w|(\w)\g{-1}|(?:(\w)(?-3)\g{-1}))$'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aabba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aaaabaaaa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      abba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      DO&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aaaabaaaa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'abba'&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1358008538232" ID="ID_859896192" MODIFIED="1358008539555" TEXT="/(\((?:[^()]++|(?-1))*+\))/">
@@ -1687,119 +1688,119 @@
 </node>
 <node CREATED="1357977558117" FOLDED="true" ID="ID_930217723" MODIFIED="1358012703795" TEXT="(?0) or (?R)">
 <node CREATED="1357977710764" ID="ID_449996300" MODIFIED="1357978171391">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '(?:(\w)(?R)\g{-1})|(\w)\g{-1}'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aabba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aaaabaaaa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      abcddcba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      DO&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aa'bba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aaaa'baaaa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'abcddcba'&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '(?:(\w)(?R)\g{-1})|(\w)\g{-1}'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aabba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aaaabaaaa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      abcddcba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      DO&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aa'bba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aaaa'baaaa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'abcddcba'&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1357978174628" ID="ID_275090370" MODIFIED="1357978324262">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '(?:(\w)(?0)\g{-1})|(\w)\g{-1}|\w'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aabba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aaaabaaaa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      abba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      DO&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aa'bba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aaaabaaaa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'abba'&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '(?:(\w)(?0)\g{-1})|(\w)\g{-1}|\w'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aabba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aaaabaaaa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      abba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      DO&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aa'bba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aaaabaaaa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'abba'&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1357977722061" FOLDED="true" ID="ID_279613622" MODIFIED="1357977960668" TEXT="(?&amp;name)">
 <node CREATED="1357977929086" ID="ID_1953366316" MODIFIED="1357977942579">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '^(?&lt;palindrome&gt;\w|(\w)\g{-1}|(?:(\w)(?&amp;palindrome)\g{-1}))$'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aabba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aaaabaaaa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      abba&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      DO&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'aaaabaaaa'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'abba'&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ cat &lt;&lt;DO |./simple_grep.pl '^(?&lt;palindrome&gt;\w|(\w)\g{-1}|(?:(\w)(?&amp;palindrome)\g{-1}))$'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aabba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aaaabaaaa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      abba&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      DO&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'aaaabaaaa'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'abba'&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2020,7 +2021,7 @@
 <node CREATED="1366780431639" ID="ID_1584067695" MODIFIED="1366780433388" TEXT="Note that because the translation table is built at compile time, neither the SEARCHLISTnor the REPLACEMENTLISTare subject to double quote interpolation. That means that if you want to use variables, you must use an eval:"/>
 </node>
 </node>
-<node CREATED="1357881588505" ID="ID_711111310" MODIFIED="1456402614075" TEXT="match variables">
+<node CREATED="1357881588505" FOLDED="true" ID="ID_711111310" MODIFIED="1465205918808" TEXT="match variables">
 <node CREATED="1357887669071" ID="ID_1383540869" MODIFIED="1357887717585" TEXT="$1,$2,...,$N"/>
 <node CREATED="1357892638172" FOLDED="true" ID="ID_524023013" MODIFIED="1398586318548" TEXT="$` $&amp; $&apos;">
 <node CREATED="1355462105131" ID="ID_955619460" MODIFIED="1357892649886" TEXT="$`">
@@ -2085,36 +2086,36 @@
 <node CREATED="1357887673293" ID="ID_1835703550" MODIFIED="1357887740303" TEXT="%+">
 <node CREATED="1357894199286" FOLDED="true" ID="ID_1506872392" MODIFIED="1398586287344" TEXT="named references outside">
 <node CREATED="1357894296174" ID="ID_1757197380" MODIFIED="1357894383001">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">$fmt1</font>&#xa0;= <font color="rgb(205, 85, 85)">'(?&lt;y&gt;\d\d\d\d)-(?&lt;m&gt;\d\d)-(?&lt;d&gt;\d\d)'</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">$fmt2</font>&#xa0;= <font color="rgb(205, 85, 85)">'(?&lt;m&gt;\d\d)/(?&lt;d&gt;\d\d)/(?&lt;y&gt;\d\d\d\d)'</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 104, 139)">$fmt3</font>&#xa0;= <font color="rgb(205, 85, 85)">'(?&lt;d&gt;\d\d)\.(?&lt;m&gt;\d\d)\.(?&lt;y&gt;\d\d\d\d)'</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      for <b><font color="rgb(102, 102, 102)"><a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/my.html" class="l_k">my</a></font></b>&#xa0;<font color="rgb(0, 104, 139)">$d</font>&#xa0;<font color="rgb(205, 85, 85)">qw( 2006-10-21 15.01.2007 10/31/2005 )</font><font color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if <font color="rgb(0, 0, 0)">(</font>&#xa0;<font color="rgb(0, 104, 139)">$d</font>&#xa0;=~ <font color="rgb(205, 85, 85)">m{$fmt1|$fmt2|$fmt3}</font>&#xa0;<font color="rgb(0, 0, 0)">){ </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b><font color="rgb(102, 102, 102)"><a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k">print</a></font></b>&#xa0;<font color="rgb(205, 85, 85)">"day=$+{d} month=$+{m} year=$+{y}\n"</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">}</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">$fmt1</font>&#xa0;= <font color="rgb(205, 85, 85)">'(?&lt;y&gt;\d\d\d\d)-(?&lt;m&gt;\d\d)-(?&lt;d&gt;\d\d)'</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">$fmt2</font>&#xa0;= <font color="rgb(205, 85, 85)">'(?&lt;m&gt;\d\d)/(?&lt;d&gt;\d\d)/(?&lt;y&gt;\d\d\d\d)'</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 104, 139)">$fmt3</font>&#xa0;= <font color="rgb(205, 85, 85)">'(?&lt;d&gt;\d\d)\.(?&lt;m&gt;\d\d)\.(?&lt;y&gt;\d\d\d\d)'</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      for <b><font color="rgb(102, 102, 102)"><a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/my.html" class="l_k">my</a></font></b>&#xa0;<font color="rgb(0, 104, 139)">$d</font>&#xa0;<font color="rgb(205, 85, 85)">qw( 2006-10-21 15.01.2007 10/31/2005 )</font><font color="rgb(0, 0, 0)">{</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if <font color="rgb(0, 0, 0)">(</font>&#xa0;<font color="rgb(0, 104, 139)">$d</font>&#xa0;=~ <font color="rgb(205, 85, 85)">m{$fmt1|$fmt2|$fmt3}</font>&#xa0;<font color="rgb(0, 0, 0)">){ </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b><font color="rgb(102, 102, 102)"><a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k">print</a></font></b>&#xa0;<font color="rgb(205, 85, 85)">"day=$+{d} month=$+{m} year=$+{y}\n"</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">}</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2123,7 +2124,7 @@
 <node CREATED="1358005703697" ID="ID_1453264191" MODIFIED="1358005734742" TEXT="result of evaluation of (?{code})"/>
 </node>
 </node>
-<node CREATED="1355461643407" ID="ID_1475107631" MODIFIED="1455531690358" TEXT="flags(modifiers)">
+<node CREATED="1355461643407" FOLDED="true" ID="ID_1475107631" MODIFIED="1465205917740" TEXT="flags(modifiers)">
 <node CREATED="1357909867324" ID="ID_263695236" MODIFIED="1378832438108" TEXT="m//">
 <node CREATED="1357887542601" ID="ID_127502727" MODIFIED="1357913466651" TEXT="//c">
 <node CREATED="1357909338739" ID="ID_838585659" MODIFIED="1357909470658" TEXT="position is not reset after failure to match"/>
@@ -2146,27 +2147,27 @@
 <node CREATED="1357887553576" ID="ID_1242755264" MODIFIED="1357910602665" TEXT="s///e">
 <node CREATED="1357887559831" ID="ID_1046739135" MODIFIED="1357913443950" TEXT="eval">
 <node CREATED="1357911542320" ID="ID_1306251253" MODIFIED="1357913437520">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      #!/usr/bin/perl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $a="The growth rate of China's GDP in each quarter is".&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"0.0745,0.712356,0.0723,0.7343435,respectively!";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $a=~s/(\d+\.\d{1,4})\d*/sprintf("%04.2f",$1*100)."%"/ge;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      print "$a\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      #!/usr/bin/perl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $a="The growth rate of China's GDP in each quarter is".&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;"0.0745,0.712356,0.0723,0.7343435,respectively!";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $a=~s/(\d+\.\d{1,4})\d*/sprintf("%04.2f",$1*100)."%"/ge;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      print "$a\n";&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2177,18 +2178,18 @@
 <node CREATED="1357909968656" ID="ID_1993592015" MODIFIED="1357909970121" TEXT="non-destructive substitute modifier">
 <node CREATED="1357910563300" ID="ID_946089615" MODIFIED="1357910614373" TEXT="with s///r">
 <node CREATED="1357910572323" ID="ID_660644521" MODIFIED="1357911328322">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $a="programmers like using foobar";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $b=$a=~s/\w+/\U$&amp;\E/gr;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      $a="programmers like using foobar";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $b=$a=~s/\w+/\U$&amp;\E/gr;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1357910767847" ID="ID_1236476486" MODIFIED="1357910836740" TEXT="$a unchanged"/>
 <node CREATED="1357910838264" ID="ID_1698852084" MODIFIED="1357911080940" TEXT="$b=the final substituted string"/>
@@ -2255,15 +2256,15 @@
 <node CREATED="1357887571151" FOLDED="true" ID="ID_609384846" MODIFIED="1387169077919" TEXT="a (5.14)">
 <node CREATED="1357887572802" ID="ID_257036866" MODIFIED="1357891792542" TEXT="ASCII">
 <node CREATED="1357891846354" ID="ID_1032329836" MODIFIED="1357891888243">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      used to restrict the matches of <font color="#ff3300">\d</font>, <font color="#ff3300">\s</font>, and <font color="#ff3300">\w</font>&#xa0;to just those in the ASCII range.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      used to restrict the matches of <font color="#ff3300">\d</font>, <font color="#ff3300">\s</font>, and <font color="#ff3300">\w</font>&#xa0;to just those in the ASCII range.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2304,7 +2305,7 @@
 <node CREATED="1358015575357" ID="ID_1503259621" MODIFIED="1358015576294" TEXT="use re &apos;debugcolor&apos;"/>
 </node>
 </node>
-<node CREATED="1355459069971" ID="ID_380599138" MODIFIED="1448871972909" POSITION="right" TEXT="program organization">
+<node CREATED="1355459069971" FOLDED="true" ID="ID_380599138" MODIFIED="1467772457269" POSITION="right" TEXT="program organization">
 <node CREATED="1355459104599" FOLDED="true" ID="ID_1972549584" MODIFIED="1388255580875" TEXT="pragma (compiler directive)">
 <node CREATED="1355496643000" FOLDED="true" ID="ID_1728537763" MODIFIED="1366797109932" TEXT="use/no strict   qw(subs vars refs);">
 <node CREATED="1355496649675" ID="ID_1465382611" MODIFIED="1366766186275" TEXT="use/no strict &apos;vars&apos;;">
@@ -2334,39 +2335,39 @@
 <node CREATED="1366797158710" ID="ID_258524119" MODIFIED="1366797239926" TEXT="use warnings &apos;all&apos;;"/>
 <node CREATED="1366797240250" FOLDED="true" ID="ID_107137635" MODIFIED="1366797416360" TEXT="user-defined warnings category">
 <node CREATED="1366797253853" ID="ID_1186874724" MODIFIED="1366797376354">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      package MyMod::Abc;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      use warnings::register;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      warnings::warn("changing relative path to /var/abc")&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;if warnings::enabled();&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      package MyMod::Abc;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      use warnings::register;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      warnings::warn("changing relative path to /var/abc")&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;if warnings::enabled();&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366797397591" ID="ID_303942736" MODIFIED="1366797412858">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      use MyMod::Abc;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      use warnings 'MyMod::Abc'&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      use MyMod::Abc;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      use warnings 'MyMod::Abc'&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2565,22 +2566,22 @@
 <node CREATED="1358912802013" ID="ID_1020552992" MODIFIED="1358912810360" TEXT="IO::HANDLE">
 <node CREATED="1358912940079" ID="ID_1038711475" MODIFIED="1358912941198" TEXT="use IO::Handle;">
 <node CREATED="1358912811413" ID="ID_1904664781" MODIFIED="1358912945173">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      method&#xa0;HANDLE&#xa0;EXPR;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      method&#xa0;HANDLE&#xa0;EXPR;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1358912891261" ID="ID_731890540" MODIFIED="1358912952522" TEXT="HANDLE-&gt;method(EXPR);"/>
 </node>
 </node>
 </node>
-<node CREATED="1355459660214" FOLDED="true" ID="ID_275176102" MODIFIED="1421132220403" TEXT="stmt">
+<node CREATED="1355459660214" ID="ID_275176102" MODIFIED="1467772244803" TEXT="stmt">
 <node CREATED="1355459895057" FOLDED="true" ID="ID_1499479158" MODIFIED="1418179793861" TEXT="complex stmt">
 <node CREATED="1355469951464" ID="ID_696260862" MODIFIED="1366186017974" TEXT="{stmts}">
 <node CREATED="1355482212069" ID="ID_324708585" MODIFIED="1355483045736" TEXT="the final simicolon is optional">
@@ -2663,15 +2664,15 @@
 <node CREATED="1355482886658" ID="ID_1247652607" MODIFIED="1378833422492" TEXT="if stmt">
 <node CREATED="1357888834847" FOLDED="true" ID="ID_1556309974" MODIFIED="1366180541748" TEXT="if (EXPR) BLOCK">
 <node CREATED="1355482987171" ID="ID_1815213697" MODIFIED="1365592019681">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      if ($a&gt;$b) {print $a}&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      if ($a&gt;$b) {print $a}&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1355483034930" ID="ID_1543823650" MODIFIED="1355483068592" TEXT="the final simicolon is optional."/>
 <node CREATED="1355483070489" ID="ID_877534462" MODIFIED="1355483109259" TEXT="single stmt must be enclosed in {...}"/>
@@ -2679,78 +2680,78 @@
 </node>
 <node CREATED="1365591970453" FOLDED="true" ID="ID_1275381123" MODIFIED="1365592034329" TEXT="if (EXPR) BLOCK else BLOCK">
 <node CREATED="1355483114382" ID="ID_353195206" MODIFIED="1365592023966">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      if ($a&gt;$b) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;print "max=$a\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } else {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;print "max=$b\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      if ($a&gt;$b) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;print "max=$a\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } else {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;print "max=$b\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1365591982437" ID="ID_1968333028" MODIFIED="1365591983662" TEXT="if (EXPR) BLOCK elsif (EXPR) BLOCK ..."/>
 <node CREATED="1365591996726" FOLDED="true" ID="ID_833431297" MODIFIED="1365592029797" TEXT="if (EXPR) BLOCK elsif (EXPR) BLOCK ... else BLOCK">
 <node CREATED="1355483303278" ID="ID_1968767156" MODIFIED="1355483595425">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      if&#xa0;&#xa0;($mark&lt;=100 &amp;&amp; $mark&gt;=90){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=A\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } elsif ($mark&lt;90 &amp;&amp; $mark&gt;=80) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=B\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } elsif ($mark&lt;80 &amp;&amp; $mark&gt;=70) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=C\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } elsif ($mark&lt;70 &amp;&amp; $mark&gt;=60) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=D\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } elsif ($mark&lt;60) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=E\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } else {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "invalid mark\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      if&#xa0;&#xa0;($mark&lt;=100 &amp;&amp; $mark&gt;=90){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=A\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } elsif ($mark&lt;90 &amp;&amp; $mark&gt;=80) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=B\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } elsif ($mark&lt;80 &amp;&amp; $mark&gt;=70) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=C\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } elsif ($mark&lt;70 &amp;&amp; $mark&gt;=60) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=D\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } elsif ($mark&lt;60) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "grade=E\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } else {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "invalid mark\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2774,33 +2775,33 @@
 <node CREATED="1365592462525" ID="ID_1204531109" MODIFIED="1366185146671" TEXT="LABEL while (EXPR) BLOCK"/>
 <node CREATED="1365592476757" FOLDED="true" ID="ID_561889876" MODIFIED="1366184820300" TEXT="LABEL while (EXPR) BLOCK continue BLOCK">
 <node CREATED="1355490845651" ID="ID_301977307" MODIFIED="1365592515055">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $i = 1;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      while ($i &lt; 10) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      continue {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$i++;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      $i = 1;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      while ($i &lt; 10) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;...&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      continue {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;$i++;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1355491647586" ID="ID_924309078" MODIFIED="1355491655292" TEXT="equal to ">
 <node CREATED="1355491657063" ID="ID_148921366" MODIFIED="1355491688426" TEXT="for($i=1;$i&lt;10;$i++)BLOCK"/>
@@ -2971,51 +2972,51 @@
 <node CREATED="1366184396969" ID="ID_550829646" MODIFIED="1366184459072" TEXT="loop control statements last,next will NOT work in this construct.">
 <node CREATED="1366184460920" FOLDED="true" ID="ID_1672671610" MODIFIED="1366184559508" TEXT="workaround">
 <node CREATED="1366184506828" ID="ID_437400022" MODIFIED="1366184523176">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/do.html"><font color="rgb(102, 102, 102)">do</font></a></b>&#xa0;<font color="rgb(0, 0, 0)">{{</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/next.html"><font color="rgb(102, 102, 102)">next</font></a></b>&#xa0;if <font color="rgb(0, 104, 139)">$x</font>&#xa0;== <font color="rgb(0, 104, 139)">$y</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(34, 139, 34)"># do something here</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">}}</font>&#xa0;until <font color="rgb(0, 104, 139)">$x</font>++ &gt; <font color="rgb(0, 104, 139)">$z</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/do.html"><font color="rgb(102, 102, 102)">do</font></a></b>&#xa0;<font color="rgb(0, 0, 0)">{{</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/next.html"><font color="rgb(102, 102, 102)">next</font></a></b>&#xa0;if <font color="rgb(0, 104, 139)">$x</font>&#xa0;== <font color="rgb(0, 104, 139)">$y</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(34, 139, 34)"># do something here</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">}}</font>&#xa0;until <font color="rgb(0, 104, 139)">$x</font>++ &gt; <font color="rgb(0, 104, 139)">$z</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366184546191" ID="ID_1983731136" MODIFIED="1366184554105">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b><font color="rgb(205, 85, 85)">LOOP:</font></b>&#xa0;<font color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/do.html"><font color="rgb(102, 102, 102)">do</font></a></b>&#xa0;<font color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/last.html"><font color="rgb(102, 102, 102)">last</font></a></b>&#xa0;if <font color="rgb(0, 104, 139)">$x</font>&#xa0;= <font color="rgb(0, 104, 139)">$y</font>**<font color="rgb(180, 82, 205)">2</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(34, 139, 34)"># do something here</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">}</font>&#xa0;while <font color="rgb(0, 104, 139)">$x</font>++ &lt;= <font color="rgb(0, 104, 139)">$z</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">}</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <b><font color="rgb(205, 85, 85)">LOOP:</font></b>&#xa0;<font color="rgb(0, 0, 0)">{</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/do.html"><font color="rgb(102, 102, 102)">do</font></a></b>&#xa0;<font color="rgb(0, 0, 0)">{</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <b><a class="l_k" style="color: rgb(102, 102, 102); font-weight: bold" href="functions/last.html"><font color="rgb(102, 102, 102)">last</font></a></b>&#xa0;if <font color="rgb(0, 104, 139)">$x</font>&#xa0;= <font color="rgb(0, 104, 139)">$y</font>**<font color="rgb(180, 82, 205)">2</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(34, 139, 34)"># do something here</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">}</font>&#xa0;while <font color="rgb(0, 104, 139)">$x</font>++ &lt;= <font color="rgb(0, 104, 139)">$z</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">}</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3042,39 +3043,39 @@
 </node>
 <node CREATED="1366277375398" ID="ID_322844673" MODIFIED="1366287890239" TEXT="peferable to use do to read in a program configuration file.">
 <node CREATED="1366286182098" ID="ID_249299365" MODIFIED="1366287595703">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(34, 139, 34)"># read in config files: system first, then user</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      for <font color="rgb(0, 104, 139)">$file</font>&#xa0;<font color="rgb(0, 0, 0)">(</font><font color="rgb(205, 85, 85)">"/share/prog/defaults.rc"</font><font color="rgb(0, 0, 0)">, </font><font color="rgb(205, 85, 85)">"$ENV{HOME}/.someprogrc"</font><font color="rgb(0, 0, 0)">)</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;unless <font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">$return</font>&#xa0;= <a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/do.html" class="l_k"><b><font color="rgb(102, 102, 102)">do</font></b></a>&#xa0;<font color="rgb(0, 104, 139)">$file</font><font color="rgb(0, 0, 0)">)</font>&#xa0;<font color="rgb(0, 0, 0)">{ </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#xa0;<font color="rgb(205, 85, 85)">"couldn't parse $file: $@"</font>&#xa0;if <font color="rgb(0, 104, 139)">$@</font><font color="rgb(0, 0, 0)">; </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#xa0;<font color="rgb(205, 85, 85)">"couldn't do $file: $!"</font>&#xa0;unless <a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/defined.html" class="l_k"><b><font color="rgb(102, 102, 102)">defined</font></b></a>&#xa0; <font color="rgb(0, 104, 139)">$return</font><font color="rgb(0, 0, 0)">; </font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#xa0;<font color="rgb(205, 85, 85)">"couldn't run $file"</font>&#xa0;unless <font color="rgb(0, 104, 139)">$return</font><font color="rgb(0, 0, 0)">;</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;}</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(0, 0, 0)">}</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(34, 139, 34)"># read in config files: system first, then user</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      for <font color="rgb(0, 104, 139)">$file</font>&#xa0;<font color="rgb(0, 0, 0)">(</font><font color="rgb(205, 85, 85)">"/share/prog/defaults.rc"</font><font color="rgb(0, 0, 0)">, </font><font color="rgb(205, 85, 85)">"$ENV{HOME}/.someprogrc"</font><font color="rgb(0, 0, 0)">)</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">{</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;unless <font color="rgb(0, 0, 0)">(</font><font color="rgb(0, 104, 139)">$return</font>&#xa0;= <a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/do.html" class="l_k"><b><font color="rgb(102, 102, 102)">do</font></b></a>&#xa0;<font color="rgb(0, 104, 139)">$file</font><font color="rgb(0, 0, 0)">)</font>&#xa0;<font color="rgb(0, 0, 0)">{ </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#xa0;<font color="rgb(205, 85, 85)">"couldn't parse $file: $@"</font>&#xa0;if <font color="rgb(0, 104, 139)">$@</font><font color="rgb(0, 0, 0)">; </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#xa0;<font color="rgb(205, 85, 85)">"couldn't do $file: $!"</font>&#xa0;unless <a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/defined.html" class="l_k"><b><font color="rgb(102, 102, 102)">defined</font></b></a>&#xa0; <font color="rgb(0, 104, 139)">$return</font><font color="rgb(0, 0, 0)">; </font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </font><a style="color: rgb(102, 102, 102); font-weight: bold" href="../functions/warn.html" class="l_k"><b><font color="rgb(102, 102, 102)">warn</font></b></a>&#xa0;<font color="rgb(205, 85, 85)">"couldn't run $file"</font>&#xa0;unless <font color="rgb(0, 104, 139)">$return</font><font color="rgb(0, 0, 0)">;</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">&#xa0;&#xa0;&#xa0;&#xa0;}</font>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(0, 0, 0)">}</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3727,7 +3728,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1397213951119" ID="ID_283932399" MODIFIED="1448872550266" POSITION="right" TEXT="core modules">
+<node CREATED="1397213951119" FOLDED="true" ID="ID_283932399" MODIFIED="1467772462851" POSITION="right" TEXT="core modules">
 <node CREATED="1397213963396" ID="ID_1589582327" MODIFIED="1397214354481" TEXT="Storable">
 <node CREATED="1397214355890" ID="ID_603868806" MODIFIED="1397214358113" TEXT="- persistence for Perl data structures"/>
 <node CREATED="1397214042831" FOLDED="true" ID="ID_1434691067" MODIFIED="1397214212367" TEXT="use Storable;">
@@ -3756,22 +3757,22 @@
   </head>
   <body>
     <p>
-      &#160;use SelectSaver;
+      &#xa0;use SelectSaver;
     </p>
     <p>
       {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;my $saver = SelectSaver-&gt;new(FILEHANDLE);
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;my $saver = SelectSaver-&gt;new(FILEHANDLE);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;# FILEHANDLE is selected
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# FILEHANDLE is selected
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;# previous handle is selected
+      &#xa0;&#xa0;&#xa0;&#xa0;# previous handle is selected
     </p>
   </body>
 </html></richcontent>
@@ -4121,113 +4122,113 @@
 <node CREATED="1358698206996" FOLDED="true" ID="ID_1746426357" MODIFIED="1358698439227" TEXT="-X FILEHANDLE: -file tests except for -t , which defaults to STDIN.">
 <icon BUILTIN="full-2"/>
 <node CREATED="1358698393853" ID="ID_1632819666" MODIFIED="1358698433546">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <ul>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -r File is readable by effective uid/gid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -w File is writable by effective uid/gid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -x File is executable by effective uid/gid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -o File is owned by effective uid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -R File is readable by real uid/gid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -W File is writable by real uid/gid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -X File is executable by real uid/gid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -O File is owned by real uid.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -e File exists.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -z File has zero size (is empty).&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -s File has nonzero size (returns size in bytes).&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -f File is a plain file.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -d File is a directory.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -l File is a symbolic link.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -p File is a named pipe (FIFO), or Filehandle is a pipe.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -S File is a socket.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -b File is a block special file.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -c File is a character special file.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -t Filehandle is opened to a tty.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -u File has setuid bit set.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -g File has setgid bit set.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -k File has sticky bit set.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -T File is an ASCII text file (heuristic guess).&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -B File is a "binary" file (opposite of -T).&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -M Script start time minus file modification time, in days.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -A Same for access time.&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#xd;&#xd;
-        -C Same for inode change time (Unix, may differ for other platforms)&#xd;&#xd;
-      </li>&#xd;&#xd;
-    </ul>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <ul>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -r File is readable by effective uid/gid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -w File is writable by effective uid/gid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -x File is executable by effective uid/gid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -o File is owned by effective uid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -R File is readable by real uid/gid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -W File is writable by real uid/gid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -X File is executable by real uid/gid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -O File is owned by real uid.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -e File exists.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -z File has zero size (is empty).&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -s File has nonzero size (returns size in bytes).&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -f File is a plain file.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -d File is a directory.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -l File is a symbolic link.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -p File is a named pipe (FIFO), or Filehandle is a pipe.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -S File is a socket.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -b File is a block special file.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -c File is a character special file.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -t Filehandle is opened to a tty.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -u File has setuid bit set.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -g File has setgid bit set.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -k File has sticky bit set.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -T File is an ASCII text file (heuristic guess).&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -B File is a "binary" file (opposite of -T).&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -M Script start time minus file modification time, in days.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -A Same for access time.&#13;&#13;
+      </li>&#13;&#13;
+      <li style="padding-left: 5px; background-repeat: repeat; padding-bottom: 3px; background-color: rgb(238, 238, 221); color: rgb(38, 38, 38); background-position: initial initial">&#13;&#13;
+        -C Same for inode change time (Unix, may differ for other platforms)&#13;&#13;
+      </li>&#13;&#13;
+    </ul>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4339,128 +4340,128 @@
 </node>
 <node CREATED="1358871548992" FOLDED="true" ID="ID_612370107" MODIFIED="1358873666506" TEXT="demo">
 <node CREATED="1358871029089" FOLDED="true" ID="ID_513861413" MODIFIED="1358871552570">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      #!/usr/bin/perl&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      $regex=shift;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      while (&lt;&gt;) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (/$regex/) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print $&amp;."\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "\%+\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;foreach my $grpName (sort keys %+){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;my $grp=$+{$grpName};&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "Named group:$grpName\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "$grp\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "\%-\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;foreach my $grpName (sort keys %-){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;my $ary=$-{$grpName};&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "Named group:$grpName\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;foreach my $idx (0..$#$ary){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "$idx:$ary-&gt;[$idx]\n";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      #!/usr/bin/perl&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      $regex=shift;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      while (&lt;&gt;) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (/$regex/) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print $&amp;."\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "\%+\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;foreach my $grpName (sort keys %+){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;my $grp=$+{$grpName};&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "Named group:$grpName\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "$grp\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "\%-\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;foreach my $grpName (sort keys %-){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;my $ary=$-{$grpName};&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "Named group:$grpName\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;foreach my $idx (0..$#$ary){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print "$idx:$ary-&gt;[$idx]\n";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1358871128764" ID="ID_1106091847" MODIFIED="1358871195864">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [~/perlsrc]$ ./last_paren_match_vs_last_match_start.pl '(?&lt;A&gt;a+)(?&lt;B&gt;b+)(?&lt;A&gt;c+)(?&lt;B&gt;d+)'&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      yyaabbccccdddxxaabbbbbbbcccccdddddzzz&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aabbccccddd&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      %+&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Named group:A&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      aa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Named group:B&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      bb&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      %-&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Named group:A&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      0:aa&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      1:cccc&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Named group:B&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      0:bb&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      1:ddd&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [~/perlsrc]$ ./last_paren_match_vs_last_match_start.pl '(?&lt;A&gt;a+)(?&lt;B&gt;b+)(?&lt;A&gt;c+)(?&lt;B&gt;d+)'&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      yyaabbccccdddxxaabbbbbbbcccccdddddzzz&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aabbccccddd&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      %+&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Named group:A&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      aa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Named group:B&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      bb&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      %-&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Named group:A&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      0:aa&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      1:cccc&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Named group:B&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      0:bb&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      1:ddd&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4494,15 +4495,15 @@
 <node CREATED="1359362645887" ID="ID_348525942" MODIFIED="1366263679126" TEXT="turns on autosplit mode when used with a -n or -p. An implicit split command to the @F array is done as the first thing inside the implicit while loop produced by the -n or -p."/>
 </node>
 <node CREATED="1359362571215" ID="ID_684856583" MODIFIED="1359362602021">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      -F<i>pattern</i>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      -F<i>pattern</i>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1359362617903" ID="ID_1247014329" MODIFIED="1359362619194" TEXT="specifies the pattern to split on if -a is also in effect. The pattern may be surrounded by // , &quot;&quot; , or &apos;&apos; , otherwise it will be put in single quotes. You can&apos;t use literal whitespace in the pattern."/>
 </node>
@@ -4757,9 +4758,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1358080645743" FOLDED="true" ID="ID_1176601912" MODIFIED="1414463863790" POSITION="right" TEXT="perlfunc">
-<node CREATED="1358080662121" FOLDED="true" ID="ID_1885768746" MODIFIED="1358668811411" TEXT="math">
-<node CREATED="1358087685448" FOLDED="true" ID="ID_60811202" MODIFIED="1358087696470" TEXT="trigonometry ">
+<node CREATED="1358080645743" ID="ID_1176601912" MODIFIED="1467772468447" POSITION="right" TEXT="perlfunc">
+<node CREATED="1358080662121" ID="ID_1885768746" MODIFIED="1467772479468" TEXT="math">
+<node CREATED="1358087685448" ID="ID_60811202" MODIFIED="1467772647984" TEXT="trigonometry ">
 <node CREATED="1358080798255" ID="ID_1402362822" MODIFIED="1358087691863" TEXT="atan2">
 <node CREATED="1358080800382" ID="ID_1834922323" MODIFIED="1358080835222" TEXT="arctan"/>
 </node>
@@ -4772,12 +4773,12 @@
 <node CREATED="1358081251443" ID="ID_184255742" MODIFIED="1358087587904" TEXT="encryption">
 <node CREATED="1358087588838" ID="ID_1771406482" MODIFIED="1358087592682" TEXT="crypt"/>
 </node>
-<node CREATED="1358087437469" FOLDED="true" ID="ID_1600729384" MODIFIED="1358087597280" TEXT="exponent &amp;logarithm">
+<node CREATED="1358087437469" ID="ID_1600729384" MODIFIED="1467772484056" TEXT="exponent &amp;logarithm">
 <node CREATED="1358081677642" ID="ID_674830467" MODIFIED="1358087482757" TEXT="exp"/>
 <node CREATED="1358083855824" ID="ID_1600211428" MODIFIED="1358087482756" TEXT="log"/>
 <node CREATED="1358086169037" ID="ID_1870085942" MODIFIED="1358087482755" TEXT="sqrt"/>
 </node>
-<node CREATED="1358087294322" FOLDED="true" ID="ID_1784496443" MODIFIED="1358087598779" TEXT="pseudorandom number">
+<node CREATED="1358087294322" ID="ID_1784496443" MODIFIED="1467772645231" TEXT="pseudorandom number">
 <node CREATED="1358084879216" ID="ID_26658588" MODIFIED="1358087301047" TEXT="rand"/>
 <node CREATED="1358086167062" ID="ID_506581934" MODIFIED="1358087301027" TEXT="srand"/>
 </node>
@@ -4921,7 +4922,7 @@
 <node CREATED="1358081319909" ID="ID_132977828" MODIFIED="1358081324005" TEXT="dbmclose"/>
 <node CREATED="1358081324259" ID="ID_173200547" MODIFIED="1358081327297" TEXT="dbmopen"/>
 </node>
-<node CREATED="1358081098933" ID="ID_1730126488" MODIFIED="1414139208331" TEXT="fs">
+<node CREATED="1358081098933" FOLDED="true" ID="ID_1730126488" MODIFIED="1467772470220" TEXT="fs">
 <node CREATED="1358081102534" ID="ID_1960925866" MODIFIED="1358081105058" TEXT="chdir"/>
 <node CREATED="1358081108167" ID="ID_983120451" MODIFIED="1358081114826" TEXT="chmod"/>
 <node CREATED="1358081143410" ID="ID_1337657468" MODIFIED="1358081146081" TEXT="chown"/>
@@ -5001,7 +5002,7 @@
 <node CREATED="1358086410267" ID="ID_275830332" MODIFIED="1358086411136" TEXT="time"/>
 <node CREATED="1358086416856" ID="ID_955117046" MODIFIED="1358086418033" TEXT="times"/>
 </node>
-<node CREATED="1358083839717" ID="ID_1330291343" MODIFIED="1365955316204" TEXT="thread">
+<node CREATED="1358083839717" FOLDED="true" ID="ID_1330291343" MODIFIED="1467772473099" TEXT="thread">
 <node CREATED="1358083842150" ID="ID_462030536" MODIFIED="1358083844363" TEXT="lock"/>
 </node>
 <node CREATED="1358081525781" ID="ID_1592995418" MODIFIED="1365955317223" TEXT="etc">
@@ -5189,18 +5190,18 @@
 <node CREATED="1365608547620" ID="ID_1074674097" MODIFIED="1365608549057" TEXT="$hexdigit = (0 .. 9, &quot;a&quot; .. &quot;f&quot;)[$num &amp; 15];"/>
 <node CREATED="1365608635731" ID="ID_429836759" MODIFIED="1365608637042" TEXT="@z2 = (&quot;01&quot; .. &quot;31&quot;);"/>
 <node CREATED="1365608662811" ID="ID_567429682" MODIFIED="1365608683081">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      use charnames "greek";&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      my @greek_small =&#xa0;&#xa0;("\N{alpha}" .. "\N{omega}");&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      use charnames "greek";&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      my @greek_small =&#xa0;&#xa0;("\N{alpha}" .. "\N{omega}");&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1365608863556" ID="ID_884746181" MODIFIED="1365608865281" TEXT="@list = (2.18 .. 3.14); # same as @list = (2 .. 3);"/>
@@ -5209,44 +5210,44 @@
 <node CREATED="1365607741108" FOLDED="true" ID="ID_330201647" MODIFIED="1397630167336" TEXT=".. (awk style)">
 <node CREATED="1365608093724" ID="ID_321751588" MODIFIED="1365608118504" TEXT="test the right operand on the same evaluation it became true"/>
 <node CREATED="1365608224755" ID="ID_42247002" MODIFIED="1365608400404">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">&#xd;&#xd;
-      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#xa0;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">" - Foo"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(205, 85, 85)">"01 - Bar"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(205, 85, 85)">"1 - Baz"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(205, 85, 85)">" - Quux"</font><font size="3" color="rgb(0, 0, 0)">);</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#xa0;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#xa0;</font><font color="rgb(205, 85, 85)" size="3">"$_\n"</font><font color="rgb(0, 0, 0)" size="3">;</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font color="rgb(0, 0, 0)" size="3">}</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font color="rgb(0, 0, 0)" size="3">}</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-    </ol>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">&#13;&#13;
+      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#xa0;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">" - Foo"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(205, 85, 85)">"01 - Bar"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(205, 85, 85)">"1 - Baz"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(205, 85, 85)">" - Quux"</font><font size="3" color="rgb(0, 0, 0)">);</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#xa0;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#xa0;</font><font color="rgb(205, 85, 85)" size="3">"$_\n"</font><font color="rgb(0, 0, 0)" size="3">;</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font color="rgb(0, 0, 0)" size="3">}</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font color="rgb(0, 0, 0)" size="3">}</font>&#13;&#13;
+      </li>&#13;&#13;
+    </ol>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1365608320036" ID="ID_1080217814" MODIFIED="1365608323787" TEXT="output">
 <node CREATED="1365608325259" ID="ID_1701699155" MODIFIED="1365608366897" TEXT="01 - Bar"/>
@@ -5256,59 +5257,59 @@
 <node CREATED="1365607751331" ID="ID_1875005071" MODIFIED="1397630179593" TEXT="... (sed style)">
 <node CREATED="1365608133166" ID="ID_905658339" MODIFIED="1365608169968" TEXT="test the right operand on the next evaluation when it become true"/>
 <node CREATED="1365608224755" ID="ID_1881396636" MODIFIED="1365608400404">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">&#xd;&#xd;
-      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#xa0;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">" - Foo"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(205, 85, 85)">"01 - Bar"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(205, 85, 85)">"1 - Baz"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3" color="rgb(205, 85, 85)">" - Quux"</font><font size="3" color="rgb(0, 0, 0)">);</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        &#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#xa0;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#xa0;</font><font color="rgb(205, 85, 85)" size="3">"$_\n"</font><font color="rgb(0, 0, 0)" size="3">;</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font color="rgb(0, 0, 0)" size="3">}</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#xd;&#xd;
-        <font color="rgb(0, 0, 0)" size="3">}</font>&#xd;&#xd;
-      </li>&#xd;&#xd;
-    </ol>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <ol style="word-spacing: 0px; font-family: monospace; font-size: 12px; color: rgb(63, 63, 63); margin-top: 0px; line-height: normal; white-space: pre-wrap; font-variant: normal; letter-spacing: normal; font-weight: normal; font-style: normal; text-transform: none; text-align: -webkit-auto; text-indent: 0px; background-color: rgb(238, 238, 221); margin-bottom: 0px">&#13;&#13;
+      <li style="background-attachment: scroll; background-position: initial initial; background-image: initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3">&#xa0;= </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">" - Foo"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(205, 85, 85)">"01 - Bar"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(205, 85, 85)">"1 - Baz"</font><font size="3" color="rgb(0, 0, 0)">,</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3" color="rgb(205, 85, 85)">" - Quux"</font><font size="3" color="rgb(0, 0, 0)">);</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        &#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3">foreach </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(0, 104, 139)">@lines</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font size="3">if </font><font size="3" color="rgb(0, 0, 0)">(</font><font size="3" color="rgb(205, 85, 85)">/0/</font><font size="3">&#xa0;.. </font><font size="3" color="rgb(205, 85, 85)">/1/</font><font size="3" color="rgb(0, 0, 0)">)</font><font size="3">&#xa0;</font><font size="3" color="rgb(0, 0, 0)">{</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <a style="color: rgb(102, 102, 102); font-weight: bold" href="functions/print.html" class="l_k"><font color="rgb(102, 102, 102)" size="3"><b>print</b></font></a><font size="3">&#xa0;</font><font color="rgb(205, 85, 85)" size="3">"$_\n"</font><font color="rgb(0, 0, 0)" size="3">;</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font color="rgb(0, 0, 0)" size="3">}</font>&#13;&#13;
+      </li>&#13;&#13;
+      <li style="background-attachment: scroll; background-image: initial; background-position: initial initial; padding-bottom: 2px; padding-left: 5px; background-color: rgb(238, 238, 221); background-repeat: repeat; color: rgb(38, 38, 38)">&#13;&#13;
+        <font color="rgb(0, 0, 0)" size="3">}</font>&#13;&#13;
+      </li>&#13;&#13;
+    </ol>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1365608320036" ID="ID_368603148" MODIFIED="1365608323787" TEXT="output">
 <node CREATED="1365608325259" ID="ID_1492086415" MODIFIED="1365608431810">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      01 - Bar&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      1 - Baz&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      01 - Bar&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      1 - Baz&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -5356,18 +5357,18 @@
 <node CREATED="1357950220447" ID="ID_1594190254" MODIFIED="1357950222854" TEXT="\N{GREEK SMALL LETTER SIGMA}"/>
 <node CREATED="1357950233970" ID="ID_1190645248" MODIFIED="1357950235315" TEXT="\N{greek:Sigma}"/>
 <node CREATED="1357950265477" ID="ID_1374324253" MODIFIED="1357950302958">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <a class="l_k" href="functions/use.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">use</font></b></a>&#xa0;<span class="w" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">charnames</font></span>&#xa0;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">qw(greek)</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <a class="l_k" href="functions/print.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">print</font></b></a>&#xa0;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">"\N{sigma} is Greek sigma\n"</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <a class="l_k" href="functions/use.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">use</font></b></a>&#xa0;<span class="w" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">charnames</font></span>&#xa0;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">qw(greek)</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <a class="l_k" href="functions/print.html" style="font-weight: bold; color: rgb(102, 102, 102)"><b><font color="rgb(102, 102, 102)">print</font></b></a>&#xa0;<span class="q" style="color: rgb(205, 85, 85)"><font color="rgb(205, 85, 85)">"\N{sigma} is Greek sigma\n"</font></span><span class="sc" style="color: rgb(0, 0, 0)"><font color="rgb(0, 0, 0)">;</font></span>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -5464,28 +5465,28 @@
 <node CREATED="1358936425284" ID="ID_46970926" MODIFIED="1358936429893" TEXT="one line of program (several -e&apos;s allowed, omit programfile)"/>
 </node>
 <node CREATED="1359350792601" ID="ID_1883477066" MODIFIED="1359350928600">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      -l<i>[octnum]</i>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      -l<i>[octnum]</i>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1359351036160" ID="ID_137389141" MODIFIED="1359351037501" TEXT="enables automatic line-ending processing. It has two separate effects. First, it automatically chomps $/ (the input record separator) when used with -n or -p. Second, it assigns $\ (the output record separator) to have the value of octnum so that any print statements will have that separator added back on. If octnum is omitted, sets $\ to the current value of $/ ."/>
 </node>
 <node CREATED="1359350681589" ID="ID_1569646889" MODIFIED="1359350989981">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      -I<i>directory</i>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      -I<i>directory</i>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1359350701612" ID="ID_684730522" MODIFIED="1359351009635" TEXT="@INC"/>
 </node>
@@ -5496,15 +5497,15 @@
 <node CREATED="1359468934639" ID="ID_101229551" MODIFIED="1359468935673" TEXT="compile-only syntax check"/>
 </node>
 <node CREATED="1359362571215" ID="ID_1916156582" MODIFIED="1359362602021">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      -F<i>pattern</i>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      -F<i>pattern</i>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1359362617903" ID="ID_1133957897" MODIFIED="1359362619194" TEXT="specifies the pattern to split on if -a is also in effect. The pattern may be surrounded by // , &quot;&quot; , or &apos;&apos; , otherwise it will be put in single quotes. You can&apos;t use literal whitespace in the pattern."/>
 </node>

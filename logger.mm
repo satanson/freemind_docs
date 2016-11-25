@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1419773736384" ID="ID_1375202394" MODIFIED="1419773743389" TEXT="logger">
 <node CREATED="1419773762325" ID="ID_110279171" MODIFIED="1419773765556" POSITION="right" TEXT="log4j">
@@ -16,7 +16,7 @@
     
   </head>
   <body>
-    <font color="rgb(153, 0, 0)" face="Verdana, Helvetica, Arial, sans-serif" size="12.8000001907349px"><b style="line-height: normal; font-family: Verdana, Helvetica, Arial, sans-serif; letter-spacing: normal; font-weight: normal; text-indent: 0px; color: rgb(153, 0, 0); font-variant: normal; font-size: 12.8000001907349px; font-style: normal; text-transform: none; text-align: start; word-spacing: 0px; white-space: normal">Named Hierarchy</b></font>A logger is said to be an<font color="rgb(0, 0, 0)" face="Verdana, Helvetica, Arial, sans-serif" size="12.8000001907349px"><span style="line-height: normal; font-family: Verdana, Helvetica, Arial, sans-serif; letter-spacing: normal; font-weight: normal; text-indent: 0px; color: rgb(0, 0, 0); font-variant: normal; font-size: 12.8000001907349px; text-transform: none; font-style: normal; text-align: start; word-spacing: 0px; white-space: normal" class="Apple-converted-space">&#160;</span></font><i>ancestor</i><span class="Apple-converted-space">&#160;</span>of another logger if its name followed by a dot is a prefix of the<span class="Apple-converted-space">&#160;</span><i>descendant</i>logger name. A logger is said to be a<span class="Apple-converted-space">&#160;</span><i>parent</i><span class="Apple-converted-space">&#160;</span>of a<span class="Apple-converted-space">&#160;</span><i>child</i><span class="Apple-converted-space">&#160;</span>logger if there are no ancestors between itself and the descendant logger.
+    <font color="rgb(153, 0, 0)" face="Verdana, Helvetica, Arial, sans-serif" size="12.8000001907349px"><b style="line-height: normal; font-family: Verdana, Helvetica, Arial, sans-serif; letter-spacing: normal; font-weight: normal; text-indent: 0px; color: rgb(153, 0, 0); font-variant: normal; font-size: 12.8000001907349px; font-style: normal; text-transform: none; text-align: start; word-spacing: 0px; white-space: normal">Named Hierarchy</b></font>A logger is said to be an<font color="rgb(0, 0, 0)" face="Verdana, Helvetica, Arial, sans-serif" size="12.8000001907349px"><span style="line-height: normal; font-family: Verdana, Helvetica, Arial, sans-serif; letter-spacing: normal; font-weight: normal; text-indent: 0px; color: rgb(0, 0, 0); font-variant: normal; font-size: 12.8000001907349px; text-transform: none; font-style: normal; text-align: start; word-spacing: 0px; white-space: normal" class="Apple-converted-space">&#xa0;</span></font><i>ancestor</i><span class="Apple-converted-space">&#xa0;</span>of another logger if its name followed by a dot is a prefix of the<span class="Apple-converted-space">&#xa0;</span><i>descendant</i>logger name. A logger is said to be a<span class="Apple-converted-space">&#xa0;</span><i>parent</i><span class="Apple-converted-space">&#xa0;</span>of a<span class="Apple-converted-space">&#xa0;</span><i>child</i><span class="Apple-converted-space">&#xa0;</span>logger if there are no ancestors between itself and the descendant logger.
   </body>
 </html></richcontent>
 </node>
@@ -28,7 +28,7 @@
   </head>
   <body>
     <p>
-      <br class="Apple-interchange-newline" />
+      <br class="Apple-interchange-newline"/>
       it always exists,
     </p>
     <p>
@@ -52,7 +52,7 @@
     <font color="rgb(153, 0, 0)" face="Verdana, Helvetica, Arial, sans-serif" size="12.8000001907349px"><b style="line-height: normal; font-family: Verdana, Helvetica, Arial, sans-serif; letter-spacing: normal; font-weight: normal; text-indent: 0px; color: rgb(153, 0, 0); font-variant: normal; font-size: 12.8000001907349px; font-style: normal; text-transform: none; text-align: start; word-spacing: 0px; white-space: normal">Level Inheritance</b></font>
 
     <p style="font-size: small; line-height: 1.3em">
-      The<span class="Apple-converted-space">&#160;</span><i>inherited level</i><span class="Apple-converted-space">&#160;</span>for a given logger<span class="Apple-converted-space">&#160;</span><i>C</i>, is equal to the first non-null level in the logger hierarchy, starting at<span class="Apple-converted-space">&#160;</span><i>C</i><span class="Apple-converted-space">&#160;</span>and proceeding upwards in the hierarchy towards the<span class="Apple-converted-space">&#160;</span><tt>root</tt><span class="Apple-converted-space">&#160;</span>logger.
+      The<span class="Apple-converted-space">&#xa0;</span><i>inherited level</i><span class="Apple-converted-space">&#xa0;</span>for a given logger<span class="Apple-converted-space">&#xa0;</span><i>C</i>, is equal to the first non-null level in the logger hierarchy, starting at<span class="Apple-converted-space">&#xa0;</span><i>C</i><span class="Apple-converted-space">&#xa0;</span>and proceeding upwards in the hierarchy towards the<span class="Apple-converted-space">&#xa0;</span><tt>root</tt><span class="Apple-converted-space">&#xa0;</span>logger.
     </p>
   </body>
 </html></richcontent>
@@ -71,13 +71,13 @@
     <font color="rgb(153, 0, 0)" face="Verdana, Helvetica, Arial, sans-serif" size="12.8000001907349px"><b style="line-height: normal; font-family: Verdana, Helvetica, Arial, sans-serif; letter-spacing: normal; font-weight: normal; text-indent: 0px; color: rgb(153, 0, 0); font-variant: normal; font-size: 12.8000001907349px; font-style: normal; text-transform: none; text-align: start; word-spacing: 0px; white-space: normal">Basic Selection Rule</b></font>
 
     <p style="font-size: small; line-height: 1.3em">
-      A log request of level<span class="Apple-converted-space">&#160;</span><i>p</i><span class="Apple-converted-space">&#160;</span>in a logger with (either assigned or inherited, whichever is appropriate) level<span class="Apple-converted-space">&#160;</span><i>q</i>, is enabled if<span class="Apple-converted-space">&#160;</span><i>p &gt;= q</i>.
+      A log request of level<span class="Apple-converted-space">&#xa0;</span><i>p</i><span class="Apple-converted-space">&#xa0;</span>in a logger with (either assigned or inherited, whichever is appropriate) level<span class="Apple-converted-space">&#xa0;</span><i>q</i>, is enabled if<span class="Apple-converted-space">&#xa0;</span><i>p &gt;= q</i>.
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1419776250710" FOLDED="true" ID="ID_924277301" MODIFIED="1419777937784" TEXT="org.apache.log4j.Logger">
+<node CREATED="1419776250710" FOLDED="true" ID="ID_924277301" MODIFIED="1468313617047" TEXT="org.apache.log4j.Logger">
 <node CREATED="1419776255376" ID="ID_1516185694" MODIFIED="1419776255376">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -147,7 +147,7 @@
   </head>
   <body>
     <p>
-      Log4j 2 contains next-generation lock-free&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/async.html">Asynchronous Loggers</a></font>&#160;based on the&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="https://lmax-exchange.github.io/disruptor/">LMAX Disruptor library</a></font>. In multi-threaded scenarios Asynchronous Loggers have 10 times higher throughput and orders of magnitude lower latency than Log4j 1.x and Logback.
+      Log4j 2 contains next-generation lock-free&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/async.html">Asynchronous Loggers</a></font>&#xa0;based on the&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="https://lmax-exchange.github.io/disruptor/">LMAX Disruptor library</a></font>. In multi-threaded scenarios Asynchronous Loggers have 10 times higher throughput and orders of magnitude lower latency than Log4j 1.x and Logback.
     </p>
   </body>
 </html></richcontent>
@@ -159,7 +159,7 @@
   </head>
   <body>
     <p>
-      Log4j 2 uses a&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/plugins.html">Plugin system</a></font>&#160;that makes it extremely easy to&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/extending.html">extend the framework</a></font>&#160;by adding new&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/appenders.html">Appenders</a></font>,&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/filters.html">Filters</a></font>,<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/layouts.html">Layouts</a></font>,&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/lookups.html">Lookups</a></font>, and Pattern Converters without requiring any changes to Log4j.
+      Log4j 2 uses a&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/plugins.html">Plugin system</a></font>&#xa0;that makes it extremely easy to&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/extending.html">extend the framework</a></font>&#xa0;by adding new&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/appenders.html">Appenders</a></font>,&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/filters.html">Filters</a></font>,<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/layouts.html">Layouts</a></font>,&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/lookups.html">Lookups</a></font>, and Pattern Converters without requiring any changes to Log4j.
     </p>
   </body>
 </html></richcontent>
@@ -183,7 +183,7 @@
   </head>
   <body>
     <p>
-      Support for&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/messages.html">Message objects</a></font>. Messages allow support for interesting and complex constructs to be passed through the logging system and be efficiently manipulated. Users are free to create their own&#160;<font color="rgb(0, 136, 204)" face="Menlo, Monaco, Courier New, monospace" size="12px"><tt style="line-height: normal; font-family: Menlo, Monaco, Courier New, monospace; padding-bottom: 3px; font-weight: normal; padding-left: 4px; padding-top: 3px; color: rgb(78, 100, 142); font-variant: normal; padding-right: 4px; font-size: 12px; font-style: normal; background-color: rgb(247, 247, 249)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/message/Message.html">Message</a></tt></font>&#160;types and write custom<font color="rgb(0, 136, 204)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/manual/layouts.html">Layouts</a></font>,&#160;<font color="rgb(0, 136, 204)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/manual/filters.html">Filters</a></font>&#160;and&#160;<font color="rgb(0, 136, 204)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/manual/lookups.html">Lookups</a></font>&#160;to manipulate them.<br class="Apple-interchange-newline" />
+      Support for&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/messages.html">Message objects</a></font>. Messages allow support for interesting and complex constructs to be passed through the logging system and be efficiently manipulated. Users are free to create their own&#xa0;<font color="rgb(0, 136, 204)" face="Menlo, Monaco, Courier New, monospace" size="12px"><tt style="line-height: normal; font-family: Menlo, Monaco, Courier New, monospace; padding-bottom: 3px; font-weight: normal; padding-left: 4px; padding-top: 3px; color: rgb(78, 100, 142); font-variant: normal; padding-right: 4px; font-size: 12px; font-style: normal; background-color: rgb(247, 247, 249)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/message/Message.html">Message</a></tt></font>&#xa0;types and write custom<font color="rgb(0, 136, 204)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/manual/layouts.html">Layouts</a></font>,&#xa0;<font color="rgb(0, 136, 204)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/manual/filters.html">Filters</a></font>&#xa0;and&#xa0;<font color="rgb(0, 136, 204)"><a style="color: rgb(0, 136, 204); text-decoration: none" href="http://logging.apache.org/log4j/2.x/manual/lookups.html">Lookups</a></font>&#xa0;to manipulate them.<br class="Apple-interchange-newline"/>
     </p>
   </body>
 </html></richcontent>
@@ -219,7 +219,7 @@
   </head>
   <body>
     <p>
-      Layouts in Log4j 1.x and Logback return a String. This resulted in the problems discussed at&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="http://logback.qos.ch/manual/encoders.html">Logback Encoders</a></font>. Log4j 2 takes the simpler approach that Layouts always return a byte array. This has the advantage that it means they can be used in virtually any Appender, not just the ones that write to an OutputStream.
+      Layouts in Log4j 1.x and Logback return a String. This resulted in the problems discussed at&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="http://logback.qos.ch/manual/encoders.html">Logback Encoders</a></font>. Log4j 2 takes the simpler approach that Layouts always return a byte array. This has the advantage that it means they can be used in virtually any Appender, not just the ones that write to an OutputStream.
     </p>
   </body>
 </html></richcontent>
@@ -231,7 +231,7 @@
   </head>
   <body>
     <p>
-      The&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/appenders.html#SyslogAppender">Syslog Appender</a></font>&#160;supports both TCP and UDP as well as support for the BSD syslog and the&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="http://tools.ietf.org/html/rfc5424">RFC 5424</a></font>&#160;formats.
+      The&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" href="http://logging.apache.org/log4j/2.x/manual/appenders.html#SyslogAppender">Syslog Appender</a></font>&#xa0;supports both TCP and UDP as well as support for the BSD syslog and the&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="http://tools.ietf.org/html/rfc5424">RFC 5424</a></font>&#xa0;formats.
     </p>
   </body>
 </html></richcontent>
@@ -255,7 +255,7 @@
   </head>
   <body>
     <p>
-      It is an Apache Software Foundation project following the community and support model used by all ASF projects. If you want to contribute or gain the right to commit changes just follow the path outlined at&#160;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="http://jakarta.apache.org/site/contributing.html">Contributing</a></font>
+      It is an Apache Software Foundation project following the community and support model used by all ASF projects. If you want to contribute or gain the right to commit changes just follow the path outlined at&#xa0;<font color="rgb(0, 136, 204)"><a style="text-decoration: none; color: rgb(0, 136, 204)" class="externalLink" href="http://jakarta.apache.org/site/contributing.html">Contributing</a></font>
     </p>
   </body>
 </html></richcontent>
@@ -270,28 +270,28 @@
   </head>
   <body>
     <p>
-      &#160;&#160;&lt;Loggers&gt;
+      &#xa0;&#xa0;&lt;Loggers&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;Logger name=&quot;ranpanf.Bar&quot; level=&quot;trace&quot; additivity=&quot;false&quot; &gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;Logger name="ranpanf.Bar" level="trace" additivity="false" &gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;AppenderRef ref=&quot;Console&quot;/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;AppenderRef ref="Console"/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/Logger&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/Logger&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;Root level=&quot;error&quot;&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;Root level="error"&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;AppenderRef ref=&quot;Console&quot;/&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&lt;AppenderRef ref="Console"/&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&lt;/Root&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&lt;/Root&gt;
     </p>
     <p>
-      &#160;&#160;&lt;/Loggers&gt;
+      &#xa0;&#xa0;&lt;/Loggers&gt;
     </p>
   </body>
 </html></richcontent>

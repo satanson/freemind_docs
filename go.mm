@@ -1,6 +1,6 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1408272259019" TEXT="lang-go">
+<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1474445660833" TEXT="lang-go">
 <node CREATED="1387552480402" ID="ID_1840000910" MODIFIED="1419083408941" POSITION="right" TEXT="intros">
 <node CREATED="1387552115759" ID="ID_1500553857" MODIFIED="1387552486157" TEXT="fast {development, execution, compilation}"/>
 <node CREATED="1387552295765" ID="ID_1950810780" MODIFIED="1387612195650" TEXT="compiled, statically-typed, strongly-typed"/>
@@ -37,22 +37,22 @@
       <font size="3">package newmath </font>
     </p>
     <p>
-      <font size="3">import &quot;testing&quot; </font>
+      <font size="3">import "testing" </font>
     </p>
     <p>
       <font size="3">func TestSqrt(t *testing.T) { </font>
     </p>
     <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const in, out = 4, 2 </font>
+      <font size="3">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;const in, out = 4, 2 </font>
     </p>
     <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if x := Sqrt(in); x != out { </font>
+      <font size="3">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if x := Sqrt(in); x != out { </font>
     </p>
     <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;t.Errorf(&quot;Sqrt(%v) = %v, want %v&quot;, in, x, out)&#160;&#160; </font>
+      <font size="3">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;t.Errorf("Sqrt(%v) = %v, want %v", in, x, out)&#xa0;&#xa0; </font>
     </p>
     <p>
-      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} </font>
+      <font size="3">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;} </font>
     </p>
     <p>
       <font size="3">} </font>
@@ -119,7 +119,7 @@
 <node CREATED="1387614097583" MODIFIED="1387614097583" TEXT="hex_digit     = &quot;0&quot; &#x2026; &quot;9&quot; | &quot;A&quot; &#x2026; &quot;F&quot; | &quot;a&quot; &#x2026; &quot;f&quot; ."/>
 </node>
 </node>
-<node CREATED="1387612662132" FOLDED="true" ID="ID_935840891" MODIFIED="1407509621990" POSITION="right" TEXT="Lexical">
+<node CREATED="1387612662132" FOLDED="true" ID="ID_935840891" MODIFIED="1474445697081" POSITION="right" TEXT="Lexical">
 <node CREATED="1387612994002" FOLDED="true" ID="ID_1600723970" MODIFIED="1407508965471" TEXT="Comments">
 <node CREATED="1387613005982" ID="ID_588822141" MODIFIED="1387613007279" TEXT="//"/>
 <node CREATED="1387613007577" ID="ID_536023060" MODIFIED="1387613010967" TEXT="/* */"/>
@@ -151,10 +151,10 @@
 <node CREATED="1387613168309" ID="ID_695903273" MODIFIED="1387613258163" TEXT="operators and delimiters"/>
 <node CREATED="1387613194626" ID="ID_1910840060" MODIFIED="1387613201007" TEXT="literals"/>
 </node>
-<node CREATED="1387613480214" FOLDED="true" ID="ID_576717729" MODIFIED="1387616230913" TEXT="Stmt terminators">
+<node CREATED="1387613480214" FOLDED="true" ID="ID_576717729" MODIFIED="1474445697079" TEXT="Stmt terminators">
 <node CREATED="1387613514101" ID="ID_587542129" MODIFIED="1387613514962" TEXT="semicolons &quot;;&quot; "/>
-<node CREATED="1387613539417" FOLDED="true" ID="ID_1643968343" MODIFIED="1387613998962" TEXT="rules of omitting  semicolons">
-<node CREATED="1387613701698" FOLDED="true" ID="ID_461083455" MODIFIED="1387613960273" TEXT="a semicolon automatically inserted into End Of Non-Blank Line if final token is">
+<node CREATED="1387613539417" FOLDED="true" ID="ID_1643968343" MODIFIED="1474445697078" TEXT="rules of omitting  semicolons">
+<node CREATED="1387613701698" FOLDED="true" ID="ID_461083455" MODIFIED="1474445697077" TEXT="a semicolon automatically inserted into End Of Non-Blank Line if final token is">
 <node CREATED="1387613835706" ID="ID_1361986526" MODIFIED="1387613859714" TEXT="an identifier "/>
 <node CREATED="1387613880121" ID="ID_530719610" MODIFIED="1387613883790" TEXT="an integer, floating-point, imaginary, rune, or string literal"/>
 <node CREATED="1387613895596" ID="ID_1829348983" MODIFIED="1387613900486" TEXT="one of the keywords break, continue, fallthrough, or return"/>
@@ -260,7 +260,7 @@
 <node CREATED="1387612846861" ID="ID_655501296" MODIFIED="1387615242761" TEXT="Identifiers">
 <node CREATED="1387612843155" ID="ID_1572847991" MODIFIED="1387612852307" TEXT="identifier = letter { letter | unicode_digit } ."/>
 </node>
-<node CREATED="1387615247524" FOLDED="true" ID="ID_618877324" MODIFIED="1387616223659" TEXT="Literals">
+<node CREATED="1387615247524" FOLDED="true" ID="ID_618877324" MODIFIED="1474445682397" TEXT="Literals">
 <node CREATED="1387615255503" ID="ID_718108392" MODIFIED="1387615281536" TEXT="Integer(as in C)"/>
 <node CREATED="1387615282400" ID="ID_1087257287" MODIFIED="1387616066700" TEXT="Floating-point  (as in C)"/>
 <node CREATED="1387615306210" ID="ID_725054067" MODIFIED="1387615307143" TEXT="Imaginary">
@@ -344,10 +344,10 @@
   </head>
   <body>
     <p>
-      import &quot;fmt&quot;
+      import "fmt"
     </p>
     <p>
-      import &quot;math&quot;
+      import "math"
     </p>
   </body>
 </html></richcontent>
@@ -362,10 +362,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -398,7 +398,7 @@
 <node CREATED="1388286332789" ID="ID_1146454647" MODIFIED="1388286356009" TEXT="Print{, f, ln}"/>
 <node CREATED="1388286356858" ID="ID_212579235" MODIFIED="1388286372787" TEXT="{F,S}print{, f, ln}"/>
 </node>
-<node CREATED="1388284552103" FOLDED="true" ID="ID_1616296824" MODIFIED="1419083406253" POSITION="right" TEXT="literal new make">
+<node CREATED="1388284552103" FOLDED="true" ID="ID_1616296824" MODIFIED="1461468495744" POSITION="right" TEXT="literal new make">
 <node CREATED="1388284602373" ID="ID_1713994607" MODIFIED="1388284606111" TEXT="literal"/>
 <node CREATED="1388284596332" ID="ID_1102301452" MODIFIED="1388284900395" TEXT="new(T)"/>
 <node CREATED="1388284598152" ID="ID_1175257843" MODIFIED="1388284782698" TEXT="make({slice,map,chan},args)"/>
@@ -407,14 +407,14 @@
 <node CREATED="1388284827006" ID="ID_1993517267" MODIFIED="1388284829934" TEXT="zeroed"/>
 <node CREATED="1388284830176" ID="ID_1644706342" MODIFIED="1388284833105" TEXT="return *T"/>
 </node>
-<node CREATED="1388284778596" FOLDED="true" ID="ID_1952785279" MODIFIED="1388284896356" TEXT="make">
+<node CREATED="1388284778596" ID="ID_1952785279" MODIFIED="1461466194030" TEXT="make">
 <node CREATED="1388284800250" ID="ID_678883415" MODIFIED="1388284807595" TEXT="initialized(not zeroed)"/>
 <node CREATED="1388284815668" ID="ID_80846008" MODIFIED="1388284824430" TEXT="return T (not *T)"/>
 <node CREATED="1388284835686" ID="ID_908480756" MODIFIED="1388284849049" TEXT="only {slice, map, chan}"/>
 </node>
 </node>
 </node>
-<node CREATED="1388286524587" FOLDED="true" ID="ID_359284084" MODIFIED="1419083404922" POSITION="right" TEXT="{array,slice,map}">
+<node CREATED="1388286524587" FOLDED="true" ID="ID_359284084" MODIFIED="1474445693133" POSITION="right" TEXT="{array,slice,map}">
 <node CREATED="1388288693385" ID="ID_19026961" MODIFIED="1388292166515" TEXT="[cap]type">
 <node CREATED="1388288740218" ID="ID_1590052468" MODIFIED="1388289975574" TEXT="create">
 <node CREATED="1388288755162" ID="ID_828902441" MODIFIED="1388289622232" TEXT="array:=new([10]int)"/>
@@ -436,7 +436,7 @@
 <node CREATED="1388291114037" ID="ID_1474603014" MODIFIED="1388291963625" TEXT="len=low-high"/>
 <node CREATED="1388291117762" ID="ID_1451142753" MODIFIED="1388291983247" TEXT="cap=max-low"/>
 </node>
-<node CREATED="1388286546951" FOLDED="true" ID="ID_675146998" MODIFIED="1388292161457" TEXT="map[key-type]value-type">
+<node CREATED="1388286546951" FOLDED="true" ID="ID_675146998" MODIFIED="1474445693131" TEXT="map[key-type]value-type">
 <node CREATED="1388286549813" ID="ID_806066658" MODIFIED="1388287083572" TEXT="create">
 <node CREATED="1388286780558" ID="ID_1976368072" MODIFIED="1388287006521" TEXT="m=map[string]int{&quot;one&quot;:1,&quot;two&quot;:2} //composite literal"/>
 <node CREATED="1388286804153" ID="ID_1397944638" MODIFIED="1388287069616" TEXT="mpointer=make(map[string]int)//make"/>
@@ -450,8 +450,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1388296012907" FOLDED="true" ID="ID_74886657" MODIFIED="1419083401847" POSITION="right" TEXT="type">
-<node CREATED="1388252660393" FOLDED="true" ID="ID_1289861303" MODIFIED="1408287695876" TEXT="type switch/assertion">
+<node CREATED="1388296012907" ID="ID_74886657" MODIFIED="1474178050594" POSITION="right" TEXT="type">
+<node CREATED="1388252660393" ID="ID_1289861303" MODIFIED="1474178055217" TEXT="type switch/assertion">
 <node CREATED="1388252693859" ID="ID_273048711" MODIFIED="1388469118635" TEXT="type switch">
 <node CREATED="1388252705774" ID="ID_1754441161" MODIFIED="1388252731094" TEXT="switch t:=t.(type) {case: ...}"/>
 </node>
@@ -578,10 +578,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -593,19 +593,19 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;hypot := func(x, y float64) float64 {
+      &#xa0;&#xa0;&#xa0;&#xa0;hypot := func(x, y float64) float64 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return math.Sqrt(x*x + y*y)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return math.Sqrt(x*x + y*y)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(hypot(3, 4))
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(hypot(3, 4))
     </p>
     <p>
       }
@@ -629,7 +629,7 @@
       
     </p>
     <p>
-      import &quot;fmt&quot;
+      import "fmt"
     </p>
     <p>
       
@@ -638,19 +638,19 @@
       func adder() func(int) int {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;sum := 0
+      &#xa0;&#xa0;&#xa0;&#xa0;sum := 0
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return func(x int) int {
+      &#xa0;&#xa0;&#xa0;&#xa0;return func(x int) int {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sum += x
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sum += x
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return sum
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return sum
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -662,25 +662,25 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;pos, neg := adder(), adder()
+      &#xa0;&#xa0;&#xa0;&#xa0;pos, neg := adder(), adder()
     </p>
     <p>
-      &#160;&#160;&#160;&#160;for i := 0; i &lt; 10; i++ {
+      &#xa0;&#xa0;&#xa0;&#xa0;for i := 0; i &lt; 10; i++ {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pos(i),
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;pos(i),
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;neg(-2*i),
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;neg(-2*i),
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -693,7 +693,7 @@
     
   </head>
   <body>
-    DIV id=&quot;wrap&quot;&gt;
+    DIV id="wrap"&gt;
   </body>
 </html></richcontent>
 </node>
@@ -718,10 +718,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -733,7 +733,7 @@
       type Vertex struct {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;X, Y float64
+      &#xa0;&#xa0;&#xa0;&#xa0;X, Y float64
     </p>
     <p>
       }
@@ -745,7 +745,7 @@
       func (v *Vertex) Abs() float64 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return math.Sqrt(v.X*v.X + v.Y*v.Y)
+      &#xa0;&#xa0;&#xa0;&#xa0;return math.Sqrt(v.X*v.X + v.Y*v.Y)
     </p>
     <p>
       }
@@ -757,10 +757,10 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;v := &amp;Vertex{3, 4}
+      &#xa0;&#xa0;&#xa0;&#xa0;v := &amp;Vertex{3, 4}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(v.Abs())
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(v.Abs())
     </p>
     <p>
       }
@@ -786,10 +786,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -807,16 +807,16 @@
       func (f MyFloat) Abs() float64 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if f &lt; 0 {
+      &#xa0;&#xa0;&#xa0;&#xa0;if f &lt; 0 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return float64(-f)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return float64(-f)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return float64(f)
+      &#xa0;&#xa0;&#xa0;&#xa0;return float64(f)
     </p>
     <p>
       }
@@ -828,10 +828,10 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;f := MyFloat(-math.Sqrt2)
+      &#xa0;&#xa0;&#xa0;&#xa0;f := MyFloat(-math.Sqrt2)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(f.Abs())
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(f.Abs())
     </p>
     <p>
       }
@@ -891,19 +891,19 @@
   </head>
   <body>
     <p>
-      select&#160;&#160;{
+      select&#xa0;&#xa0;{
     </p>
     <p>
-      &#160;&#160;&#160;case b=&lt;- freeList:
+      &#xa0;&#xa0;&#xa0;case b=&lt;- freeList:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//processing
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//processing
     </p>
     <p>
-      &#160;&#160;&#160;default:
+      &#xa0;&#xa0;&#xa0;default:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//processing
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;//processing
     </p>
     <p>
       }
@@ -921,7 +921,7 @@
 <node CREATED="1388241053897" ID="ID_1555206036" MODIFIED="1388241061471" TEXT="const"/>
 <node CREATED="1388241083666" ID="ID_716101407" MODIFIED="1388241094638" TEXT="no lexical variables"/>
 </node>
-<node CREATED="1388240836335" FOLDED="true" ID="ID_809404070" MODIFIED="1408273064158" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
+<node CREATED="1388240836335" ID="ID_809404070" MODIFIED="1474445648572" POSITION="right" TEXT="error/re-panic(panic-recover-panic)">
 <node CREATED="1388253686912" ID="ID_674596690" MODIFIED="1408273023230" TEXT="go vs. C++">
 <node CREATED="1388253589712" ID="ID_539498581" MODIFIED="1408173498268" TEXT="exception(C++)">
 <node CREATED="1388240880146" ID="ID_487320419" MODIFIED="1388253598485" TEXT="error "/>
@@ -940,58 +940,58 @@
       package main
     </p>
     <p>
-      import &quot;fmt&quot;
+      import "fmt"
     </p>
     <p>
-      type&#160;&#160;AException int
+      type&#xa0;&#xa0;AException int
     </p>
     <p>
-      type&#160;&#160;BException string
+      type&#xa0;&#xa0;BException string
     </p>
     <p>
       func main(){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;defer func(){
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;defer func(){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if ex:=recover();ex!=nil{
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if ex:=recover();ex!=nil{
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;switch ex.(type){
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;switch ex.(type){
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;case AException:
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;case AException:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;catch a AException&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("catch a AException")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;case BException:
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;case BException:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;catch a AException&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("catch a AException")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;default:
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;default:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;panic(&quot;A unknown exception!&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;panic("A unknown exception!")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}()
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}()
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;panic(BException(&quot;string&quot;))
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;panic(BException("string"))
     </p>
     <p>
       }
@@ -1017,7 +1017,7 @@
 <node CREATED="1388254991790" ID="ID_586733230" MODIFIED="1388255015515" TEXT="multiple catch clauses"/>
 </node>
 </node>
-<node CREATED="1387561614207" FOLDED="true" ID="ID_531506047" MODIFIED="1408284766391" POSITION="right" TEXT="for if switch">
+<node CREATED="1387561614207" FOLDED="true" ID="ID_531506047" MODIFIED="1474445684234" POSITION="right" TEXT="for if switch">
 <node CREATED="1387561635608" FOLDED="true" ID="ID_912764590" MODIFIED="1388469191935" TEXT="loop">
 <node CREATED="1388255078823" ID="ID_656589610" MODIFIED="1388255099630" TEXT="for i:=0;i&lt;10;i++{}"/>
 <node CREATED="1388255102937" ID="ID_1746278105" MODIFIED="1388255136406" TEXT="for {} //forever"/>
@@ -1047,10 +1047,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;runtime&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"runtime"
     </p>
     <p>
       )
@@ -1062,37 +1062,37 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Print(&quot;Go runs on &quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Print("Go runs on ")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;switch os := runtime.GOOS; os {
+      &#xa0;&#xa0;&#xa0;&#xa0;switch os := runtime.GOOS; os {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case &quot;darwin&quot;:
+      &#xa0;&#xa0;&#xa0;&#xa0;case "darwin":
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;OS X.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("OS X.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case &quot;linux&quot;:
+      &#xa0;&#xa0;&#xa0;&#xa0;case "linux":
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Linux.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Linux.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;default:
+      &#xa0;&#xa0;&#xa0;&#xa0;default:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// freebsd, openbsd,
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// freebsd, openbsd,
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// plan9, windows...
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;// plan9, windows...
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Printf(&quot;%s.&quot;, os)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Printf("%s.", os)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -1116,10 +1116,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;time&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"time"
     </p>
     <p>
       )
@@ -1131,40 +1131,40 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(&quot;When's Saturday?&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("When's Saturday?")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;today := time.Now().Weekday()
+      &#xa0;&#xa0;&#xa0;&#xa0;today := time.Now().Weekday()
     </p>
     <p>
-      &#160;&#160;&#160;&#160;switch time.Saturday {
+      &#xa0;&#xa0;&#xa0;&#xa0;switch time.Saturday {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case today + 0:
+      &#xa0;&#xa0;&#xa0;&#xa0;case today + 0:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Today.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Today.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case today + 1:
+      &#xa0;&#xa0;&#xa0;&#xa0;case today + 1:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Tomorrow.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Tomorrow.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case today + 2:
+      &#xa0;&#xa0;&#xa0;&#xa0;case today + 2:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;In two days.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("In two days.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;default:
+      &#xa0;&#xa0;&#xa0;&#xa0;default:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Too far away.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Too far away.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -1188,10 +1188,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;time&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"time"
     </p>
     <p>
       )
@@ -1203,31 +1203,31 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;t := time.Now()
+      &#xa0;&#xa0;&#xa0;&#xa0;t := time.Now()
     </p>
     <p>
-      &#160;&#160;&#160;&#160;switch {
+      &#xa0;&#xa0;&#xa0;&#xa0;switch {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case t.Hour() &lt; 12:
+      &#xa0;&#xa0;&#xa0;&#xa0;case t.Hour() &lt; 12:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Good morning!&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Good morning!")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;case t.Hour() &lt; 17:
+      &#xa0;&#xa0;&#xa0;&#xa0;case t.Hour() &lt; 17:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Good afternoon.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Good afternoon.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;default:
+      &#xa0;&#xa0;&#xa0;&#xa0;default:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Println(&quot;Good evening.&quot;)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Println("Good evening.")
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -1237,7 +1237,7 @@
 <node CREATED="1387564875869" ID="ID_1301130801" MODIFIED="1387564877584" TEXT="Switch without a condition is the same as switch true.   This construct can be a clean way to write long if-then-else chains. "/>
 </node>
 </node>
-<node CREATED="1387562011339" FOLDED="true" ID="ID_1876978940" MODIFIED="1388469189722" TEXT="if">
+<node CREATED="1387562011339" FOLDED="true" ID="ID_1876978940" MODIFIED="1474445684232" TEXT="if">
 <node CREATED="1387562013486" ID="ID_723281032" MODIFIED="1387562026677">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1254,10 +1254,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -1269,16 +1269,16 @@
       func sqrt(x float64) string {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if x &lt; 0 {
+      &#xa0;&#xa0;&#xa0;&#xa0;if x &lt; 0 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return sqrt(-x) + &quot;i&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return sqrt(-x) + "i"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return fmt.Sprint(math.Sqrt(x))
+      &#xa0;&#xa0;&#xa0;&#xa0;return fmt.Sprint(math.Sqrt(x))
     </p>
     <p>
       }
@@ -1290,7 +1290,7 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(sqrt(2), sqrt(-4))
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(sqrt(2), sqrt(-4))
     </p>
     <p>
       }
@@ -1315,10 +1315,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -1330,16 +1330,16 @@
       func pow(x, n, lim float64) float64 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if v := math.Pow(x, n); v &lt; lim {
+      &#xa0;&#xa0;&#xa0;&#xa0;if v := math.Pow(x, n); v &lt; lim {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return v
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return v
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return lim
+      &#xa0;&#xa0;&#xa0;&#xa0;return lim
     </p>
     <p>
       }
@@ -1351,16 +1351,16 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pow(3, 2, 10),
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;pow(3, 2, 10),
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pow(3, 3, 20),
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;pow(3, 3, 20),
     </p>
     <p>
-      &#160;&#160;&#160;&#160;)
+      &#xa0;&#xa0;&#xa0;&#xa0;)
     </p>
     <p>
       }
@@ -1385,10 +1385,10 @@
       import (
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;fmt&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"fmt"
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&quot;math&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;"math"
     </p>
     <p>
       )
@@ -1400,25 +1400,25 @@
       func pow(x, n, lim float64) float64 {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if v := math.Pow(x, n); v &lt; lim {
+      &#xa0;&#xa0;&#xa0;&#xa0;if v := math.Pow(x, n); v &lt; lim {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return v
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return v
     </p>
     <p>
-      &#160;&#160;&#160;&#160;} else {
+      &#xa0;&#xa0;&#xa0;&#xa0;} else {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fmt.Printf(&quot;%g &gt;= %g\n&quot;, v, lim)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fmt.Printf("%g &gt;= %g\n", v, lim)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;// can't use v here, though
+      &#xa0;&#xa0;&#xa0;&#xa0;// can't use v here, though
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return lim
+      &#xa0;&#xa0;&#xa0;&#xa0;return lim
     </p>
     <p>
       }
@@ -1430,16 +1430,16 @@
       func main() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;fmt.Println(
+      &#xa0;&#xa0;&#xa0;&#xa0;fmt.Println(
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pow(3, 2, 10),
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;pow(3, 2, 10),
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pow(3, 3, 20),
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;pow(3, 3, 20),
     </p>
     <p>
-      &#160;&#160;&#160;&#160;)
+      &#xa0;&#xa0;&#xa0;&#xa0;)
     </p>
     <p>
       }
@@ -1487,10 +1487,10 @@
   </head>
   <body>
     <p>
-      set nocompatible&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot; be iMproved
+      set nocompatible&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;" be iMproved
     </p>
     <p>
-      filetype off&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot; required!
+      filetype off&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;" required!
     </p>
     <p>
       set rtp+=~/.vim/bundle/vundle/
@@ -1499,10 +1499,10 @@
       call vundle#rc()
     </p>
     <p>
-      &quot; let Vundle manage Vundle
+      " let Vundle manage Vundle
     </p>
     <p>
-      &quot; required!
+      " required!
     </p>
     <p>
       Bundle 'gmarik/vundle'
@@ -1581,79 +1581,79 @@
       let g:tagbar_type_go = {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'ctagstype' : 'go',
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'ctagstype' : 'go',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'kinds'&#160;&#160;&#160;&#160;&#160;: [
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'kinds'&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;: [
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'p:package',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'p:package',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'i:imports:1',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'i:imports:1',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'c:constants',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'c:constants',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'v:variables',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'v:variables',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 't:types',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 't:types',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'n:interfaces',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'n:interfaces',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'w:fields',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'w:fields',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'e:embedded',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'e:embedded',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'm:methods',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'm:methods',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'r:constructor',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'r:constructor',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'f:functions'
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'f:functions'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ ],
+      &#xa0;&#xa0;&#xa0;&#xa0;\ ],
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'sro' : '.',
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'sro' : '.',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'kind2scope' : {
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'kind2scope' : {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 't' : 'ctype',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 't' : 'ctype',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'n' : 'ntype'
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'n' : 'ntype'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ },
+      &#xa0;&#xa0;&#xa0;&#xa0;\ },
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'scope2kind' : {
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'scope2kind' : {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'ctype' : 't',
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'ctype' : 't',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\ 'ntype' : 'n'
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\ 'ntype' : 'n'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ },
+      &#xa0;&#xa0;&#xa0;&#xa0;\ },
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'ctagsbin'&#160;&#160;: 'gotags',
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'ctagsbin'&#xa0;&#xa0;: 'gotags',
     </p>
     <p>
-      &#160;&#160;&#160;&#160;\ 'ctagsargs' : '-sort -silent'
+      &#xa0;&#xa0;&#xa0;&#xa0;\ 'ctagsargs' : '-sort -silent'
     </p>
     <p>
       \ }

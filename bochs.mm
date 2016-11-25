@@ -1,8 +1,8 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1423357909355" ID="ID_1939533077" MODIFIED="1423357914214" TEXT="bochs">
-<node CREATED="1423357916085" FOLDED="true" ID="ID_210311819" MODIFIED="1453606137819" POSITION="right" TEXT="debuger">
-<node CREATED="1423358457186" ID="ID_1993175775" MODIFIED="1423358457186" TEXT="-*- Debugger control -*-">
+<node CREATED="1423357916085" FOLDED="true" ID="ID_210311819" MODIFIED="1466221335101" POSITION="right" TEXT="debuger">
+<node CREATED="1423358457186" ID="ID_1993175775" MODIFIED="1466176027034" TEXT="-*- Debugger control -*-">
 <node COLOR="#338800" CREATED="1423358457187" ID="ID_736912600" MODIFIED="1423358503618" TEXT="help"/>
 <node COLOR="#338800" CREATED="1423358457187" ID="ID_624742116" MODIFIED="1423358504523" TEXT="q|quit|exit"/>
 <node COLOR="#338800" CREATED="1423358457188" ID="ID_511438871" MODIFIED="1423360646859" TEXT="set"/>
@@ -23,12 +23,12 @@
 <node COLOR="#338800" CREATED="1423358457190" ID="ID_113737542" MODIFIED="1423361337839" TEXT="slist"/>
 </node>
 </node>
-<node CREATED="1423358457190" ID="ID_1059746028" MODIFIED="1453606113224" TEXT="-*- Execution control -*-">
+<node CREATED="1423358457190" FOLDED="true" ID="ID_1059746028" MODIFIED="1466176016201" TEXT="-*- Execution control -*-">
 <node COLOR="#338800" CREATED="1423358457191" ID="ID_180759465" MODIFIED="1423358512639" TEXT="c|cont|continue"/>
 <node COLOR="#338800" CREATED="1423358457191" ID="ID_1275862463" MODIFIED="1423358514104" TEXT="s|step"/>
 <node COLOR="#338800" CREATED="1423358457191" ID="ID_692149221" MODIFIED="1423358515005" TEXT="p|n|next"/>
 </node>
-<node CREATED="1423358457192" ID="ID_1530815423" MODIFIED="1453606133657" TEXT="-*- Breakpoint management -*-">
+<node CREATED="1423358457192" FOLDED="true" ID="ID_1530815423" MODIFIED="1466176021840" TEXT="-*- Breakpoint management -*-">
 <node COLOR="#338800" CREATED="1423361773546" ID="ID_152183966" MODIFIED="1423361806444" TEXT="CRUD">
 <node COLOR="#338800" CREATED="1423361739291" ID="ID_869074967" MODIFIED="1423361807510" TEXT="create">
 <node COLOR="#338800" CREATED="1423358457192" ID="ID_1449125224" MODIFIED="1423361744545" TEXT="vb|vbreak &lt;set:offset&gt;"/>
@@ -53,7 +53,7 @@
 <node COLOR="#338800" CREATED="1423358457196" ID="ID_1996338516" MODIFIED="1423358524798" TEXT="watch"/>
 <node COLOR="#338800" CREATED="1423358457196" ID="ID_1133906842" MODIFIED="1423358526518" TEXT="unwatch"/>
 </node>
-<node CREATED="1423358457197" ID="ID_478532290" MODIFIED="1453606122207" TEXT="-*- CPU and memory contents -*-">
+<node CREATED="1423358457197" FOLDED="true" ID="ID_478532290" MODIFIED="1466176020271" TEXT="-*- CPU and memory contents -*-">
 <node COLOR="#338800" CREATED="1423358457198" ID="ID_868366887" MODIFIED="1423358986707" TEXT="x --examine mem at linear addr"/>
 <node COLOR="#338800" CREATED="1423358457198" ID="ID_533089881" MODIFIED="1423359011209" TEXT="xp --examine mem at physical addr">
 <node CREATED="1423359014943" ID="ID_363856307" MODIFIED="1423359042123" TEXT="x|xp /nuf &lt;addr&gt;">
@@ -104,9 +104,198 @@
 <node COLOR="#990000" CREATED="1423358457201" ID="ID_493735467" MODIFIED="1423359674140" TEXT="mmx"/>
 <node COLOR="#990000" CREATED="1423358457201" ID="ID_759301534" MODIFIED="1423359687395" TEXT="sse"/>
 </node>
-<node COLOR="#ff0000" CREATED="1423358457205" ID="ID_1746218570" MODIFIED="1423361906505" TEXT="-*- Working with bochs param tree -*-">
+<node COLOR="#ff0000" CREATED="1423358457205" FOLDED="true" ID="ID_1746218570" MODIFIED="1466176025612" TEXT="-*- Working with bochs param tree -*-">
 <node COLOR="#ff0000" CREATED="1423358457205" ID="ID_913564682" MODIFIED="1423361908041" TEXT="show &quot;param&quot;"/>
 <node COLOR="#ff0000" CREATED="1423358457205" ID="ID_1476100169" MODIFIED="1423361908771" TEXT="restore"/>
+</node>
+</node>
+<node CREATED="1466221337140" ID="ID_1608907191" MODIFIED="1466221375928" POSITION="right" TEXT="install">
+<node CREATED="1466221346406" ID="ID_569928602" MODIFIED="1466221356008" TEXT="./configure --enable-x86-64 --enable-smp  --enable-disasm  --enable-debugger-gui --enable-gdb-stub --enable-iodebug --enable-x86-debugger"/>
+<node CREATED="1466221377936" ID="ID_1656026023" MODIFIED="1466221386884" TEXT="make &amp;&amp; make install"/>
+</node>
+<node CREATED="1466221389738" ID="ID_437779400" MODIFIED="1466221425014" POSITION="right" TEXT="upstart">
+<node CREATED="1466221427775" ID="ID_1684900913" MODIFIED="1466221453015" TEXT="bochs executable"/>
+<node CREATED="1466221453553" FOLDED="true" ID="ID_1730399827" MODIFIED="1466221897038" TEXT="System BIOS image">
+<node CREATED="1466221481203" ID="ID_773066477" MODIFIED="1466221482011" TEXT="BIOS-bochs-latest"/>
+</node>
+<node CREATED="1466221482890" FOLDED="true" ID="ID_392760617" MODIFIED="1466221833101" TEXT="VGA BIOS image">
+<node CREATED="1466221510335" ID="ID_650427979" MODIFIED="1466221518785" TEXT="VGABIOS-lgpl-latest"/>
+<node CREATED="1466221519152" ID="ID_1135631194" MODIFIED="1466221519733" TEXT="VGABIOS-elpin-2.40"/>
+</node>
+<node CREATED="1466221543866" FOLDED="true" ID="ID_720438097" MODIFIED="1466221885273" TEXT="bootable media">
+<node CREATED="1466221562213" ID="ID_415464912" MODIFIED="1466221579727" TEXT="image/physical">
+<node CREATED="1466221580675" ID="ID_740212216" MODIFIED="1466221585667" TEXT="CD-ROM"/>
+<node CREATED="1466221585915" ID="ID_670046722" MODIFIED="1466221602850" TEXT="Hard Disk"/>
+<node CREATED="1466221607238" ID="ID_29727530" MODIFIED="1466221609960" TEXT="Floppy"/>
+<node COLOR="#990000" CREATED="1466221611418" ID="ID_1354171652" MODIFIED="1466221625852" TEXT="USB ?"/>
+</node>
+</node>
+<node CREATED="1466221862224" ID="ID_14296937" MODIFIED="1466222171236" TEXT="System and VGA BIOS images">
+<node CREATED="1466221783026" ID="ID_929267422" MODIFIED="1466221857660">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-indent: 0px; word-spacing: 0px; font-family: Simsun; font-weight: normal; text-align: start; white-space: normal; text-transform: none; line-height: normal; font-variant: normal; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); letter-spacing: normal; font-size: medium; font-style: normal">
+      
+    </p>
+    <table class="CALSTABLE" border="1" style="text-indent: 0px; word-spacing: 0px; font-family: Simsun; font-weight: normal; text-align: start; white-space: normal; text-transform: none; line-height: normal; font-variant: normal; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); letter-spacing: normal; font-size: medium; font-style: normal" rules="all">
+      <colgroup>
+      <col />
+      <col />
+      </colgroup>
+      
+
+      <tr>
+        <th>
+          File
+        </th>
+        <th>
+          Description
+        </th>
+      </tr>
+      <tr>
+        <td>
+          BIOS-bochs-latest
+        </td>
+        <td>
+          default ROM BIOS image for Bochs
+        </td>
+      </tr>
+      <tr>
+        <td>
+          BIOS-bochs-legacy
+        </td>
+        <td>
+          ROM BIOS image without 32-bit init code (for i386 and ISA graphics card emulation)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          bios.bin-1.7.5
+        </td>
+        <td>
+          SeaBIOS ROM image
+        </td>
+      </tr>
+      <tr>
+        <td>
+          VGABIOS-elpin-2.40
+        </td>
+        <td>
+          legacy VGA BIOS image for Bochs
+        </td>
+      </tr>
+      <tr>
+        <td>
+          VGABIOS-lgpl-latest
+        </td>
+        <td>
+          LGPL'd VGA BIOS image for Bochs
+        </td>
+      </tr>
+      <tr>
+        <td>
+          VGABIOS-lgpl-latest-debug
+        </td>
+        <td>
+          LGPL'd VGA BIOS image for Bochs with debug output to the logfile
+        </td>
+      </tr>
+      <tr>
+        <td>
+          VGABIOS-lgpl-latest-cirrus
+        </td>
+        <td>
+          LGPL'd VGA BIOS image for Bochs with the Cirrus extension enabled
+        </td>
+      </tr>
+      <tr>
+        <td>
+          VGABIOS-lgpl-latest-cirrus-debug
+        </td>
+        <td>
+          LGPL'd VGA BIOS image for Bochs with the Cirrus extension enabled and debug output to the logfile
+        </td>
+      </tr>
+    </table>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1466222172844" ID="ID_561915112" MODIFIED="1466222173946" TEXT="ISA ROM space">
+<node CREATED="1466222221586" LINK="http://bochs.sourceforge.net/doc/docbook/user/bochsrc.html#BOCHSOPT-OPTROM&quot; style=&quot;font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" MODIFIED="1466222221586">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <a style="text-indent: 0px; word-spacing: 0px; font-family: Simsun; font-weight: normal; text-align: start; white-space: normal; text-transform: none; line-height: normal; font-variant: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-size: medium; font-style: normal" href="http://bochs.sourceforge.net/doc/docbook/user/bochsrc.html#BOCHSOPT-OPTROM"><font face="Simsun" size="medium">Section 4.3.10</font></a>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1466222195964" ID="ID_192106421" MODIFIED="1466222196666" TEXT="PCI ROM space">
+<node CREATED="1466222233658" LINK="http://bochs.sourceforge.net/doc/docbook/user/bochsrc.html#BOCHSOPT-NE2K&quot; style=&quot;font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" MODIFIED="1466222233658">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <a style="text-indent: 0px; word-spacing: 0px; font-family: Simsun; font-weight: normal; text-align: start; white-space: normal; text-transform: none; line-height: normal; font-variant: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-size: medium; font-style: normal" href="http://bochs.sourceforge.net/doc/docbook/user/bochsrc.html#BOCHSOPT-NE2K"><font face="Simsun" size="medium">Section 4.3.34</font></a>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1466222265644" ID="ID_563429962" MODIFIED="1466222266356" TEXT="Cirrus SVGA adapter">
+<node CREATED="1466222275954" LINK="http://bochs.sourceforge.net/doc/docbook/user/cirrus-notes.html&quot; style=&quot;font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" MODIFIED="1466222275954">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <a style="text-indent: 0px; word-spacing: 0px; font-family: Simsun; font-weight: normal; text-align: start; white-space: normal; text-transform: none; line-height: normal; font-variant: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-size: medium; font-style: normal" href="http://bochs.sourceforge.net/doc/docbook/user/cirrus-notes.html"><font face="Simsun" size="medium">Section 8.19</font></a>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1466222313509" ID="ID_596205870" MODIFIED="1466222314470" TEXT="bochsrc">
+<node CREATED="1466222407591" ID="ID_954655350" MODIFIED="1466222410520" TEXT="search path">
+<node CREATED="1466222519591" ID="ID_721271155" MODIFIED="1466222539480">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        .bochsrc in the current directory
+      </li>
+      <li>
+        bochsrc in the current directory
+      </li>
+      <li>
+        bochsrc.txt in the current directory
+      </li>
+      <li>
+        (win32 only) bochsrc.bxrc in the current directory
+      </li>
+      <li>
+        (Unix only) .bochsrc in the user's home directory
+      </li>
+      <li>
+        (Unix only) bochsrc in the /etc directory
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

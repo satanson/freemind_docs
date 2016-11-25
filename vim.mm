@@ -1,6 +1,6 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1407531232735" ID="ID_32272365" MODIFIED="1414053518467" TEXT="vim">
+<node CREATED="1407531232735" ID="ID_32272365" MODIFIED="1473403260853" TEXT="vim">
 <node CREATED="1407547242067" ID="ID_1584819950" MODIFIED="1456305244962" POSITION="right" TEXT="script">
 <node CREATED="1407547252187" FOLDED="true" ID="ID_1423571235" MODIFIED="1456229677767" TEXT="syntax highlight">
 <node CREATED="1407547263938" ID="ID_469641576" MODIFIED="1456224297949" TEXT="syntax">
@@ -71,7 +71,7 @@
       autogroup filetypedetect
     </p>
     <p>
-      autocmd BufNewFile, BufRead *.ext&#160;&#160;setfiletype ext
+      autocmd BufNewFile, BufRead *.ext&#xa0;&#xa0;setfiletype ext
     </p>
     <p>
       autogroup END
@@ -534,25 +534,25 @@
       function! Println(...)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;let line=&quot;&quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;let line=""
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;let argnum=1
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;let argnum=1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;while argnum&lt;=a:0
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;while argnum&lt;=a:0
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;let line .=a:{argnum}.&quot; &quot;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;let line .=a:{argnum}." "
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;let argnum+=1
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;let argnum+=1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;endwhile
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;endwhile
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;echo line
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;echo line
     </p>
     <p>
       endfunction
@@ -603,7 +603,7 @@
 </node>
 </node>
 <node CREATED="1407897627699" ID="ID_556878703" MODIFIED="1456228539711" TEXT="&amp;option -- vim option">
-<node CREATED="1407898683931" FOLDED="true" ID="ID_1660943887" MODIFIED="1456229525560" TEXT=":set -- set">
+<node CREATED="1407898683931" ID="ID_1660943887" MODIFIED="1473403281856" TEXT=":set -- set">
 <node CREATED="1407898868735" ID="ID_277438278" MODIFIED="1407898916176" TEXT=":se[t]  -- show all options that differ from their default value"/>
 <node CREATED="1407898917329" ID="ID_777053131" MODIFIED="1407898939145" TEXT=":se[t] all -- show all but terminal options"/>
 <node CREATED="1407898945489" ID="ID_1735403645" MODIFIED="1407898970733" TEXT=":se[t] termcap -- show terminal options"/>
@@ -613,7 +613,7 @@
 <node CREATED="1407899414725" ID="ID_568883880" MODIFIED="1407899457624" TEXT=":se[t] all&amp; -- reset all but terminal options to default "/>
 </node>
 <node CREATED="1456225703384" ID="ID_1966974090" MODIFIED="1456228230606" TEXT="&amp;option -- get"/>
-<node CREATED="1456225711652" FOLDED="true" ID="ID_1963168715" MODIFIED="1456229514784" TEXT="type">
+<node CREATED="1456225711652" ID="ID_1963168715" MODIFIED="1473403284084" TEXT="type">
 <node CREATED="1407898708644" ID="ID_910682598" MODIFIED="1456225721384" TEXT="boolean/toggle">
 <node CREATED="1407899071990" ID="ID_1768422274" MODIFIED="1407899100127" TEXT="se[t] {option} -- set"/>
 <node CREATED="1407899085459" ID="ID_213026240" MODIFIED="1407899103819" TEXT="se[t] no{option} -- reset"/>

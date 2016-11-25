@@ -1,14 +1,15 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1339490731432" ID="ID_1698989523" MODIFIED="1389810155384" TEXT="python">
-<node CREATED="1340382207821" FOLDED="true" ID="ID_241930422" MODIFIED="1446185141476" POSITION="right" TEXT="program structure">
+<node CREATED="1468291363317" ID="ID_641592235" MODIFIED="1468376128837" POSITION="right" TEXT="CPython">
+<node CREATED="1340382207821" ID="ID_241930422" MODIFIED="1468303559442" TEXT="program structure">
 <node CREATED="1343451089222" FOLDED="true" ID="ID_981985245" MODIFIED="1414463968820" TEXT="shbang">
 <node CREATED="1343451110719" ID="ID_1010072118" MODIFIED="1343451127163" TEXT="#!/bin/env python"/>
 <node CREATED="1414463922519" ID="ID_1253851160" MODIFIED="1414463933091" TEXT="#!/bin/python"/>
 <node CREATED="1414463933248" ID="ID_1235220800" MODIFIED="1414463940377" TEXT="#!/usr/bin/python"/>
 </node>
 <node CREATED="1340471337819" ID="ID_568720745" MODIFIED="1414463981006" TEXT="module">
-<node CREATED="1414463982600" FOLDED="true" ID="ID_353021483" MODIFIED="1414484352963" TEXT="import">
+<node CREATED="1414463982600" ID="ID_353021483" MODIFIED="1468303561135" TEXT="import">
 <node CREATED="1340476426542" ID="ID_709256630" MODIFIED="1414463987350" TEXT="from module_name import *"/>
 <node CREATED="1340471424561" ID="ID_1563396834" MODIFIED="1414463987347" TEXT="from  module_name import symbol"/>
 <node CREATED="1340471413976" ID="ID_461827687" MODIFIED="1414463987344" TEXT="import module_name"/>
@@ -185,7 +186,7 @@
 <node CREATED="1353170320353" ID="ID_536903833" MODIFIED="1353170336347" TEXT="decimal.Decimal"/>
 <node CREATED="1353170323021" ID="ID_437592003" MODIFIED="1353170354297" TEXT="fractions.Fraction"/>
 </node>
-<node CREATED="1340386292447" FOLDED="true" ID="ID_1388657339" MODIFIED="1417974063576" TEXT="expr">
+<node CREATED="1340386292447" FOLDED="true" ID="ID_1388657339" MODIFIED="1468303849441" TEXT="expr">
 <node CREATED="1343462271606" ID="ID_656820386" MODIFIED="1386684072831" TEXT="data type">
 <node CREATED="1343462291598" FOLDED="true" ID="ID_1157464373" MODIFIED="1417075251956" TEXT="primitive types">
 <node CREATED="1340386357107" FOLDED="true" ID="ID_1629001754" MODIFIED="1358142920740" TEXT="number">
@@ -371,28 +372,28 @@
 </node>
 <node CREATED="1340718201925" ID="ID_736965089" MODIFIED="1340718263586" TEXT="utf-8">
 <node CREATED="1340718233412" ID="ID_1748049677" MODIFIED="1340718248593">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;000000 - 00007F&#x3000;&#x2551;&#x3000;0xxxxxxx&#xd;&#xd;
-&#xd;&#xd;
-    <div class="spctrl">&#xd;&#xd;
-      &#xd;&#xd;
-    </div>&#xd;&#xd;
-    &#x3000;&#x3000;000080 - 0007FF&#x3000;&#x2551;&#x3000;110xxxxx 10xxxxxx&#xd;&#xd;
-&#xd;&#xd;
-    <div class="spctrl">&#xd;&#xd;
-      &#xd;&#xd;
-    </div>&#xd;&#xd;
-    &#x3000;&#x3000;000800 - 00FFFF&#x3000;&#x2551;&#x3000;1110xxxx 10xxxxxx 10xxxxxx&#xd;&#xd;
-&#xd;&#xd;
-    <div class="spctrl">&#xd;&#xd;
-      &#xd;&#xd;
-    </div>&#xd;&#xd;
-    &#x3000;&#x3000;010000 - 10FFFF&#x3000;&#x2551;&#x3000;11110xxx 10xxxxxx 10xxxxxx 10xxxxxx&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;000000 - 00007F&#x3000;&#x2551;&#x3000;0xxxxxxx&#13;&#13;
+&#13;&#13;
+    <div class="spctrl">&#13;&#13;
+      &#13;&#13;
+    </div>&#13;&#13;
+    &#x3000;&#x3000;000080 - 0007FF&#x3000;&#x2551;&#x3000;110xxxxx 10xxxxxx&#13;&#13;
+&#13;&#13;
+    <div class="spctrl">&#13;&#13;
+      &#13;&#13;
+    </div>&#13;&#13;
+    &#x3000;&#x3000;000800 - 00FFFF&#x3000;&#x2551;&#x3000;1110xxxx 10xxxxxx 10xxxxxx&#13;&#13;
+&#13;&#13;
+    <div class="spctrl">&#13;&#13;
+      &#13;&#13;
+    </div>&#13;&#13;
+    &#x3000;&#x3000;010000 - 10FFFF&#x3000;&#x2551;&#x3000;11110xxx 10xxxxxx 10xxxxxx 10xxxxxx&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -544,21 +545,21 @@
 <node CREATED="1340631557483" ID="ID_1215593541" MODIFIED="1340631601696" TEXT="Template.safe_substitute (key1=value1,key2=value2,...)"/>
 <node CREATED="1343463502825" ID="ID_662419965" MODIFIED="1343463503982" TEXT="demo">
 <node CREATED="1343463506795" ID="ID_451221436" MODIFIED="1343463601365">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      from string import Template&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      t=Template("${name} is ${gender}")&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      s=t.substitute(name="ranpanf",gender="boy")&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      from string import Template&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      t=Template("${name} is ${gender}")&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      s=t.substitute(name="ranpanf",gender="boy")&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -906,7 +907,7 @@
 <node CREATED="1340519485460" ID="ID_319367799" MODIFIED="1340519495127" TEXT="user-defined class instance whose method __nonzero__() or __len__() return zero "/>
 </node>
 </node>
-<node CREATED="1340460713268" FOLDED="true" ID="ID_593013080" MODIFIED="1388256142967" TEXT="branch">
+<node CREATED="1340460713268" ID="ID_593013080" MODIFIED="1468303873040" TEXT="branch">
 <node CREATED="1340460965132" ID="ID_196880921" MODIFIED="1340462437499" TEXT="if">
 <node CREATED="1340462438877" ID="ID_1715901684" MODIFIED="1340462478608" TEXT="if-elif-else"/>
 <node CREATED="1340807177507" ID="ID_1842338270" MODIFIED="1340807234060" TEXT="python has no ?: ,but">
@@ -1017,7 +1018,7 @@
 <node CREATED="1343473985718" ID="ID_19644890" MODIFIED="1343473988497" TEXT="... ..."/>
 </node>
 </node>
-<node CREATED="1340467468722" FOLDED="true" ID="ID_1518790071" MODIFIED="1446185136935" POSITION="right" TEXT="OOP">
+<node CREATED="1340467468722" FOLDED="true" ID="ID_1518790071" MODIFIED="1468312184403" TEXT="OOP">
 <node CREATED="1340467583984" ID="ID_660304461" MODIFIED="1416985700479" TEXT="definition">
 <node CREATED="1340467591637" ID="ID_1344182374" MODIFIED="1340467620371" TEXT="class ClassName(base_class[es]):"/>
 <node CREATED="1340467664007" ID="ID_262512097" MODIFIED="1409063173230" TEXT="attribute">
@@ -1052,81 +1053,81 @@
 <node CREATED="1370312531585" FOLDED="true" ID="ID_401188849" MODIFIED="1409063393250" TEXT="super &quot;cooperative super call&quot;,&quot;call-next-method&quot;">
 <node CREATED="1370312536561" ID="ID_733702088" MODIFIED="1409063244728" TEXT="super(type, obj)">
 <node CREATED="1370314861610" ID="ID_15958206" MODIFIED="1370315066651">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre/>&#xd;&#xd;
-    <pre>class A(object):&#xd;&#xd;
-    def m(self):&#xd;&#xd;
-        return "A"&#xd;&#xd;
-&#xd;&#xd;
-class B(A):&#xd;&#xd;
-    def m(self):&#xd;&#xd;
-        return "B" + Super(B, self).m()&#xd;&#xd;
-&#xd;&#xd;
-class C(A):&#xd;&#xd;
-    def m(self):&#xd;&#xd;
-        return "C" + Super(C, self).m()&#xd;&#xd;
-&#xd;&#xd;
-class D(C, B):&#xd;&#xd;
-    def m(self):&#xd;&#xd;
-        return "D" + Super(D, self).m()&#xd;&#xd;
-&#xd;&#xd;
-print D().m() # "DCBA"</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre/>&#13;&#13;
+    <pre>class A(object):&#13;&#13;
+    def m(self):&#13;&#13;
+        return "A"&#13;&#13;
+&#13;&#13;
+class B(A):&#13;&#13;
+    def m(self):&#13;&#13;
+        return "B" + Super(B, self).m()&#13;&#13;
+&#13;&#13;
+class C(A):&#13;&#13;
+    def m(self):&#13;&#13;
+        return "C" + Super(C, self).m()&#13;&#13;
+&#13;&#13;
+class D(C, B):&#13;&#13;
+    def m(self):&#13;&#13;
+        return "D" + Super(D, self).m()&#13;&#13;
+&#13;&#13;
+print D().m() # "DCBA"</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370314668489" ID="ID_1017349045" MODIFIED="1409063335111" TEXT="super(type, type2)">
 <node CREATED="1370315038090" ID="ID_1003426431" MODIFIED="1370315046330">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      super(type, type2)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;super(cls&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;classRoundFloat(float):&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;def__new__(cls, val):&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;returnsuper(RoundFloat, cls).__new__(&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;cls, round(val, 2))&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      super(type, type2)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;super(cls&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;classRoundFloat(float):&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;def__new__(cls, val):&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;returnsuper(RoundFloat, cls).__new__(&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;cls, round(val, 2))&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1370314638218" ID="ID_615897105" MODIFIED="1409063363053" TEXT="super(type)">
 <node CREATED="1370314593664" ID="ID_22136688" MODIFIED="1370314640834">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre>class A:&#xd;&#xd;
-        def m(self): "save A's data"&#xd;&#xd;
-    class B(A):&#xd;&#xd;
-        def m(self): "save B's data"; self.__super.m()&#xd;&#xd;
-    B._B__super = super(B)&#xd;&#xd;
-    class C(A):&#xd;&#xd;
-        def m(self): "save C's data"; self.__super.m()&#xd;&#xd;
-    C._C__super = super(C)&#xd;&#xd;
-    class D(B, C):&#xd;&#xd;
-        def m(self): "save D's data"; self.__super.m()&#xd;&#xd;
-    D._D__super = super(D)</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre>class A:&#13;&#13;
+        def m(self): "save A's data"&#13;&#13;
+    class B(A):&#13;&#13;
+        def m(self): "save B's data"; self.__super.m()&#13;&#13;
+    B._B__super = super(B)&#13;&#13;
+    class C(A):&#13;&#13;
+        def m(self): "save C's data"; self.__super.m()&#13;&#13;
+    C._C__super = super(C)&#13;&#13;
+    class D(B, C):&#13;&#13;
+        def m(self): "save D's data"; self.__super.m()&#13;&#13;
+    D._D__super = super(D)</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1324,7 +1325,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1370333466168" ID="ID_547186324" MODIFIED="1370333469191" TEXT="__del__"/>
 </node>
 </node>
-<node CREATED="1340518320383" FOLDED="true" ID="ID_288479135" MODIFIED="1409063454886" POSITION="right" TEXT="python  object">
+<node CREATED="1340518320383" FOLDED="true" ID="ID_288479135" MODIFIED="1468291374045" TEXT="python  object">
 <node CREATED="1340518548503" FOLDED="true" ID="ID_587032191" MODIFIED="1370184450861" TEXT="has three characteristics">
 <node CREATED="1340518628278" ID="ID_1600723046" MODIFIED="1340518633545" TEXT="identity">
 <node CREATED="1340518635048" ID="ID_94847769" MODIFIED="1340518646740" TEXT="id(object) BIF"/>
@@ -1351,12 +1352,12 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1370184504643" ID="ID_1544939504" MODIFIED="1370184632775" TEXT="decrease reference count to a object, remove a name  from current namespace"/>
 </node>
 </node>
-<node CREATED="1340383873074" ID="ID_709410465" MODIFIED="1370184572487" POSITION="right" TEXT="interpreter">
+<node CREATED="1340383873074" ID="ID_709410465" MODIFIED="1468291374044" TEXT="interpreter">
 <node CREATED="1340383883074" ID="ID_365715152" MODIFIED="1340383898466" TEXT="_(underscore)">
 <node CREATED="1340383901244" ID="ID_1635152452" MODIFIED="1340383926646" TEXT="the last evaluated expr"/>
 </node>
 </node>
-<node CREATED="1340479043776" FOLDED="true" ID="ID_1695597056" MODIFIED="1414465935194" POSITION="right" TEXT="debug">
+<node CREATED="1340479043776" FOLDED="true" ID="ID_1695597056" MODIFIED="1468291374041" TEXT="debug">
 <node CREATED="1340479306097" ID="ID_263518460" MODIFIED="1340479647751" TEXT="utility pdb"/>
 <node CREATED="1340479648854" ID="ID_1137714786" MODIFIED="1340479653556" TEXT="package  logging"/>
 <node CREATED="1340479757457" FOLDED="true" ID="ID_1349262855" MODIFIED="1370184581569" TEXT="profile">
@@ -1365,7 +1366,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1340479777679" ID="ID_1192188920" MODIFIED="1340479780993" TEXT="cProfile"/>
 </node>
 </node>
-<node CREATED="1340473160593" FOLDED="true" ID="ID_1375705788" MODIFIED="1414465937734" POSITION="right" TEXT="__builtin__">
+<node CREATED="1340473160593" FOLDED="true" ID="ID_1375705788" MODIFIED="1468291374040" TEXT="__builtin__">
 <node CREATED="1340473175474" FOLDED="true" ID="ID_1728213683" MODIFIED="1370185544313" TEXT="function">
 <node CREATED="1340473768130" ID="ID_781414173" MODIFIED="1340473769528" TEXT="repr">
 <node CREATED="1340522180134" ID="ID_97976443" MODIFIED="1340522182891" TEXT="``"/>
@@ -1427,7 +1428,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1340523182115" ID="ID_1652082653" MODIFIED="1340523184262" TEXT="property"/>
 </node>
 </node>
-<node CREATED="1340385926237" FOLDED="true" ID="ID_1110906236" MODIFIED="1414465939298" POSITION="right" TEXT="help">
+<node CREATED="1340385926237" FOLDED="true" ID="ID_1110906236" MODIFIED="1468291374039" TEXT="help">
 <node CREATED="1340385932137" ID="ID_1497042725" MODIFIED="1370184702592" TEXT="help"/>
 <node CREATED="1340472714819" ID="ID_1642347477" MODIFIED="1370184710481" TEXT="dir">
 <node CREATED="1340472939423" ID="ID_1247492556" MODIFIED="1340473069850" TEXT="show list containing symbols"/>
@@ -1440,7 +1441,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1340471617315" ID="ID_954886298" LINK="http://python.org/dev/peps " MODIFIED="1340471670895" TEXT="http://python.org/dev/peps"/>
 </node>
 </node>
-<node CREATED="1340386400727" FOLDED="true" ID="ID_1990733267" MODIFIED="1414465884068" POSITION="right" TEXT="specialty">
+<node CREATED="1340386400727" FOLDED="true" ID="ID_1990733267" MODIFIED="1468291374038" TEXT="specialty">
 <node CREATED="1340386474107" ID="ID_1696734288" MODIFIED="1370184759254" TEXT="documentation string">
 <icon BUILTIN="full-0"/>
 <icon BUILTIN="full-0"/>
@@ -1533,7 +1534,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <icon BUILTIN="full-2"/>
 </node>
 </node>
-<node CREATED="1370184780434" ID="ID_1559158934" MODIFIED="1414465878151" POSITION="right" TEXT="module">
+<node CREATED="1370184780434" ID="ID_1559158934" MODIFIED="1468291374036" TEXT="module">
 <node CREATED="1340865423698" FOLDED="true" ID="ID_120518355" MODIFIED="1414465881429" TEXT="file system">
 <node CREATED="1340865518773" FOLDED="true" ID="ID_215822587" MODIFIED="1367226800500" TEXT="os">
 <node CREATED="1343452114229" ID="ID_1643804256" MODIFIED="1358144259872" TEXT="posix">
@@ -1612,8 +1613,9 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 </node>
 </node>
 </node>
-<node CREATED="1446194614272" ID="ID_1691975672" MODIFIED="1446195792811" POSITION="right" TEXT="">
-<node CREATED="1446194856523" FOLDED="true" ID="ID_254556808" MODIFIED="1446195623913" TEXT="Py{Bool, Int, Float, Double, Complex}">
+</node>
+<node CREATED="1446194614272" FOLDED="true" ID="ID_1691975672" MODIFIED="1468303694510" POSITION="right" TEXT="embedding &amp; extensions">
+<node CREATED="1446194856523" FOLDED="true" ID="ID_254556808" MODIFIED="1468303694510" TEXT="Py{Bool, Int, Float, Double, Complex}">
 <node CREATED="1446194615947" FOLDED="true" ID="ID_1114357955" MODIFIED="1446194818513" TEXT="PyComplex*">
 <node CREATED="1446194615947" MODIFIED="1446194615947" TEXT="PyComplex_AsCComplex"/>
 <node CREATED="1446194615948" MODIFIED="1446194615948" TEXT="PyComplex_FromCComplex"/>
@@ -1674,7 +1676,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194616011" MODIFIED="1446194616011" TEXT="PyFloat_GetMax"/>
 <node CREATED="1446194616011" MODIFIED="1446194616011" TEXT="PyFloat_GetMin"/>
 </node>
-<node CREATED="1446194616080" FOLDED="true" ID="ID_1417550784" MODIFIED="1446195313976" TEXT="PyNumber*">
+<node CREATED="1446194616080" FOLDED="true" ID="ID_1417550784" MODIFIED="1468303694509" TEXT="PyNumber*">
 <node CREATED="1446194616080" MODIFIED="1446194616080" TEXT="PyNumber_Absolute"/>
 <node CREATED="1446194616081" MODIFIED="1446194616081" TEXT="PyNumber_Add"/>
 <node CREATED="1446194616081" MODIFIED="1446194616081" TEXT="PyNumber_And"/>
@@ -1693,7 +1695,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194616085" MODIFIED="1446194616085" TEXT="PyNumber_InPlaceLshift"/>
 <node CREATED="1446194616085" MODIFIED="1446194616085" TEXT="PyNumber_InPlaceMultiply"/>
 <node CREATED="1446194616086" MODIFIED="1446194616086" TEXT="PyNumber_InPlaceOr"/>
-<node CREATED="1446194616086" MODIFIED="1446194616086" TEXT="PyNumber_InPlaceRemainder"/>
+<node CREATED="1446194616086" ID="ID_1176546395" MODIFIED="1446194616086" TEXT="PyNumber_InPlaceRemainder"/>
 <node CREATED="1446194616086" MODIFIED="1446194616086" TEXT="PyNumber_InPlaceRshift"/>
 <node CREATED="1446194616086" MODIFIED="1446194616086" TEXT="PyNumber_InPlaceSubtract"/>
 <node CREATED="1446194616087" MODIFIED="1446194616087" TEXT="PyNumber_InPlaceXor"/>
@@ -1705,7 +1707,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194616088" MODIFIED="1446194616088" TEXT="PyNumber_Negative"/>
 <node CREATED="1446194616089" MODIFIED="1446194616089" TEXT="PyNumber_Or"/>
 <node CREATED="1446194616089" MODIFIED="1446194616089" TEXT="PyNumber_Positive"/>
-<node CREATED="1446194616089" MODIFIED="1446194616089" TEXT="PyNumber_Remainder"/>
+<node CREATED="1446194616089" ID="ID_45320816" MODIFIED="1446194616089" TEXT="PyNumber_Remainder"/>
 <node CREATED="1446194616089" MODIFIED="1446194616089" TEXT="PyNumber_Rshift"/>
 <node CREATED="1446194616090" MODIFIED="1446194616090" TEXT="PyNumber_Subtract"/>
 <node CREATED="1446194616090" MODIFIED="1446194616090" TEXT="PyNumber_ToBase"/>
@@ -1918,7 +1920,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194616072" MODIFIED="1446194616072" TEXT="PyRun_SimpleFileExFlags"/>
 <node CREATED="1446194616073" MODIFIED="1446194616073" TEXT="PyRun_SimpleStringFlags"/>
 </node>
-<node CREATED="1446194616116" FOLDED="true" ID="ID_1488548312" MODIFIED="1446195772431" TEXT="Py*">
+<node CREATED="1446194616116" FOLDED="true" ID="ID_1488548312" MODIFIED="1468303692157" TEXT="Py*">
 <node CREATED="1446194616116" MODIFIED="1446194616116" TEXT="Py_AddPendingCall"/>
 <node CREATED="1446194616117" MODIFIED="1446194616117" TEXT="Py_AtExit"/>
 <node CREATED="1446194616117" MODIFIED="1446194616117" TEXT="Py_BuildValue"/>
@@ -1947,7 +1949,7 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194616125" MODIFIED="1446194616125" TEXT="Py_Initialize"/>
 <node CREATED="1446194616126" MODIFIED="1446194616126" TEXT="Py_InitializeEx"/>
 <node CREATED="1446194616126" MODIFIED="1446194616126" TEXT="Py_IsInitialized"/>
-<node CREATED="1446194616126" MODIFIED="1446194616126" TEXT="Py_Main"/>
+<node CREATED="1446194616126" ID="ID_246285861" MODIFIED="1446194616126" TEXT="Py_Main"/>
 <node CREATED="1446194616127" MODIFIED="1446194616127" TEXT="Py_MakePendingCalls"/>
 <node CREATED="1446194616127" MODIFIED="1446194616127" TEXT="Py_NewInterpreter"/>
 <node CREATED="1446194616127" MODIFIED="1446194616127" TEXT="Py_ReprEnter"/>
@@ -1981,18 +1983,18 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194616167" MODIFIED="1446194616167" TEXT="PyStaticMethod_New"/>
 </node>
 </node>
-<node CREATED="1446194616149" FOLDED="true" ID="ID_121785936" MODIFIED="1446195619741" TEXT="PyImport*">
-<node CREATED="1446194616149" MODIFIED="1446194616149" TEXT="PyImport_AddModule"/>
-<node CREATED="1446194616150" MODIFIED="1446194616150" TEXT="PyImport_AppendInittab"/>
-<node CREATED="1446194616150" MODIFIED="1446194616150" TEXT="PyImport_Cleanup"/>
-<node CREATED="1446194616150" MODIFIED="1446194616150" TEXT="PyImport_ExecCodeModule"/>
-<node CREATED="1446194616151" MODIFIED="1446194616151" TEXT="PyImport_ExtendInittab"/>
-<node CREATED="1446194616151" MODIFIED="1446194616151" TEXT="PyImport_GetImporter"/>
-<node CREATED="1446194616152" MODIFIED="1446194616152" TEXT="PyImport_GetMagicNumber"/>
-<node CREATED="1446194616152" MODIFIED="1446194616152" TEXT="PyImport_GetModuleDict"/>
-<node CREATED="1446194616153" MODIFIED="1446194616153" TEXT="PyImport_Import"/>
+<node CREATED="1446194616149" FOLDED="true" ID="ID_121785936" MODIFIED="1468303559403" TEXT="PyImport*">
+<node CREATED="1446194616149" ID="ID_1909234934" MODIFIED="1446194616149" TEXT="PyImport_AddModule"/>
+<node CREATED="1446194616150" ID="ID_1356400530" MODIFIED="1446194616150" TEXT="PyImport_AppendInittab"/>
+<node CREATED="1446194616150" ID="ID_366619629" MODIFIED="1446194616150" TEXT="PyImport_Cleanup"/>
+<node CREATED="1446194616150" ID="ID_1971687344" MODIFIED="1446194616150" TEXT="PyImport_ExecCodeModule"/>
+<node CREATED="1446194616151" ID="ID_1777356882" MODIFIED="1446194616151" TEXT="PyImport_ExtendInittab"/>
+<node CREATED="1446194616151" ID="ID_1766654395" MODIFIED="1446194616151" TEXT="PyImport_GetImporter"/>
+<node CREATED="1446194616152" ID="ID_1976023847" MODIFIED="1446194616152" TEXT="PyImport_GetMagicNumber"/>
+<node CREATED="1446194616152" ID="ID_422410970" MODIFIED="1446194616152" TEXT="PyImport_GetModuleDict"/>
+<node CREATED="1446194616153" ID="ID_218531643" MODIFIED="1446194616153" TEXT="PyImport_Import"/>
 <node CREATED="1446194616153" ID="ID_1117520991" MODIFIED="1446194616153" TEXT="PyImport_ImportFrozenModule"/>
-<node CREATED="1446194616154" MODIFIED="1446194616154" TEXT="PyImport_ImportModule"/>
+<node CREATED="1446194616154" ID="ID_1013351916" MODIFIED="1446194616154" TEXT="PyImport_ImportModule"/>
 <node CREATED="1446194616154" ID="ID_1775663103" MODIFIED="1446194616154" TEXT="PyImport_ImportModuleNoBlock"/>
 <node CREATED="1446194616155" ID="ID_41358968" MODIFIED="1446194616155" TEXT="PyImport_ReloadModule"/>
 </node>
@@ -2314,6 +2316,21 @@ print D().m() # "DCBA"</pre>&#xd;&#xd;
 <node CREATED="1446194615946" MODIFIED="1446194615946" TEXT="PyUnicodeEncodeError_SetEnd"/>
 <node CREATED="1446194615947" MODIFIED="1446194615947" TEXT="PyUnicodeEncodeError_SetStart"/>
 </node>
+</node>
+</node>
+<node CREATED="1468291378258" ID="ID_43656489" MODIFIED="1468291386560" POSITION="right" TEXT="Jython">
+<node CREATED="1468291389206" ID="ID_1581769086" MODIFIED="1468291896872" TEXT="jython-standalone-2.7.0.jar #Using Jython Within Java Applications"/>
+<node CREATED="1468291436711" ID="ID_1106372409" MODIFIED="1468291877746" TEXT="jython-installer-2.7.0.jar #Using Java Within Jython Applications">
+<node CREATED="1468291516219" ID="ID_21806630" MODIFIED="1468291524853" TEXT="installation">
+<node CREATED="1468291525606" ID="ID_1198419111" MODIFIED="1468291583021" TEXT="java -jar jython_installer-2.7.0.jar"/>
+<node CREATED="1468291586998" ID="ID_1297317024" MODIFIED="1468291597732" TEXT="java -jar jython_installer-2.7.0.jar --console"/>
+<node CREATED="1468291671796" ID="ID_992017933" MODIFIED="1468291678404" TEXT="standalone">
+<node CREATED="1468291679728" ID="ID_1305129949" MODIFIED="1468291680401" TEXT="java -jar jython.jar"/>
+<node CREATED="1468291695619" ID="ID_184588659" MODIFIED="1468291696411" TEXT="java -jar jython_installer-2.7.0.jar"/>
+<node CREATED="1468291703615" ID="ID_1057449274" MODIFIED="1468291704361" TEXT="java -jar jython.jar script.py"/>
+</node>
+</node>
+<node CREATED="1468291713240" ID="ID_818246746" MODIFIED="1468291732214" TEXT="jython script.py"/>
 </node>
 </node>
 </node>
