@@ -1,0 +1,11 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1465114616196" ID="ID_733209582" MODIFIED="1465114626451" TEXT="dsl">
+<node CREATED="1465114650606" ID="ID_1753091501" MODIFIED="1465114664136" POSITION="right" TEXT="template">
+<node CREATED="1465114664800" ID="ID_3757221" MODIFIED="1465114675671" TEXT="smarty PHP"/>
+<node CREATED="1465114675897" ID="ID_1131755068" MODIFIED="1465114683322" TEXT="jinja2 Python"/>
+<node CREATED="1465114683849" ID="ID_768420265" MODIFIED="1465114700535" TEXT="freemarker java"/>
+<node CREATED="1465114700782" ID="ID_1245046649" MODIFIED="1465114709480" TEXT="velocity java"/>
+</node>
+</node>
+</map>
