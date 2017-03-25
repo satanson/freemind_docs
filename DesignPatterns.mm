@@ -34,7 +34,7 @@
 <icon BUILTIN="full-6"/>
 <node CREATED="1345918799766" ID="ID_329020476" MODIFIED="1345918803611" TEXT="i.e.">
 <node CREATED="1345919304455" ID="ID_985085158" MODIFIED="1345919319341" TEXT="Dependency Inversion Principle">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1345919333337" ID="ID_64042345" MODIFIED="1345919333337" TEXT="No variable should hold a reference to a concrete class."/>
 <node CREATED="1345919343132" ID="ID_1856923242" MODIFIED="1345919343132" TEXT="No class should derive from a concrete class."/>
 <node CREATED="1345919358945" ID="ID_292321353" MODIFIED="1345919361726" TEXT="No method should override an implemented method of  any of its base classes."/>
@@ -194,7 +194,7 @@
 <node CREATED="1345920952581" ID="ID_1065768016" MODIFIED="1457434192911" TEXT="ensures a class has only one  instance, and provide a global point of access to it."/>
 </node>
 <node BACKGROUND_COLOR="#ff0000" CREATED="1345921113860" FOLDED="true" ID="ID_1589489715" MODIFIED="1457444843446" TEXT="note">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1345921166409" ID="ID_1861656793" MODIFIED="1345921181081" TEXT="thread security">
 <node CREATED="1345921199318" ID="ID_1886910999" MODIFIED="1345921416072">
@@ -274,7 +274,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943253933" ID="ID_406021788" MODIFIED="1457444952599" TEXT="Structural Patterns(7)">
+<node CREATED="1363943253933" FOLDED="true" ID="ID_406021788" MODIFIED="1488785390409" TEXT="Structural Patterns(7)">
 <icon BUILTIN="full-2"/>
 <node CREATED="1363943315306" ID="ID_1798190064" MODIFIED="1457444955724">
 <richcontent TYPE="NODE"><html>&#13;&#13;
@@ -498,7 +498,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1363943497418" ID="ID_1516895740" MODIFIED="1457450760997" TEXT="Behavioral Patterns(11)">
+<node CREATED="1363943497418" FOLDED="true" ID="ID_1516895740" MODIFIED="1488785391931" TEXT="Behavioral Patterns(11)">
 <icon BUILTIN="full-3"/>
 <node CREATED="1363943516685" FOLDED="true" ID="ID_31605362" MODIFIED="1457450403176">
 <richcontent TYPE="NODE"><html>&#13;&#13;

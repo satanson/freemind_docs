@@ -1,26 +1,26 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1462192154743" ID="ID_635262348" MODIFIED="1474886907599" TEXT="docker">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462372850189" ID="ID_1066234402" MODIFIED="1474868974398" POSITION="right" TEXT="docker.io">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462193839460" ID="ID_1639674018" MODIFIED="1462715398615" TEXT="cli, daemon, container">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462193872321" ID="ID_550896656" MODIFIED="1462715398614" TEXT="running when os startup">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462192154743" ID="ID_635262348" MODIFIED="1480256003235" TEXT="docker">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462372850189" ID="ID_1066234402" MODIFIED="1480256003235" POSITION="right" TEXT="docker.io">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462193839460" ID="ID_1639674018" MODIFIED="1480256003235" TEXT="cli, daemon, container">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462193872321" ID="ID_550896656" MODIFIED="1480256003235" TEXT="running when os startup">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462193928048" ID="ID_1563822860" MODIFIED="1462715398614" TEXT="cli interacts with daemon">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462193928048" ID="ID_1563822860" MODIFIED="1480256003235" TEXT="cli interacts with daemon">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462193970088" ID="ID_1588732408" MODIFIED="1462715398614" TEXT="containers are child process of daemon">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462194057949" ID="ID_9395301" MODIFIED="1462715398614" TEXT="namespace isolation">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462193970088" ID="ID_1588732408" MODIFIED="1480256003235" TEXT="containers are child process of daemon">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462194057949" ID="ID_9395301" MODIFIED="1480256003235" TEXT="namespace isolation">
+<font NAME="Consolas" SIZE="20"/>
 </node>
 </node>
 </node>
-<node CREATED="1462194082554" FOLDED="true" ID="ID_388966271" MODIFIED="1474869036423" TEXT="namespace/cgroups ">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462194082554" FOLDED="true" ID="ID_388966271" MODIFIED="1480256003235" TEXT="namespace/cgroups ">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462194086450" ID="ID_241715044" MODIFIED="1462194135777" TEXT="pid"/>
 <node CREATED="1462194091571" ID="ID_1715875971" MODIFIED="1462194094264" TEXT="UTS">
 <node CREATED="1462194599462" ID="ID_1840762828" MODIFIED="1462194605740" TEXT="hostname/domain name"/>
@@ -39,42 +39,42 @@
 <node CREATED="1462195127489" ID="ID_950486415" MODIFIED="1462195132789" TEXT="cgroups"/>
 <node CREATED="1462194775134" ID="ID_1443622699" LINK="https://en.wikipedia.org/wiki/Linux_namespaces" MODIFIED="1462194775134" TEXT="https://en.wikipedia.org/wiki/Linux_namespaces"/>
 </node>
-<node CREATED="1462195752670" ID="ID_142404451" MODIFIED="1462715398614" TEXT="docker container as shipping container">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462195776422" ID="ID_750758511" MODIFIED="1462715398614" TEXT="run application and all of its dependencies in one container">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462195752670" ID="ID_142404451" MODIFIED="1480256003235" TEXT="docker container as shipping container">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462195776422" ID="ID_750758511" MODIFIED="1480256003232" TEXT="run application and all of its dependencies in one container">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462195898778" ID="ID_1813741210" MODIFIED="1462715398614" TEXT="image">
-<font NAME="Consolas" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1462196786634" ID="ID_1687637331" MODIFIED="1462715398614" TEXT="help">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462196788676" ID="ID_757544649" MODIFIED="1462715398614" TEXT="docker help">
-<font NAME="Consolas" SIZE="12"/>
-</node>
-<node CREATED="1462196792015" ID="ID_1438841959" MODIFIED="1462715398614" TEXT="docker help run">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462195898778" ID="ID_1813741210" MODIFIED="1480256003232" TEXT="image">
+<font NAME="Consolas" SIZE="20"/>
 </node>
 </node>
-<node CREATED="1462197210699" ID="ID_1452878010" MODIFIED="1462715398614" TEXT="sudo docker run dockerinaction/hello_world">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462196786634" ID="ID_1687637331" MODIFIED="1480256003232" TEXT="help">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462196788676" ID="ID_757544649" MODIFIED="1480256003232" TEXT="docker help">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462197317018" ID="ID_100106335" MODIFIED="1462715398614" TEXT="sudo docker run --detach --name web nginx:latest">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462197761093" ID="ID_1674474505" MODIFIED="1462715398614" TEXT="--detach -d">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462197769351" ID="ID_2884824" MODIFIED="1462715398614" TEXT="daemon">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462196792015" ID="ID_1438841959" MODIFIED="1480256003232" TEXT="docker help run">
+<font NAME="Consolas" SIZE="20"/>
 </node>
 </node>
+<node CREATED="1462197210699" ID="ID_1452878010" MODIFIED="1480256003232" TEXT="sudo docker run dockerinaction/hello_world">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462197845078" ID="ID_1873409482" MODIFIED="1462715398614" TEXT="sudo docker run -d -name mailer ">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462197317018" ID="ID_100106335" MODIFIED="1480256003231" TEXT="sudo docker run --detach --name web nginx:latest">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462197761093" ID="ID_1674474505" MODIFIED="1480256003231" TEXT="--detach -d">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462197769351" ID="ID_2884824" MODIFIED="1480256003231" TEXT="daemon">
+<font NAME="Consolas" SIZE="20"/>
 </node>
 </node>
-<node CREATED="1462372859645" FOLDED="true" ID="ID_1637704565" MODIFIED="1474868984951" POSITION="right" TEXT="daocloud.io">
-<font NAME="Consolas" SIZE="12"/>
+</node>
+<node CREATED="1462197845078" ID="ID_1873409482" MODIFIED="1480256003230" TEXT="sudo docker run -d -name mailer ">
+<font NAME="Consolas" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462372859645" FOLDED="true" ID="ID_1637704565" MODIFIED="1480256003230" POSITION="right" TEXT="daocloud.io">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462372946072" ID="ID_717847120" MODIFIED="1462715398614" TEXT="sudo docker pull daocloud.io/{UserID}/mysql ">
 <font NAME="Consolas" SIZE="12"/>
 </node>
@@ -121,10 +121,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1462639113738" ID="ID_996030744" MODIFIED="1474887778517" POSITION="right" TEXT="docker engine">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462639219752" FOLDED="true" ID="ID_405435554" MODIFIED="1462805585645" TEXT="help">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462639113738" ID="ID_996030744" MODIFIED="1480256003230" POSITION="right" TEXT="docker engine">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462639219752" FOLDED="true" ID="ID_405435554" MODIFIED="1480256003230" TEXT="help">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462639246516" ID="ID_1026941780" MODIFIED="1462715334723" TEXT="docker info">
 <font NAME="Consolas" SIZE="12"/>
 </node>
@@ -141,13 +141,13 @@
 <font NAME="Consolas" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1462639191150" FOLDED="true" ID="ID_1325943150" MODIFIED="1465225575137" TEXT="-H">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462639191150" FOLDED="true" ID="ID_1325943150" MODIFIED="1480256003230" TEXT="-H">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462639785612" ID="ID_1202449829" MODIFIED="1462639822934" TEXT="Changing the default docker daemon binding to a TCP port or Unix docker."/>
 <node CREATED="1462639815920" ID="ID_1150842234" MODIFIED="1462639817131" TEXT="the Docker client can use -H to connect to a custom port."/>
 </node>
-<node CREATED="1462639126868" FOLDED="true" ID="ID_1236400097" MODIFIED="1465225581260" TEXT="daemon">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462639126868" FOLDED="true" ID="ID_1236400097" MODIFIED="1480256003230" TEXT="daemon">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462639910054" FOLDED="true" ID="ID_1451929002" MODIFIED="1462715334722" TEXT="default port">
 <font NAME="Consolas" SIZE="12"/>
 <node CREATED="1462639894104" FOLDED="true" ID="ID_805183481" MODIFIED="1462640827761" TEXT="unix:///var/run/docker.sock">
@@ -208,24 +208,24 @@
 </node>
 </node>
 </node>
-<node CREATED="1462639136643" ID="ID_1099053829" MODIFIED="1474886911660" TEXT="image">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462639295248" ID="ID_777231366" MODIFIED="1462715334718" TEXT="docker pull ubuntu">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462639136643" ID="ID_1099053829" MODIFIED="1480256003230" TEXT="image">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462639295248" ID="ID_777231366" MODIFIED="1480256003230" TEXT="docker pull ubuntu">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462639315404" ID="ID_1289513707" MODIFIED="1462715334718" TEXT="docker images --no-trunc=true">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462639315404" ID="ID_1289513707" MODIFIED="1480256003230" TEXT="docker images --no-trunc=true">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462641917935" ID="ID_1608337530" MODIFIED="1462715334718" TEXT="docker images">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462641917935" ID="ID_1608337530" MODIFIED="1480256003230" TEXT="docker images">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462641925295" ID="ID_1599499741" MODIFIED="1462715334717" TEXT="docker commit {container} image:tag">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462641925295" ID="ID_1599499741" MODIFIED="1480256003230" TEXT="docker commit {container} image:tag">
+<font NAME="Consolas" SIZE="20"/>
 </node>
-<node CREATED="1462711026200" ID="ID_1259389311" MODIFIED="1462782452880" TEXT="docker build -t &lt;repo_1&gt;[:tag_1] [-t &lt;repo_2&gt;[:tag_2]...] [-f &lt;path/to/Dockerfile&gt;] &lt;context_PATH/URL&gt;">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462711298356" FOLDED="true" ID="ID_229713544" MODIFIED="1474869040067" TEXT="demos">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462711026200" ID="ID_1259389311" MODIFIED="1480256003226" TEXT="docker build -t &lt;repo_1&gt;[:tag_1] [-t &lt;repo_2&gt;[:tag_2]...] [-f &lt;path/to/Dockerfile&gt;] &lt;context_PATH/URL&gt;">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462711298356" FOLDED="true" ID="ID_229713544" MODIFIED="1480256003226" TEXT="demos">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462713321923" ID="ID_703532765" MODIFIED="1462713434218" TEXT="docker build -t ubuntu:14.04 -t ubuntu:lastest .">
 <node CREATED="1462713443445" ID="ID_821618772" MODIFIED="1462713558633" TEXT="multiple repository:tag"/>
 <node CREATED="1462713508389" ID="ID_749612868" MODIFIED="1462716203145" TEXT="context is `pwd`, in default, Dockerfile  in the root directory of context path(./Dockerfile)"/>
@@ -240,52 +240,90 @@
 <node CREATED="1462713922775" ID="ID_1944315896" MODIFIED="1462713934367" TEXT="build from tarball context"/>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1462713941129" ID="ID_1051427444" MODIFIED="1462720977464" TEXT="intermediate images, commit, using Cache, --rm=false --no-cache">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462714021744" ID="ID_1924971849" MODIFIED="1462714120262" TEXT="sequentially, step by step,  execute a Dockerfile instruction and commit to produce intermediate image. then next instruction"/>
-<node CREATED="1462714121096" ID="ID_112082407" MODIFIED="1462714160194" TEXT="daemon cache intermediate images for multiplexing"/>
-<node CREATED="1462714161747" ID="ID_263284201" MODIFIED="1462714243082" TEXT="daemon remove automatically all intermediate images but the final image when build ends, use --rm=false to keep intermediate images"/>
-<node CREATED="1462782472398" ID="ID_480936141" MODIFIED="1462782473105" TEXT="--no-cache "/>
+<node COLOR="#338800" CREATED="1462713941129" ID="ID_1051427444" MODIFIED="1480256003222" TEXT="intermediate images, commit, using Cache, --rm=false --no-cache">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462714021744" ID="ID_1924971849" MODIFIED="1480256003219" TEXT="sequentially, step by step,  execute a Dockerfile instruction and commit to produce intermediate image. then next instruction">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462714261597" ID="ID_36897478" MODIFIED="1465199637445" TEXT="Dockerfile .dockerignore">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462714406679" ID="ID_1344116265" MODIFIED="1462783108072" TEXT="Dockerfile">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462714413166" ID="ID_1211313042" MODIFIED="1462715334706" TEXT="InStRuCtIoN">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462714500103" FOLDED="true" ID="ID_1152753665" MODIFIED="1474869041645" TEXT="FROM &lt;base_image&gt;">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462714121096" ID="ID_112082407" MODIFIED="1480256003218" TEXT="daemon cache intermediate images for multiplexing">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462714161747" ID="ID_263284201" MODIFIED="1480256003214" TEXT="daemon remove automatically all intermediate images but the final image when build ends, use --rm=false to keep intermediate images">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462782472398" ID="ID_480936141" MODIFIED="1480256003214" TEXT="--no-cache ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462714261597" ID="ID_36897478" MODIFIED="1480256003214" TEXT="Dockerfile .dockerignore">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462714406679" ID="ID_1344116265" MODIFIED="1480256003214" TEXT="Dockerfile">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462714413166" ID="ID_1211313042" MODIFIED="1480256003213" TEXT="InStRuCtIoN">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462714500103" FOLDED="true" ID="ID_1152753665" MODIFIED="1480256003213" TEXT="FROM &lt;base_image&gt;">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462714853725" ID="ID_37901638" MODIFIED="1462714883480" TEXT="repo[:tag]  default tag is latest"/>
 <node CREATED="1462720328715" ID="ID_789088163" MODIFIED="1462720336451" TEXT="repo[@digest]"/>
 <node CREATED="1462720336982" ID="ID_581813789" MODIFIED="1462720338072" TEXT="FROM must be the first non-comment instruction in the Dockerfile."/>
 <node CREATED="1462720403557" ID="ID_1268251050" MODIFIED="1462720405500" TEXT="FROM can appear multiple times within a single Dockerfile in order to create multiple images. Simply make a note of the last image ID output by the commit before each new FROM command."/>
 </node>
-<node CREATED="1462720439342" ID="ID_129702126" MODIFIED="1462720440109" TEXT="MAINTAINER &lt;name&gt;">
-<node CREATED="1462720445958" ID="ID_836127466" MODIFIED="1462720453753" TEXT="about author"/>
-</node>
-<node CREATED="1462716017677" ID="ID_1991637889" MODIFIED="1462720498578" TEXT="RUN">
-<node CREATED="1462720499953" ID="ID_658445028" MODIFIED="1462720500639" TEXT="RUN &lt;command&gt;">
-<node CREATED="1462720551358" ID="ID_158676356" MODIFIED="1462720563150" TEXT="sh -c fmt"/>
-</node>
-<node CREATED="1462720542422" ID="ID_333730930" MODIFIED="1462720543187" TEXT="RUN [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;]">
-<node CREATED="1462720557885" ID="ID_400629103" MODIFIED="1462720560021" TEXT="exec fmt"/>
+<node CREATED="1462720439342" ID="ID_129702126" MODIFIED="1480256003213" TEXT="MAINTAINER &lt;name&gt;">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462720445958" ID="ID_836127466" MODIFIED="1480256003213" TEXT="about author">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
 </node>
-<node CREATED="1462723127064" ID="ID_55953428" MODIFIED="1465201081181" TEXT="CMD/ENTRYPOINT">
-<node CREATED="1462715998786" ID="ID_846504122" MODIFIED="1462723135772" TEXT="CMD">
-<node CREATED="1462721757977" ID="ID_1940346038" MODIFIED="1462721771538" TEXT="CMD &lt;command&gt;"/>
-<node CREATED="1462721771976" ID="ID_1716484570" MODIFIED="1462721794947" TEXT="CMD [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;]"/>
-<node CREATED="1462721798103" ID="ID_523706894" MODIFIED="1462721812203" TEXT="CMD [&quot;param1&quot;, &quot;param2&quot;]"/>
-<node CREATED="1462721827257" ID="ID_1834947806" MODIFIED="1462721854396" TEXT="entry point when contain starts up, last CMD instruction take effect"/>
+<node CREATED="1462716017677" ID="ID_1991637889" MODIFIED="1480256003213" TEXT="RUN">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462720499953" ID="ID_658445028" MODIFIED="1480256003213" TEXT="RUN &lt;command&gt;">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462720551358" ID="ID_158676356" MODIFIED="1480256003213" TEXT="sh -c fmt">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462716006516" ID="ID_682236795" MODIFIED="1462723135767" TEXT="ENTRYPOINT">
-<node CREATED="1462721757977" ID="ID_45628515" MODIFIED="1462721876958" TEXT="ENTRYPOINT &lt;command&gt;"/>
-<node CREATED="1462721771976" ID="ID_1585058420" MODIFIED="1462721883939" TEXT="ENTRYPOINT [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;]"/>
-<node CREATED="1462721888276" ID="ID_1509509064" LINK="#ID_523706894" MODIFIED="1465201084231" TEXT="ENTRYPOINT vs. CMD">
-<node CREATED="1462723429420" ID="ID_978150239" MODIFIED="1462723746130" TEXT="cmd specified in &quot;docker run &lt;options&gt; &lt;image&gt; &lt;cmd&gt;&quot; override CMD instruction"/>
-<node CREATED="1462723752287" ID="ID_1653208748" MODIFIED="1474886923922" TEXT="startup cmd is ENTRYPOINT appended CMD">
-<node CREATED="1462724241067" ID="ID_172688529" MODIFIED="1462724245250" TEXT="Dockerfile">
-<node CREATED="1462724077785" ID="ID_1648548230" MODIFIED="1462725058041">
+</node>
+<node CREATED="1462720542422" ID="ID_333730930" MODIFIED="1480256003213" TEXT="RUN [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;]">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462720557885" ID="ID_400629103" MODIFIED="1480256003212" TEXT="exec fmt">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+<node CREATED="1462723127064" ID="ID_55953428" MODIFIED="1480256003212" TEXT="CMD/ENTRYPOINT">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462715998786" ID="ID_846504122" MODIFIED="1480256003212" TEXT="CMD">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462721757977" ID="ID_1940346038" MODIFIED="1480256003212" TEXT="CMD &lt;command&gt;">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462721771976" ID="ID_1716484570" MODIFIED="1480256003212" TEXT="CMD [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;]">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462721798103" ID="ID_523706894" MODIFIED="1480256003212" TEXT="CMD [&quot;param1&quot;, &quot;param2&quot;]">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462721827257" ID="ID_1834947806" MODIFIED="1480256003209" TEXT="entry point when contain starts up, last CMD instruction take effect">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462716006516" ID="ID_682236795" MODIFIED="1480256003209" TEXT="ENTRYPOINT">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462721757977" ID="ID_45628515" MODIFIED="1480256003209" TEXT="ENTRYPOINT &lt;command&gt;">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462721771976" ID="ID_1585058420" MODIFIED="1480256003207" TEXT="ENTRYPOINT [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;]">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462721888276" ID="ID_1509509064" LINK="#ID_523706894" MODIFIED="1480256003207" TEXT="ENTRYPOINT vs. CMD">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462723429420" ID="ID_978150239" MODIFIED="1480256003204" TEXT="cmd specified in &quot;docker run &lt;options&gt; &lt;image&gt; &lt;cmd&gt;&quot; override CMD instruction">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462723752287" ID="ID_1653208748" MODIFIED="1480256003203" TEXT="startup cmd is ENTRYPOINT appended CMD">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462724241067" ID="ID_172688529" MODIFIED="1480256003203" TEXT="Dockerfile">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462724077785" ID="ID_1648548230" MODIFIED="1480256003200">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -302,32 +340,57 @@
     </p>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="20"/>
 </node>
 </node>
-<node CREATED="1462724254584" ID="ID_1660914980" MODIFIED="1462724300381" TEXT="docker build -t ubuntu:my ./"/>
-<node CREATED="1462724290324" ID="ID_670027278" MODIFIED="1462724336195" TEXT="docker run -it --rm ubuntu:my ">
-<node CREATED="1462725085015" ID="ID_405680171" MODIFIED="1462725095880" TEXT="hello world"/>
+<node CREATED="1462724254584" ID="ID_1660914980" MODIFIED="1480256003200" TEXT="docker build -t ubuntu:my ./">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462724290324" ID="ID_417940625" MODIFIED="1462724399163" TEXT="docker run -it --rm ubuntu:my &quot;hello&quot; &quot;grakra&quot;">
-<node CREATED="1462725097093" ID="ID_1329631445" MODIFIED="1462725101605" TEXT="hello grakra"/>
-</node>
-</node>
-<node CREATED="1462725268002" ID="ID_1870166481" MODIFIED="1462725369337" TEXT="ENTRYPOINT used to specify a first executable to run when container starts up"/>
-<node CREATED="1462725369936" ID="ID_926461224" MODIFIED="1462725441761" TEXT="CMD used to specify default arguments of the startup executable"/>
-<node CREATED="1462725417963" ID="ID_156981083" MODIFIED="1462725495745" TEXT="user can provide specified arguments to the startup executable"/>
+<node CREATED="1462724290324" ID="ID_670027278" MODIFIED="1480256003200" TEXT="docker run -it --rm ubuntu:my ">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462725085015" ID="ID_405680171" MODIFIED="1480256003200" TEXT="hello world">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
 </node>
+<node CREATED="1462724290324" ID="ID_417940625" MODIFIED="1480256003200" TEXT="docker run -it --rm ubuntu:my &quot;hello&quot; &quot;grakra&quot;">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462725097093" ID="ID_1329631445" MODIFIED="1480256003200" TEXT="hello grakra">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462714916657" FOLDED="true" ID="ID_1959246017" MODIFIED="1462721919178" TEXT="WORKDIR &lt;path&gt;">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462714942371" ID="ID_1635828074" MODIFIED="1462714946283" TEXT="chdir(path)"/>
-<node CREATED="1462714946616" ID="ID_1003886370" MODIFIED="1462715012342" TEXT="Cwd.chdir(path)"/>
 </node>
-<node CREATED="1462721924791" ID="ID_1306816680" MODIFIED="1468118986309" TEXT="LABEL &lt;key&gt;=&lt;value&gt; &lt;key&gt;=&lt;value&gt; &lt;key&gt;=&lt;value&gt; ...">
-<node CREATED="1462722382125" ID="ID_95373838" MODIFIED="1462722382891" TEXT="adds metadata to an image."/>
 </node>
-<node CREATED="1462715996827" ID="ID_1015964467" MODIFIED="1462722433486" TEXT="EXPOSE &lt;port&gt; [&lt;port&gt; ...] "/>
-<node CREATED="1462723106331" FOLDED="true" ID="ID_1710078025" MODIFIED="1465225533721" TEXT="ADD/COPY">
+<node CREATED="1462725268002" ID="ID_1870166481" MODIFIED="1480256003197" TEXT="ENTRYPOINT used to specify a first executable to run when container starts up">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462725369936" ID="ID_926461224" MODIFIED="1480256003193" TEXT="CMD used to specify default arguments of the startup executable">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462725417963" ID="ID_156981083" MODIFIED="1480256003189" TEXT="user can provide specified arguments to the startup executable">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1462714916657" ID="ID_1959246017" MODIFIED="1480256003189" TEXT="WORKDIR &lt;path&gt;">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462714942371" ID="ID_1635828074" MODIFIED="1480256003189" TEXT="chdir(path)">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462714946616" ID="ID_1003886370" MODIFIED="1480256003189" TEXT="Cwd.chdir(path)">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462721924791" ID="ID_1306816680" MODIFIED="1480256003185" TEXT="LABEL &lt;key&gt;=&lt;value&gt; &lt;key&gt;=&lt;value&gt; &lt;key&gt;=&lt;value&gt; ...">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462722382125" ID="ID_95373838" MODIFIED="1480256003185" TEXT="adds metadata to an image.">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462715996827" ID="ID_1015964467" MODIFIED="1480256003185" TEXT="EXPOSE &lt;port&gt; [&lt;port&gt; ...] ">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462723106331" FOLDED="true" ID="ID_1710078025" MODIFIED="1480256003185" TEXT="ADD/COPY">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462715811637" ID="ID_646461049" MODIFIED="1462723117672" TEXT="ADD">
 <node CREATED="1462722573435" ID="ID_542163219" MODIFIED="1462722574083" TEXT="ADD &lt;src&gt;... &lt;dest&gt;"/>
 <node CREATED="1462722593011" ID="ID_1335381927" MODIFIED="1462722594890" TEXT="ADD [&quot;&lt;src&gt;&quot;,... &quot;&lt;dest&gt;&quot;]"/>
@@ -344,7 +407,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1462715991707" FOLDED="true" ID="ID_1538021703" MODIFIED="1465225537340" TEXT="VOLUME">
+<node CREATED="1462715991707" FOLDED="true" ID="ID_1538021703" MODIFIED="1480256003185" TEXT="VOLUME">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462726572996" ID="ID_831366807" MODIFIED="1462726641492" TEXT="VOLUME [&quot;path1&quot;, &quot;path2&quot;]"/>
 <node CREATED="1462726594200" ID="ID_637436237" MODIFIED="1462784348854" TEXT="VOLUME path1 path2">
 <node CREATED="1462782531641" ID="ID_1895018863" MODIFIED="1462782539421" TEXT="data volume"/>
@@ -392,22 +456,37 @@
 <node CREATED="1462783576402" ID="ID_1273634894" MODIFIED="1462783597645" TEXT="docker volume create|ls|rm &lt;named-volume&gt;"/>
 </node>
 </node>
-<node CREATED="1462727680925" ID="ID_1479989458" MODIFIED="1468119017529" TEXT="--build-arg/ARG/ENV/">
-<node CREATED="1462714727930" ID="ID_1231205675" MODIFIED="1468119026620" TEXT="ENV &lt;name&gt; &lt;value&gt;">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462722458479" ID="ID_1412894451" MODIFIED="1462722472029" TEXT="or ENV &lt;name&gt;=&lt;value&gt;"/>
-<node CREATED="1462714745812" ID="ID_1638334144" MODIFIED="1462714889039" TEXT="export &lt;name&gt;=&lt;value&gt;"/>
-<node CREATED="1462714757739" ID="ID_1600727481" MODIFIED="1462714897143" TEXT="declare -x &lt;name&gt;=&lt;value&gt;"/>
+<node CREATED="1462727680925" ID="ID_1479989458" MODIFIED="1480256003185" TEXT="--build-arg/ARG/ENV/">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462714727930" ID="ID_1231205675" MODIFIED="1480256003184" TEXT="ENV &lt;name&gt; &lt;value&gt;">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462722458479" ID="ID_1412894451" MODIFIED="1480256003184" TEXT="or ENV &lt;name&gt;=&lt;value&gt;">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1468119033115" ID="ID_235800483" MODIFIED="1468119034946" TEXT="-e"/>
-<node CREATED="1462714727930" ID="ID_1657909390" MODIFIED="1462727852280" TEXT="ARG &lt;name&gt; &lt;value&gt;">
-<font NAME="Consolas" SIZE="12"/>
-<node CREATED="1462722458479" ID="ID_577320732" MODIFIED="1462727856955" TEXT="or ARG &lt;name&gt;=&lt;value&gt;"/>
+<node CREATED="1462714745812" ID="ID_1638334144" MODIFIED="1480256003184" TEXT="export &lt;name&gt;=&lt;value&gt;">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462727940524" ID="ID_196684172" MODIFIED="1462727947356" TEXT="--build-arg">
-<node CREATED="1462727948193" ID="ID_1603733126" MODIFIED="1462727980416" TEXT="docker build --build-arg foo=bar -t ubuntu:my ./"/>
+<node CREATED="1462714757739" ID="ID_1600727481" MODIFIED="1480256003184" TEXT="declare -x &lt;name&gt;=&lt;value&gt;">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462727925880" FOLDED="true" ID="ID_494475990" MODIFIED="1462728337137" TEXT="ENV vs. ARG">
+</node>
+<node CREATED="1468119033115" ID="ID_235800483" MODIFIED="1480256003184" TEXT="-e">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462714727930" ID="ID_1657909390" MODIFIED="1480256003183" TEXT="ARG &lt;name&gt; &lt;value&gt;">
+<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462722458479" ID="ID_577320732" MODIFIED="1480256003183" TEXT="or ARG &lt;name&gt;=&lt;value&gt;">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462727940524" ID="ID_196684172" MODIFIED="1480256003183" TEXT="--build-arg">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462727948193" ID="ID_1603733126" MODIFIED="1480256003183" TEXT="docker build --build-arg foo=bar -t ubuntu:my ./">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462727925880" FOLDED="true" ID="ID_494475990" MODIFIED="1480256003183" TEXT="ENV vs. ARG">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462727725003" ID="ID_633019311" MODIFIED="1462727936812" TEXT="--build-arg overrides ARG, ENV overrides arg">
 <node CREATED="1462727807083" ID="ID_1162358786" MODIFIED="1462727822479" TEXT="ENV &lt; --build-arg &lt; ARG"/>
 </node>
@@ -416,8 +495,9 @@
 <node CREATED="1462728290804" ID="ID_988534884" MODIFIED="1462728308203" TEXT="ARG expansion only takes place in building time"/>
 </node>
 </node>
-<node CREATED="1462728337645" ID="ID_515460702" MODIFIED="1462728346107" TEXT="predefined ARGs">
-<node CREATED="1462728347605" MODIFIED="1462728347605">
+<node CREATED="1462728337645" ID="ID_515460702" MODIFIED="1480256003183" TEXT="predefined ARGs">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462728347605" ID="ID_1400227241" MODIFIED="1480256003171">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -451,43 +531,57 @@
     </ul>
   </body>
 </html></richcontent>
+<font NAME="SansSerif" SIZE="20"/>
 </node>
 </node>
 </node>
-<node CREATED="1462726673506" ID="ID_185665768" MODIFIED="1462726713519" TEXT="USER &lt;name&gt;"/>
-<node CREATED="1462716021888" FOLDED="true" ID="ID_705864766" MODIFIED="1462772500922" TEXT="MAINTAINER &lt;name&gt;">
+<node CREATED="1462726673506" ID="ID_185665768" MODIFIED="1480256003171" TEXT="USER &lt;name&gt;">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462716021888" FOLDED="true" ID="ID_705864766" MODIFIED="1480256003171" TEXT="MAINTAINER &lt;name&gt;">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462772487888" ID="ID_28572772" MODIFIED="1462772497422" TEXT="MAINTAINER Victor Vieux &lt;victor@docker.com&gt;"/>
 </node>
-<node CREATED="1462716031166" FOLDED="true" ID="ID_1496472493" MODIFIED="1462773948317" TEXT="ONBUILD">
+<node CREATED="1462716031166" FOLDED="true" ID="ID_1496472493" MODIFIED="1480256003171" TEXT="ONBUILD">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462772423022" ID="ID_279441118" MODIFIED="1462772423943" TEXT=" adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build. The trigger will be executed in the context of the downstream build, as if it had been inserted immediately after the FROM instruction in the downstream Dockerfile"/>
 <node CREATED="1462772547210" ID="ID_311997409" MODIFIED="1462773424857" TEXT="docker inspect &lt;image&gt; |grep OnBuild"/>
 <node CREATED="1462773483949" ID="ID_887034380" MODIFIED="1462773484933" TEXT="Triggers are cleared from the final image after being executed. In other words they are not inherited by &#x201c;grand-children&#x201d; builds."/>
 <node CREATED="1462773579461" ID="ID_1943476764" MODIFIED="1462773613177" TEXT="ONBUILD can&apos;t trigger ONBUILD, FROM, MAINTAINER instructions"/>
 </node>
-<node CREATED="1462716060617" FOLDED="true" ID="ID_1775553510" MODIFIED="1462772381508" TEXT="STOPSIGNAL &lt;signal&gt;">
+<node CREATED="1462716060617" FOLDED="true" ID="ID_1775553510" MODIFIED="1480256003171" TEXT="STOPSIGNAL &lt;signal&gt;">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462772353925" ID="ID_772604471" MODIFIED="1462772371610" TEXT="numeric e.g. 9"/>
 <node CREATED="1462772371841" ID="ID_1455603742" MODIFIED="1462772378997" TEXT="symbolic e.g. SIGKILL"/>
 </node>
 </node>
-<node CREATED="1462714447270" ID="ID_642581122" MODIFIED="1462715334688" TEXT="#Comment">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462714447270" ID="ID_642581122" MODIFIED="1480256003171" TEXT="#Comment">
+<font NAME="Consolas" SIZE="20"/>
 </node>
 </node>
-<node CREATED="1462720000025" ID="ID_1944272787" MODIFIED="1462720207036" TEXT=".dockerignore">
-<node CREATED="1462720033320" ID="ID_1063458413" MODIFIED="1462720133112" TEXT="* ? !">
-<node CREATED="1462720135851" ID="ID_1330988848" MODIFIED="1462720152060" TEXT="just like .gitignore"/>
+<node CREATED="1462720000025" ID="ID_1944272787" MODIFIED="1480256003170" TEXT=".dockerignore">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462720033320" ID="ID_1063458413" MODIFIED="1480256003170" TEXT="* ? !">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462720135851" ID="ID_1330988848" MODIFIED="1480256003170" TEXT="just like .gitignore">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462720157630" ID="ID_894913013" MODIFIED="1462720203049" TEXT="go filepath.{Match,Clean}"/>
+</node>
+<node CREATED="1462720157630" ID="ID_894913013" MODIFIED="1480256003170" TEXT="go filepath.{Match,Clean}">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1462639468721" ID="ID_1724902091" MODIFIED="1462715334718" TEXT="network">
-<font NAME="Consolas" SIZE="12"/>
 </node>
-<node CREATED="1462774371309" ID="ID_802479793" MODIFIED="1462774373382" TEXT="volume"/>
-<node CREATED="1462639161433" FOLDED="true" ID="ID_1676514720" MODIFIED="1474869040800" TEXT="container">
-<font NAME="Consolas" SIZE="12"/>
+<node CREATED="1462639468721" ID="ID_1724902091" MODIFIED="1480256003170" TEXT="network">
+<font NAME="Consolas" SIZE="20"/>
+</node>
+<node CREATED="1462774371309" ID="ID_802479793" MODIFIED="1480256003170" TEXT="volume">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462639161433" FOLDED="true" ID="ID_1676514720" MODIFIED="1480256003169" TEXT="container">
+<font NAME="Consolas" SIZE="20"/>
 <node CREATED="1462672264621" ID="ID_1077984843" MODIFIED="1462715363603" TEXT="lifetime circle">
 <font NAME="Consolas" SIZE="12"/>
 <node CREATED="1462639489765" ID="ID_1829786328" MODIFIED="1462715363603" TEXT="docker run -i -t ubuntu /bin/bash ">
@@ -587,65 +681,143 @@
 </node>
 </node>
 </node>
-<node CREATED="1462805575487" ID="ID_714074097" MODIFIED="1474869014802" POSITION="right" TEXT="docker arch">
-<node CREATED="1462805595960" ID="ID_561025159" MODIFIED="1462805692124" TEXT="docker client"/>
-<node CREATED="1462805612504" ID="ID_96808167" MODIFIED="1462805615482" TEXT="docker daemon">
-<node CREATED="1462805616325" ID="ID_1185544087" MODIFIED="1462805661796" TEXT="docker server">
-<node CREATED="1462805662667" ID="ID_1564625145" LINK="#ID_561025159" MODIFIED="1462805699621" TEXT="&lt;--&gt; docker client"/>
-<node CREATED="1462805993587" ID="ID_330096060" MODIFIED="1462805999186" TEXT="serve Docker API"/>
+<node CREATED="1462805575487" ID="ID_714074097" MODIFIED="1480256003169" POSITION="right" TEXT="docker arch">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462805595960" ID="ID_561025159" MODIFIED="1480256003169" TEXT="docker client">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462805703456" ID="ID_359443899" MODIFIED="1462805718732" TEXT="docker engine">
-<node CREATED="1462805753966" ID="ID_1348714084" MODIFIED="1462806009366" TEXT="*job">
-<node CREATED="1462806021980" ID="ID_1539091385" MODIFIED="1462806047904" TEXT="smallest execution unit"/>
-<node CREATED="1462805770432" ID="ID_287226490" LINK="#ID_813066580" MODIFIED="1462805799229" TEXT="&lt;--&gt; docker registry"/>
-<node CREATED="1462805878607" ID="ID_1159313431" LINK="#ID_1235196526" MODIFIED="1462805897160" TEXT="&lt;--&gt; *drivers"/>
+<node CREATED="1462805612504" ID="ID_96808167" MODIFIED="1480256003169" TEXT="docker daemon">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462805616325" ID="ID_1185544087" MODIFIED="1480256003169" TEXT="docker server">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462805662667" ID="ID_1564625145" LINK="#ID_561025159" MODIFIED="1480256003169" TEXT="&lt;--&gt; docker client">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462806010047" ID="ID_532916018" MODIFIED="1462806019107" TEXT="execution engine"/>
-</node>
-</node>
-<node CREATED="1462805737915" ID="ID_813066580" MODIFIED="1462805742867" TEXT="docker registry"/>
-<node CREATED="1462805815083" ID="ID_1235196526" MODIFIED="1462805820780" TEXT="*drivers">
-<node CREATED="1462805836404" ID="ID_186415758" MODIFIED="1462805843861" TEXT="graphdriver">
-<node CREATED="1462805901122" ID="ID_1740055368" LINK="#ID_1814508732" MODIFIED="1462805911196" TEXT="&lt;--&gt; graph"/>
-<node CREATED="1462806071895" ID="ID_1686230761" MODIFIED="1462806078392" TEXT="manager images"/>
-<node CREATED="1462806125993" ID="ID_1507376485" MODIFIED="1462806136527" TEXT="aufs">
-<node CREATED="1462806473719" ID="ID_612018127" MODIFIED="1462806474425" TEXT="Overlayfs merged into Linux Kenerl 3.18-rc2"/>
-</node>
-<node CREATED="1462806370709" ID="ID_1843306643" MODIFIED="1462806377991" TEXT="btrfs"/>
-<node CREATED="1462806383972" ID="ID_1003378066" MODIFIED="1462806385931" TEXT="devmapper"/>
-<node CREATED="1462806392973" ID="ID_719513424" MODIFIED="1462806394089" TEXT="vfs"/>
-</node>
-<node CREATED="1462805844152" ID="ID_1869772646" MODIFIED="1462805857612" TEXT="networkdriver">
-<node CREATED="1462806079866" ID="ID_1213591118" MODIFIED="1462806106848" TEXT="manage network"/>
-<node CREATED="1462806138394" ID="ID_62259853" MODIFIED="1462806348113" TEXT="bridge (docker0)"/>
-<node CREATED="1462806153506" ID="ID_1844537516" MODIFIED="1462806159392" TEXT="network interface"/>
-<node CREATED="1462806159609" ID="ID_1950822049" MODIFIED="1462806161737" TEXT="ip/port"/>
-</node>
-<node CREATED="1462805858320" ID="ID_42053265" MODIFIED="1462805862962" TEXT="execdriver">
-<node CREATED="1462806108244" ID="ID_1466761432" MODIFIED="1462806122522" TEXT="manage container running"/>
-<node CREATED="1462806185961" ID="ID_199784379" LINK="#ID_567472240" MODIFIED="1462806249552" TEXT="native libcontainer"/>
-<node CREATED="1462806192478" ID="ID_1854096582" MODIFIED="1462806223308" TEXT="lxc (deprecated)"/>
+<node CREATED="1462805993587" ID="ID_330096060" MODIFIED="1480256003169" TEXT="serve Docker API">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
 </node>
-<node CREATED="1462805812951" ID="ID_1814508732" MODIFIED="1462805814308" TEXT="graph">
-<node CREATED="1462806493736" ID="ID_1221292050" MODIFIED="1462806504108" TEXT="repository"/>
-<node CREATED="1462806494359" ID="ID_1133972301" MODIFIED="1462806507247" TEXT="graphdb"/>
+<node CREATED="1462805703456" ID="ID_359443899" MODIFIED="1480256003169" TEXT="docker engine">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462805753966" ID="ID_1348714084" MODIFIED="1480256003169" TEXT="*job">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462806021980" ID="ID_1539091385" MODIFIED="1480256003168" TEXT="smallest execution unit">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462805928878" ID="ID_567472240" MODIFIED="1462805931941" TEXT="libcontainer">
-<node CREATED="1462806256247" ID="ID_849203518" MODIFIED="1462806259347" TEXT="cgroups"/>
-<node CREATED="1462806259594" ID="ID_675409162" MODIFIED="1462806263812" TEXT="apparmor"/>
-<node CREATED="1462806264292" ID="ID_1008852859" MODIFIED="1462806289457" TEXT="namespace"/>
-<node CREATED="1462806289700" ID="ID_238720287" MODIFIED="1462806298952" TEXT="netlink"/>
-<node CREATED="1462806299198" ID="ID_219550792" MODIFIED="1462806305013" TEXT="capabilities"/>
-<node CREATED="1462806305291" ID="ID_34014545" MODIFIED="1462806311964" TEXT="...etc"/>
+<node CREATED="1462805770432" ID="ID_287226490" LINK="#ID_813066580" MODIFIED="1480256003168" TEXT="&lt;--&gt; docker registry">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node CREATED="1462805933776" ID="ID_1637044286" MODIFIED="1462805947943" TEXT="*container"/>
-<node CREATED="1462805948187" ID="ID_1109993710" MODIFIED="1462805951536" TEXT="*rootfs"/>
+<node CREATED="1462805878607" ID="ID_1159313431" LINK="#ID_1235196526" MODIFIED="1480256003168" TEXT="&lt;--&gt; *drivers">
+<font NAME="SansSerif" SIZE="20"/>
 </node>
-<node COLOR="#990000" CREATED="1463375948745" ID="ID_1578261693" MODIFIED="1474868998368" POSITION="right" TEXT="docker devel">
-<node CREATED="1463375962806" ID="ID_1305101826" MODIFIED="1463375962806" TEXT=""/>
 </node>
-<node CREATED="1464790536523" FOLDED="true" ID="ID_30385801" MODIFIED="1474869012603" POSITION="right" TEXT="orchestration engines">
+<node CREATED="1462806010047" ID="ID_532916018" MODIFIED="1480256003168" TEXT="execution engine">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+<node CREATED="1462805737915" ID="ID_813066580" MODIFIED="1480256003168" TEXT="docker registry">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462805815083" ID="ID_1235196526" MODIFIED="1480256003168" TEXT="*drivers">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462805836404" ID="ID_186415758" MODIFIED="1480256003168" TEXT="graphdriver">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462805901122" ID="ID_1740055368" LINK="#ID_1814508732" MODIFIED="1480256003168" TEXT="&lt;--&gt; graph">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806071895" ID="ID_1686230761" MODIFIED="1480256003168" TEXT="manager images">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806125993" ID="ID_1507376485" MODIFIED="1480256003168" TEXT="aufs">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462806473719" ID="ID_612018127" MODIFIED="1480256003168" TEXT="Overlayfs merged into Linux Kenerl 3.18-rc2">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462806370709" ID="ID_1843306643" MODIFIED="1480256003168" TEXT="btrfs">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806383972" ID="ID_1003378066" MODIFIED="1480256003167" TEXT="devmapper">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806392973" ID="ID_719513424" MODIFIED="1480256003167" TEXT="vfs">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462805844152" ID="ID_1869772646" MODIFIED="1480256003167" TEXT="networkdriver">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462806079866" ID="ID_1213591118" MODIFIED="1480256003167" TEXT="manage network">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806138394" ID="ID_62259853" MODIFIED="1480256003167" TEXT="bridge (docker0)">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806153506" ID="ID_1844537516" MODIFIED="1480256003167" TEXT="network interface">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806159609" ID="ID_1950822049" MODIFIED="1480256003167" TEXT="ip/port">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462805858320" ID="ID_42053265" MODIFIED="1480256003167" TEXT="execdriver">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462806108244" ID="ID_1466761432" MODIFIED="1480256003167" TEXT="manage container running">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806185961" ID="ID_199784379" LINK="#ID_567472240" MODIFIED="1480256003167" TEXT="native libcontainer">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806192478" ID="ID_1854096582" MODIFIED="1480256003167" TEXT="lxc (deprecated)">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+</node>
+<node CREATED="1462805812951" ID="ID_1814508732" MODIFIED="1480256003167" TEXT="graph">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462806493736" ID="ID_1221292050" MODIFIED="1480256003167" TEXT="repository">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806494359" ID="ID_1133972301" MODIFIED="1480256003167" TEXT="graphdb">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462805928878" ID="ID_567472240" MODIFIED="1480256003167" TEXT="libcontainer">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1462806256247" ID="ID_849203518" MODIFIED="1480256003166" TEXT="cgroups">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806259594" ID="ID_675409162" MODIFIED="1480256003166" TEXT="apparmor">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806264292" ID="ID_1008852859" MODIFIED="1480256003166" TEXT="namespace">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806289700" ID="ID_238720287" MODIFIED="1480256003166" TEXT="netlink">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806299198" ID="ID_219550792" MODIFIED="1480256003166" TEXT="capabilities">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462806305291" ID="ID_34014545" MODIFIED="1480256003166" TEXT="...etc">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1462805933776" ID="ID_1637044286" MODIFIED="1480256003166" TEXT="*container">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+<node CREATED="1462805948187" ID="ID_1109993710" MODIFIED="1480256003166" TEXT="*rootfs">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1463375948745" ID="ID_1578261693" MODIFIED="1480256003166" POSITION="right" TEXT="docker devel">
+<font NAME="SansSerif" SIZE="20"/>
+<node CREATED="1463375962806" ID="ID_1305101826" MODIFIED="1480256003166" TEXT="">
+<font NAME="SansSerif" SIZE="20"/>
+</node>
+</node>
+<node CREATED="1464790536523" FOLDED="true" ID="ID_30385801" MODIFIED="1480256003166" POSITION="right" TEXT="orchestration engines">
+<font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1464790589628" ID="ID_914412935" MODIFIED="1464790961420" TEXT="Docker Swarm">
 <node CREATED="1464796179989" ID="ID_1585479780" MODIFIED="1464796488494" TEXT="Docker Datacenter">
 <node CREATED="1464796644375" ID="ID_1720076045" MODIFIED="1464796646136" TEXT="Docker"/>

@@ -1,6 +1,6 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1454247107782" ID="ID_304486045" MODIFIED="1458393781756" TEXT="ARM">
+<node CREATED="1454247107782" ID="ID_304486045" MODIFIED="1482119762153" TEXT="ARM">
 <node CREATED="1454247132422" ID="ID_1740840535" MODIFIED="1458388270647" POSITION="right" TEXT="hist">
 <node CREATED="1454250275026" ID="ID_1103059821" MODIFIED="1454250277516" TEXT="MOS Technology 6502"/>
 <node CREATED="1454248451960" FOLDED="true" ID="ID_1666933150" MODIFIED="1458388275548" TEXT="1978. Acorn Computers, Ltd">
@@ -722,7 +722,7 @@
 <node CREATED="1454811570347" ID="ID_1413370923" MODIFIED="1454811570347" TEXT=""/>
 </node>
 </node>
-<node CREATED="1454247135043" FOLDED="true" ID="ID_916082926" MODIFIED="1459141470843" POSITION="right" TEXT="code">
+<node CREATED="1454247135043" ID="ID_916082926" MODIFIED="1482119754607" POSITION="right" TEXT="code">
 <node CREATED="1454814680085" ID="ID_870211039" MODIFIED="1458201600547" TEXT="cross-compilation">
 <node CREATED="1454814740184" ID="ID_196574741" MODIFIED="1454814740764" TEXT="Sourcery CodeBench Lite"/>
 <node CREATED="1455519351096" FOLDED="true" ID="ID_1575132967" MODIFIED="1459141470840" TEXT="GNU Tools for ARM Embedded Processors Version: 5.0">
@@ -747,7 +747,7 @@
   </head>
   <body>
     <p>
-      .section INTERRUPT_VECTOR, &quot;x&quot;
+      .section INTERRUPT_VECTOR, "x"
     </p>
     <p>
       .global _Reset
@@ -756,40 +756,40 @@
       _Reset:
     </p>
     <p>
-      &#160;&#160;B Reset_Handler /* Reset */
+      &#xa0;&#xa0;B Reset_Handler /* Reset */
     </p>
     <p>
-      &#160;&#160;B . /* Undefined */
+      &#xa0;&#xa0;B . /* Undefined */
     </p>
     <p>
-      &#160;&#160;B . /* SWI */
+      &#xa0;&#xa0;B . /* SWI */
     </p>
     <p>
-      &#160;&#160;B . /* Prefetch Abort */
+      &#xa0;&#xa0;B . /* Prefetch Abort */
     </p>
     <p>
-      &#160;&#160;B . /* Data Abort */
+      &#xa0;&#xa0;B . /* Data Abort */
     </p>
     <p>
-      &#160;&#160;B . /* reserved */
+      &#xa0;&#xa0;B . /* reserved */
     </p>
     <p>
-      &#160;&#160;B . /* IRQ */
+      &#xa0;&#xa0;B . /* IRQ */
     </p>
     <p>
-      &#160;&#160;B . /* FIQ */
+      &#xa0;&#xa0;B . /* FIQ */
     </p>
     <p>
       Reset_Handler:
     </p>
     <p>
-      &#160;&#160;LDR sp, =stack_top
+      &#xa0;&#xa0;LDR sp, =stack_top
     </p>
     <p>
-      &#160;&#160;BL entry
+      &#xa0;&#xa0;BL entry
     </p>
     <p>
-      &#160;&#160;B .
+      &#xa0;&#xa0;B .
     </p>
   </body>
 </html></richcontent>
@@ -812,7 +812,7 @@
       int entry() {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return 0;
+      &#xa0;&#xa0;&#xa0;&#xa0;return 0;
     </p>
     <p>
       }
@@ -841,34 +841,34 @@
       {
     </p>
     <p>
-      &#160;. = 0x0;
+      &#xa0;. = 0x0;
     </p>
     <p>
-      &#160;.text : {
+      &#xa0;.text : {
     </p>
     <p>
-      &#160;startup.o (INTERRUPT_VECTOR)
+      &#xa0;startup.o (INTERRUPT_VECTOR)
     </p>
     <p>
-      &#160;*(.text)
+      &#xa0;*(.text)
     </p>
     <p>
-      &#160;}
+      &#xa0;}
     </p>
     <p>
-      &#160;.data : { *(.data) }
+      &#xa0;.data : { *(.data) }
     </p>
     <p>
-      &#160;.bss : { *(.bss COMMON) }
+      &#xa0;.bss : { *(.bss COMMON) }
     </p>
     <p>
-      &#160;. = ALIGN(8);
+      &#xa0;. = ALIGN(8);
     </p>
     <p>
-      &#160;. = . + 0x1000; /* 4kB of stack memory */
+      &#xa0;. = . + 0x1000; /* 4kB of stack memory */
     </p>
     <p>
-      &#160;stack_top = .;
+      &#xa0;stack_top = .;
     </p>
     <p>
       }
@@ -981,16 +981,16 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;while (*string != '\0') {
+      &#xa0;&#xa0;&#xa0;&#xa0;while (*string != '\0') {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*UART0_PTR = *string;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;*UART0_PTR = *string;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;++string;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;++string;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       }
@@ -1005,10 +1005,10 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;print_uart0(&quot;Hello, World!\n&quot;);
+      &#xa0;&#xa0;&#xa0;&#xa0;print_uart0("Hello, World!\n");
     </p>
     <p>
-      &#160;&#160;&#160;&#160;return 0;
+      &#xa0;&#xa0;&#xa0;&#xa0;return 0;
     </p>
     <p>
       }
@@ -1032,13 +1032,13 @@
       _MyApp:
     </p>
     <p>
-      &#160;LDR sp, =stack_top
+      &#xa0;LDR sp, =stack_top
     </p>
     <p>
-      &#160;BL entry
+      &#xa0;BL entry
     </p>
     <p>
-      &#160;B .
+      &#xa0;B .
     </p>
   </body>
 </html></richcontent>
@@ -1062,28 +1062,28 @@
       {
     </p>
     <p>
-      &#160;. = 0x10000;
+      &#xa0;. = 0x10000;
     </p>
     <p>
-      &#160;.startup . : { hw_startup.o(.text) }
+      &#xa0;.startup . : { hw_startup.o(.text) }
     </p>
     <p>
-      &#160;.text : { *(.text) }
+      &#xa0;.text : { *(.text) }
     </p>
     <p>
-      &#160;.data : { *(.data) }
+      &#xa0;.data : { *(.data) }
     </p>
     <p>
-      &#160;.bss : { *(.bss COMMON) }
+      &#xa0;.bss : { *(.bss COMMON) }
     </p>
     <p>
-      &#160;. = ALIGN(8);
+      &#xa0;. = ALIGN(8);
     </p>
     <p>
-      &#160;. = . + 0x1000; /* 4kB of stack memory */
+      &#xa0;. = . + 0x1000; /* 4kB of stack memory */
     </p>
     <p>
-      &#160;stack_top = .;
+      &#xa0;stack_top = .;
     </p>
     <p>
       }
@@ -1104,52 +1104,52 @@
       #!/bin/bash
     </p>
     <p>
-      cfiles=`perl -e &quot;print join ' ', grep /.c$/, qw/$*/&quot;`
+      cfiles=`perl -e "print join ' ', grep /.c$/, qw/$*/"`
     </p>
     <p>
-      sfiles=`perl -e &quot;print join ' ', grep /.s$/, qw/$*/&quot;`
+      sfiles=`perl -e "print join ' ', grep /.s$/, qw/$*/"`
     </p>
     <p>
-      ldfile=`perl -e &quot;print join ' ', grep /.ld$/, qw/$*/&quot;`
+      ldfile=`perl -e "print join ' ', grep /.ld$/, qw/$*/"`
     </p>
     <p>
-      ofiles=`perl -e &quot;@_=qw/$cfiles $sfiles/;print join ' ', map {s/\.[cs]/.o/g;\\\$_} @_&quot;`
+      ofiles=`perl -e "@_=qw/$cfiles $sfiles/;print join ' ', map {s/\.[cs]/.o/g;\\\$_} @_"`
     </p>
     <p>
-      bin=`perl -e &quot;print \\\$1 if '$ldfile' =~ /^(.*)\.ld$/&quot;`
+      bin=`perl -e "print \\\$1 if '$ldfile' =~ /^(.*)\.ld$/"`
     </p>
     <p>
-      echo &quot;C files: $cfiles&quot;
+      echo "C files: $cfiles"
     </p>
     <p>
-      echo &quot;Assembly files: $sfiles&quot;
+      echo "Assembly files: $sfiles"
     </p>
     <p>
-      echo &quot;Object file: $ofiles&quot;
+      echo "Object file: $ofiles"
     </p>
     <p>
-      echo &quot;Loader file: $ldfile&quot;
+      echo "Loader file: $ldfile"
     </p>
     <p>
-      echo &quot;Bin file: $bin&quot;
+      echo "Bin file: $bin"
     </p>
     <p>
-      for c in $cfiles;do arm-none-eabi-gcc -c -mcpu=arm926ej-s $c&#160;&#160;-o ${c%%.c}.o;done
+      for c in $cfiles;do arm-none-eabi-gcc -c -mcpu=arm926ej-s $c&#xa0;&#xa0;-o ${c%%.c}.o;done
     </p>
     <p>
-      for s in $sfiles;do arm-none-eabi-as -mcpu=arm926ej-s $s&#160;&#160;-o ${s%%.s}.o;done
+      for s in $sfiles;do arm-none-eabi-as -mcpu=arm926ej-s $s&#xa0;&#xa0;-o ${s%%.s}.o;done
     </p>
     <p>
       
     </p>
     <p>
-      if [ -n &quot;$bin&quot; ];then
+      if [ -n "$bin" ];then
     </p>
     <p>
-      &#160;&#160;&#160;&#160;arm-none-eabi-ld -T $ldfile $ofiles -o $bin.elf
+      &#xa0;&#xa0;&#xa0;&#xa0;arm-none-eabi-ld -T $ldfile $ofiles -o $bin.elf
     </p>
     <p>
-      &#160;&#160;&#160;&#160;arm-none-eabi-objcopy -O binary $bin.elf $bin.bin
+      &#xa0;&#xa0;&#xa0;&#xa0;arm-none-eabi-objcopy -O binary $bin.elf $bin.bin
     </p>
     <p>
       fi
@@ -1233,9 +1233,9 @@
 </node>
 <node CREATED="1456301071337" ID="ID_522303221" MODIFIED="1458547241777" POSITION="right" TEXT="linux code reading">
 <node CREATED="1457086305725" ID="ID_912973310" MODIFIED="1458388483124" TEXT="tools">
-<node CREATED="1456301082194" FOLDED="true" ID="ID_1111033845" MODIFIED="1458388506594" TEXT="cscope">
+<node CREATED="1456301082194" ID="ID_1111033845" MODIFIED="1481976510560" TEXT="cscope">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456301112922" ID="ID_176516468" MODIFIED="1457113275958" TEXT="cscope -Rbkq">
+<node CREATED="1456301112922" ID="ID_176516468" MODIFIED="1487919053431" TEXT="cscope -Rbkq">
 <node CREATED="1456301137238" ID="ID_17646954" MODIFIED="1456301157421" TEXT="-R recursive, scan subdirectory"/>
 <node CREATED="1456301157740" ID="ID_111971227" MODIFIED="1456301207970" TEXT="-b building cross-reference only"/>
 <node CREATED="1456301209799" ID="ID_1300991652" MODIFIED="1456301224816" TEXT="-k kernel mode, not scan /usr/incude"/>
@@ -1310,12 +1310,11 @@
 <node CREATED="1456304679133" ID="ID_1785062591" MODIFIED="1456304681120" TEXT="ctags -R"/>
 </node>
 </node>
-<node CREATED="1456305731755" FOLDED="true" ID="ID_602642869" MODIFIED="1458388509768" TEXT="ctags">
+<node CREATED="1456305731755" ID="ID_602642869" MODIFIED="1487918994343" TEXT="ctags">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456305737215" ID="ID_1617045859" MODIFIED="1456306017401" TEXT="ctags -R"/>
-<node CREATED="1456306231482" ID="ID_1294689304" MODIFIED="1456306232144" TEXT="ctags -R --c++-kinds=+px --fields=+iaS --extra=+q">
+<node CREATED="1456306231482" ID="ID_1294689304" MODIFIED="1487918998381" TEXT="ctags -R --c++-kinds=+px --fields=+iaS --extra=+q"/>
 <node CREATED="1456313455310" ID="ID_279699497" MODIFIED="1456313455310" TEXT="ctags --list-kinds"/>
-</node>
 <node CREATED="1456306241165" ID="ID_1815266048" MODIFIED="1456306247570" TEXT="set tags+= tags"/>
 <node CREATED="1456306490277" ID="ID_1113295001" MODIFIED="1457022187484" TEXT="Exuberant Ctags">
 <node CREATED="1456306493981" ID="ID_234251711" MODIFIED="1456306504330" TEXT="http://jaist.dl.sourceforge.net/project/ctags/ctags/5.8/ctags58.zip"/>
@@ -1368,7 +1367,7 @@
 <node CREATED="1456325440534" ID="ID_452466885" MODIFIED="1456325473232" TEXT="if has(&quot;cscope&quot;)&#xa;    set csprg=/usr/bin/cscope&#xa;    set csto=0&#xa;    set cst&#xa;    set nocsverb&#xa;    if filereadable(&quot;cscope.out&quot;)&#xa;        cs add cscope.out&#xa;    endif&#xa;    set csverb&#xa;&#xa;    nmap &lt;C-@&gt;s :cs find s &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;g :cs find g &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;d :cs find d &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;c :cs find c &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;t :cs find t &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;i :cs find i &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;e :cs find e &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;    nmap &lt;C-@&gt;f :cs find f &lt;C-R&gt;=expand(&quot;&lt;cword&gt;&quot;)&lt;CR&gt;&lt;CR&gt;&#xa;else&#xa;    echo &quot;has no cscope&quot;&#xa;endif&#xa;&#xa;filetype on&#xa;let Tlist_Ctags_Cmd=&apos;/usr/bin/ctags&apos;&#xa;let Tlist_Show_One_File = 1&#xa;let Tlist_Exit_OnlyWindow = 1&#xa;let Tlist_Use_Right_Window = 1&#xa;map &lt;silent&gt; &lt;F8&gt; :TlistToggle&lt;CR&gt;&#xa;"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1456337683711" FOLDED="true" ID="ID_1253960068" MODIFIED="1458388529923" TEXT="advanced skill">
+<node COLOR="#990000" CREATED="1456337683711" ID="ID_1253960068" MODIFIED="1490331707917" TEXT="advanced skill">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456337712271" ID="ID_1483267511" MODIFIED="1456337774446" TEXT="go backward/forward browsed files">
 <node CREATED="1456337755644" ID="ID_508175933" MODIFIED="1456337763660" TEXT=":pop --backword"/>
@@ -1383,13 +1382,13 @@
 <node CREATED="1456337896213" ID="ID_288538353" MODIFIED="1456337911802" TEXT="vim -S .session --restore"/>
 </node>
 </node>
-<node CREATED="1457685034892" FOLDED="true" ID="ID_285548941" MODIFIED="1458388744461" TEXT="lxr">
+<node CREATED="1457685034892" ID="ID_285548941" MODIFIED="1490331712694" TEXT="lxr">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1457693893946" ID="ID_705813795" MODIFIED="1457693902738" TEXT="1. download lxr">
 <node CREATED="1457685041906" ID="ID_977110455" MODIFIED="1457693904847" TEXT="https://sourceforge.net/projects/lxr/"/>
 </node>
 <node CREATED="1457693908945" ID="ID_1930245815" MODIFIED="1457695656732" TEXT="2. install deps">
-<node CREATED="1457685121049" FOLDED="true" ID="ID_1112598774" MODIFIED="1457693936851" TEXT="run ./genxref --checkonly to find its dependencies">
+<node CREATED="1457685121049" ID="ID_1112598774" MODIFIED="1490331726140" TEXT="run ./genxref --checkonly to find its dependencies">
 <node CREATED="1457685169675" ID="ID_1243481689" MODIFIED="1457685190110" TEXT="cpan File::MMagic"/>
 <node CREATED="1457685193662" ID="ID_1358714460" MODIFIED="1457693931138" TEXT="glimpse">
 <node CREATED="1457688540052" ID="ID_153419911" MODIFIED="1457688542211" TEXT="WRONG">
@@ -1425,13 +1424,13 @@
       'host_names' =&gt; [ 'http://grakra.com'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;, 'http://192.168.10.1:80'
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;, 'http://192.168.10.1:80'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;, 'http://localhost:80'
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;, 'http://localhost:80'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;]&#160;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;]&#xa0;
     </p>
   </body>
 </html></richcontent>
@@ -1457,61 +1456,61 @@
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Define typed variable &quot;v&quot;.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# Define typed variable "v".
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{ 'v' =&gt;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{ 'v' =&gt;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{ 'name' =&gt; 'Version'
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;{ 'name' =&gt; 'Version'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# This is the list of versions to index.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# This is the list of versions to index.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;, 'range' =&gt; [qw(
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;, 'range' =&gt; [qw(
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;linux-3.16
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;linux-3.16
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)]
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)]
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# The default version to display
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# The default version to display
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# If not specified, first in 'range' used
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# If not specified, first in 'range' used
     </p>
     <p>
-      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;, 'default' =&gt; 'v3.1'
+      #&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;, 'default' =&gt; 'v3.1'
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
     <p>
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Other variables may be defined for use by rewrite rules
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# Other variables may be defined for use by rewrite rules
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# in the subdirectory section.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# in the subdirectory section.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# These variable definitions are needed for Linux kernel
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# These variable definitions are needed for Linux kernel
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# browsing. Read carefully the User's Manual.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# browsing. Read carefully the User's Manual.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# Alternately, use template lxrkernel.conf dedicated to kernel
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# Alternately, use template lxrkernel.conf dedicated to kernel
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# configuration.
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;# configuration.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
     </p>
   </body>
 </html></richcontent>
@@ -1525,7 +1524,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1457695022899" FOLDED="true" ID="ID_1748088177" MODIFIED="1458388743486" TEXT="4. init db &amp; gen idx">
+<node CREATED="1457695022899" ID="ID_1748088177" MODIFIED="1490331766624" TEXT="4. init db &amp; gen idx">
 <node CREATED="1457695072432" ID="ID_1736825075" MODIFIED="1457695088300" TEXT="1. ./custom.d/initdb.sh"/>
 <node CREATED="1457695084471" ID="ID_1228105447" MODIFIED="1457695101611" TEXT="2. cp custom.d/lxr.conf ."/>
 <node CREATED="1457695377769" ID="ID_1934694259" MODIFIED="1457695383785" TEXT="3./genxref">
@@ -1550,13 +1549,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1456337920632" FOLDED="true" ID="ID_1064112757" MODIFIED="1459141432526" TEXT="debug advanced skill">
+<node CREATED="1456337920632" ID="ID_1064112757" MODIFIED="1482119764689" TEXT="debug advanced skill">
 <node CREATED="1456339303391" ID="ID_1263515601" MODIFIED="1456339314774" TEXT="gdb macro">
 <node CREATED="1456338367001" ID="ID_1572048836" MODIFIED="1456339318792" TEXT="source -s cmdfile -- load cmds and make effect"/>
 <node CREATED="1456338564879" ID="ID_974490154" MODIFIED="1456339318792" TEXT="save -- save breakpoints"/>
 <node CREATED="1456338580004" ID="ID_1314515061" MODIFIED="1456339318792" TEXT="define cmd-name\ncmd1\ncmd2\nend -- user-defined cmd"/>
 <node CREATED="1456338629084" ID="ID_1404963196" MODIFIED="1456339318792" TEXT="document cmd-name\ndocuemtation\nend -- help doc"/>
-<node CREATED="1456338673152" FOLDED="true" ID="ID_732121010" MODIFIED="1458388535425" TEXT="logging">
+<node CREATED="1456338673152" ID="ID_732121010" MODIFIED="1482119774432" TEXT="logging">
 <node CREATED="1456338683730" ID="ID_1565353856" MODIFIED="1456338687079" TEXT="set logging on"/>
 <node CREATED="1456338687293" ID="ID_117430464" MODIFIED="1456338699185" TEXT="set logging file gdb.log"/>
 <node CREATED="1456338694916" ID="ID_248519572" MODIFIED="1456338714666" TEXT="set logging redirect off"/>
@@ -1686,7 +1685,7 @@
       1443 * set*uid() to execve() because too many poorly written programs
     </p>
     <p>
-      1444 * don't check setuid() return code.&#160;&#160;Here we additionally recheck
+      1444 * don't check setuid() return code.&#xa0;&#xa0;Here we additionally recheck
     </p>
     <p>
       1445 * whether NPROC limit is still exceeded.
@@ -1698,13 +1697,13 @@
       1447 if ((current-&gt;flags &amp; PF_NPROC_EXCEEDED) &amp;&amp;
     </p>
     <p>
-      1448 &#160;&#160;&#160;&#160;atomic_read(&amp;current_user()-&gt;processes) &gt; rlimit(RLIMIT_NPROC)) {
+      1448 &#xa0;&#xa0;&#xa0;&#xa0;atomic_read(&amp;current_user()-&gt;processes) &gt; rlimit(RLIMIT_NPROC)) {
     </p>
     <p>
-      1449&#160;&#160;&#160;&#160;&#160;retval = -EAGAIN;
+      1449&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;retval = -EAGAIN;
     </p>
     <p>
-      1450&#160;&#160;&#160;&#160;&#160;goto out_ret;
+      1450&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;goto out_ret;
     </p>
     <p>
       1451 }
@@ -1725,19 +1724,19 @@
       1224 struct task_struct {
     </p>
     <p>
-      1225&#160;&#160;&#160;&#160;&#160;volatile long state;&#160;&#160;&#160;&#160;/* -1 unrunnable, 0 runnable, &gt;0 stopped */
+      1225&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;volatile long state;&#xa0;&#xa0;&#xa0;&#xa0;/* -1 unrunnable, 0 runnable, &gt;0 stopped */
     </p>
     <p>
-      1226&#160;&#160;&#160;&#160;&#160;void *stack;
+      1226&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;void *stack;
     </p>
     <p>
-      1227&#160;&#160;&#160;&#160;&#160;atomic_t usage;
+      1227&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atomic_t usage;
     </p>
     <p>
-      1228&#160;&#160;&#160;&#160;&#160;unsigned int flags; /* per process flags, defined below */
+      1228&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned int flags; /* per process flags, defined below */
     </p>
     <p>
-      1229&#160;&#160;&#160;&#160;&#160;unsigned int ptrace;
+      1229&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned int ptrace;
     </p>
     <p>
       1230
@@ -1746,25 +1745,25 @@
       1231 #ifdef CONFIG_SMP
     </p>
     <p>
-      1232&#160;&#160;&#160;&#160;&#160;struct llist_node wake_entry;
+      1232&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct llist_node wake_entry;
     </p>
     <p>
-      1233&#160;&#160;&#160;&#160;&#160;int on_cpu;
+      1233&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int on_cpu;
     </p>
     <p>
-      1234&#160;&#160;&#160;&#160;&#160;struct task_struct *last_wakee;
+      1234&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct task_struct *last_wakee;
     </p>
     <p>
-      1235&#160;&#160;&#160;&#160;&#160;unsigned long wakee_flips;
+      1235&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned long wakee_flips;
     </p>
     <p>
-      1236&#160;&#160;&#160;&#160;&#160;unsigned long wakee_flip_decay_ts;
+      1236&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned long wakee_flip_decay_ts;
     </p>
     <p>
       1237
     </p>
     <p>
-      1238&#160;&#160;&#160;&#160;&#160;int wake_cpu;
+      1238&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int wake_cpu;
     </p>
   </body>
 </html></richcontent>
@@ -1780,31 +1779,31 @@
   </head>
   <body>
     <p>
-      &#160;&#160;1 #ifndef __ASM_GENERIC_CURRENT_H
+      &#xa0;&#xa0;1 #ifndef __ASM_GENERIC_CURRENT_H
     </p>
     <p>
-      &#160;&#160;2 #define __ASM_GENERIC_CURRENT_H
+      &#xa0;&#xa0;2 #define __ASM_GENERIC_CURRENT_H
     </p>
     <p>
-      &#160;&#160;3
+      &#xa0;&#xa0;3
     </p>
     <p>
-      &#160;&#160;4 #include &lt;linux/thread_info.h&gt;
+      &#xa0;&#xa0;4 #include &lt;linux/thread_info.h&gt;
     </p>
     <p>
-      &#160;&#160;5
+      &#xa0;&#xa0;5
     </p>
     <p>
-      &#160;&#160;6 #define get_current() (current_thread_info()-&gt;task)
+      &#xa0;&#xa0;6 #define get_current() (current_thread_info()-&gt;task)
     </p>
     <p>
-      &#160;&#160;7 #define current get_current()
+      &#xa0;&#xa0;7 #define current get_current()
     </p>
     <p>
-      &#160;&#160;8
+      &#xa0;&#xa0;8
     </p>
     <p>
-      &#160;&#160;9 #endif /* __ASM_GENERIC_CURRENT_H */
+      &#xa0;&#xa0;9 #endif /* __ASM_GENERIC_CURRENT_H */
     </p>
   </body>
 </html></richcontent>
@@ -1819,10 +1818,10 @@
       108 {
     </p>
     <p>
-      109&#160;&#160;&#160;&#160;&#160;register unsigned long sp asm (&quot;sp&quot;);
+      109&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;register unsigned long sp asm ("sp");
     </p>
     <p>
-      110&#160;&#160;&#160;&#160;&#160;return (struct thread_info *)(sp &amp; ~(THREAD_SIZE - 1));
+      110&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return (struct thread_info *)(sp &amp; ~(THREAD_SIZE - 1));
     </p>
     <p>
       111 }
@@ -1840,85 +1839,85 @@
   </head>
   <body>
     <p>
-      &#160;56 /*
+      &#xa0;56 /*
     </p>
     <p>
-      &#160;57&#160;&#160;* low level task data that entry.S needs immediate access to.
+      &#xa0;57&#xa0;&#xa0;* low level task data that entry.S needs immediate access to.
     </p>
     <p>
-      &#160;58&#160;&#160;* __switch_to() assumes cpu_context follows immediately after cpu_domain.
+      &#xa0;58&#xa0;&#xa0;* __switch_to() assumes cpu_context follows immediately after cpu_domain.
     </p>
     <p>
-      &#160;59&#160;&#160;*/
+      &#xa0;59&#xa0;&#xa0;*/
     </p>
     <p>
-      &#160;60 struct thread_info {
+      &#xa0;60 struct thread_info {
     </p>
     <p>
-      &#160;61&#160;&#160;&#160;&#160;&#160;unsigned long&#160;&#160;&#160;&#160;&#160;&#160;&#160;flags;&#160;&#160;&#160;&#160;&#160;&#160;/* low level flags */
+      &#xa0;61&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned long&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;flags;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* low level flags */
     </p>
     <p>
-      &#160;62&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;preempt_count;&#160;&#160;/* 0 =&gt; preemptable, &lt;0 =&gt; bug */
+      &#xa0;62&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;preempt_count;&#xa0;&#xa0;/* 0 =&gt; preemptable, &lt;0 =&gt; bug */
     </p>
     <p>
-      &#160;63&#160;&#160;&#160;&#160;&#160;mm_segment_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addr_limit; /* address limit */
+      &#xa0;63&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;mm_segment_t&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;addr_limit; /* address limit */
     </p>
     <p>
-      &#160;64&#160;&#160;&#160;&#160;&#160;struct task_struct&#160;&#160;*task;&#160;&#160;&#160;&#160;&#160;&#160;/* main task structure */
+      &#xa0;64&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct task_struct&#xa0;&#xa0;*task;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* main task structure */
     </p>
     <p>
-      &#160;65&#160;&#160;&#160;&#160;&#160;struct exec_domain&#160;&#160;*exec_domain;&#160;&#160;&#160;/* execution domain */
+      &#xa0;65&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct exec_domain&#xa0;&#xa0;*exec_domain;&#xa0;&#xa0;&#xa0;/* execution domain */
     </p>
     <p>
-      &#160;66&#160;&#160;&#160;&#160;&#160;__u32&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpu;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* cpu */
+      &#xa0;66&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;__u32&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpu;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* cpu */
     </p>
     <p>
-      &#160;67&#160;&#160;&#160;&#160;&#160;__u32&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpu_domain; /* cpu domain */
+      &#xa0;67&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;__u32&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;cpu_domain; /* cpu domain */
     </p>
     <p>
-      &#160;68&#160;&#160;&#160;&#160;&#160;struct cpu_context_save cpu_context;&#160;&#160;&#160;&#160;/* cpu context */
+      &#xa0;68&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct cpu_context_save cpu_context;&#xa0;&#xa0;&#xa0;&#xa0;/* cpu context */
     </p>
     <p>
-      &#160;69&#160;&#160;&#160;&#160;&#160;__u32&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;syscall;&#160;&#160;&#160;&#160;/* syscall number */
+      &#xa0;69&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;__u32&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;syscall;&#xa0;&#xa0;&#xa0;&#xa0;/* syscall number */
     </p>
     <p>
-      &#160;70&#160;&#160;&#160;&#160;&#160;__u8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;used_cp[16];&#160;&#160;&#160;&#160;/* thread used copro */
+      &#xa0;70&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;__u8&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;used_cp[16];&#xa0;&#xa0;&#xa0;&#xa0;/* thread used copro */
     </p>
     <p>
-      &#160;71&#160;&#160;&#160;&#160;&#160;unsigned long&#160;&#160;&#160;&#160;&#160;&#160;&#160;tp_value[2];&#160;&#160;&#160;&#160;/* TLS registers */
+      &#xa0;71&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned long&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;tp_value[2];&#xa0;&#xa0;&#xa0;&#xa0;/* TLS registers */
     </p>
     <p>
-      &#160;72 #ifdef CONFIG_CRUNCH
+      &#xa0;72 #ifdef CONFIG_CRUNCH
     </p>
     <p>
-      &#160;73&#160;&#160;&#160;&#160;&#160;struct crunch_state crunchstate;
+      &#xa0;73&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct crunch_state crunchstate;
     </p>
     <p>
-      &#160;74 #endif
+      &#xa0;74 #endif
     </p>
     <p>
-      &#160;75&#160;&#160;&#160;&#160;&#160;union fp_state&#160;&#160;&#160;&#160;&#160;&#160;fpstate __attribute__((aligned(8)));
+      &#xa0;75&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;union fp_state&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;fpstate __attribute__((aligned(8)));
     </p>
     <p>
-      &#160;76&#160;&#160;&#160;&#160;&#160;union vfp_state&#160;&#160;&#160;&#160;&#160;vfpstate;
+      &#xa0;76&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;union vfp_state&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;vfpstate;
     </p>
     <p>
-      &#160;77 #ifdef CONFIG_ARM_THUMBEE
+      &#xa0;77 #ifdef CONFIG_ARM_THUMBEE
     </p>
     <p>
-      &#160;78&#160;&#160;&#160;&#160;&#160;unsigned long&#160;&#160;&#160;&#160;&#160;&#160;&#160;thumbee_state;&#160;&#160;/* ThumbEE Handler Base register */
+      &#xa0;78&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;unsigned long&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;thumbee_state;&#xa0;&#xa0;/* ThumbEE Handler Base register */
     </p>
     <p>
-      &#160;79 #endif
+      &#xa0;79 #endif
     </p>
     <p>
-      &#160;80&#160;&#160;&#160;&#160;&#160;struct restart_block&#160;&#160;&#160;&#160;restart_block;
+      &#xa0;80&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct restart_block&#xa0;&#xa0;&#xa0;&#xa0;restart_block;
     </p>
     <p>
-      &#160;81&#160;&#160;&#160;&#160;&#160;struct arm_restart_block&#160;&#160;&#160;&#160;arm_restart_block;
+      &#xa0;81&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct arm_restart_block&#xa0;&#xa0;&#xa0;&#xa0;arm_restart_block;
     </p>
     <p>
-      &#160;82 };
+      &#xa0;82 };
     </p>
   </body>
 </html></richcontent>
@@ -1942,7 +1941,7 @@
 <node CREATED="1456933773468" ID="ID_1214115593" MODIFIED="1456933804351" TEXT="read search_binary_handler fs/exec.c"/>
 </node>
 </node>
-<node CREATED="1456997002235" ID="ID_1386611036" MODIFIED="1459141470872" TEXT="linux3.16">
+<node CREATED="1456997002235" FOLDED="true" ID="ID_1386611036" MODIFIED="1481976508467" TEXT="linux3.16">
 <node CREATED="1456997009524" ID="ID_1777509474" MODIFIED="1458388629493" TEXT="#define container_of(ptr, type, member)">
 <node CREATED="1456997063188" ID="ID_510202903" MODIFIED="1456997129169" TEXT="include/linux/kernel.h:833"/>
 <node CREATED="1456997388576" ID="ID_1134193148" MODIFIED="1456997395117" TEXT="GNU C ext">
@@ -1982,31 +1981,31 @@
       826 /**
     </p>
     <p>
-      827&#160;&#160;* container_of - cast a member of a structure out to the containing structure
+      827&#xa0;&#xa0;* container_of - cast a member of a structure out to the containing structure
     </p>
     <p>
-      828&#160;&#160;* @ptr:&#160;&#160;&#160;&#160;the pointer to the member.
+      828&#xa0;&#xa0;* @ptr:&#xa0;&#xa0;&#xa0;&#xa0;the pointer to the member.
     </p>
     <p>
-      829&#160;&#160;* @type:&#160;&#160;&#160;the type of the container struct this is embedded in.
+      829&#xa0;&#xa0;* @type:&#xa0;&#xa0;&#xa0;the type of the container struct this is embedded in.
     </p>
     <p>
-      830&#160;&#160;* @member: the name of the member within the struct.
+      830&#xa0;&#xa0;* @member: the name of the member within the struct.
     </p>
     <p>
-      831&#160;&#160;*
+      831&#xa0;&#xa0;*
     </p>
     <p>
-      832&#160;&#160;*/
+      832&#xa0;&#xa0;*/
     </p>
     <p>
-      833 #define container_of(ptr, type, member) ({&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+      833 #define container_of(ptr, type, member) ({&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;\
     </p>
     <p>
-      834&#160;&#160;&#160;&#160;&#160;const typeof( ((type *)0)-&gt;member ) *__mptr = (ptr);&#160;&#160;&#160;&#160;\
+      834&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;const typeof( ((type *)0)-&gt;member ) *__mptr = (ptr);&#xa0;&#xa0;&#xa0;&#xa0;\
     </p>
     <p>
-      835&#160;&#160;&#160;&#160;&#160;(type *)( (char *)__mptr - offsetof(type,member) );})
+      835&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(type *)( (char *)__mptr - offsetof(type,member) );})
     </p>
     <p>
       836
@@ -2028,19 +2027,19 @@
   </head>
   <body>
     <p>
-      &#160;&#160;5 #define myoffsetof(type, member)({ \
+      &#xa0;&#xa0;5 #define myoffsetof(type, member)({ \
     </p>
     <p>
-      &#160;&#160;6&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;type obj; \
+      &#xa0;&#xa0;6&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;type obj; \
     </p>
     <p>
-      &#160;&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(char*)&amp;obj.member - (char*)&amp;obj; \
+      &#xa0;&#xa0;7&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(char*)&amp;obj.member - (char*)&amp;obj; \
     </p>
     <p>
-      &#160;&#160;8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;})
+      &#xa0;&#xa0;8&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;})
     </p>
     <p>
-      &#160;&#160;9
+      &#xa0;&#xa0;9
     </p>
   </body>
 </html></richcontent>
@@ -2092,7 +2091,7 @@
     
   </head>
   <body>
-    <br class="Apple-interchange-newline" />
+    <br class="Apple-interchange-newline"/>
     
 
     <table class="wikitable" style="white-space: normal; background-color: rgb(249, 249, 249); text-transform: none; margin-right: 0px; font-style: normal; word-spacing: 0px; color: rgb(0, 0, 0); margin-bottom: 0; font-family: sans-serif; font-variant: normal; text-indent: 0px; font-weight: normal; line-height: 14.9333px; text-align: start; margin-left: 0px; margin-top: 0; font-size: 14px; letter-spacing: normal">
@@ -2402,7 +2401,7 @@
     
   </head>
   <body>
-    <br class="Apple-interchange-newline" />
+    <br class="Apple-interchange-newline"/>
     
 
     <table class="wikitable" style="white-space: normal; background-color: rgb(249, 249, 249); text-transform: none; margin-right: 0px; font-style: normal; word-spacing: 0px; color: rgb(0, 0, 0); margin-bottom: 0; font-family: sans-serif; font-variant: normal; text-indent: 0px; font-weight: normal; line-height: 14.9333px; text-align: start; margin-left: 0px; margin-top: 0; font-size: 14px; letter-spacing: normal">
@@ -2553,61 +2552,61 @@
       ELF Header:
     </p>
     <p>
-      &#160;&#160;Magic:&#160;&#160;&#160;7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00
+      &#xa0;&#xa0;Magic:&#xa0;&#xa0;&#xa0;7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00
     </p>
     <p>
-      &#160;&#160;Class:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ELF32
+      &#xa0;&#xa0;Class:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ELF32
     </p>
     <p>
-      &#160;&#160;Data:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2's complement, little endian
+      &#xa0;&#xa0;Data:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;2's complement, little endian
     </p>
     <p>
-      &#160;&#160;Version:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 (current)
+      &#xa0;&#xa0;Version:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;1 (current)
     </p>
     <p>
-      &#160;&#160;OS/ABI:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UNIX - System V
+      &#xa0;&#xa0;OS/ABI:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;UNIX - System V
     </p>
     <p>
-      &#160;&#160;ABI Version:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0
+      &#xa0;&#xa0;ABI Version:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0
     </p>
     <p>
-      &#160;&#160;Type:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EXEC (Executable file)
+      &#xa0;&#xa0;Type:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;EXEC (Executable file)
     </p>
     <p>
-      &#160;&#160;Machine:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ARM
+      &#xa0;&#xa0;Machine:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ARM
     </p>
     <p>
-      &#160;&#160;Version:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x1
+      &#xa0;&#xa0;Version:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x1
     </p>
     <p>
-      &#160;&#160;Entry point address:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x88b5
+      &#xa0;&#xa0;Entry point address:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x88b5
     </p>
     <p>
-      &#160;&#160;Start of program headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;52 (bytes into file)
+      &#xa0;&#xa0;Start of program headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;52 (bytes into file)
     </p>
     <p>
-      &#160;&#160;Start of section headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;414740 (bytes into file)
+      &#xa0;&#xa0;Start of section headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;414740 (bytes into file)
     </p>
     <p>
-      &#160;&#160;Flags:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x5000402, has entry point, Version5 EABI, hard-float ABI
+      &#xa0;&#xa0;Flags:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x5000402, has entry point, Version5 EABI, hard-float ABI
     </p>
     <p>
-      &#160;&#160;Size of this header:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;52 (bytes)
+      &#xa0;&#xa0;Size of this header:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;52 (bytes)
     </p>
     <p>
-      &#160;&#160;Size of program headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;32 (bytes)
+      &#xa0;&#xa0;Size of program headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;32 (bytes)
     </p>
     <p>
-      &#160;&#160;Number of program headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6
+      &#xa0;&#xa0;Number of program headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;6
     </p>
     <p>
-      &#160;&#160;Size of section headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;40 (bytes)
+      &#xa0;&#xa0;Size of section headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;40 (bytes)
     </p>
     <p>
-      &#160;&#160;Number of section headers:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;33
+      &#xa0;&#xa0;Number of section headers:&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;33
     </p>
     <p>
-      &#160;&#160;Section header string table index: 30
+      &#xa0;&#xa0;Section header string table index: 30
     </p>
   </body>
 </html></richcontent>
@@ -2639,52 +2638,52 @@
       Program Headers:
     </p>
     <p>
-      &#160;&#160;Type&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Offset&#160;&#160;&#160;VirtAddr&#160;&#160;&#160;PhysAddr&#160;&#160;&#160;FileSiz MemSiz&#160;&#160;Flg Align
+      &#xa0;&#xa0;Type&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Offset&#xa0;&#xa0;&#xa0;VirtAddr&#xa0;&#xa0;&#xa0;PhysAddr&#xa0;&#xa0;&#xa0;FileSiz MemSiz&#xa0;&#xa0;Flg Align
     </p>
     <p>
-      &#160;&#160;EXIDX&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x05b25c 0x0006325c 0x0006325c 0x00688 0x00688 R&#160;&#160;&#160;0x4
+      &#xa0;&#xa0;EXIDX&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x05b25c 0x0006325c 0x0006325c 0x00688 0x00688 R&#xa0;&#xa0;&#xa0;0x4
     </p>
     <p>
-      &#160;&#160;LOAD&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x000000 0x00008000 0x00008000 0x5b8e8 0x5b8e8 R E 0x8000
+      &#xa0;&#xa0;LOAD&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x000000 0x00008000 0x00008000 0x5b8e8 0x5b8e8 R E 0x8000
     </p>
     <p>
-      &#160;&#160;LOAD&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x05b8e8 0x0006b8e8 0x0006b8e8 0x00f70 0x020ac RW&#160; 0x8000
+      &#xa0;&#xa0;LOAD&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x05b8e8 0x0006b8e8 0x0006b8e8 0x00f70 0x020ac RW&#xa0; 0x8000
     </p>
     <p>
-      &#160;&#160;NOTE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0000f4 0x000080f4 0x000080f4 0x00044 0x00044 R&#160;&#160;&#160;0x4
+      &#xa0;&#xa0;NOTE&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x0000f4 0x000080f4 0x000080f4 0x00044 0x00044 R&#xa0;&#xa0;&#xa0;0x4
     </p>
     <p>
-      &#160;&#160;TLS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x05b8e8 0x0006b8e8 0x0006b8e8 0x00010 0x00028 R&#160;&#160;&#160;0x4
+      &#xa0;&#xa0;TLS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x05b8e8 0x0006b8e8 0x0006b8e8 0x00010 0x00028 R&#xa0;&#xa0;&#xa0;0x4
     </p>
     <p>
-      &#160;&#160;GNU_STACK&#160;&#160;&#160;&#160;&#160;&#160;0x000000 0x00000000 0x00000000 0x00000 0x00000 RW&#160;&#160;0x10
+      &#xa0;&#xa0;GNU_STACK&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0x000000 0x00000000 0x00000000 0x00000 0x00000 RW&#xa0;&#xa0;0x10
     </p>
     <p>
       
     </p>
     <p>
-      &#160;Section to Segment mapping:
+      &#xa0;Section to Segment mapping:
     </p>
     <p>
-      &#160;&#160;Segment Sections...
+      &#xa0;&#xa0;Segment Sections...
     </p>
     <p>
-      &#160;&#160;&#160;00&#160;&#160;&#160;&#160;&#160;.ARM.exidx
+      &#xa0;&#xa0;&#xa0;00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;.ARM.exidx
     </p>
     <p>
-      &#160;&#160;&#160;01&#160;&#160;&#160;&#160;&#160;.note.ABI-tag .note.gnu.build-id .rel.dyn .init .iplt .text __libc_freeres_fn __libc_thread_freeres_fn .fini .rodata __libc_subfreeres __libc_atexit __libc_thread_subfreeres .ARM.extab .ARM.exidx .eh_frame
+      &#xa0;&#xa0;&#xa0;01&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;.note.ABI-tag .note.gnu.build-id .rel.dyn .init .iplt .text __libc_freeres_fn __libc_thread_freeres_fn .fini .rodata __libc_subfreeres __libc_atexit __libc_thread_subfreeres .ARM.extab .ARM.exidx .eh_frame
     </p>
     <p>
-      &#160;&#160;&#160;02&#160;&#160;&#160;&#160;&#160;.tdata .init_array .fini_array .jcr .data.rel.ro .got .data .bss __libc_freeres_ptrs
+      &#xa0;&#xa0;&#xa0;02&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;.tdata .init_array .fini_array .jcr .data.rel.ro .got .data .bss __libc_freeres_ptrs
     </p>
     <p>
-      &#160;&#160;&#160;03&#160;&#160;&#160;&#160;&#160;.note.ABI-tag .note.gnu.build-id
+      &#xa0;&#xa0;&#xa0;03&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;.note.ABI-tag .note.gnu.build-id
     </p>
     <p>
-      &#160;&#160;&#160;04&#160;&#160;&#160;&#160;&#160;.tdata .tbss
+      &#xa0;&#xa0;&#xa0;04&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;.tdata .tbss
     </p>
     <p>
-      &#160;&#160;&#160;05
+      &#xa0;&#xa0;&#xa0;05
     </p>
   </body>
 </html></richcontent>
@@ -2708,118 +2707,118 @@
       Section Headers:
     </p>
     <p>
-      &#160;&#160;[Nr] Name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Addr&#160;&#160;&#160;&#160;&#160;Off&#160;&#160;&#160;&#160;Size&#160;&#160;&#160;ES Flg Lk Inf Al
+      &#xa0;&#xa0;[Nr] Name&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Type&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Addr&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Off&#xa0;&#xa0;&#xa0;&#xa0;Size&#xa0;&#xa0;&#xa0;ES Flg Lk Inf Al
     </p>
     <p>
-      &#160;&#160;[ 0]&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NULL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 000000 000000 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;0
+      &#xa0;&#xa0;[ 0]&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;NULL&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 000000 000000 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;0
     </p>
     <p>
-      &#160;&#160;[ 1] .note.ABI-tag&#160;&#160;&#160;&#160;&#160;NOTE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;000080f4 0000f4 000020 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 1] .note.ABI-tag&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;NOTE&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;000080f4 0000f4 000020 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 2] .note.gnu.build-i NOTE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00008114 000114 000024 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 2] .note.gnu.build-i NOTE&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00008114 000114 000024 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 3] .rel.dyn&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;REL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00008138 000138 000008 08&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 3] .rel.dyn&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;REL&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00008138 000138 000008 08&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 4] .init&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00008140 000140 00000c 00&#160;&#160;AX&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 4] .init&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00008140 000140 00000c 00&#xa0;&#xa0;AX&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 5] .iplt&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0000814c 00014c 000010 00&#160;&#160;AX&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 5] .iplt&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0000814c 00014c 000010 00&#xa0;&#xa0;AX&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 6] .text&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00008180 000180 044418 00&#160;&#160;AX&#160; 0&#160;&#160;&#160;0 64
+      &#xa0;&#xa0;[ 6] .text&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00008180 000180 044418 00&#xa0;&#xa0;AX&#xa0; 0&#xa0;&#xa0;&#xa0;0 64
     </p>
     <p>
-      &#160;&#160;[ 7] __libc_freeres_fn PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0004c598 044598 00089c 00&#160;&#160;AX&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 7] __libc_freeres_fn PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0004c598 044598 00089c 00&#xa0;&#xa0;AX&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 8] __libc_thread_fre PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0004ce34 044e34 000084 00&#160;&#160;AX&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 8] __libc_thread_fre PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0004ce34 044e34 000084 00&#xa0;&#xa0;AX&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[ 9] .fini&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0004ceb8 044eb8 000008 00&#160;&#160;AX&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[ 9] .fini&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0004ceb8 044eb8 000008 00&#xa0;&#xa0;AX&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[10] .rodata&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0004cec0 044ec0 0160f4 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;8
+      &#xa0;&#xa0;[10] .rodata&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0004cec0 044ec0 0160f4 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;8
     </p>
     <p>
-      &#160;&#160;[11] __libc_subfreeres PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00062fb4 05afb4 00002c 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[11] __libc_subfreeres PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00062fb4 05afb4 00002c 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[12] __libc_atexit&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00062fe0 05afe0 000004 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[12] __libc_atexit&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00062fe0 05afe0 000004 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[13] __libc_thread_sub PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00062fe4 05afe4 000004 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[13] __libc_thread_sub PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00062fe4 05afe4 000004 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[14] .ARM.extab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00062fe8 05afe8 000274 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[14] .ARM.extab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00062fe8 05afe8 000274 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[15] .ARM.exidx&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ARM_EXIDX&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006325c 05b25c 000688 00&#160;&#160;AL&#160; 6&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[15] .ARM.exidx&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;ARM_EXIDX&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006325c 05b25c 000688 00&#xa0;&#xa0;AL&#xa0; 6&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[16] .eh_frame&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;000638e4 05b8e4 000004 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[16] .eh_frame&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;000638e4 05b8e4 000004 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[17] .tdata&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006b8e8 05b8e8 000010 00 WAT&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[17] .tdata&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b8e8 05b8e8 000010 00 WAT&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[18] .tbss&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NOBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006b8f8 05b8f8 000018 00 WAT&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[18] .tbss&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;NOBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b8f8 05b8f8 000018 00 WAT&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[19] .init_array&#160;&#160;&#160;&#160;&#160;&#160;&#160;INIT_ARRAY&#160;&#160;&#160;&#160;&#160;&#160;0006b8f8 05b8f8 000004 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[19] .init_array&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;INIT_ARRAY&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b8f8 05b8f8 000004 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[20] .fini_array&#160;&#160;&#160;&#160;&#160;&#160;&#160;FINI_ARRAY&#160;&#160;&#160;&#160;&#160;&#160;0006b8fc 05b8fc 000008 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[20] .fini_array&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;FINI_ARRAY&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b8fc 05b8fc 000008 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[21] .jcr&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006b904 05b904 000004 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[21] .jcr&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b904 05b904 000004 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[22] .data.rel.ro&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006b908 05b908 000074 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[22] .data.rel.ro&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b908 05b908 000074 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[23] .got&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006b97c 05b97c 000074 04&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[23] .got&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b97c 05b97c 000074 04&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[24] .data&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006b9f0 05b9f0 000e68 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;8
+      &#xa0;&#xa0;[24] .data&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006b9f0 05b9f0 000e68 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;8
     </p>
     <p>
-      &#160;&#160;[25] .bss&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NOBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006c858 05c858 001124 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;8
+      &#xa0;&#xa0;[25] .bss&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;NOBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006c858 05c858 001124 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;8
     </p>
     <p>
-      &#160;&#160;[26] __libc_freeres_pt NOBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0006d97c 05c858 000018 00&#160;&#160;WA&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[26] __libc_freeres_pt NOBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;0006d97c 05c858 000018 00&#xa0;&#xa0;WA&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[27] .comment&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 05c858 000063 01&#160;&#160;MS&#160; 0&#160;&#160;&#160;0&#160;&#160;1
+      &#xa0;&#xa0;[27] .comment&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 05c858 000063 01&#xa0;&#xa0;MS&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;1
     </p>
     <p>
-      &#160;&#160;[28] .ARM.attributes&#160;&#160;&#160;ARM_ATTRIBUTES&#160;&#160;00000000 05c8bb 000037 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;1
+      &#xa0;&#xa0;[28] .ARM.attributes&#xa0;&#xa0;&#xa0;ARM_ATTRIBUTES&#xa0;&#xa0;00000000 05c8bb 000037 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;1
     </p>
     <p>
-      &#160;&#160;[29] .debug_frame&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 05c8f4 0089b4 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[29] .debug_frame&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 05c8f4 0089b4 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[30] .shstrtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;STRTAB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 0652a8 00016a 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;1
+      &#xa0;&#xa0;[30] .shstrtab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;STRTAB&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 0652a8 00016a 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;1
     </p>
     <p>
-      &#160;&#160;[31] .symtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SYMTAB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 06593c 00e260 10&#160;&#160;&#160;&#160; 32 2487&#160;&#160;4
+      &#xa0;&#xa0;[31] .symtab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;SYMTAB&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 06593c 00e260 10&#xa0;&#xa0;&#xa0;&#xa0; 32 2487&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[32] .strtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;STRTAB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 073b9c 007ac8 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;1
+      &#xa0;&#xa0;[32] .strtab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;STRTAB&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 073b9c 007ac8 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;1
     </p>
     <p>
       Key to Flags:
     </p>
     <p>
-      &#160;&#160;W (write), A (alloc), X (execute), M (merge), S (strings)
+      &#xa0;&#xa0;W (write), A (alloc), X (execute), M (merge), S (strings)
     </p>
     <p>
-      &#160;&#160;I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+      &#xa0;&#xa0;I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
     </p>
     <p>
-      &#160;&#160;O (extra OS processing required) o (OS specific), p (processor specific)
+      &#xa0;&#xa0;O (extra OS processing required) o (OS specific), p (processor specific)
     </p>
   </body>
 </html></richcontent>
@@ -2886,22 +2885,22 @@
       182 typedef struct elf32_sym{
     </p>
     <p>
-      183&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;st_name;
+      183&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;st_name;
     </p>
     <p>
-      184&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;st_value;
+      184&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;st_value;
     </p>
     <p>
-      185&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;st_size;
+      185&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;st_size;
     </p>
     <p>
-      186&#160;&#160;&#160;unsigned char st_info;
+      186&#xa0;&#xa0;&#xa0;unsigned char st_info;
     </p>
     <p>
-      187&#160;&#160;&#160;unsigned char st_other;
+      187&#xa0;&#xa0;&#xa0;unsigned char st_other;
     </p>
     <p>
-      188&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;st_shndx;
+      188&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;st_shndx;
     </p>
     <p>
       189 } Elf32_Sym;
@@ -2919,16 +2918,16 @@
   </head>
   <body>
     <p>
-      &#160;&#160;[14] .ARM.extab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PROGBITS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00062fe8 05afe8 000274 00&#160;&#160;&#160;A&#160; 0&#160;&#160;&#160;0&#160;&#160;4
+      &#xa0;&#xa0;[14] .ARM.extab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;PROGBITS&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00062fe8 05afe8 000274 00&#xa0;&#xa0;&#xa0;A&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[30] .shstrtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;STRTAB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 0652a8 00016a 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;1
+      &#xa0;&#xa0;[30] .shstrtab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;STRTAB&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 0652a8 00016a 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;1
     </p>
     <p>
-      &#160;&#160;[31] .symtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SYMTAB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 06593c 00e260 10&#160;&#160;&#160;&#160; 32 2487&#160;&#160;4
+      &#xa0;&#xa0;[31] .symtab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;SYMTAB&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 06593c 00e260 10&#xa0;&#xa0;&#xa0;&#xa0; 32 2487&#xa0;&#xa0;4
     </p>
     <p>
-      &#160;&#160;[32] .strtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;STRTAB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;00000000 073b9c 007ac8 00&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;0&#160;&#160;1
+      &#xa0;&#xa0;[32] .strtab&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;STRTAB&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;00000000 073b9c 007ac8 00&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; 0&#xa0;&#xa0;&#xa0;0&#xa0;&#xa0;1
     </p>
   </body>
 </html></richcontent>
@@ -3043,10 +3042,10 @@
       160 typedef struct elf32_rel {
     </p>
     <p>
-      161&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;r_offset;
+      161&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;r_offset;
     </p>
     <p>
-      162&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;r_info;
+      162&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;r_info;
     </p>
     <p>
       163 } Elf32_Rel;
@@ -3058,10 +3057,10 @@
       165 typedef struct elf64_rel {
     </p>
     <p>
-      166&#160;&#160;&#160;Elf64_Addr r_offset;&#160;&#160;/* Location at which to apply the action */
+      166&#xa0;&#xa0;&#xa0;Elf64_Addr r_offset;&#xa0;&#xa0;/* Location at which to apply the action */
     </p>
     <p>
-      167&#160;&#160;&#160;Elf64_Xword r_info;&#160;&#160;&#160;/* index and type of relocation */
+      167&#xa0;&#xa0;&#xa0;Elf64_Xword r_info;&#xa0;&#xa0;&#xa0;/* index and type of relocation */
     </p>
     <p>
       168 } Elf64_Rel;
@@ -3073,13 +3072,13 @@
       170 typedef struct elf32_rela{
     </p>
     <p>
-      171&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;r_offset;
+      171&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;r_offset;
     </p>
     <p>
-      172&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;r_info;
+      172&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;r_info;
     </p>
     <p>
-      173&#160;&#160;&#160;Elf32_Sword&#160;&#160;&#160;r_addend;
+      173&#xa0;&#xa0;&#xa0;Elf32_Sword&#xa0;&#xa0;&#xa0;r_addend;
     </p>
     <p>
       174 } Elf32_Rela;
@@ -3091,13 +3090,13 @@
       176 typedef struct elf64_rela {
     </p>
     <p>
-      177&#160;&#160;&#160;Elf64_Addr r_offset;&#160;&#160;/* Location at which to apply the action */
+      177&#xa0;&#xa0;&#xa0;Elf64_Addr r_offset;&#xa0;&#xa0;/* Location at which to apply the action */
     </p>
     <p>
-      178&#160;&#160;&#160;Elf64_Xword r_info;&#160;&#160;&#160;/* index and type of relocation */
+      178&#xa0;&#xa0;&#xa0;Elf64_Xword r_info;&#xa0;&#xa0;&#xa0;/* index and type of relocation */
     </p>
     <p>
-      179&#160;&#160;&#160;Elf64_Sxword r_addend;&#160;&#160;&#160;&#160;/* Constant addend used to compute value */
+      179&#xa0;&#xa0;&#xa0;Elf64_Sxword r_addend;&#xa0;&#xa0;&#xa0;&#xa0;/* Constant addend used to compute value */
     </p>
     <p>
       180 } Elf64_Rela;
@@ -3153,7 +3152,7 @@
   </head>
   <body>
     <p>
-      201 #define EI_NIDENT&#160;&#160;&#160;16
+      201 #define EI_NIDENT&#xa0;&#xa0;&#xa0;16
     </p>
     <p>
       202
@@ -3162,46 +3161,46 @@
       203 typedef struct elf32_hdr{
     </p>
     <p>
-      204&#160;&#160;&#160;unsigned char e_ident[EI_NIDENT];
+      204&#xa0;&#xa0;&#xa0;unsigned char e_ident[EI_NIDENT];
     </p>
     <p>
-      205&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_type;
+      205&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_type;
     </p>
     <p>
-      206&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_machine;
+      206&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_machine;
     </p>
     <p>
-      207&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;e_version;
+      207&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;e_version;
     </p>
     <p>
-      208&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;e_entry;&#160;&#160;/* Entry point */
+      208&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;e_entry;&#xa0;&#xa0;/* Entry point */
     </p>
     <p>
-      209&#160;&#160;&#160;Elf32_Off e_phoff;
+      209&#xa0;&#xa0;&#xa0;Elf32_Off e_phoff;
     </p>
     <p>
-      210&#160;&#160;&#160;Elf32_Off e_shoff;
+      210&#xa0;&#xa0;&#xa0;Elf32_Off e_shoff;
     </p>
     <p>
-      211&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;e_flags;
+      211&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;e_flags;
     </p>
     <p>
-      212&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_ehsize;
+      212&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_ehsize;
     </p>
     <p>
-      213&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_phentsize;
+      213&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_phentsize;
     </p>
     <p>
-      214&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_phnum;
+      214&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_phnum;
     </p>
     <p>
-      215&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_shentsize;
+      215&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_shentsize;
     </p>
     <p>
-      216&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_shnum;
+      216&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_shnum;
     </p>
     <p>
-      217&#160;&#160;&#160;Elf32_Half&#160;&#160;&#160;&#160;e_shstrndx;
+      217&#xa0;&#xa0;&#xa0;Elf32_Half&#xa0;&#xa0;&#xa0;&#xa0;e_shstrndx;
     </p>
     <p>
       218 } Elf32_Ehdr;
@@ -3221,46 +3220,46 @@
       220 typedef struct elf64_hdr {
     </p>
     <p>
-      221&#160;&#160;&#160;unsigned char e_ident[EI_NIDENT]; /* ELF &quot;magic number&quot; */
+      221&#xa0;&#xa0;&#xa0;unsigned char e_ident[EI_NIDENT]; /* ELF "magic number" */
     </p>
     <p>
-      222&#160;&#160;&#160;Elf64_Half e_type;
+      222&#xa0;&#xa0;&#xa0;Elf64_Half e_type;
     </p>
     <p>
-      223&#160;&#160;&#160;Elf64_Half e_machine;
+      223&#xa0;&#xa0;&#xa0;Elf64_Half e_machine;
     </p>
     <p>
-      224&#160;&#160;&#160;Elf64_Word e_version;
+      224&#xa0;&#xa0;&#xa0;Elf64_Word e_version;
     </p>
     <p>
-      225&#160;&#160;&#160;Elf64_Addr e_entry;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Entry point virtual address */
+      225&#xa0;&#xa0;&#xa0;Elf64_Addr e_entry;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Entry point virtual address */
     </p>
     <p>
-      226&#160;&#160;&#160;Elf64_Off e_phoff;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Program header table file offset */
+      226&#xa0;&#xa0;&#xa0;Elf64_Off e_phoff;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Program header table file offset */
     </p>
     <p>
-      227&#160;&#160;&#160;Elf64_Off e_shoff;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Section header table file offset */
+      227&#xa0;&#xa0;&#xa0;Elf64_Off e_shoff;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Section header table file offset */
     </p>
     <p>
-      228&#160;&#160;&#160;Elf64_Word e_flags;
+      228&#xa0;&#xa0;&#xa0;Elf64_Word e_flags;
     </p>
     <p>
-      229&#160;&#160;&#160;Elf64_Half e_ehsize;
+      229&#xa0;&#xa0;&#xa0;Elf64_Half e_ehsize;
     </p>
     <p>
-      230&#160;&#160;&#160;Elf64_Half e_phentsize;
+      230&#xa0;&#xa0;&#xa0;Elf64_Half e_phentsize;
     </p>
     <p>
-      231&#160;&#160;&#160;Elf64_Half e_phnum;
+      231&#xa0;&#xa0;&#xa0;Elf64_Half e_phnum;
     </p>
     <p>
-      232&#160;&#160;&#160;Elf64_Half e_shentsize;
+      232&#xa0;&#xa0;&#xa0;Elf64_Half e_shentsize;
     </p>
     <p>
-      233&#160;&#160;&#160;Elf64_Half e_shnum;
+      233&#xa0;&#xa0;&#xa0;Elf64_Half e_shnum;
     </p>
     <p>
-      234&#160;&#160;&#160;Elf64_Half e_shstrndx;
+      234&#xa0;&#xa0;&#xa0;Elf64_Half e_shstrndx;
     </p>
     <p>
       235 } Elf64_Ehdr;
@@ -3280,34 +3279,34 @@
       299 typedef struct elf32_shdr {
     </p>
     <p>
-      300&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_name;
+      300&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_name;
     </p>
     <p>
-      301&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_type;
+      301&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_type;
     </p>
     <p>
-      302&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_flags;
+      302&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_flags;
     </p>
     <p>
-      303&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;sh_addr;
+      303&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;sh_addr;
     </p>
     <p>
-      304&#160;&#160;&#160;Elf32_Off sh_offset;
+      304&#xa0;&#xa0;&#xa0;Elf32_Off sh_offset;
     </p>
     <p>
-      305&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_size;
+      305&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_size;
     </p>
     <p>
-      306&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_link;
+      306&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_link;
     </p>
     <p>
-      307&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_info;
+      307&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_info;
     </p>
     <p>
-      308&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_addralign;
+      308&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_addralign;
     </p>
     <p>
-      309&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;sh_entsize;
+      309&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;sh_entsize;
     </p>
     <p>
       310 } Elf32_Shdr;
@@ -3330,34 +3329,34 @@
       312 typedef struct elf64_shdr {
     </p>
     <p>
-      313&#160;&#160;&#160;Elf64_Word sh_name;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Section name, index in string tbl */
+      313&#xa0;&#xa0;&#xa0;Elf64_Word sh_name;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Section name, index in string tbl */
     </p>
     <p>
-      314&#160;&#160;&#160;Elf64_Word sh_type;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Type of section */
+      314&#xa0;&#xa0;&#xa0;Elf64_Word sh_type;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Type of section */
     </p>
     <p>
-      315&#160;&#160;&#160;Elf64_Xword sh_flags;&#160;&#160;&#160;&#160;&#160;/* Miscellaneous section attributes */
+      315&#xa0;&#xa0;&#xa0;Elf64_Xword sh_flags;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Miscellaneous section attributes */
     </p>
     <p>
-      316&#160;&#160;&#160;Elf64_Addr sh_addr;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Section virtual addr at execution */
+      316&#xa0;&#xa0;&#xa0;Elf64_Addr sh_addr;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Section virtual addr at execution */
     </p>
     <p>
-      317&#160;&#160;&#160;Elf64_Off sh_offset;&#160;&#160;&#160;&#160;&#160;&#160;/* Section file offset */
+      317&#xa0;&#xa0;&#xa0;Elf64_Off sh_offset;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Section file offset */
     </p>
     <p>
-      318&#160;&#160;&#160;Elf64_Xword sh_size;&#160;&#160;&#160;&#160;&#160;&#160;/* Size of section in bytes */
+      318&#xa0;&#xa0;&#xa0;Elf64_Xword sh_size;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Size of section in bytes */
     </p>
     <p>
-      319&#160;&#160;&#160;Elf64_Word sh_link;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Index of another section */
+      319&#xa0;&#xa0;&#xa0;Elf64_Word sh_link;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Index of another section */
     </p>
     <p>
-      320&#160;&#160;&#160;Elf64_Word sh_info;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Additional section information */
+      320&#xa0;&#xa0;&#xa0;Elf64_Word sh_info;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Additional section information */
     </p>
     <p>
-      321&#160;&#160;&#160;Elf64_Xword sh_addralign; /* Section alignment */
+      321&#xa0;&#xa0;&#xa0;Elf64_Xword sh_addralign; /* Section alignment */
     </p>
     <p>
-      322&#160;&#160;&#160;Elf64_Xword sh_entsize;&#160;&#160;&#160;/* Entry size if section holds table */
+      322&#xa0;&#xa0;&#xa0;Elf64_Xword sh_entsize;&#xa0;&#xa0;&#xa0;/* Entry size if section holds table */
     </p>
     <p>
       323 } Elf64_Shdr;
@@ -3377,28 +3376,28 @@
       243 typedef struct elf32_phdr{
     </p>
     <p>
-      244&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;p_type;
+      244&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;p_type;
     </p>
     <p>
-      245&#160;&#160;&#160;Elf32_Off p_offset;
+      245&#xa0;&#xa0;&#xa0;Elf32_Off p_offset;
     </p>
     <p>
-      246&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;p_vaddr;
+      246&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;p_vaddr;
     </p>
     <p>
-      247&#160;&#160;&#160;Elf32_Addr&#160;&#160;&#160;&#160;p_paddr;
+      247&#xa0;&#xa0;&#xa0;Elf32_Addr&#xa0;&#xa0;&#xa0;&#xa0;p_paddr;
     </p>
     <p>
-      248&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;p_filesz;
+      248&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;p_filesz;
     </p>
     <p>
-      249&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;p_memsz;
+      249&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;p_memsz;
     </p>
     <p>
-      250&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;p_flags;
+      250&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;p_flags;
     </p>
     <p>
-      251&#160;&#160;&#160;Elf32_Word&#160;&#160;&#160;&#160;p_align;
+      251&#xa0;&#xa0;&#xa0;Elf32_Word&#xa0;&#xa0;&#xa0;&#xa0;p_align;
     </p>
     <p>
       252 } Elf32_Phdr;
@@ -3410,28 +3409,28 @@
       254 typedef struct elf64_phdr {
     </p>
     <p>
-      255&#160;&#160;&#160;Elf64_Word p_type;
+      255&#xa0;&#xa0;&#xa0;Elf64_Word p_type;
     </p>
     <p>
-      256&#160;&#160;&#160;Elf64_Word p_flags;
+      256&#xa0;&#xa0;&#xa0;Elf64_Word p_flags;
     </p>
     <p>
-      257&#160;&#160;&#160;Elf64_Off p_offset;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Segment file offset */
+      257&#xa0;&#xa0;&#xa0;Elf64_Off p_offset;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Segment file offset */
     </p>
     <p>
-      258&#160;&#160;&#160;Elf64_Addr p_vaddr;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Segment virtual address */
+      258&#xa0;&#xa0;&#xa0;Elf64_Addr p_vaddr;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Segment virtual address */
     </p>
     <p>
-      259&#160;&#160;&#160;Elf64_Addr p_paddr;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Segment physical address */
+      259&#xa0;&#xa0;&#xa0;Elf64_Addr p_paddr;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Segment physical address */
     </p>
     <p>
-      260&#160;&#160;&#160;Elf64_Xword p_filesz;&#160;&#160;&#160;&#160;&#160;/* Segment size in file */
+      260&#xa0;&#xa0;&#xa0;Elf64_Xword p_filesz;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Segment size in file */
     </p>
     <p>
-      261&#160;&#160;&#160;Elf64_Xword p_memsz;&#160;&#160;&#160;&#160;&#160;&#160;/* Segment size in memory */
+      261&#xa0;&#xa0;&#xa0;Elf64_Xword p_memsz;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Segment size in memory */
     </p>
     <p>
-      262&#160;&#160;&#160;Elf64_Xword p_align;&#160;&#160;&#160;&#160;&#160;&#160;/* Segment alignment, file &amp; memory */
+      262&#xa0;&#xa0;&#xa0;Elf64_Xword p_align;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Segment alignment, file &amp; memory */
     </p>
     <p>
       263 } Elf64_Phdr;
@@ -3482,25 +3481,25 @@
       <tr>
         <td style="border-right-style: solid; border-left-width: 1; border-top-style: solid; border-left-style: solid; border-top-width: 1; width: 100%; border-bottom-width: 1; border-right-width: 1; border-bottom-style: solid" valign="top">
           <p>
-            #0&#160;&#160;exec_binprm (bprm=&lt;optimized out&gt;) at fs/exec.c:1412
+            #0&#xa0;&#xa0;exec_binprm (bprm=&lt;optimized out&gt;) at fs/exec.c:1412
           </p>
           <p>
-            #1&#160;&#160;do_execve_common (envp=..., argv=..., filename=&lt;optimized out&gt;) at fs/exec.c:1512
+            #1&#xa0;&#xa0;do_execve_common (envp=..., argv=..., filename=&lt;optimized out&gt;) at fs/exec.c:1512
           </p>
           <p>
-            #2&#160;&#160;do_execve (filename=0x0 &lt;__vectors_start&gt;, __argv=0x0 &lt;__vectors_start&gt;, __envp=0x806425d8 &lt;envp_init&gt;) at fs/exec.c:1554
+            #2&#xa0;&#xa0;do_execve (filename=0x0 &lt;__vectors_start&gt;, __argv=0x0 &lt;__vectors_start&gt;, __envp=0x806425d8 &lt;envp_init&gt;) at fs/exec.c:1554
           </p>
           <p>
-            #3&#160;&#160;0x800087e4 in run_init_process (init_filename=&lt;optimized out&gt;) at init/main.c:909
+            #3&#xa0;&#xa0;0x800087e4 in run_init_process (init_filename=&lt;optimized out&gt;) at init/main.c:909
           </p>
           <p>
-            #4&#160;&#160;0x800087f4 in try_to_run_init_process (init_filename=0x80542160 &quot;/sbin/init&quot;) at init/main.c:918
+            #4&#xa0;&#xa0;0x800087f4 in try_to_run_init_process (init_filename=0x80542160 "/sbin/init") at init/main.c:918
           </p>
           <p>
-            #5&#160;&#160;0x8047c8f0 in kernel_init (unused=&lt;optimized out&gt;) at init/main.c:965
+            #5&#xa0;&#xa0;0x8047c8f0 in kernel_init (unused=&lt;optimized out&gt;) at init/main.c:965
           </p>
           <p>
-            #6&#160;&#160;0x8000e1b8 in ret_from_fork () at arch/arm/kernel/entry-common.S:91
+            #6&#xa0;&#xa0;0x8000e1b8 in ret_from_fork () at arch/arm/kernel/entry-common.S:91
           </p>
           <p>
             Backtrace stopped: previous frame identical to this frame (corrupt stack?)

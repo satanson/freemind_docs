@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1338169442479" ID="ID_920942814" MODIFIED="1371103379053" TEXT="#include&lt;pthread.h&gt;">
 <node CREATED="1371103076756" FOLDED="true" ID="ID_1238827042" MODIFIED="1410768706585" POSITION="right" TEXT="error">
@@ -48,21 +48,21 @@
 <node CREATED="1371113884224" ID="ID_1971232013" MODIFIED="1371113894258" TEXT="int pthread_attr_setschedparam(pthread_attr_t *attr,const struct sched_param *param)"/>
 <node CREATED="1371113914372" ID="ID_408151812" MODIFIED="1371113922344" TEXT="int pthread_attr_getschedparam(pthread_attr_t *attr,struct sched_param *param);"/>
 <node CREATED="1371113942669" ID="ID_976959242" MODIFIED="1371113964680">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      &#xa0;struct sched_param {&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int sched_priority;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Scheduling priority */&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <p>&#13;
+      &#xa0;struct sched_param {&#13;
+    </p>&#13;
+    <p>&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;int sched_priority;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* Scheduling priority */&#13;
+    </p>&#13;
+    <p>&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};&#13;
+    </p>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -84,37 +84,37 @@
 <node CREATED="1371103556910" FOLDED="true" ID="ID_1660664289" MODIFIED="1410769236217" TEXT="return: 0(OK),!0 (error)">
 <node CREATED="1371103608550" FOLDED="true" ID="ID_1477776574" MODIFIED="1371103685741" TEXT="EAGAIN">
 <node CREATED="1371103632591" ID="ID_967770132" MODIFIED="1371103632591">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)"><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small">system did not have the resources to create the thread, or would exceed system limit on total number of threads in a process</span></font>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)"><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small">system did not have the resources to create the thread, or would exceed system limit on total number of threads in a process</span></font>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1371103645382" FOLDED="true" ID="ID_1921107175" MODIFIED="1371103685229" TEXT="EINVAL">
 <node CREATED="1371103653839" ID="ID_1896272919" MODIFIED="1371103653839">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <span style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small" class="Apple-style-span"><tt style="font-family: Andale Mono, Courier New, Courier, monospace; color: rgb(121, 0, 41); font-size: x-small"><font size="x-small" face="Andale Mono, Courier New, Courier, monospace" color="rgb(121, 0, 41)">attr</font></tt></span><span class="Apple-converted-space"><font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)">&#xa0;</font></span><font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)"><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small">parameter is invalid</span></font>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <span style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small" class="Apple-style-span"><tt style="font-family: Andale Mono, Courier New, Courier, monospace; color: rgb(121, 0, 41); font-size: x-small"><font size="x-small" face="Andale Mono, Courier New, Courier, monospace" color="rgb(121, 0, 41)">attr</font></tt></span><span class="Apple-converted-space"><font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)">&#xa0;</font></span><font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)"><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small">parameter is invalid</span></font>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1371103661750" FOLDED="true" ID="ID_1843602104" MODIFIED="1371103686509" TEXT="EPERM">
 <node CREATED="1371103679919" ID="ID_403324337" MODIFIED="1371103679919">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)"><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small">caller does not have the appropriate permissions to set scheduling policy or parameters specified by</span><span class="Apple-converted-space">&#xa0;</span></font><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small"><tt style="font-family: Andale Mono, Courier New, Courier, monospace; color: rgb(121, 0, 41); font-size: x-small"><font size="x-small" face="Andale Mono, Courier New, Courier, monospace" color="rgb(121, 0, 41)">attr</font></tt></span>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <font size="x-small" face="Verdana, Arial, Helvetica, sans-serif" color="rgb(51, 51, 51)"><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small">caller does not have the appropriate permissions to set scheduling policy or parameters specified by</span><span class="Apple-converted-space">&#xa0;</span></font><span class="Apple-style-span" style="font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(51, 51, 51); font-size: x-small"><tt style="font-family: Andale Mono, Courier New, Courier, monospace; color: rgb(121, 0, 41); font-size: x-small"><font size="x-small" face="Andale Mono, Courier New, Courier, monospace" color="rgb(121, 0, 41)">attr</font></tt></span>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -173,7 +173,7 @@
 </node>
 <node CREATED="1371110890638" ID="ID_771529150" MODIFIED="1371120382902" TEXT="void pthread_testcancel(void);"/>
 </node>
-<node CREATED="1338216595527" FOLDED="true" ID="ID_737066211" MODIFIED="1410769489368" POSITION="right" TEXT="synchronzation">
+<node CREATED="1338216595527" ID="ID_737066211" MODIFIED="1485074561804" POSITION="right" TEXT="synchronzation">
 <node CREATED="1371116122557" ID="ID_1882214207" MODIFIED="1371180128685" TEXT="pthread_mutex_t">
 <node CREATED="1371116382685" FOLDED="true" ID="ID_1440169881" MODIFIED="1371119274992" TEXT="pthread_mutexattr_t">
 <node CREATED="1371116728676" ID="ID_1843624071" MODIFIED="1371116729950" TEXT="int pthread_mutexattr_destroy(pthread_mutexattr_t *attr);"/>

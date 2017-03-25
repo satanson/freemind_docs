@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1382668177714" ID="ID_1563909317" MODIFIED="1382668192028" TEXT="HDFS">
 <node CREATED="1382668222783" ID="ID_1655485859" MODIFIED="1386684310887" POSITION="right" TEXT="master/slave architecture">
@@ -54,7 +54,7 @@
 <node CREATED="1382671660863" ID="ID_919735167" MODIFIED="1382671662487" TEXT="DataNode Protocol"/>
 <node CREATED="1382671677218" ID="ID_1824135611" MODIFIED="1382671678093" TEXT="NameNode never initiates any RPCs. Instead, it only responds to RPC requests issued by DataNodes or clients"/>
 </node>
-<node CREATED="1382671802786" FOLDED="true" ID="ID_613723647" MODIFIED="1382685374753" POSITION="right" TEXT="Robustness">
+<node CREATED="1382671802786" ID="ID_613723647" MODIFIED="1483809507573" POSITION="right" TEXT="Robustness">
 <node CREATED="1382671812452" ID="ID_419889013" MODIFIED="1382671820257" TEXT="NameNode failure"/>
 <node CREATED="1382671820562" ID="ID_501185554" MODIFIED="1382671835665" TEXT="DataNode failure"/>
 <node CREATED="1382671835994" ID="ID_1160652010" MODIFIED="1382671857179" TEXT="Network partitioin"/>

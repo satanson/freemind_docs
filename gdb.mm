@@ -1,7 +1,7 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1341477627115" ID="ID_1535263265" MODIFIED="1385803041135" TEXT="gdb">
-<node CREATED="1341477637979" FOLDED="true" ID="ID_1696978992" MODIFIED="1457077567762" POSITION="right" TEXT="debugging multithreaded program">
+<node CREATED="1341477627115" ID="ID_1535263265" MODIFIED="1482119811700" TEXT="gdb">
+<node CREATED="1341477637979" ID="ID_1696978992" MODIFIED="1482119821400" POSITION="right" TEXT="debugging multithreaded program">
 <node CREATED="1341478560216" ID="ID_908363587" MODIFIED="1341478602868" TEXT="ref The Linux Programmer&#x2019;s Toolbox:pp-557"/>
 <node CREATED="1341479366324" ID="ID_1117115768" MODIFIED="1341479368541" TEXT="(gdb) info threads">
 <node CREATED="1341479370824" ID="ID_1506587785" MODIFIED="1341479393945" TEXT="list current running threads"/>
@@ -12,7 +12,7 @@
 <node CREATED="1341479630651" ID="ID_1299161358" MODIFIED="1341479663913" TEXT="(gdb) b foo thread 3">
 <node CREATED="1341479665556" ID="ID_781147227" MODIFIED="1341479695573" TEXT="break at function foo at thread 3"/>
 </node>
-<node CREATED="1341479890236" ID="ID_1908602743" MODIFIED="1341479909067" TEXT="(gdb) set scheduler-lock off|on|step">
+<node CREATED="1341479890236" FOLDED="true" ID="ID_1908602743" MODIFIED="1482119822983" TEXT="(gdb) set scheduler-lock off|on|step">
 <node CREATED="1341479946856" ID="ID_109465383" MODIFIED="1341479948309" TEXT="off">
 <node CREATED="1341479953931" ID="ID_109014377" MODIFIED="1341479956600" TEXT="While you are step- ping through the code with gdb in one thread, the other threads can execute and hit breakpoints. If this happens gdb will switch threads automatically"/>
 </node>
@@ -24,7 +24,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1341477663455" FOLDED="true" ID="ID_328407696" MODIFIED="1385803191174" POSITION="right" TEXT="debug shared library">
+<node CREATED="1341477663455" FOLDED="true" ID="ID_328407696" MODIFIED="1482119829456" POSITION="right" TEXT="debug shared library">
 <node CREATED="1341480391444" ID="ID_690474668" MODIFIED="1341559550504" TEXT="print shared library dependencies">
 <node CREATED="1341480375429" ID="ID_1784701896" MODIFIED="1341480898235" TEXT="$ ldd  prog"/>
 <node CREATED="1341558947709" ID="ID_448907811" MODIFIED="1341558954902" TEXT="$ ldd -u prog">
@@ -97,13 +97,13 @@
 <node CREATED="1341559630303" ID="ID_484619755" MODIFIED="1341561246429" TEXT="Looking for Symbols in Shared Objects">
 <node CREATED="1341561570676" ID="ID_760186642" MODIFIED="1341561574193" TEXT="binutils">
 <node CREATED="1341559634109" ID="ID_894533188" MODIFIED="1341561577810" TEXT="nm">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
 </node>
 <node CREATED="1341559636057" ID="ID_537516474" MODIFIED="1341561258902" TEXT="objdump">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
 </node>
 <node CREATED="1341559640677" ID="ID_651167700" MODIFIED="1341561259629" TEXT="readelf">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
 </node>
 </node>
 <node CREATED="1341561249979" FOLDED="true" ID="ID_272126362" MODIFIED="1341561680722" TEXT="find SONAME">
@@ -118,384 +118,384 @@
 </node>
 </node>
 <node CREATED="1341480146022" ID="ID_202556884" MODIFIED="1341480153543" POSITION="right" TEXT="objdump -S -l foo.o"/>
-<node CREATED="1341542109222" FOLDED="true" ID="ID_374195740" MODIFIED="1458541301886" POSITION="right" TEXT="glibc(GNU C Library) (C Posix Library)">
+<node CREATED="1341542109222" FOLDED="true" ID="ID_374195740" MODIFIED="1482119832629" POSITION="right" TEXT="glibc(GNU C Library) (C Posix Library)">
 <node CREATED="1341542185320" ID="ID_1751719553" MODIFIED="1341542185320">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    a portable and high performance C library&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    a portable and high performance C library&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1341542205918" FOLDED="true" ID="ID_1386267762" MODIFIED="1457077570278">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    follows all relevant standards including&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    follows all relevant standards including&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1341542219269" ID="ID_1635647351" MODIFIED="1341542230710">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    ISO C99&#xa0;&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    ISO C99&#xa0;&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1341542240447" ID="ID_1538145793" MODIFIED="1341542650870" TEXT="C Standard  Library">
 <node CREATED="1341542625511" ID="ID_174850883" MODIFIED="1356350148007">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <b>ISO C library</b>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <b>ISO C library</b>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1341543081935" ID="ID_1667268717" MODIFIED="1341543081935">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <tr>&#xd;&#xd;
-      <th title="Sort ascending" class="headerSort">&#xd;&#xd;
-        Name&#xd;&#xd;
-      </th>&#xd;&#xd;
-      <th title="Sort ascending" class="headerSort">&#xd;&#xd;
-        From&#xd;&#xd;
-      </th>&#xd;&#xd;
-      <th title="Sort ascending" class="headerSort">&#xd;&#xd;
-        Description&#xd;&#xd;
-      </th>&#xd;&#xd;
-    </tr>&#xd;&#xd;
-    <table>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Assert.h" href="http://en.wikipedia.org/wiki/Assert.h"><code>&lt;assert.h&gt;</code></a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Contains the <a title="Assertion (computing)" href="http://en.wikipedia.org/wiki/Assertion_%28computing%29">assert</a> macro, used to assist with detecting logical errors and other types of bug in debugging versions of a program.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;complex.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C99&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          A <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#complex.h">set of functions</a> for manipulating <a title="Complex number" href="http://en.wikipedia.org/wiki/Complex_number">complex numbers</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;ctype.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C character classification" href="http://en.wikipedia.org/wiki/C_character_classification">set of functions</a> used to classify characters by their types or to convert between upper and lower case in a way that is independent of the used <a title="Character set" href="http://en.wikipedia.org/wiki/Character_set" class="mw-redirect">character set</a> (typically <a title="ASCII" href="http://en.wikipedia.org/wiki/ASCII">ASCII</a> or one of its extensions, although implementations utilizing <a title="EBCDIC" href="http://en.wikipedia.org/wiki/EBCDIC">EBCDIC</a> are also known).&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Errno.h" href="http://en.wikipedia.org/wiki/Errno.h"><code>&lt;errno.h&gt;</code></a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          For testing error codes reported by library functions.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;fenv.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C99&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines a <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#fenv.h">set of functions</a> for controlling <a title="Floating-point" href="http://en.wikipedia.org/wiki/Floating-point" class="mw-redirect">floating-point</a> environment.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;float.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#float.h">macro constants</a> specifying the implementation-specific properties of the <a title="Floating-point" href="http://en.wikipedia.org/wiki/Floating-point" class="mw-redirect">floating-point</a> library.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;inttypes.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C99&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#inttypes.h">exact width integer types</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Iso646.h" href="http://en.wikipedia.org/wiki/Iso646.h"><code>&lt;iso646.h&gt;</code></a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          NA1&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines several macros that are equivalent to some of the operators in C. For programming in <a title="ISO 646" href="http://en.wikipedia.org/wiki/ISO_646" class="mw-redirect">ISO 646</a> variant character sets.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;limits.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#limits.h">macro constants</a> specifying the implementation-specific properties of the integer types.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;locale.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C localization functions" href="http://en.wikipedia.org/wiki/C_localization_functions">localization functions</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;math.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions">common mathematical functions</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Setjmp.h" href="http://en.wikipedia.org/wiki/Setjmp.h"><code>&lt;setjmp.h&gt;</code></a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Declares the macros <code>setjmp</code> and <code>longjmp</code>, which are used for non-local exits.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;signal.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C signal handling" href="http://en.wikipedia.org/wiki/C_signal_handling">signal handling functions</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdalign.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C11&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          For querying and specifying the <a title="Data structure alignment" href="http://en.wikipedia.org/wiki/Data_structure_alignment">alignment</a> of objects.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Stdarg.h" href="http://en.wikipedia.org/wiki/Stdarg.h"><code>&lt;stdarg.h&gt;</code></a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          For accessing a varying number of arguments passed to functions.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdatomic.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C11&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          For <a title="Linearizability" href="http://en.wikipedia.org/wiki/Linearizability">atomic operations</a> on data shared between threads.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdbool.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C99&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#stdbool.h">a boolean data type</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stddef.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#stddef.h">several useful types and macros</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdint.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C99&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#stdint.h">exact width integer types</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdio.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C file input/output" href="http://en.wikipedia.org/wiki/C_file_input/output">core input and output functions</a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdlib.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C string handling" href="http://en.wikipedia.org/wiki/C_string_handling#stdlib.h">numeric conversion functions</a>, <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#stdlib.h">pseudo-random numbers generation functions</a>, <a title="C dynamic memory allocation" href="http://en.wikipedia.org/wiki/C_dynamic_memory_allocation">memory allocation</a>, <a title="C process control" href="http://en.wikipedia.org/wiki/C_process_control">process control functions</a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;stdnoreturn.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C11&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          For specifying non-returning functions.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;string.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C string handling" href="http://en.wikipedia.org/wiki/C_string_handling">string handling functions</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;tgmath.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C99&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#tgmath.h">type-generic mathematical functions</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;threads.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C11&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines functions for managing multiple <a title="Thread (computer science)" href="http://en.wikipedia.org/wiki/Thread_%28computer_science%29" class="mw-redirect">Threads</a> as well as <a title="Mutual exclusion" href="http://en.wikipedia.org/wiki/Mutual_exclusion">mutexes</a> and <a title="Monitor (synchronization)" href="http://en.wikipedia.org/wiki/Monitor_%28synchronization%29">condition variables</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;time.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          &#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C date and time functions" href="http://en.wikipedia.org/wiki/C_date_and_time_functions">date and time handling functions</a>&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;uchar.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          C11&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Types and functions for manipulating <a title="Unicode" href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> characters.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;wchar.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          NA1&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C string handling" href="http://en.wikipedia.org/wiki/C_string_handling">wide string handling functions</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <code>&lt;wctype.h&gt;</code>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          NA1&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines <a title="C character classification" href="http://en.wikipedia.org/wiki/C_character_classification">set of functions</a> used to classify wide characters by their types or to convert between upper and lower case&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-    </table>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <tr>&#13;&#13;
+      <th title="Sort ascending" class="headerSort">&#13;&#13;
+        Name&#13;&#13;
+      </th>&#13;&#13;
+      <th title="Sort ascending" class="headerSort">&#13;&#13;
+        From&#13;&#13;
+      </th>&#13;&#13;
+      <th title="Sort ascending" class="headerSort">&#13;&#13;
+        Description&#13;&#13;
+      </th>&#13;&#13;
+    </tr>&#13;&#13;
+    <table>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Assert.h" href="http://en.wikipedia.org/wiki/Assert.h"><code>&lt;assert.h&gt;</code></a>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Contains the <a title="Assertion (computing)" href="http://en.wikipedia.org/wiki/Assertion_%28computing%29">assert</a> macro, used to assist with detecting logical errors and other types of bug in debugging versions of a program.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;complex.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C99&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          A <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#complex.h">set of functions</a> for manipulating <a title="Complex number" href="http://en.wikipedia.org/wiki/Complex_number">complex numbers</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;ctype.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C character classification" href="http://en.wikipedia.org/wiki/C_character_classification">set of functions</a> used to classify characters by their types or to convert between upper and lower case in a way that is independent of the used <a title="Character set" href="http://en.wikipedia.org/wiki/Character_set" class="mw-redirect">character set</a> (typically <a title="ASCII" href="http://en.wikipedia.org/wiki/ASCII">ASCII</a> or one of its extensions, although implementations utilizing <a title="EBCDIC" href="http://en.wikipedia.org/wiki/EBCDIC">EBCDIC</a> are also known).&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Errno.h" href="http://en.wikipedia.org/wiki/Errno.h"><code>&lt;errno.h&gt;</code></a>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          For testing error codes reported by library functions.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;fenv.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C99&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines a <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#fenv.h">set of functions</a> for controlling <a title="Floating-point" href="http://en.wikipedia.org/wiki/Floating-point" class="mw-redirect">floating-point</a> environment.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;float.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#float.h">macro constants</a> specifying the implementation-specific properties of the <a title="Floating-point" href="http://en.wikipedia.org/wiki/Floating-point" class="mw-redirect">floating-point</a> library.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;inttypes.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C99&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#inttypes.h">exact width integer types</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Iso646.h" href="http://en.wikipedia.org/wiki/Iso646.h"><code>&lt;iso646.h&gt;</code></a>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          NA1&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines several macros that are equivalent to some of the operators in C. For programming in <a title="ISO 646" href="http://en.wikipedia.org/wiki/ISO_646" class="mw-redirect">ISO 646</a> variant character sets.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;limits.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#limits.h">macro constants</a> specifying the implementation-specific properties of the integer types.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;locale.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C localization functions" href="http://en.wikipedia.org/wiki/C_localization_functions">localization functions</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;math.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions">common mathematical functions</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Setjmp.h" href="http://en.wikipedia.org/wiki/Setjmp.h"><code>&lt;setjmp.h&gt;</code></a>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Declares the macros <code>setjmp</code> and <code>longjmp</code>, which are used for non-local exits.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;signal.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C signal handling" href="http://en.wikipedia.org/wiki/C_signal_handling">signal handling functions</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdalign.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C11&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          For querying and specifying the <a title="Data structure alignment" href="http://en.wikipedia.org/wiki/Data_structure_alignment">alignment</a> of objects.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Stdarg.h" href="http://en.wikipedia.org/wiki/Stdarg.h"><code>&lt;stdarg.h&gt;</code></a>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          For accessing a varying number of arguments passed to functions.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdatomic.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C11&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          For <a title="Linearizability" href="http://en.wikipedia.org/wiki/Linearizability">atomic operations</a> on data shared between threads.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdbool.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C99&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#stdbool.h">a boolean data type</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stddef.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#stddef.h">several useful types and macros</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdint.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C99&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C data types" href="http://en.wikipedia.org/wiki/C_data_types#stdint.h">exact width integer types</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdio.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C file input/output" href="http://en.wikipedia.org/wiki/C_file_input/output">core input and output functions</a>&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdlib.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C string handling" href="http://en.wikipedia.org/wiki/C_string_handling#stdlib.h">numeric conversion functions</a>, <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#stdlib.h">pseudo-random numbers generation functions</a>, <a title="C dynamic memory allocation" href="http://en.wikipedia.org/wiki/C_dynamic_memory_allocation">memory allocation</a>, <a title="C process control" href="http://en.wikipedia.org/wiki/C_process_control">process control functions</a>&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;stdnoreturn.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C11&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          For specifying non-returning functions.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;string.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C string handling" href="http://en.wikipedia.org/wiki/C_string_handling">string handling functions</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;tgmath.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C99&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C mathematical functions" href="http://en.wikipedia.org/wiki/C_mathematical_functions#tgmath.h">type-generic mathematical functions</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;threads.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C11&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines functions for managing multiple <a title="Thread (computer science)" href="http://en.wikipedia.org/wiki/Thread_%28computer_science%29" class="mw-redirect">Threads</a> as well as <a title="Mutual exclusion" href="http://en.wikipedia.org/wiki/Mutual_exclusion">mutexes</a> and <a title="Monitor (synchronization)" href="http://en.wikipedia.org/wiki/Monitor_%28synchronization%29">condition variables</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;time.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          &#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C date and time functions" href="http://en.wikipedia.org/wiki/C_date_and_time_functions">date and time handling functions</a>&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;uchar.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          C11&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Types and functions for manipulating <a title="Unicode" href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> characters.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;wchar.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          NA1&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C string handling" href="http://en.wikipedia.org/wiki/C_string_handling">wide string handling functions</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <code>&lt;wctype.h&gt;</code>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          NA1&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines <a title="C character classification" href="http://en.wikipedia.org/wiki/C_character_classification">set of functions</a> used to classify wide characters by their types or to convert between upper and lower case&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+    </table>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -504,169 +504,169 @@
 <node CREATED="1341542232073" ID="ID_935664036" MODIFIED="1341542234173" TEXT="POSIX.1-2008">
 <node CREATED="1341542883769" FOLDED="true" ID="ID_1884158560" MODIFIED="1341555889256" TEXT="C Posix Library">
 <node CREATED="1341542963644" ID="ID_975661719" MODIFIED="1341542963644">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <h2>&#xd;&#xd;
-      <span class="mw-headline" id="C_POSIX_library_header_files">C POSIX library header files</span>&#xd;&#xd;
-    </h2>&#xd;&#xd;
-    <table class="wikitable sortable jquery-tablesorter">&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <th title="Sort descending" class="headerSort headerSortDown">&#xd;&#xd;
-          Header File&#xd;&#xd;
-        </th>&#xd;&#xd;
-        <th title="Sort ascending" class="headerSort">&#xd;&#xd;
-          Description&#xd;&#xd;
-        </th>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Cpio.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Cpio.h&amp;action=edit&amp;redlink=1" class="new">cpio.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="File format" href="http://en.wikipedia.org/wiki/File_format#Magic_number">Magic numbers</a> for the <a title="Cpio" href="http://en.wikipedia.org/wiki/Cpio">cpio</a> archive format.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Dirent.h" href="http://en.wikipedia.org/wiki/Dirent.h">dirent.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Allows the opening and listing of <a title="Directory (file systems)" href="http://en.wikipedia.org/wiki/Directory_%28file_systems%29" class="mw-redirect">directories</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Fcntl.h" href="http://en.wikipedia.org/wiki/Fcntl.h">fcntl.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          File opening, <a title="File locking" href="http://en.wikipedia.org/wiki/File_locking">locking</a> and other operations.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Grp.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Grp.h&amp;action=edit&amp;redlink=1" class="new">grp.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          User <a title="Group identifier (Unix)" href="http://en.wikipedia.org/wiki/Group_identifier_%28Unix%29" class="mw-redirect">group</a> information and control.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Pthread.h" href="http://en.wikipedia.org/wiki/Pthread.h" class="mw-redirect">pthread.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Defines an API for creating and manipulating <a title="POSIX" href="http://en.wikipedia.org/wiki/POSIX">POSIX</a> threads.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Pwd.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Pwd.h&amp;action=edit&amp;redlink=1" class="new">pwd.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Passwd (file)" href="http://en.wikipedia.org/wiki/Passwd_%28file%29">passwd</a> (user information) access and control.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/ipc.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/ipc.h&amp;action=edit&amp;redlink=1" class="new">sys/ipc.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Inter-process communication" href="http://en.wikipedia.org/wiki/Inter-process_communication">Inter-process communication</a> (IPC).&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/msg.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/msg.h&amp;action=edit&amp;redlink=1" class="new">sys/msg.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          POSIX <a title="Message queue" href="http://en.wikipedia.org/wiki/Message_queue">message queues</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/sem.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/sem.h&amp;action=edit&amp;redlink=1" class="new">sys/sem.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          POSIX <a title="Semaphore (programming)" href="http://en.wikipedia.org/wiki/Semaphore_%28programming%29">semaphores</a>.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/stat.h" href="http://en.wikipedia.org/wiki/Sys/stat.h">sys/stat.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          File information (<a title="Stat (Unix)" href="http://en.wikipedia.org/wiki/Stat_%28Unix%29" class="mw-redirect">stat</a> et al.).&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="C date and time functions" href="http://en.wikipedia.org/wiki/C_date_and_time_functions">sys/time.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Time and date functions and structures.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/types.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/types.h&amp;action=edit&amp;redlink=1" class="new">sys/types.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Various data types used elsewhere.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/utsname.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/utsname.h&amp;action=edit&amp;redlink=1" class="new">sys/utsname.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Uname" href="http://en.wikipedia.org/wiki/Uname">uname</a> and related structures.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Sys/wait.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/wait.h&amp;action=edit&amp;redlink=1" class="new">sys/wait.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Status of terminated child processes (see <a title="Wait (operating system)" href="http://en.wikipedia.org/wiki/Wait_%28operating_system%29" class="mw-redirect">wait</a>)&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Tar.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Tar.h&amp;action=edit&amp;redlink=1" class="new">tar.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="File format" href="http://en.wikipedia.org/wiki/File_format#Magic_number">Magic numbers</a> for the <a title="Tar (file format)" href="http://en.wikipedia.org/wiki/Tar_%28file_format%29">tar</a> archive format.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Termios.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Termios.h&amp;action=edit&amp;redlink=1" class="new">termios.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Allows <a title="Serial port" href="http://en.wikipedia.org/wiki/Serial_port">terminal I/O</a> interfaces.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Unistd.h" href="http://en.wikipedia.org/wiki/Unistd.h">unistd.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          Various essential POSIX functions and constants.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-      <tr>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <b>&lt;<a title="Utime.h" href="http://en.wikipedia.org/wiki/Utime.h">utime.h</a>&gt;</b>&#xd;&#xd;
-        </td>&#xd;&#xd;
-        <td>&#xd;&#xd;
-          <a title="Inode" href="http://en.wikipedia.org/wiki/Inode">inode</a> access and modification times.&#xd;&#xd;
-        </td>&#xd;&#xd;
-      </tr>&#xd;&#xd;
-    </table>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <h2>&#13;&#13;
+      <span class="mw-headline" id="C_POSIX_library_header_files">C POSIX library header files</span>&#13;&#13;
+    </h2>&#13;&#13;
+    <table class="wikitable sortable jquery-tablesorter">&#13;&#13;
+      <tr>&#13;&#13;
+        <th title="Sort descending" class="headerSort headerSortDown">&#13;&#13;
+          Header File&#13;&#13;
+        </th>&#13;&#13;
+        <th title="Sort ascending" class="headerSort">&#13;&#13;
+          Description&#13;&#13;
+        </th>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Cpio.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Cpio.h&amp;action=edit&amp;redlink=1" class="new">cpio.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="File format" href="http://en.wikipedia.org/wiki/File_format#Magic_number">Magic numbers</a> for the <a title="Cpio" href="http://en.wikipedia.org/wiki/Cpio">cpio</a> archive format.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Dirent.h" href="http://en.wikipedia.org/wiki/Dirent.h">dirent.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Allows the opening and listing of <a title="Directory (file systems)" href="http://en.wikipedia.org/wiki/Directory_%28file_systems%29" class="mw-redirect">directories</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Fcntl.h" href="http://en.wikipedia.org/wiki/Fcntl.h">fcntl.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          File opening, <a title="File locking" href="http://en.wikipedia.org/wiki/File_locking">locking</a> and other operations.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Grp.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Grp.h&amp;action=edit&amp;redlink=1" class="new">grp.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          User <a title="Group identifier (Unix)" href="http://en.wikipedia.org/wiki/Group_identifier_%28Unix%29" class="mw-redirect">group</a> information and control.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Pthread.h" href="http://en.wikipedia.org/wiki/Pthread.h" class="mw-redirect">pthread.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Defines an API for creating and manipulating <a title="POSIX" href="http://en.wikipedia.org/wiki/POSIX">POSIX</a> threads.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Pwd.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Pwd.h&amp;action=edit&amp;redlink=1" class="new">pwd.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Passwd (file)" href="http://en.wikipedia.org/wiki/Passwd_%28file%29">passwd</a> (user information) access and control.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/ipc.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/ipc.h&amp;action=edit&amp;redlink=1" class="new">sys/ipc.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Inter-process communication" href="http://en.wikipedia.org/wiki/Inter-process_communication">Inter-process communication</a> (IPC).&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/msg.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/msg.h&amp;action=edit&amp;redlink=1" class="new">sys/msg.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          POSIX <a title="Message queue" href="http://en.wikipedia.org/wiki/Message_queue">message queues</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/sem.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/sem.h&amp;action=edit&amp;redlink=1" class="new">sys/sem.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          POSIX <a title="Semaphore (programming)" href="http://en.wikipedia.org/wiki/Semaphore_%28programming%29">semaphores</a>.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/stat.h" href="http://en.wikipedia.org/wiki/Sys/stat.h">sys/stat.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          File information (<a title="Stat (Unix)" href="http://en.wikipedia.org/wiki/Stat_%28Unix%29" class="mw-redirect">stat</a> et al.).&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="C date and time functions" href="http://en.wikipedia.org/wiki/C_date_and_time_functions">sys/time.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Time and date functions and structures.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/types.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/types.h&amp;action=edit&amp;redlink=1" class="new">sys/types.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Various data types used elsewhere.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/utsname.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/utsname.h&amp;action=edit&amp;redlink=1" class="new">sys/utsname.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Uname" href="http://en.wikipedia.org/wiki/Uname">uname</a> and related structures.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Sys/wait.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Sys/wait.h&amp;action=edit&amp;redlink=1" class="new">sys/wait.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Status of terminated child processes (see <a title="Wait (operating system)" href="http://en.wikipedia.org/wiki/Wait_%28operating_system%29" class="mw-redirect">wait</a>)&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Tar.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Tar.h&amp;action=edit&amp;redlink=1" class="new">tar.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="File format" href="http://en.wikipedia.org/wiki/File_format#Magic_number">Magic numbers</a> for the <a title="Tar (file format)" href="http://en.wikipedia.org/wiki/Tar_%28file_format%29">tar</a> archive format.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Termios.h (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Termios.h&amp;action=edit&amp;redlink=1" class="new">termios.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Allows <a title="Serial port" href="http://en.wikipedia.org/wiki/Serial_port">terminal I/O</a> interfaces.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Unistd.h" href="http://en.wikipedia.org/wiki/Unistd.h">unistd.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          Various essential POSIX functions and constants.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+      <tr>&#13;&#13;
+        <td>&#13;&#13;
+          <b>&lt;<a title="Utime.h" href="http://en.wikipedia.org/wiki/Utime.h">utime.h</a>&gt;</b>&#13;&#13;
+        </td>&#13;&#13;
+        <td>&#13;&#13;
+          <a title="Inode" href="http://en.wikipedia.org/wiki/Inode">inode</a> access and modification times.&#13;&#13;
+        </td>&#13;&#13;
+      </tr>&#13;&#13;
+    </table>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -675,8 +675,8 @@
 <node CREATED="1341542356556" ID="ID_1585483027" MODIFIED="1341542358236" TEXT="try to support the features of popular Unix variants (including BSD and System V) when those do not conflict with the standards"/>
 <node CREATED="1341542404782" ID="ID_174826058" MODIFIED="1341542407365" TEXT="internationalized and has one of the most complete internationalization interfaces known"/>
 </node>
-<node CREATED="1342491538372" FOLDED="true" ID="ID_937411553" MODIFIED="1458115220910" POSITION="right" TEXT="gdb in action">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<node CREATED="1342491538372" FOLDED="true" ID="ID_937411553" MODIFIED="1482119834148" POSITION="right" TEXT="gdb in action">
+<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
 <node CREATED="1342492210013" ID="ID_558162991" MODIFIED="1439732574190" TEXT="loading program">
 <node CREATED="1342492259093" ID="ID_1991729814" MODIFIED="1342492277875" TEXT="file">
 <node CREATED="1342492553105" ID="ID_825732476" MODIFIED="1342492589967" TEXT="gdb -q "/>
@@ -950,7 +950,7 @@
 </node>
 <node CREATED="1342532613686" FOLDED="true" ID="ID_84224475" MODIFIED="1376969830785" TEXT="thbreak">
 <node CREATED="1342532663678" ID="ID_1435114221" MODIFIED="1342533235111" TEXT="set a hardware-assisted breakpoint.">
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Microsoft YaHei" SIZE="16"/>
 <node CREATED="1342532715256" ID="ID_1543098368" MODIFIED="1342532717548" TEXT="This can be used with the new trap-generation provided by SPARClite DSU and most x86-based targets. These targets will generate traps when a program accesses some data or instruction address that is assigned to the debug registers."/>
 <node CREATED="1342532751339" ID="ID_198243191" MODIFIED="1342532752631" TEXT="hardware breakpoint registers can take a limited number of breakpoints"/>
 </node>
@@ -960,20 +960,20 @@
 </node>
 <node CREATED="1342532794169" FOLDED="true" ID="ID_1202608051" MODIFIED="1376969829816" TEXT="info break[points] n">
 <node CREATED="1342532929699" ID="ID_92894808" MODIFIED="1342532943071" TEXT="Breakpoint Numbers">
-<font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
 </node>
 <node CREATED="1342532944389" ID="ID_28319030" MODIFIED="1342533238201" TEXT="Type">
-<font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
 <node CREATED="1342532954519" ID="ID_1772195377" MODIFIED="1342532963751" TEXT="breakpoint"/>
 <node CREATED="1342532963999" ID="ID_872275191" MODIFIED="1342532967001" TEXT="watchpoint"/>
 <node CREATED="1342532967209" ID="ID_1856744190" MODIFIED="1342532970251" TEXT="catchpoint"/>
 </node>
 <node CREATED="1342533080979" ID="ID_1121980637" MODIFIED="1342533239341" TEXT="Disposition">
-<font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
 <node CREATED="1342533089109" ID="ID_920675579" MODIFIED="1342533121221" TEXT="disabled or deleted when hit"/>
 </node>
 <node CREATED="1342532971879" FOLDED="true" ID="ID_1647647302" MODIFIED="1342533240171" TEXT="Enabled or Disabled">
-<font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
 <node CREATED="1342532996439" ID="ID_741614467" MODIFIED="1342533001771" TEXT="y">
 <node CREATED="1342533009489" ID="ID_1725089560" MODIFIED="1342533013231" TEXT="enabled"/>
 </node>
@@ -982,12 +982,12 @@
 </node>
 </node>
 <node CREATED="1342533140579" ID="ID_487939559" MODIFIED="1342533240961" TEXT="Address">
-<font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
 <node CREATED="1342533144499" ID="ID_1016742794" MODIFIED="1342533172721" TEXT="&lt;PENDING&gt;"/>
 <node CREATED="1342533154619" ID="ID_1355760508" MODIFIED="1342533177041" TEXT="&lt;MULTIPLE&gt;"/>
 </node>
 <node CREATED="1342533195129" ID="ID_1675417473" MODIFIED="1342533241751" TEXT="What">
-<font ITALIC="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
 </node>
 </node>
 <node CREATED="1342533751011" ID="ID_1405018320" MODIFIED="1342533753403" TEXT="enable"/>
@@ -1010,7 +1010,7 @@
 <node CREATED="1342530837477" ID="ID_1685511308" MODIFIED="1342530841649" TEXT="catchpoint"/>
 <node CREATED="1416359393122" ID="ID_1755696162" MODIFIED="1416359397742" TEXT="tracepoint"/>
 </node>
-<node CREATED="1376969877385" FOLDED="true" ID="ID_1220079886" MODIFIED="1458541304229" POSITION="right" TEXT="core dump">
+<node CREATED="1376969877385" ID="ID_1220079886" MODIFIED="1482119835755" POSITION="right" TEXT="core dump">
 <node CREATED="1376980225056" ID="ID_1302361319" MODIFIED="1376980254967" TEXT="generate core file">
 <node CREATED="1376969882238" ID="ID_890941445" MODIFIED="1416576640124" TEXT="getrlimit/setrlimit ">
 <node CREATED="1376980178589" ID="ID_1815067753" MODIFIED="1376980180378" TEXT="RLIMIT_CORE"/>
@@ -1027,7 +1027,7 @@
 <node CREATED="1376980441685" ID="ID_1720331076" MODIFIED="1376980443406" TEXT="/proc/sys/fs/suid_dumpable"/>
 </node>
 </node>
-<node CREATED="1376969953302" ID="ID_117144820" MODIFIED="1416576637870" TEXT="Naming of core dump files">
+<node CREATED="1376969953302" FOLDED="true" ID="ID_117144820" MODIFIED="1482119837842" TEXT="Naming of core dump files">
 <node CREATED="1376980671045" ID="ID_723306008" MODIFIED="1376980678509" TEXT="/proc/sys/kernel/core_uses_pid">
 <node CREATED="1376980736467" ID="ID_825013029" MODIFIED="1376980791886" TEXT="non-zero">
 <node CREATED="1376980793184" ID="ID_438257497" MODIFIED="1376980794446" TEXT="core.PID"/>
@@ -1053,7 +1053,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1458541309332" FOLDED="true" ID="ID_669433080" MODIFIED="1458546135497" POSITION="right" TEXT="trace">
+<node CREATED="1458541309332" ID="ID_669433080" MODIFIED="1482119839891" POSITION="right" TEXT="trace">
 <node CREATED="1458541316528" ID="ID_1610811368" MODIFIED="1458541318605" TEXT="ptrace"/>
 <node CREATED="1458541341286" ID="ID_1695650041" MODIFIED="1458541342527" TEXT="strace"/>
 <node CREATED="1458541319050" ID="ID_1636657241" MODIFIED="1458541320347" TEXT="ltrace"/>

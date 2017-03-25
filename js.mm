@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1366861190418" ID="ID_701416135" MODIFIED="1366861389654" TEXT="js">
 <node CREATED="1366861228635" ID="ID_1016164261" MODIFIED="1457625768223" POSITION="right" TEXT="JSON (JavaScript Object Notation)">
@@ -27,82 +27,82 @@
 <node CREATED="1366862701608" ID="ID_1269282154" MODIFIED="1366862703662" TEXT="demo">
 <node CREATED="1366862708728" ID="ID_840774333" MODIFIED="1366862708728" TEXT=""/>
 <node CREATED="1366862711293" ID="ID_1446602119" MODIFIED="1366862711293">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="background-color: rgb(249, 249, 249); padding-left: 0px; border-right-width: 0px; border-bottom-color: white; font-variant: normal; padding-right: 0px; text-indent: 0px; background-repeat: repeat; border-left-color: white; margin-bottom: 0px; line-height: 1.2em; margin-right: 0px; border-bottom-style: none; font-family: monospace, monospace; font-weight: normal; word-spacing: 0px; font-style: normal; color: rgb(0, 0, 0); padding-bottom: 0px; border-bottom-width: 0px; font-size: 13px; padding-top: 0px; border-left-width: 0px; background-image: none; text-align: -webkit-auto; border-top-color: white; vertical-align: top; margin-top: 0px; border-right-style: none; border-right-color: white; text-transform: none; background-position: initial initial; background-attachment: scroll; letter-spacing: normal; border-top-style: none; border-top-width: 0px; border-left-style: none; margin-left: 0px" class="de1"><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"name"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Product"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"properties"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"id"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"description"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Product identifier"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"required"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 51, 102)"><span style="font-weight: bold; color: rgb(0, 51, 102)" class="kw2"><b>true</b></span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"name"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"string"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"description"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Name of the product"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"required"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 51, 102)"><span style="font-weight: bold; color: rgb(0, 51, 102)" class="kw2"><b>true</b></span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"price"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"minimum"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"required"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 51, 102)"><span style="font-weight: bold; color: rgb(0, 51, 102)" class="kw2"><b>true</b></span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"tags"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"array"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"items"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-                <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"string"</span></font>&#xd;&#xd;
-            <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"stock"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"object"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"properties"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-                <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"warehouse"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-                    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font>&#xd;&#xd;
-                <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-                <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"retail"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-                    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font>&#xd;&#xd;
-                <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#xd;&#xd;
-            <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#xd;&#xd;
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#xd;&#xd;
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="background-color: rgb(249, 249, 249); padding-left: 0px; border-right-width: 0px; border-bottom-color: white; font-variant: normal; padding-right: 0px; text-indent: 0px; background-repeat: repeat; border-left-color: white; margin-bottom: 0px; line-height: 1.2em; margin-right: 0px; border-bottom-style: none; font-family: monospace, monospace; font-weight: normal; word-spacing: 0px; font-style: normal; color: rgb(0, 0, 0); padding-bottom: 0px; border-bottom-width: 0px; font-size: 13px; padding-top: 0px; border-left-width: 0px; background-image: none; text-align: -webkit-auto; border-top-color: white; vertical-align: top; margin-top: 0px; border-right-style: none; border-right-color: white; text-transform: none; background-position: initial initial; background-attachment: scroll; letter-spacing: normal; border-top-style: none; border-top-width: 0px; border-left-style: none; margin-left: 0px" class="de1"><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"name"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Product"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"properties"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"id"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"description"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Product identifier"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"required"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 51, 102)"><span style="font-weight: bold; color: rgb(0, 51, 102)" class="kw2"><b>true</b></span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"name"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"string"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"description"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Name of the product"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"required"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 51, 102)"><span style="font-weight: bold; color: rgb(0, 51, 102)" class="kw2"><b>true</b></span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"price"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"minimum"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">0</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"required"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 51, 102)"><span style="font-weight: bold; color: rgb(0, 51, 102)" class="kw2"><b>true</b></span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"tags"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"array"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"items"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+                <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"string"</span></font>&#13;&#13;
+            <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"stock"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"object"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"properties"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+                <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"warehouse"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+                    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font>&#13;&#13;
+                <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+                <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"retail"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+                    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font>&#13;&#13;
+                <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#13;&#13;
+            <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#13;&#13;
+    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#13;&#13;
+<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1366861775960" FOLDED="true" ID="ID_54699833" MODIFIED="1367034326799" TEXT="demo">
 <node CREATED="1366861768426" ID="ID_337000401" MODIFIED="1366861768426">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="background-color: rgb(249, 249, 249); padding-left: 0px; border-right-width: 0px; border-bottom-color: white; font-variant: normal; padding-right: 0px; text-indent: 0px; background-repeat: repeat; border-left-color: white; margin-bottom: 0px; line-height: 1.2em; margin-right: 0px; border-bottom-style: none; font-family: monospace, monospace; font-weight: normal; word-spacing: 0px; font-style: normal; color: rgb(0, 0, 0); padding-bottom: 0px; border-bottom-width: 0px; font-size: 13px; padding-top: 0px; border-left-width: 0px; background-image: none; text-align: -webkit-auto; border-top-color: white; vertical-align: top; margin-top: 0px; border-right-style: none; border-right-color: white; text-transform: none; background-position: initial initial; background-attachment: scroll; letter-spacing: normal; border-top-style: none; border-top-width: 0px; border-left-style: none; margin-left: 0px" class="de1"><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"firstName"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"John"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"lastName"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Smith"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"age"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">25</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"address"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"streetAddress"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"21 2nd Street"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"city"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"New York"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"state"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"NY"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"postalCode"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">10021</span></font>&#xd;&#xd;
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"phoneNumbers"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"home"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"212 555-1234"</span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"fax"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#xd;&#xd;
-            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"646 555-4567"</span></font>&#xd;&#xd;
-        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#xd;&#xd;
-    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font>&#xd;&#xd;
-<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="background-color: rgb(249, 249, 249); padding-left: 0px; border-right-width: 0px; border-bottom-color: white; font-variant: normal; padding-right: 0px; text-indent: 0px; background-repeat: repeat; border-left-color: white; margin-bottom: 0px; line-height: 1.2em; margin-right: 0px; border-bottom-style: none; font-family: monospace, monospace; font-weight: normal; word-spacing: 0px; font-style: normal; color: rgb(0, 0, 0); padding-bottom: 0px; border-bottom-width: 0px; font-size: 13px; padding-top: 0px; border-left-width: 0px; background-image: none; text-align: -webkit-auto; border-top-color: white; vertical-align: top; margin-top: 0px; border-right-style: none; border-right-color: white; text-transform: none; background-position: initial initial; background-attachment: scroll; letter-spacing: normal; border-top-style: none; border-top-width: 0px; border-left-style: none; margin-left: 0px" class="de1"><font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"firstName"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"John"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"lastName"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"Smith"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"age"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">25</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"address"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"streetAddress"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"21 2nd Street"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"city"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"New York"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"state"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"NY"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"postalCode"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(204, 0, 0)"><span style="color: rgb(204, 0, 0)" class="nu0">10021</span></font>&#13;&#13;
+    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+    <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"phoneNumbers"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">[</span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"home"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"212 555-1234"</span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">{</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"type"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"fax"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">,</span></font>&#13;&#13;
+            <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"number"</span></font><font color="rgb(51, 153, 51)"><span style="color: rgb(51, 153, 51)" class="sy0">:</span></font> <font color="rgb(51, 102, 204)"><span style="color: rgb(51, 102, 204)" class="st0">"646 555-4567"</span></font>&#13;&#13;
+        <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font>&#13;&#13;
+    <font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">]</span></font>&#13;&#13;
+<font color="rgb(0, 153, 0)"><span style="color: rgb(0, 153, 0)" class="br0">}</span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -153,66 +153,66 @@
 <node CREATED="1367034553291" ID="ID_1598986001" MODIFIED="1367035424409" TEXT="2. callback event handler"/>
 <node CREATED="1367034563811" FOLDED="true" ID="ID_1463546689" MODIFIED="1367555338555" TEXT="3. create http request instance">
 <node CREATED="1367036063355" ID="ID_139836450" MODIFIED="1367036593513">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var httpRequest;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      if (window.XMLHttpRequest) { // Mozilla, Safari, ...&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;httpRequest = new XMLHttpRequest();&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      } else if (window.ActiveXObject) { // IE&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;try {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;httpRequest = new ActiveXObject("Msxml2.XMLHTTP");&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;catch (e) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;try {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;httpRequest = new ActiveXObject("Microsoft.XMLHTTP");&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;catch (e) {}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      if (!httpRequest) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;alert('Giving up :( Cannot create an XMLHTTP instance');&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return false;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      var httpRequest;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      if (window.XMLHttpRequest) { // Mozilla, Safari, ...&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;httpRequest = new XMLHttpRequest();&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      } else if (window.ActiveXObject) { // IE&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;try {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;httpRequest = new ActiveXObject("Msxml2.XMLHTTP");&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;catch (e) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;try {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;httpRequest = new ActiveXObject("Microsoft.XMLHTTP");&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;catch (e) {}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      if (!httpRequest) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;alert('Giving up :( Cannot create an XMLHTTP instance');&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return false;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -243,57 +243,57 @@
 <node CREATED="1367034980067" ID="ID_121321242" MODIFIED="1367035601894" TEXT="1. check httpRequest.readyState &amp; httpRequest.status">
 <node CREATED="1367037356411" ID="ID_1928378756" MODIFIED="1367037358042" TEXT="httpRequest.readyState">
 <node CREATED="1367037372616" ID="ID_1156076407" MODIFIED="1367037372616">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    0 (uninitialized)&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    0 (uninitialized)&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367125876025" ID="ID_1685567284" MODIFIED="1367125877149" TEXT=" request not initialized "/>
 </node>
 <node CREATED="1367037380820" ID="ID_1642165116" MODIFIED="1367037380820">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    1 (loading)&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    1 (loading)&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367125999771" ID="ID_1584577831" MODIFIED="1367126001396" TEXT="server connection established"/>
 </node>
 <node CREATED="1367037387853" ID="ID_1831648739" MODIFIED="1367037387853">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    2 (loaded)&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    2 (loaded)&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367126010855" ID="ID_1500659644" MODIFIED="1367126011965" TEXT="request received "/>
 </node>
 <node CREATED="1367037394836" ID="ID_1569064549" MODIFIED="1367037394836">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    3 (interactive)&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    3 (interactive)&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367126020395" ID="ID_1042026671" MODIFIED="1367126021505" TEXT="processing request "/>
 </node>
 <node CREATED="1367037404255" ID="ID_579660373" MODIFIED="1367037404255">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    4 (complete)&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    4 (complete)&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367126038967" ID="ID_1473591022" MODIFIED="1367126040249" TEXT="request finished and response is ready"/>
 </node>
@@ -1010,24 +1010,24 @@
 </node>
 <node CREATED="1367412170019" FOLDED="true" ID="ID_275989681" MODIFIED="1367460794869" TEXT="&lt;style&gt; Style">
 <node CREATED="1367414627955" ID="ID_872914321" MODIFIED="1367414643700">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;style type="text/css"&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      h1 {color:red;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      p {color:blue;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;/style&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;style type="text/css"&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      h1 {color:red;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      p {color:blue;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;/style&gt;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367414660931" ID="ID_813363705" MODIFIED="1367414670639" TEXT="type=&quot;text/css&quot;"/>
@@ -1417,7 +1417,7 @@
 <node CREATED="1367545622076" ID="ID_1933120716" MODIFIED="1367545630110" TEXT="color"/>
 </node>
 </node>
-<node CREATED="1367414761651" ID="ID_1550734097" MODIFIED="1457965560659" POSITION="right" TEXT="CSS (Cascading Style Sheets)">
+<node CREATED="1367414761651" ID="ID_1550734097" MODIFIED="1482248583456" POSITION="right" TEXT="CSS (Cascading Style Sheets)">
 <node CREATED="1367576766073" ID="ID_1465595112" MODIFIED="1367590030757" TEXT="use CSS">
 <node CREATED="1367414764299" ID="ID_1354599094" MODIFIED="1367590034327" TEXT="internal style sheet">
 <node CREATED="1367414854731" ID="ID_100824314" MODIFIED="1367414868417" TEXT="&lt;style type=&quot;text/css&quot;&gt;"/>
@@ -1458,24 +1458,24 @@
 <node CREATED="1367489807311" ID="ID_1572282094" MODIFIED="1369556237470" TEXT="grouping Selector">
 <node CREATED="1367489980727" FOLDED="true" ID="ID_1389373467" MODIFIED="1367490452554" TEXT="e1, ..., eN{...}">
 <node CREATED="1367490029504" ID="ID_1985021627" MODIFIED="1367490036199">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      h1,h2,p&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      color:green;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      h1,h2,p&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      color:green;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1511,87 +1511,87 @@
 <node CREATED="1367489798848" ID="ID_1435824605" MODIFIED="1367632714367" TEXT="link Selector">
 <node CREATED="1367461518654" FOLDED="true" ID="ID_630519116" MODIFIED="1367632709419" TEXT="a:(link|visited|hover|active)">
 <node CREATED="1367461613902" ID="ID_412761131" MODIFIED="1367461647515">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:link {color:#FF0000;}&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* unvisited link */&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:visited {color:#00FF00;}&#xa0;&#xa0;/* visited link */&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:hover {color:#FF00FF;}&#xa0;&#xa0;/* mouse over link */&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:active {color:#0000FF;}&#xa0;&#xa0;/* selected link */&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      a:link {color:#FF0000;}&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;/* unvisited link */&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:visited {color:#00FF00;}&#xa0;&#xa0;/* visited link */&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:hover {color:#FF00FF;}&#xa0;&#xa0;/* mouse over link */&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:active {color:#0000FF;}&#xa0;&#xa0;/* selected link */&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367461665782" ID="ID_696583327" MODIFIED="1367461678763">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:link {text-decoration:none;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:visited {text-decoration:none;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:hover {text-decoration:underline;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:active {text-decoration:underline;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      a:link {text-decoration:none;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:visited {text-decoration:none;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:hover {text-decoration:underline;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:active {text-decoration:underline;}&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367461695646" ID="ID_1622021848" MODIFIED="1367461709972">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:link {background-color:#B2FF99;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:visited {background-color:#FFFF85;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:hover {background-color:#FF704D;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:active {background-color:#FF704D;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      a:link {background-color:#B2FF99;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:visited {background-color:#FFFF85;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:hover {background-color:#FF704D;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:active {background-color:#FF704D;}&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367461749230" ID="ID_1306369280" MODIFIED="1367461756065">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      When setting the style for several link states, there are some order rules:&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:hover MUST come after a:link and a:visited&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      a:active MUST come after a:hover&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      When setting the style for several link states, there are some order rules:&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:hover MUST come after a:link and a:visited&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      a:active MUST come after a:hover&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1603,18 +1603,18 @@
 <node CREATED="1367550221997" ID="ID_108514084" MODIFIED="1367550931283" TEXT=":nth{, -last}-{child, of-type}(n)"/>
 <node CREATED="1367550221990" FOLDED="true" ID="ID_1329782785" MODIFIED="1367550418092" TEXT=":before :after">
 <node CREATED="1367550338804" ID="ID_1468215533" MODIFIED="1367550416708">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      p:before{content:"--before--";}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      p:after{content:"--after--";}&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      p:before{content:"--before--";}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      p:after{content:"--after--";}&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1646,24 +1646,24 @@
 </node>
 <node CREATED="1367416434204" FOLDED="true" ID="ID_1055447585" MODIFIED="1368165160866" TEXT="background-image">
 <node CREATED="1367417684659" ID="ID_736076694" MODIFIED="1367417712280">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      body {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      background-image:url('gradient2.png');&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      background-repeat:repeat-x;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      body {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      background-image:url('gradient2.png');&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      background-repeat:repeat-x;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1745,21 +1745,21 @@
 <node CREATED="1367422187738" ID="ID_505766178" MODIFIED="1367422190061" TEXT="inherit"/>
 <node CREATED="1367422392258" ID="ID_1433160039" MODIFIED="1421650900799" TEXT="p{font-family:&quot;Times New Roman&quot;, Times, serif;}">
 <node CREATED="1367422430162" ID="ID_358300987" MODIFIED="1367422435987">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2557,92 +2557,92 @@
 <node CREATED="1366898427757" ID="ID_1606130169" MODIFIED="1366898436155" TEXT="while"/>
 <node CREATED="1366898460506" FOLDED="true" ID="ID_1181983173" MODIFIED="1422111860240" TEXT="for">
 <node CREATED="1366898584483" ID="ID_230737617" MODIFIED="1366898584483">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <div class="container">&#xd;&#xd;
-      <div class="line number1 index0 alt2">&#xd;&#xd;
-        <code class="js keyword">for</code> <code class="js plain">(</code><code class="js keyword">var</code> <code class="js plain">i = 0; i &lt; 9; i++) {</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number2 index1 alt1">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;</code><code class="js plain">n += i;</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number3 index2 alt2">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;</code><code class="js plain">myfunc(n);</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number4 index3 alt1">&#xd;&#xd;
-        <code class="js plain">}</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-    </div>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <div class="container">&#13;&#13;
+      <div class="line number1 index0 alt2">&#13;&#13;
+        <code class="js keyword">for</code> <code class="js plain">(</code><code class="js keyword">var</code> <code class="js plain">i = 0; i &lt; 9; i++) {</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number2 index1 alt1">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;</code><code class="js plain">n += i;</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number3 index2 alt2">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;</code><code class="js plain">myfunc(n);</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number4 index3 alt1">&#13;&#13;
+        <code class="js plain">}</code>&#13;&#13;
+      </div>&#13;&#13;
+    </div>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366898478920" ID="ID_828774096" MODIFIED="1422121544679" TEXT="for...in">
 <node CREATED="1366898662117" ID="ID_737686012" MODIFIED="1366898662117">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="syntaxbox">for (variable in object) {&#xd;&#xd;
-  ...&#xd;&#xd;
-} </pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="syntaxbox">for (variable in object) {&#13;&#13;
+  ...&#13;&#13;
+} </pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366899263754" ID="ID_1596686017" MODIFIED="1366899275690" TEXT="iterates over property name"/>
 <node CREATED="1366899249199" ID="ID_1716638850" MODIFIED="1390893979614" TEXT="demo">
 <node CREATED="1366898757339" ID="ID_54039882" MODIFIED="1366898757339">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <div class="container">&#xd;&#xd;
-      <div class="line number1 index0 alt2">&#xd;&#xd;
-        <code class="js keyword">var</code> <code class="js plain">o = {a:1, b:2, c:3};</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number2 index1 alt1">&#xd;&#xd;
-        &#xa0;&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number3 index2 alt2">&#xd;&#xd;
-        <code class="js keyword">function</code> <code class="js plain">show_props(obj, objName) {</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number4 index3 alt1">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js keyword">var</code> <code class="js plain">result = </code><code class="js string">""</code><code class="js plain">;</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number5 index4 alt2">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code>&#xa0;&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number6 index5 alt1">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js keyword">for</code> <code class="js plain">(</code><code class="js keyword">var</code> <code class="js plain">prop </code><code class="js keyword">in</code> <code class="js plain">obj) {</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number7 index6 alt2">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js plain">result += objName + </code><code class="js string">"."</code> <code class="js plain">+ prop + </code><code class="js string">" = "</code> <code class="js plain">+ obj[prop] + </code><code class="js string">"\n"</code><code class="js plain">;</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number8 index7 alt1">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js plain">}</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number9 index8 alt2">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code>&#xa0;&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number10 index9 alt1">&#xd;&#xd;
-        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js keyword">return</code> <code class="js plain">result;</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number11 index10 alt2">&#xd;&#xd;
-        <code class="js plain">}</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number12 index11 alt1">&#xd;&#xd;
-        &#xa0;&#xd;&#xd;
-      </div>&#xd;&#xd;
-      <div class="line number13 index12 alt2">&#xd;&#xd;
-        <code class="js plain">alert(show_props(o, </code><code class="js string">"o"</code><code class="js plain">)); </code><code class="js comments">/* alerts: o.a = 1 o.b = 2 o.c = 3 */</code>&#xd;&#xd;
-      </div>&#xd;&#xd;
-    </div>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <div class="container">&#13;&#13;
+      <div class="line number1 index0 alt2">&#13;&#13;
+        <code class="js keyword">var</code> <code class="js plain">o = {a:1, b:2, c:3};</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number2 index1 alt1">&#13;&#13;
+        &#xa0;&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number3 index2 alt2">&#13;&#13;
+        <code class="js keyword">function</code> <code class="js plain">show_props(obj, objName) {</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number4 index3 alt1">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js keyword">var</code> <code class="js plain">result = </code><code class="js string">""</code><code class="js plain">;</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number5 index4 alt2">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code>&#xa0;&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number6 index5 alt1">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js keyword">for</code> <code class="js plain">(</code><code class="js keyword">var</code> <code class="js plain">prop </code><code class="js keyword">in</code> <code class="js plain">obj) {</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number7 index6 alt2">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js plain">result += objName + </code><code class="js string">"."</code> <code class="js plain">+ prop + </code><code class="js string">" = "</code> <code class="js plain">+ obj[prop] + </code><code class="js string">"\n"</code><code class="js plain">;</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number8 index7 alt1">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js plain">}</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number9 index8 alt2">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code>&#xa0;&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number10 index9 alt1">&#13;&#13;
+        <code class="js spaces">&#xa0;&#xa0;&#xa0;&#xa0;</code><code class="js keyword">return</code> <code class="js plain">result;</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number11 index10 alt2">&#13;&#13;
+        <code class="js plain">}</code>&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number12 index11 alt1">&#13;&#13;
+        &#xa0;&#13;&#13;
+      </div>&#13;&#13;
+      <div class="line number13 index12 alt2">&#13;&#13;
+        <code class="js plain">alert(show_props(o, </code><code class="js string">"o"</code><code class="js plain">)); </code><code class="js comments">/* alerts: o.a = 1 o.b = 2 o.c = 3 */</code>&#13;&#13;
+      </div>&#13;&#13;
+    </div>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2657,61 +2657,61 @@
 <node CREATED="1366898437807" FOLDED="true" ID="ID_1380557782" MODIFIED="1422112082699" TEXT="&lt;branch&gt;">
 <node CREATED="1366899404739" ID="ID_528618808" MODIFIED="1422112059961" TEXT="if...else">
 <node CREATED="1366899444108" ID="ID_986429341" MODIFIED="1366899444108">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="eval">if (condition1)&#xd;&#xd;
-   statement1&#xd;&#xd;
-else if (condition2)&#xd;&#xd;
-   statement2&#xd;&#xd;
-else if (condition3)&#xd;&#xd;
-   statement3&#xd;&#xd;
-...&#xd;&#xd;
-else&#xd;&#xd;
-   statementN</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="eval">if (condition1)&#13;&#13;
+   statement1&#13;&#13;
+else if (condition2)&#13;&#13;
+   statement2&#13;&#13;
+else if (condition3)&#13;&#13;
+   statement3&#13;&#13;
+...&#13;&#13;
+else&#13;&#13;
+   statementN</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366899454100" ID="ID_1864848597" MODIFIED="1366899454100">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="eval">if (condition) {&#xd;&#xd;
-   statements1&#xd;&#xd;
-} else {&#xd;&#xd;
-   statements2&#xd;&#xd;
-}</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="eval">if (condition) {&#13;&#13;
+   statements1&#13;&#13;
+} else {&#13;&#13;
+   statements2&#13;&#13;
+}</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366899528471" FOLDED="true" ID="ID_1158857395" MODIFIED="1422112080310" TEXT="switch">
 <node CREATED="1366899544876" ID="ID_1342072981" MODIFIED="1366899544876">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="eval">switch (expression) {&#xd;&#xd;
-   case label1:&#xd;&#xd;
-      statements1&#xd;&#xd;
-      [break;]&#xd;&#xd;
-   case label2:&#xd;&#xd;
-      statements2&#xd;&#xd;
-      [break;]&#xd;&#xd;
-   ...&#xd;&#xd;
-   case labelN:&#xd;&#xd;
-      statementsN&#xd;&#xd;
-      [break;]&#xd;&#xd;
-   default:&#xd;&#xd;
-      statements_def&#xd;&#xd;
-      [break;]&#xd;&#xd;
-}</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="eval">switch (expression) {&#13;&#13;
+   case label1:&#13;&#13;
+      statements1&#13;&#13;
+      [break;]&#13;&#13;
+   case label2:&#13;&#13;
+      statements2&#13;&#13;
+      [break;]&#13;&#13;
+   ...&#13;&#13;
+   case labelN:&#13;&#13;
+      statementsN&#13;&#13;
+      [break;]&#13;&#13;
+   default:&#13;&#13;
+      statements_def&#13;&#13;
+      [break;]&#13;&#13;
+}</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2719,40 +2719,40 @@ else&#xd;&#xd;
 <node CREATED="1422112195734" FOLDED="true" ID="ID_1992770860" MODIFIED="1422112212018" TEXT="label continue break">
 <node CREATED="1366899782541" FOLDED="true" ID="ID_132439219" MODIFIED="1422112209637" TEXT="label">
 <node CREATED="1366899807472" ID="ID_842955609" MODIFIED="1366899807472">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="syntaxbox">label :&#xd;&#xd;
-   statement</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="syntaxbox">label :&#13;&#13;
+   statement</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366899813492" FOLDED="true" ID="ID_1014932535" MODIFIED="1422112209635" TEXT="continue">
 <node CREATED="1366899901712" ID="ID_629694480" MODIFIED="1366899901712">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <code>continue [<i>label</i>]; </code>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <code>continue [<i>label</i>]; </code>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366899823655" FOLDED="true" ID="ID_1781583680" MODIFIED="1422112209633" TEXT="break">
 <node CREATED="1366899904746" ID="ID_324991358" MODIFIED="1366899920015">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code>break [<i>label</i>]; </code>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <code>break [<i>label</i>]; </code>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -2760,93 +2760,93 @@ else&#xd;&#xd;
 <node CREATED="1366944736254" ID="ID_1301690187" MODIFIED="1422112188640" TEXT="throw-try-catch-finally"/>
 <node CREATED="1366900559542" FOLDED="true" ID="ID_1467029935" MODIFIED="1422112433400" TEXT="with(namespace)">
 <node CREATED="1366900563749" ID="ID_354632857" MODIFIED="1366900563749">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="syntaxbox">with (object) {&#xd;&#xd;
-  statement&#xd;&#xd;
-}</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="syntaxbox">with (object) {&#13;&#13;
+  statement&#13;&#13;
+}</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366902071532" FOLDED="true" ID="ID_1516220555" MODIFIED="1422112431640" TEXT="demo">
 <node CREATED="1366902051924" ID="ID_689490071" MODIFIED="1366902171119">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;html&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;body&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;/body&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;/html&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;script type="text/javascript"&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function print(x) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;document.body.appendChild(document.createTextNode(x));&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;document.body.appendChild(document.createElement('br'));&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      objA={"one":"1A", "two":"2A", "three":"3A"};&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      objB={"one":"1B", "two":"2B"};&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      objC={"one":"1C"};&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      with(objA){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;with(objB){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;with(objC){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print(one);//1A&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print(two);//2B&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print(three);//3A&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;/script&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
-</html>&#xd;&#xd;
-<!--function print(x) {     document.body.appendChild(document.createTextNode(x));     document.body.appendChild(document.createElement('br')); } objA={"one":"1A", "two":"2A", "three":"3A"}; objB={"one":"1B", "two":"2B"}; objC={"one":"1C"}; with(objA){ &#x9;with(objB){ &#x9;&#x9;with(objC){ &#x9;&#x9;&#x9;print(one); &#x9;&#x9;&#x9;print(two); &#x9;&#x9;&#x9;print(three); &#x9;&#x9;} &#x9;} }-->&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;html&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;body&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;/body&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;/html&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;script type="text/javascript"&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      function print(x) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;document.body.appendChild(document.createTextNode(x));&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;document.body.appendChild(document.createElement('br'));&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      objA={"one":"1A", "two":"2A", "three":"3A"};&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      objB={"one":"1B", "two":"2B"};&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      objC={"one":"1C"};&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      with(objA){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;with(objB){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;with(objC){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print(one);//1A&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print(two);//2B&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;print(three);//3A&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;/script&gt;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
+</html>&#13;&#13;
+<!--function print(x) {     document.body.appendChild(document.createTextNode(x));     document.body.appendChild(document.createElement('br')); } objA={"one":"1A", "two":"2A", "three":"3A"}; objB={"one":"1B", "two":"2B"}; objC={"one":"1C"}; with(objA){ &#x9;with(objB){ &#x9;&#x9;with(objC){ &#x9;&#x9;&#x9;print(one); &#x9;&#x9;&#x9;print(two); &#x9;&#x9;&#x9;print(three); &#x9;&#x9;} &#x9;} }-->&#13;&#13;
 <!--function print(x) {     document.body.appendChild(document.createTextNode(x));     document.body.appendChild(document.createElement('br')); } objA={"one":"1A", "two":"2A", "three":"3A"}; objB={"one":"1B", "two":"2B"}; objC={"one":"1C"}; with(objA){ &#x9;with(objB){ &#x9;&#x9;with(objC){ &#x9;&#x9;&#x9;print(one); &#x9;&#x9;&#x9;print(two); &#x9;&#x9;&#x9;print(three); &#x9;&#x9;} &#x9;} }--></richcontent>
 </node>
 </node>
@@ -2855,54 +2855,54 @@ else&#xd;&#xd;
 <node CREATED="1422112328342" FOLDED="true" ID="ID_121779955" MODIFIED="1422112447869" TEXT="import export">
 <node CREATED="1366900564300" ID="ID_439156140" MODIFIED="1422112435861" TEXT="import">
 <node CREATED="1366899904746" ID="ID_396311190" MODIFIED="1366944652745">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code>import <i>objectName.name1, objectName.name2, objectName.nameN</i>; </code>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <code>import <i>objectName.name1, objectName.name2, objectName.nameN</i>; </code>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366899904746" ID="ID_164795259" MODIFIED="1366944669843">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code>export <i>objectName.*</i>; </code>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <code>export <i>objectName.*</i>; </code>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366944513037" ID="ID_1240997710" MODIFIED="1366944541003" TEXT="JavaScript 1.2,  NES 3.0"/>
 </node>
 <node CREATED="1366944532326" ID="ID_99274867" MODIFIED="1422112443872" TEXT="export">
 <node CREATED="1366899904746" ID="ID_1821969409" MODIFIED="1366944541007">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code>export <i>name1, name2, nameN</i>; </code>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <code>export <i>name1, name2, nameN</i>; </code>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366899904746" ID="ID_1812154081" MODIFIED="1366944585245">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code>export <i>*</i>; </code>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <code>export <i>*</i>; </code>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366944513037" ID="ID_250778428" MODIFIED="1366944541003" TEXT="JavaScript 1.2,  NES 3.0"/>
@@ -2997,13 +2997,13 @@ else&#xd;&#xd;
 </node>
 <node COLOR="#ff0000" CREATED="1366890213181" ID="ID_140985419" MODIFIED="1442069718392" TEXT="const">
 <node CREATED="1366890241711" ID="ID_1059993399" MODIFIED="1366890241711">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="syntaxbox">const varname1 = value1 [, varname2 = value2 [, varname3 = value3 [, ... [, varnameN = valueN]]]];</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="syntaxbox">const varname1 = value1 [, varname2 = value2 [, varname3 = value3 [, ... [, varnameN = valueN]]]];</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node COLOR="#ff0000" CREATED="1366890282557" ID="ID_18718714" MODIFIED="1422112744818" TEXT=" JavaScript 1.5, NES 6.0 (Netscape extension, C engine only), not part of ECMAScript 5"/>
@@ -3051,39 +3051,39 @@ else&#xd;&#xd;
 </node>
 <node CREATED="1366946995533" FOLDED="true" ID="ID_1350568360" MODIFIED="1422113016208" TEXT="Associative Array(Object)">
 <node CREATED="1366947005838" ID="ID_261813377" MODIFIED="1366947350995">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var me={ name:"satanson",&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;email:"satanson@gmail.com",&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gender:"man",&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;famlies: {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;father: "senior satanson",&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;mother: "",&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;wife: ""&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xa0;&#xa0;&#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      var me={ name:"satanson",&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;email:"satanson@gmail.com",&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gender:"man",&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;famlies: {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;father: "senior satanson",&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;mother: "",&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;wife: ""&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}&#xa0;&#xa0;&#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3134,27 +3134,27 @@ else&#xd;&#xd;
 </node>
 <node CREATED="1366953079901" ID="ID_1396035175" MODIFIED="1422113646067" TEXT="constructor function">
 <node CREATED="1366953093141" ID="ID_242660798" MODIFIED="1366953145508">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function Car(make, model, year) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;this.make = make;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;this.model = model;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;this.year = year;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      function Car(make, model, year) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;this.make = make;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;this.model = model;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;this.year = year;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366953153646" ID="ID_142793191" MODIFIED="1366953186287" TEXT="var car=new Car(&quot;Eagle&quot;, &quot;Talon TSi&quot;, 1993);"/>
@@ -3188,21 +3188,21 @@ else&#xd;&#xd;
 <node CREATED="1366979586568" ID="ID_1277522661" MODIFIED="1366982159712" TEXT="Object.getPrototypeOf(object)"/>
 <node CREATED="1366979625007" FOLDED="true" ID="ID_1686088326" MODIFIED="1422113838846" TEXT="Object.preventExtensions(obj)">
 <node CREATED="1366979803231" ID="ID_1318057294" MODIFIED="1366979803231">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      An object is extensible if new properties can be added to it. &#xa0;<code>preventExtensions</code>&#xa0;marks an object as no longer extensible, so that it will never have properties beyond the ones it had at the time it was marked as non-extensible. &#xa0;Note that the properties of a non-extensible object, in general, may still be <em>deleted</em>. Attempting to add new properties to a non-extensible object will fail, either silently or by throwing a <code><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/TypeError">TypeError</a></code> (most commonly, but not exclusively, when in <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode">strict mode</a>).&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code>Object.preventExtensions</code> only prevents addition of own properties. Properties can still be added to the object prototype. However, calling <code>Object.preventExtensions</code> on an object will also prevent extensions on its __proto__ ( <span class="inlineIndicator deprecated deprecatedInline" title="">Deprecated</span> ) property.&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      If there is a way to turn an extensible object to a non-extensible one, there is no way to do the opposite in ECMAScript 5&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      An object is extensible if new properties can be added to it. &#xa0;<code>preventExtensions</code>&#xa0;marks an object as no longer extensible, so that it will never have properties beyond the ones it had at the time it was marked as non-extensible. &#xa0;Note that the properties of a non-extensible object, in general, may still be <em>deleted</em>. Attempting to add new properties to a non-extensible object will fail, either silently or by throwing a <code><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/TypeError">TypeError</a></code> (most commonly, but not exclusively, when in <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode">strict mode</a>).&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      <code>Object.preventExtensions</code> only prevents addition of own properties. Properties can still be added to the object prototype. However, calling <code>Object.preventExtensions</code> on an object will also prevent extensions on its __proto__ ( <span class="inlineIndicator deprecated deprecatedInline" title="">Deprecated</span> ) property.&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      If there is a way to turn an extensible object to a non-extensible one, there is no way to do the opposite in ECMAScript 5&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3212,68 +3212,68 @@ else&#xd;&#xd;
 <node CREATED="1366979928552" ID="ID_871997643" MODIFIED="1366982159727" TEXT="Object.seal(obj)"/>
 <node CREATED="1366980073258" FOLDED="true" ID="ID_466000389" MODIFIED="1422113951310" TEXT="Object.freeze(obj)">
 <node CREATED="1366980144794" ID="ID_222775415" MODIFIED="1366980144794">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Nothing can be added to or removed from the properties set of a frozen object. Any attempt to do so will fail, either silently or by throwing a <code>TypeError</code> exception (most commonly, but not exclusively, when in <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode" title="JavaScript/Strict mode">strict mode</a>).&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Values cannot be changed for data properties. Accessor properties (getters and setters) work the same (and still give the illusion that you are changing the value). Note that values that are objects can still be modified, unless they are also frozen.&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      Nothing can be added to or removed from the properties set of a frozen object. Any attempt to do so will fail, either silently or by throwing a <code>TypeError</code> exception (most commonly, but not exclusively, when in <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode" title="JavaScript/Strict mode">strict mode</a>).&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Values cannot be changed for data properties. Accessor properties (getters and setters) work the same (and still give the illusion that you are changing the value). Note that values that are objects can still be modified, unless they are also frozen.&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366980166312" ID="ID_1889030286" MODIFIED="1366982159727" TEXT="Object.isFrozen(obj)"/>
 <node CREATED="1366979964868" FOLDED="true" ID="ID_679796607" MODIFIED="1422113989673" TEXT="var isSame = Object.is(value1, value2);">
 <node CREATED="1366980032303" ID="ID_1120295669" MODIFIED="1366980032303">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <code><span>Object.is()</span></code><span>&#xa0;determines whether two values are <dfn>the same value</dfn>. &#xa0;Two values are the same if one of the following holds:</span>&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <ul>&#xd;&#xd;
-      <li>&#xd;&#xd;
-        <span>both <code>undefined</code></span>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li>&#xd;&#xd;
-        <span>both <code>null</code></span>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li>&#xd;&#xd;
-        <span>both <code>true</code> or both <code>false</code></span>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li>&#xd;&#xd;
-        <span>both strings of the same length with the same characters</span>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li>&#xd;&#xd;
-        <span>both the same object</span>&#xd;&#xd;
-      </li>&#xd;&#xd;
-      <li>&#xd;&#xd;
-        <span>both numbers and</span>&#xd;&#xd;
-&#xd;&#xd;
-        <ul>&#xd;&#xd;
-          <li>&#xd;&#xd;
-            both <code>+0</code>&#xd;&#xd;
-          </li>&#xd;&#xd;
-          <li>&#xd;&#xd;
-            both <code>-0</code>&#xd;&#xd;
-          </li>&#xd;&#xd;
-          <li>&#xd;&#xd;
-            both <code>NaN</code>&#xd;&#xd;
-          </li>&#xd;&#xd;
-          <li>&#xd;&#xd;
-            or both non-zero and both not <code>NaN</code> and both have the same value&#xd;&#xd;
-          </li>&#xd;&#xd;
-        </ul>&#xd;&#xd;
-      </li>&#xd;&#xd;
-    </ul>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <code><span>Object.is()</span></code><span>&#xa0;determines whether two values are <dfn>the same value</dfn>. &#xa0;Two values are the same if one of the following holds:</span>&#13;&#13;
+    </p>&#13;&#13;
+    <ul>&#13;&#13;
+      <li>&#13;&#13;
+        <span>both <code>undefined</code></span>&#13;&#13;
+      </li>&#13;&#13;
+      <li>&#13;&#13;
+        <span>both <code>null</code></span>&#13;&#13;
+      </li>&#13;&#13;
+      <li>&#13;&#13;
+        <span>both <code>true</code> or both <code>false</code></span>&#13;&#13;
+      </li>&#13;&#13;
+      <li>&#13;&#13;
+        <span>both strings of the same length with the same characters</span>&#13;&#13;
+      </li>&#13;&#13;
+      <li>&#13;&#13;
+        <span>both the same object</span>&#13;&#13;
+      </li>&#13;&#13;
+      <li>&#13;&#13;
+        <span>both numbers and</span>&#13;&#13;
+&#13;&#13;
+        <ul>&#13;&#13;
+          <li>&#13;&#13;
+            both <code>+0</code>&#13;&#13;
+          </li>&#13;&#13;
+          <li>&#13;&#13;
+            both <code>-0</code>&#13;&#13;
+          </li>&#13;&#13;
+          <li>&#13;&#13;
+            both <code>NaN</code>&#13;&#13;
+          </li>&#13;&#13;
+          <li>&#13;&#13;
+            or both non-zero and both not <code>NaN</code> and both have the same value&#13;&#13;
+          </li>&#13;&#13;
+        </ul>&#13;&#13;
+      </li>&#13;&#13;
+    </ul>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3289,37 +3289,37 @@ else&#xd;&#xd;
 </node>
 <node CREATED="1366981804561" ID="ID_717861455" MODIFIED="1366982288572" TEXT=" __count__ (Obsolete since JavaScript 1.8.5)">
 <node CREATED="1366981825366" ID="ID_1548773450" MODIFIED="1366981825366">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    Returns the number of enumerable properties directly on a user-defined object.&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    Returns the number of enumerable properties directly on a user-defined object.&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366981834895" ID="ID_424604150" MODIFIED="1366982288576" TEXT=" __parent__ (Obsolete since JavaScript 1.8.5)">
 <node CREATED="1366981886665" ID="ID_1759038494" MODIFIED="1366981886665">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    Points to an object's context.&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    Points to an object's context.&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366981897107" ID="ID_1680042192" MODIFIED="1422114050348" TEXT=" __proto__ (Non-standard)">
 <node CREATED="1366981917163" ID="ID_561296542" MODIFIED="1366981917163">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    Points to the object which was used as prototype when the object was instantiated.&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    Points to the object which was used as prototype when the object was instantiated.&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3335,13 +3335,13 @@ else&#xd;&#xd;
 <node CREATED="1366982427496" ID="ID_623549202" MODIFIED="1366983111414" TEXT="obj.eval(string)"/>
 </node>
 <node CREATED="1366982390764" FOLDED="true" ID="ID_1507345116" MODIFIED="1422114082764">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <span class="inlineIndicator nonStandard nonStandardInline">Non-standard</span>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <span class="inlineIndicator nonStandard nonStandardInline">Non-standard</span>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1366982348661" ID="ID_453653607" MODIFIED="1366983089772" TEXT="obj.__defineGetter__(sprop, fun)"/>
 <node CREATED="1366982371012" ID="ID_808215268" MODIFIED="1366983089770" TEXT="obj.__defineSetter__(sprop, fun)"/>
@@ -3414,80 +3414,80 @@ else&#xd;&#xd;
 </node>
 <node CREATED="1366968007188" FOLDED="true" ID="ID_1627349161" MODIFIED="1390620601149" TEXT="Object.defineProerties(obj,props)">
 <node CREATED="1366968057820" ID="ID_9459850" MODIFIED="1366968691969">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var obj = {};&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Object.defineProperties(obj, {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;name: {value: "unknown", writable: true,&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;enumerable: true},&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;getname: {value: function(){return this.name;},enumerable: false},&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;email: {set: function(x){email=x;}, get: function(){return email}}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      });&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      var obj = {};&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Object.defineProperties(obj, {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;name: {value: "unknown", writable: true,&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;enumerable: true},&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;getname: {value: function(){return this.name;},enumerable: false},&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;email: {set: function(x){email=x;}, get: function(){return email}}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      });&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1366955244965" FOLDED="true" ID="ID_116933593" MODIFIED="1391171102746" TEXT="{g,s}etter">
 <node CREATED="1366955255869" ID="ID_133911831" MODIFIED="1366955341376">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var o = {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;a:7.&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;get b() { return this.a+1;},&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;set c(x) { this.a = x/2; }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      };&#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      var o = {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;a:7.&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;get b() { return this.a+1;},&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;set c(x) { this.a = x/2; }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      };&#xa0;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366955347533" ID="ID_1204274321" MODIFIED="1366955460534">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var o = { a:0 };&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Object.defineProperties(o, {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;"b": { get: function() { return&#xa0;&#xa0;this.a +1;} },&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;"c": { set: function(x) { this.a = x/2;} }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      });&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      var o = { a:0 };&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Object.defineProperties(o, {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;"b": { get: function() { return&#xa0;&#xa0;this.a +1;} },&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;"c": { set: function(x) { this.a = x/2;} }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      });&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366955470742" ID="ID_632198623" MODIFIED="1366955493319" TEXT="Object.prototype.__define{G,S}etter__"/>
@@ -3533,21 +3533,21 @@ else&#xd;&#xd;
 <node CREATED="1366950854725" ID="ID_1730389759" MODIFIED="1423054544920" TEXT="variadic/vararg function">
 <node CREATED="1366950892781" ID="ID_1060764076" MODIFIED="1366950901636" TEXT="arguments"/>
 <node CREATED="1366950904117" ID="ID_1476979108" MODIFIED="1366951096252">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function mycat(sep){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;return reduce(function(a,b){a+sep+b}, arguments[1,-1]);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      function mycat(sep){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;return reduce(function(a,b){a+sep+b}, arguments[1,-1]);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -3967,57 +3967,57 @@ else&#xd;&#xd;
 <node CREATED="1367199159291" ID="ID_1783321945" MODIFIED="1422126422476" TEXT="( 4). functionInstance.apply">
 <node CREATED="1367214404689" ID="ID_1613959961" MODIFIED="1390622077273" TEXT=".apply(thisArg, argsArray)">
 <node CREATED="1366989260768" ID="ID_1034547631" MODIFIED="1366989724092">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function ApplyFunc(arguments){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;var i = 0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;for (i=0;i&lt;arguments.length;i++){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this["property"+i]=arguments[i];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function ApplyTarget(){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;ApplyFunc.apply(this,arguments);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var a = new ApplyTarget(1,2,3);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var values=[];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      for (var p in a){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;values.unshift(a[p]);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      document.write(values.join(":")+"&lt;br&gt;");&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      function ApplyFunc(arguments){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;var i = 0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;for (i=0;i&lt;arguments.length;i++){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this["property"+i]=arguments[i];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      function ApplyTarget(){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;ApplyFunc.apply(this,arguments);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      var a = new ApplyTarget(1,2,3);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      var values=[];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      for (var p in a){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;values.unshift(a[p]);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      document.write(values.join(":")+"&lt;br&gt;");&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4025,81 +4025,81 @@ else&#xd;&#xd;
 <node CREATED="1367199159291" FOLDED="true" ID="ID_261566869" MODIFIED="1422126569146" TEXT="( 5). functionInstance.call">
 <node CREATED="1367214451692" FOLDED="true" ID="ID_77079970" MODIFIED="1390622341512" TEXT=".call(thisArg, arg1, arg2, ...)">
 <node CREATED="1366991376502" ID="ID_1552383334" MODIFIED="1366991384412">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function Product(name, price) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;this.name = name;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;this.price = price;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;if (price &lt; 0)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;throw RangeError('Cannot create product "' + name + '" with a negative price');&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;return this;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function Food(name, price) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;Product.call(this, name, price);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;this.category = 'food';&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Food.prototype = new Product();&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function Toy(name, price) {&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;Product.call(this, name, price);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;this.category = 'toy';&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      Toy.prototype = new Product();&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var cheese = new Food('feta', 5);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var fun = new Toy('robot', 40);&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      function Product(name, price) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;this.name = name;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;this.price = price;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;if (price &lt; 0)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;throw RangeError('Cannot create product "' + name + '" with a negative price');&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;return this;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      function Food(name, price) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;Product.call(this, name, price);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;this.category = 'food';&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Food.prototype = new Product();&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      function Toy(name, price) {&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;Product.call(this, name, price);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;this.category = 'toy';&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      Toy.prototype = new Product();&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      var cheese = new Food('feta', 5);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      var fun = new Toy('robot', 40);&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4107,63 +4107,63 @@ else&#xd;&#xd;
 <node CREATED="1367199159291" ID="ID_1479055331" MODIFIED="1422126357331" TEXT="( 6). functionInstance.bind">
 <node CREATED="1367214629292" FOLDED="true" ID="ID_1417997512" MODIFIED="1423054503573" TEXT=".bind(thisArg, arg1, arg2, ...)">
 <node CREATED="1366993436780" ID="ID_255713519" MODIFIED="1366993442912">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function Func(){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;var i = 0;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;for (i=0;i&lt;arguments.length;i++){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this["property"+i]=arguments[i];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;}&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function Target(value1,value2,value3){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;var boundFunc = Func.bind(this,"value");&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;boundFunc(value1,value2,value3);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var a = new Target(1,2,3);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      var values=[];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      for (var p in a){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;document.write(p+"&lt;br&gt;");&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;values.push(a[p]);&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      document.write(values.join(":")+"&lt;br&gt;");&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      function Func(){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;var i = 0;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;for (i=0;i&lt;arguments.length;i++){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;this["property"+i]=arguments[i];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;}&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      function Target(value1,value2,value3){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;var boundFunc = Func.bind(this,"value");&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;boundFunc(value1,value2,value3);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      var a = new Target(1,2,3);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      var values=[];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      for (var p in a){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;document.write(p+"&lt;br&gt;");&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;values.push(a[p]);&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      document.write(values.join(":")+"&lt;br&gt;");&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1366991708928" ID="ID_238133006" MODIFIED="1366991710162" TEXT="Creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function was called"/>
@@ -4174,31 +4174,31 @@ else&#xd;&#xd;
 <node CREATED="1367199159291" ID="ID_1447125432" MODIFIED="1367213836811" TEXT="( 9). functionInstance.name"/>
 <node CREATED="1367199159307" FOLDED="true" ID="ID_580436886" MODIFIED="1422126519586" TEXT="(10). functionInstance.arguments">
 <node CREATED="1367209238348" ID="ID_877348653" MODIFIED="1367210887354">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      function checkarguments(){&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;document.write(uneval(arguments));&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      }&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      function checkarguments(){&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;document.write(uneval(arguments));&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      }&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367209419131" ID="ID_877169262" MODIFIED="1367210890911" TEXT="checkarguments(&quot;foobar&quot;,Math.PI,[2,3,5,7,11],false,undefined,null,NaN,Infinity,{one:1,two:2});">
 <node CREATED="1367209439419" ID="ID_1451545095" MODIFIED="1367209439419">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    ({0:"foobar", 1:3.141592653589793, 2:[2, 3, 5, 7, 11], 3:false, 4:(void 0), 5:null, 6:NaN, 7:Infinity, 8:{one:1, two:2}})&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    ({0:"foobar", 1:3.141592653589793, 2:[2, 3, 5, 7, 11], 3:false, 4:(void 0), 5:null, 6:NaN, 7:Infinity, 8:{one:1, two:2}})&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4325,173 +4325,173 @@ else&#xd;&#xd;
 <node CREATED="1367039825187" FOLDED="true" ID="ID_481432862" MODIFIED="1367053447504" TEXT="binary-to-text encoding">
 <node CREATED="1367039966324" FOLDED="true" ID="ID_1715241094" MODIFIED="1367053085338" TEXT="&apos;quoted-printable&apos;">
 <node CREATED="1367052825774" ID="ID_121551569" MODIFIED="1367052825774">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">(1)   (General 8bit representation) Any octet, except a CR or&#xd;&#xd;
-          LF that is part of a CRLF line break of the canonical&#xd;&#xd;
-          (standard) form of the data being encoded, may be&#xd;&#xd;
-          represented by an "=" followed by a two digit&#xd;&#xd;
-          hexadecimal representation of the octet's value.  The&#xd;&#xd;
-          digits of the hexadecimal alphabet, for this purpose,&#xd;&#xd;
-          are "0123456789ABCDEF".  Uppercase letters must be&#xd;&#xd;
-          used; lowercase letters are not allowed.  Thus, for&#xd;&#xd;
-          example, the decimal value 12 (US-ASCII form feed) can&#xd;&#xd;
-          be represented by "=0C", and the decimal value 61 (US-&#xd;&#xd;
-          ASCII EQUAL SIGN) can be represented by "=3D".  This&#xd;&#xd;
-          rule must be followed except when the following rules&#xd;&#xd;
-          allow an alternative encoding.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">(1)   (General 8bit representation) Any octet, except a CR or&#13;&#13;
+          LF that is part of a CRLF line break of the canonical&#13;&#13;
+          (standard) form of the data being encoded, may be&#13;&#13;
+          represented by an "=" followed by a two digit&#13;&#13;
+          hexadecimal representation of the octet's value.  The&#13;&#13;
+          digits of the hexadecimal alphabet, for this purpose,&#13;&#13;
+          are "0123456789ABCDEF".  Uppercase letters must be&#13;&#13;
+          used; lowercase letters are not allowed.  Thus, for&#13;&#13;
+          example, the decimal value 12 (US-ASCII form feed) can&#13;&#13;
+          be represented by "=0C", and the decimal value 61 (US-&#13;&#13;
+          ASCII EQUAL SIGN) can be represented by "=3D".  This&#13;&#13;
+          rule must be followed except when the following rules&#13;&#13;
+          allow an alternative encoding.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367052847398" ID="ID_769162451" MODIFIED="1367052847398">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">(2)   (Literal representation) Octets with decimal values of&#xd;&#xd;
-          33 through 60 inclusive, and 62 through 126, inclusive,&#xd;&#xd;
-          MAY be represented as the US-ASCII characters which&#xd;&#xd;
-          correspond to those octets (EXCLAMATION POINT through&#xd;&#xd;
-          LESS THAN, and GREATER THAN through TILDE,&#xd;&#xd;
-          respectively).</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">(2)   (Literal representation) Octets with decimal values of&#13;&#13;
+          33 through 60 inclusive, and 62 through 126, inclusive,&#13;&#13;
+          MAY be represented as the US-ASCII characters which&#13;&#13;
+          correspond to those octets (EXCLAMATION POINT through&#13;&#13;
+          LESS THAN, and GREATER THAN through TILDE,&#13;&#13;
+          respectively).</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367052869854" ID="ID_572625546" MODIFIED="1367053025776">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">(3)   (White Space) Octets with values of 9 and 32 MAY be&#xd;&#xd;
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;represented as US-ASCII TAB (HT) and SPACE characters,&#xd;&#xd;
-          respectively, but MUST NOT be so represented at the end&#xd;&#xd;
-          of an encoded line.  Any TAB (HT) or SPACE characters&#xd;&#xd;
-          on an encoded line MUST thus be followed on that line&#xd;&#xd;
-          by a printable character.  In particular, an "=" at the&#xd;&#xd;
-          end of an encoded line, indicating a soft line break&#xd;&#xd;
-          (see rule #5) may follow one or more TAB (HT) or SPACE&#xd;&#xd;
-          characters.  It follows that an octet with decimal&#xd;&#xd;
-          value 9 or 32 appearing at the end of an encoded line&#xd;&#xd;
-          must be represented according to Rule #1.  This rule is&#xd;&#xd;
-          necessary because some MTAs (Message Transport Agents,&#xd;&#xd;
-          programs which transport messages from one user to&#xd;&#xd;
-          another, or perform a portion of such transfers) are&#xd;&#xd;
-          known to pad lines of text with SPACEs, and others are&#xd;&#xd;
-          known to remove "white space" characters from the end&#xd;&#xd;
-          of a line.  Therefore, when decoding a Quoted-Printable&#xd;&#xd;
-          body, any trailing white space on a line must be&#xd;&#xd;
-          deleted, as it will necessarily have been added by&#xd;&#xd;
-          intermediate transport agents.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">(3)   (White Space) Octets with values of 9 and 32 MAY be&#13;&#13;
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;represented as US-ASCII TAB (HT) and SPACE characters,&#13;&#13;
+          respectively, but MUST NOT be so represented at the end&#13;&#13;
+          of an encoded line.  Any TAB (HT) or SPACE characters&#13;&#13;
+          on an encoded line MUST thus be followed on that line&#13;&#13;
+          by a printable character.  In particular, an "=" at the&#13;&#13;
+          end of an encoded line, indicating a soft line break&#13;&#13;
+          (see rule #5) may follow one or more TAB (HT) or SPACE&#13;&#13;
+          characters.  It follows that an octet with decimal&#13;&#13;
+          value 9 or 32 appearing at the end of an encoded line&#13;&#13;
+          must be represented according to Rule #1.  This rule is&#13;&#13;
+          necessary because some MTAs (Message Transport Agents,&#13;&#13;
+          programs which transport messages from one user to&#13;&#13;
+          another, or perform a portion of such transfers) are&#13;&#13;
+          known to pad lines of text with SPACEs, and others are&#13;&#13;
+          known to remove "white space" characters from the end&#13;&#13;
+          of a line.  Therefore, when decoding a Quoted-Printable&#13;&#13;
+          body, any trailing white space on a line must be&#13;&#13;
+          deleted, as it will necessarily have been added by&#13;&#13;
+          intermediate transport agents.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367052974937" ID="ID_1718975307" MODIFIED="1367052974937">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage"> (4)   (Line Breaks) A line break in a text body, represented&#xd;&#xd;
-          as a CRLF sequence in the text canonical form, must be&#xd;&#xd;
-          represented by a (<a href="http://tools.ietf.org/html/rfc822">RFC 822</a>) line break, which is also a&#xd;&#xd;
-          CRLF sequence, in the Quoted-Printable encoding.  Since&#xd;&#xd;
-          the canonical representation of media types other than&#xd;&#xd;
-          text do not generally include the representation of&#xd;&#xd;
-          line breaks as CRLF sequences, no hard line breaks&#xd;&#xd;
-          (i.e. line breaks that are intended to be meaningful&#xd;&#xd;
-          and to be displayed to the user) can occur in the&#xd;&#xd;
-          quoted-printable encoding of such types.  Sequences&#xd;&#xd;
-          like "=0D", "=0A", "=0A=0D" and "=0D=0A" will routinely&#xd;&#xd;
-          appear in non-text data represented in quoted-&#xd;&#xd;
-          printable, of course.&#xd;&#xd;
-&#xd;&#xd;
-          Note that many implementations may elect to encode the&#xd;&#xd;
-          local representation of various content types directly&#xd;&#xd;
-          rather than converting to canonical form first,&#xd;&#xd;
-          encoding, and then converting back to local&#xd;&#xd;
-          representation.  In particular, this may apply to plain&#xd;&#xd;
-          text material on systems that use newline conventions&#xd;&#xd;
-          other than a CRLF terminator sequence.  Such an&#xd;&#xd;
-          implementation optimization is permissible, but only&#xd;&#xd;
-          when the combined canonicalization-encoding step is&#xd;&#xd;
-          equivalent to performing the three steps separately.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage"> (4)   (Line Breaks) A line break in a text body, represented&#13;&#13;
+          as a CRLF sequence in the text canonical form, must be&#13;&#13;
+          represented by a (<a href="http://tools.ietf.org/html/rfc822">RFC 822</a>) line break, which is also a&#13;&#13;
+          CRLF sequence, in the Quoted-Printable encoding.  Since&#13;&#13;
+          the canonical representation of media types other than&#13;&#13;
+          text do not generally include the representation of&#13;&#13;
+          line breaks as CRLF sequences, no hard line breaks&#13;&#13;
+          (i.e. line breaks that are intended to be meaningful&#13;&#13;
+          and to be displayed to the user) can occur in the&#13;&#13;
+          quoted-printable encoding of such types.  Sequences&#13;&#13;
+          like "=0D", "=0A", "=0A=0D" and "=0D=0A" will routinely&#13;&#13;
+          appear in non-text data represented in quoted-&#13;&#13;
+          printable, of course.&#13;&#13;
+&#13;&#13;
+          Note that many implementations may elect to encode the&#13;&#13;
+          local representation of various content types directly&#13;&#13;
+          rather than converting to canonical form first,&#13;&#13;
+          encoding, and then converting back to local&#13;&#13;
+          representation.  In particular, this may apply to plain&#13;&#13;
+          text material on systems that use newline conventions&#13;&#13;
+          other than a CRLF terminator sequence.  Such an&#13;&#13;
+          implementation optimization is permissible, but only&#13;&#13;
+          when the combined canonicalization-encoding step is&#13;&#13;
+          equivalent to performing the three steps separately.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367053041182" ID="ID_192614535" MODIFIED="1367053080216">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">(5)   (Soft Line Breaks) The Quoted-Printable encoding&#xd;&#xd;
-          REQUIRES that encoded lines be no more than 76&#xd;&#xd;
-          characters long.  If longer lines are to be encoded&#xd;&#xd;
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;with the Quoted-Printable encoding, "soft" line breaks&#xd;&#xd;
-          must be used.  An equal sign as the last character on a&#xd;&#xd;
-          encoded line indicates such a non-significant ("soft")&#xd;&#xd;
-          line break in the encoded text.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">(5)   (Soft Line Breaks) The Quoted-Printable encoding&#13;&#13;
+          REQUIRES that encoded lines be no more than 76&#13;&#13;
+          characters long.  If longer lines are to be encoded&#13;&#13;
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;with the Quoted-Printable encoding, "soft" line breaks&#13;&#13;
+          must be used.  An equal sign as the last character on a&#13;&#13;
+          encoded line indicates such a non-significant ("soft")&#13;&#13;
+          line break in the encoded text.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1367039973995" ID="ID_1114477434" MODIFIED="1367039977697" TEXT="&apos;base64&apos;">
 <node CREATED="1367053193714" ID="ID_1192066579" MODIFIED="1367053193714">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">Table 1: The Base64 Alphabet&#xd;&#xd;
-&#xd;&#xd;
-     Value Encoding  Value Encoding  Value Encoding  Value Encoding&#xd;&#xd;
-         0 A            17 R            34 i            51 z&#xd;&#xd;
-         1 B            18 S            35 j            52 0&#xd;&#xd;
-         2 C            19 T            36 k            53 1&#xd;&#xd;
-         3 D            20 U            37 l            54 2&#xd;&#xd;
-         4 E            21 V            38 m            55 3&#xd;&#xd;
-         5 F            22 W            39 n            56 4&#xd;&#xd;
-         6 G            23 X            40 o            57 5&#xd;&#xd;
-         7 H            24 Y            41 p            58 6&#xd;&#xd;
-         8 I            25 Z            42 q            59 7&#xd;&#xd;
-         9 J            26 a            43 r            60 8&#xd;&#xd;
-        10 K            27 b            44 s            61 9&#xd;&#xd;
-        11 L            28 c            45 t            62 +&#xd;&#xd;
-        12 M            29 d            46 u            63 /&#xd;&#xd;
-        13 N            30 e            47 v&#xd;&#xd;
-        14 O            31 f            48 w         (pad) =&#xd;&#xd;
-        15 P            32 g            49 x&#xd;&#xd;
-        16 Q            33 h            50 y</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">Table 1: The Base64 Alphabet&#13;&#13;
+&#13;&#13;
+     Value Encoding  Value Encoding  Value Encoding  Value Encoding&#13;&#13;
+         0 A            17 R            34 i            51 z&#13;&#13;
+         1 B            18 S            35 j            52 0&#13;&#13;
+         2 C            19 T            36 k            53 1&#13;&#13;
+         3 D            20 U            37 l            54 2&#13;&#13;
+         4 E            21 V            38 m            55 3&#13;&#13;
+         5 F            22 W            39 n            56 4&#13;&#13;
+         6 G            23 X            40 o            57 5&#13;&#13;
+         7 H            24 Y            41 p            58 6&#13;&#13;
+         8 I            25 Z            42 q            59 7&#13;&#13;
+         9 J            26 a            43 r            60 8&#13;&#13;
+        10 K            27 b            44 s            61 9&#13;&#13;
+        11 L            28 c            45 t            62 +&#13;&#13;
+        12 M            29 d            46 u            63 /&#13;&#13;
+        13 N            30 e            47 v&#13;&#13;
+        14 O            31 f            48 w         (pad) =&#13;&#13;
+        15 P            32 g            49 x&#13;&#13;
+        16 Q            33 h            50 y</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367053443927" ID="ID_1647352366" MODIFIED="1367053443927">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">Special processing is performed if fewer than 24 bits are available&#xd;&#xd;
-   at the end of the data being encoded.  A full encoding quantum is&#xd;&#xd;
-   always completed at the end of a body.  When fewer than 24 input bits&#xd;&#xd;
-   are available in an input group, zero bits are added (on the right)&#xd;&#xd;
-   to form an integral number of 6-bit groups.  Padding at the end of&#xd;&#xd;
-   the data is performed using the "=" character.  Since all base64&#xd;&#xd;
-   input is an integral number of octets, only the following cases can&#xd;&#xd;
-   arise: (1) the final quantum of encoding input is an integral&#xd;&#xd;
-   multiple of 24 bits; here, the final unit of encoded output will be&#xd;&#xd;
-   an integral multiple of 4 characters with no "=" padding, (2) the&#xd;&#xd;
-   final quantum of encoding input is exactly 8 bits; here, the final&#xd;&#xd;
-   unit of encoded output will be two characters followed by two "="&#xd;&#xd;
-   padding characters, or (3) the final quantum of encoding input is&#xd;&#xd;
-   exactly 16 bits; here, the final unit of encoded output will be three&#xd;&#xd;
-   characters followed by one "=" padding character.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">Special processing is performed if fewer than 24 bits are available&#13;&#13;
+   at the end of the data being encoded.  A full encoding quantum is&#13;&#13;
+   always completed at the end of a body.  When fewer than 24 input bits&#13;&#13;
+   are available in an input group, zero bits are added (on the right)&#13;&#13;
+   to form an integral number of 6-bit groups.  Padding at the end of&#13;&#13;
+   the data is performed using the "=" character.  Since all base64&#13;&#13;
+   input is an integral number of octets, only the following cases can&#13;&#13;
+   arise: (1) the final quantum of encoding input is an integral&#13;&#13;
+   multiple of 24 bits; here, the final unit of encoded output will be&#13;&#13;
+   an integral multiple of 4 characters with no "=" padding, (2) the&#13;&#13;
+   final quantum of encoding input is exactly 8 bits; here, the final&#13;&#13;
+   unit of encoded output will be two characters followed by two "="&#13;&#13;
+   padding characters, or (3) the final quantum of encoding input is&#13;&#13;
+   exactly 16 bits; here, the final unit of encoded output will be three&#13;&#13;
+   characters followed by one "=" padding character.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4523,56 +4523,56 @@ else&#xd;&#xd;
 </node>
 <node CREATED="1367058241810" ID="ID_1432601565" MODIFIED="1367058242952" TEXT="Multipart messages">
 <node CREATED="1367058371478" ID="ID_1660485640" MODIFIED="1367058371478">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre>MIME-Version: 1.0&#xd;&#xd;
- Content-Type: multipart/mixed; boundary=frontier&#xd;&#xd;
-&#xd;&#xd;
- This is a message with multiple parts in MIME format.&#xd;&#xd;
- --frontier&#xd;&#xd;
- Content-Type: text/plain&#xd;&#xd;
-&#xd;&#xd;
- This is the body of the message.&#xd;&#xd;
- --frontier&#xd;&#xd;
- Content-Type: application/octet-stream&#xd;&#xd;
- Content-Transfer-Encoding: base64&#xd;&#xd;
-&#xd;&#xd;
- PGh0bWw+CiAgPGhlYWQ+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPHA+VGhpcyBpcyB0aGUg&#xd;&#xd;
- Ym9keSBvZiB0aGUgbWVzc2FnZS48L3A+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==&#xd;&#xd;
- --frontier--</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre>MIME-Version: 1.0&#13;&#13;
+ Content-Type: multipart/mixed; boundary=frontier&#13;&#13;
+&#13;&#13;
+ This is a message with multiple parts in MIME format.&#13;&#13;
+ --frontier&#13;&#13;
+ Content-Type: text/plain&#13;&#13;
+&#13;&#13;
+ This is the body of the message.&#13;&#13;
+ --frontier&#13;&#13;
+ Content-Type: application/octet-stream&#13;&#13;
+ Content-Transfer-Encoding: base64&#13;&#13;
+&#13;&#13;
+ PGh0bWw+CiAgPGhlYWQ+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPHA+VGhpcyBpcyB0aGUg&#13;&#13;
+ Ym9keSBvZiB0aGUgbWVzc2FnZS48L3A+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==&#13;&#13;
+ --frontier--</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1367058419228" ID="ID_1653183167" MODIFIED="1367058419228">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    Before the first boundary is an area that is ignored by MIME-compliant clients. This area is generally used to put a message to users of old non-MIME clients.&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    Before the first boundary is an area that is ignored by MIME-compliant clients. This area is generally used to put a message to users of old non-MIME clients.&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367058438523" ID="ID_1451112261" MODIFIED="1367058438523">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    It is up to the sending mail client to choose a boundary string that doesn't clash with the body text. Typically this is done by inserting a long random string.&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    It is up to the sending mail client to choose a boundary string that doesn't clash with the body text. Typically this is done by inserting a long random string.&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367058460708" ID="ID_932999589" MODIFIED="1367058460708">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    The last boundary must have two hyphens at the end.&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    The last boundary must have two hyphens at the end.&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -4582,53 +4582,53 @@ else&#xd;&#xd;
 <node CREATED="1367055044266" ID="ID_1057522447" MODIFIED="1367055045496" TEXT="application/x-www-form-urlencoded"/>
 <node CREATED="1367055126202" FOLDED="true" ID="ID_407074026" MODIFIED="1367057558389" TEXT="RFC 3986">
 <node CREATED="1367056539991" ID="ID_115287081" MODIFIED="1367056560826">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">reserved    = gen-delims / sub-delims&#xd;&#xd;
-&#xd;&#xd;
-gen-delims&#xa0;&#xa0;= ":" / "/" / "?" / "#" / "[" / "]" / "@"&#xd;&#xd;
-&#xd;&#xd;
-sub-delims&#xa0;&#xa0;= "!" / "$" / "&amp;" / "'" / "(" / ")"&#xd;&#xd;
-                  / "*" / "+" / "," / ";" / "="</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">reserved    = gen-delims / sub-delims&#13;&#13;
+&#13;&#13;
+gen-delims&#xa0;&#xa0;= ":" / "/" / "?" / "#" / "[" / "]" / "@"&#13;&#13;
+&#13;&#13;
+sub-delims&#xa0;&#xa0;= "!" / "$" / "&amp;" / "'" / "(" / ")"&#13;&#13;
+                  / "*" / "+" / "," / ";" / "="</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367056638052" ID="ID_1228902348" MODIFIED="1367056638052">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">unreserved  = ALPHA / DIGIT / "-" / "." / "_" / "~"</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367056700798" ID="ID_1435482882" MODIFIED="1367056714592">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">URIs that differ in the replacement of an unreserved character with&#xd;&#xd;
-its corresponding percent-encoded US-ASCII octet are equivalent: they&#xd;&#xd;
-identify the same resource.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">URIs that differ in the replacement of an unreserved character with&#13;&#13;
+its corresponding percent-encoded US-ASCII octet are equivalent: they&#13;&#13;
+identify the same resource.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367057463127" ID="ID_482473857" MODIFIED="1367057554610">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre class="newpage">A percent-encoded octet is encoded as a character triplet, &#xd;&#xd;
-consisting of the percent character "%" followed by the &#xd;&#xd;
-two hexadecimal digits representing that octet's numeric&#xd;&#xd;
-value.</pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre class="newpage">A percent-encoded octet is encoded as a character triplet, &#13;&#13;
+consisting of the percent character "%" followed by the &#13;&#13;
+two hexadecimal digits representing that octet's numeric&#13;&#13;
+value.</pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367056841498" ID="ID_1601223987" MODIFIED="1367056848129" TEXT="% %25"/>
@@ -4642,13 +4642,13 @@ value.</pre>&#xd;&#xd;
 <node CREATED="1367054557226" ID="ID_1898516003" MODIFIED="1367054563018" TEXT="POST"/>
 </node>
 <node CREATED="1367131566754" ID="ID_567434182" MODIFIED="1367131566754" POSITION="right">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <font color="rgb(0, 0, 0)" face="Arial" size="medium"><span class="Apple-style-span" style="white-space: pre-wrap">document.getElementById("txtHint").innerHTML</span></font>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <font color="rgb(0, 0, 0)" face="Arial" size="medium"><span class="Apple-style-span" style="white-space: pre-wrap">document.getElementById("txtHint").innerHTML</span></font>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1391260067514" ID="ID_1651751709" MODIFIED="1457624597748" POSITION="right" TEXT="Event">
