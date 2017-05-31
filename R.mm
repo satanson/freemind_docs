@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1490439646160" ID="ID_1773376395" MODIFIED="1490439674381" TEXT="R">
-<node CREATED="1490542788678" ID="ID_878983254" MODIFIED="1490626354519" POSITION="right" TEXT="R-lang">
+<node CREATED="1490542788678" FOLDED="true" ID="ID_878983254" MODIFIED="1496166845458" POSITION="right" TEXT="R-lang">
 <node CREATED="1490488432113" ID="ID_1666828096" MODIFIED="1490542800389" TEXT="graphics">
 <node CREATED="1490448196619" FOLDED="true" ID="ID_1963097252" MODIFIED="1490488447880" TEXT="plot">
 <node CREATED="1490439799707" ID="ID_1392426420" MODIFIED="1490448199483" TEXT="plot">
@@ -180,7 +180,7 @@
 <node CREATED="1490488530058" ID="ID_51357328" MODIFIED="1490488549649" TEXT="superficial similarity with C"/>
 <node CREATED="1490488551698" ID="ID_207141689" MODIFIED="1490488570289" TEXT="FPL, Lisp, APL"/>
 </node>
-<node CREATED="1490488799286" ID="ID_1449035135" MODIFIED="1490543954040" TEXT="objects">
+<node CREATED="1490488799286" FOLDED="true" ID="ID_1449035135" MODIFIED="1496166841430" TEXT="objects">
 <node CREATED="1490488804176" ID="ID_456870484" MODIFIED="1490488816916" TEXT="not direct access to memory"/>
 <node CREATED="1490490278965" ID="ID_1726294242" MODIFIED="1490490283991" TEXT="metadata of type">
 <node CREATED="1490488976533" FOLDED="true" ID="ID_1252367836" MODIFIED="1490490287857" TEXT="typeof()">
@@ -372,7 +372,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1490542804874" ID="ID_951591644" MODIFIED="1490542807680" POSITION="right" TEXT="in action">
+<node CREATED="1490542804874" FOLDED="true" ID="ID_951591644" MODIFIED="1496166842930" POSITION="right" TEXT="in action">
 <node CREATED="1490543006552" FOLDED="true" ID="ID_1063417936" MODIFIED="1490625961857" TEXT="stat">
 <node CREATED="1490542829322" ID="ID_284395144" MODIFIED="1490543008893" TEXT="stat func">
 <node CREATED="1490542835571" ID="ID_758012603" MODIFIED="1490542837445" TEXT="sd"/>
@@ -546,8 +546,7 @@
       df &lt;- data.frame(patientID, age, diabetes, status)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1490715959936" ID="ID_768161434" MODIFIED="1490715988367" TEXT="df[1:2]"/>
 <node CREATED="1490716072956" ID="ID_140380701" MODIFIED="1490716073723" TEXT="df[c(&quot;patientID&quot;,&quot;age&quot;)]"/>
@@ -576,8 +575,7 @@
       detach(df)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1490716969825" ID="ID_1422570348" MODIFIED="1490717197952" TEXT="stat should not collide with other variables"/>
 </node>
 <node CREATED="1490716732467" ID="ID_1253676829" MODIFIED="1490716922915">
@@ -605,8 +603,7 @@
       })
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1490717201140" ID="ID_1218456624" MODIFIED="1490717286001" TEXT="&lt;- make variable visible only in the lexical scope"/>
 <node CREATED="1490717287419" ID="ID_900248241" MODIFIED="1490717296869" TEXT="&lt;- make variable visible outside"/>
 </node>
@@ -644,8 +641,7 @@
       mylist &lt;- list(title=g, ages=h, j,k)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1490718200789" ID="ID_36304497" MODIFIED="1490718210184" TEXT="mylist[[1]]"/>
 <node CREATED="1490718210607" ID="ID_1776285272" MODIFIED="1490718216564" TEXT="mylist[1]"/>
