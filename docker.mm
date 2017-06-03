@@ -1,26 +1,26 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1462192154743" ID="ID_635262348" MODIFIED="1480256003235" TEXT="docker">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462372850189" ID="ID_1066234402" MODIFIED="1480256003235" POSITION="right" TEXT="docker.io">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462193839460" ID="ID_1639674018" MODIFIED="1480256003235" TEXT="cli, daemon, container">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462193872321" ID="ID_550896656" MODIFIED="1480256003235" TEXT="running when os startup">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462193928048" ID="ID_1563822860" MODIFIED="1480256003235" TEXT="cli interacts with daemon">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462193970088" ID="ID_1588732408" MODIFIED="1480256003235" TEXT="containers are child process of daemon">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462194057949" ID="ID_9395301" MODIFIED="1480256003235" TEXT="namespace isolation">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 </node>
 </node>
 <node CREATED="1462194082554" FOLDED="true" ID="ID_388966271" MODIFIED="1480256003235" TEXT="namespace/cgroups ">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462194086450" ID="ID_241715044" MODIFIED="1462194135777" TEXT="pid"/>
 <node CREATED="1462194091571" ID="ID_1715875971" MODIFIED="1462194094264" TEXT="UTS">
 <node CREATED="1462194599462" ID="ID_1840762828" MODIFIED="1462194605740" TEXT="hostname/domain name"/>
@@ -40,116 +40,116 @@
 <node CREATED="1462194775134" ID="ID_1443622699" LINK="https://en.wikipedia.org/wiki/Linux_namespaces" MODIFIED="1462194775134" TEXT="https://en.wikipedia.org/wiki/Linux_namespaces"/>
 </node>
 <node CREATED="1462195752670" ID="ID_142404451" MODIFIED="1480256003235" TEXT="docker container as shipping container">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462195776422" ID="ID_750758511" MODIFIED="1480256003232" TEXT="run application and all of its dependencies in one container">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462195898778" ID="ID_1813741210" MODIFIED="1480256003232" TEXT="image">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 </node>
 <node CREATED="1462196786634" ID="ID_1687637331" MODIFIED="1480256003232" TEXT="help">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462196788676" ID="ID_757544649" MODIFIED="1480256003232" TEXT="docker help">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462196792015" ID="ID_1438841959" MODIFIED="1480256003232" TEXT="docker help run">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 </node>
 <node CREATED="1462197210699" ID="ID_1452878010" MODIFIED="1480256003232" TEXT="sudo docker run dockerinaction/hello_world">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462197317018" ID="ID_100106335" MODIFIED="1480256003231" TEXT="sudo docker run --detach --name web nginx:latest">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462197761093" ID="ID_1674474505" MODIFIED="1480256003231" TEXT="--detach -d">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462197769351" ID="ID_2884824" MODIFIED="1480256003231" TEXT="daemon">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 </node>
 </node>
 <node CREATED="1462197845078" ID="ID_1873409482" MODIFIED="1480256003230" TEXT="sudo docker run -d -name mailer ">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 </node>
 <node CREATED="1462372859645" FOLDED="true" ID="ID_1637704565" MODIFIED="1480256003230" POSITION="right" TEXT="daocloud.io">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462372946072" ID="ID_717847120" MODIFIED="1462715398614" TEXT="sudo docker pull daocloud.io/{UserID}/mysql ">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462372876033" ID="ID_799485861" MODIFIED="1462715398614" TEXT="sudo docker pull daocloud.io/mysql">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462373754871" ID="ID_172753686" MODIFIED="1462715398614" TEXT="run">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462373749642" ID="ID_1395585099" MODIFIED="1462715398612" TEXT="docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d daocloud.io/mysql">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462373805056" ID="ID_853080861" MODIFIED="1462715398612" TEXT="docker run --name some-app --link some-mysql:mysql -d app-that-uses-mysql">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462374003556" ID="ID_1026720206" MODIFIED="1462715398609" TEXT="docker run -it --link some-mysql:mysql --rm daocloud.io/mysql sh -c &apos;exec mysql -h&quot;$MYSQL_PORT_3306_TCP_ADDR&quot; -P&quot;$MYSQL_PORT_3306_TCP_PORT&quot; -uroot -p&quot;$MYSQL_ENV_MYSQL_ROOT_PASSWORD&quot;&apos;">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462374736476" ID="ID_650481745" MODIFIED="1462715398609" TEXT="docker exec -it some-mysql bash">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462374908771" ID="ID_674004219" MODIFIED="1462715398604" TEXT="docker run --name some-mysql -v /my/custom:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=my-secret-pw -d daocloud.io/mysql:tag">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462376120706" ID="ID_160912967" MODIFIED="1462715398604" TEXT="push">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462376139048" ID="ID_1422855173" MODIFIED="1462715398604" TEXT="docker tag 9f676bd305a4 daocloud.io/{UserID}/ubuntu">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462376184991" ID="ID_18958117" MODIFIED="1462715398604" TEXT="docker push daocloud.io/{UserID}/ubuntu">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462376382691" ID="ID_869302116" MODIFIED="1462715776327" TEXT="repos">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462376396578" ID="ID_569892677" MODIFIED="1462715702615" TEXT="Private Repositories : daocloud.io/{UserID}/mysql:tag">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462376428205" ID="ID_682350051" MODIFIED="1462715710958" TEXT="Daocloud Repositories: daocloud.io/mysql:tag">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462376522309" ID="ID_815813903" MODIFIED="1462715767559" TEXT="DockerHub Reopsitories: dao pull &lt;image&gt;">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 </node>
 <node CREATED="1462639113738" ID="ID_996030744" MODIFIED="1480256003230" POSITION="right" TEXT="docker engine">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462639219752" FOLDED="true" ID="ID_405435554" MODIFIED="1480256003230" TEXT="help">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462639246516" ID="ID_1026941780" MODIFIED="1462715334723" TEXT="docker info">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462639247719" ID="ID_1260808651" MODIFIED="1462715334723" TEXT="docker help">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462639251898" ID="ID_1972898545" MODIFIED="1462715334723" TEXT="docker {cmd} help">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462639428123" ID="ID_1377745879" MODIFIED="1462715334723" TEXT="docker inspect {image}|{container}">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462642867219" ID="ID_1494193386" MODIFIED="1462715334723" TEXT="docker version">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462639191150" FOLDED="true" ID="ID_1325943150" MODIFIED="1480256003230" TEXT="-H">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462639785612" ID="ID_1202449829" MODIFIED="1462639822934" TEXT="Changing the default docker daemon binding to a TCP port or Unix docker."/>
 <node CREATED="1462639815920" ID="ID_1150842234" MODIFIED="1462639817131" TEXT="the Docker client can use -H to connect to a custom port."/>
 </node>
 <node CREATED="1462639126868" FOLDED="true" ID="ID_1236400097" MODIFIED="1480256003230" TEXT="daemon">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462639910054" FOLDED="true" ID="ID_1451929002" MODIFIED="1462715334722" TEXT="default port">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462639894104" FOLDED="true" ID="ID_805183481" MODIFIED="1462640827761" TEXT="unix:///var/run/docker.sock">
 <node CREATED="1462640232425" ID="ID_1445851990" MODIFIED="1462640247751" TEXT="named unix domain socket">
 <node CREATED="1462640623209" ID="ID_1894561935" MODIFIED="1462640623965" TEXT="unix_socket = socket(AF_UNIX, type, 0);">
@@ -196,36 +196,36 @@
 </node>
 </node>
 <node CREATED="1462640866514" ID="ID_36646001" MODIFIED="1462715334722" TEXT="-H">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462640908149" ID="ID_1140301973" MODIFIED="1462715334722" TEXT="`host:` or `host:port` or `:port`">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462640922980" ID="ID_785208236" MODIFIED="1462715334721" TEXT="sudo docker daemon -H tcp://127.0.0.1:2375 -H unix:///var/run/docker.sock &amp;">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462640952790" ID="ID_1171378322" MODIFIED="1462715334719" TEXT="docker -H tcp://127.0.0.1:2375 pull ubuntu">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1462639136643" ID="ID_1099053829" MODIFIED="1480256003230" TEXT="image">
-<font NAME="Consolas" SIZE="20"/>
+<node CREATED="1462639136643" ID="ID_1099053829" MODIFIED="1496474172715" TEXT="image">
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462639295248" ID="ID_777231366" MODIFIED="1480256003230" TEXT="docker pull ubuntu">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462639315404" ID="ID_1289513707" MODIFIED="1480256003230" TEXT="docker images --no-trunc=true">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462641917935" ID="ID_1608337530" MODIFIED="1480256003230" TEXT="docker images">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462641925295" ID="ID_1599499741" MODIFIED="1480256003230" TEXT="docker commit {container} image:tag">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462711026200" ID="ID_1259389311" MODIFIED="1480256003226" TEXT="docker build -t &lt;repo_1&gt;[:tag_1] [-t &lt;repo_2&gt;[:tag_2]...] [-f &lt;path/to/Dockerfile&gt;] &lt;context_PATH/URL&gt;">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462711298356" FOLDED="true" ID="ID_229713544" MODIFIED="1480256003226" TEXT="demos">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462713321923" ID="ID_703532765" MODIFIED="1462713434218" TEXT="docker build -t ubuntu:14.04 -t ubuntu:lastest .">
 <node CREATED="1462713443445" ID="ID_821618772" MODIFIED="1462713558633" TEXT="multiple repository:tag"/>
 <node CREATED="1462713508389" ID="ID_749612868" MODIFIED="1462716203145" TEXT="context is `pwd`, in default, Dockerfile  in the root directory of context path(./Dockerfile)"/>
@@ -241,7 +241,7 @@
 </node>
 </node>
 <node COLOR="#338800" CREATED="1462713941129" ID="ID_1051427444" MODIFIED="1480256003222" TEXT="intermediate images, commit, using Cache, --rm=false --no-cache">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462714021744" ID="ID_1924971849" MODIFIED="1480256003219" TEXT="sequentially, step by step,  execute a Dockerfile instruction and commit to produce intermediate image. then next instruction">
 <font NAME="SansSerif" SIZE="20"/>
 </node>
@@ -256,13 +256,13 @@
 </node>
 </node>
 <node CREATED="1462714261597" ID="ID_36897478" MODIFIED="1480256003214" TEXT="Dockerfile .dockerignore">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462714406679" ID="ID_1344116265" MODIFIED="1480256003214" TEXT="Dockerfile">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462714413166" ID="ID_1211313042" MODIFIED="1480256003213" TEXT="InStRuCtIoN">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462714500103" FOLDED="true" ID="ID_1152753665" MODIFIED="1480256003213" TEXT="FROM &lt;base_image&gt;">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462714853725" ID="ID_37901638" MODIFIED="1462714883480" TEXT="repo[:tag]  default tag is latest"/>
 <node CREATED="1462720328715" ID="ID_789088163" MODIFIED="1462720336451" TEXT="repo[@digest]"/>
 <node CREATED="1462720336982" ID="ID_581813789" MODIFIED="1462720338072" TEXT="FROM must be the first non-comment instruction in the Dockerfile."/>
@@ -372,7 +372,7 @@
 </node>
 </node>
 <node CREATED="1462714916657" ID="ID_1959246017" MODIFIED="1480256003189" TEXT="WORKDIR &lt;path&gt;">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462714942371" ID="ID_1635828074" MODIFIED="1480256003189" TEXT="chdir(path)">
 <font NAME="SansSerif" SIZE="20"/>
 </node>
@@ -397,7 +397,7 @@
 <node CREATED="1462722610057" ID="ID_310806351" MODIFIED="1462722610859" TEXT="copies new files, directories or remote file URLs from &lt;src&gt; and adds them to the filesystem of the container at the path &lt;dest&gt;"/>
 </node>
 <node CREATED="1462715014800" ID="ID_657498516" MODIFIED="1462723117668" TEXT="COPY">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462722573435" ID="ID_1455586838" MODIFIED="1462722941920" TEXT="COPY &lt;src&gt;... &lt;dest&gt;"/>
 <node CREATED="1462722593011" ID="ID_336412148" MODIFIED="1462722946179" TEXT="COPY [&quot;&lt;src&gt;&quot;,... &quot;&lt;dest&gt;&quot;]"/>
 <node CREATED="1462722962663" ID="ID_575609182" MODIFIED="1462722963708" TEXT="copies new files or directories from &lt;src&gt; and adds them to the filesystem of the container at the path &lt;dest&gt;"/>
@@ -459,7 +459,7 @@
 <node CREATED="1462727680925" ID="ID_1479989458" MODIFIED="1480256003185" TEXT="--build-arg/ARG/ENV/">
 <font NAME="SansSerif" SIZE="20"/>
 <node CREATED="1462714727930" ID="ID_1231205675" MODIFIED="1480256003184" TEXT="ENV &lt;name&gt; &lt;value&gt;">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462722458479" ID="ID_1412894451" MODIFIED="1480256003184" TEXT="or ENV &lt;name&gt;=&lt;value&gt;">
 <font NAME="SansSerif" SIZE="20"/>
 </node>
@@ -474,7 +474,7 @@
 <font NAME="SansSerif" SIZE="20"/>
 </node>
 <node CREATED="1462714727930" ID="ID_1657909390" MODIFIED="1480256003183" TEXT="ARG &lt;name&gt; &lt;value&gt;">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462722458479" ID="ID_577320732" MODIFIED="1480256003183" TEXT="or ARG &lt;name&gt;=&lt;value&gt;">
 <font NAME="SansSerif" SIZE="20"/>
 </node>
@@ -556,7 +556,7 @@
 </node>
 </node>
 <node CREATED="1462714447270" ID="ID_642581122" MODIFIED="1480256003171" TEXT="#Comment">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 </node>
 <node CREATED="1462720000025" ID="ID_1944272787" MODIFIED="1480256003170" TEXT=".dockerignore">
@@ -575,59 +575,59 @@
 </node>
 </node>
 <node CREATED="1462639468721" ID="ID_1724902091" MODIFIED="1480256003170" TEXT="network">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 </node>
 <node CREATED="1462774371309" ID="ID_802479793" MODIFIED="1480256003170" TEXT="volume">
 <font NAME="SansSerif" SIZE="20"/>
 </node>
 <node CREATED="1462639161433" FOLDED="true" ID="ID_1676514720" MODIFIED="1480256003169" TEXT="container">
-<font NAME="Consolas" SIZE="20"/>
+<font NAME="Dialog" SIZE="20"/>
 <node CREATED="1462672264621" ID="ID_1077984843" MODIFIED="1462715363603" TEXT="lifetime circle">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462639489765" ID="ID_1829786328" MODIFIED="1462715363603" TEXT="docker run -i -t ubuntu /bin/bash ">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462639597898" ID="ID_1874512715" MODIFIED="1462715363602" TEXT="Ctrl-p + Ctrl-q">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462639613381" ID="ID_1300494736" MODIFIED="1462715363602" TEXT="To detach the tty without exiting the shell">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462639637429" ID="ID_360411339" MODIFIED="1462715363602" TEXT="docker ps">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462639646858" ID="ID_63238996" MODIFIED="1462715363602" TEXT="docker ps -a">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462640996028" ID="ID_1318881599" MODIFIED="1462715363598" TEXT="JOB=$(docker run -d ubuntu /bin/sh -c &quot;while true; do echo Hello world; sleep 1; done&quot;) ">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462641006772" ID="ID_1338403815" MODIFIED="1462715363598" TEXT="docker logs $JOB">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462641016830" ID="ID_1995209422" MODIFIED="1462715363597" TEXT="docker kill $JOB">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462641120380" ID="ID_1148980826" MODIFIED="1462715363597" TEXT="docker {run, exec, stop, start, restart, rm, ps, kill}">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462708706209" ID="ID_1281561088" MODIFIED="1462715363597" TEXT="docker {inspect, logs, port, top, ps}">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462708928887" ID="ID_781087994" LINK="#ID_1731728743" MODIFIED="1462715363596" TEXT="ps">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462708984721" ID="ID_630807277" MODIFIED="1462715363596" TEXT="inspect">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462709689640" ID="ID_1050565183" MODIFIED="1462715363591" TEXT="docker inspect -f &apos;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&apos; {container}">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1462672241497" ID="ID_1063878824" MODIFIED="1462715363591" TEXT="NAT mapping">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462672331149" ID="ID_707319389" MODIFIED="1468118944033" TEXT="EXPOSE --Dockerfile">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462672584447" ID="ID_1080536384" MODIFIED="1462672616993" TEXT="EXPOSE port1 [port2 ...]">
 <node CREATED="1462672656176" ID="ID_735905825" MODIFIED="1462672671731">
 <richcontent TYPE="NODE"><html>
@@ -648,34 +648,34 @@
 <node CREATED="1462672678418" ID="ID_382546860" MODIFIED="1462672700261" TEXT="docker build -t ubuntu:my Dockerfile"/>
 </node>
 <node CREATED="1462643601765" ID="ID_168325857" MODIFIED="1462715363591" TEXT="-p --mapping specified exposed ports to random/specified hosts ports">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462672510999" ID="ID_1072959578" MODIFIED="1462715363591" TEXT="-p hosted_port:container_port">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462672713629" ID="ID_1622043799" MODIFIED="1462715363589" TEXT="docker run -it --rm -p 40000:50000 --hostname myubuntu --name myubuntu  ubuntu:my bash">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462673256022" ID="ID_1867889680" MODIFIED="1462715363589" TEXT="root@myubuntu:/# echo &quot;hello world&quot; | nc -l 50000">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1462673319967" ID="ID_1326251959" MODIFIED="1462715363588" TEXT="curl -XGET http://{hosted_ip}:40000/helloworld">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462672311673" FOLDED="true" ID="ID_514405457" MODIFIED="1462715363588" TEXT="-P --mapping all exposed ports of container to random hosted ports">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462672713629" ID="ID_668766319" MODIFIED="1462672807507" TEXT="docker run -it --rm -P --hostname myubuntu --name myubuntu  ubuntu:my bash"/>
 </node>
 <node CREATED="1462672619158" ID="ID_164179806" MODIFIED="1462715363588" TEXT="docker port myubuntu">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462673457969" ID="ID_461070295" MODIFIED="1462715363588" TEXT="50000/tcp -&gt; 0.0.0.0:40000">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1462674050209" ID="ID_1731728743" MODIFIED="1462715363587" TEXT="docker ps --format=&quot;{{.ID}} {{.Names}} {{.Ports}}&quot;">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1462674069538" ID="ID_1691726882" MODIFIED="1462715363585" TEXT="dfb5042d589c myubuntu 50000/tcp, 0.0.0.0:50000-&gt;40000/tcp">
-<font NAME="Consolas" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 </node>
