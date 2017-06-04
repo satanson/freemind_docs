@@ -1,9 +1,9 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1337567821677" ID="ID_893958877" MODIFIED="1363683206971" TEXT="hadoop">
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 <node CREATED="1337568372328" ID="ID_279630378" MODIFIED="1363672633396" POSITION="right" TEXT="Programming Model">
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 <node CREATED="1337568464483" ID="ID_1951095488" MODIFIED="1397808838771" TEXT="MapReduce">
 <node CREATED="1337568593356" ID="ID_1679863996" MODIFIED="1337568737641" TEXT="google 2004"/>
 <node CREATED="1337568593356" ID="ID_950957626" MODIFIED="1337579948260" TEXT="origin from Lisp language"/>
@@ -24,7 +24,7 @@
 </node>
 <node CREATED="1337579608816" ID="ID_43285480" MODIFIED="1421986006017" POSITION="right" TEXT="installation">
 <node CREATED="1337579616954" ID="ID_1868279812" MODIFIED="1421044003202" TEXT="single Node setup">
-<node CREATED="1421044024750" ID="ID_471713622" MODIFIED="1421053397818" TEXT="standalone (on native Linux FS)">
+<node CREATED="1421044024750" ID="ID_471713622" MODIFIED="1496596176116" TEXT="standalone (on native Linux FS)">
 <node CREATED="1337579894837" ID="ID_562124024" LINK="http://hadoop.apache.org/common/docs/r1.0.3/single_node_setup.html" MODIFIED="1421044045647" TEXT="http://hadoop.apache.org/common/docs/r1.0.3/single_node_setup.html"/>
 <node CREATED="1337580076243" ID="ID_565886242" MODIFIED="1421044045645" TEXT="Required Software">
 <node CREATED="1337580101191" ID="ID_325173541" MODIFIED="1337580169182" TEXT="Java(TM) 1.6.x"/>
@@ -32,49 +32,49 @@
 </node>
 <node CREATED="1337580245378" ID="ID_1902479628" MODIFIED="1421044045637" TEXT="Installing Software">
 <node CREATED="1337580253813" ID="ID_1860337452" MODIFIED="1337586565670">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      $ sudo apt-get install ssh&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      $ sudo apt-get install rsync&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <p>&#13;
+      $ sudo apt-get install ssh&#13;
+    </p>&#13;
+    <p>&#13;
+      $ sudo apt-get install rsync&#13;
+    </p>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337585446693" ID="ID_917919675" MODIFIED="1421044045625" TEXT="Prepare to Start the Hadoop Cluster">
 <node CREATED="1337585457223" ID="ID_1019528577" MODIFIED="1337586673365">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      edit&#xa0;&#xa0;conf/hadoop-env.sh:JAVA_HOME&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      $bin/hadoop&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <p>&#13;
+      edit&#xa0;&#xa0;conf/hadoop-env.sh:JAVA_HOME&#13;
+    </p>&#13;
+    <p>&#13;
+      $bin/hadoop&#13;
+    </p>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337586404048" ID="ID_1433921778" MODIFIED="1421044045613" TEXT="Standalone Operation">
 <node CREATED="1337586414259" ID="ID_1932413969" MODIFIED="1337586432141">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      $ mkdir input<br/>$ cp conf/*.xml input<br/>$ bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'<br/>$ cat output/*&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <p>&#13;
+      $ mkdir input<br/>$ cp conf/*.xml input<br/>$ bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'<br/>$ cat output/*&#13;
+    </p>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -84,35 +84,35 @@
 <node CREATED="1363677103432" ID="ID_407143093" MODIFIED="1421049379173" TEXT="NameNode(hdfs)">
 <node CREATED="1337586776204" ID="ID_1962991149" MODIFIED="1363677131636" TEXT="conf/core-site.xml:">
 <node CREATED="1337586809413" ID="ID_1356849537" MODIFIED="1363677133654">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre class="code">&lt;configuration&gt;&#xd;
-     &lt;property&gt;&#xd;
-         &lt;name&gt;fs.default.name&lt;/name&gt;&#xd;
-         &lt;value&gt;hdfs://localhost:9000&lt;/value&gt;&#xd;
-     &lt;/property&gt;&#xd;
-&lt;/configuration&gt;</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre class="code">&lt;configuration&gt;&#13;
+     &lt;property&gt;&#13;
+         &lt;name&gt;fs.default.name&lt;/name&gt;&#13;
+         &lt;value&gt;hdfs://localhost:9000&lt;/value&gt;&#13;
+     &lt;/property&gt;&#13;
+&lt;/configuration&gt;</pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337586817313" ID="ID_202252494" MODIFIED="1337586838784" TEXT="conf/hdfs-site.xml:">
 <node CREATED="1337586852727" ID="ID_344018800" MODIFIED="1421044190095">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre class="code">&lt;configuration&gt;&#xd;
-     &lt;property&gt;&#xd;
-         &lt;name&gt;dfs.replication&lt;/name&gt;&#xd;
-         &lt;value&gt;1&lt;/value&gt;&#xd;
-     &lt;/property&gt;&#xd;
-&lt;/configuration&gt;</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre class="code">&lt;configuration&gt;&#13;
+     &lt;property&gt;&#13;
+         &lt;name&gt;dfs.replication&lt;/name&gt;&#13;
+         &lt;value&gt;1&lt;/value&gt;&#13;
+     &lt;/property&gt;&#13;
+&lt;/configuration&gt;</pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 <node CREATED="1421052187986" ID="ID_1566227647" MODIFIED="1421052196478" TEXT="dfs.name.dir"/>
@@ -131,18 +131,18 @@
 <node CREATED="1363677141010" ID="ID_1419059747" MODIFIED="1363677148399" TEXT="JobTracker">
 <node CREATED="1337586855915" ID="ID_1519196939" MODIFIED="1363677149748" TEXT="conf/mapred-site.xml:">
 <node CREATED="1337586878178" ID="ID_979747595" MODIFIED="1337586878178">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre class="code">&lt;configuration&gt;&#xd;
-     &lt;property&gt;&#xd;
-         &lt;name&gt;mapred.job.tracker&lt;/name&gt;&#xd;
-         &lt;value&gt;localhost:9001&lt;/value&gt;&#xd;
-     &lt;/property&gt;&#xd;
-&lt;/configuration&gt;</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre class="code">&lt;configuration&gt;&#13;
+     &lt;property&gt;&#13;
+         &lt;name&gt;mapred.job.tracker&lt;/name&gt;&#13;
+         &lt;value&gt;localhost:9001&lt;/value&gt;&#13;
+     &lt;/property&gt;&#13;
+&lt;/configuration&gt;</pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -156,38 +156,38 @@
 </node>
 <node CREATED="1337586919874" ID="ID_1905145579" MODIFIED="1337673254325" TEXT="Setup passphraseless ssh">
 <node CREATED="1337586937594" ID="ID_1385505633" MODIFIED="1337586937594">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      <span class="codefrag">$ ssh localhost</span>&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      If you cannot ssh to localhost without a passphrase, execute the following commands:<br/><span class="codefrag">$ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa</span><br/><span class="codefrag">$ cat ~/.ssh/id_dsa.pub &gt;&gt; ~/.ssh/authorized_keys</span>&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <p>&#13;
+      <span class="codefrag">$ ssh localhost</span>&#13;
+    </p>&#13;
+    <p>&#13;
+      If you cannot ssh to localhost without a passphrase, execute the following commands:<br/><span class="codefrag">$ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa</span><br/><span class="codefrag">$ cat ~/.ssh/id_dsa.pub &gt;&gt; ~/.ssh/authorized_keys</span>&#13;
+    </p>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1337588283701" ID="ID_1007102768" MODIFIED="1337673256631" TEXT="Execution">
 <node CREATED="1337588332344" ID="ID_276736963" MODIFIED="1337588423468">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <p>&#xd;
-      $ bin/hadoop namenode -format<br/>$ bin/start-all.sh&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      $ bin/hadoop fs -put conf input<br/>$ bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'&#xd;
-    </p>&#xd;
-    <p>&#xd;
-      $ bin/hadoop fs -get output output<br/>$ cat output/*<br/>$ bin/stop-all.sh&#xd;
-    </p>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <p>&#13;
+      $ bin/hadoop namenode -format<br/>$ bin/start-all.sh&#13;
+    </p>&#13;
+    <p>&#13;
+      $ bin/hadoop fs -put conf input<br/>$ bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'&#13;
+    </p>&#13;
+    <p>&#13;
+      $ bin/hadoop fs -get output output<br/>$ cat output/*<br/>$ bin/stop-all.sh&#13;
+    </p>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -203,6 +203,9 @@
 <node CREATED="1421054089092" ID="ID_1124237253" MODIFIED="1421054105367" TEXT="conf/mapred-site.xml">
 <node CREATED="1421054106497" ID="ID_560806415" MODIFIED="1421054147685" TEXT="mapred.job.tracker nonlocal ip"/>
 </node>
+<node CREATED="1496603148958" ID="ID_357102846" MODIFIED="1496603150598" TEXT="bin/hadoop namenode -format"/>
+<node CREATED="1496603151143" ID="ID_1638385124" MODIFIED="1496603160284" TEXT="bin/start-dfs.sh"/>
+<node CREATED="1496603160542" ID="ID_527812904" MODIFIED="1496603180052" TEXT="bin/start-mapred.sh"/>
 </node>
 </node>
 <node CREATED="1337593735623" ID="ID_123347081" MODIFIED="1397632147753" POSITION="right" TEXT="configuration">
@@ -212,13 +215,13 @@
 </node>
 <node CREATED="1337593893621" ID="ID_982192526" MODIFIED="1357390533763" TEXT="conf/core-site.xml">
 <node CREATED="1337594234476" ID="ID_1825317588" MODIFIED="1337594234476">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    fs.default.name&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    fs.default.name&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -310,7 +313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1344476441187" FOLDED="true" ID="ID_1003658750" MODIFIED="1421735226520" POSITION="right" TEXT="features">
+<node CREATED="1344476441187" ID="ID_1003658750" MODIFIED="1496596974450" POSITION="right" TEXT="features">
 <node CREATED="1343288574548" ID="ID_237526338" MODIFIED="1344476458452" TEXT="data-intensive"/>
 <node CREATED="1343288623011" ID="ID_1634852503" MODIFIED="1344476458454" TEXT="move-code-to-data"/>
 <node CREATED="1343374471823" ID="ID_691447953" MODIFIED="1344476458457" TEXT="scaling out instead of scaling up">
@@ -334,7 +337,7 @@
 <node CREATED="1344497158219" ID="ID_190425899" MODIFIED="1344497214946" TEXT="&lt;hdfs|file&gt;://host:port/path"/>
 <node CREATED="1363679578298" ID="ID_608138082" MODIFIED="1363679578298" TEXT=""/>
 </node>
-<node CREATED="1344496390972" FOLDED="true" ID="ID_1049510404" MODIFIED="1421735219436" TEXT="hdfs file system interface">
+<node CREATED="1344496390972" FOLDED="true" ID="ID_1049510404" MODIFIED="1496596989528" TEXT="hdfs file system interface">
 <node CREATED="1344496649400" FOLDED="true" ID="ID_1843296199" MODIFIED="1421735215787" TEXT="file system shell">
 <node CREATED="1344496805190" ID="ID_442109750" MODIFIED="1344496805190" TEXT="hadoop fs -cmd &lt;args&gt;">
 <node CREATED="1344496832851" ID="ID_951110256" MODIFIED="1421045899555" TEXT="-cmd">
@@ -390,11 +393,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1344514408063" FOLDED="true" ID="ID_80523645" MODIFIED="1397808820583" POSITION="right" TEXT="mapreduce">
+<node CREATED="1344514408063" ID="ID_80523645" MODIFIED="1496588015906" POSITION="right" TEXT="mapreduce">
 <node CREATED="1344514443698" ID="ID_1416809702" MODIFIED="1344514446807" TEXT="pkg">
 <node CREATED="1344514419864" ID="ID_245116403" MODIFIED="1344514449705" TEXT="org.apache.hadoop.mapreduce"/>
 </node>
-<node CREATED="1344515529019" FOLDED="true" ID="ID_664544608" MODIFIED="1363683191605" TEXT="key/value type">
+<node CREATED="1344515529019" ID="ID_664544608" MODIFIED="1496597695010" TEXT="key/value type">
 <node CREATED="1344515727628" FOLDED="true" ID="ID_375271876" MODIFIED="1344516279346" TEXT="serialization">
 <node CREATED="1344516094271" ID="ID_406860686" MODIFIED="1344516094271" TEXT="org.apache.hadoop.io.Writable">
 <node CREATED="1344516136114" ID="ID_743712844" MODIFIED="1344516156703" TEXT="void &#x9;readFields(DataInput in) ">
@@ -430,7 +433,7 @@
 <node CREATED="1344515593613" ID="ID_1449627567" MODIFIED="1344515625531" TEXT="org.apache.hadoop.io.Writable"/>
 </node>
 </node>
-<node CREATED="1343376700756" ID="ID_1759582239" MODIFIED="1397808811224" TEXT="data flow">
+<node CREATED="1343376700756" FOLDED="true" ID="ID_1759582239" MODIFIED="1496597713373" TEXT="data flow">
 <node CREATED="1344586489803" FOLDED="true" ID="ID_1944284200" MODIFIED="1397790361343" TEXT="input">
 <icon BUILTIN="down"/>
 <node CREATED="1344586600129" ID="ID_1273483326" MODIFIED="1344586602040" TEXT="chunk"/>
@@ -443,42 +446,42 @@
 <node CREATED="1344587445013" ID="ID_670458003" MODIFIED="1344589270084" TEXT="interface InputFormat">
 <node CREATED="1344589678855" ID="ID_559663205" MODIFIED="1344589949883" TEXT="interface InputFormat">
 <node CREATED="1344589705774" ID="ID_1247249843" MODIFIED="1344589705774">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre><a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputSplit.html" title="interface in org.apache.hadoop.mapred">InputSplit</a>[] <b>getSplits</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/JobConf.html" title="class in org.apache.hadoop.mapred">JobConf</a>&#xa0;job,&#xd;
-                       int&#xa0;numSplits)&#xd;
-                       throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre><a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputSplit.html" title="interface in org.apache.hadoop.mapred">InputSplit</a>[] <b>getSplits</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/JobConf.html" title="class in org.apache.hadoop.mapred">JobConf</a>&#xa0;job,&#13;
+                       int&#xa0;numSplits)&#13;
+                       throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#13;
+  </body>&#13;
 </html></richcontent>
 <node CREATED="1344589952949" ID="ID_1140957648" MODIFIED="1344589979639" TEXT="each split must have  more than mapred.min.split.size number of bytes but also be smaller than the  block size of the filesystem."/>
 <node CREATED="1344589980823" ID="ID_278470419" MODIFIED="1344590036855" TEXT="split size==block size of hdfs (default 64MB)"/>
 </node>
 <node CREATED="1344589720013" ID="ID_890718447" MODIFIED="1344589720013">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre><a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/RecordReader.html" title="interface in org.apache.hadoop.mapred">RecordReader</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="type parameter in InputFormat">K</a>,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="type parameter in InputFormat">V</a>&gt; <b>getRecordReader</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputSplit.html" title="interface in org.apache.hadoop.mapred">InputSplit</a>&#xa0;split,&#xd;
-                                  <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/JobConf.html" title="class in org.apache.hadoop.mapred">JobConf</a>&#xa0;job,&#xd;
-                                  <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reporter.html" title="interface in org.apache.hadoop.mapred">Reporter</a>&#xa0;reporter)&#xd;
-                                  throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre><a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/RecordReader.html" title="interface in org.apache.hadoop.mapred">RecordReader</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="type parameter in InputFormat">K</a>,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="type parameter in InputFormat">V</a>&gt; <b>getRecordReader</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputSplit.html" title="interface in org.apache.hadoop.mapred">InputSplit</a>&#xa0;split,&#13;
+                                  <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/JobConf.html" title="class in org.apache.hadoop.mapred">JobConf</a>&#xa0;job,&#13;
+                                  <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reporter.html" title="interface in org.apache.hadoop.mapred">Reporter</a>&#xa0;reporter)&#13;
+                                  throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#13;
+  </body>&#13;
 </html></richcontent>
 <node CREATED="1344590264083" ID="ID_1010002608" MODIFIED="1344590267307" TEXT="Interface RecordReader&lt;K,V&gt;">
 <node CREATED="1344590309022" ID="ID_1467606202" MODIFIED="1344590309022">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>boolean <b>next</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/RecordReader.html" title="type parameter in RecordReader">K</a>&#xa0;key,&#xd;
-             <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/RecordReader.html" title="type parameter in RecordReader">V</a>&#xa0;value)&#xd;
-             throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre>boolean <b>next</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/RecordReader.html" title="type parameter in RecordReader">K</a>&#xa0;key,&#13;
+             <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/RecordReader.html" title="type parameter in RecordReader">V</a>&#xa0;value)&#13;
+             throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -497,32 +500,32 @@
 <node CREATED="1344588875537" ID="ID_505147004" MODIFIED="1344837136817" TEXT="setInputFormat">
 <node CREATED="1344588732937" ID="ID_475302616" MODIFIED="1344588835645" TEXT="org.apache.hadoop.mapred.JobConf::">
 <node CREATED="1344588870182" ID="ID_1311374138" MODIFIED="1344588870182">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public void <b>setInputFormat</b>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;? extends <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="interface in org.apache.hadoop.mapred">InputFormat</a>&gt;&#xa0;theClass)</pre>&#xd;
-    <dl>&#xd;
-      <dd>&#xd;
-        Set the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="interface in org.apache.hadoop.mapred"><code>InputFormat</code></a> implementation for the map-reduce job.&#xd;
-&#xd;
-        <p>&#xd;
-          &#xd;
-        </p>&#xd;
-      </dd>&#xd;
-      <dd>&#xd;
-        <dl>&#xd;
-          <dt>&#xd;
-            <b>Parameters:</b>&#xd;
-          </dt>&#xd;
-          <dd>&#xd;
-            <code>theClass</code> - the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="interface in org.apache.hadoop.mapred"><code>InputFormat</code></a> implementation for the map-reduce job.&#xd;
-          </dd>&#xd;
-        </dl>&#xd;
-      </dd>&#xd;
-    </dl>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre>public void <b>setInputFormat</b>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;? extends <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="interface in org.apache.hadoop.mapred">InputFormat</a>&gt;&#xa0;theClass)</pre>&#13;
+    <dl>&#13;
+      <dd>&#13;
+        Set the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="interface in org.apache.hadoop.mapred"><code>InputFormat</code></a> implementation for the map-reduce job.&#13;
+&#13;
+        <p>&#13;
+          &#13;
+        </p>&#13;
+      </dd>&#13;
+      <dd>&#13;
+        <dl>&#13;
+          <dt>&#13;
+            <b>Parameters:</b>&#13;
+          </dt>&#13;
+          <dd>&#13;
+            <code>theClass</code> - the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputFormat.html" title="interface in org.apache.hadoop.mapred"><code>InputFormat</code></a> implementation for the map-reduce job.&#13;
+          </dd>&#13;
+        </dl>&#13;
+      </dd>&#13;
+    </dl>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -533,13 +536,13 @@
 <icon BUILTIN="full-1"/>
 <node CREATED="1344517705576" ID="ID_1472148517" MODIFIED="1344823929755" TEXT="org.apache.hadoop.mapred.InputFormat&lt;K,V&gt;::">
 <node CREATED="1344517879200" ID="ID_249325388" MODIFIED="1344517913220">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre><a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputSplit.html" title="interface in org.apache.hadoop.mapred">InputSplit</a>[] <b>getSplits</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/JobConf.html" title="class in org.apache.hadoop.mapred">JobConf</a>&#xa0;job,int&#xa0;numSplits)throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre><a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/InputSplit.html" title="interface in org.apache.hadoop.mapred">InputSplit</a>[] <b>getSplits</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/JobConf.html" title="class in org.apache.hadoop.mapred">JobConf</a>&#xa0;job,int&#xa0;numSplits)throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -548,17 +551,17 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1344517923769" ID="ID_1044675138" MODIFIED="1344838015330" TEXT="org.apache.hadoop.mapred.Mapper&lt;K1,V1,K2,V2&gt;::">
 <node CREATED="1344518168901" ID="ID_1958821708" MODIFIED="1344518168901">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>void <b>map</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">K1</a>&#xa0;key,&#xd;
-         <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">V1</a>&#xa0;value,&#xd;
-         <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputCollector.html" title="interface in org.apache.hadoop.mapred">OutputCollector</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">K2</a>,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">V2</a>&gt;&#xa0;output,&#xd;
-         <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reporter.html" title="interface in org.apache.hadoop.mapred">Reporter</a>&#xa0;reporter)&#xd;
-         throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre>void <b>map</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">K1</a>&#xa0;key,&#13;
+         <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">V1</a>&#xa0;value,&#13;
+         <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputCollector.html" title="interface in org.apache.hadoop.mapred">OutputCollector</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">K2</a>,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Mapper.html" title="type parameter in Mapper">V2</a>&gt;&#xa0;output,&#13;
+         <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reporter.html" title="interface in org.apache.hadoop.mapred">Reporter</a>&#xa0;reporter)&#13;
+         throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 <node CREATED="1344838161374" ID="ID_339340231" MODIFIED="1344838166523" TEXT="JobConf.setNumReduceTasks(int)"/>
@@ -573,13 +576,13 @@
 <icon BUILTIN="full-4"/>
 <node CREATED="1344518032435" ID="ID_1376726940" MODIFIED="1344518044847" TEXT="org.apache.hadoop.mapred.Partitioner&lt;K2,V2&gt;::">
 <node CREATED="1344518113771" ID="ID_275230992" MODIFIED="1344518128980">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>int <b>getPartition</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Partitioner.html" title="type parameter in Partitioner">K2</a>&#xa0;key,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Partitioner.html" title="type parameter in Partitioner">V2</a>&#xa0;value,int&#xa0;numPartitions)</pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre>int <b>getPartition</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Partitioner.html" title="type parameter in Partitioner">K2</a>&#xa0;key,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Partitioner.html" title="type parameter in Partitioner">V2</a>&#xa0;value,int&#xa0;numPartitions)</pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
@@ -589,17 +592,17 @@
 <icon BUILTIN="full-5"/>
 <node CREATED="1344518433177" ID="ID_1763998100" MODIFIED="1344824300032" TEXT="org.apache.hadoop.mapred.Reducer&lt;K2,V2,K3,V3&gt;::">
 <node CREATED="1344518430243" ID="ID_932634258" MODIFIED="1344518458302">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>void <b>reduce</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">K2</a>&#xa0;key,&#xd;
-            <a href="http://java.sun.com/javase/6/docs/api/java/util/Iterator.html?is-external=true" title="class or interface in java.util">Iterator</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">V2</a>&gt;&#xa0;values,&#xd;
-            <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputCollector.html" title="interface in org.apache.hadoop.mapred">OutputCollector</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">K3</a>,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">V3</a>&gt;&#xa0;output,&#xd;
-            <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reporter.html" title="interface in org.apache.hadoop.mapred">Reporter</a>&#xa0;reporter)&#xd;
-            throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre>void <b>reduce</b>(<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">K2</a>&#xa0;key,&#13;
+            <a href="http://java.sun.com/javase/6/docs/api/java/util/Iterator.html?is-external=true" title="class or interface in java.util">Iterator</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">V2</a>&gt;&#xa0;values,&#13;
+            <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputCollector.html" title="interface in org.apache.hadoop.mapred">OutputCollector</a>&lt;<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">K3</a>,<a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reducer.html" title="type parameter in Reducer">V3</a>&gt;&#xa0;output,&#13;
+            <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/Reporter.html" title="interface in org.apache.hadoop.mapred">Reporter</a>&#xa0;reporter)&#13;
+            throws <a href="http://java.sun.com/javase/6/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 <node CREATED="1344838202066" ID="ID_1373376270" MODIFIED="1344838211973" TEXT="JobConf.setNumMapTasks(int) "/>
@@ -617,32 +620,32 @@
 <node CREATED="1344590706811" ID="ID_523498540" MODIFIED="1344590715789" TEXT="setOutputFormat">
 <node CREATED="1344590836363" ID="ID_1379004355" MODIFIED="1344590838718" TEXT="org.apache.hadoop.mapred.JobConf">
 <node CREATED="1344590750438" ID="ID_640483327" MODIFIED="1344590843922">
-<richcontent TYPE="NODE"><html>&#xd;
-  <head>&#xd;
-    &#xd;
-  </head>&#xd;
-  <body>&#xd;
-    <pre>public void <b>setOutputFormat</b>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;? extends <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputFormat.html" title="interface in org.apache.hadoop.mapred">OutputFormat</a>&gt;&#xa0;theClass)</pre>&#xd;
-    <dl>&#xd;
-      <dd>&#xd;
-        Set the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputFormat.html" title="interface in org.apache.hadoop.mapred"><code>OutputFormat</code></a> implementation for the map-reduce job.&#xd;
-&#xd;
-        <p>&#xd;
-          &#xd;
-        </p>&#xd;
-      </dd>&#xd;
-      <dd>&#xd;
-        <dl>&#xd;
-          <dt>&#xd;
-            <b>Parameters:</b>&#xd;
-          </dt>&#xd;
-          <dd>&#xd;
-            <code>theClass</code> - the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputFormat.html" title="interface in org.apache.hadoop.mapred"><code>OutputFormat</code></a> implementation for the map-reduce job.&#xd;
-          </dd>&#xd;
-        </dl>&#xd;
-      </dd>&#xd;
-    </dl>&#xd;
-  </body>&#xd;
+<richcontent TYPE="NODE"><html>&#13;
+  <head>&#13;
+    &#13;
+  </head>&#13;
+  <body>&#13;
+    <pre>public void <b>setOutputFormat</b>(<a href="http://java.sun.com/javase/6/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;? extends <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputFormat.html" title="interface in org.apache.hadoop.mapred">OutputFormat</a>&gt;&#xa0;theClass)</pre>&#13;
+    <dl>&#13;
+      <dd>&#13;
+        Set the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputFormat.html" title="interface in org.apache.hadoop.mapred"><code>OutputFormat</code></a> implementation for the map-reduce job.&#13;
+&#13;
+        <p>&#13;
+          &#13;
+        </p>&#13;
+      </dd>&#13;
+      <dd>&#13;
+        <dl>&#13;
+          <dt>&#13;
+            <b>Parameters:</b>&#13;
+          </dt>&#13;
+          <dd>&#13;
+            <code>theClass</code> - the <a href="file:///D:/hadoop-1.0.3/docs/api/org/apache/hadoop/mapred/OutputFormat.html" title="interface in org.apache.hadoop.mapred"><code>OutputFormat</code></a> implementation for the map-reduce job.&#13;
+          </dd>&#13;
+        </dl>&#13;
+      </dd>&#13;
+    </dl>&#13;
+  </body>&#13;
 </html></richcontent>
 </node>
 </node>
