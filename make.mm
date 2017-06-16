@@ -110,7 +110,7 @@
 <node CREATED="1362468070313" ID="ID_1418983099" MODIFIED="1362468071517" TEXT="The only restriction on this sort of use of nested variable references is that they cannot specify part of the name of a function to be called. This is because the test for a recognized function name is done before the expansion of nested references."/>
 <node CREATED="1362468097028" ID="ID_41295951" MODIFIED="1362468103567" TEXT="You can also use computed variable names in the left-hand side of a variable assignment, or in a define directive."/>
 </node>
-<node CREATED="1362535075508" ID="ID_1419310372" MODIFIED="1445786942218" TEXT="define variable in makefile">
+<node CREATED="1362535075508" FOLDED="true" ID="ID_1419310372" MODIFIED="1497597777210" TEXT="define variable in makefile">
 <font NAME="Dialog" SIZE="12"/>
 <node CREATED="1362473263904" ID="ID_730195096" MODIFIED="1372647719610" TEXT="setting variables">
 <node CREATED="1362473271751" ID="ID_1112936530" MODIFIED="1362473274382" TEXT="=">
@@ -258,7 +258,7 @@ endif</pre>&#13;&#13;
 <node CREATED="1371207138583" ID="ID_1116667162" MODIFIED="1371207154419" TEXT="del perl,python"/>
 </node>
 </node>
-<node CREATED="1362535071662" ID="ID_148859908" MODIFIED="1372647739937" TEXT="override precedence">
+<node CREATED="1362535071662" FOLDED="true" ID="ID_148859908" MODIFIED="1497597773815" TEXT="override precedence">
 <node CREATED="1362535513159" ID="ID_709010624" MODIFIED="1362535594952" TEXT="override">
 <icon BUILTIN="full-1"/>
 </node>
