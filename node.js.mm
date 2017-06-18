@@ -1,8 +1,8 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1422031264591" ID="ID_1701737159" MODIFIED="1422031269959" TEXT="node.js">
 <node CREATED="1422031289180" ID="ID_591352069" MODIFIED="1422031418935" POSITION="right" TEXT="getting started">
-<node CREATED="1422031306529" FOLDED="true" ID="ID_1329473213" MODIFIED="1422031421739" TEXT="">
+<node CREATED="1422031306529" ID="ID_1329473213" MODIFIED="1497665510525" TEXT="">
 <node CREATED="1422031331697" ID="ID_1956395800" MODIFIED="1422031331697">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -19,7 +19,7 @@ console<font color="rgb(255, 255, 255)"><span style="color: rgb(255, 255, 255)" 
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1422031353116" FOLDED="true" ID="ID_51656109" MODIFIED="1422031420296" TEXT="">
+<node CREATED="1422031353116" ID="ID_51656109" MODIFIED="1497665513682" TEXT="">
 <node CREATED="1422031356314" ID="ID_850024333" MODIFIED="1422031356314">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -53,7 +53,7 @@ server<font color="rgb(255, 255, 255)"><span style="color: rgb(255, 255, 255)" c
   </head>
   <body>
     <p>
-      Node.js&#174; is a platform built on&#160;Chrome's JavaScript runtime&#160;for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+      Node.js&#xae; is a platform built on&#xa0;Chrome's JavaScript runtime&#xa0;for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
     </p>
   </body>
 </html></richcontent>
@@ -105,8 +105,7 @@ server<font color="rgb(255, 255, 255)"><span style="color: rgb(255, 255, 255)" c
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
