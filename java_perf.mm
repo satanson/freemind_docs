@@ -57,7 +57,7 @@
 <node CREATED="1498758252665" ID="ID_1600882155" MODIFIED="1498758277911" TEXT="compact the old generation space"/>
 </node>
 </node>
-<node CREATED="1498755749738" ID="ID_1326261160" MODIFIED="1498758478806" TEXT="ConcurrentMarkSweepGC">
+<node CREATED="1498755749738" FOLDED="true" ID="ID_1326261160" MODIFIED="1498760354754" TEXT="ConcurrentMarkSweepGC">
 <node CREATED="1498756098960" ID="ID_1338266628" MODIFIED="1498756100326" TEXT="since 2002 JDK1.4.2"/>
 <node CREATED="1498756199966" ID="ID_826387148" MODIFIED="1498756202928" TEXT="workload">
 <node CREATED="1498756205658" ID="ID_117850225" MODIFIED="1498756241001" TEXT="minimize GC-related pause times"/>
@@ -91,12 +91,18 @@
 <node CREATED="1498760126079" ID="ID_743647758" MODIFIED="1498760228032" TEXT="CMS concurrent collection circle does not perform compaction">
 <node CREATED="1498760228917" ID="ID_898732724" MODIFIED="1498760229591" TEXT="not even in incremental or partial compaction"/>
 </node>
-<node CREATED="1498760179659" ID="ID_341180389" MODIFIED="1498760179659" TEXT=""/>
+<node CREATED="1498760179659" ID="ID_341180389" MODIFIED="1498760295225" TEXT="failures to find an available hole causes CMS to fall back to full collection using SerialGC"/>
 </node>
 </node>
 </node>
 <node CREATED="1498755774712" ID="ID_941458214" MODIFIED="1498756421561" TEXT="G1">
-<node CREATED="1498756004772" ID="ID_574381744" MODIFIED="1498756011271" TEXT="Garbage First"/>
+<node CREATED="1498756004772" ID="ID_574381744" MODIFIED="1498760363941" TEXT="Garbage First GC"/>
+<node CREATED="1498760370469" ID="ID_601740491" MODIFIED="1498760418256" TEXT="distinct from {Serial, Parallel, ConcurrentMarkSweep}GC">
+<node CREATED="1498760421872" ID="ID_1829159152" MODIFIED="1498760460681" TEXT="must scan the entire old generation"/>
+<node CREATED="1498760461672" ID="ID_238755492" MODIFIED="1498760507364" TEXT="yound and old generations are separate consecutive chunks of memory"/>
+</node>
+<node CREATED="1498760531921" ID="ID_177834842" MODIFIED="1498760588901" TEXT="divides Java heap into regions"/>
+<node CREATED="1498760589693" ID="ID_1808062254" MODIFIED="1498760616457" TEXT=" perform per-region GC rather than entire Java heap or entire generation"/>
 </node>
 </node>
 <node CREATED="1498756426546" ID="ID_632493532" MODIFIED="1498756802475" TEXT="3 characteristics">
