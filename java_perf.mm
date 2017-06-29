@@ -84,7 +84,16 @@
 </node>
 <node CREATED="1498759177674" ID="ID_343565555" MODIFIED="1498759200203" TEXT="-XX:+UseConcurrentMarkSweepGC"/>
 <node CREATED="1498759264401" ID="ID_494620667" MODIFIED="1498759356572" TEXT="young gc can interrupt old gc that immediately resume upon the former&apos;s completion"/>
-<node CREATED="1498759811943" ID="ID_1667888447" MODIFIED="1498759886070" TEXT="requires on the order of 10%~20% more Java heap space than ParallelGC to handle the same application"/>
+<node CREATED="1498759925597" ID="ID_725643707" MODIFIED="1498759953489" TEXT="challenge">
+<node CREATED="1498759959666" ID="ID_1147722009" MODIFIED="1498760110191" TEXT="tunning can be a nontrivial task"/>
+<node CREATED="1498759811943" ID="ID_1667888447" MODIFIED="1498759956617" TEXT="requires on the order of 10%~20% more Java heap space than ParallelGC to handle the same application"/>
+<node CREATED="1498759971724" ID="ID_1747482788" MODIFIED="1498759987872" TEXT="fragmentation in the old generation">
+<node CREATED="1498760126079" ID="ID_743647758" MODIFIED="1498760228032" TEXT="CMS concurrent collection circle does not perform compaction">
+<node CREATED="1498760228917" ID="ID_898732724" MODIFIED="1498760229591" TEXT="not even in incremental or partial compaction"/>
+</node>
+<node CREATED="1498760179659" ID="ID_341180389" MODIFIED="1498760179659" TEXT=""/>
+</node>
+</node>
 </node>
 <node CREATED="1498755774712" ID="ID_941458214" MODIFIED="1498756421561" TEXT="G1">
 <node CREATED="1498756004772" ID="ID_574381744" MODIFIED="1498756011271" TEXT="Garbage First"/>
