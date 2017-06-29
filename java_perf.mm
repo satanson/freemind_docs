@@ -103,6 +103,15 @@
 </node>
 <node CREATED="1498760531921" ID="ID_177834842" MODIFIED="1498760588901" TEXT="divides Java heap into regions"/>
 <node CREATED="1498760589693" ID="ID_1808062254" MODIFIED="1498760616457" TEXT=" perform per-region GC rather than entire Java heap or entire generation"/>
+<node CREATED="1498760628645" ID="ID_477772368" MODIFIED="1498760659241" TEXT="young/old generation is set of regions"/>
+<node CREATED="1498760691626" ID="ID_1186872132" MODIFIED="1498760731125" TEXT="over time the virtual memory mapped to G1 regions move back and forth between the generations"/>
+<node CREATED="1498760777884" ID="ID_603866269" MODIFIED="1498760781787" TEXT="young gc">
+<node CREATED="1498760782548" ID="ID_190451703" MODIFIED="1498760799035" TEXT="parallel stop-the-world"/>
+</node>
+<node CREATED="1498760839328" ID="ID_44379189" MODIFIED="1498760841033" TEXT="old gc">
+<node CREATED="1498760841842" ID="ID_601016374" MODIFIED="1498760977424" TEXT="subset of the old generation regions may be collected at any one time"/>
+</node>
+<node CREATED="1498755860545" ID="ID_1627347939" MODIFIED="1498760940582" TEXT="mixed GC"/>
 </node>
 </node>
 <node CREATED="1498756426546" ID="ID_632493532" MODIFIED="1498756802475" TEXT="3 characteristics">
@@ -118,7 +127,6 @@
 </node>
 <node CREATED="1498755850907" ID="ID_1386607234" MODIFIED="1498755856586" TEXT="young GC"/>
 <node CREATED="1498755856847" ID="ID_1043879098" MODIFIED="1498755860295" TEXT="old GC"/>
-<node CREATED="1498755860545" ID="ID_1627347939" MODIFIED="1498755864024" TEXT="mixed GC"/>
 </node>
 </node>
 </map>
