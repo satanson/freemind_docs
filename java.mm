@@ -482,7 +482,7 @@
 </node>
 <node CREATED="1345284524694" ID="ID_1867409150" MODIFIED="1345284530182" TEXT="anonymous class"/>
 <node COLOR="#338800" CREATED="1345288071372" ID="ID_1471575167" MODIFIED="1345288198985" TEXT="enclosed by method ,constructor,initialization block">
-<font BOLD="true" NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -498,7 +498,7 @@
 </node>
 <node CREATED="1344928709477" ID="ID_230623101" MODIFIED="1417294412911" TEXT="generic programming">
 <node CREATED="1344930897070" ID="ID_1089510991" MODIFIED="1344954136770" STYLE="fork" TEXT="parameterized type ensuring compile-time type safety">
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 <node CREATED="1344930904905" ID="ID_1451160417" MODIFIED="1344954076567" TEXT="vs. ancestor Class Object as generic  type (run-time error)"/>
 <node CREATED="1344954377809" ID="ID_1826645959" MODIFIED="1344954380254" TEXT="Stronger type checks at compile time">
 <node CREATED="1344954078438" ID="ID_622737985" MODIFIED="1344954390800" TEXT="compile-time error">
@@ -606,7 +606,7 @@
     A type variable can be any <strong>non-primitive</strong> type&#13;&#13;
   </body>&#13;&#13;
 </html></richcontent>
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1345082894620" FOLDED="true" ID="ID_1262216653" MODIFIED="1345082967020" TEXT="A raw type is the name of a generic class or interface without any type arguments">
@@ -755,7 +755,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
     Annotations can be used by the compiler to detect errors or suppress warnings.&#13;&#13;
   </body>&#13;&#13;
 </html></richcontent>
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 <icon BUILTIN="wizard"/>
 </node>
 <node CREATED="1345302508710" ID="ID_31638783" MODIFIED="1363774044604" TEXT="3 ">
@@ -800,7 +800,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
     <pre>@SuppressWarnings("deprecation")</pre>&#13;&#13;
   </body>&#13;&#13;
 </html></richcontent>
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 </node>
 <node CREATED="1345302949554" ID="ID_463811006" MODIFIED="1345302949554">
 <richcontent TYPE="NODE"><html>&#13;&#13;
@@ -821,7 +821,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
     <pre>@SuppressWarnings("unchecked")</pre>&#13;&#13;
   </body>&#13;&#13;
 </html></richcontent>
-<font NAME="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 </node>
 </node>
 </node>
@@ -1067,7 +1067,7 @@ void mySuperMethod() { }</pre>&#13;&#13;
 </node>
 <node CREATED="1345185931743" ID="ID_1696692984" MODIFIED="1363743189853" TEXT="garbage recycling"/>
 </node>
-<node CREATED="1359034527586" ID="ID_36676939" MODIFIED="1471491455354" POSITION="right" TEXT="lib">
+<node CREATED="1359034527586" FOLDED="true" ID="ID_36676939" MODIFIED="1498755642433" POSITION="right" TEXT="lib">
 <node CREATED="1357267216262" FOLDED="true" ID="ID_244607692" MODIFIED="1471502433570" TEXT="IO">
 <icon BUILTIN="full-1"/>
 <node CREATED="1344928739180" FOLDED="true" ID="ID_889414804" MODIFIED="1423756304821" TEXT="java.io.*">
@@ -3577,7 +3577,7 @@ void mySuperMethod() { }</pre>&#13;&#13;
 <node CREATED="1396014145193" ID="ID_1983677610" MODIFIED="1396014150547" TEXT="Array.get/set"/>
 </node>
 </node>
-<node CREATED="1363743078491" FOLDED="true" ID="ID_845504206" MODIFIED="1396009214159" POSITION="right" TEXT="more technique">
+<node CREATED="1363743078491" FOLDED="true" ID="ID_845504206" MODIFIED="1498755652553" POSITION="right" TEXT="more technique">
 <node CREATED="1357722811228" ID="ID_1276088937" MODIFIED="1363743114603" TEXT="JNI"/>
 <node CREATED="1357722814107" ID="ID_719604258" MODIFIED="1363743120453" TEXT="JSP"/>
 <node CREATED="1363743021631" ID="ID_186439636" MODIFIED="1363743120453" TEXT="ASF"/>
