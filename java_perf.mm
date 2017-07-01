@@ -172,7 +172,7 @@
 <node CREATED="1498755850907" ID="ID_1386607234" MODIFIED="1498755856586" TEXT="young GC"/>
 <node CREATED="1498755856847" ID="ID_1043879098" MODIFIED="1498755860295" TEXT="old GC"/>
 <node CREATED="1498878843961" ID="ID_53350711" MODIFIED="1498878847783" TEXT="G1 Design">
-<node CREATED="1498878849304" ID="ID_1030700927" MODIFIED="1498879335101" TEXT="regions">
+<node CREATED="1498878849304" ID="ID_1030700927" MODIFIED="1498879782695" TEXT="regions">
 <node CREATED="1498878881502" ID="ID_205902269" MODIFIED="1498878891842" TEXT="divide Java heap into regions"/>
 <node CREATED="1498878905232" ID="ID_1947931719" MODIFIED="1498878946589" TEXT="region size must be power of 2, at least 1MB, at most 32MB">
 <node CREATED="1498878950703" ID="ID_1413920959" MODIFIED="1498878963770" TEXT="{1,2,4,8,16,32}MB"/>
@@ -184,6 +184,19 @@
 <node CREATED="1498879277171" ID="ID_1217306726" MODIFIED="1498879304627" TEXT="in some situations: more/less than 2000 regions"/>
 </node>
 <node CREATED="1498879664147" ID="ID_910164013" MODIFIED="1498879757156" TEXT="a particular region is used for only one purpose at a time, but when the region is included in a collection, it will be completely evacuated and released as an available region."/>
+<node CREATED="1498879799945" FOLDED="true" ID="ID_1114797397" MODIFIED="1498880079491" TEXT="types of regions">
+<node CREATED="1498879806484" ID="ID_1057105145" MODIFIED="1498879818203" TEXT="available regions"/>
+<node CREATED="1498879826776" ID="ID_1344939005" MODIFIED="1498879831519" TEXT="eden regions"/>
+<node CREATED="1498879831757" ID="ID_294881771" MODIFIED="1498879842646" TEXT="survivor regions"/>
+<node CREATED="1498879850512" ID="ID_1175147734" MODIFIED="1498879856743" TEXT="old generation regions"/>
+<node CREATED="1498879856986" ID="ID_348305844" MODIFIED="1498879874037" TEXT="humongous regions">
+<node CREATED="1498879909326" ID="ID_168881937" MODIFIED="1498879930809" TEXT="considered to be part of the old generation"/>
+<node CREATED="1498879931056" ID="ID_1083831572" MODIFIED="1498879954788" TEXT="contain objects whose size if 50 percent ore more of a region"/>
+<node CREATED="1498879967838" ID="ID_1056453579" MODIFIED="1498880012517" TEXT="Util JDK8u40, humongous regions were collected as part of the old generation"/>
+<node CREATED="1498880012914" ID="ID_397135584" MODIFIED="1498880048602" TEXT="In JDK8u40, certain humongous regions are collected as part of a young gc."/>
+</node>
+</node>
+<node CREATED="1498880080147" ID="ID_817235775" MODIFIED="1498880113126" TEXT="young generations and old generations no need to be contiguous segments"/>
 </node>
 <node CREATED="1498879339270" ID="ID_1361129971" MODIFIED="1498879343328" TEXT="RSet">
 <node CREATED="1498879344787" ID="ID_1663586922" MODIFIED="1498879380585" TEXT="each region has an associated remembered Set">
