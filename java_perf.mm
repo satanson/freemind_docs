@@ -215,7 +215,7 @@
 <node CREATED="1498886440327" ID="ID_1754266427" MODIFIED="1498886696977" TEXT="-XX:+InitiatingHeapOccupancyPercent">
 <node CREATED="1498886702538" ID="ID_1117791541" MODIFIED="1498886715455" TEXT="45 default"/>
 </node>
-<node CREATED="1498888006599" ID="ID_1636580529" MODIFIED="1498888014358" TEXT="Humongous Objects">
+<node CREATED="1498888006599" FOLDED="true" ID="ID_1636580529" MODIFIED="1498889039413" TEXT="Humongous Objects">
 <node CREATED="1498888016028" ID="ID_334669155" MODIFIED="1498888107125" TEXT="+50% region size (include Java object header)"/>
 <node CREATED="1498888116079" ID="ID_700734155" MODIFIED="1498888126335" TEXT="Java object header">
 <node CREATED="1498888126845" ID="ID_1789478157" MODIFIED="1498888179656" TEXT="object header size vary between 32- and 64-bit HotSpot VMs"/>
@@ -225,9 +225,17 @@
 <node CREATED="1498888331867" ID="ID_1259540582" MODIFIED="1498888392367" TEXT="&quot;humongous start&quot; &quot;humongous continue&quot;*"/>
 </node>
 <node CREATED="1498888408575" ID="ID_313817533" MODIFIED="1498888449403" TEXT="G1 do a Full GC if there are not enough consecutive available regions"/>
-<node CREATED="1498888502889" ID="ID_613026437" MODIFIED="1498888538148" TEXT="Humongous regions are considered parts of the old generation">
+<node CREATED="1498888502889" FOLDED="true" ID="ID_613026437" MODIFIED="1498888878557" TEXT="Humongous regions are considered parts of the old generation">
 <node CREATED="1498888539863" ID="ID_405042418" MODIFIED="1498888568869" TEXT="Humongous regions may be reclaimed early"/>
 </node>
+<node CREATED="1498888880042" ID="ID_130880899" MODIFIED="1498888891865" TEXT="short-lived humongous objects">
+<node CREATED="1498888921729" ID="ID_1377271124" MODIFIED="1498888963481" TEXT="JDK8u40, in some cases, reclaim a humongous region during young GC"/>
+</node>
+<node CREATED="1498888968380" ID="ID_952632347" MODIFIED="1498888998657" TEXT="avoid frequent humongous object allocations"/>
+</node>
+<node CREATED="1498889039860" ID="ID_1197666187" MODIFIED="1498889042140" TEXT="Full GC">
+<node CREATED="1498889043614" ID="ID_699559928" MODIFIED="1498889062888" TEXT="using the same algorithm as the SerialGC"/>
+<node CREATED="1498889069883" ID="ID_1169054272" MODIFIED="1498889087917" TEXT="a full compaction of the entire Java heap"/>
 </node>
 </node>
 </node>
