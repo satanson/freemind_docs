@@ -221,8 +221,12 @@
 <node CREATED="1498888126845" ID="ID_1789478157" MODIFIED="1498888179656" TEXT="object header size vary between 32- and 64-bit HotSpot VMs"/>
 <node CREATED="1498888201600" ID="ID_1749964921" MODIFIED="1498888227702" TEXT="JOL: Java Object Layout tool"/>
 </node>
-<node CREATED="1498888241203" ID="ID_1526589455" MODIFIED="1498888282531" TEXT="allocate consecutive available regions for humongous objects">
+<node CREATED="1498888241203" FOLDED="true" ID="ID_1526589455" MODIFIED="1498888407978" TEXT="allocate consecutive available regions for humongous objects">
 <node CREATED="1498888331867" ID="ID_1259540582" MODIFIED="1498888392367" TEXT="&quot;humongous start&quot; &quot;humongous continue&quot;*"/>
+</node>
+<node CREATED="1498888408575" ID="ID_313817533" MODIFIED="1498888449403" TEXT="G1 do a Full GC if there are not enough consecutive available regions"/>
+<node CREATED="1498888502889" ID="ID_613026437" MODIFIED="1498888538148" TEXT="Humongous regions are considered parts of the old generation">
+<node CREATED="1498888539863" ID="ID_405042418" MODIFIED="1498888568869" TEXT="Humongous regions may be reclaimed early"/>
 </node>
 </node>
 </node>
