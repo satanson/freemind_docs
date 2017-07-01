@@ -183,8 +183,16 @@
 <node CREATED="1498879196274" ID="ID_886793132" MODIFIED="1498879242110" TEXT="e.g.: -Xms16g, -Xms16g, choose region size of 16GB/200=8MB"/>
 <node CREATED="1498879277171" ID="ID_1217306726" MODIFIED="1498879304627" TEXT="in some situations: more/less than 2000 regions"/>
 </node>
+<node CREATED="1498879664147" ID="ID_910164013" MODIFIED="1498879757156" TEXT="a particular region is used for only one purpose at a time, but when the region is included in a collection, it will be completely evacuated and released as an available region."/>
 </node>
-<node CREATED="1498879339270" ID="ID_1361129971" MODIFIED="1498879343328" TEXT="RSet"/>
+<node CREATED="1498879339270" ID="ID_1361129971" MODIFIED="1498879343328" TEXT="RSet">
+<node CREATED="1498879344787" ID="ID_1663586922" MODIFIED="1498879380585" TEXT="each region has an associated remembered Set">
+<node CREATED="1498879381697" ID="ID_4480336" MODIFIED="1498879402677" TEXT="a collection of the locations that contains pointers into regions"/>
+</node>
+<node CREATED="1498879403822" ID="ID_1436918570" MODIFIED="1498879496495" TEXT="the number of regions has a direct effect on HotSpot&apos;s memory footprint."/>
+<node CREATED="1498879509213" ID="ID_1614827973" MODIFIED="1498879554025" TEXT="total size of the RSets heavily depends on application behavior"/>
+<node CREATED="1498879555550" ID="ID_398440013" MODIFIED="1498879621127" TEXT="at the low/high end, RSet overhead is around 1%/20% of the heap size"/>
+</node>
 </node>
 </node>
 </node>
