@@ -148,9 +148,13 @@
 <node CREATED="1498878198365" ID="ID_1489542995" MODIFIED="1498878223178" TEXT="no fragmented empty space between objects."/>
 <node CREATED="1498878231888" ID="ID_611295051" MODIFIED="1498878246833" TEXT="partial compaction of old generation"/>
 </node>
-<node CREATED="1498878297842" ID="ID_1973202641" MODIFIED="1498878307730" TEXT="design goals of G1">
-<node CREATED="1498878308474" ID="ID_1124166027" MODIFIED="1498878331452" TEXT="allow the user to set a GC pause time goal"/>
+<node CREATED="1498878297842" FOLDED="true" ID="ID_1973202641" MODIFIED="1498878545654" TEXT="design goals of G1">
+<node CREATED="1498878308474" ID="ID_1124166027" MODIFIED="1498878331452" TEXT="allow the user to set a GC pause time goal">
+<node CREATED="1498878333115" ID="ID_127005582" MODIFIED="1498878430775" TEXT="G1 adapt size of Java heap, young generation to attempt to meet the goal"/>
+<node CREATED="1498878432578" ID="ID_754717729" MODIFIED="1498878513000" TEXT="the lower the pause time goal, the smaller the young generation, the larger the total heap size, making the old generation relatively large"/>
 </node>
+</node>
+<node CREATED="1498878546239" ID="ID_1195385129" MODIFIED="1498878580556" TEXT="dynamically tune itself using internal heuristics"/>
 </node>
 </node>
 <node CREATED="1498756426546" ID="ID_632493532" MODIFIED="1498756802475" TEXT="3 characteristics">
