@@ -216,7 +216,14 @@
 <node CREATED="1498886702538" ID="ID_1117791541" MODIFIED="1498886715455" TEXT="45 default"/>
 </node>
 <node CREATED="1498888006599" ID="ID_1636580529" MODIFIED="1498888014358" TEXT="Humongous Objects">
-<node CREATED="1498888016028" ID="ID_334669155" MODIFIED="1498888074350" TEXT="+50% region size"/>
+<node CREATED="1498888016028" ID="ID_334669155" MODIFIED="1498888107125" TEXT="+50% region size (include Java object header)"/>
+<node CREATED="1498888116079" ID="ID_700734155" MODIFIED="1498888126335" TEXT="Java object header">
+<node CREATED="1498888126845" ID="ID_1789478157" MODIFIED="1498888179656" TEXT="object header size vary between 32- and 64-bit HotSpot VMs"/>
+<node CREATED="1498888201600" ID="ID_1749964921" MODIFIED="1498888227702" TEXT="JOL: Java Object Layout tool"/>
+</node>
+<node CREATED="1498888241203" ID="ID_1526589455" MODIFIED="1498888282531" TEXT="allocate consecutive available regions for humongous objects">
+<node CREATED="1498888331867" ID="ID_1259540582" MODIFIED="1498888392367" TEXT="&quot;humongous start&quot; &quot;humongous continue&quot;*"/>
+</node>
 </node>
 </node>
 </node>
