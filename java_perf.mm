@@ -206,8 +206,17 @@
 <node CREATED="1498879509213" ID="ID_1614827973" MODIFIED="1498879554025" TEXT="total size of the RSets heavily depends on application behavior"/>
 <node CREATED="1498879555550" ID="ID_398440013" MODIFIED="1498879621127" TEXT="at the low/high end, RSet overhead is around 1%/20% of the heap size"/>
 </node>
+<node CREATED="1498887826667" ID="ID_1525644403" MODIFIED="1498887834771" TEXT="early reclaim">
+<node CREATED="1498887749872" ID="ID_1864368900" MODIFIED="1498887837253" TEXT="G1 can reclaim old generation regions early when the marking phase shows that they contains no live objects"/>
+</node>
+<node CREATED="1498887957055" ID="ID_1003190221" MODIFIED="1498887963381" TEXT="burst">
+<node CREATED="1498887964363" ID="ID_778708317" MODIFIED="1498887986658" TEXT="marking threads do their work in bursts"/>
+</node>
 <node CREATED="1498886440327" ID="ID_1754266427" MODIFIED="1498886696977" TEXT="-XX:+InitiatingHeapOccupancyPercent">
 <node CREATED="1498886702538" ID="ID_1117791541" MODIFIED="1498886715455" TEXT="45 default"/>
+</node>
+<node CREATED="1498888006599" ID="ID_1636580529" MODIFIED="1498888014358" TEXT="Humongous Objects">
+<node CREATED="1498888016028" ID="ID_334669155" MODIFIED="1498888074350" TEXT="+50% region size"/>
 </node>
 </node>
 </node>
