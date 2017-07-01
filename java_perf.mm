@@ -111,7 +111,7 @@
 <node CREATED="1498760839328" ID="ID_44379189" MODIFIED="1498760841033" TEXT="old gc">
 <node CREATED="1498760841842" ID="ID_601016374" MODIFIED="1498760977424" TEXT="subset of the old generation regions may be collected at any one time"/>
 </node>
-<node CREATED="1498755860545" ID="ID_1627347939" MODIFIED="1498760940582" TEXT="mixed GC">
+<node CREATED="1498755860545" ID="ID_1627347939" MODIFIED="1498875261976" TEXT="mixed GC">
 <node CREATED="1498760987125" ID="ID_1034708271" MODIFIED="1498761017634" TEXT="the subsets of old generation regions is collected in conjunction with young gc"/>
 </node>
 </node>
