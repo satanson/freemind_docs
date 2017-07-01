@@ -95,7 +95,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1498755774712" ID="ID_941458214" MODIFIED="1498756421561" TEXT="G1">
+<node CREATED="1498755774712" ID="ID_941458214" MODIFIED="1498876808731" TEXT="G1">
 <node CREATED="1498756004772" ID="ID_574381744" MODIFIED="1498760363941" TEXT="Garbage First GC"/>
 <node CREATED="1498760370469" ID="ID_601740491" MODIFIED="1498760418256" TEXT="distinct from {Serial, Parallel, ConcurrentMarkSweep}GC">
 <node CREATED="1498760421872" ID="ID_1829159152" MODIFIED="1498760460681" TEXT="must scan the entire old generation"/>
@@ -110,6 +110,14 @@
 </node>
 <node CREATED="1498760839328" ID="ID_44379189" MODIFIED="1498760841033" TEXT="old gc">
 <node CREATED="1498760841842" ID="ID_601016374" MODIFIED="1498760977424" TEXT="subset of the old generation regions may be collected at any one time"/>
+<node CREATED="1498876893755" ID="ID_1350088294" MODIFIED="1498876924033" TEXT="fail-safe to collect/compact the entire old generation">
+<node CREATED="1498876927904" ID="ID_757048551" MODIFIED="1498876947305" TEXT="in dire duration such as when old generation space is exhausted"/>
+</node>
+<node CREATED="1498876985513" ID="ID_1395541992" MODIFIED="1498877024155" TEXT="initiate old gc when a Java heap occupancy threshold is exceeds"/>
+<node CREATED="1498877030660" ID="ID_1686675369" MODIFIED="1498877120002" TEXT="heap occupancy threshold ">
+<node CREATED="1498877121239" ID="ID_548810935" MODIFIED="1498877136832" TEXT="in G1:  old generation occupancy / entire Java heap"/>
+<node CREATED="1498877125768" ID="ID_39496739" MODIFIED="1498877152528" TEXT="in CMS: old generation occupancy"/>
+</node>
 </node>
 <node CREATED="1498755860545" ID="ID_1627347939" MODIFIED="1498875261976" TEXT="mixed GC">
 <node CREATED="1498760987125" ID="ID_1034708271" MODIFIED="1498761017634" TEXT="the subsets of old generation regions is collected in conjunction with young gc"/>
