@@ -239,7 +239,7 @@
 <node CREATED="1498889159127" ID="ID_1592293389" MODIFIED="1498889189229" TEXT="single-threaded, may be introduce exceptionally long pause times"/>
 <node CREATED="1498889190486" ID="ID_1386454096" MODIFIED="1498889216859" TEXT="tune G1 such that a full GC is not needed"/>
 </node>
-<node CREATED="1498889218839" ID="ID_1798530121" MODIFIED="1498889222616" TEXT="Concurrent Cycle">
+<node CREATED="1498889218839" ID="ID_1798530121" MODIFIED="1498915815431" TEXT="Concurrent Cycle">
 <node CREATED="1498889256234" ID="ID_1588849320" MODIFIED="1498889283997" TEXT="1. initial mark">
 <node CREATED="1498889874271" ID="ID_1408647360" MODIFIED="1498890133898" TEXT="gather all GC roots">
 <node CREATED="1498890136086" ID="ID_350836654" MODIFIED="1498890147660" TEXT="starting points of the object graphs"/>
@@ -257,7 +257,15 @@
 <node CREATED="1498889305916" ID="ID_1850154817" MODIFIED="1498889309762" TEXT="4. remark">
 <node CREATED="1498915552221" ID="ID_346686689" MODIFIED="1498915557349" TEXT="stop-the-world"/>
 </node>
-<node CREATED="1498889309999" ID="ID_1602552064" MODIFIED="1498889313122" TEXT="5. cleanup"/>
+<node CREATED="1498889309999" ID="ID_1602552064" MODIFIED="1498889313122" TEXT="5. cleanup">
+<node CREATED="1498915595204" ID="ID_704418294" MODIFIED="1498915717511" TEXT="reclaim regions that contains  no live objects"/>
+</node>
+</node>
+<node CREATED="1498915816979" ID="ID_1495232676" MODIFIED="1498915823668" TEXT="Heap Sizing">
+<node CREATED="1498915825207" ID="ID_1921035217" MODIFIED="1498915856956" TEXT="Java heap size in G1 is always a multiple of the region size"/>
+<node CREATED="1498915864223" ID="ID_111574191" MODIFIED="1498915890080" TEXT="grow and shrink the heap size dynamically between -Xms and -Xmx">
+<node CREATED="1498915928384" ID="ID_762853617" MODIFIED="1498915962398" TEXT="increase in size can occur based on heap size calculations during a full GC"/>
+</node>
 </node>
 </node>
 </node>
