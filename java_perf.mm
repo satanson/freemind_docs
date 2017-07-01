@@ -245,6 +245,7 @@
 <node CREATED="1498890136086" ID="ID_350836654" MODIFIED="1498890147660" TEXT="starting points of the object graphs"/>
 </node>
 <node CREATED="1498890172577" ID="ID_1754193757" MODIFIED="1498890179182" TEXT="stop-the-world"/>
+<node CREATED="1498890242780" ID="ID_185444729" MODIFIED="1498890266508" TEXT="in G1, initial marking is done as part of a young GC pause"/>
 </node>
 <node CREATED="1498889284440" ID="ID_1422107129" MODIFIED="1498889321624" TEXT="2. concurrent root region scan"/>
 <node CREATED="1498889300247" ID="ID_1135664274" MODIFIED="1498889305662" TEXT="3. concurrent mark"/>
