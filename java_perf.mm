@@ -57,7 +57,7 @@
 <node CREATED="1498758252665" ID="ID_1600882155" MODIFIED="1498758277911" TEXT="compact the old generation space"/>
 </node>
 </node>
-<node CREATED="1498755749738" FOLDED="true" ID="ID_1326261160" MODIFIED="1498878836776" TEXT="ConcurrentMarkSweepGC">
+<node CREATED="1498755749738" FOLDED="true" ID="ID_1326261160" MODIFIED="1498885480421" TEXT="ConcurrentMarkSweepGC">
 <node CREATED="1498756098960" ID="ID_1338266628" MODIFIED="1498756100326" TEXT="since 2002 JDK1.4.2"/>
 <node CREATED="1498756199966" ID="ID_826387148" MODIFIED="1498756202928" TEXT="workload">
 <node CREATED="1498756205658" ID="ID_117850225" MODIFIED="1498756241001" TEXT="minimize GC-related pause times"/>
@@ -184,7 +184,7 @@
 <node CREATED="1498879277171" ID="ID_1217306726" MODIFIED="1498879304627" TEXT="in some situations: more/less than 2000 regions"/>
 </node>
 <node CREATED="1498879664147" ID="ID_910164013" MODIFIED="1498879757156" TEXT="a particular region is used for only one purpose at a time, but when the region is included in a collection, it will be completely evacuated and released as an available region."/>
-<node CREATED="1498879799945" FOLDED="true" ID="ID_1114797397" MODIFIED="1498880079491" TEXT="types of regions">
+<node CREATED="1498879799945" ID="ID_1114797397" MODIFIED="1498884872606" TEXT="types of regions">
 <node CREATED="1498879806484" ID="ID_1057105145" MODIFIED="1498879818203" TEXT="available regions"/>
 <node CREATED="1498879826776" ID="ID_1344939005" MODIFIED="1498879831519" TEXT="eden regions"/>
 <node CREATED="1498879831757" ID="ID_294881771" MODIFIED="1498879842646" TEXT="survivor regions"/>
@@ -205,6 +205,9 @@
 <node CREATED="1498879403822" ID="ID_1436918570" MODIFIED="1498879496495" TEXT="the number of regions has a direct effect on HotSpot&apos;s memory footprint."/>
 <node CREATED="1498879509213" ID="ID_1614827973" MODIFIED="1498879554025" TEXT="total size of the RSets heavily depends on application behavior"/>
 <node CREATED="1498879555550" ID="ID_398440013" MODIFIED="1498879621127" TEXT="at the low/high end, RSet overhead is around 1%/20% of the heap size"/>
+</node>
+<node CREATED="1498886440327" ID="ID_1754266427" MODIFIED="1498886696977" TEXT="-XX:+InitiatingHeapOccupancyPercent">
+<node CREATED="1498886702538" ID="ID_1117791541" MODIFIED="1498886715455" TEXT="45 default"/>
 </node>
 </node>
 </node>
