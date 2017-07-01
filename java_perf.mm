@@ -140,8 +140,16 @@
 <node CREATED="1498877574066" ID="ID_738485021" MODIFIED="1498877586231" TEXT="G1 pause time target"/>
 </node>
 </node>
-<node CREATED="1498877515847" ID="ID_55237967" MODIFIED="1498877881299" TEXT="per-region gc">
-<node CREATED="1498877883199" ID="ID_1034388858" MODIFIED="1498877988046" TEXT="every region that is garbage collected has its live objects evacuated to an available regions"/>
+<node CREATED="1498877515847" ID="ID_55237967" MODIFIED="1498878297601" TEXT="per-region gc">
+<node CREATED="1498877883199" ID="ID_1034388858" MODIFIED="1498877988046" TEXT="every region that is garbage collected has its live objects evacuated to an available regions">
+<node CREATED="1498878007910" ID="ID_1289237079" MODIFIED="1498878047701" TEXT="regardless of whether it is young or old generations"/>
+</node>
+<node CREATED="1498878067557" ID="ID_1458158814" MODIFIED="1498878194303" TEXT="evacuate live objects from a old region to a available region in consecutive address space."/>
+<node CREATED="1498878198365" ID="ID_1489542995" MODIFIED="1498878223178" TEXT="no fragmented empty space between objects."/>
+<node CREATED="1498878231888" ID="ID_611295051" MODIFIED="1498878246833" TEXT="partial compaction of old generation"/>
+</node>
+<node CREATED="1498878297842" ID="ID_1973202641" MODIFIED="1498878307730" TEXT="design goals of G1">
+<node CREATED="1498878308474" ID="ID_1124166027" MODIFIED="1498878331452" TEXT="allow the user to set a GC pause time goal"/>
 </node>
 </node>
 </node>
