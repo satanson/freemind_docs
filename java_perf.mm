@@ -263,8 +263,16 @@
 </node>
 <node CREATED="1498915816979" ID="ID_1495232676" MODIFIED="1498915823668" TEXT="Heap Sizing">
 <node CREATED="1498915825207" ID="ID_1921035217" MODIFIED="1498915856956" TEXT="Java heap size in G1 is always a multiple of the region size"/>
-<node CREATED="1498915864223" ID="ID_111574191" MODIFIED="1498915890080" TEXT="grow and shrink the heap size dynamically between -Xms and -Xmx">
-<node CREATED="1498915928384" ID="ID_762853617" MODIFIED="1498915962398" TEXT="increase in size can occur based on heap size calculations during a full GC"/>
+<node CREATED="1498915864223" ID="ID_111574191" MODIFIED="1498915890080" TEXT="grow and shrink the heap size dynamically between -Xms and -Xmx"/>
+<node CREATED="1498916154235" ID="ID_1488273150" MODIFIED="1498916161183" TEXT="grow">
+<node CREATED="1498915928384" ID="ID_762853617" MODIFIED="1498916165492" TEXT="increase in size can occur based on heap size calculations during a full GC"/>
+<node CREATED="1498915964434" ID="ID_1533658060" MODIFIED="1498916226515" TEXT="spend too much time in GC according to -XX:GCTimeRatio">
+<node CREATED="1498916228745" ID="ID_289130818" MODIFIED="1498916263248" TEXT="in G1, 9 default"/>
+<node CREATED="1498916263509" ID="ID_402120241" MODIFIED="1498916273218" TEXT="in other GC, 99"/>
+</node>
+<node CREATED="1498916282902" ID="ID_322008920" MODIFIED="1498916307042" TEXT="object allocation fails, even after having done a GC"/>
+<node CREATED="1498916307337" ID="ID_37622989" MODIFIED="1498916346896" TEXT="humongous object allocation fails to find enough consecutive free regions to allocate object"/>
+<node CREATED="1498916348881" ID="ID_646548985" MODIFIED="1498916392455" TEXT="GC requests a new region into which to evacuate live objects"/>
 </node>
 </node>
 </node>
