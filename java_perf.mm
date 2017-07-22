@@ -283,6 +283,7 @@
 <node CREATED="1500729584065" ID="ID_1163836698" MODIFIED="1500729622189" TEXT="JVMS, 2nd edition"/>
 </node>
 <node CREATED="1500729641413" ID="ID_1319274056" MODIFIED="1500729696024" TEXT="Loading/Linking/Initializing"/>
+<node CREATED="1500730122194" ID="ID_1630035466" MODIFIED="1500730165773" TEXT="resolving constant pool symbols"/>
 </node>
 </node>
 </map>
