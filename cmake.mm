@@ -44,6 +44,53 @@
 <node CREATED="1504976291950" ID="ID_1296284028" MODIFIED="1504976315563" TEXT="-L -l"/>
 </node>
 </node>
+<node CREATED="1504977201073" ID="ID_483506421" MODIFIED="1504977285230" TEXT="test">
+<node CREATED="1504977237232" ID="ID_725038747" MODIFIED="1504977266496">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-size: 11px; vertical-align: baseline; font-family: Courier New, monospace; color: rgb(0, 0, 0); font-style: normal; font-weight: 500; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px"><font face="SansSerif">include(CTest)
+
+# does the application run
+add_test (TutorialRuns Tutorial 25)<br face="SansSerif" />
+# does it sqrt of 25
+add_test (TutorialComp25 Tutorial 25)<br face="SansSerif" />set_tests_properties (TutorialComp25 PROPERTIES PASS_REGULAR_EXPRESSION &quot;25 is 5&quot;)<br face="SansSerif" />
+# does it handle negative numbers
+add_test (TutorialNegative Tutorial -25)
+set_tests_properties (TutorialNegative PROPERTIES PASS_REGULAR_EXPRESSION &quot;-25 is 0&quot;)<br face="SansSerif" />
+# does it handle small numbers
+add_test (TutorialSmall Tutorial 0.0001)
+set_tests_properties (TutorialSmall PROPERTIES PASS_REGULAR_EXPRESSION &quot;0.0001 is 0.01&quot;)<br face="SansSerif" />
+# does the usage message work?<br face="SansSerif" />add_test (TutorialUsage Tutorial)
+set_tests_properties (TutorialUsage PROPERTIES PASS_REGULAR_EXPRESSION &quot;Usage:.*number&quot;)</font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1504977286697" ID="ID_297959971" MODIFIED="1504977291317">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; font-size: 11px; vertical-align: baseline; font-family: Courier New, monospace; color: rgb(0, 0, 0); font-style: normal; font-weight: 500; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px">#define a macro to simplify adding tests, then use it
+macro (do_test arg result)
+  add_test (TutorialComp${arg} Tutorial ${arg})
+  set_tests_properties (TutorialComp${arg}
+    PROPERTIES PASS_REGULAR_EXPRESSION ${result})
+endmacro (do_test)
+ 
+# do a bunch of result based tests
+do_test (25 &quot;25 is 5&quot;)
+do_test (-25 &quot;-25 is 0&quot;)</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1504977291904" ID="ID_1390776028" MODIFIED="1504977293982" TEXT="ctest"/>
+</node>
 <node CREATED="1504976550309" ID="ID_1873559727" MODIFIED="1504976557913" TEXT="install (TARGETS MathFunctions DESTINATION bin) "/>
 <node CREATED="1504976559458" ID="ID_692453276" MODIFIED="1504976560356" TEXT="install (FILES MathFunctions.h DESTINATION include)"/>
 <node CREATED="1504976603588" ID="ID_114575456" MODIFIED="1504976604403" TEXT=" CMAKE_INSTALL_PREFIX"/>
