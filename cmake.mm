@@ -23,7 +23,7 @@
 <node CREATED="1504975424678" ID="ID_186176071" MODIFIED="1504975451924" TEXT="option (USE_MYMATH &quot;Use tutorial provided math implementation&quot; ON)"/>
 <node CREATED="1504975452628" ID="ID_924860135" MODIFIED="1504975471696" TEXT="if (OPTION) ... endif(OPTION)"/>
 </node>
-<node CREATED="1504971953066" ID="ID_911840648" MODIFIED="1504971953615" POSITION="right" TEXT="cmd">
+<node CREATED="1504971953066" FOLDED="true" ID="ID_911840648" MODIFIED="1505460763899" POSITION="right" TEXT="cmd">
 <node CREATED="1504972024059" ID="ID_591390883" MODIFIED="1504972025517" TEXT="cmake_minimum_required(VERSION 2.8)"/>
 <node CREATED="1504973236889" ID="ID_1267079264" MODIFIED="1504973253693" TEXT="configure_file(config.h.in config.h)"/>
 <node CREATED="1504972611545" ID="ID_972894557" MODIFIED="1504976183321" TEXT="include_directories(&quot;${PROJECT_SOURCE_DIR}&quot;)"/>
@@ -66,8 +66,7 @@ set_tests_properties (TutorialSmall PROPERTIES PASS_REGULAR_EXPRESSION &quot;0.0
 # does the usage message work?<br face="SansSerif" />add_test (TutorialUsage Tutorial)
 set_tests_properties (TutorialUsage PROPERTIES PASS_REGULAR_EXPRESSION &quot;Usage:.*number&quot;)</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1504977286697" ID="ID_297959971" MODIFIED="1504977291317">
 <richcontent TYPE="NODE"><html>
@@ -86,8 +85,7 @@ endmacro (do_test)
 do_test (25 &quot;25 is 5&quot;)
 do_test (-25 &quot;-25 is 0&quot;)</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1504977291904" ID="ID_1390776028" MODIFIED="1504977293982" TEXT="ctest"/>
 </node>
@@ -96,10 +94,23 @@ do_test (-25 &quot;-25 is 0&quot;)</pre>
 <node CREATED="1504976603588" ID="ID_114575456" MODIFIED="1504976604403" TEXT=" CMAKE_INSTALL_PREFIX"/>
 </node>
 <node CREATED="1504971982804" ID="ID_1355851558" MODIFIED="1504972001730" POSITION="right" TEXT="macro"/>
-<node CREATED="1504972658300" ID="ID_578732696" MODIFIED="1504972661362" POSITION="right" TEXT="cmdline">
+<node CREATED="1504972658300" ID="ID_578732696" MODIFIED="1505460775469" POSITION="right" TEXT="cmdline">
 <node CREATED="1504972662255" ID="ID_1583901373" MODIFIED="1504972663046" TEXT="cmake -H. -Bbuild"/>
 <node CREATED="1504972673481" ID="ID_1456837194" MODIFIED="1504972674181" TEXT="cmake --build build -- -j3"/>
 <node CREATED="1504976334032" ID="ID_1255707269" MODIFIED="1504976334782" TEXT="find . -iwholename &apos;*cmake*&apos; -not -name CMakeLists.txt -delete"/>
 </node>
+<node CREATED="1505460771574" ID="ID_1714108607" MODIFIED="1505460791713" POSITION="right" TEXT="cmake -P script.cmake"/>
+<node CREATED="1505460878025" ID="ID_160394708" MODIFIED="1505460913678" POSITION="right" TEXT="if()-elseif()-else()-endif()">
+<node CREATED="1505460914502" ID="ID_463524616" MODIFIED="1505460927593" TEXT="NOT, AND, OR, DEFINED">
+<node CREATED="1505460928446" ID="ID_1375805581" MODIFIED="1505460933111" TEXT="ak. perl"/>
+</node>
+</node>
+<node CREATED="1505460772459" ID="ID_507341128" MODIFIED="1505460805184" POSITION="right" TEXT="CMAKE_MOUDLE_PATH">
+<node CREATED="1505460808402" ID="ID_1028579795" MODIFIED="1505460825348" TEXT="search path for cmake modules"/>
+</node>
+<node CREATED="1505460830677" ID="ID_1173116284" MODIFIED="1505460838632" POSITION="right" TEXT="CMAKE_SOURCE_DIR">
+<node CREATED="1505460839540" ID="ID_1594007321" MODIFIED="1505460862872" TEXT="root directory of source tree"/>
+</node>
+<node CREATED="1505460865353" ID="ID_806852478" MODIFIED="1505460869444" POSITION="right" TEXT="CMAKE_BUILD_TYPE"/>
 </node>
 </map>
