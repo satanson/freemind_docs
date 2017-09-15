@@ -122,5 +122,8 @@ do_test (-25 &quot;-25 is 0&quot;)</pre>
 <node CREATED="1505461064169" ID="ID_1833211430" MODIFIED="1505461064169" TEXT=""/>
 </node>
 </node>
+<node CREATED="1505464847273" ID="ID_1360282834" MODIFIED="1505464848293" POSITION="right" TEXT="debug">
+<node CREATED="1505464846241" ID="ID_1769116410" MODIFIED="1505464849045" TEXT="cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS_DEBUG=&quot;-g -O0 -rdynamic -fno-inline&quot;"/>
+</node>
 </node>
 </map>
