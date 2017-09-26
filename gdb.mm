@@ -97,13 +97,13 @@
 <node CREATED="1341559630303" ID="ID_484619755" MODIFIED="1341561246429" TEXT="Looking for Symbols in Shared Objects">
 <node CREATED="1341561570676" ID="ID_760186642" MODIFIED="1341561574193" TEXT="binutils">
 <node CREATED="1341559634109" ID="ID_894533188" MODIFIED="1341561577810" TEXT="nm">
-<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 </node>
 <node CREATED="1341559636057" ID="ID_537516474" MODIFIED="1341561258902" TEXT="objdump">
-<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 </node>
 <node CREATED="1341559640677" ID="ID_651167700" MODIFIED="1341561259629" TEXT="readelf">
-<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 </node>
 </node>
 <node CREATED="1341561249979" FOLDED="true" ID="ID_272126362" MODIFIED="1341561680722" TEXT="find SONAME">
@@ -675,8 +675,8 @@
 <node CREATED="1341542356556" ID="ID_1585483027" MODIFIED="1341542358236" TEXT="try to support the features of popular Unix variants (including BSD and System V) when those do not conflict with the standards"/>
 <node CREATED="1341542404782" ID="ID_174826058" MODIFIED="1341542407365" TEXT="internationalized and has one of the most complete internationalization interfaces known"/>
 </node>
-<node CREATED="1342491538372" FOLDED="true" ID="ID_937411553" MODIFIED="1482119834148" POSITION="right" TEXT="gdb in action">
-<font BOLD="true" NAME="Microsoft YaHei" SIZE="16"/>
+<node CREATED="1342491538372" ID="ID_937411553" MODIFIED="1506402950951" POSITION="right" TEXT="gdb in action">
+<font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1342492210013" ID="ID_558162991" MODIFIED="1439732574190" TEXT="loading program">
 <node CREATED="1342492259093" ID="ID_1991729814" MODIFIED="1342492277875" TEXT="file">
 <node CREATED="1342492553105" ID="ID_825732476" MODIFIED="1342492589967" TEXT="gdb -q "/>
@@ -950,7 +950,7 @@
 </node>
 <node CREATED="1342532613686" FOLDED="true" ID="ID_84224475" MODIFIED="1376969830785" TEXT="thbreak">
 <node CREATED="1342532663678" ID="ID_1435114221" MODIFIED="1342533235111" TEXT="set a hardware-assisted breakpoint.">
-<font NAME="Microsoft YaHei" SIZE="16"/>
+<font NAME="Dialog" SIZE="16"/>
 <node CREATED="1342532715256" ID="ID_1543098368" MODIFIED="1342532717548" TEXT="This can be used with the new trap-generation provided by SPARClite DSU and most x86-based targets. These targets will generate traps when a program accesses some data or instruction address that is assigned to the debug registers."/>
 <node CREATED="1342532751339" ID="ID_198243191" MODIFIED="1342532752631" TEXT="hardware breakpoint registers can take a limited number of breakpoints"/>
 </node>
@@ -960,20 +960,20 @@
 </node>
 <node CREATED="1342532794169" FOLDED="true" ID="ID_1202608051" MODIFIED="1376969829816" TEXT="info break[points] n">
 <node CREATED="1342532929699" ID="ID_92894808" MODIFIED="1342532943071" TEXT="Breakpoint Numbers">
-<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
 <node CREATED="1342532944389" ID="ID_28319030" MODIFIED="1342533238201" TEXT="Type">
-<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1342532954519" ID="ID_1772195377" MODIFIED="1342532963751" TEXT="breakpoint"/>
 <node CREATED="1342532963999" ID="ID_872275191" MODIFIED="1342532967001" TEXT="watchpoint"/>
 <node CREATED="1342532967209" ID="ID_1856744190" MODIFIED="1342532970251" TEXT="catchpoint"/>
 </node>
 <node CREATED="1342533080979" ID="ID_1121980637" MODIFIED="1342533239341" TEXT="Disposition">
-<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1342533089109" ID="ID_920675579" MODIFIED="1342533121221" TEXT="disabled or deleted when hit"/>
 </node>
 <node CREATED="1342532971879" FOLDED="true" ID="ID_1647647302" MODIFIED="1342533240171" TEXT="Enabled or Disabled">
-<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1342532996439" ID="ID_741614467" MODIFIED="1342533001771" TEXT="y">
 <node CREATED="1342533009489" ID="ID_1725089560" MODIFIED="1342533013231" TEXT="enabled"/>
 </node>
@@ -982,12 +982,12 @@
 </node>
 </node>
 <node CREATED="1342533140579" ID="ID_487939559" MODIFIED="1342533240961" TEXT="Address">
-<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font ITALIC="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1342533144499" ID="ID_1016742794" MODIFIED="1342533172721" TEXT="&lt;PENDING&gt;"/>
 <node CREATED="1342533154619" ID="ID_1355760508" MODIFIED="1342533177041" TEXT="&lt;MULTIPLE&gt;"/>
 </node>
 <node CREATED="1342533195129" ID="ID_1675417473" MODIFIED="1342533241751" TEXT="What">
-<font ITALIC="true" NAME="Microsoft YaHei" SIZE="16"/>
+<font ITALIC="true" NAME="Dialog" SIZE="16"/>
 </node>
 </node>
 <node CREATED="1342533751011" ID="ID_1405018320" MODIFIED="1342533753403" TEXT="enable"/>
