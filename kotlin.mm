@@ -83,7 +83,7 @@
 <node CREATED="1509095637916" ID="ID_907162623" MODIFIED="1509095637916" TEXT="Elvis Operator"/>
 </node>
 </node>
-<node CREATED="1509094162147" ID="ID_501290035" MODIFIED="1509193769723" POSITION="right" TEXT="algebraic datatype and pattern match">
+<node CREATED="1509094162147" ID="ID_501290035" MODIFIED="1509194344302" POSITION="right" TEXT="algebraic datatype and pattern match">
 <node CREATED="1509192606593" ID="ID_109210955" MODIFIED="1509192621414" TEXT="sealed class">
 <node CREATED="1509192682057" ID="ID_546785700" MODIFIED="1509192708496" TEXT="class constructor in haskell"/>
 </node>
@@ -94,7 +94,7 @@
 <node CREATED="1509192719911" ID="ID_1460319299" MODIFIED="1509192741700" TEXT="data constructor with components"/>
 </node>
 <node CREATED="1509192751745" ID="ID_780379851" MODIFIED="1509192760465" TEXT="when(){-&gt;}"/>
-<node CREATED="1509193819266" FOLDED="true" ID="ID_1703510650" MODIFIED="1509193830806" TEXT="demo">
+<node CREATED="1509193819266" FOLDED="true" ID="ID_1703510650" MODIFIED="1509194292735" TEXT="demo">
 <node CREATED="1509192762014" ID="ID_426128284" MODIFIED="1509193762735">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -106,6 +106,12 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1509194124821" FOLDED="true" ID="ID_1158717791" MODIFIED="1509194295568" TEXT="when is not pattern match, because it not supports type decomposition and variable binding">
+<node CREATED="1509194248104" ID="ID_1975207899" MODIFIED="1509194278533" TEXT="in Kotlin, jargon destructuring means decomposition"/>
+</node>
+</node>
+<node CREATED="1509194332933" ID="ID_124226054" MODIFIED="1509194341832" POSITION="right" TEXT="generic programming">
+<node CREATED="1509194347237" ID="ID_343882101" MODIFIED="1509194347237" TEXT=""/>
 </node>
 </node>
 </map>
