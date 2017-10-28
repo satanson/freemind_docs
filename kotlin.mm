@@ -94,6 +94,7 @@
 <node CREATED="1509192719911" ID="ID_1460319299" MODIFIED="1509192741700" TEXT="data constructor with components"/>
 </node>
 <node CREATED="1509192751745" ID="ID_780379851" MODIFIED="1509192760465" TEXT="when(){-&gt;}"/>
+<node CREATED="1509193819266" FOLDED="true" ID="ID_1703510650" MODIFIED="1509193830806" TEXT="demo">
 <node CREATED="1509192762014" ID="ID_426128284" MODIFIED="1509193762735">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -102,8 +103,8 @@
   <body>
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 18.0pt">    <font color="#cc7832">fun </font>&lt;<font color="#20999d">T</font>&gt; <font color="#ffc66d">maybeToNullable</font>(a :Maybe&lt;<font color="#20999d">T</font>&gt;):<font color="#20999d">T</font>? = <font color="#cc7832">when</font>(a){<br />        <font color="#cc7832">is </font>Just&lt;<font color="#20999d">T</font>&gt; -&gt; a.<font color="#9876aa">v<br />        </font><font color="#cc7832">is </font>Nothing -&gt; <font color="#cc7832">null<br />    </font>}<br /><br />    <font color="#cc7832">@Test<br />    fun </font><font color="#ffc66d">testMaybe</font>(){<br />        <font color="#cc7832">val </font>a=maybeToNullable(Just(<font color="#6897bb">10</font>))<br />        <font color="#cc7832">val </font>b=maybeToNullable(Nothing)<br />        assertEquals(a<font color="#cc7832">, </font><font color="#6897bb">10</font>)<br />        assertEquals(b<font color="#cc7832">, null</font>)<br />    }<br />}<br /><br /><font color="#cc7832">sealed class </font>Maybe&lt;<font color="#20999d">T</font>&gt;<br /><font color="#cc7832">data class </font>Just&lt;<font color="#20999d">T</font>&gt;(<font color="#cc7832">val </font><font color="#9876aa">v</font>:<font color="#20999d">T</font>):Maybe&lt;<font color="#20999d">T</font>&gt;()<br /><font color="#cc7832">object </font>Nothing: Maybe&lt;Any&gt;()</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
