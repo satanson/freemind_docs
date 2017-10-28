@@ -83,17 +83,28 @@
 <node CREATED="1509095637916" ID="ID_907162623" MODIFIED="1509095637916" TEXT="Elvis Operator"/>
 </node>
 </node>
-<node CREATED="1509094162147" ID="ID_501290035" MODIFIED="1509192604263" POSITION="right" TEXT="algebraic datatype and pattern match">
+<node CREATED="1509094162147" ID="ID_501290035" MODIFIED="1509193769723" POSITION="right" TEXT="algebraic datatype and pattern match">
 <node CREATED="1509192606593" ID="ID_109210955" MODIFIED="1509192621414" TEXT="sealed class">
 <node CREATED="1509192682057" ID="ID_546785700" MODIFIED="1509192708496" TEXT="class constructor in haskell"/>
 </node>
-<node CREATED="1509192650059" ID="ID_1282487015" MODIFIED="1509192657153" TEXT="final data class">
+<node CREATED="1509192650059" ID="ID_1282487015" MODIFIED="1509193723969" TEXT="data class">
 <node CREATED="1509192695727" ID="ID_869368654" MODIFIED="1509192715485" TEXT="data constructor in haskell"/>
 </node>
 <node CREATED="1509192657480" ID="ID_46039511" MODIFIED="1509192661655" TEXT="object">
 <node CREATED="1509192719911" ID="ID_1460319299" MODIFIED="1509192741700" TEXT="data constructor with components"/>
 </node>
 <node CREATED="1509192751745" ID="ID_780379851" MODIFIED="1509192760465" TEXT="when(){-&gt;}"/>
+<node CREATED="1509192762014" ID="ID_426128284" MODIFIED="1509193762735">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 18.0pt">    <font color="#cc7832">fun </font>&lt;<font color="#20999d">T</font>&gt; <font color="#ffc66d">maybeToNullable</font>(a :Maybe&lt;<font color="#20999d">T</font>&gt;):<font color="#20999d">T</font>? = <font color="#cc7832">when</font>(a){<br />        <font color="#cc7832">is </font>Just&lt;<font color="#20999d">T</font>&gt; -&gt; a.<font color="#9876aa">v<br />        </font><font color="#cc7832">is </font>Nothing -&gt; <font color="#cc7832">null<br />    </font>}<br /><br />    <font color="#cc7832">@Test<br />    fun </font><font color="#ffc66d">testMaybe</font>(){<br />        <font color="#cc7832">val </font>a=maybeToNullable(Just(<font color="#6897bb">10</font>))<br />        <font color="#cc7832">val </font>b=maybeToNullable(Nothing)<br />        assertEquals(a<font color="#cc7832">, </font><font color="#6897bb">10</font>)<br />        assertEquals(b<font color="#cc7832">, null</font>)<br />    }<br />}<br /><br /><font color="#cc7832">sealed class </font>Maybe&lt;<font color="#20999d">T</font>&gt;<br /><font color="#cc7832">data class </font>Just&lt;<font color="#20999d">T</font>&gt;(<font color="#cc7832">val </font><font color="#9876aa">v</font>:<font color="#20999d">T</font>):Maybe&lt;<font color="#20999d">T</font>&gt;()<br /><font color="#cc7832">object </font>Nothing: Maybe&lt;Any&gt;()</pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
