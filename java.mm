@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1344928688194" ID="ID_469395458" MODIFIED="1457405469913" TEXT="java">
-<node CREATED="1312185565053" FOLDED="true" ID="ID_35294482" MODIFIED="1471491442478" POSITION="right" TEXT="java language basic">
+<node CREATED="1312185565053" ID="ID_35294482" MODIFIED="1509194449795" POSITION="right" TEXT="java language basic">
 <node CREATED="1345106669823" ID="ID_1251747125" MODIFIED="1388469228554" TEXT="type">
 <node CREATED="1312185600845" ID="ID_16075161" MODIFIED="1368930560012" TEXT="primitive types">
 <node CREATED="1312185623114" ID="ID_1450697019" MODIFIED="1312185642665" TEXT="byte"/>
@@ -621,7 +621,7 @@
 <node CREATED="1344959111573" ID="ID_172593929" MODIFIED="1344959155177" TEXT="ClassName&lt;Integer&gt; intobj = new ClassName&lt;Integer&gt;(...)"/>
 </node>
 </node>
-<node CREATED="1345083843519" FOLDED="true" ID="ID_82476767" MODIFIED="1345085433103" TEXT="generic method">
+<node CREATED="1345083843519" ID="ID_82476767" MODIFIED="1509194663522" TEXT="generic method">
 <node CREATED="1345083859888" ID="ID_1987882782" MODIFIED="1345083912091" TEXT="definition">
 <node CREATED="1345083888600" ID="ID_1165801600" MODIFIED="1345083888600">
 <richcontent TYPE="NODE"><html>&#13;&#13;
@@ -640,8 +640,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1345083913033" ID="ID_1483245486" MODIFIED="1345083918528" TEXT="invocation">
-<node CREATED="1345083934577" ID="ID_1645009380" MODIFIED="1345083934577">
+<node CREATED="1345083913033" ID="ID_1483245486" MODIFIED="1509194822710" TEXT="invocation">
+<node CREATED="1345083934577" ID="ID_1645009380" MODIFIED="1509194868650">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
     &#13;&#13;
@@ -652,10 +652,11 @@ Pair&lt;Integer, String&gt; p2 = new Pair&lt;&gt;(2, "pear");&#13;&#13;
 boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pre>&#13;&#13;
   </body>&#13;&#13;
 </html></richcontent>
+<font NAME="Nimbus Roman" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1344958497215" FOLDED="true" ID="ID_1882822317" MODIFIED="1344958707604" TEXT="Type Parameter Naming Conventions">
+<node CREATED="1344958497215" FOLDED="true" ID="ID_1882822317" MODIFIED="1509194886364" TEXT="Type Parameter Naming Conventions">
 <node CREATED="1344958533229" ID="ID_545719924" MODIFIED="1344958533229">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
