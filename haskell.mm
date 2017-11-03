@@ -1,6 +1,6 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1389801469261" ID="ID_325617831" MODIFIED="1433839796608" TEXT="haskell">
+<node CREATED="1389801469261" ID="ID_325617831" MODIFIED="1509692504684" TEXT="haskell">
 <node CREATED="1413213863687" ID="ID_1771066476" MODIFIED="1460104284258" POSITION="right" TEXT="utilities(GHC, Glasgow Haskell Compiler)">
 <node CREATED="1413213895673" ID="ID_1548104498" MODIFIED="1413214026321" TEXT="ghc -- compiler"/>
 <node CREATED="1389803995001" ID="ID_851180267" MODIFIED="1413433306459" TEXT="ghci -- ghci interactive">
@@ -123,7 +123,7 @@
       All our main function does is print a string:
     </p>
     <p>
-      &gt; main = putStrLn &quot;Hello World&quot;
+      &gt; main = putStrLn "Hello World"
     </p>
   </body>
 </html></richcontent>
@@ -158,7 +158,7 @@
       \begin{code}
     </p>
     <p>
-      main = putStrLn &quot;Hello World&quot;
+      main = putStrLn "Hello World"
     </p>
     <p>
       \end{code}
@@ -568,14 +568,14 @@
 </node>
 <node CREATED="1395549414349" ID="ID_937559453" MODIFIED="1395549416215" TEXT="body"/>
 </node>
-<node CREATED="1396190782046" ID="ID_1388969726" MODIFIED="1460107932469" POSITION="right" TEXT="Monad [&apos;m&#x252;n&#xe6;d]">
+<node CREATED="1396190782046" ID="ID_1388969726" MODIFIED="1509692615887" POSITION="right" TEXT="Monad [&apos;m&#x252;n&#xe6;d]">
 <node CREATED="1396190790341" ID="ID_1627641602" MODIFIED="1397922125538" TEXT="class Monad m where">
 <node CREATED="1396190828456" ID="ID_334989448" MODIFIED="1396190828456" TEXT="return :: a -&gt; m a"/>
 <node CREATED="1396190828456" ID="ID_1514256593" MODIFIED="1396190828456" TEXT="fail :: String -&gt; m a"/>
 <node CREATED="1396190828456" ID="ID_1962436464" MODIFIED="1396190828456" TEXT="(&gt;&gt;=) :: m a -&gt; (a -&gt; m b) -&gt; m b"/>
 <node CREATED="1396190828457" ID="ID_810124585" MODIFIED="1396190828457" TEXT="(&gt;&gt;) :: m a -&gt; m b -&gt; m b"/>
 </node>
-<node CREATED="1396190918842" FOLDED="true" ID="ID_1665155386" MODIFIED="1460103365620" TEXT="do">
+<node CREATED="1396190918842" FOLDED="true" ID="ID_1665155386" MODIFIED="1509692601867" TEXT="do">
 <node CREATED="1396191358920" MODIFIED="1396191358920" TEXT="do {e} = e"/>
 <node CREATED="1396191358921" MODIFIED="1396191358921" TEXT="do {e;stmts} = e &gt;&gt; do {stmts}"/>
 <node CREATED="1396191358921" ID="ID_1801461232" MODIFIED="1396191389741" TEXT="do {p &lt;- e; stmts} = let ok p = do {stmts} ok _ = fail &quot;...&quot; in e &gt;&gt;= ok"/>
@@ -586,7 +586,7 @@
 <node CREATED="1396191512252" ID="ID_130464983" MODIFIED="1396191606586" TEXT="2. f &gt;&gt;= return &#x2261; f"/>
 <node CREATED="1396191512253" ID="ID_1570574495" MODIFIED="1397991044930" TEXT="3. f &gt;&gt;= (\x -&gt; g x &gt;&gt;= h) &#x2261; (f &gt;&gt;= g) &gt;&gt;= h"/>
 </node>
-<node CREATED="1393076511534" ID="ID_1288659070" MODIFIED="1460106908507" TEXT="I/O monad">
+<node CREATED="1393076511534" ID="ID_1288659070" MODIFIED="1509692564559" TEXT="I/O monad">
 <node CREATED="1393076520395" ID="ID_115504000" MODIFIED="1460106917681" TEXT="standard I/O">
 <node CREATED="1393076602271" ID="ID_97309699" MODIFIED="1393076604674" TEXT="Input">
 <node CREATED="1393076623730" MODIFIED="1393076623730" TEXT="getChar :: IO Char"/>
@@ -665,7 +665,7 @@
       randn g n | n&gt;0 = fst $ next g : randn (snd $ next g) (n-1)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;| otherwise = []
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;| otherwise = []
     </p>
   </body>
 </html></richcontent>
