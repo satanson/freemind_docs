@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1344928688194" ID="ID_469395458" MODIFIED="1457405469913" TEXT="java">
-<node CREATED="1312185565053" FOLDED="true" ID="ID_35294482" MODIFIED="1510024597040" POSITION="right" TEXT="java language basic">
+<node CREATED="1312185565053" ID="ID_35294482" MODIFIED="1510561950196" POSITION="right" TEXT="java language basic">
 <node CREATED="1345106669823" ID="ID_1251747125" MODIFIED="1388469228554" TEXT="type">
 <node CREATED="1312185600845" ID="ID_16075161" MODIFIED="1368930560012" TEXT="primitive types">
 <node CREATED="1312185623114" ID="ID_1450697019" MODIFIED="1312185642665" TEXT="byte"/>
