@@ -1,17 +1,17 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1389203101897" ID="ID_821312137" MODIFIED="1389405754164" TEXT="erlang">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389282247994" ID="ID_1299819596" MODIFIED="1389411933262" POSITION="right" TEXT="{imperative vs. declarative} programming">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389282299393" ID="ID_1268404843" MODIFIED="1389282358961" TEXT="imp- procedural programming"/>
 <node CREATED="1389282303555" ID="ID_1778122535" MODIFIED="1389282360597" TEXT="dec- functional programming"/>
 </node>
 <node CREATED="1389282960684" ID="ID_264039729" MODIFIED="1431663715513" POSITION="right" TEXT="type">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389282963359" ID="ID_222986345" MODIFIED="1389283800266" TEXT="basic type">
 <node CREATED="1389339590201" ID="ID_384371488" MODIFIED="1431663717108" TEXT="number">
-<node CREATED="1389282968891" ID="ID_1305122963" MODIFIED="1431663719511" TEXT="integer">
+<node CREATED="1389282968891" ID="ID_1305122963" MODIFIED="1510818309108" TEXT="integer">
 <node CREATED="1389282977076" ID="ID_593542781" MODIFIED="1389283072549" TEXT="arbitrary large"/>
 <node CREATED="1389283106156" ID="ID_1928456304" MODIFIED="1389283111717" TEXT="Base#Value"/>
 </node>
@@ -54,15 +54,15 @@
 <node CREATED="1389339564639" ID="ID_1088834283" MODIFIED="1389339565757" TEXT="number &lt; atom &lt; reference &lt; fun &lt; port &lt; pid &lt; tuple &lt; list &lt; binary"/>
 </node>
 <node CREATED="1389339415450" ID="ID_684347271" MODIFIED="1431663788150" POSITION="right" TEXT="operator">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389339422134" ID="ID_2393987" MODIFIED="1389339434654" TEXT="comparison op">
 <node CREATED="1389339435949" ID="ID_417186413" MODIFIED="1389339462208" TEXT="== /= (!= c++)"/>
 <node CREATED="1389339462822" ID="ID_1252942554" MODIFIED="1389339515404" TEXT="=:= (=== php) =/= (!== php)"/>
 <node CREATED="1389339523466" ID="ID_1868266743" MODIFIED="1389339529384" TEXT="&lt; &lt;= &gt;= &gt;"/>
 </node>
 </node>
-<node CREATED="1389339712626" FOLDED="true" ID="ID_1662799225" MODIFIED="1431663900626" POSITION="right" TEXT="variable (assignment-once,dynamical,strong, pattern match)">
-<font NAME="Arial" SIZE="12"/>
+<node CREATED="1389339712626" ID="ID_1662799225" MODIFIED="1510818446649" POSITION="right" TEXT="variable (assignment-once,dynamical,strong, pattern match)">
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389203113881" ID="ID_1335256298" MODIFIED="1389339887443" TEXT="uppercase(capitalize) initial"/>
 <node CREATED="1389340026102" ID="ID_890071637" MODIFIED="1389340075896" TEXT="set once/single assignment ">
 <node CREATED="1389340076867" ID="ID_278954865" MODIFIED="1389340106525" TEXT="once bound a variable, never can change its value."/>
@@ -88,7 +88,7 @@
 </node>
 </node>
 <node CREATED="1389340194831" ID="ID_1439414031" MODIFIED="1431663904722" POSITION="right" TEXT="function">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389340297364" ID="ID_1977313361" MODIFIED="1389373175251" TEXT="no side effect">
 <node CREATED="1389340197118" ID="ID_329411040" MODIFIED="1389340303618" TEXT="Pass-By-Value, not Pass-By-Reference"/>
 <node CREATED="1389340261638" ID="ID_941383622" MODIFIED="1389340303616" TEXT="Arguments evaluated before function body evaluated"/>
@@ -97,15 +97,15 @@
 <node CREATED="1389370712384" ID="ID_961741407" MODIFIED="1389370753827" TEXT="arity ($# in sh)"/>
 <node CREATED="1389373190112" ID="ID_1029838952" MODIFIED="1389373263204" TEXT="function(Pattern1)-&gt;Body1;function(Pattern2)-&gt;Body2;...function(PatternN)-&gt;BodyN."/>
 <node CREATED="1389407148873" ID="ID_188489428" MODIFIED="1431663936554" TEXT="BIF">
-<node CREATED="1389405578905" ID="ID_100771160" MODIFIED="1389407176751" TEXT="Type Cast">
-<font NAME="Arial" SIZE="12"/>
+<node CREATED="1389405578905" ID="ID_100771160" MODIFIED="1510818575000" TEXT="Type Cast">
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389405594066" ID="ID_1998090026" MODIFIED="1389406769280" TEXT="list_to_{integer, float, tuple, atom, existing_atom}">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1389406783900" ID="ID_868477692" MODIFIED="1389406856250" TEXT="{integer,float,tuple,atom}_to_list"/>
 <node CREATED="1389406897792" ID="ID_697407576" MODIFIED="1389406924955" TEXT="float round trunc"/>
 </node>
-<node CREATED="1389407140340" FOLDED="true" ID="ID_1979997175" MODIFIED="1389407901980" TEXT="Meta Programming">
+<node CREATED="1389407140340" ID="ID_1979997175" MODIFIED="1510818580851" TEXT="Meta Programming">
 <node CREATED="1389407198973" ID="ID_1609721927" MODIFIED="1389407214130" TEXT="apply(Module,Function,Args)"/>
 </node>
 <node CREATED="1389407902754" ID="ID_818042472" MODIFIED="1389407971924" TEXT="Data,Time,Now">
@@ -150,7 +150,7 @@
 <node CREATED="1389410135034" ID="ID_235628361" MODIFIED="1389411912746" TEXT="try-catch"/>
 </node>
 <node CREATED="1389372906529" ID="ID_889437378" MODIFIED="1431865677382" POSITION="right" TEXT="module directive (pragma)">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1389372931439" ID="ID_1081982566" MODIFIED="1389373013560" TEXT="-module(module)"/>
 <node CREATED="1389372934614" ID="ID_1708612759" MODIFIED="1389373038019" TEXT="-export([function/arity ...])"/>
 <node CREATED="1389373018596" ID="ID_1589352129" MODIFIED="1389373053294" TEXT="-import(module,[function/arity ...])"/>
