@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1355236104335" ID="ID_1153208252" MODIFIED="1456463989568" TEXT="perl">
-<node CREATED="1355458302900" FOLDED="true" ID="ID_1687987652" MODIFIED="1497940159693" POSITION="right" TEXT="$@%&amp;*\">
+<node CREATED="1355458302900" ID="ID_1687987652" MODIFIED="1513082027234" POSITION="right" TEXT="$@%&amp;*\">
 <node CREATED="1355458364407" FOLDED="true" ID="ID_937717701" MODIFIED="1486963436493" TEXT="$ scalar">
 <node CREATED="1355240403869" ID="ID_1518752704" MODIFIED="1365583383090" TEXT="undef">
 <node CREATED="1355240432319" ID="ID_179851737" MODIFIED="1365578983476" TEXT="only scalar can have a &quot;undef&quot; value ,containers/collections/aggregations can&apos;t"/>
