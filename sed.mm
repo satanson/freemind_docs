@@ -257,7 +257,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 <node CREATED="1360244791231" ID="ID_1343883453" MODIFIED="1360245516989" TEXT="demo">
-<node CREATED="1360244837266" FOLDED="true" ID="ID_59769162" MODIFIED="1360247263353" TEXT="parasplit.sed -sed script  for processing spaces in latex">
+<node CREATED="1360244837266" ID="ID_59769162" MODIFIED="1513587861366" TEXT="parasplit.sed -sed script  for processing spaces in latex">
 <node CREATED="1360244796657" ID="ID_1293309711" MODIFIED="1360247022757">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
