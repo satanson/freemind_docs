@@ -258,7 +258,7 @@ endif</pre>&#13;&#13;
 <node CREATED="1371207138583" ID="ID_1116667162" MODIFIED="1371207154419" TEXT="del perl,python"/>
 </node>
 </node>
-<node CREATED="1362535071662" FOLDED="true" ID="ID_148859908" MODIFIED="1497597773815" TEXT="override precedence">
+<node CREATED="1362535071662" FOLDED="true" ID="ID_148859908" MODIFIED="1519438262278" TEXT="override precedence">
 <node CREATED="1362535513159" ID="ID_709010624" MODIFIED="1362535594952" TEXT="override">
 <icon BUILTIN="full-1"/>
 </node>
@@ -717,7 +717,7 @@ endif</pre>&#13;&#13;
 </node>
 </node>
 <node CREATED="1362452894965" ID="ID_19986001" MODIFIED="1362452903557" TEXT="&apos;environment&apos;"/>
-<node CREATED="1362452912603" FOLDED="true" ID="ID_207893659" MODIFIED="1362535510376" TEXT="&apos;environment override&apos;">
+<node CREATED="1362452912603" ID="ID_207893659" MODIFIED="1519438282487" TEXT="&apos;environment override&apos;">
 <node CREATED="1362452976158" ID="ID_178806729" MODIFIED="1362452997831" TEXT="-e --environment-overrides">
 <node CREATED="1362454043013" ID="ID_599448517" MODIFIED="1362454047038" TEXT="Variables in make can come from the environment in which make is run.">
 <icon BUILTIN="full-1"/>
@@ -742,7 +742,7 @@ endif</pre>&#13;&#13;
 <node CREATED="1362457825386" ID="ID_1499268978" MODIFIED="1362457835034" TEXT="If a variable has been set with a command argument , then ordinary assignments in the makefile are ignored. If you want to set the variable in the makefile even though it was set with a command argument, you can use an override directive"/>
 </node>
 </node>
-<node CREATED="1362457618438" ID="ID_304352145" MODIFIED="1371207647964" TEXT="&apos;automatic&apos;">
+<node CREATED="1362457618438" ID="ID_304352145" MODIFIED="1519438399658" TEXT="&apos;automatic&apos;">
 <node CREATED="1362458421898" ID="ID_1364491689" MODIFIED="1362458423040" TEXT="Automatic Variables">
 <node CREATED="1362458453456" ID="ID_1110081454" MODIFIED="1362458975397" TEXT="$@">
 <node CREATED="1362458976315" ID="ID_1407011746" MODIFIED="1423347744146" TEXT="target">
