@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1341477627115" ID="ID_1535263265" MODIFIED="1482119811700" TEXT="gdb">
+<node CREATED="1341477627115" ID="ID_1535263265" MODIFIED="1534506366101" TEXT="e">
 <node CREATED="1341477637979" ID="ID_1696978992" MODIFIED="1482119821400" POSITION="right" TEXT="debugging multithreaded program">
 <node CREATED="1341478560216" ID="ID_908363587" MODIFIED="1341478602868" TEXT="ref The Linux Programmer&#x2019;s Toolbox:pp-557"/>
 <node CREATED="1341479366324" ID="ID_1117115768" MODIFIED="1341479368541" TEXT="(gdb) info threads">
