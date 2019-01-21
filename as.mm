@@ -160,6 +160,68 @@
 <node CREATED="1548077382949" ID="ID_714420824" MODIFIED="1548077388847" TEXT="global _start"/>
 </node>
 </node>
+<node CREATED="1548077391812" ID="ID_1472048702" MODIFIED="1548077401126" TEXT="default entrypoint">
+<node CREATED="1548077403309" ID="ID_292514575" MODIFIED="1548077406736" TEXT="gas">
+<node CREATED="1548077443196" ID="ID_1369008563" MODIFIED="1548077688542">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .global _start
+    </p>
+    <p>
+      .section .text
+    </p>
+    <p>
+      _start:
+    </p>
+    <p>
+      &#160;&#160;movl $1, eax
+    </p>
+    <p>
+      &#160;&#160;movl $1, ebx
+    </p>
+    <p>
+      &#160;&#160;int $0x80
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1548077424545" ID="ID_1995535777" MODIFIED="1548077426098" TEXT="nasm">
+<node CREATED="1548077443196" ID="ID_1318674575" MODIFIED="1548077676798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      global _start
+    </p>
+    <p>
+      section .text
+    </p>
+    <p>
+      _start:
+    </p>
+    <p>
+      &#160;&#160;mov eax, 1
+    </p>
+    <p>
+      &#160;&#160;mov ebx, 2
+    </p>
+    <p>
+      &#160;&#160;int 80h
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
