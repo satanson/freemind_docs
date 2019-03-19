@@ -1,47 +1,47 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1367509753718" ID="ID_975010124" LINK="jQuery.mm" MODIFIED="1441894792720" TEXT="jQuery">
 <node CREATED="1367576607577" MODIFIED="1441894761864" POSITION="right" TEXT="use jQuery">
 <node CREATED="1367509759319" ID="ID_1135622343" MODIFIED="1367576633587" TEXT="&lt;script type=&quot;text/javascript&quot; src=&quot;jquery.js&quot;&gt;&lt;/script&gt;"/>
 <node CREATED="1367509994534" ID="ID_231320820" MODIFIED="1367576633585">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;head&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;/head&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;head&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;/head&gt;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1367510017582" MODIFIED="1367576633580">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;head&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"&gt;&lt;/script&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &lt;/head&gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;head&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"&gt;&lt;/script&gt;&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &lt;/head&gt;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1367510107215" MODIFIED="1441894656047" POSITION="right" TEXT="$(selector).action()">
-<node CREATED="1367510451334" MODIFIED="1441894666259" TEXT="selector">
+<node CREATED="1367510107215" FOLDED="true" ID="ID_1606079685" MODIFIED="1553010021494" POSITION="right" TEXT="$(selector).action()">
+<node CREATED="1367510451334" ID="ID_105542019" MODIFIED="1552796224744" TEXT="selector">
 <node CREATED="1367573020018" MODIFIED="1367573023508" TEXT="this"/>
 <node CREATED="1367572927686" MODIFIED="1367572927686" TEXT="*">
 <node CREATED="1367572927686" MODIFIED="1367572927686" TEXT="$(&quot;*&quot;)"/>
@@ -167,8 +167,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1367548439227" ID="ID_988591420" MODIFIED="1457624359212" TEXT="action">
-<node CREATED="1367575910553" MODIFIED="1390564162148" TEXT="Event">
+<node CREATED="1367548439227" ID="ID_988591420" MODIFIED="1552796255207" TEXT="action">
+<node CREATED="1367575910553" ID="ID_272382193" MODIFIED="1552796354372" TEXT="Event">
 <node CREATED="1367575974738" MODIFIED="1390564174224" TEXT="Binding">
 <node CREATED="1367575917436" MODIFIED="1367576023832" TEXT="change()"/>
 <node CREATED="1367575917433" MODIFIED="1367575984325" TEXT="bind()"/>
@@ -227,7 +227,7 @@
 <node CREATED="1367575917473" MODIFIED="1367575917473" TEXT="undelegate()"/>
 <node CREATED="1367575917473" MODIFIED="1367575917473" TEXT="unload()"/>
 </node>
-<node CREATED="1367576235674" FOLDED="true" MODIFIED="1367576303254" TEXT="AJAX">
+<node CREATED="1367576235674" FOLDED="true" ID="ID_782928604" MODIFIED="1552796405705" TEXT="AJAX">
 <node CREATED="1367576272296" MODIFIED="1367576272296" TEXT="$.ajax()"/>
 <node CREATED="1367576272297" MODIFIED="1367576272297" TEXT="ajaxComplete()"/>
 <node CREATED="1367576272298" MODIFIED="1367576272298" TEXT="ajaxError()"/>
@@ -245,7 +245,7 @@
 <node CREATED="1367576272310" MODIFIED="1367576272310" TEXT="serialize()"/>
 <node CREATED="1367576272311" MODIFIED="1367576272311" TEXT="serializeArray()"/>
 </node>
-<node CREATED="1367576399313" FOLDED="true" MODIFIED="1367576440461" TEXT="CSS">
+<node CREATED="1367576399313" FOLDED="true" ID="ID_361771540" MODIFIED="1552796409378" TEXT="CSS">
 <node CREATED="1367576401696" MODIFIED="1367576401696" TEXT="addClass()"/>
 <node CREATED="1367576401697" MODIFIED="1367576401697" TEXT="css()"/>
 <node CREATED="1367576401698" MODIFIED="1367576401698" TEXT="hasClass()"/>
@@ -259,7 +259,7 @@
 <node CREATED="1367576401706" MODIFIED="1367576401706" TEXT="toggleClass()"/>
 <node CREATED="1367576401707" MODIFIED="1367576401707" TEXT="width()"/>
 </node>
-<node CREATED="1367576441658" FOLDED="true" MODIFIED="1368075220839" TEXT="Effect">
+<node CREATED="1367576441658" ID="ID_826746065" MODIFIED="1552796410393" TEXT="Effect">
 <node CREATED="1367576444806" MODIFIED="1367576444806" TEXT="animate()"/>
 <node CREATED="1367576444807" MODIFIED="1367576444807" TEXT="clearQueue()"/>
 <node CREATED="1367576444807" MODIFIED="1367576444807" TEXT="delay()"/>
@@ -277,7 +277,7 @@
 <node CREATED="1367576444816" MODIFIED="1367576444816" TEXT="stop()"/>
 <node CREATED="1367576444817" MODIFIED="1367576444817" TEXT="toggle()"/>
 </node>
-<node CREATED="1367576496874" MODIFIED="1390560181437" TEXT="HTML">
+<node CREATED="1367576496874" ID="ID_46045498" MODIFIED="1390560181437" TEXT="HTML">
 <node CREATED="1367576500909" MODIFIED="1367576500909" TEXT="addClass()"/>
 <node CREATED="1367576500911" MODIFIED="1367576500911" TEXT="after()"/>
 <node CREATED="1367576500912" MODIFIED="1367576500912" TEXT="append()"/>
@@ -288,7 +288,7 @@
 <node CREATED="1367576500917" MODIFIED="1367576500917" TEXT="detach()"/>
 <node CREATED="1367576500918" MODIFIED="1367576500918" TEXT="empty()"/>
 <node CREATED="1367576500918" MODIFIED="1367576500918" TEXT="hasClass()"/>
-<node CREATED="1367576500919" MODIFIED="1367576500919" TEXT="html()"/>
+<node CREATED="1367576500919" ID="ID_1963511452" MODIFIED="1367576500919" TEXT="html()"/>
 <node CREATED="1367576500920" MODIFIED="1367576500920" TEXT="insertAfter()"/>
 <node CREATED="1367576500921" MODIFIED="1367576500921" TEXT="insertBefore()"/>
 <node CREATED="1367576500922" MODIFIED="1367576500922" TEXT="prepend()"/>
@@ -306,17 +306,17 @@
 <node CREATED="1367576500931" MODIFIED="1367576500931" TEXT="wrapAll()"/>
 <node CREATED="1367576500932" MODIFIED="1367576500932" TEXT="wrapInner()"/>
 </node>
-<node CREATED="1368075275772" FOLDED="true" MODIFIED="1368075307030" TEXT="Attributes">
+<node CREATED="1368075275772" ID="ID_1910137919" MODIFIED="1552825245045" TEXT="Attributes">
 <node CREATED="1368075305068" MODIFIED="1368075305068" TEXT="addClass()"/>
 <node CREATED="1368075305069" MODIFIED="1368075305069" TEXT="attr()"/>
 <node CREATED="1368075305070" MODIFIED="1368075305070" TEXT="hasClass()"/>
-<node CREATED="1368075305071" MODIFIED="1368075305071" TEXT="html()"/>
+<node CREATED="1368075305071" ID="ID_1968331821" MODIFIED="1368075305071" TEXT="html()"/>
 <node CREATED="1368075305072" MODIFIED="1368075305072" TEXT="removeAttr()"/>
 <node CREATED="1368075305073" MODIFIED="1368075305073" TEXT="removeClass()"/>
 <node CREATED="1368075305074" MODIFIED="1368075305074" TEXT="toggleClass()"/>
 <node CREATED="1368075305075" MODIFIED="1368075305075" TEXT="val()"/>
 </node>
-<node CREATED="1367576577601" FOLDED="true" MODIFIED="1367576585286" TEXT="MISC">
+<node CREATED="1367576577601" FOLDED="true" ID="ID_1102112441" MODIFIED="1552796432647" TEXT="MISC">
 <node CREATED="1367576583156" MODIFIED="1367576583156" TEXT="data()"/>
 <node CREATED="1367576583157" MODIFIED="1367576583157" TEXT="each()"/>
 <node CREATED="1367576583157" MODIFIED="1367576583157" TEXT="get()"/>
@@ -357,7 +357,7 @@
 <node CREATED="1368074994075" MODIFIED="1368074994075" TEXT=".siblings()"/>
 <node CREATED="1368074994076" MODIFIED="1368074994076" TEXT=".slice()"/>
 </node>
-<node CREATED="1368075061001" FOLDED="true" ID="ID_1913813527" MODIFIED="1457625626710" TEXT="Data">
+<node CREATED="1368075061001" FOLDED="true" ID="ID_1913813527" MODIFIED="1552796299505" TEXT="Data">
 <node CREATED="1368075063628" MODIFIED="1368075063628" TEXT=".clearQueue()"/>
 <node CREATED="1368075063629" MODIFIED="1368075063629" TEXT=".data()"/>
 <node CREATED="1368075063630" MODIFIED="1368075063630" TEXT="jQuery.data()"/>
@@ -369,7 +369,7 @@
 <node CREATED="1368075063637" MODIFIED="1368075063637" TEXT=".removeData()"/>
 <node CREATED="1368075063638" MODIFIED="1368075063638" TEXT="jQuery.removeData()"/>
 </node>
-<node CREATED="1368075109930" FOLDED="true" MODIFIED="1368075139213" TEXT="DOM element">
+<node CREATED="1368075109930" ID="ID_397838802" MODIFIED="1552796286236" TEXT="DOM element">
 <node CREATED="1368075138109" MODIFIED="1368075138109" TEXT=".get()"/>
 <node CREATED="1368075138110" MODIFIED="1368075138110" TEXT=".index()"/>
 <node CREATED="1368075138111" MODIFIED="1368075138111" TEXT=".size()"/>
@@ -381,7 +381,7 @@
 </node>
 <node CREATED="1367548443579" MODIFIED="1367548496557" TEXT="each(function(index,element){...});"/>
 <node CREATED="1367548505021" MODIFIED="1367548514781" TEXT="each(function(){...});"/>
-<node CREATED="1367548518595" FOLDED="true" MODIFIED="1368074938951" TEXT="attr">
+<node CREATED="1367548518595" ID="ID_200137433" MODIFIED="1552796304991" TEXT="attr">
 <node CREATED="1367548523404" MODIFIED="1367548534461" TEXT="attr(name,value);"/>
 <node CREATED="1367556186299" MODIFIED="1367556191153" TEXT="attr(name);"/>
 </node>
