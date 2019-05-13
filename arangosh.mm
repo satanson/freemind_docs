@@ -45,6 +45,9 @@
 <node CREATED="1557716945603" ID="ID_1334061055" MODIFIED="1557716946425" TEXT="_createEdgeCollection">
 <node CREATED="1557716965970" ID="ID_593322181" MODIFIED="1557716966970" TEXT="this._create(name, properties, ArangoCollection.TYPE_EDGE);"/>
 </node>
+<node CREATED="1557717422971" ID="ID_1461235805" MODIFIED="1557717425964" TEXT="_drop">
+<node CREATED="1557717426895" ID="ID_377286708" MODIFIED="1557717428449" TEXT="for (var c of [&quot;page&quot;, &quot;person2&quot;, &quot;user&quot;, &quot;relationship2&quot;]) {db._drop(c)}"/>
+</node>
 </node>
 </node>
 </map>
