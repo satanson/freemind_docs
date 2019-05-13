@@ -54,7 +54,6 @@
 <node CREATED="1557718466496" ID="ID_1655309934" MODIFIED="1557720143142" TEXT="_replace">
 <node CREATED="1557720148733" ID="ID_1713207556" MODIFIED="1557720148733" TEXT="">
 <node CREATED="1557720154884" ID="ID_175980671" MODIFIED="1557720172152" TEXT="_replace(&lt;id&gt;, &lt;data&gt;, &lt;overwrite&gt;)"/>
-<node CREATED="1557720149646" ID="ID_917357212" MODIFIED="1557720149646" TEXT="db._replace({_id:&quot;person/person_2&quot;, _rev: &quot;_Yo7-_nq--_&quot;}, {job:&quot;QA&quot;, name:&quot;person_002&quot;, age: 23}, true)"/>
 <node CREATED="1557720175809" ID="ID_433900456" MODIFIED="1557720181254" TEXT="overwrite">
 <node CREATED="1557720185490" ID="ID_70287764" MODIFIED="1557720186966" TEXT="true">
 <node CREATED="1557720263565" ID="ID_486611165" MODIFIED="1557720282732" TEXT="no version validation">
@@ -68,6 +67,8 @@
 <node CREATED="1557720321170" ID="ID_1475722217" MODIFIED="1557720325893" TEXT="version validation"/>
 </node>
 </node>
+<node CREATED="1557720557920" ID="ID_1609239412" MODIFIED="1557720559039" TEXT="db._replace({_id:&quot;person/person_2&quot;, _rev: &quot;_Yo7-_nq--_&quot;}, {job:&quot;QA&quot;, name:&quot;person_002&quot;, age: 23}, {overwrite:true, returnNew:true, waitForSync:true})"/>
+<node CREATED="1557720149646" ID="ID_917357212" MODIFIED="1557720560763" TEXT="db._replace({_id:&quot;person/person_2&quot;, _rev: &quot;_Yo7-_nq--_&quot;}, {job:&quot;QA&quot;, name:&quot;person_002&quot;, age: 23}, true)"/>
 </node>
 </node>
 </node>
