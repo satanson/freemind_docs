@@ -48,6 +48,9 @@
 <node CREATED="1557717422971" ID="ID_1461235805" MODIFIED="1557717425964" TEXT="_drop">
 <node CREATED="1557717426895" ID="ID_377286708" MODIFIED="1557717428449" TEXT="for (var c of [&quot;page&quot;, &quot;person2&quot;, &quot;user&quot;, &quot;relationship2&quot;]) {db._drop(c)}"/>
 </node>
+<node CREATED="1557717495001" ID="ID_688652949" MODIFIED="1557717499315" TEXT="_document">
+<node CREATED="1557717500943" ID="ID_398855373" MODIFIED="1557717518380" TEXT="db._document(&quot;person/person_1&quot;)"/>
+</node>
 </node>
 </node>
 </map>
