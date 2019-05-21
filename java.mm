@@ -1253,6 +1253,86 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <node CREATED="1558427103554" ID="ID_1843167078" MODIFIED="1558427168990" TEXT="@Inherited&#x4fee;&#x9970;&#x7684;annotation&#x7528;&#x6765;&#x6807;&#x6ce8;&#x7c7b;&#x65f6;, &#x5b50;&#x7c7b;&#x4e5f;&#x7ee7;&#x627f;&#x8be5;&#x6807;&#x6ce8;"/>
 <node CREATED="1558427170551" ID="ID_1597566767" MODIFIED="1558427219574" TEXT="@Inherited&#x4fee;&#x9970;&#x7684;annotation&#x5bf9;interface&#x4e0d;&#x8d77;&#x4f5c;&#x7528;, &#x53ea;&#x6709;&#x7c7b;&#x7684;&#x7ee7;&#x627f;&#x5173;&#x7cfb;&#x80fd;&#x591f;&#x4fdd;&#x6301;&#x4e00;&#x6761;&#x7ebf;, &#x67e5;&#x627e;&#x66f4;&#x52a0;&#x9ad8;&#x6548;."/>
 <node CREATED="1558427221474" ID="ID_1533454550" MODIFIED="1558427221474" TEXT=""/>
+<node CREATED="1558428095368" FOLDED="true" ID="ID_1758755947" MODIFIED="1558428252116" TEXT="demo">
+<node CREATED="1558428097397" ID="ID_1436136320" MODIFIED="1558428101280">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #21282d; color: #e0e2e4; font-family: Bitstream Vera Sans Mono; font-size: 18.0pt"><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#a082bd">Documented</font><font color="#e8e2b7">;<br /></font><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#a082bd">Inherited</font><font color="#e8e2b7">;<br /></font><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#a082bd">Retention</font><font color="#e8e2b7">;<br /></font><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#6ca3c9">RetentionPolicy</font><font color="#e8e2b7">;<br /><br /></font><font color="#a082bd">@Inherited<br />@Documented<br />@Retention</font><font color="#ffffff">(</font><font color="#6ca3c9">RetentionPolicy</font><font color="#e8e2b7">.</font><font color="#95c5c6">RUNTIME</font><font color="#ffffff">)<br /></font><font color="#e784a2"><b>public </b></font>@<font color="#e784a2"><b>interface </b></font><font color="#a082bd">InheritedAnnotation </font><font color="#e8e2b7">{<br />}</font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1558428102355" ID="ID_1588963205" MODIFIED="1558428117947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #21282d; color: #e0e2e4; font-family: Bitstream Vera Sans Mono; font-size: 18.0pt"><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#a082bd">Documented</font><font color="#e8e2b7">;<br /></font><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#a082bd">Retention</font><font color="#e8e2b7">;<br /></font><font color="#e784a2"><b>import </b></font><b><font color="#6ca3c9">java.lang.annotation.</font></b><font color="#6ca3c9">RetentionPolicy</font><font color="#e8e2b7">;<br /><br /></font><font color="#a082bd">@Documented<br />@Retention</font><font color="#ffffff">(</font><font color="#6ca3c9">RetentionPolicy</font><font color="#e8e2b7">.</font><font color="#95c5c6">RUNTIME</font><font color="#ffffff">)<br /></font><font color="#e784a2"><b>public </b></font>@<font color="#e784a2"><b>interface </b></font><font color="#a082bd">NonInheritedAnnotation </font><font color="#e8e2b7">{<br /><br />}</font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1558428130582" ID="ID_1302750763" MODIFIED="1558428140433">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #21282d; color: #e0e2e4; font-family: Bitstream Vera Sans Mono; font-size: 18.0pt"><font color="#a082bd">@InheritedAnnotation<br />@NonInheritedAnnotation<br /></font><font color="#e784a2"><b>public class </b></font><b><font color="#6ca3c9">A </font></b><font color="#e8e2b7">{<br /><br />}</font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1558428155858" ID="ID_721280215" MODIFIED="1558428164034">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #21282d; color: #e0e2e4; font-family: Bitstream Vera Sans Mono; font-size: 18.0pt"><font color="#e784a2"><b>public class </b></font><b><font color="#6ca3c9">B </font><font color="#e784a2">extends </font><font color="#6ca3c9">A </font></b><font color="#e8e2b7">{<br /><br />}</font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1558428185417" ID="ID_468689678" MODIFIED="1558428205641">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #21282d; color: #e0e2e4; font-family: Bitstream Vera Sans Mono; font-size: 18.0pt"><font color="#a082bd">@Test<br /></font><font color="#e784a2"><b>public void </b></font><font color="#678cb1">testInheritedAnnotation</font><font color="#ffffff">()</font><font color="#e8e2b7">{<br />  </font><font color="#6ca3c9">Consumer</font><font color="#e8e2b7">&lt;</font><font color="#6ca3c9"><b>Class</b></font><font color="#e8e2b7">&gt; </font>printAnnotations <font color="#e8e2b7">= </font><font color="#ffffff">(</font><font color="#6ca3c9"><b>Class </b></font>cls<font color="#ffffff">)</font>-&gt; <font color="#e8e2b7">{<br />    </font><font color="#6ca3c9"><b>Arrays</b></font><font color="#e8e2b7">.</font>asList<font color="#ffffff">(</font>cls<font color="#e8e2b7">.</font>getAnnotations<font color="#ffffff">())</font><font color="#e8e2b7">.</font>forEach<font color="#ffffff">((</font><font color="#6ca3c9">Annotation </font>t<font color="#ffffff">)</font>-&gt;<font color="#e8e2b7">{<br />      </font><font color="#6ca3c9"><b>System</b></font><font color="#e8e2b7">.</font><font color="#95c5c6">out</font><font color="#e8e2b7">.</font>println<font color="#ffffff">(</font>t<font color="#e8e2b7">.</font>annotationType<font color="#ffffff">())</font><font color="#e8e2b7">;<br />    }</font><font color="#ffffff">)</font><font color="#e8e2b7">;<br />  };<br />  </font>printAnnotations<font color="#e8e2b7">.</font>accept<font color="#ffffff">(</font><font color="#6ca3c9"><b>A</b></font><font color="#e8e2b7">.</font><font color="#e784a2"><b>class</b></font><font color="#ffffff">)</font><font color="#e8e2b7">;<br />  </font><font color="#6ca3c9"><b>System</b></font><font color="#e8e2b7">.</font><font color="#95c5c6">out</font><font color="#e8e2b7">.</font>println<font color="#ffffff">(</font><font color="#4cd656">&quot;---------&quot;</font><font color="#ffffff">)</font><font color="#e8e2b7">;<br />  </font>printAnnotations<font color="#e8e2b7">.</font>accept<font color="#ffffff">(</font><font color="#6ca3c9"><b>B</b></font><font color="#e8e2b7">.</font><font color="#e784a2"><b>class</b></font><font color="#ffffff">)</font><font color="#e8e2b7">;<br />}</font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1558428206465" ID="ID_1682423098" MODIFIED="1558428206465" TEXT=""/>
+<node CREATED="1558428246072" ID="ID_23966279" MODIFIED="1558428249599">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      interface com.example.demo.com.example.demo.annotations.InheritedAnnotation
+    </p>
+    <p>
+      interface com.example.demo.com.example.demo.annotations.NonInheritedAnnotation
+    </p>
+    <p>
+      ---------
+    </p>
+    <p>
+      interface com.example.demo.com.example.demo.annotations.InheritedAnnotation
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
