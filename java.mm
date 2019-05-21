@@ -1064,10 +1064,92 @@ void mySuperMethod() { }</pre>&#13;&#13;
 </node>
 <node CREATED="1558424426904" ID="ID_1306257837" MODIFIED="1558424438842" TEXT="meta-annotations">
 <node CREATED="1558424439944" ID="ID_1248217951" MODIFIED="1558424448340" TEXT="annotation of annotation"/>
-<node CREATED="1558424450774" ID="ID_1050941459" MODIFIED="1558424484408" TEXT="@Rentation(RentationPolicy.{SOURCE|CLASS|RUNTIME})">
-<node CREATED="1558424488493" ID="ID_478517709" MODIFIED="1558424493976" TEXT="SOURCE"/>
-<node CREATED="1558424494197" ID="ID_1045145390" MODIFIED="1558424495885" TEXT="CLASS"/>
-<node CREATED="1558424496348" ID="ID_251228616" MODIFIED="1558424497830" TEXT="RUNTIME"/>
+<node CREATED="1558424450774" FOLDED="true" ID="ID_1050941459" MODIFIED="1558424764157" TEXT="@Rentation(RentationPolicy.{SOURCE|CLASS|RUNTIME})">
+<node CREATED="1558424488493" ID="ID_478517709" MODIFIED="1558424493976" TEXT="SOURCE">
+<node CREATED="1558424500321" ID="ID_1197351182" MODIFIED="1558424519535" TEXT="&#x53ea;&#x7559;&#x5b58;&#x4e8e;&#x6e90;&#x7801;, &#x5bf9;&#x7f16;&#x8bd1;&#x4e0d;&#x53ef;&#x89c1;"/>
+</node>
+<node CREATED="1558424494197" ID="ID_1045145390" MODIFIED="1558424495885" TEXT="CLASS">
+<node CREATED="1558424520894" ID="ID_1515097147" MODIFIED="1558424552568" TEXT="&#x7559;&#x5b58;&#x4e8e;&#x6e90;&#x7801;&#x548c;&#x7f16;&#x8bd1;&#x65f6;, &#x5bf9;&#x8fd0;&#x884c;&#x65f6;&#x4e0d;&#x53ef;&#x89c1;"/>
+</node>
+<node CREATED="1558424496348" ID="ID_251228616" MODIFIED="1558424497830" TEXT="RUNTIME">
+<node CREATED="1558424553919" ID="ID_1447244941" MODIFIED="1558424587447" TEXT="&#x7559;&#x5b58;&#x4e8e;{&#x6e90;&#x7801;, &#x7f16;&#x8bd1;&#x65f6;, &#x8fd0;&#x884c;&#x65f6;}, &#x8fd0;&#x884c;&#x65f6;&#x53ef;&#x53cd;&#x5c04;"/>
+</node>
+<node CREATED="1558424740915" ID="ID_993262466" MODIFIED="1558424762571">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Xyz(value = &quot;foobar&quot;)
+    </p>
+    <p>
+      public class Xxyyzz {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @Retention(RetentionPolicy.CLASS)
+    </p>
+    <p>
+      public @interface Xyz {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;String value() default &quot;Xxyyzz&quot;;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public class XxyyzzTest {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;@Test
+    </p>
+    <p>
+      &#160;&#160;public void test0() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Object obj = new Xxyyzz();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (Annotation t : obj.getClass().getAnnotations()) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;System.out.println(t.annotationType());
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
