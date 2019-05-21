@@ -1152,8 +1152,101 @@ void mySuperMethod() { }</pre>&#13;&#13;
 </node>
 </node>
 <node CREATED="1558425414175" ID="ID_1742101266" MODIFIED="1558425417795" TEXT="@Documented">
-<node CREATED="1558425420155" ID="ID_706197860" MODIFIED="1558425422232" TEXT="javadoc -sourcepath src/main/java -d javadoc -subpackages ."/>
-<node CREATED="1558425424059" ID="ID_211901637" MODIFIED="1558425448315" TEXT="Annotation show in javadoc"/>
+<node CREATED="1558425424059" ID="ID_211901637" MODIFIED="1558425480416" TEXT="Annotation annotated by @Documented  show in javadoc"/>
+<node CREATED="1558425420155" ID="ID_706197860" MODIFIED="1558425486827" TEXT="javadoc -sourcepath src/main/java -d javadoc -subpackages ."/>
+<node CREATED="1558425791911" ID="ID_1247713189" MODIFIED="1558425797577" TEXT="mvn javadoc:javadoc"/>
+<node CREATED="1558425879511" ID="ID_689001712" MODIFIED="1558425888472" TEXT="contrast">
+<node CREATED="1558425859049" FOLDED="true" ID="ID_1371764560" MODIFIED="1558425887199" TEXT="not @Documented">
+<node CREATED="1558425799290" ID="ID_625254286" MODIFIED="1558425866109">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="header" style="clear: both; margin-top: 0px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(53, 56, 51); font-family: DejaVu Sans, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="subTitle" style="margin-top: 5px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px">
+        com.example.demo.com.example.demo.annotations
+      </div>
+      <h2 title="Class Xxyyzz" class="title" style="font-size: 18px; color: rgb(44, 69, 87); margin-top: 10px; margin-bottom: 10px; margin-right: 0px; margin-left: 0px">
+        Class Xxyyzz
+      </h2>
+    </div>
+    <div class="contentContainer" style="clear: both; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px; color: rgb(53, 56, 51); font-family: DejaVu Sans, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <ul class="inheritance" style="list-style-type: disc; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <li style="display: inline; list-style: none">
+          <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang" style="text-decoration: none; color: rgb(74, 103, 130)"><font color="rgb(74, 103, 130)">java.lang.Object</font></a>
+        </li>
+        <li style="display: inline; list-style: none">
+          <ul class="inheritance" style="list-style-type: disc; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 15px; padding-top: 1px; padding-right: 0px; padding-bottom: 0px; padding-left: 15px">
+            <li style="display: inline; list-style: none">
+              com.example.demo.com.example.demo.annotations.Xxyyzz
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1558425869732" FOLDED="true" ID="ID_685938622" MODIFIED="1558425887198" TEXT="@Documented">
+<node CREATED="1558425807576" ID="ID_1445047035" MODIFIED="1558425876573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="header" style="clear: both; margin-top: 0px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+      <div class="subTitle" style="margin-top: 5px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px">
+        com.example.demo.com.example.demo.annotations
+      </div>
+      <h2 title="Class Xxyyzz" class="title" style="font-size: 18px; color: rgb(44, 69, 87); margin-top: 10px; margin-bottom: 10px; margin-right: 0px; margin-left: 0px">
+        Class Xxyyzz
+      </h2>
+    </div>
+    <div class="contentContainer" style="clear: both; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px">
+      <ul class="inheritance" style="list-style-type: disc; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <li style="display: inline; list-style: none">
+          <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang" style="text-decoration: none; color: rgb(74, 103, 130)"><font color="rgb(74, 103, 130)">java.lang.Object</font></a>
+        </li>
+        <li style="display: inline; list-style: none">
+          <ul class="inheritance" style="list-style-type: disc; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 15px; padding-top: 1px; padding-right: 0px; padding-bottom: 0px; padding-left: 15px">
+            <li style="display: inline; list-style: none">
+              com.example.demo.com.example.demo.annotations.Xxyyzz
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="description">
+        <ul class="blockList" style="list-style-type: disc; margin-top: 10px; margin-bottom: 10px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+          <li class="blockList" style="list-style: none; margin-bottom: 15px; line-height: 1.4">
+            <hr />
+            <br />
+            
+
+            <pre style="font-family: DejaVu Sans Mono, monospace; font-size: 14px; margin-top: 0px"><a href="../../../../../../../com/example/demo/com/example/demo/annotations/Xyz.html" title="annotation in com.example.demo.com.example.demo.annotations" style="text-decoration: none; color: rgb(74, 103, 130)"><font color="rgb(74, 103, 130)">@Xyz</font></a>(<a href="../../../../../../../com/example/demo/com/example/demo/annotations/Xyz.html#value--" style="text-decoration: none; color: rgb(74, 103, 130)"><font color="rgb(74, 103, 130)">value</font></a>=&quot;foobar&quot;)
+public class <b>Xxyyzz</b>
+extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang" style="text-decoration: none; color: rgb(74, 103, 130)"><font color="rgb(74, 103, 130)">Object</font></a></pre>
+          </li>
+        </ul>
+      </div>
+      <div class="summary">
+        <ul class="blockList" style="list-style-type: disc; margin-top: 10px; margin-bottom: 10px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+          <li class="blockList" style="list-style: none; margin-bottom: 15px; line-height: 1.4">
+            <ul class="blockList" style="list-style-type: disc; margin-top: 10px; margin-bottom: 10px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+              <li class="blockList" style="list-style: none; margin-bottom: 15px; line-height: 1.4; padding-top: 0px; padding-right: 20px; padding-bottom: 5px; padding-left: 10px; background-color: rgb(248, 248, 248)">
+                <a name="constructor.summary" style="color: rgb(53, 56, 51); font-family: DejaVu Sans, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(53, 56, 51)" face="DejaVu Sans, Arial, Helvetica, sans-serif" size="14px">
+</font></a><br class="Apple-interchange-newline" />              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
