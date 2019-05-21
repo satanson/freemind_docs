@@ -1151,6 +1151,10 @@ void mySuperMethod() { }</pre>&#13;&#13;
 </richcontent>
 </node>
 </node>
+<node CREATED="1558425414175" ID="ID_1742101266" MODIFIED="1558425417795" TEXT="@Documented">
+<node CREATED="1558425420155" ID="ID_706197860" MODIFIED="1558425422232" TEXT="javadoc -sourcepath src/main/java -d javadoc -subpackages ."/>
+<node CREATED="1558425424059" ID="ID_211901637" MODIFIED="1558425448315" TEXT="Annotation show in javadoc"/>
+</node>
 </node>
 </node>
 <node CREATED="1357726880094" ID="ID_825203903" MODIFIED="1363783582728" TEXT="RTTI">
