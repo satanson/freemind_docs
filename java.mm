@@ -1249,7 +1249,10 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 </node>
 </node>
 <node CREATED="1558426781350" ID="ID_222564451" MODIFIED="1558426786922" TEXT="@Inherited">
-<node CREATED="1558426790664" ID="ID_1142849000" MODIFIED="1558426991068" TEXT="&#x67e5;&#x627e;class&#x7684;annotation&#x65f6;, &#x5982;&#x679c;&#x67e5;&#x627e;&#x4e0d;&#x5230;, &#x5219;&#x67e5;&#x627e;superclass&#x7684;annotation"/>
+<node CREATED="1558426790664" ID="ID_1142849000" MODIFIED="1558427100055" TEXT="&#x67e5;&#x627e;class&#x7684;annotation&#x65f6;, &#x5982;&#x679c;&#x67e5;&#x627e;&#x4e0d;&#x5230;, &#x5219;&#x5411;&#x4e0a;&#x67e5;&#x627e;superclass&#x7684;annotation, &#x76f4;&#x5230;&#x627e;&#x5230;&#x88ab;@Inherited&#x6807;&#x6ce8;&#x7684;annotation, &#x6216;&#x8005;&#x67e5;&#x627e;&#x5230;&#x9876;&#x5931;&#x8d25;&#x800c;&#x7ed3;&#x675f;."/>
+<node CREATED="1558427103554" ID="ID_1843167078" MODIFIED="1558427168990" TEXT="@Inherited&#x4fee;&#x9970;&#x7684;annotation&#x7528;&#x6765;&#x6807;&#x6ce8;&#x7c7b;&#x65f6;, &#x5b50;&#x7c7b;&#x4e5f;&#x7ee7;&#x627f;&#x8be5;&#x6807;&#x6ce8;"/>
+<node CREATED="1558427170551" ID="ID_1597566767" MODIFIED="1558427219574" TEXT="@Inherited&#x4fee;&#x9970;&#x7684;annotation&#x5bf9;interface&#x4e0d;&#x8d77;&#x4f5c;&#x7528;, &#x53ea;&#x6709;&#x7c7b;&#x7684;&#x7ee7;&#x627f;&#x5173;&#x7cfb;&#x80fd;&#x591f;&#x4fdd;&#x6301;&#x4e00;&#x6761;&#x7ebf;, &#x67e5;&#x627e;&#x66f4;&#x52a0;&#x9ad8;&#x6548;."/>
+<node CREATED="1558427221474" ID="ID_1533454550" MODIFIED="1558427221474" TEXT=""/>
 </node>
 </node>
 </node>
