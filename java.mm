@@ -1151,7 +1151,7 @@ void mySuperMethod() { }</pre>&#13;&#13;
 </richcontent>
 </node>
 </node>
-<node CREATED="1558425414175" ID="ID_1742101266" MODIFIED="1558425417795" TEXT="@Documented">
+<node CREATED="1558425414175" FOLDED="true" ID="ID_1742101266" MODIFIED="1558426780892" TEXT="@Documented">
 <node CREATED="1558425424059" ID="ID_211901637" MODIFIED="1558425480416" TEXT="Annotation annotated by @Documented  show in javadoc"/>
 <node CREATED="1558425420155" ID="ID_706197860" MODIFIED="1558425486827" TEXT="javadoc -sourcepath src/main/java -d javadoc -subpackages ."/>
 <node CREATED="1558425791911" ID="ID_1247713189" MODIFIED="1558425797577" TEXT="mvn javadoc:javadoc"/>
@@ -1247,6 +1247,9 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1558426781350" ID="ID_222564451" MODIFIED="1558426786922" TEXT="@Inherited">
+<node CREATED="1558426790664" ID="ID_1142849000" MODIFIED="1558426991068" TEXT="&#x67e5;&#x627e;class&#x7684;annotation&#x65f6;, &#x5982;&#x679c;&#x67e5;&#x627e;&#x4e0d;&#x5230;, &#x5219;&#x67e5;&#x627e;superclass&#x7684;annotation"/>
 </node>
 </node>
 </node>
