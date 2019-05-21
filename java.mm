@@ -688,7 +688,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </node>
 </node>
 </node>
-<node CREATED="1345299239016" FOLDED="true" ID="ID_274384869" MODIFIED="1471491438392" TEXT="annotation">
+<node CREATED="1345299239016" ID="ID_274384869" MODIFIED="1558423084881" TEXT="annotation">
 <node CREATED="1345299262691" ID="ID_689043907" MODIFIED="1363773949965">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
@@ -736,7 +736,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1345299304783" ID="ID_1156962674" MODIFIED="1345299313779" TEXT="3 functions">
+<node CREATED="1345299304783" FOLDED="true" ID="ID_1156962674" MODIFIED="1558424425366" TEXT="3 functions">
 <node CREATED="1345299328959" ID="ID_136280043" MODIFIED="1345299354455">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
@@ -782,7 +782,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
-<node CREATED="1345302578605" ID="ID_1008202394" MODIFIED="1345302610966">
+<node CREATED="1345302578605" ID="ID_1008202394" MODIFIED="1558423160778">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
     &#13;&#13;
@@ -885,7 +885,7 @@ boolean same = Util.<strong>&lt;Integer, String&gt;</strong>compare(p1, p2);</pr
 </node>
 </node>
 </node>
-<node CREATED="1345300123053" ID="ID_561722797" MODIFIED="1396014973127" TEXT="annotation type">
+<node CREATED="1345300123053" FOLDED="true" ID="ID_561722797" MODIFIED="1558424423922" TEXT="annotation type">
 <node CREATED="1345300232551" ID="ID_505942422" MODIFIED="1345300427380">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
@@ -943,7 +943,7 @@ String lastModifiedBy() default "N/A";</pre>&#13;&#13;
 </node>
 </node>
 </node>
-<node CREATED="1345299682831" ID="ID_518620445" MODIFIED="1345300570757" TEXT="using annotations">
+<node CREATED="1345299682831" FOLDED="true" ID="ID_518620445" MODIFIED="1558424419647" TEXT="using annotations">
 <node CREATED="1345299832551" ID="ID_211797337" MODIFIED="1345299836988" TEXT="">
 <icon BUILTIN="full-1"/>
 <node CREATED="1345299719929" ID="ID_167062999" MODIFIED="1363774157483">
@@ -1060,6 +1060,14 @@ void mySuperMethod() { }</pre>&#13;&#13;
 </html></richcontent>
 <node CREATED="1345300609557" ID="ID_154657052" MODIFIED="1345300613012" TEXT="To make the information in @ClassPreamble appear in Javadoc-generated documentation, you must annotate the @ClassPreamble definition itself with the @Documented annotation."/>
 </node>
+</node>
+</node>
+<node CREATED="1558424426904" ID="ID_1306257837" MODIFIED="1558424438842" TEXT="meta-annotations">
+<node CREATED="1558424439944" ID="ID_1248217951" MODIFIED="1558424448340" TEXT="annotation of annotation"/>
+<node CREATED="1558424450774" ID="ID_1050941459" MODIFIED="1558424484408" TEXT="@Rentation(RentationPolicy.{SOURCE|CLASS|RUNTIME})">
+<node CREATED="1558424488493" ID="ID_478517709" MODIFIED="1558424493976" TEXT="SOURCE"/>
+<node CREATED="1558424494197" ID="ID_1045145390" MODIFIED="1558424495885" TEXT="CLASS"/>
+<node CREATED="1558424496348" ID="ID_251228616" MODIFIED="1558424497830" TEXT="RUNTIME"/>
 </node>
 </node>
 </node>
