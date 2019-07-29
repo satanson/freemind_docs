@@ -1,4 +1,4 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1359821441013" ID="ID_121270593" MODIFIED="1456763663458" TEXT="lisp">
 <node CREATED="1359822330426" FOLDED="true" ID="ID_1191675295" MODIFIED="1426771486247" POSITION="right" TEXT="general-purpose Lisp dialects">
@@ -205,7 +205,7 @@
 <node CREATED="1359985109407" ID="ID_9320212" MODIFIED="1359985114978" TEXT="(2 &lt; 1 &#x2192; 3, T &#x2192; 0/0 ) is undefined"/>
 <node CREATED="1359985127417" ID="ID_661192955" MODIFIED="1359985128761" TEXT="(2 &lt; 1 &#x2192; 3, 4 &lt; 1 &#x2192; 4) is undefined"/>
 <node CREATED="1359986068734" ID="ID_888299994" MODIFIED="1421215333834" TEXT="p &#x2227; q = (p &#x2192; q, T &#x2192; F )">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1359986087493" ID="ID_323657225" MODIFIED="1359986088992" TEXT="p &#x2228; q = (p &#x2192; T, T &#x2192; q)"/>
 <node CREATED="1359986098249" ID="ID_1116682538" MODIFIED="1359986099359" TEXT="&#xac;p = (p &#x2192; F, T &#x2192; T )"/>
@@ -352,18 +352,18 @@
 <node CREATED="1359995725574" FOLDED="true" ID="ID_887100055" MODIFIED="1383988501825" TEXT="subst [x; y; z]">
 <node CREATED="1359995741744" ID="ID_1195313056" MODIFIED="1359995768437" TEXT="This function gives the result of substituting the S-expression x for all occurrences of the atomic symbol y in the S-expression z."/>
 <node CREATED="1359995770175" ID="ID_1277666233" MODIFIED="1359996277744">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      subst[x;y;z]=[atom[z] &#x2192; [ eq[z;y] &#x2192; x; T&#x2192; z ];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;T&#x2192; cons[subst[x;y;car[z]];subst[x;y;cdr[z]]]&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      subst[x;y;z]=[atom[z] &#x2192; [ eq[z;y] &#x2192; x; T&#x2192; z ];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;T&#x2192; cons[subst[x;y;car[z]];subst[x;y;cdr[z]]]&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1360002415055" ID="ID_959687922" MODIFIED="1360002416742" TEXT="(defun subst(x y z)(cond ((atom z)(cond ((= z y) x) ((z)))) ((cons (subst x y (cdr z)) (subst x y (cdr z)))))) "/>
@@ -371,30 +371,30 @@
 <node CREATED="1360031196653" FOLDED="true" ID="ID_1267745853" MODIFIED="1388811444110" TEXT="equal [x; y]">
 <node CREATED="1360031254552" ID="ID_106929813" MODIFIED="1360031255989" TEXT="This is a predicate that has the value T if x and y are the same S-expression, and has the value F otherwise."/>
 <node CREATED="1360034499321" ID="ID_1999705663" MODIFIED="1360034536658">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun equal0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (cond ((and (atom x) (atom y) (eq x y)) T )&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((and (not (atom x)) (not (atom y)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(and (equal0 (car x) (car y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(equal0 (cdr x) (cdr y))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(NIL)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      (defun equal0(x y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (cond ((and (atom x) (atom y) (eq x y)) T )&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((and (not (atom x)) (not (atom y)))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(and (equal0 (car x) (car y))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(equal0 (cdr x) (cdr y))))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(NIL)))&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -414,27 +414,27 @@
 <node CREATED="1360045049246" FOLDED="true" ID="ID_209795601" MODIFIED="1360076432021" TEXT="append [x;y]">
 <node CREATED="1360045133863" ID="ID_1217625306" MODIFIED="1360045357994" TEXT="append [x; y] = [null[x] &#x2192; y; T &#x2192; cons [car [x]; append [cdr [x]; y]]]"/>
 <node CREATED="1360045769239" ID="ID_493558608" MODIFIED="1360045782908">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun append0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((null x) y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((cons (car x) (append0 (cdr x) x)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      (defun append0(x y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((null x) y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((cons (car x) (append0 (cdr x) x)))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      )&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -452,39 +452,39 @@
 <node CREATED="1360065278025" ID="ID_1653933512" MODIFIED="1360065307082" TEXT="If y is a list of the form ((u1 , v1 ), &#xb7; &#xb7; &#xb7; , (un , vn )) and x is one of the u&#x2019;s, then assoc [x; y] is the corresponding v."/>
 <node CREATED="1360065309287" ID="ID_725302121" MODIFIED="1360065862705" TEXT="assoc [x; y] = [&#xac;atom [y]&#x2192;[eq[x; car[y]] &#x2192; cdar[y]; assoc [x;cdr[y]]]]"/>
 <node CREATED="1360075572583" ID="ID_1786197008" MODIFIED="1360075619237">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun assoc0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((not (atom y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((eq x (caar y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cadar y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((assoc0 x (cdr y))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(NIL)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      (defun assoc0(x y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((not (atom y))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((eq x (caar y))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cadar y))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((assoc0 x (cdr y))))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(NIL)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      )&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -492,55 +492,55 @@
 <node CREATED="1360076467197" ID="ID_1307709385" MODIFIED="1360076469243" TEXT="Here x is assumed to have the form of a list of pairs ((u 1 , v 1 ), &#xb7; &#xb7; &#xb7; , (u n , v n )), where the u&#x2019;s are atomic, and y may be any S-expression. The value of sublis[x; y] is the result of substituting each v for the correspond-ing u in y."/>
 <node CREATED="1360076480730" ID="ID_1407343674" MODIFIED="1360076482012" TEXT="sub2[x; z] = [null[x] &#x2192; z; eq[caar[x]; z] &#x2192; cadar[x]; T &#x2192; sub2[cdr[x]; z]]"/>
 <node CREATED="1360076888061" ID="ID_215229523" MODIFIED="1360076903835">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun sub2(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((null x) y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((eq (caar x) y) (cadar x))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((sub2 (cdr x) y))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      (defun sub2(x y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((null x) y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((eq (caar x) y) (cadar x))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((sub2 (cdr x) y))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      )&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1360076885292" ID="ID_447537408" MODIFIED="1360076886792" TEXT="sublis[x; y] = [atom[y] &#x2192; sub2[x; y]; T &#x2192; cons[sublis[x; car[y]]; sublis[x; cdr[y]]]"/>
 <node CREATED="1360076906758" ID="ID_683282762" MODIFIED="1360078495239">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (defun sublis0(x y)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((and (not (null y)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cons (sub2 x (car y)) (sublis0 x (cdr y))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      )&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      (defun sublis0(x y)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cond ((and (not (null y)))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(cons (sub2 x (car y)) (sublis0 x (cdr y))))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      )&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -548,22 +548,22 @@
 </node>
 <node CREATED="1360078703521" ID="ID_1940938134" MODIFIED="1426772500803" TEXT="M-expressions(&#x3b5;) 2 S-expressions(&#x3b5;*)">
 <node CREATED="1360078816278" ID="ID_219273084" MODIFIED="1383989095684" TEXT="1. If &#x3b5; is an S-expression &#x3b5;* is (QUOTE, &#x3b5;).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1360078866494" ID="ID_365570511" MODIFIED="1383989095677" TEXT="2. Variables and function names that were represented by strings of lower-case letters are translated to the corresponding strings of the corresponding uppercase letters. Thus car* is CAR, and subst* is SUBST.">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1360078897944" ID="ID_9741611" MODIFIED="1383989095669" TEXT="3. A form f [e1 ; &#xb7; &#xb7; &#xb7; ; en ] is translated to (f&#x2217; , e1&#x2217; &#xb7; &#xb7; &#xb7; , e2&#x2217;). Thus cons [car [x]; cdr [x]]&#x2217; is (CONS, (CAR, X), (CDR, X)).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1360078954673" ID="ID_1518990141" MODIFIED="1383989219060" TEXT="4. {[p1 &#x2192; e1 ; &#xb7; &#xb7; &#xb7; ; pn &#x2192; en ]}&#x2217; is (COND, (p1*&#x2217;, e1* ), &#xb7; &#xb7; &#xb7; , (pn* &#xb7; en*)).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1360079023275" ID="ID_1361591073" MODIFIED="1383989095668" TEXT="5. {&#x3bb;[[x1 ; &#xb7; &#xb7; &#xb7; ; xn ]; &#x3b5; ]}&#x2217; is (LAMBDA, (x1* , &#xb7; &#xb7; &#xb7; , xn* ), &#x3b5;&#x2217; ).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 <node CREATED="1360079113508" ID="ID_631493170" MODIFIED="1383989095664" TEXT="6. {label[a; &#x3b5;]}&#x2217; is (LABEL, a&#x2217; , &#x3b5;&#x2217; ).">
-<font NAME="&#x5b8b;&#x4f53;" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1360082287799" ID="ID_811104006" MODIFIED="1426772571429" TEXT="Functions with Functions as Arguments">
@@ -579,51 +579,51 @@
 </node>
 <node CREATED="1360080019336" FOLDED="true" ID="ID_163853769" MODIFIED="1426772573392" TEXT="eval">
 <node CREATED="1360080028298" ID="ID_1174693705" MODIFIED="1360080931825">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      eval[e; a] = [&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atom [e] &#x2192; assoc [e; a];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atom [car [e]] &#x2192; [&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; QUOTE] &#x2192; cadr [e];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; ATOM] &#x2192; atom [eval [cadr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; EQ] &#x2192; [eval [cadr [e]; a] = eval [caddr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; COND] &#x2192; evcon [cdr [e]; a];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CAR] &#x2192; car [eval [cadr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CDR] &#x2192; cdr [eval [cadr [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CONS] &#x2192; cons [eval [cadr [e]; a]; eval [caddr [e];a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;T &#x2192; eval [cons [assoc [car [e]; a]; evlis [cdr [e]; a]]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;eq [caar [e]; LABEL] &#x2192; eval [cons [caddar [e]; cdr [e]];cons [list [cadar [e]; car [e]; a]];&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;eq [caar [e]; LAMBDA] &#x2192; eval [caddar [e];append [pair [cadar [e]; evlis [cdr [e]; a]; a]]]&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      eval[e; a] = [&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atom [e] &#x2192; assoc [e; a];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;atom [car [e]] &#x2192; [&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; QUOTE] &#x2192; cadr [e];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; ATOM] &#x2192; atom [eval [cadr [e]; a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; EQ] &#x2192; [eval [cadr [e]; a] = eval [caddr [e]; a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; COND] &#x2192; evcon [cdr [e]; a];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CAR] &#x2192; car [eval [cadr [e]; a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CDR] &#x2192; cdr [eval [cadr [e]; a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;eq [car [e]; CONS] &#x2192; cons [eval [cadr [e]; a]; eval [caddr [e];a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;T &#x2192; eval [cons [assoc [car [e]; a]; evlis [cdr [e]; a]]; a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;eq [caar [e]; LABEL] &#x2192; eval [cons [caddar [e]; cdr [e]];cons [list [cadar [e]; car [e]; a]];&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;eq [caar [e]; LAMBDA] &#x2192; eval [caddar [e];append [pair [cadar [e]; evlis [cdr [e]; a]; a]]]&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1360080950636" ID="ID_706114027" MODIFIED="1360080963528" TEXT="evlis[m; a] = [null[m] &#x2192; NIL; T &#x2192; cons[eval[car[m]; a]; evlis[cdr[m]; a]]]"/>
 <node CREATED="1360080933874" ID="ID_1610437508" MODIFIED="1360080949071" TEXT="evcon[c; a] = [eval[caar[c]; a] &#x2192; eval[cadar[c]; a]; T &#x2192; evcon[cdr[c]; a]] and"/>
@@ -664,7 +664,7 @@
 </node>
 </node>
 <node CREATED="1393643866134" ID="ID_362792123" MODIFIED="1456660263227" TEXT="data {list|vector|struct}">
-<node CREATED="1388794356725" ID="ID_1840167971" MODIFIED="1393255394689" TEXT="struct">
+<node CREATED="1388794356725" ID="ID_1840167971" MODIFIED="1564409712819" TEXT="struct">
 <node CREATED="1388838149528" ID="ID_54517549" MODIFIED="1388838163110" TEXT="construct struct using closures"/>
 </node>
 <node CREATED="1388799167667" FOLDED="true" ID="ID_838895970" MODIFIED="1456665222329" TEXT="list(linked)">
@@ -740,7 +740,7 @@
 </node>
 </node>
 <node CREATED="1359825787601" ID="ID_1133896358" MODIFIED="1458224067209" POSITION="right" TEXT="Syntax and semantics">
-<font NAME="Arial" SIZE="12"/>
+<font NAME="Dialog" SIZE="12"/>
 <node CREATED="1359825798054" FOLDED="true" ID="ID_541599215" MODIFIED="1428854249689" TEXT="S-expression">
 <node CREATED="1359864697292" ID="ID_552874396" MODIFIED="1359864700762" TEXT="Symbolic expressions ">
 <node CREATED="1359825906527" ID="ID_1026048602" MODIFIED="1383989415301" TEXT="&quot;sexpr&quot;">
@@ -785,24 +785,24 @@
 <node CREATED="1359886727466" ID="ID_960241935" MODIFIED="1359886729697" TEXT="string"/>
 <node CREATED="1359886753287" ID="ID_1868800715" MODIFIED="1426770920608" TEXT="quote &apos;">
 <node CREATED="1359886809040" ID="ID_263817086" MODIFIED="1359886809040">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <font color="rgb(102, 204, 102)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(102, 204, 102); white-space: normal; letter-spacing: normal; line-height: normal; word-spacing: 0px; font-size: 15.428571701049805px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">(</span></font><font color="rgb(177, 177, 0)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(177, 177, 0); white-space: normal; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">quote</span></font><font color="rgb(0, 0, 0)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(0, 0, 0); white-space: normal; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">&#xa0;</span><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(0, 0, 0); float: none; white-space: normal; display: inline !important; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">foo</span></font><font color="rgb(102, 204, 102)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(102, 204, 102); white-space: normal; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">)</span></font>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <font color="rgb(102, 204, 102)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(102, 204, 102); white-space: normal; letter-spacing: normal; line-height: normal; word-spacing: 0px; font-size: 15.428571701049805px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">(</span></font><font color="rgb(177, 177, 0)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(177, 177, 0); white-space: normal; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">quote</span></font><font color="rgb(0, 0, 0)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(0, 0, 0); white-space: normal; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">&#xa0;</span><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(0, 0, 0); float: none; white-space: normal; display: inline !important; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">foo</span></font><font color="rgb(102, 204, 102)" size="15.428571701049805px" face="monospace"><span style="background-color: rgb(255, 255, 255); text-transform: none; font-variant: normal; text-align: start; color: rgb(102, 204, 102); white-space: normal; line-height: normal; letter-spacing: normal; font-size: 15.428571701049805px; word-spacing: 0px; font-family: monospace; font-style: normal; font-weight: normal; text-indent: 0px">)</span></font>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1359886809040" ID="ID_1649379121" MODIFIED="1359886879349">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      <font color="rgb(102, 204, 102)" face="monospace" size="15.428571701049805px">('</font><font color="rgb(0, 0, 0)" face="monospace" size="15.428571701049805px">foo</font><font color="rgb(102, 204, 102)" face="monospace" size="15.428571701049805px">)</font>&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      <font color="rgb(102, 204, 102)" face="monospace" size="15.428571701049805px">('</font><font color="rgb(0, 0, 0)" face="monospace" size="15.428571701049805px">foo</font><font color="rgb(102, 204, 102)" face="monospace" size="15.428571701049805px">)</font>&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -862,39 +862,39 @@
 <node CREATED="1359898829477" FOLDED="true" ID="ID_324163621" MODIFIED="1426770965182" TEXT="&quot;setf&quot; (clisp)">
 <node CREATED="1359899270715" ID="ID_379836652" MODIFIED="1388796267790" TEXT="define variable">
 <node CREATED="1359899031568" ID="ID_1265409530" MODIFIED="1359899221368">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [1]&gt; (setf foo '(1 2 3))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (1 2 3)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [2]&gt; (setf bar '(a b c))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (A B C)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [3]&gt; foo&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (1 2 3)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [4]&gt; bar&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      (A B C)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      [5]&gt;(clisp)&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      [1]&gt; (setf foo '(1 2 3))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (1 2 3)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      [2]&gt; (setf bar '(a b c))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (A B C)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      [3]&gt; foo&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (1 2 3)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      [4]&gt; bar&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      (A B C)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      [5]&gt;(clisp)&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -902,33 +902,33 @@
 <node CREATED="1359898865519" FOLDED="true" ID="ID_1702127685" MODIFIED="1426770968859" TEXT="&quot;define&quot; (scheme)">
 <node CREATED="1359899285897" ID="ID_1579102505" MODIFIED="1388796357921" TEXT="define variable">
 <node CREATED="1359899068299" ID="ID_1602109932" MODIFIED="1359899234170">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define foo '(a b c))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define bar '(1 2 3))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; foo&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(a b c)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; bar&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(1 2 3)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt;(scheme)&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define foo '(a b c))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define bar '(1 2 3))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; foo&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(a b c)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; bar&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(1 2 3)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt;(scheme)&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -942,25 +942,25 @@
 <node CREATED="1359827907955" ID="ID_801333050" MODIFIED="1388796417224" TEXT="&quot;cons&quot;">
 <node CREATED="1359827904419" ID="ID_190115930" MODIFIED="1359827941061" TEXT="add an element to the front of a list">
 <node CREATED="1359827943251" HGAP="16" ID="ID_225950020" MODIFIED="1359896983858" VSHIFT="-39">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">cons</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#xd;&#xd;
- <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: (1 2 3)</i></span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">cons</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#13;&#13;
+ <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: (1 2 3)</i></span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1359827952354" HGAP="13" ID="ID_738287215" MODIFIED="1359896977973" VSHIFT="15">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">cons</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">4</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#xd;&#xd;
- <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: ((1 2) 3 4)</i></span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">cons</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">4</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#13;&#13;
+ <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: ((1 2) 3 4)</i></span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -968,25 +968,25 @@
 <node CREATED="1359827994727" ID="ID_1221094226" MODIFIED="1388795835918" TEXT="&quot;append&quot;">
 <node CREATED="1359828012100" ID="ID_1443633201" MODIFIED="1359828047756" TEXT="appends two (or more) lists to one another.">
 <node CREATED="1359828046844" HGAP="17" ID="ID_1966791989" MODIFIED="1359896994219" VSHIFT="-31">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><span style="color: rgb(102, 204, 102)"><font color="rgb(102, 204, 102)">(</font></span><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">append</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">4</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#xd;&#xd;
- <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: (1 2 3 4)</i></span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><span style="color: rgb(102, 204, 102)"><font color="rgb(102, 204, 102)">(</font></span><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">append</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">4</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#13;&#13;
+ <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: (1 2 3 4)</i></span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 <node CREATED="1359828038342" HGAP="17" ID="ID_1895265934" MODIFIED="1359896989217" VSHIFT="-2">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><span style="color: rgb(102, 204, 102)"><font color="rgb(102, 204, 102)">(</font></span><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">append</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font>a<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">5</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">6</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#xd;&#xd;
- <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: (1 2 3 a 5 6)</i></span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"><span style="color: rgb(102, 204, 102)"><font color="rgb(102, 204, 102)">(</font></span><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">append</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font>a<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font> '<font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">5</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">6</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font>&#13;&#13;
+ <font color="rgb(128, 128, 128)"><span style="font-style: italic; color: rgb(128, 128, 128)"><i>;Output: (1 2 3 a 5 6)</i></span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -998,83 +998,83 @@
 <node CREATED="1359897350828" ID="ID_1675101217" MODIFIED="1359897712753" TEXT="similar to quote, except for comma and comma-at interpolations."/>
 <node CREATED="1359897714905" ID="ID_149269192" MODIFIED="1388796514897" TEXT="comma(,) interpolations (list fold)">
 <node CREATED="1359897939855" ID="ID_1732669666" MODIFIED="1359898651208">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define foo '(a b c))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define bar '(1 2 3))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; foo&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(a b c)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; bar&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(1 2 3)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; `(,foo,bar)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '((a b c) (1 2 3))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt;(scheme)&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define foo '(a b c))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define bar '(1 2 3))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; foo&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(a b c)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; bar&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(1 2 3)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; `(,foo,bar)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '((a b c) (1 2 3))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt;(scheme)&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
 <node CREATED="1359897737193" ID="ID_462543437" MODIFIED="1425750032020" TEXT="comma-at(,@) interpolations (list unfold)">
 <node CREATED="1359897942727" ID="ID_1479710785" MODIFIED="1359898802672">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define foo '(a b c))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define bar '(1 2 3))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; foo&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(a b c)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; bar&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(1 2 3)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; `(,foo,bar)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '((a b c) (1 2 3))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; `(,@foo,@bar)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      '(a b c 1 2 3)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (scheme)&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define foo '(a b c))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define bar '(1 2 3))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; foo&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(a b c)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; bar&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(1 2 3)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; `(,foo,bar)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '((a b c) (1 2 3))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; `(,@foo,@bar)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      '(a b c 1 2 3)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (scheme)&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1118,15 +1118,15 @@
 <node CREATED="1359826753185" ID="ID_112313786" MODIFIED="1359826754201" TEXT="&quot;special forms&quot;">
 <node CREATED="1359826763687" ID="ID_1340550972" MODIFIED="1359826764588" TEXT="provide Lisp&apos;s control structure">
 <node CREATED="1359826822752" ID="ID_1445679598" MODIFIED="1359826828901">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"> <font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">if</span></font> <font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">nil</span></font>&#xd;&#xd;
-     <font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">list</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font> <font color="rgb(255, 0, 0)"><span style="color: rgb(255, 0, 0)">"foo"</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font>&#xd;&#xd;
-     <font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">list</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">4</span></font> <font color="rgb(255, 0, 0)"><span style="color: rgb(255, 0, 0)">"bar"</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font></pre>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <pre style="margin-left: 0px; vertical-align: top; background-color: rgb(249, 249, 249); text-transform: none; margin-bottom: 0px; word-spacing: 0px; background-image: none; margin-right: 0px; padding-right: 0px; border: 0px none white; padding-bottom: 0px; padding-left: 0px; font-variant: normal; padding-top: 0px; text-indent: 0px; line-height: 1.2em; font-style: normal; margin-top: 0px; font-size: 1em; font-weight: normal; text-align: start; color: black; font-family: monospace; letter-spacing: normal"> <font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">if</span></font> <font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">nil</span></font>&#13;&#13;
+     <font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">list</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">1</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">2</span></font> <font color="rgb(255, 0, 0)"><span style="color: rgb(255, 0, 0)">"foo"</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span></font>&#13;&#13;
+     <font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">(</span></font><font color="rgb(177, 177, 0)"><span style="color: rgb(177, 177, 0)">list</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">3</span></font> <font color="rgb(204, 102, 204)"><span style="color: rgb(204, 102, 204)">4</span></font> <font color="rgb(255, 0, 0)"><span style="color: rgb(255, 0, 0)">"bar"</span></font><font color="rgb(102, 204, 102)"><span style="color: rgb(102, 204, 102)">)</span><span style="color: rgb(102, 204, 102)">)</span></font></pre>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1167,30 +1167,30 @@
 <node CREATED="1359907821146" ID="ID_1901923692" MODIFIED="1426771092872" TEXT="branch">
 <node CREATED="1359829264724" FOLDED="true" ID="ID_795298287" MODIFIED="1426771098002" TEXT="&quot;cond&quot;">
 <node CREATED="1359908418576" ID="ID_332759837" MODIFIED="1359908457547">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define cmp (lambda (x y) (cond ((&gt; x y) 'gt)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((&lt; x y) 'lt)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(else 'eq))))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (cmp 1 2)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'lt&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt;&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define cmp (lambda (x y) (cond ((&gt; x y) 'gt)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;((&lt; x y) 'lt)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(else 'eq))))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (cmp 1 2)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'lt&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt;&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 <node CREATED="1359999528170" ID="ID_1953087051" MODIFIED="1359999532355" TEXT="scheme"/>
 </node>
@@ -1207,27 +1207,27 @@
 </node>
 <node CREATED="1359829268075" ID="ID_1342372036" MODIFIED="1359908054480" TEXT="&quot;if-then-else&quot;">
 <node CREATED="1359908603198" ID="ID_410536189" MODIFIED="1359908614790">
-<richcontent TYPE="NODE"><html>&#xd;&#xd;
-  <head>&#xd;&#xd;
-    &#xd;&#xd;
-  </head>&#xd;&#xd;
-  <body>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (define gt (lambda (a b) (if (&gt; a b) 'true 'false)))&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (gt 1 2)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'false&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      &gt; (gt 2 1)&#xd;&#xd;
-    </p>&#xd;&#xd;
-    <p>&#xd;&#xd;
-      'true&#xd;&#xd;
-    </p>&#xd;&#xd;
-  </body>&#xd;&#xd;
+<richcontent TYPE="NODE"><html>&#13;&#13;
+  <head>&#13;&#13;
+    &#13;&#13;
+  </head>&#13;&#13;
+  <body>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (define gt (lambda (a b) (if (&gt; a b) 'true 'false)))&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (gt 1 2)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'false&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      &gt; (gt 2 1)&#13;&#13;
+    </p>&#13;&#13;
+    <p>&#13;&#13;
+      'true&#13;&#13;
+    </p>&#13;&#13;
+  </body>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
@@ -1584,7 +1584,7 @@
       #&lt;FUNCTION DOUBLE (X) (DECLARE (SYSTEM::IN-DEFUN DOUBLE))
     </p>
     <p>
-      &#160;&#160;(BLOCK DOUBLE (* X 2))&gt;
+      &#xa0;&#xa0;(BLOCK DOUBLE (* X 2))&gt;
     </p>
     <p>
       Break 15 [16]&gt; (setq dbl1 #'double)
@@ -1593,7 +1593,7 @@
       #&lt;FUNCTION DOUBLE (X) (DECLARE (SYSTEM::IN-DEFUN DOUBLE))
     </p>
     <p>
-      &#160;&#160;(BLOCK DOUBLE (* X 2))&gt;
+      &#xa0;&#xa0;(BLOCK DOUBLE (* X 2))&gt;
     </p>
     <p>
       Break 15 [16]&gt; (apply dbl0 '(10))
@@ -1611,13 +1611,13 @@
       Break 15 [16]&gt; (func
     </p>
     <p>
-      funcall&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;function-keywords
+      funcall&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;function-keywords
     </p>
     <p>
-      funcallable-standard-instance-access&#160;&#160;function-lambda-expression
+      funcallable-standard-instance-access&#xa0;&#xa0;function-lambda-expression
     </p>
     <p>
-      function&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;functionp
+      function&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;functionp
     </p>
     <p>
       Break 15 [16]&gt; (funcall dbl0 10)
@@ -1666,16 +1666,16 @@
       (labels ((factorial (n)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(if (= n 0)
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(if (= n 0)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(* n (factorial (- n 1)))))
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(* n (factorial (- n 1)))))
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(factorial 4))
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(factorial 4))
     </p>
   </body>
 </html></richcontent>
@@ -1692,13 +1692,13 @@
       (let factorial ((n 4))
     </p>
     <p>
-      &#160;&#160;(if (= n 0)
+      &#xa0;&#xa0;(if (= n 0)
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;1
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;1
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;(* n (factorial (- n 1)))))
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;(* n (factorial (- n 1)))))
     </p>
   </body>
 </html></richcontent>
