@@ -711,7 +711,7 @@
 <node CREATED="1393643781615" ID="ID_976800980" MODIFIED="1393643782567" TEXT="case"/>
 <node CREATED="1393643782823" ID="ID_916389073" MODIFIED="1393643783573" TEXT="if"/>
 </node>
-<node CREATED="1388825021533" FOLDED="true" ID="ID_564441274" MODIFIED="1426771212809" TEXT="loop">
+<node CREATED="1388825021533" ID="ID_564441274" MODIFIED="1564415277373" TEXT="loop">
 <node CREATED="1388825232918" ID="ID_1174490374" MODIFIED="1388825703060" TEXT="(do (  (sum 0 (+ sum i))      (i 1 (+ i 1)))   ((&gt; i 100) sum)&apos;())"/>
 <node CREATED="1388825778196" ID="ID_447485133" MODIFIED="1388825779331" TEXT="do ((&lt;variable1&gt; &lt;init1&gt; &lt;step1&gt;)       ...)    (&lt;test&gt; &lt;expression&gt; ...)  &lt;command&gt; ...)"/>
 </node>
