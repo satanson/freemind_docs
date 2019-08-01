@@ -735,7 +735,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564640625574" ID="ID_310227638" MODIFIED="1564640627846" POSITION="right" TEXT="phoenix">
+<node CREATED="1564640625574" FOLDED="true" ID="ID_310227638" MODIFIED="1564643213460" POSITION="right" TEXT="phoenix">
 <node CREATED="1564640630755" ID="ID_1299344536" MODIFIED="1564640630755" TEXT="0: jdbc:phoenix:zk0:2181&gt; !help"/>
 <node CREATED="1564640639146" ID="ID_1656050774" MODIFIED="1564640666652" TEXT="!cmd">
 <node CREATED="1564640969972" ID="ID_921099960" MODIFIED="1564641166683" TEXT="connections">
@@ -879,6 +879,57 @@
 <node CREATED="1564640630763" ID="ID_1469458423" MODIFIED="1564641824450" TEXT="!sql                Execute a SQL command"/>
 </node>
 </node>
+</node>
+<node CREATED="1564643213875" ID="ID_185306322" MODIFIED="1564643216789" POSITION="right" TEXT="hbase shell">
+<node CREATED="1564643217934" MODIFIED="1564643217934" TEXT="COMMAND GROUPS:">
+<node CREATED="1564643217934" FOLDED="true" ID="ID_840834639" MODIFIED="1564643242983" TEXT="general">
+<node CREATED="1564643217934" ID="ID_1153573549" MODIFIED="1564643237840" TEXT="processlist, status, table_help, version, whoami"/>
+</node>
+<node CREATED="1564643217934" ID="ID_507261757" MODIFIED="1564643246341" TEXT="ddl">
+<node CREATED="1564643217934" ID="ID_756899188" MODIFIED="1564643253736" TEXT="alter, alter_async, alter_status, clone_table_schema, create, describe, disable, disable_all, drop, drop_all, enable, enable_all, exists, get_table, is_disabled, is_enabled, list, list_regions, locate_region, show_filters"/>
+</node>
+<node CREATED="1564643217936" ID="ID_1200828245" MODIFIED="1564643217936" TEXT="Group name: namespace"/>
+<node CREATED="1564643217936" MODIFIED="1564643217936" TEXT="Commands: alter_namespace, create_namespace, describe_namespace, drop_namespace, list_namespace, list_namespace_tables"/>
+<node CREATED="1564643217939" MODIFIED="1564643217939" TEXT="Group name: dml"/>
+<node CREATED="1564643217939" MODIFIED="1564643217939" TEXT="Commands: append, count, delete, deleteall, get, get_counter, get_splits, incr, put, scan, truncate, truncate_preserve"/>
+<node CREATED="1564643217940" MODIFIED="1564643217940" TEXT="Group name: tools"/>
+<node CREATED="1564643217940" MODIFIED="1564643217940" TEXT="Commands: assign, balance_switch, balancer, balancer_enabled, catalogjanitor_enabled, catalogjanitor_run, catalogjanitor_switch, cleaner_chore_enabled, cleaner_chore_run, cleaner_chore_switch, clear_block_cache, clear_compaction_queues, clear_deadservers, close_region, compact, compact_rs, compaction_state, flush, is_in_maintenance_mode, list_deadservers, major_compact, merge_region, move, normalize, normalizer_enabled, normalizer_switch, split, splitormerge_enabled, splitormerge_switch, stop_master, stop_regionserver, trace, unassign, wal_roll, zk_dump"/>
+<node CREATED="1564643217941" MODIFIED="1564643217941" TEXT="Group name: replication"/>
+<node CREATED="1564643217941" MODIFIED="1564643217941" TEXT="Commands: add_peer, append_peer_exclude_namespaces, append_peer_exclude_tableCFs, append_peer_namespaces, append_peer_tableCFs, disable_peer, disable_table_replication, enable_peer, enable_table_replication, get_peer_config, list_peer_configs, list_peers, list_replicated_tables, remove_peer, remove_peer_exclude_namespaces, remove_peer_exclude_tableCFs, remove_peer_namespaces, remove_peer_tableCFs, set_peer_bandwidth, set_peer_exclude_namespaces, set_peer_exclude_tableCFs, set_peer_namespaces, set_peer_replicate_all, set_peer_serial, set_peer_tableCFs, show_peer_tableCFs, update_peer_config"/>
+<node CREATED="1564643217943" MODIFIED="1564643217943" TEXT="Group name: snapshots"/>
+<node CREATED="1564643217943" MODIFIED="1564643217943" TEXT="Commands: clone_snapshot, delete_all_snapshot, delete_snapshot, delete_table_snapshots, list_snapshots, list_table_snapshots, restore_snapshot, snapshot"/>
+<node CREATED="1564643217945" MODIFIED="1564643217945" TEXT="Group name: configuration"/>
+<node CREATED="1564643217945" MODIFIED="1564643217945" TEXT="Commands: update_all_config, update_config"/>
+<node CREATED="1564643217945" MODIFIED="1564643217945" TEXT="Group name: quotas"/>
+<node CREATED="1564643217945" MODIFIED="1564643217945" TEXT="Commands: list_quota_snapshots, list_quota_table_sizes, list_quotas, list_snapshot_sizes, set_quota"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Group name: security"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Commands: grant, list_security_capabilities, revoke, user_permission"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Group name: procedures"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Commands: list_locks, list_procedures"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Group name: visibility labels"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Commands: add_labels, clear_auths, get_auths, list_labels, set_auths, set_visibility"/>
+<node CREATED="1564643217947" MODIFIED="1564643217947" TEXT="Group name: rsgroup"/>
+<node CREATED="1564643217948" MODIFIED="1564643217948" TEXT="Commands: add_rsgroup, balance_rsgroup, get_rsgroup, get_server_rsgroup, get_table_rsgroup, list_rsgroups, move_namespaces_rsgroup, move_servers_namespaces_rsgroup, move_servers_rsgroup, move_servers_tables_rsgroup, move_tables_rsgroup, remove_rsgroup, remove_servers_rsgroup"/>
+</node>
+<node CREATED="1564643217949" MODIFIED="1564643217949" TEXT="SHELL USAGE:"/>
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="Quote all names in HBase Shell such as table and column names.  Commas delimit"/>
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="command parameters.  Type &lt;RETURN&gt; after entering a command to run it."/>
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="Dictionaries of configuration used in the creation and alteration of tables are"/>
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="Ruby Hashes. They look like this:">
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="{&apos;key1&apos; =&gt; &apos;value1&apos;, &apos;key2&apos; =&gt; &apos;value2&apos;, ...}"/>
+</node>
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="and are opened and closed with curley-braces.  Key/values are delimited by the"/>
+<node CREATED="1564643217950" MODIFIED="1564643217950" TEXT="&apos;=&gt;&apos; character combination.  Usually keys are predefined constants such as"/>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="NAME, VERSIONS, COMPRESSION, etc.  Constants do not need to be quoted.  Type"/>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="&apos;Object.constants&apos; to see a (messy) list of all constants in the environment."/>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="If you are using binary keys or values and need to enter them in the shell, use"/>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="double-quote&apos;d hexadecimal representation. For example:">
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="hbase&gt; get &apos;t1&apos;, &quot;key\x03\x3f\xcd&quot;"/>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="hbase&gt; get &apos;t1&apos;, &quot;key\003\023\011&quot;"/>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="hbase&gt; put &apos;t1&apos;, &quot;test\xef\xff&quot;, &apos;f1:&apos;, &quot;\x01\x33\x40&quot;"/>
+</node>
+<node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="The HBase shell is the (J)Ruby IRB with the above HBase-specific commands added."/>
+<node CREATED="1564643217952" LINK="http://hbase.apache.org/book.html" MODIFIED="1564643217952" TEXT="For more on the HBase Shell, see http://hbase.apache.org/book.html"/>
 </node>
 </node>
 </map>
