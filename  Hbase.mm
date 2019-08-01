@@ -735,5 +735,131 @@
 </node>
 </node>
 </node>
+<node CREATED="1564640625574" ID="ID_310227638" MODIFIED="1564640627846" POSITION="right" TEXT="phoenix">
+<node CREATED="1564640630755" ID="ID_1299344536" MODIFIED="1564640630755" TEXT="0: jdbc:phoenix:zk0:2181&gt; !help"/>
+<node CREATED="1564640639146" ID="ID_1656050774" MODIFIED="1564640666652" TEXT="!cmd">
+<node CREATED="1564640630755" ID="ID_1951005746" MODIFIED="1564640680817" TEXT="!all                Execute the specified SQL against all the current connections "/>
+<node CREATED="1564640630756" ID="ID_1102150390" MODIFIED="1564640630756" TEXT="!autocommit         Set autocommit mode on or off"/>
+<node CREATED="1564640630756" ID="ID_1999588277" MODIFIED="1564640630756" TEXT="!batch              Start or execute a batch of statements"/>
+<node CREATED="1564640630756" ID="ID_1385590647" MODIFIED="1564640630756" TEXT="!brief              Set verbose mode off"/>
+<node CREATED="1564640630756" ID="ID_1592217729" MODIFIED="1564640630756" TEXT="!call               Execute a callable statement"/>
+<node CREATED="1564640630756" ID="ID_1327348351" MODIFIED="1564640630756" TEXT="!close              Close the current connection to the database"/>
+<node CREATED="1564640630756" ID="ID_1249358454" MODIFIED="1564640630756" TEXT="!closeall           Close all current open connections"/>
+<node CREATED="1564640630756" ID="ID_794688375" MODIFIED="1564640630756" TEXT="!columns            List all the columns for the specified table"/>
+<node CREATED="1564640630756" ID="ID_797265691" MODIFIED="1564640630756" TEXT="!commit             Commit the current transaction (if autocommit is off)"/>
+<node CREATED="1564640630756" ID="ID_199558082" MODIFIED="1564640630756" TEXT="!connect            Open a new connection to the database."/>
+<node CREATED="1564640630756" ID="ID_1286060966" MODIFIED="1564640630756" TEXT="!dbinfo             Give metadata information about the database"/>
+<node CREATED="1564640630756" ID="ID_1593413374" MODIFIED="1564640630756" TEXT="!describe           Describe a table"/>
+<node CREATED="1564640630756" ID="ID_349078076" MODIFIED="1564640630756" TEXT="!dropall            Drop all tables in the current database"/>
+<node CREATED="1564640630757" ID="ID_1043896966" MODIFIED="1564640630757" TEXT="!exportedkeys       List all the exported keys for the specified table"/>
+<node CREATED="1564640630757" ID="ID_820458386" MODIFIED="1564640630757" TEXT="!go                 Select the current connection"/>
+<node CREATED="1564640630757" ID="ID_586376477" MODIFIED="1564640630757" TEXT="!help               Print a summary of command usage"/>
+<node CREATED="1564640630757" ID="ID_1481813703" MODIFIED="1564640630757" TEXT="!history            Display the command history"/>
+<node CREATED="1564640630757" ID="ID_1618095994" MODIFIED="1564640630757" TEXT="!importedkeys       List all the imported keys for the specified table"/>
+<node CREATED="1564640630757" ID="ID_543259134" MODIFIED="1564640630757" TEXT="!indexes            List all the indexes for the specified table"/>
+<node CREATED="1564640630757" ID="ID_1230522015" MODIFIED="1564640630757" TEXT="!isolation          Set the transaction isolation for this connection"/>
+<node CREATED="1564640630757" ID="ID_1047403087" MODIFIED="1564640630757" TEXT="!list               List the current connections"/>
+<node CREATED="1564640630757" ID="ID_760247369" MODIFIED="1564640630757" TEXT="!manual             Display the SQLLine manual"/>
+<node CREATED="1564640630757" ID="ID_9706443" MODIFIED="1564640630757" TEXT="!metadata           Obtain metadata information"/>
+<node CREATED="1564640630757" ID="ID_526010769" MODIFIED="1564640630757" TEXT="!nativesql          Show the native SQL for the specified statement"/>
+<node CREATED="1564640630757" ID="ID_1955959265" MODIFIED="1564640630757" TEXT="!outputformat       Set the output format for displaying results">
+<node CREATED="1564640630757" MODIFIED="1564640630757" TEXT="(table,vertical,csv,tsv,xmlattrs,xmlelements)"/>
+</node>
+<node CREATED="1564640630757" ID="ID_236019590" MODIFIED="1564640630757" TEXT="!primarykeys        List all the primary keys for the specified table"/>
+<node CREATED="1564640630758" ID="ID_1771873730" MODIFIED="1564640630758" TEXT="!procedures         List all the procedures"/>
+<node CREATED="1564640630758" ID="ID_1011636763" MODIFIED="1564640630758" TEXT="!properties         Connect to the database specified in the properties file(s)"/>
+<node CREATED="1564640630758" ID="ID_1369350844" MODIFIED="1564640630758" TEXT="!quit               Exits the program"/>
+<node CREATED="1564640630758" ID="ID_1234494298" MODIFIED="1564640630758" TEXT="!reconnect          Reconnect to the database"/>
+<node CREATED="1564640630758" ID="ID_105932185" MODIFIED="1564640630758" TEXT="!record             Record all output to the specified file"/>
+<node CREATED="1564640630758" ID="ID_1646041009" MODIFIED="1564640630758" TEXT="!rehash             Fetch table and column names for command completion"/>
+<node CREATED="1564640630758" ID="ID_1759606760" MODIFIED="1564640630758" TEXT="!rollback           Roll back the current transaction (if autocommit is off)"/>
+<node CREATED="1564640630758" ID="ID_1010836492" MODIFIED="1564640630758" TEXT="!run                Run a script from the specified file"/>
+<node CREATED="1564640630758" ID="ID_821278794" MODIFIED="1564640630758" TEXT="!save               Save the current variabes and aliases"/>
+<node CREATED="1564640630758" ID="ID_1456057079" MODIFIED="1564640630758" TEXT="!scan               Scan for installed JDBC drivers"/>
+<node CREATED="1564640630758" ID="ID_100158115" MODIFIED="1564640630758" TEXT="!script             Start saving a script to a file"/>
+<node CREATED="1564640630758" ID="ID_169703312" MODIFIED="1564640630758" TEXT="!set                Set a sqlline variable"/>
+</node>
+<node CREATED="1564640630758" ID="ID_1792422016" MODIFIED="1564640630758" TEXT="Variable        Value      Description"/>
+<node CREATED="1564640630758" ID="ID_767234899" MODIFIED="1564640630758" TEXT="=============== ========== ================================"/>
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="autoCommit      true/false Enable/disable automatic">
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="transaction commit"/>
+</node>
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="autoSave        true/false Automatically save preferences"/>
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="color           true/false Control whether color is used">
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="for display"/>
+</node>
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="fastConnect     true/false Skip building table/column list">
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="for tab-completion"/>
+</node>
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="force           true/false Continue running script even">
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="after errors"/>
+</node>
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="headerInterval  integer    The interval between which">
+<node CREATED="1564640630759" MODIFIED="1564640630759" TEXT="headers are displayed"/>
+</node>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="historyFile     path       File in which to save command">
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="history. Default is"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="$HOME/.sqlline/history (UNIX,"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="Linux, Mac OS),"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="$HOME/sqlline/history (Windows)"/>
+</node>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="incremental     true/false Do not receive all rows from">
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="server before printing the first"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="row. Uses fewer resources,"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="especially for long-running"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="queries, but column widths may"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="be incorrect."/>
+</node>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="isolation       LEVEL      Set transaction isolation level"/>
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="maxColumnWidth  integer    The maximum width to use when">
+<node CREATED="1564640630760" MODIFIED="1564640630760" TEXT="displaying columns"/>
+</node>
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="maxHeight       integer    The maximum height of the">
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="terminal"/>
+</node>
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="maxWidth        integer    The maximum width of the">
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="terminal"/>
+</node>
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="numberFormat    pattern    Format numbers using">
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="DecimalFormat pattern"/>
+</node>
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="outputFormat    table/vertical/csv/tsv Format mode for">
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="result display"/>
+</node>
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="propertiesFile  path       File from which SqlLine reads">
+<node CREATED="1564640630761" MODIFIED="1564640630761" TEXT="properties on startup; default is"/>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="$HOME/.sqlline/sqlline.properties"/>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="(UNIX, Linux, Mac OS),"/>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="$HOME/sqlline/sqlline.properties"/>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="(Windows)"/>
+</node>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="rowLimit        integer    Maximum number of rows returned">
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="from a query; zero means no"/>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="limit"/>
+</node>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="showElapsedTime true/false Display execution time when">
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="verbose"/>
+</node>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="showHeader      true/false Show column names in query">
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="results"/>
+</node>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="showNestedErrs  true/false Display nested errors"/>
+<node CREATED="1564640630762" MODIFIED="1564640630762" TEXT="showWarnings    true/false Display connection warnings"/>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="silent          true/false Be more silent"/>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="timeout         integer    Query timeout in seconds; less">
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="than zero means no timeout"/>
+</node>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="trimScripts     true/false Remove trailing spaces from">
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="lines read from script files"/>
+</node>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="verbose         true/false Show verbose error messages and">
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="debug info"/>
+</node>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="!sql                Execute a SQL command"/>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="!tables             List all the tables in the database"/>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="!typeinfo           Display the type map for the current connection"/>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="!verbose            Set verbose mode on"/>
+<node CREATED="1564640630763" MODIFIED="1564640630763" TEXT="Comments, bug reports, and patches go to ???"/>
+</node>
 </node>
 </map>
