@@ -743,22 +743,27 @@
 <node CREATED="1564640630756" ID="ID_1999588277" MODIFIED="1564640630756" TEXT="!batch              Start or execute a batch of statements"/>
 <node CREATED="1564640630756" ID="ID_1385590647" MODIFIED="1564640630756" TEXT="!brief              Set verbose mode off"/>
 <node CREATED="1564640630756" ID="ID_1592217729" MODIFIED="1564640630756" TEXT="!call               Execute a callable statement"/>
-<node CREATED="1564640630756" ID="ID_1327348351" MODIFIED="1564640630756" TEXT="!close              Close the current connection to the database"/>
-<node CREATED="1564640630756" ID="ID_1249358454" MODIFIED="1564640630756" TEXT="!closeall           Close all current open connections"/>
 <node CREATED="1564640630756" ID="ID_794688375" MODIFIED="1564640630756" TEXT="!columns            List all the columns for the specified table"/>
 <node CREATED="1564640630756" ID="ID_797265691" MODIFIED="1564640630756" TEXT="!commit             Commit the current transaction (if autocommit is off)"/>
-<node CREATED="1564640630756" ID="ID_199558082" MODIFIED="1564640630756" TEXT="!connect            Open a new connection to the database."/>
+<node CREATED="1564640969972" FOLDED="true" ID="ID_921099960" MODIFIED="1564641095012" TEXT="connections">
+<node CREATED="1564640630756" ID="ID_199558082" MODIFIED="1564640979970" TEXT="!connect            Open a new connection to the database.">
+<node CREATED="1564640956332" ID="ID_231255439" MODIFIED="1564640961943" TEXT="!connect jdbc:phoenix:zk0:2181"/>
+</node>
+<node CREATED="1564640630757" ID="ID_820458386" MODIFIED="1564640979969" TEXT="!go                 Select the current connection"/>
+<node CREATED="1564640630757" ID="ID_1047403087" MODIFIED="1564640988276" TEXT="!list               List the current connections"/>
+<node CREATED="1564640630756" ID="ID_1327348351" MODIFIED="1564641013514" TEXT="!close              Close the current connection to the database"/>
+<node CREATED="1564640630756" ID="ID_1249358454" MODIFIED="1564641016611" TEXT="!closeall           Close all current open connections"/>
+<node CREATED="1564640630758" ID="ID_1234494298" MODIFIED="1564641037068" TEXT="!reconnect          Reconnect to the database"/>
+</node>
 <node CREATED="1564640630756" ID="ID_1286060966" MODIFIED="1564640630756" TEXT="!dbinfo             Give metadata information about the database"/>
 <node CREATED="1564640630756" ID="ID_1593413374" MODIFIED="1564640630756" TEXT="!describe           Describe a table"/>
 <node CREATED="1564640630756" ID="ID_349078076" MODIFIED="1564640630756" TEXT="!dropall            Drop all tables in the current database"/>
 <node CREATED="1564640630757" ID="ID_1043896966" MODIFIED="1564640630757" TEXT="!exportedkeys       List all the exported keys for the specified table"/>
-<node CREATED="1564640630757" ID="ID_820458386" MODIFIED="1564640630757" TEXT="!go                 Select the current connection"/>
 <node CREATED="1564640630757" ID="ID_586376477" MODIFIED="1564640630757" TEXT="!help               Print a summary of command usage"/>
 <node CREATED="1564640630757" ID="ID_1481813703" MODIFIED="1564640630757" TEXT="!history            Display the command history"/>
 <node CREATED="1564640630757" ID="ID_1618095994" MODIFIED="1564640630757" TEXT="!importedkeys       List all the imported keys for the specified table"/>
 <node CREATED="1564640630757" ID="ID_543259134" MODIFIED="1564640630757" TEXT="!indexes            List all the indexes for the specified table"/>
 <node CREATED="1564640630757" ID="ID_1230522015" MODIFIED="1564640630757" TEXT="!isolation          Set the transaction isolation for this connection"/>
-<node CREATED="1564640630757" ID="ID_1047403087" MODIFIED="1564640630757" TEXT="!list               List the current connections"/>
 <node CREATED="1564640630757" ID="ID_760247369" MODIFIED="1564640630757" TEXT="!manual             Display the SQLLine manual"/>
 <node CREATED="1564640630757" ID="ID_9706443" MODIFIED="1564640630757" TEXT="!metadata           Obtain metadata information"/>
 <node CREATED="1564640630757" ID="ID_526010769" MODIFIED="1564640630757" TEXT="!nativesql          Show the native SQL for the specified statement"/>
@@ -769,7 +774,6 @@
 <node CREATED="1564640630758" ID="ID_1771873730" MODIFIED="1564640630758" TEXT="!procedures         List all the procedures"/>
 <node CREATED="1564640630758" ID="ID_1011636763" MODIFIED="1564640630758" TEXT="!properties         Connect to the database specified in the properties file(s)"/>
 <node CREATED="1564640630758" ID="ID_1369350844" MODIFIED="1564640630758" TEXT="!quit               Exits the program"/>
-<node CREATED="1564640630758" ID="ID_1234494298" MODIFIED="1564640630758" TEXT="!reconnect          Reconnect to the database"/>
 <node CREATED="1564640630758" ID="ID_105932185" MODIFIED="1564640630758" TEXT="!record             Record all output to the specified file"/>
 <node CREATED="1564640630758" ID="ID_1646041009" MODIFIED="1564640630758" TEXT="!rehash             Fetch table and column names for command completion"/>
 <node CREATED="1564640630758" ID="ID_1759606760" MODIFIED="1564640630758" TEXT="!rollback           Roll back the current transaction (if autocommit is off)"/>
