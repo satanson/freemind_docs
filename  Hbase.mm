@@ -968,7 +968,7 @@
 <node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc MoveServersAndTables(MoveServersAndTablesRequest)"/>
 <node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc RemoveServers(RemoveServersRequest)"/>
 </node>
-<node CREATED="1565264763667" ID="ID_792186370" MODIFIED="1565265409348" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
+<node CREATED="1565264763667" FOLDED="true" ID="ID_792186370" MODIFIED="1565265443486" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetSchemaAlterStatus(GetSchemaAlterStatusRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableDescriptors(GetTableDescriptorsRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableNames(GetTableNamesRequest)"/>
