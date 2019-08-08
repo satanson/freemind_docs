@@ -931,8 +931,8 @@
 <node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="The HBase shell is the (J)Ruby IRB with the above HBase-specific commands added."/>
 <node CREATED="1564643217952" LINK="http://hbase.apache.org/book.html" MODIFIED="1564643217952" TEXT="For more on the HBase Shell, see http://hbase.apache.org/book.html"/>
 </node>
-<node CREATED="1565264759714" ID="ID_620447976" MODIFIED="1565264762437" POSITION="right" TEXT="protocol">
-<node CREATED="1565265046035" ID="ID_135106258" MODIFIED="1565265047606" TEXT="Master">
+<node CREATED="1565264759714" ID="ID_620447976" MODIFIED="1565265403041" POSITION="right" TEXT="protocol">
+<node CREATED="1565265046035" ID="ID_135106258" MODIFIED="1565265404185" TEXT="Master">
 <node CREATED="1565264763661" FOLDED="true" ID="ID_1205032942" MODIFIED="1565265049785" TEXT="Admin --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Admin.proto">
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetRegionInfo(GetRegionInfoRequest)"/>
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetStoreFile(GetStoreFileRequest)"/>
@@ -968,7 +968,7 @@
 <node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc MoveServersAndTables(MoveServersAndTablesRequest)"/>
 <node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc RemoveServers(RemoveServersRequest)"/>
 </node>
-<node CREATED="1565264763667" FOLDED="true" ID="ID_792186370" MODIFIED="1565265053636" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
+<node CREATED="1565264763667" ID="ID_792186370" MODIFIED="1565265409348" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetSchemaAlterStatus(GetSchemaAlterStatusRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableDescriptors(GetTableDescriptorsRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableNames(GetTableNamesRequest)"/>
@@ -1054,8 +1054,8 @@
 <node CREATED="1565264763689" MODIFIED="1565264763689" TEXT="rpc refreshHFiles(RefreshHFilesRequest)"/>
 </node>
 </node>
-<node CREATED="1565265056349" ID="ID_854306478" MODIFIED="1565265059406" TEXT="HRegionServer">
-<node CREATED="1565264763665" FOLDED="true" ID="ID_1257578673" MODIFIED="1565264857854" TEXT="Client --&gt; RegionServer: hbase-protocol-shaded/src/main/protobuf/Client.proto">
+<node CREATED="1565265056349" FOLDED="true" ID="ID_854306478" MODIFIED="1565265397969" TEXT="HRegionServer">
+<node CREATED="1565264763665" FOLDED="true" ID="ID_1257578673" MODIFIED="1565265256703" TEXT="Client --&gt; RegionServer: hbase-protocol-shaded/src/main/protobuf/Client.proto">
 <node CREATED="1565264763665" MODIFIED="1565264763665" TEXT="rpc Get(GetRequest)"/>
 <node CREATED="1565264763665" MODIFIED="1565264763665" TEXT="rpc Mutate(MutateRequest)"/>
 <node CREATED="1565264763665" MODIFIED="1565264763665" TEXT="rpc Scan(ScanRequest)"/>
@@ -1075,13 +1075,21 @@
 <node CREATED="1565264763682" MODIFIED="1565264763682" TEXT="rpc ReportRegionSpaceUse(RegionSpaceUseReportRequest)"/>
 <node CREATED="1565264763683" MODIFIED="1565264763683" TEXT="rpc ReportProcedureDone(ReportProcedureDoneRequest)"/>
 </node>
+<node CREATED="1565264763693" ID="ID_753869544" MODIFIED="1565265347804" TEXT="hbase-protocol/src/main/protobuf/MultiRowMutation.proto">
+<node CREATED="1565264763693" ID="ID_635014243" MODIFIED="1565264763693" TEXT="rpc MutateRows(MutateRowsRequest)"/>
 </node>
-<node CREATED="1565264763666" FOLDED="true" ID="ID_95880349" MODIFIED="1565265066034" TEXT="hbase-protocol-shaded/src/main/protobuf/LockService.proto">
+<node CREATED="1565264763693" ID="ID_1141873321" MODIFIED="1565265347803" TEXT="hbase-protocol/src/main/protobuf/RowProcessor.proto">
+<node CREATED="1565264763693" ID="ID_1482800891" MODIFIED="1565264763693" TEXT="rpc Process(ProcessRequest) returns (ProcessResponse);"/>
+</node>
+</node>
+<node CREATED="1565265387367" ID="ID_38665264" MODIFIED="1565265391364" TEXT="LockService">
+<node CREATED="1565264763666" FOLDED="true" ID="ID_95880349" MODIFIED="1565265392330" TEXT="hbase-protocol-shaded/src/main/protobuf/LockService.proto">
 <node CREATED="1565264763666" MODIFIED="1565264763666" TEXT="rpc RequestLock(LockRequest) returns(LockResponse);"/>
 <node CREATED="1565264763666" MODIFIED="1565264763666" TEXT="rpc LockHeartbeat(LockHeartbeatRequest) returns(LockHeartbeatResponse);"/>
 </node>
-<node CREATED="1565265116378" FOLDED="true" ID="ID_1381668258" MODIFIED="1565265124303" TEXT="Test">
-<node CREATED="1565264763683" FOLDED="true" ID="ID_199198827" MODIFIED="1565265119564" TEXT="hbase-protocol-shaded/src/main/protobuf/test_rpc_service.proto">
+</node>
+<node CREATED="1565265116378" FOLDED="true" ID="ID_1381668258" MODIFIED="1565265394564" TEXT="Test">
+<node CREATED="1565264763683" ID="ID_199198827" MODIFIED="1565265366654" TEXT="hbase-protocol-shaded/src/main/protobuf/test_rpc_service.proto">
 <node CREATED="1565264763683" MODIFIED="1565264763683" TEXT="rpc ping(EmptyRequestProto) returns (EmptyResponseProto);"/>
 <node CREATED="1565264763683" MODIFIED="1565264763683" TEXT="rpc echo(EchoRequestProto) returns (EchoResponseProto);"/>
 <node CREATED="1565264763683" MODIFIED="1565264763683" TEXT="rpc error(EmptyRequestProto) returns (EmptyResponseProto);"/>
@@ -1092,8 +1100,15 @@
 <node CREATED="1565264763686" MODIFIED="1565264763686" TEXT="rpc dummyCall(DummyRequest) returns(DummyResponse);"/>
 <node CREATED="1565264763687" MODIFIED="1565264763687" TEXT="rpc dummyThrow(DummyRequest) returns(DummyResponse);"/>
 </node>
+<node CREATED="1565264763697" ID="ID_895638547" MODIFIED="1565265377106" TEXT="hbase-protocol/src/main/protobuf/PingProtocol.proto">
+<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc ping(PingRequest) returns(PingResponse);"/>
+<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc count(CountRequest) returns(CountResponse);"/>
+<node CREATED="1565264763698" MODIFIED="1565264763698" TEXT="rpc increment(IncrementCountRequest) returns(IncrementCountResponse);"/>
+<node CREATED="1565264763698" MODIFIED="1565264763698" TEXT="rpc hello(HelloRequest) returns(HelloResponse);"/>
+<node CREATED="1565264763698" MODIFIED="1565264763698" TEXT="rpc noop(NoopRequest) returns(NoopResponse);"/>
 </node>
-<node CREATED="1565265183250" ID="ID_71991373" MODIFIED="1565265224998" TEXT="Security">
+</node>
+<node CREATED="1565265183250" FOLDED="true" ID="ID_71991373" MODIFIED="1565265337340" TEXT="Security">
 <node CREATED="1565264763692" ID="ID_133052146" MODIFIED="1565264763692" TEXT="hbase-protocol/src/main/protobuf/Authentication.proto">
 <node CREATED="1565264763692" MODIFIED="1565264763692" TEXT="rpc GetAuthenticationToken(GetAuthenticationTokenRequest)"/>
 <node CREATED="1565264763693" MODIFIED="1565264763693" TEXT="rpc WhoAmI(WhoAmIRequest)"/>
@@ -1103,6 +1118,13 @@
 <node CREATED="1565264763681" MODIFIED="1565264763681" TEXT="rpc Revoke(RevokeRequest)"/>
 <node CREATED="1565264763681" MODIFIED="1565264763681" TEXT="rpc GetUserPermissions(GetUserPermissionsRequest)"/>
 <node CREATED="1565264763681" MODIFIED="1565264763681" TEXT="rpc CheckPermissions(CheckPermissionsRequest)"/>
+</node>
+<node CREATED="1565264763696" ID="ID_478339601" MODIFIED="1565265334794" TEXT="hbase-protocol/src/main/protobuf/VisibilityLabels.proto">
+<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="rpc addLabels(VisibilityLabelsRequest)"/>
+<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc setAuths(SetAuthsRequest)"/>
+<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc clearAuths(SetAuthsRequest)"/>
+<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc getAuths(GetAuthsRequest)"/>
+<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc listLabels(ListLabelsRequest)"/>
 </node>
 </node>
 <node CREATED="1565265092277" FOLDED="true" ID="ID_41813671" MODIFIED="1565265137061" TEXT="Aggregation">
@@ -1138,53 +1160,11 @@
 <node CREATED="1565264763689" MODIFIED="1565264763689" TEXT="rpc CleanupBulkLoad(CleanupBulkLoadRequest)"/>
 </node>
 </node>
+<node CREATED="1565265235862" FOLDED="true" ID="ID_1415612946" MODIFIED="1565265395820" TEXT="Misc">
 <node CREATED="1565264763690" ID="ID_1018733533" MODIFIED="1565264763690" TEXT="hbase-examples/src/main/protobuf/Examples.proto">
 <node CREATED="1565264763690" MODIFIED="1565264763690" TEXT="rpc getRowCount(CountRequest)"/>
 <node CREATED="1565264763690" MODIFIED="1565264763690" TEXT="rpc getKeyValueCount(CountRequest)"/>
 </node>
-<node CREATED="1565264763693" ID="ID_753869544" MODIFIED="1565264763693" TEXT="hbase-protocol/src/main/protobuf/MultiRowMutation.proto">
-<node CREATED="1565264763693" MODIFIED="1565264763693" TEXT="rpc MutateRows(MutateRowsRequest)"/>
-</node>
-<node CREATED="1565264763693" MODIFIED="1565264763693" TEXT="hbase-protocol/src/main/protobuf/RowProcessor.proto">
-<node CREATED="1565264763693" MODIFIED="1565264763693" TEXT="rpc Process(ProcessRequest) returns (ProcessResponse);"/>
-</node>
-<node CREATED="1565264763693" MODIFIED="1565264763693" TEXT="hbase-protocol/src/main/protobuf/test_rpc_service.proto">
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="rpc ping(EmptyRequestProto) returns (EmptyResponseProto);"/>
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="rpc echo(EchoRequestProto) returns (EchoResponseProto);"/>
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="rpc error(EmptyRequestProto) returns (EmptyResponseProto);"/>
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="rpc pause(PauseRequestProto) returns (EmptyResponseProto);"/>
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="rpc addr(EmptyRequestProto) returns (AddrResponseProto);"/>
-</node>
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="hbase-protocol/src/main/protobuf/Client.proto">
-<node CREATED="1565264763694" MODIFIED="1565264763694" TEXT="rpc Get(GetRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc Mutate(MutateRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc Scan(ScanRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc BulkLoadHFile(BulkLoadHFileRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc PrepareBulkLoad(PrepareBulkLoadRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc CleanupBulkLoad(CleanupBulkLoadRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc ExecService(CoprocessorServiceRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc ExecRegionServerService(CoprocessorServiceRequest)"/>
-<node CREATED="1565264763695" MODIFIED="1565264763695" TEXT="rpc Multi(MultiRequest)"/>
-</node>
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="hbase-protocol/src/main/protobuf/AccessControl.proto">
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="rpc Grant(GrantRequest)"/>
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="rpc Revoke(RevokeRequest)"/>
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="rpc GetUserPermissions(GetUserPermissionsRequest)"/>
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="rpc CheckPermissions(CheckPermissionsRequest)"/>
-</node>
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="hbase-protocol/src/main/protobuf/VisibilityLabels.proto">
-<node CREATED="1565264763696" MODIFIED="1565264763696" TEXT="rpc addLabels(VisibilityLabelsRequest)"/>
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc setAuths(SetAuthsRequest)"/>
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc clearAuths(SetAuthsRequest)"/>
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc getAuths(GetAuthsRequest)"/>
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc listLabels(ListLabelsRequest)"/>
-</node>
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="hbase-protocol/src/main/protobuf/PingProtocol.proto">
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc ping(PingRequest) returns(PingResponse);"/>
-<node CREATED="1565264763697" MODIFIED="1565264763697" TEXT="rpc count(CountRequest) returns(CountResponse);"/>
-<node CREATED="1565264763698" MODIFIED="1565264763698" TEXT="rpc increment(IncrementCountRequest) returns(IncrementCountResponse);"/>
-<node CREATED="1565264763698" MODIFIED="1565264763698" TEXT="rpc hello(HelloRequest) returns(HelloResponse);"/>
-<node CREATED="1565264763698" MODIFIED="1565264763698" TEXT="rpc noop(NoopRequest) returns(NoopResponse);"/>
 </node>
 </node>
 </node>
