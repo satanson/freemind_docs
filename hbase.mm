@@ -1,7 +1,7 @@
-<map version="1.0.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1420789458915" ID="ID_965629632" MODIFIED="1420789464428" TEXT="hbase">
-<node CREATED="1420790099407" ID="ID_74175376" MODIFIED="1421214595206" POSITION="right" TEXT="conf">
+<node CREATED="1420790099407" FOLDED="true" ID="ID_74175376" MODIFIED="1565264747226" POSITION="right" TEXT="conf">
 <node CREATED="1421030276764" FOLDED="true" ID="ID_1513296927" MODIFIED="1421054002915" TEXT="considerations/properties">
 <node CREATED="1420790354617" ID="ID_980085499" MODIFIED="1421030289783" TEXT="data location"/>
 <node CREATED="1420790376951" ID="ID_722308636" MODIFIED="1421030289778" TEXT="metadata location"/>
@@ -181,7 +181,7 @@
           </p>
         </div>
         <p>
-          If everything is set up correctly, you should be able to connect to the UI for the Master<span class="Apple-converted-space">&#160;</span><code class="literal">http://node-a.example.com:60110/</code><span class="Apple-converted-space">&#160;</span>or the secondary master at<span class="Apple-converted-space">&#160;</span><code class="literal">http://node-b.example.com:60110/</code><span class="Apple-converted-space">&#160;</span>for the secondary master, using a web browser. If you can connect via<code class="code">localhost</code><span class="Apple-converted-space">&#160;</span>but not from another host, check your firewall rules. You can see the web UI for each of the RegionServers at port 60130 of their IP addresses, or by clicking their links in the web UI for the Master.
+          If everything is set up correctly, you should be able to connect to the UI for the Master<span class="Apple-converted-space">&#xa0;</span><code class="literal">http://node-a.example.com:60110/</code><span class="Apple-converted-space">&#xa0;</span>or the secondary master at<span class="Apple-converted-space">&#xa0;</span><code class="literal">http://node-b.example.com:60110/</code><span class="Apple-converted-space">&#xa0;</span>for the secondary master, using a web browser. If you can connect via<code class="code">localhost</code><span class="Apple-converted-space">&#xa0;</span>but not from another host, check your firewall rules. You can see the web UI for each of the RegionServers at port 60130 of their IP addresses, or by clicking their links in the web UI for the Master.
         </p>
       </li>
     </ul>
@@ -191,7 +191,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1420790151840" ID="ID_1343895137" MODIFIED="1457424421540" POSITION="right" TEXT="architecture">
+<node CREATED="1420790151840" FOLDED="true" ID="ID_1343895137" MODIFIED="1565264743129" POSITION="right" TEXT="architecture">
 <node CREATED="1420790203210" ID="ID_164515338" MODIFIED="1420790223816" TEXT="namespace/metadata">
 <node CREATED="1420790715636" ID="ID_326958647" MODIFIED="1420790718944" TEXT="metadata">
 <node CREATED="1420790635579" ID="ID_1206969106" MODIFIED="1420790722401" TEXT="db instance"/>
@@ -219,7 +219,7 @@
 <node CREATED="1420795122628" ID="ID_418470026" MODIFIED="1420795145086" TEXT="versions stored in descend timestamp order"/>
 <node CREATED="1420795147402" ID="ID_1211072055" MODIFIED="1420795177602" TEXT="RegionServer/Client specify timestamp"/>
 <node COLOR="#990000" CREATED="1420795178987" ID="ID_530802150" MODIFIED="1420795284489" TEXT="version maintenance">
-<font BOLD="true" NAME="Courier New" SIZE="12"/>
+<font BOLD="true" NAME="Dialog" SIZE="12"/>
 <node CREATED="1420795288635" ID="ID_1349336366" MODIFIED="1420805666280" TEXT="how many verions kept ?"/>
 <node CREATED="1420795340094" ID="ID_608777843" MODIFIED="1420805674599" TEXT="how to collect deprecated/obsolete/stale versions ? "/>
 </node>
@@ -263,7 +263,7 @@
 <node CREATED="1420997719541" ID="ID_527808106" MODIFIED="1420999398456" TEXT="Cell: uninterpreted byte array"/>
 </node>
 <node COLOR="#990000" CREATED="1420791672400" FOLDED="true" ID="ID_19153534" MODIFIED="1420996313161" TEXT="schema-free">
-<font BOLD="true" NAME="Courier New" SIZE="12"/>
+<font BOLD="true" NAME="Dialog" SIZE="12"/>
 <node CREATED="1420791685576" ID="ID_1990624061" MODIFIED="1420791689979" TEXT="column family">
 <node CREATED="1420791696239" ID="ID_741930303" MODIFIED="1420791701348" TEXT="static"/>
 <node CREATED="1420791722159" ID="ID_277382399" MODIFIED="1420791776224" TEXT="should be rarely added,changed,deleted ">
@@ -311,7 +311,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1420790125197" ID="ID_108267221" MODIFIED="1421138374732" POSITION="right" TEXT="CRUD">
+<node CREATED="1420790125197" FOLDED="true" ID="ID_108267221" MODIFIED="1565264744280" POSITION="right" TEXT="CRUD">
 <node CREATED="1420790257203" ID="ID_1101479078" MODIFIED="1420790258705" TEXT="create">
 <node CREATED="1420790460888" ID="ID_1208864187" MODIFIED="1420790490619" TEXT="schema">
 <node CREATED="1420790492809" ID="ID_1230946831" MODIFIED="1420790494978" TEXT="db"/>
@@ -428,7 +428,7 @@
 </node>
 <node CREATED="1421038458674" ID="ID_864487680" MODIFIED="1421038459690" TEXT="Java native API"/>
 </node>
-<node CREATED="1420790172781" ID="ID_1551426473" MODIFIED="1421081104455" POSITION="right" TEXT="cluster replication">
+<node CREATED="1420790172781" FOLDED="true" ID="ID_1551426473" MODIFIED="1565264745728" POSITION="right" TEXT="cluster replication">
 <node CREATED="1421079537391" ID="ID_1328674238" MODIFIED="1421079538460" TEXT="write-ahead log (WAL)"/>
 <node CREATED="1421079590511" ID="ID_312539535" MODIFIED="1421079599599" TEXT="use cases">
 <node CREATED="1421079600498" MODIFIED="1421079600498">
@@ -488,7 +488,7 @@
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Simsun" size="medium">&#160;When the source receives an edit to a column family with replication enabled, that edit is propagated to all destination clusters using the WAL for that column family on the RegionServer managing the relevant region</font>
+      <font color="rgb(0, 0, 0)" face="Simsun" size="medium">&#xa0;When the source receives an edit to a column family with replication enabled, that edit is propagated to all destination clusters using the WAL for that column family on the RegionServer managing the relevant region</font>
     </p>
   </body>
 </html></richcontent>
@@ -505,7 +505,7 @@
     
   </head>
   <body>
-    <span style="font-size: medium; font-family: Simsun; letter-spacing: normal; display: inline !important; text-align: start; float: none; background-color: rgb(255, 255, 255); font-weight: normal; font-variant: normal; line-height: 15.199999809265137px; white-space: normal; font-style: normal; text-indent: 0px; color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="Simsun" size="medium">HBase replication borrows many concepts from the</font></span><font color="rgb(0, 0, 0)" face="Simsun" size="medium"><span class="Apple-converted-space">&#160;</span><em class="firstterm" style="font-size: medium; font-family: Simsun; letter-spacing: normal; text-align: start; font-weight: normal; background-color: rgb(255, 255, 255); font-variant: normal; line-height: 15.199999809265137px; white-space: normal; text-indent: 0px; color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px"><a class="link" href="http://dev.mysql.com/doc/refman/5.1/en/replication-formats.html" target="_top">statement-based replication</a></em><span class="Apple-converted-space">&#160;</span><span style="font-size: medium; font-family: Simsun; letter-spacing: normal; display: inline !important; text-align: start; float: none; font-weight: normal; background-color: rgb(255, 255, 255); font-variant: normal; line-height: 15.199999809265137px; white-space: normal; font-style: normal; text-indent: 0px; color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px">design used by MySQL. Instead of SQL statements, entire WALEdits (consisting of multiple cell inserts coming from Put and Delete operations on the clients) are replicated in order to maintain atomicity.</span></font>
+    <span style="font-size: medium; font-family: Simsun; letter-spacing: normal; display: inline !important; text-align: start; float: none; background-color: rgb(255, 255, 255); font-weight: normal; font-variant: normal; line-height: 15.199999809265137px; white-space: normal; font-style: normal; text-indent: 0px; color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px"><font color="rgb(0, 0, 0)" face="Simsun" size="medium">HBase replication borrows many concepts from the</font></span><font color="rgb(0, 0, 0)" face="Simsun" size="medium"><span class="Apple-converted-space">&#xa0;</span><em class="firstterm" style="font-size: medium; font-family: Simsun; letter-spacing: normal; text-align: start; font-weight: normal; background-color: rgb(255, 255, 255); font-variant: normal; line-height: 15.199999809265137px; white-space: normal; text-indent: 0px; color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px"><a class="link" href="http://dev.mysql.com/doc/refman/5.1/en/replication-formats.html" target="_top">statement-based replication</a></em><span class="Apple-converted-space">&#xa0;</span><span style="font-size: medium; font-family: Simsun; letter-spacing: normal; display: inline !important; text-align: start; float: none; font-weight: normal; background-color: rgb(255, 255, 255); font-variant: normal; line-height: 15.199999809265137px; white-space: normal; font-style: normal; text-indent: 0px; color: rgb(0, 0, 0); text-transform: none; word-spacing: 0px">design used by MySQL. Instead of SQL statements, entire WALEdits (consisting of multiple cell inserts coming from Put and Delete operations on the clients) are replicated in order to maintain atomicity.</span></font>
   </body>
 </html></richcontent>
 </node>
