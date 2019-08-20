@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1564392080974" ID="ID_536292209" MODIFIED="1564561724394" TEXT="hbase">
-<node CREATED="1564561704197" FOLDED="true" ID="ID_1363763349" MODIFIED="1564561726707" POSITION="right" TEXT="configurations">
-<node CREATED="1564398311509" FOLDED="true" ID="ID_314432472" MODIFIED="1564561715522" TEXT="partitioning&amp;replication">
+<node CREATED="1564561704197" ID="ID_1363763349" MODIFIED="1565882585719" POSITION="right" TEXT="configurations">
+<node CREATED="1564398311509" FOLDED="true" ID="ID_314432472" MODIFIED="1565882610154" TEXT="partitioning&amp;replication">
 <node CREATED="1564392607866" ID="ID_1541849477" MODIFIED="1564399460130" TEXT="balancer">
 <node CREATED="1564392140281" ID="ID_690142276" MODIFIED="1564392140281" TEXT="hbase.master.balancer.maxRitPercent"/>
 <node CREATED="1564392140281" ID="ID_757017189" MODIFIED="1564392140281" TEXT="hbase.master.balancer.stochastic.localityCost"/>
@@ -42,7 +42,7 @@
 <node CREATED="1564392140288" ID="ID_207201621" MODIFIED="1564392794644" TEXT="hbase.normalizer.period"/>
 </node>
 </node>
-<node CREATED="1564392405821" FOLDED="true" ID="ID_159869946" MODIFIED="1564561715521" TEXT="coprocessor">
+<node CREATED="1564392405821" ID="ID_159869946" MODIFIED="1565882611431" TEXT="coprocessor">
 <node CREATED="1564392140270" ID="ID_718375737" MODIFIED="1564392140270" TEXT="hbase.coprocessor.abortonerror"/>
 <node CREATED="1564392140270" ID="ID_1751188206" MODIFIED="1564392140270" TEXT="hbase.coprocessor.enabled"/>
 <node CREATED="1564392140270" ID="ID_140625207" MODIFIED="1564392140270" TEXT="hbase.coprocessor.master.classes"/>
@@ -54,7 +54,7 @@
 <node CREATED="1564392140271" ID="ID_496664916" MODIFIED="1564392140271" TEXT="hbase.coprocessor.wal.classes"/>
 <node CREATED="1564392140272" ID="ID_349685294" MODIFIED="1564392449722" TEXT="hbase.dynamic.jars.dir"/>
 </node>
-<node CREATED="1564398368515" FOLDED="true" ID="ID_762236096" MODIFIED="1564561715521" TEXT="performance tuning">
+<node CREATED="1564398368515" FOLDED="true" ID="ID_762236096" MODIFIED="1565882977418" TEXT="performance tuning">
 <node CREATED="1564399155125" ID="ID_1699955046" MODIFIED="1564399165454" TEXT="cache local hdfs file">
 <node CREATED="1564392140295" ID="ID_1678317154" MODIFIED="1564399166358" TEXT="hbase.regionserver.percentFilesLocal"/>
 </node>
@@ -151,7 +151,7 @@
 <node CREATED="1564392140303" ID="ID_1964136383" MODIFIED="1564393915200" TEXT="hbase.table.max.rowsize"/>
 <node CREATED="1564392140295" ID="ID_480030392" MODIFIED="1564394229069" TEXT="hbase.regionserver.port"/>
 </node>
-<node CREATED="1564392488613" FOLDED="true" ID="ID_1414863976" MODIFIED="1564561715519" TEXT="storefile/hfile">
+<node CREATED="1564392488613" ID="ID_1414863976" MODIFIED="1565882981200" TEXT="storefile/hfile">
 <node CREATED="1564392140272" ID="ID_452733562" MODIFIED="1564392140272" TEXT="hbase.hfile.compaction.discharger.interval"/>
 <node CREATED="1564392140273" ID="ID_1682841058" MODIFIED="1564392140273" TEXT="hbase.hfile.compactions.discharger.interval"/>
 <node CREATED="1564392140273" ID="ID_252451205" MODIFIED="1564392140273" TEXT="hbase.hregion.majorcompaction"/>
@@ -735,7 +735,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564640625574" ID="ID_310227638" MODIFIED="1565307435277" POSITION="right" TEXT="phoenix">
+<node CREATED="1564640625574" FOLDED="true" ID="ID_310227638" MODIFIED="1565880123589" POSITION="right" TEXT="phoenix">
 <node CREATED="1564640630755" ID="ID_1299344536" MODIFIED="1564640630755" TEXT="0: jdbc:phoenix:zk0:2181&gt; !help"/>
 <node CREATED="1564640639146" ID="ID_1656050774" MODIFIED="1564640666652" TEXT="!cmd">
 <node CREATED="1564640969972" ID="ID_921099960" MODIFIED="1564641166683" TEXT="connections">
@@ -931,9 +931,9 @@
 <node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="The HBase shell is the (J)Ruby IRB with the above HBase-specific commands added."/>
 <node CREATED="1564643217952" LINK="http://hbase.apache.org/book.html" MODIFIED="1564643217952" TEXT="For more on the HBase Shell, see http://hbase.apache.org/book.html"/>
 </node>
-<node CREATED="1565264759714" ID="ID_620447976" MODIFIED="1565265403041" POSITION="right" TEXT="protocol">
-<node CREATED="1565265046035" ID="ID_135106258" MODIFIED="1565265404185" TEXT="Master">
-<node CREATED="1565264763661" FOLDED="true" ID="ID_1205032942" MODIFIED="1565265049785" TEXT="Admin --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Admin.proto">
+<node CREATED="1565264759714" FOLDED="true" ID="ID_620447976" MODIFIED="1565880125213" POSITION="right" TEXT="protocol">
+<node CREATED="1565265046035" FOLDED="true" ID="ID_135106258" MODIFIED="1565857740362" TEXT="Master">
+<node CREATED="1565264763661" ID="ID_1205032942" MODIFIED="1565857464033" TEXT="Admin --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Admin.proto">
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetRegionInfo(GetRegionInfoRequest)"/>
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetStoreFile(GetStoreFileRequest)"/>
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetOnlineRegion(GetOnlineRegionRequest)"/>
@@ -955,20 +955,20 @@
 <node CREATED="1565264763664" MODIFIED="1565264763664" TEXT="rpc GetSpaceQuotaSnapshots(GetSpaceQuotaSnapshotsRequest)"/>
 <node CREATED="1565264763664" MODIFIED="1565264763664" TEXT="rpc ExecuteProcedures(ExecuteProceduresRequest)"/>
 </node>
-<node CREATED="1565264763684" FOLDED="true" ID="ID_141481392" MODIFIED="1565265049783" TEXT="Admin --&gt; Master: hbase-rsgroup/src/main/protobuf/RSGroupAdmin.proto">
-<node CREATED="1565264763684" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfo(GetRSGroupInfoRequest)"/>
-<node CREATED="1565264763684" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfoOfTable(GetRSGroupInfoOfTableRequest)"/>
-<node CREATED="1565264763684" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfoOfServer(GetRSGroupInfoOfServerRequest)"/>
-<node CREATED="1565264763684" MODIFIED="1565264763684" TEXT="rpc MoveServers(MoveServersRequest)"/>
-<node CREATED="1565264763684" MODIFIED="1565264763684" TEXT="rpc MoveTables(MoveTablesRequest)"/>
-<node CREATED="1565264763684" MODIFIED="1565264763684" TEXT="rpc AddRSGroup(AddRSGroupRequest)"/>
-<node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc RemoveRSGroup(RemoveRSGroupRequest)"/>
-<node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc BalanceRSGroup(BalanceRSGroupRequest)"/>
-<node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc ListRSGroupInfos(ListRSGroupInfosRequest)"/>
-<node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc MoveServersAndTables(MoveServersAndTablesRequest)"/>
+<node CREATED="1565264763684" ID="ID_141481392" MODIFIED="1565857468035" TEXT="Admin --&gt; Master: hbase-rsgroup/src/main/protobuf/RSGroupAdmin.proto">
+<node CREATED="1565264763684" ID="ID_1989458770" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfo(GetRSGroupInfoRequest)"/>
+<node CREATED="1565264763684" ID="ID_1219258622" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfoOfTable(GetRSGroupInfoOfTableRequest)"/>
+<node CREATED="1565264763684" ID="ID_1267762744" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfoOfServer(GetRSGroupInfoOfServerRequest)"/>
+<node CREATED="1565264763684" ID="ID_1020555080" MODIFIED="1565264763684" TEXT="rpc MoveServers(MoveServersRequest)"/>
+<node CREATED="1565264763684" ID="ID_1263202081" MODIFIED="1565264763684" TEXT="rpc MoveTables(MoveTablesRequest)"/>
+<node CREATED="1565264763684" ID="ID_1334041926" MODIFIED="1565264763684" TEXT="rpc AddRSGroup(AddRSGroupRequest)"/>
+<node CREATED="1565264763685" ID="ID_1408902627" MODIFIED="1565264763685" TEXT="rpc RemoveRSGroup(RemoveRSGroupRequest)"/>
+<node CREATED="1565264763685" ID="ID_532583577" MODIFIED="1565264763685" TEXT="rpc BalanceRSGroup(BalanceRSGroupRequest)"/>
+<node CREATED="1565264763685" ID="ID_1341376731" MODIFIED="1565264763685" TEXT="rpc ListRSGroupInfos(ListRSGroupInfosRequest)"/>
+<node CREATED="1565264763685" ID="ID_1044838884" MODIFIED="1565264763685" TEXT="rpc MoveServersAndTables(MoveServersAndTablesRequest)"/>
 <node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc RemoveServers(RemoveServersRequest)"/>
 </node>
-<node CREATED="1565264763667" FOLDED="true" ID="ID_792186370" MODIFIED="1565265443486" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
+<node CREATED="1565264763667" ID="ID_792186370" MODIFIED="1565857490443" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetSchemaAlterStatus(GetSchemaAlterStatusRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableDescriptors(GetTableDescriptorsRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableNames(GetTableNamesRequest)"/>
