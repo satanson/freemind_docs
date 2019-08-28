@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1564392080974" ID="ID_536292209" MODIFIED="1564561724394" TEXT="hbase">
-<node CREATED="1564561704197" ID="ID_1363763349" MODIFIED="1565882585719" POSITION="right" TEXT="configurations">
+<node CREATED="1564392080974" ID="ID_536292209" MODIFIED="1566957714841" TEXT="hbase">
+<node CREATED="1564561704197" FOLDED="true" ID="ID_1363763349" MODIFIED="1566957716119" POSITION="right" TEXT="configurations">
 <node CREATED="1564398311509" FOLDED="true" ID="ID_314432472" MODIFIED="1565882610154" TEXT="partitioning&amp;replication">
 <node CREATED="1564392607866" ID="ID_1541849477" MODIFIED="1564399460130" TEXT="balancer">
 <node CREATED="1564392140281" ID="ID_690142276" MODIFIED="1564392140281" TEXT="hbase.master.balancer.maxRitPercent"/>
@@ -880,7 +880,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1564643213875" FOLDED="true" ID="ID_185306322" MODIFIED="1565264759005" POSITION="right" TEXT="hbase shell">
+<node CREATED="1564643213875" FOLDED="true" ID="ID_185306322" MODIFIED="1566957727723" POSITION="right" TEXT="hbase shell">
 <node CREATED="1564643217934" MODIFIED="1564643217934" TEXT="COMMAND GROUPS:">
 <node CREATED="1564643217934" FOLDED="true" ID="ID_840834639" MODIFIED="1564643242983" TEXT="general">
 <node CREATED="1564643217934" ID="ID_1153573549" MODIFIED="1564643237840" TEXT="processlist, status, table_help, version, whoami"/>
@@ -893,7 +893,7 @@
 <node CREATED="1564643217939" MODIFIED="1564643217939" TEXT="Group name: dml"/>
 <node CREATED="1564643217939" MODIFIED="1564643217939" TEXT="Commands: append, count, delete, deleteall, get, get_counter, get_splits, incr, put, scan, truncate, truncate_preserve"/>
 <node CREATED="1564643217940" MODIFIED="1564643217940" TEXT="Group name: tools"/>
-<node CREATED="1564643217940" MODIFIED="1564643217940" TEXT="Commands: assign, balance_switch, balancer, balancer_enabled, catalogjanitor_enabled, catalogjanitor_run, catalogjanitor_switch, cleaner_chore_enabled, cleaner_chore_run, cleaner_chore_switch, clear_block_cache, clear_compaction_queues, clear_deadservers, close_region, compact, compact_rs, compaction_state, flush, is_in_maintenance_mode, list_deadservers, major_compact, merge_region, move, normalize, normalizer_enabled, normalizer_switch, split, splitormerge_enabled, splitormerge_switch, stop_master, stop_regionserver, trace, unassign, wal_roll, zk_dump"/>
+<node CREATED="1564643217940" ID="ID_954030283" MODIFIED="1564643217940" TEXT="Commands: assign, balance_switch, balancer, balancer_enabled, catalogjanitor_enabled, catalogjanitor_run, catalogjanitor_switch, cleaner_chore_enabled, cleaner_chore_run, cleaner_chore_switch, clear_block_cache, clear_compaction_queues, clear_deadservers, close_region, compact, compact_rs, compaction_state, flush, is_in_maintenance_mode, list_deadservers, major_compact, merge_region, move, normalize, normalizer_enabled, normalizer_switch, split, splitormerge_enabled, splitormerge_switch, stop_master, stop_regionserver, trace, unassign, wal_roll, zk_dump"/>
 <node CREATED="1564643217941" MODIFIED="1564643217941" TEXT="Group name: replication"/>
 <node CREATED="1564643217941" MODIFIED="1564643217941" TEXT="Commands: add_peer, append_peer_exclude_namespaces, append_peer_exclude_tableCFs, append_peer_namespaces, append_peer_tableCFs, disable_peer, disable_table_replication, enable_peer, enable_table_replication, get_peer_config, list_peer_configs, list_peers, list_replicated_tables, remove_peer, remove_peer_exclude_namespaces, remove_peer_exclude_tableCFs, remove_peer_namespaces, remove_peer_tableCFs, set_peer_bandwidth, set_peer_exclude_namespaces, set_peer_exclude_tableCFs, set_peer_namespaces, set_peer_replicate_all, set_peer_serial, set_peer_tableCFs, show_peer_tableCFs, update_peer_config"/>
 <node CREATED="1564643217943" MODIFIED="1564643217943" TEXT="Group name: snapshots"/>
@@ -931,8 +931,8 @@
 <node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="The HBase shell is the (J)Ruby IRB with the above HBase-specific commands added."/>
 <node CREATED="1564643217952" LINK="http://hbase.apache.org/book.html" MODIFIED="1564643217952" TEXT="For more on the HBase Shell, see http://hbase.apache.org/book.html"/>
 </node>
-<node CREATED="1565264759714" FOLDED="true" ID="ID_620447976" MODIFIED="1565880125213" POSITION="right" TEXT="protocol">
-<node CREATED="1565265046035" FOLDED="true" ID="ID_135106258" MODIFIED="1565857740362" TEXT="Master">
+<node CREATED="1565264759714" ID="ID_620447976" MODIFIED="1566957767503" POSITION="right" TEXT="protocol">
+<node CREATED="1565265046035" ID="ID_135106258" MODIFIED="1566957769348" TEXT="Master">
 <node CREATED="1565264763661" ID="ID_1205032942" MODIFIED="1565857464033" TEXT="Admin --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Admin.proto">
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetRegionInfo(GetRegionInfoRequest)"/>
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetStoreFile(GetStoreFileRequest)"/>
@@ -968,90 +968,90 @@
 <node CREATED="1565264763685" ID="ID_1044838884" MODIFIED="1565264763685" TEXT="rpc MoveServersAndTables(MoveServersAndTablesRequest)"/>
 <node CREATED="1565264763685" MODIFIED="1565264763685" TEXT="rpc RemoveServers(RemoveServersRequest)"/>
 </node>
-<node CREATED="1565264763667" ID="ID_792186370" MODIFIED="1565857490443" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
-<node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetSchemaAlterStatus(GetSchemaAlterStatusRequest)"/>
+<node CREATED="1565264763667" ID="ID_792186370" MODIFIED="1566957789399" TEXT="Client/RegionSever --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Master.proto">
+<node CREATED="1565264763667" ID="ID_95406025" MODIFIED="1565264763667" TEXT="rpc GetSchemaAlterStatus(GetSchemaAlterStatusRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableDescriptors(GetTableDescriptorsRequest)"/>
 <node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetTableNames(GetTableNamesRequest)"/>
-<node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc GetClusterStatus(GetClusterStatusRequest)"/>
-<node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc IsMasterRunning(IsMasterRunningRequest) returns(IsMasterRunningResponse);"/>
-<node CREATED="1565264763667" MODIFIED="1565264763667" TEXT="rpc AddColumn(AddColumnRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc DeleteColumn(DeleteColumnRequest)"/>
+<node CREATED="1565264763667" ID="ID_1746574450" MODIFIED="1565264763667" TEXT="rpc GetClusterStatus(GetClusterStatusRequest)"/>
+<node CREATED="1565264763667" ID="ID_981683171" MODIFIED="1565264763667" TEXT="rpc IsMasterRunning(IsMasterRunningRequest) returns(IsMasterRunningResponse);"/>
+<node CREATED="1565264763667" ID="ID_1765718306" MODIFIED="1565264763667" TEXT="rpc AddColumn(AddColumnRequest)"/>
+<node CREATED="1565264763668" ID="ID_1901078225" MODIFIED="1565264763668" TEXT="rpc DeleteColumn(DeleteColumnRequest)"/>
 <node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc ModifyColumn(ModifyColumnRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc MoveRegion(MoveRegionRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc MergeTableRegions(MergeTableRegionsRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc AssignRegion(AssignRegionRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc UnassignRegion(UnassignRegionRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc OfflineRegion(OfflineRegionRequest)"/>
-<node CREATED="1565264763668" MODIFIED="1565264763668" TEXT="rpc SplitRegion(SplitTableRegionRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc DeleteTable(DeleteTableRequest)"/>
+<node CREATED="1565264763668" ID="ID_114248260" MODIFIED="1565264763668" TEXT="rpc MoveRegion(MoveRegionRequest)"/>
+<node CREATED="1565264763668" ID="ID_745622194" MODIFIED="1565264763668" TEXT="rpc MergeTableRegions(MergeTableRegionsRequest)"/>
+<node CREATED="1565264763668" ID="ID_1894932409" MODIFIED="1565264763668" TEXT="rpc AssignRegion(AssignRegionRequest)"/>
+<node CREATED="1565264763668" ID="ID_613288510" MODIFIED="1565264763668" TEXT="rpc UnassignRegion(UnassignRegionRequest)"/>
+<node CREATED="1565264763668" ID="ID_57632983" MODIFIED="1565264763668" TEXT="rpc OfflineRegion(OfflineRegionRequest)"/>
+<node CREATED="1565264763668" ID="ID_203586766" MODIFIED="1565264763668" TEXT="rpc SplitRegion(SplitTableRegionRequest)"/>
+<node CREATED="1565264763669" ID="ID_1210225480" MODIFIED="1565264763669" TEXT="rpc DeleteTable(DeleteTableRequest)"/>
 <node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc truncateTable(TruncateTableRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc EnableTable(EnableTableRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc DisableTable(DisableTableRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc ModifyTable(ModifyTableRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc CreateTable(CreateTableRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc Shutdown(ShutdownRequest)"/>
-<node CREATED="1565264763669" MODIFIED="1565264763669" TEXT="rpc StopMaster(StopMasterRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc IsMasterInMaintenanceMode(IsInMaintenanceModeRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc Balance(BalanceRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc SetBalancerRunning(SetBalancerRunningRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc IsBalancerEnabled(IsBalancerEnabledRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc SetSplitOrMergeEnabled(SetSplitOrMergeEnabledRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc IsSplitOrMergeEnabled(IsSplitOrMergeEnabledRequest)"/>
-<node CREATED="1565264763670" MODIFIED="1565264763670" TEXT="rpc Normalize(NormalizeRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc SetNormalizerRunning(SetNormalizerRunningRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc IsNormalizerEnabled(IsNormalizerEnabledRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc RunCatalogScan(RunCatalogScanRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc EnableCatalogJanitor(EnableCatalogJanitorRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc IsCatalogJanitorEnabled(IsCatalogJanitorEnabledRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc RunCleanerChore(RunCleanerChoreRequest)"/>
-<node CREATED="1565264763671" MODIFIED="1565264763671" TEXT="rpc SetCleanerChoreRunning(SetCleanerChoreRunningRequest)"/>
-<node CREATED="1565264763672" MODIFIED="1565264763672" TEXT="rpc IsCleanerChoreEnabled(IsCleanerChoreEnabledRequest)"/>
-<node CREATED="1565264763672" MODIFIED="1565264763672" TEXT="rpc ExecMasterService(CoprocessorServiceRequest)"/>
-<node CREATED="1565264763672" MODIFIED="1565264763672" TEXT="rpc Snapshot(SnapshotRequest) returns(SnapshotResponse);"/>
-<node CREATED="1565264763672" MODIFIED="1565264763672" TEXT="rpc GetCompletedSnapshots(GetCompletedSnapshotsRequest) returns(GetCompletedSnapshotsResponse);"/>
-<node CREATED="1565264763673" MODIFIED="1565264763673" TEXT="rpc DeleteSnapshot(DeleteSnapshotRequest) returns(DeleteSnapshotResponse);"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc IsSnapshotDone(IsSnapshotDoneRequest) returns(IsSnapshotDoneResponse);"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc RestoreSnapshot(RestoreSnapshotRequest) returns(RestoreSnapshotResponse);"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc ExecProcedure(ExecProcedureRequest) returns(ExecProcedureResponse);"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc ExecProcedureWithRet(ExecProcedureRequest) returns(ExecProcedureResponse);"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc IsProcedureDone(IsProcedureDoneRequest) returns(IsProcedureDoneResponse);"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc ModifyNamespace(ModifyNamespaceRequest)"/>
-<node CREATED="1565264763674" MODIFIED="1565264763674" TEXT="rpc CreateNamespace(CreateNamespaceRequest)"/>
-<node CREATED="1565264763675" MODIFIED="1565264763675" TEXT="rpc DeleteNamespace(DeleteNamespaceRequest)"/>
-<node CREATED="1565264763675" MODIFIED="1565264763675" TEXT="rpc GetNamespaceDescriptor(GetNamespaceDescriptorRequest)"/>
-<node CREATED="1565264763675" MODIFIED="1565264763675" TEXT="rpc ListNamespaceDescriptors(ListNamespaceDescriptorsRequest)"/>
-<node CREATED="1565264763675" MODIFIED="1565264763675" TEXT="rpc ListTableDescriptorsByNamespace(ListTableDescriptorsByNamespaceRequest)"/>
-<node CREATED="1565264763675" MODIFIED="1565264763675" TEXT="rpc ListTableNamesByNamespace(ListTableNamesByNamespaceRequest)"/>
-<node CREATED="1565264763675" MODIFIED="1565264763675" TEXT="rpc GetTableState(GetTableStateRequest)"/>
-<node CREATED="1565264763676" MODIFIED="1565264763676" TEXT="rpc SetQuota(SetQuotaRequest) returns(SetQuotaResponse);"/>
-<node CREATED="1565264763676" MODIFIED="1565264763676" TEXT="rpc getLastMajorCompactionTimestamp(MajorCompactionTimestampRequest)"/>
-<node CREATED="1565264763676" MODIFIED="1565264763676" TEXT="rpc getLastMajorCompactionTimestampForRegion(MajorCompactionTimestampForRegionRequest)"/>
-<node CREATED="1565264763677" MODIFIED="1565264763677" TEXT="rpc getProcedureResult(GetProcedureResultRequest)"/>
-<node CREATED="1565264763677" MODIFIED="1565264763677" TEXT="rpc getSecurityCapabilities(SecurityCapabilitiesRequest)"/>
-<node CREATED="1565264763677" MODIFIED="1565264763677" TEXT="rpc AbortProcedure(AbortProcedureRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc GetProcedures(GetProceduresRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc GetLocks(GetLocksRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc AddReplicationPeer(AddReplicationPeerRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc RemoveReplicationPeer(RemoveReplicationPeerRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc EnableReplicationPeer(EnableReplicationPeerRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc DisableReplicationPeer(DisableReplicationPeerRequest)"/>
-<node CREATED="1565264763678" MODIFIED="1565264763678" TEXT="rpc GetReplicationPeerConfig(GetReplicationPeerConfigRequest)"/>
-<node CREATED="1565264763679" MODIFIED="1565264763679" TEXT="rpc UpdateReplicationPeerConfig(UpdateReplicationPeerConfigRequest)"/>
-<node CREATED="1565264763679" MODIFIED="1565264763679" TEXT="rpc ListReplicationPeers(ListReplicationPeersRequest)"/>
-<node CREATED="1565264763679" MODIFIED="1565264763679" TEXT="rpc ListDecommissionedRegionServers(ListDecommissionedRegionServersRequest)"/>
-<node CREATED="1565264763679" MODIFIED="1565264763679" TEXT="rpc DecommissionRegionServers(DecommissionRegionServersRequest)"/>
-<node CREATED="1565264763679" MODIFIED="1565264763679" TEXT="rpc RecommissionRegionServer(RecommissionRegionServerRequest)"/>
-<node CREATED="1565264763679" MODIFIED="1565264763679" TEXT="rpc GetSpaceQuotaRegionSizes(GetSpaceQuotaRegionSizesRequest)"/>
-<node CREATED="1565264763680" MODIFIED="1565264763680" TEXT="rpc GetQuotaStates(GetQuotaStatesRequest)"/>
-<node CREATED="1565264763680" MODIFIED="1565264763680" TEXT="rpc ClearDeadServers(ClearDeadServersRequest)"/>
-<node CREATED="1565264763680" MODIFIED="1565264763680" TEXT="rpc SetTableStateInMeta(SetTableStateInMetaRequest)"/>
-<node CREATED="1565264763680" MODIFIED="1565264763680" TEXT="rpc Assigns(AssignsRequest)"/>
-<node CREATED="1565264763680" MODIFIED="1565264763680" TEXT="rpc Unassigns(UnassignsRequest)"/>
-<node CREATED="1565264763680" MODIFIED="1565264763680" TEXT="rpc BypassProcedure(BypassProcedureRequest)"/>
-<node CREATED="1565264763681" MODIFIED="1565264763681" TEXT="rpc ScheduleServerCrashProcedure(ScheduleServerCrashProcedureRequest)"/>
+<node CREATED="1565264763669" ID="ID_217720546" MODIFIED="1565264763669" TEXT="rpc EnableTable(EnableTableRequest)"/>
+<node CREATED="1565264763669" ID="ID_1023209193" MODIFIED="1565264763669" TEXT="rpc DisableTable(DisableTableRequest)"/>
+<node CREATED="1565264763669" ID="ID_1321115776" MODIFIED="1565264763669" TEXT="rpc ModifyTable(ModifyTableRequest)"/>
+<node CREATED="1565264763669" ID="ID_1727601241" MODIFIED="1565264763669" TEXT="rpc CreateTable(CreateTableRequest)"/>
+<node CREATED="1565264763669" ID="ID_1757325746" MODIFIED="1565264763669" TEXT="rpc Shutdown(ShutdownRequest)"/>
+<node CREATED="1565264763669" ID="ID_1825675386" MODIFIED="1565264763669" TEXT="rpc StopMaster(StopMasterRequest)"/>
+<node CREATED="1565264763670" ID="ID_1806188643" MODIFIED="1565264763670" TEXT="rpc IsMasterInMaintenanceMode(IsInMaintenanceModeRequest)"/>
+<node CREATED="1565264763670" ID="ID_1693373840" MODIFIED="1565264763670" TEXT="rpc Balance(BalanceRequest)"/>
+<node CREATED="1565264763670" ID="ID_1416383047" MODIFIED="1565264763670" TEXT="rpc SetBalancerRunning(SetBalancerRunningRequest)"/>
+<node CREATED="1565264763670" ID="ID_1505272800" MODIFIED="1565264763670" TEXT="rpc IsBalancerEnabled(IsBalancerEnabledRequest)"/>
+<node CREATED="1565264763670" ID="ID_652763155" MODIFIED="1565264763670" TEXT="rpc SetSplitOrMergeEnabled(SetSplitOrMergeEnabledRequest)"/>
+<node CREATED="1565264763670" ID="ID_109997496" MODIFIED="1565264763670" TEXT="rpc IsSplitOrMergeEnabled(IsSplitOrMergeEnabledRequest)"/>
+<node CREATED="1565264763670" ID="ID_1167151849" MODIFIED="1565264763670" TEXT="rpc Normalize(NormalizeRequest)"/>
+<node CREATED="1565264763671" ID="ID_652611064" MODIFIED="1565264763671" TEXT="rpc SetNormalizerRunning(SetNormalizerRunningRequest)"/>
+<node CREATED="1565264763671" ID="ID_715131252" MODIFIED="1565264763671" TEXT="rpc IsNormalizerEnabled(IsNormalizerEnabledRequest)"/>
+<node CREATED="1565264763671" ID="ID_66451532" MODIFIED="1565264763671" TEXT="rpc RunCatalogScan(RunCatalogScanRequest)"/>
+<node CREATED="1565264763671" ID="ID_1838249961" MODIFIED="1565264763671" TEXT="rpc EnableCatalogJanitor(EnableCatalogJanitorRequest)"/>
+<node CREATED="1565264763671" ID="ID_1750081399" MODIFIED="1565264763671" TEXT="rpc IsCatalogJanitorEnabled(IsCatalogJanitorEnabledRequest)"/>
+<node CREATED="1565264763671" ID="ID_163128476" MODIFIED="1565264763671" TEXT="rpc RunCleanerChore(RunCleanerChoreRequest)"/>
+<node CREATED="1565264763671" ID="ID_131539473" MODIFIED="1565264763671" TEXT="rpc SetCleanerChoreRunning(SetCleanerChoreRunningRequest)"/>
+<node CREATED="1565264763672" ID="ID_1012763294" MODIFIED="1565264763672" TEXT="rpc IsCleanerChoreEnabled(IsCleanerChoreEnabledRequest)"/>
+<node CREATED="1565264763672" ID="ID_539704670" MODIFIED="1565264763672" TEXT="rpc ExecMasterService(CoprocessorServiceRequest)"/>
+<node CREATED="1565264763672" ID="ID_1878828126" MODIFIED="1565264763672" TEXT="rpc Snapshot(SnapshotRequest) returns(SnapshotResponse);"/>
+<node CREATED="1565264763672" ID="ID_1344545248" MODIFIED="1565264763672" TEXT="rpc GetCompletedSnapshots(GetCompletedSnapshotsRequest) returns(GetCompletedSnapshotsResponse);"/>
+<node CREATED="1565264763673" ID="ID_856236538" MODIFIED="1565264763673" TEXT="rpc DeleteSnapshot(DeleteSnapshotRequest) returns(DeleteSnapshotResponse);"/>
+<node CREATED="1565264763674" ID="ID_1477774988" MODIFIED="1565264763674" TEXT="rpc IsSnapshotDone(IsSnapshotDoneRequest) returns(IsSnapshotDoneResponse);"/>
+<node CREATED="1565264763674" ID="ID_1540010356" MODIFIED="1565264763674" TEXT="rpc RestoreSnapshot(RestoreSnapshotRequest) returns(RestoreSnapshotResponse);"/>
+<node CREATED="1565264763674" ID="ID_1861866882" MODIFIED="1565264763674" TEXT="rpc ExecProcedure(ExecProcedureRequest) returns(ExecProcedureResponse);"/>
+<node CREATED="1565264763674" ID="ID_586885229" MODIFIED="1565264763674" TEXT="rpc ExecProcedureWithRet(ExecProcedureRequest) returns(ExecProcedureResponse);"/>
+<node CREATED="1565264763674" ID="ID_1016208968" MODIFIED="1565264763674" TEXT="rpc IsProcedureDone(IsProcedureDoneRequest) returns(IsProcedureDoneResponse);"/>
+<node CREATED="1565264763674" ID="ID_1142592720" MODIFIED="1565264763674" TEXT="rpc ModifyNamespace(ModifyNamespaceRequest)"/>
+<node CREATED="1565264763674" ID="ID_426708319" MODIFIED="1565264763674" TEXT="rpc CreateNamespace(CreateNamespaceRequest)"/>
+<node CREATED="1565264763675" ID="ID_1734014934" MODIFIED="1565264763675" TEXT="rpc DeleteNamespace(DeleteNamespaceRequest)"/>
+<node CREATED="1565264763675" ID="ID_918069975" MODIFIED="1565264763675" TEXT="rpc GetNamespaceDescriptor(GetNamespaceDescriptorRequest)"/>
+<node CREATED="1565264763675" ID="ID_1638749283" MODIFIED="1565264763675" TEXT="rpc ListNamespaceDescriptors(ListNamespaceDescriptorsRequest)"/>
+<node CREATED="1565264763675" ID="ID_210762607" MODIFIED="1565264763675" TEXT="rpc ListTableDescriptorsByNamespace(ListTableDescriptorsByNamespaceRequest)"/>
+<node CREATED="1565264763675" ID="ID_1770604461" MODIFIED="1565264763675" TEXT="rpc ListTableNamesByNamespace(ListTableNamesByNamespaceRequest)"/>
+<node CREATED="1565264763675" ID="ID_780834055" MODIFIED="1565264763675" TEXT="rpc GetTableState(GetTableStateRequest)"/>
+<node CREATED="1565264763676" ID="ID_1407829451" MODIFIED="1565264763676" TEXT="rpc SetQuota(SetQuotaRequest) returns(SetQuotaResponse);"/>
+<node CREATED="1565264763676" ID="ID_1491764489" MODIFIED="1565264763676" TEXT="rpc getLastMajorCompactionTimestamp(MajorCompactionTimestampRequest)"/>
+<node CREATED="1565264763676" ID="ID_1632165503" MODIFIED="1565264763676" TEXT="rpc getLastMajorCompactionTimestampForRegion(MajorCompactionTimestampForRegionRequest)"/>
+<node CREATED="1565264763677" ID="ID_1624648489" MODIFIED="1565264763677" TEXT="rpc getProcedureResult(GetProcedureResultRequest)"/>
+<node CREATED="1565264763677" ID="ID_1717293884" MODIFIED="1565264763677" TEXT="rpc getSecurityCapabilities(SecurityCapabilitiesRequest)"/>
+<node CREATED="1565264763677" ID="ID_1883367156" MODIFIED="1565264763677" TEXT="rpc AbortProcedure(AbortProcedureRequest)"/>
+<node CREATED="1565264763678" ID="ID_1338229062" MODIFIED="1565264763678" TEXT="rpc GetProcedures(GetProceduresRequest)"/>
+<node CREATED="1565264763678" ID="ID_1591106063" MODIFIED="1565264763678" TEXT="rpc GetLocks(GetLocksRequest)"/>
+<node CREATED="1565264763678" ID="ID_386229830" MODIFIED="1565264763678" TEXT="rpc AddReplicationPeer(AddReplicationPeerRequest)"/>
+<node CREATED="1565264763678" ID="ID_454705085" MODIFIED="1565264763678" TEXT="rpc RemoveReplicationPeer(RemoveReplicationPeerRequest)"/>
+<node CREATED="1565264763678" ID="ID_543780255" MODIFIED="1565264763678" TEXT="rpc EnableReplicationPeer(EnableReplicationPeerRequest)"/>
+<node CREATED="1565264763678" ID="ID_1708627464" MODIFIED="1565264763678" TEXT="rpc DisableReplicationPeer(DisableReplicationPeerRequest)"/>
+<node CREATED="1565264763678" ID="ID_827556979" MODIFIED="1565264763678" TEXT="rpc GetReplicationPeerConfig(GetReplicationPeerConfigRequest)"/>
+<node CREATED="1565264763679" ID="ID_244413235" MODIFIED="1565264763679" TEXT="rpc UpdateReplicationPeerConfig(UpdateReplicationPeerConfigRequest)"/>
+<node CREATED="1565264763679" ID="ID_121163438" MODIFIED="1565264763679" TEXT="rpc ListReplicationPeers(ListReplicationPeersRequest)"/>
+<node CREATED="1565264763679" ID="ID_255316068" MODIFIED="1565264763679" TEXT="rpc ListDecommissionedRegionServers(ListDecommissionedRegionServersRequest)"/>
+<node CREATED="1565264763679" ID="ID_1808294954" MODIFIED="1565264763679" TEXT="rpc DecommissionRegionServers(DecommissionRegionServersRequest)"/>
+<node CREATED="1565264763679" ID="ID_1863940503" MODIFIED="1565264763679" TEXT="rpc RecommissionRegionServer(RecommissionRegionServerRequest)"/>
+<node CREATED="1565264763679" ID="ID_1230460052" MODIFIED="1565264763679" TEXT="rpc GetSpaceQuotaRegionSizes(GetSpaceQuotaRegionSizesRequest)"/>
+<node CREATED="1565264763680" ID="ID_324862657" MODIFIED="1565264763680" TEXT="rpc GetQuotaStates(GetQuotaStatesRequest)"/>
+<node CREATED="1565264763680" ID="ID_290160924" MODIFIED="1565264763680" TEXT="rpc ClearDeadServers(ClearDeadServersRequest)"/>
+<node CREATED="1565264763680" ID="ID_804146248" MODIFIED="1565264763680" TEXT="rpc SetTableStateInMeta(SetTableStateInMetaRequest)"/>
+<node CREATED="1565264763680" ID="ID_212811254" MODIFIED="1565264763680" TEXT="rpc Assigns(AssignsRequest)"/>
+<node CREATED="1565264763680" ID="ID_733165885" MODIFIED="1565264763680" TEXT="rpc Unassigns(UnassignsRequest)"/>
+<node CREATED="1565264763680" ID="ID_405731428" MODIFIED="1565264763680" TEXT="rpc BypassProcedure(BypassProcedureRequest)"/>
+<node CREATED="1565264763681" ID="ID_5597331" MODIFIED="1565264763681" TEXT="rpc ScheduleServerCrashProcedure(ScheduleServerCrashProcedureRequest)"/>
 </node>
 <node CREATED="1565264763689" ID="ID_1790870527" MODIFIED="1565265190926" TEXT="hbase-examples/src/main/protobuf/RefreshHFiles.proto">
-<node CREATED="1565264763689" MODIFIED="1565264763689" TEXT="rpc refreshHFiles(RefreshHFilesRequest)"/>
+<node CREATED="1565264763689" ID="ID_1459940971" MODIFIED="1565264763689" TEXT="rpc refreshHFiles(RefreshHFilesRequest)"/>
 </node>
 </node>
 <node CREATED="1565265056349" FOLDED="true" ID="ID_854306478" MODIFIED="1565265397969" TEXT="HRegionServer">
