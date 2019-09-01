@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1564392080974" ID="ID_536292209" MODIFIED="1566957714841" TEXT="hbase">
-<node CREATED="1564561704197" FOLDED="true" ID="ID_1363763349" MODIFIED="1566957716119" POSITION="right" TEXT="configurations">
+<node CREATED="1564561704197" ID="ID_1363763349" MODIFIED="1567175288016" POSITION="right" TEXT="configurations">
 <node CREATED="1564398311509" FOLDED="true" ID="ID_314432472" MODIFIED="1565882610154" TEXT="partitioning&amp;replication">
 <node CREATED="1564392607866" ID="ID_1541849477" MODIFIED="1564399460130" TEXT="balancer">
 <node CREATED="1564392140281" ID="ID_690142276" MODIFIED="1564392140281" TEXT="hbase.master.balancer.maxRitPercent"/>
@@ -94,9 +94,9 @@
 <node CREATED="1564392140303" ID="ID_929181677" MODIFIED="1564393885848" TEXT="hbase.storescanner.parallel.seek.enable"/>
 <node CREATED="1564392140303" ID="ID_813358355" MODIFIED="1564393885847" TEXT="hbase.storescanner.parallel.seek.threads"/>
 </node>
-<node CREATED="1564398245856" FOLDED="true" ID="ID_1389351006" MODIFIED="1564561715521" TEXT="maintenance">
+<node CREATED="1564398245856" ID="ID_1389351006" MODIFIED="1567175296366" TEXT="maintenance">
 <node CREATED="1564392140301" ID="ID_1137424029" MODIFIED="1564398252330" TEXT="hbase.server.thread.wakefrequency"/>
-<node CREATED="1564392634710" FOLDED="true" ID="ID_584524230" MODIFIED="1564400018397" TEXT="cleaner">
+<node CREATED="1564392634710" ID="ID_584524230" MODIFIED="1567175296366" TEXT="cleaner">
 <node CREATED="1564392140284" ID="ID_968775183" MODIFIED="1564392140284" TEXT="hbase.master.cleaner.interval"/>
 <node CREATED="1564392140284" ID="ID_172232045" MODIFIED="1564392140284" TEXT="hbase.master.cleaner.snapshot.disable"/>
 <node CREATED="1564392140284" ID="ID_352356672" MODIFIED="1564392140284" TEXT="hbase.master.cleaner.snapshot.interval"/>
@@ -358,7 +358,7 @@
 <node CREATED="1564392140294" ID="ID_974080367" MODIFIED="1564393416512" TEXT="hbase.regionserver.mutationsWithoutWALCount"/>
 <node CREATED="1564392140297" ID="ID_867894047" MODIFIED="1564399811174" TEXT="hbase.regionserver.wal.logreplay.batch.size"/>
 </node>
-<node CREATED="1564398166141" FOLDED="true" ID="ID_1252955537" MODIFIED="1564561715517" TEXT="less important">
+<node CREATED="1564398166141" FOLDED="true" ID="ID_1252955537" MODIFIED="1567175296365" TEXT="less important">
 <node CREATED="1564392166726" FOLDED="true" ID="ID_1556959627" MODIFIED="1564398190044" TEXT="backup">
 <node CREATED="1564392140265" ID="ID_1302448137" MODIFIED="1564392140265" TEXT="hbase.backup.attempts.max"/>
 <node CREATED="1564392140265" ID="ID_758464474" MODIFIED="1564392140265" TEXT="hbase.backup.attempts.pause.ms"/>
@@ -931,7 +931,7 @@
 <node CREATED="1564643217951" MODIFIED="1564643217951" TEXT="The HBase shell is the (J)Ruby IRB with the above HBase-specific commands added."/>
 <node CREATED="1564643217952" LINK="http://hbase.apache.org/book.html" MODIFIED="1564643217952" TEXT="For more on the HBase Shell, see http://hbase.apache.org/book.html"/>
 </node>
-<node CREATED="1565264759714" ID="ID_620447976" MODIFIED="1566957767503" POSITION="right" TEXT="protocol">
+<node CREATED="1565264759714" FOLDED="true" ID="ID_620447976" MODIFIED="1567175284076" POSITION="right" TEXT="protocol">
 <node CREATED="1565265046035" ID="ID_135106258" MODIFIED="1566957769348" TEXT="Master">
 <node CREATED="1565264763661" ID="ID_1205032942" MODIFIED="1565857464033" TEXT="Admin --&gt; Master: hbase-protocol-shaded/src/main/protobuf/Admin.proto">
 <node CREATED="1565264763662" MODIFIED="1565264763662" TEXT="rpc GetRegionInfo(GetRegionInfoRequest)"/>
@@ -953,7 +953,7 @@
 <node CREATED="1565264763664" MODIFIED="1565264763664" TEXT="rpc ClearCompactionQueues(ClearCompactionQueuesRequest)"/>
 <node CREATED="1565264763664" MODIFIED="1565264763664" TEXT="rpc ClearRegionBlockCache(ClearRegionBlockCacheRequest)"/>
 <node CREATED="1565264763664" MODIFIED="1565264763664" TEXT="rpc GetSpaceQuotaSnapshots(GetSpaceQuotaSnapshotsRequest)"/>
-<node CREATED="1565264763664" MODIFIED="1565264763664" TEXT="rpc ExecuteProcedures(ExecuteProceduresRequest)"/>
+<node CREATED="1565264763664" ID="ID_1400134264" MODIFIED="1565264763664" TEXT="rpc ExecuteProcedures(ExecuteProceduresRequest)"/>
 </node>
 <node CREATED="1565264763684" ID="ID_141481392" MODIFIED="1565857468035" TEXT="Admin --&gt; Master: hbase-rsgroup/src/main/protobuf/RSGroupAdmin.proto">
 <node CREATED="1565264763684" ID="ID_1989458770" MODIFIED="1565264763684" TEXT="rpc GetRSGroupInfo(GetRSGroupInfoRequest)"/>
