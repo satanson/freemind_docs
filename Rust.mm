@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1463229083914" ID="ID_1928680135" MODIFIED="1463229087661" TEXT="Rust">
-<node CREATED="1463229110683" FOLDED="true" ID="ID_827419" LINK="https://www.rust-lang.org/" MODIFIED="1570774576184" POSITION="right" TEXT="https://www.rust-lang.org/">
+<node CREATED="1463229110683" ID="ID_827419" LINK="https://www.rust-lang.org/" MODIFIED="1572141782008" POSITION="right" TEXT="https://www.rust-lang.org/">
 <node CREATED="1463229092968" ID="ID_1237712978" MODIFIED="1463229114249">
 <richcontent TYPE="NODE"><html>
   <head>
