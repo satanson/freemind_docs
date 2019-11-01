@@ -110,7 +110,7 @@
 <node CREATED="1362468070313" ID="ID_1418983099" MODIFIED="1362468071517" TEXT="The only restriction on this sort of use of nested variable references is that they cannot specify part of the name of a function to be called. This is because the test for a recognized function name is done before the expansion of nested references."/>
 <node CREATED="1362468097028" ID="ID_41295951" MODIFIED="1362468103567" TEXT="You can also use computed variable names in the left-hand side of a variable assignment, or in a define directive."/>
 </node>
-<node CREATED="1362535075508" FOLDED="true" ID="ID_1419310372" MODIFIED="1497597777210" TEXT="define variable in makefile">
+<node CREATED="1362535075508" ID="ID_1419310372" MODIFIED="1572591276789" TEXT="define variable in makefile">
 <font NAME="Dialog" SIZE="12"/>
 <node CREATED="1362473263904" ID="ID_730195096" MODIFIED="1372647719610" TEXT="setting variables">
 <node CREATED="1362473271751" ID="ID_1112936530" MODIFIED="1362473274382" TEXT="=">
@@ -173,7 +173,7 @@ endif</pre>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1362534579613" FOLDED="true" ID="ID_930630629" MODIFIED="1445787011097" TEXT="simply">
+<node CREATED="1362534579613" FOLDED="true" ID="ID_930630629" MODIFIED="1572591312001" TEXT="simply">
 <node CREATED="1362534393037" ID="ID_1173847080" MODIFIED="1362534593803">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
@@ -225,7 +225,7 @@ endif</pre>&#13;&#13;
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1362534621296" FOLDED="true" ID="ID_1182148419" MODIFIED="1371206980780" TEXT="append">
+<node CREATED="1362534621296" FOLDED="true" ID="ID_1182148419" MODIFIED="1572591313688" TEXT="append">
 <node CREATED="1362534393037" ID="ID_1386927587" MODIFIED="1362534626002">
 <richcontent TYPE="NODE"><html>&#13;&#13;
   <head>&#13;&#13;
@@ -252,13 +252,13 @@ endif</pre>&#13;&#13;
 </node>
 </node>
 </node>
-<node CREATED="1362535088721" FOLDED="true" ID="ID_1083554523" MODIFIED="1445786998377" TEXT="undefine">
+<node CREATED="1362535088721" ID="ID_1083554523" MODIFIED="1572591279383" TEXT="undefine">
 <node CREATED="1362535095687" ID="ID_1083570050" MODIFIED="1362535108715" TEXT="[override] undefine variable-name"/>
 <node CREATED="1371207135940" ID="ID_1955996256" MODIFIED="1371207147009" TEXT="unset in shell"/>
 <node CREATED="1371207138583" ID="ID_1116667162" MODIFIED="1371207154419" TEXT="del perl,python"/>
 </node>
 </node>
-<node CREATED="1362535071662" FOLDED="true" ID="ID_148859908" MODIFIED="1519438262278" TEXT="override precedence">
+<node CREATED="1362535071662" ID="ID_148859908" MODIFIED="1572591268288" TEXT="override precedence">
 <node CREATED="1362535513159" ID="ID_709010624" MODIFIED="1362535594952" TEXT="override">
 <icon BUILTIN="full-1"/>
 </node>
@@ -277,6 +277,190 @@ endif</pre>&#13;&#13;
 <node CREATED="1362537838084" ID="ID_1818937645" MODIFIED="1362538248954" TEXT="default">
 <icon BUILTIN="full-6"/>
 </node>
+<node CREATED="1572599551356" ID="ID_374902160" MODIFIED="1572599554842" TEXT="demo">
+<node CREATED="1572599561283" ID="ID_178299312" MODIFIED="1572599603524">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <br />
+      
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">demo1:</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ make</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      foobar_override:orignal_foobar_override:override<br />
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">foobar:orignal_foobar:file</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_environment::undefined</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+      </font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">demo2:</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ export foobar_override=modified_foobar_override_by_env</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ export foobar=modified_foobar_by_env</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ export foobar_environment=orignal_foobar_environment</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ make</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_override:orignal_foobar_override:override</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar:orignal_foobar:file</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_environment:orignal_foobar_environment:environment</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ make -e</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_override:orignal_foobar_override:override</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar:modified_foobar_by_env:environment override</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_environment:orignal_foobar_environment:environment</font>
+      </div>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+      </font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">demo3:</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ make foobar_override=modified_foobar_override_by_cmd \</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">&gt; foobar=modified_foobar_by_cmd \</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">&gt; foobar_environment=modified_foobar_environment_by_cmd</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_override:orignal_foobar_override:override</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar:modified_foobar_by_cmd:command line</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_environment:modified_foobar_environment_by_cmd:command line</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+        </font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+        </font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <font color="rgb(1, 1, 1)" face="Lucida Console">demo4</font>
+      </div>
+      <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ make -e foobar_override=modified_foobar_override_by_cmd foobar=modified_foobar_by_cmd foobar_environment=modified_foobar_environment_by_cmd</font>
+        </div>
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_override:orignal_foobar_override:override</font>
+        </div>
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console">foobar:modified_foobar_by_cmd:command line</font>
+        </div>
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console">foobar_environment:modified_foobar_environment_by_cmd:command line</font>
+        </div>
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$</font>
+        </div>
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+          </font>
+        </div>
+        <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px">
+          <font color="rgb(1, 1, 1)" face="Lucida Console">show:'environment'&lt;'file'&lt;'environment override'&lt;'command line'&lt;'override'</font>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1572599636195" ID="ID_123450922" MODIFIED="1572599666181" TEXT="environment/file/override">
+<node CREATED="1572599608717" ID="ID_750495481" MODIFIED="1572599651985">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">demo0: [</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$ cat makefile</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">override foobar_override=orignal_foobar_override</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">foobar=orignal_foobar</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+      </font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">all:</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@echo foobar_override:$(foobar_override):$(origin foobar_override)</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@echo foobar:$(foobar):$(origin foobar)</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@echo foobar_environment:$(foobar_environment):$(origin foobar_environment)</font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console"><br style="line-height: 1.57143em" />
+      </font>
+    </div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; line-height: 1.57143em; font-family: gotham, helvetica, arial, sans-serif; font-size: 14px; color: rgb(56, 56, 56); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font color="rgb(1, 1, 1)" face="Lucida Console">[</font><font color="rgb(191, 191, 0)" face="Lucida Console">~</font><font color="rgb(1, 1, 1)" face="Lucida Console">]$</font>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1362539022977" ID="ID_1630056192" MODIFIED="1372647741876" TEXT="target-specific variable values">
 <node CREATED="1362539412416" ID="ID_1228276450" MODIFIED="1362539414278" TEXT="form">
@@ -285,7 +469,7 @@ endif</pre>&#13;&#13;
 <node CREATED="1362539448181" ID="ID_1636579538" MODIFIED="1362539960076" TEXT="different values for the same variable which value depands on the target being current building">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1362539597209" FOLDED="true" ID="ID_1533271649" MODIFIED="1371207209908" TEXT="can modfied by keywords:export,override,or private">
+<node CREATED="1362539597209" ID="ID_1533271649" MODIFIED="1572591301477" TEXT="can modfied by keywords:export,override,or private">
 <icon BUILTIN="full-2"/>
 <node CREATED="1362540526143" ID="ID_1914123858" MODIFIED="1362540528490" TEXT="private">
 <node CREATED="1362540532344" ID="ID_1845778595" MODIFIED="1362540566004" TEXT=" Any variable marked private will be visible to its local target but will not be inherited by prerequisites of that target."/>
@@ -299,7 +483,7 @@ endif</pre>&#13;&#13;
 <icon BUILTIN="full-4"/>
 <node CREATED="1362539339127" ID="ID_829483379" MODIFIED="1362539340436" TEXT="Target-specific variables have the same priority as any other makefile variable. Variables provided on the command line (and in the environment if the &#x2018;-e&#x2019; option is in force) will take precedence. Specifying the override directive will allow the target-specific variable value to be preferred."/>
 </node>
-<node CREATED="1362539755848" FOLDED="true" ID="ID_492948364" MODIFIED="1371207294008" TEXT="have impact on prerequisites of this target,ant all their prerequisites,etc">
+<node CREATED="1362539755848" FOLDED="true" ID="ID_492948364" MODIFIED="1572591310306" TEXT="have impact on prerequisites of this target,ant all their prerequisites,etc">
 <icon BUILTIN="full-5"/>
 <node CREATED="1362539360802" ID="ID_1140131094" MODIFIED="1362539361858" TEXT="There is one more special feature of target-specific variables: when you define a target-specific variable that variable value is also in effect for all prerequisites of this target, and all their prerequisites, etc. (unless those prerequisites override that variable with their own target-specific variable value)."/>
 </node>
