@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1474445660833" TEXT="lang-go">
+<node CREATED="1387552110526" ID="ID_775448105" MODIFIED="1576033861769" TEXT="lang-go">
 <node CREATED="1387552480402" ID="ID_1840000910" MODIFIED="1419083408941" POSITION="right" TEXT="intros">
 <node CREATED="1387552115759" ID="ID_1500553857" MODIFIED="1387552486157" TEXT="fast {development, execution, compilation}"/>
 <node CREATED="1387552295765" ID="ID_1950810780" MODIFIED="1387612195650" TEXT="compiled, statically-typed, strongly-typed"/>
